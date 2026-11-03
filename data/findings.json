@@ -1,0 +1,82 @@
+[
+  {
+    "id": "fd_rubaya_control",
+    "order": 1,
+    "kicker": "Control",
+    "headline": "M23 has held the Rubaya coltan mines since 30 April 2024",
+    "detail": "UN investigators say the armed group occupies Rubaya town and the whole surrounding coltan mining area, and controls the routes from there into Rwanda.",
+    "link": "#site=site_rubaya",
+    "link_label": "See Rubaya on the map",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 paras 56–57",
+    "notes": ""
+  },
+  {
+    "id": "fd_revenue",
+    "order": 2,
+    "kicker": "Money",
+    "headline": "At least US$800,000 a month for M23 from one mining area",
+    "detail": "The UN Group of Experts estimates M23 collected this from taxing coltan production and trade at Rubaya in 2024, with around 150 tonnes a month smuggled across the border into Rwanda.",
+    "link": "#site=site_rubaya",
+    "link_label": "See the impacts",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 paras 64–66; annex 29",
+    "notes": ""
+  },
+  {
+    "id": "fd_export_gap",
+    "order": 2.5,
+    "kicker": "Export gap",
+    "headline": "Rwanda exported about 1,000 t more coltan in 2024 than its geology predicts",
+    "detail": "Until 2022 Rwanda's coltan exports tracked its tin-ore exports as the region's geology would predict. From 2023, with Rubaya in armed-group hands, they pulled away: an excess of about 760 t in 2023 and 1,040 t in 2024, in line with UN estimates of Rubaya output under M23.",
+    "link": "#view=laundering",
+    "link_label": "See the export gap",
+    "evidence_tier": "inferred",
+    "method": "Expected coltan = Rwanda's cassiterite exports × 25/75 (regional geology, cited by the UN Group of Experts); excess = reported coltan exports − expected. Comtrade data.",
+    "source_ids": [
+      "src_comtrade_preview",
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2024_969"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "fd_sanction_gap",
+    "order": 3,
+    "kicker": "Response",
+    "headline": "Sanctions have hit the refinery, the army and a bank — not the coltan exporters",
+    "detail": "Since 2025 the US and EU have sanctioned Rwanda's gold refinery, its army, its defence ministry and a military savings bank. None of the seven Rwandan coltan exporters that Global Witness links to Rubaya has been designated.",
+    "link": "#view=responses",
+    "link_label": "See the response timeline",
+    "evidence_tier": "inferred",
+    "method": "Comparison of the OFAC and EU designation lists (2025–Oct 2026) against the exporters named by Global Witness (Jun 2026).",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_treasury_sb0668",
+      "src_treasury_sb0411",
+      "src_eurlex_2025_509",
+      "src_gw_who_buys_coltan"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "fd_gold_after_eu",
+    "order": 4,
+    "kicker": "Did it work?",
+    "headline": "Conflict gold still reached Kigali's refinery a year after EU sanctions",
+    "detail": "The US Treasury says at least 60 kg of gold from M23- and army-held areas of South Kivu moved through Rusizi to Gasabo Gold Refinery in early 2026, about a year after the EU listed the refinery.",
+    "link": "#view=responses",
+    "link_label": "See the verdicts",
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543"
+    ],
+    "notes": ""
+  }
+]

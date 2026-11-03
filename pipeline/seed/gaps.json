@@ -40,16 +40,6 @@
     "notes": ""
   },
   {
-    "id": "gap_cassiterite",
-    "layer": "impacts",
-    "title": "The cassiterite laundering-gap figure is not yet checked in the UN report",
-    "detail": "The +58% figure is quoted by ITSCI from UN report S/2026/466, which we could not fetch. No paragraph number yet.",
-    "source_ids": [
-      "src_project_notes"
-    ],
-    "notes": ""
-  },
-  {
     "id": "gap_uae_gold",
     "layer": "supply_chain",
     "title": "The UAE's share of Rwandan gold is unconfirmed",
@@ -128,6 +118,28 @@
     "title": "Outcome of the EU–Rwanda minerals MoU review unknown",
     "detail": "No primary Commission document on how the review ended was found.",
     "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_attribution",
+    "layer": "supply_chain",
+    "title": "No one has measured how much of the export gap is armed-group material",
+    "detail": "UN investigators and Global Witness tie the rise in Rwanda's exports to M23 areas in timing and scale, but no source splits the gap between M23, other armed groups, non-armed Congolese sources, neighbouring countries or stockpiles. Our coltan gap figure is an inferred estimate.",
+    "source_ids": [
+      "src_project_notes",
+      "src_un_goe_s2026_466"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_sayari_coverage",
+    "layer": "sayari",
+    "title": "Trade records cover only part of Rwanda's exports",
+    "detail": "Sayari has no Rwandan customs data; most rows are Tanzanian transit records. There are no rows for 2021–22 and almost none for Jan–Aug 2024, so the trade records can't test what happened when M23 took Rubaya. Gold leaves by air and is not covered.",
+    "source_ids": [
+      "src_sayari",
       "src_project_notes"
     ],
     "notes": ""

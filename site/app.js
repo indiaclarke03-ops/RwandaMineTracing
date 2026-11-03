@@ -2,7 +2,7 @@
 "use strict";
 
 const TABLES = ["manifest", "sources", "sites", "actors", "control_claims", "relationships",
-  "flows", "impacts", "responses", "effectiveness", "responses_to_claims", "gaps"];
+  "flows", "impacts", "responses", "effectiveness", "responses_to_claims", "gaps", "findings", "gap_evidence"];
 
 const TIER = {
   designated: { icon: "◆", label: "Designated", verb: "designated by", dash: null, weight: 3.5 },
@@ -79,7 +79,7 @@ function denialsFor(claimId) {
 }
 
 // ---------- control map ----------
-let map, siteLayers = {}, months = [];
+let map, siteLayers = {}, months = [], mapBounds = [];
 
 function activeClaims(siteId, when) {
   const t = dkey(when);
@@ -114,7 +114,7 @@ function buildMap() {
       .addTo(map);
   }
 
-  const bounds = [];
+  mapBounds = [];
   for (const s of DB.sites) {
     if (s.lat == null) continue;
     const mineral = (s.minerals || [])[0];
@@ -129,9 +129,8 @@ function buildMap() {
     ring.on("click", () => showSite(s.id));
     ring.addTo(map); dot.addTo(map);
     siteLayers[s.id] = { ring, dot };
-    if (s.site_type !== "port") bounds.push([s.lat, s.lon]);  // ports sit far east; keep the Kivus in view
+    if (s.site_type !== "port") mapBounds.push([s.lat, s.lon]);  // ports sit far east; keep the Kivus in view
   }
-  if (bounds.length > 1) map.fitBounds(bounds, { padding: [40, 40], maxZoom: 10 });
 }
 
 function nodeName(id) {
@@ -303,13 +302,51 @@ function buildSources() {
       <span class="muted small">(${esc(s.type.replace("_", " "))}; accessed ${esc(s.accessed_date)})</span></li>`).join("");
 }
 
-// ---------- tabs ----------
+// ---------- overview ----------
+function buildHome() {
+  document.getElementById("findings").innerHTML = [...DB.findings].sort((a, b) => a.order - b.order).map((f) => `
+    <article class="finding">
+      <div class="kicker">${esc(f.kicker)}</div>
+      <h3>${esc(f.headline)}</h3>
+      <p>${esc(f.detail)}</p>
+      <div class="claim-meta">${badge(f.evidence_tier)}</div>
+      ${f.method ? `<div class="small muted">How: ${esc(f.method)}</div>` : ""}
+      <div class="cite">${cites(f.source_ids, f.paragraph_or_page)}</div>
+      ${f.link ? `<a class="more" href="${esc(f.link)}">${esc(f.link_label || "More")} →</a>` : ""}
+    </article>`).join("");
+  const c = DB.manifest.counts || {};
+  document.getElementById("stats").textContent =
+    `Built from ${c.sources} sources, ${c.actors} actors, ${c.control_claims} control claims and ${c.responses} responses. Data last built ${fmtDate(DB.manifest.built)}.`;
+}
+
+// ---------- views & routing ----------
+let mapFitted = false;
+function showView(name) {
+  const btn = document.querySelector(`.tabs [data-view="${CSS.escape(name)}"]`);
+  if (!btn) return;
+  document.querySelectorAll(".tabs button").forEach((x) => x.setAttribute("aria-selected", x === btn));
+  document.querySelectorAll(".view").forEach((v) => (v.hidden = v.id !== "view-" + name));
+  document.querySelector(".legend").hidden = name === "home" || name === "sources";  // overview explains tiers in full
+  if (name === "map") {
+    map.invalidateSize();
+    if (!mapFitted && mapBounds.length > 1) { map.fitBounds(mapBounds, { padding: [40, 40], maxZoom: 10 }); mapFitted = true; }
+  }
+  if (name === "laundering" && window.drawGap) window.drawGap();
+}
+
+function route() {
+  const h = new URLSearchParams(location.hash.slice(1));
+  if (h.get("site") && byId.sites[h.get("site")]) { showView("map"); showSite(h.get("site")); return; }
+  showView(h.get("view") || "home");
+  window.scrollTo(0, 0);
+}
+
 function tabs() {
   document.querySelectorAll(".tabs button").forEach((b) => b.addEventListener("click", () => {
-    document.querySelectorAll(".tabs button").forEach((x) => x.setAttribute("aria-selected", x === b));
-    document.querySelectorAll(".view").forEach((v) => (v.hidden = v.id !== "view-" + b.dataset.view));
-    if (b.dataset.view === "map") map.invalidateSize();
+    history.replaceState(null, "", b.dataset.view === "home" ? location.pathname : "#view=" + b.dataset.view);
+    showView(b.dataset.view);
   }));
+  window.addEventListener("hashchange", route);
 }
 
 (async function main() {
@@ -322,14 +359,12 @@ function tabs() {
   index();
   document.getElementById("built").textContent = `· data built ${fmtDate(DB.manifest.built)}`;
   tabs();
+  buildHome();
   buildMap();
   buildSlider();
   buildTimeline();
   buildGaps();
   buildSources();
-
-  // Deep links: #view=responses, #site=site_rubaya
-  const h = new URLSearchParams(location.hash.slice(1));
-  if (h.get("view")) document.querySelector(`.tabs [data-view="${CSS.escape(h.get("view"))}"]`)?.click();
-  if (h.get("site") && byId.sites[h.get("site")]) showSite(h.get("site"));
+  if (window.buildGap) window.buildGap(DB, { badge, cites, esc, fmtDate });
+  route();
 })();

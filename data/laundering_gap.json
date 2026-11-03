@@ -1,0 +1,305 @@
+{
+  "mineral": "coltan",
+  "evidence_tier": "inferred",
+  "method": "Expected coltan exports = cassiterite exports × 25/75, from the ~25% coltan share of the region's mixed coltan–cassiterite deposits (BGR, cited by the UN Group of Experts). Excess = reported coltan exports − expected. Where USGS published its own estimate (2023 onward), excess is also shown against that.",
+  "baseline_share_pct_2018_2022": [
+    25.6,
+    29.3
+  ],
+  "geology_share_pct": 25.0,
+  "rows": [
+    {
+      "year": 2018,
+      "coltan_exports_t": 1643.5,
+      "cassiterite_exports_t": 4779.9,
+      "coltan_share_pct": 25.6,
+      "expected_coltan_t": 1593,
+      "excess_vs_geology_t": 50,
+      "coltan_exports_mirror_t": 1433.8,
+      "usgs_production_estimate_t": null,
+      "excess_vs_usgs_t": null,
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_un_goe_s2025_446"
+      ]
+    },
+    {
+      "year": 2019,
+      "coltan_exports_t": 1353.8,
+      "cassiterite_exports_t": 3776.2,
+      "coltan_share_pct": 26.4,
+      "expected_coltan_t": 1259,
+      "excess_vs_geology_t": 95,
+      "coltan_exports_mirror_t": 1335.6,
+      "usgs_production_estimate_t": null,
+      "excess_vs_usgs_t": null,
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_un_goe_s2025_446"
+      ]
+    },
+    {
+      "year": 2020,
+      "coltan_exports_t": 963.3,
+      "cassiterite_exports_t": 2324.6,
+      "coltan_share_pct": 29.3,
+      "expected_coltan_t": 775,
+      "excess_vs_geology_t": 188,
+      "coltan_exports_mirror_t": 1427.3,
+      "usgs_production_estimate_t": null,
+      "excess_vs_usgs_t": null,
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_un_goe_s2025_446"
+      ]
+    },
+    {
+      "year": 2021,
+      "coltan_exports_t": 1046.2,
+      "cassiterite_exports_t": 2879.4,
+      "coltan_share_pct": 26.7,
+      "expected_coltan_t": 960,
+      "excess_vs_geology_t": 86,
+      "coltan_exports_mirror_t": 3188.6,
+      "usgs_production_estimate_t": null,
+      "excess_vs_usgs_t": null,
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_un_goe_s2025_446"
+      ]
+    },
+    {
+      "year": 2022,
+      "coltan_exports_t": 1304.7,
+      "cassiterite_exports_t": 3752.2,
+      "coltan_share_pct": 25.8,
+      "expected_coltan_t": 1251,
+      "excess_vs_geology_t": 54,
+      "coltan_exports_mirror_t": 1544.7,
+      "usgs_production_estimate_t": null,
+      "excess_vs_usgs_t": null,
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_un_goe_s2025_446"
+      ]
+    },
+    {
+      "year": 2023,
+      "coltan_exports_t": 2070.4,
+      "cassiterite_exports_t": 3921.8,
+      "coltan_share_pct": 34.6,
+      "expected_coltan_t": 1307,
+      "excess_vs_geology_t": 763,
+      "coltan_exports_mirror_t": 2030.3,
+      "usgs_production_estimate_t": 1300,
+      "excess_vs_usgs_t": 770,
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_un_goe_s2025_446",
+        "src_usgs_myb_rwanda_2024"
+      ]
+    },
+    {
+      "year": 2024,
+      "coltan_exports_t": 2383.9,
+      "cassiterite_exports_t": 4018.4,
+      "coltan_share_pct": 37.2,
+      "expected_coltan_t": 1339,
+      "excess_vs_geology_t": 1044,
+      "coltan_exports_mirror_t": 2908.8,
+      "usgs_production_estimate_t": 1300,
+      "excess_vs_usgs_t": 1084,
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_un_goe_s2025_446",
+        "src_usgs_myb_rwanda_2024"
+      ]
+    },
+    {
+      "year": 2025,
+      "coltan_exports_t": 2743.0,
+      "cassiterite_exports_t": 6349.0,
+      "coltan_share_pct": 30.2,
+      "expected_coltan_t": 2116,
+      "excess_vs_geology_t": 627,
+      "coltan_exports_mirror_t": 4763.0,
+      "usgs_production_estimate_t": null,
+      "excess_vs_usgs_t": null,
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_un_goe_s2025_446"
+      ]
+    }
+  ],
+  "rubaya_2024": {
+    "low": 960,
+    "high": 1200,
+    "months": 8,
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "note": "UN monthly estimates (120–150 t) × 8 months of M23 control in 2024 (May–Dec). The UN observed mid-May to late Oct only; extending to December assumes the rate held."
+  },
+  "quarterly": [
+    {
+      "quarter": "2023Q1",
+      "shipments": 4,
+      "weight_t": 60.4,
+      "gw7_shipments": 3,
+      "gw7_weight_t": 40.6,
+      "uae_buyer_shipments": 1,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2023Q2",
+      "shipments": 2,
+      "weight_t": 37.3,
+      "gw7_shipments": 0,
+      "gw7_weight_t": 0.0,
+      "uae_buyer_shipments": 0,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2023Q3",
+      "shipments": 16,
+      "weight_t": 276.0,
+      "gw7_shipments": 10,
+      "gw7_weight_t": 134.0,
+      "uae_buyer_shipments": 5,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2023Q4",
+      "shipments": 22,
+      "weight_t": 336.4,
+      "gw7_shipments": 16,
+      "gw7_weight_t": 201.7,
+      "uae_buyer_shipments": 13,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2024Q2",
+      "shipments": 1,
+      "weight_t": 0.5,
+      "gw7_shipments": 0,
+      "gw7_weight_t": 0.0,
+      "uae_buyer_shipments": 0,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2024Q3",
+      "shipments": 21,
+      "weight_t": 375.1,
+      "gw7_shipments": 12,
+      "gw7_weight_t": 189.4,
+      "uae_buyer_shipments": 11,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2024Q4",
+      "shipments": 64,
+      "weight_t": 1034.0,
+      "gw7_shipments": 36,
+      "gw7_weight_t": 524.9,
+      "uae_buyer_shipments": 30,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2025Q1",
+      "shipments": 46,
+      "weight_t": 704.4,
+      "gw7_shipments": 22,
+      "gw7_weight_t": 329.1,
+      "uae_buyer_shipments": 20,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2025Q2",
+      "shipments": 57,
+      "weight_t": 787.7,
+      "gw7_shipments": 15,
+      "gw7_weight_t": 177.7,
+      "uae_buyer_shipments": 30,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2025Q3",
+      "shipments": 47,
+      "weight_t": 646.3,
+      "gw7_shipments": 7,
+      "gw7_weight_t": 92.3,
+      "uae_buyer_shipments": 35,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2025Q4",
+      "shipments": 54,
+      "weight_t": 767.6,
+      "gw7_shipments": 20,
+      "gw7_weight_t": 258.1,
+      "uae_buyer_shipments": 40,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2026Q1",
+      "shipments": 45,
+      "weight_t": 663.3,
+      "gw7_shipments": 15,
+      "gw7_weight_t": 192.5,
+      "uae_buyer_shipments": 38,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2026Q2",
+      "shipments": 50,
+      "weight_t": 684.5,
+      "gw7_shipments": 20,
+      "gw7_weight_t": 261.3,
+      "uae_buyer_shipments": 27,
+      "source_ids": [
+        "src_sayari"
+      ]
+    },
+    {
+      "quarter": "2026Q3",
+      "shipments": 26,
+      "weight_t": 475.5,
+      "gw7_shipments": 9,
+      "gw7_weight_t": 108.3,
+      "uae_buyer_shipments": 12,
+      "source_ids": [
+        "src_sayari"
+      ]
+    }
+  ],
+  "caveats": [
+    "Rwanda's cassiterite exports also rose sharply in 2025 (+58%, flagged by the UN), so the geological baseline is itself inflated that year and the 2025 excess is understated.",
+    "USGS production figures for 2018–2022 are Rwanda's reported exports, not independent estimates.",
+    "Export tonnages are gross concentrate weight; grades vary.",
+    "A gap shows that exports need explaining. It does not show where the extra material came from."
+  ]
+}

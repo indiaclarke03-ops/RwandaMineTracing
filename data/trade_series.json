@@ -1,0 +1,1667 @@
+[
+  {
+    "id": "ts_coltan_exports_reported_gross_weight_2018_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2018,
+    "metric": "exports_reported",
+    "value": 1643.5,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261590, Rwanda as reporter, partner World (code 0), H5. Top partners by value: Switzerland 327.0 t, Hong Kong 334.9 t, Singapore 265.6 t, UAE 194.4 t."
+  },
+  {
+    "id": "ts_coltan_exports_mirror_gross_weight_2018_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2018,
+    "metric": "exports_mirror",
+    "value": 1433.8,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261590, 7 reporters: China 600.8 t, USA 561.9 t, Kazakhstan 183.8 t, Estonia 63.5 t. Values are CIF."
+  },
+  {
+    "id": "ts_coltan_exports_reported_gross_weight_2019_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2019,
+    "metric": "exports_reported",
+    "value": 1353.8,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261590, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 668.8 t, Singapore 213.2 t, Hong Kong 168.5 t, Belgium 90.0 t."
+  },
+  {
+    "id": "ts_coltan_exports_mirror_gross_weight_2019_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2019,
+    "metric": "exports_mirror",
+    "value": 1335.6,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261590, 8 reporters: China 789.1 t, USA 237.8 t, Thailand 167.7 t, Malaysia 51.3 t. Values are CIF."
+  },
+  {
+    "id": "ts_coltan_exports_reported_gross_weight_2020_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2020,
+    "metric": "exports_reported",
+    "value": 963.3,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261590, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 406.3 t, Hong Kong 200.1 t, China 141.5 t, Singapore 105.5 t."
+  },
+  {
+    "id": "ts_coltan_exports_mirror_gross_weight_2020_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2020,
+    "metric": "exports_mirror",
+    "value": 1427.3,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261590, 7 reporters: China 865.8 t, Thailand 171.1 t, Malaysia 312.2 t, UAE 52.1 t. Values are CIF."
+  },
+  {
+    "id": "ts_coltan_exports_reported_gross_weight_2021_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2021,
+    "metric": "exports_reported",
+    "value": 1046.2,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261590, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 515.2 t, Hong Kong 299.5 t, China 87.2 t, Germany 71.8 t."
+  },
+  {
+    "id": "ts_coltan_exports_mirror_gross_weight_2021_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2021,
+    "metric": "exports_mirror",
+    "value": 3188.6,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261590, 5 reporters: Thailand 616.6 t, China 343.2 t, Malaysia 2082.6 t, Japan 109.0 t. Values are CIF. Malaysia reports 2,083 t at ~$5/kg, far below the coltan price (~$40/kg); likely a classification or quantity error. Excluding Malaysia gives ~1,106 t."
+  },
+  {
+    "id": "ts_coltan_exports_reported_gross_weight_2022_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2022,
+    "metric": "exports_reported",
+    "value": 1304.7,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261590, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 501.3 t, China 305.5 t, Hong Kong 270.2 t, Singapore 119.5 t."
+  },
+  {
+    "id": "ts_coltan_exports_mirror_gross_weight_2022_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2022,
+    "metric": "exports_mirror",
+    "value": 1544.7,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261590, 6 reporters: China 811.1 t, Thailand 549.7 t, USA 92.5 t, Japan 72.0 t. Values are CIF."
+  },
+  {
+    "id": "ts_coltan_exports_reported_gross_weight_2023_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2023,
+    "metric": "exports_reported",
+    "value": 2070.4,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261590, Rwanda as reporter, partner World (code 0), H6. Top partners by value: China 975.6 t, UAE 471.2 t, Hong Kong 288.3 t, Luxembourg 206.0 t."
+  },
+  {
+    "id": "ts_coltan_exports_mirror_gross_weight_2023_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2023,
+    "metric": "exports_mirror",
+    "value": 2030.3,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261590, 7 reporters: China 1571.3 t, Thailand 208.5 t, Kazakhstan 114.9 t, USA 33.7 t. Values are CIF."
+  },
+  {
+    "id": "ts_coltan_exports_reported_gross_weight_2024_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2024,
+    "metric": "exports_reported",
+    "value": 2383.9,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261590, Rwanda as reporter, partner World (code 0), H6. Top partners by value: China 1197.2 t, UAE 429.0 t, Hong Kong 372.4 t, Luxembourg 301.6 t."
+  },
+  {
+    "id": "ts_coltan_exports_mirror_gross_weight_2024_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2024,
+    "metric": "exports_mirror",
+    "value": 2908.8,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261590, 5 reporters: China 2286.5 t, Malaysia 601.8 t, Japan 10.0 t, Thailand 10.0 t. Values are CIF."
+  },
+  {
+    "id": "ts_coltan_exports_reported_gross_weight_2025_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2025,
+    "metric": "exports_reported",
+    "value": 2743.0,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261590, Rwanda as reporter, partner World (code 0), H6. Top partners by value: China 1884.8 t, UAE 396.8 t, Hong Kong 277.3 t, Luxembourg 138.5 t. 2025 is the latest Comtrade year; may be revised."
+  },
+  {
+    "id": "ts_coltan_exports_mirror_gross_weight_2025_comtrade_preview",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2025,
+    "metric": "exports_mirror",
+    "value": 4763.0,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261590, 2 reporters: China 2864.8 t, Malaysia 1898.2 t. Values are CIF. Only China and Malaysia had reported 2025 at run date; partial. Malaysia 1,898 t at ~$4/kg is anomalous for coltan."
+  },
+  {
+    "id": "ts_tin_exports_reported_gross_weight_2018_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2018,
+    "metric": "exports_reported",
+    "value": 4779.9,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 260900, Rwanda as reporter, partner World (code 0), H5. Top partners by value: Switzerland 1573.3 t, Singapore 1447.6 t, UAE 642.8 t, Malaysia 440.4 t."
+  },
+  {
+    "id": "ts_tin_exports_mirror_gross_weight_2018_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2018,
+    "metric": "exports_mirror",
+    "value": 1664.8,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 260900, 2 reporters: Malaysia 1664.2 t, China 0.6 t. Values are CIF."
+  },
+  {
+    "id": "ts_tin_exports_reported_gross_weight_2019_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2019,
+    "metric": "exports_reported",
+    "value": 3776.2,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 260900, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 1633.7 t, Singapore 1138.1 t, Switzerland 358.2 t, Malaysia 333.4 t."
+  },
+  {
+    "id": "ts_tin_exports_mirror_gross_weight_2019_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2019,
+    "metric": "exports_mirror",
+    "value": 3643.3,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 260900, 2 reporters: Thailand 3151.6 t, Malaysia 491.7 t. Values are CIF."
+  },
+  {
+    "id": "ts_tin_exports_reported_gross_weight_2020_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2020,
+    "metric": "exports_reported",
+    "value": 2324.6,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 260900, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 1271.8 t, Singapore 591.2 t, Hong Kong 180.3 t, Malaysia 149.9 t."
+  },
+  {
+    "id": "ts_tin_exports_mirror_gross_weight_2020_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2020,
+    "metric": "exports_mirror",
+    "value": 2029.0,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 260900, 4 reporters: Thailand 1980.2 t, Malaysia 48.8 t, Slovenia 0.0 t, South Africa 0.0 t. Values are CIF."
+  },
+  {
+    "id": "ts_tin_exports_reported_gross_weight_2021_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2021,
+    "metric": "exports_reported",
+    "value": 2879.4,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 260900, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 1637.0 t, Singapore 513.5 t, Malaysia 293.3 t, Luxembourg 218.1 t."
+  },
+  {
+    "id": "ts_tin_exports_mirror_gross_weight_2021_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2021,
+    "metric": "exports_mirror",
+    "value": 3206.2,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 260900, 3 reporters: Thailand 3037.6 t, Malaysia 144.2 t, Myanmar 24.4 t. Values are CIF."
+  },
+  {
+    "id": "ts_tin_exports_reported_gross_weight_2022_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2022,
+    "metric": "exports_reported",
+    "value": 3752.2,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 260900, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 1282.2 t, Singapore 1027.0 t, Hong Kong 486.3 t, Luxembourg 368.2 t."
+  },
+  {
+    "id": "ts_tin_exports_mirror_gross_weight_2022_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2022,
+    "metric": "exports_mirror",
+    "value": 3476.1,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 260900, 4 reporters: Thailand 2627.0 t, Malaysia 778.1 t, China 48.3 t, Myanmar 22.7 t. Values are CIF."
+  },
+  {
+    "id": "ts_tin_exports_reported_gross_weight_2023_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2023,
+    "metric": "exports_reported",
+    "value": 3921.8,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 260900, Rwanda as reporter, partner World (code 0), H6. Top partners by value: UAE 1100.6 t, Hong Kong 864.3 t, China 747.9 t, Singapore 471.5 t."
+  },
+  {
+    "id": "ts_tin_exports_mirror_gross_weight_2023_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2023,
+    "metric": "exports_mirror",
+    "value": 3017.1,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 260900, 3 reporters: Malaysia 1284.0 t, Thailand 1230.9 t, China 502.2 t. Values are CIF."
+  },
+  {
+    "id": "ts_tin_exports_reported_gross_weight_2024_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2024,
+    "metric": "exports_reported",
+    "value": 4018.4,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 260900, Rwanda as reporter, partner World (code 0), H6. Top partners by value: Luxembourg 1156.9 t, Thailand 751.6 t, Singapore 612.3 t, China 554.5 t."
+  },
+  {
+    "id": "ts_tin_exports_mirror_gross_weight_2024_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2024,
+    "metric": "exports_mirror",
+    "value": 4222.7,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 260900, 4 reporters: Thailand 2653.9 t, Malaysia 951.7 t, China 597.0 t, Brazil 20.0 t. Values are CIF."
+  },
+  {
+    "id": "ts_tin_exports_reported_gross_weight_2025_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2025,
+    "metric": "exports_reported",
+    "value": 6349.0,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 260900, Rwanda as reporter, partner World (code 0), H6. Top partners by value: China 1706.0 t, Luxembourg 845.8 t, Thailand 748.2 t, UAE 502.5 t. 2025 is the latest Comtrade year; may be revised."
+  },
+  {
+    "id": "ts_tin_exports_mirror_gross_weight_2025_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2025,
+    "metric": "exports_mirror",
+    "value": 4270.8,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 260900, 5 reporters: Thailand 1826.5 t, China 1563.7 t, Malaysia 880.7 t, South Africa 0.0 t. Values are CIF."
+  },
+  {
+    "id": "ts_tungsten_exports_mirror_gross_weight_2018_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2018,
+    "metric": "exports_mirror",
+    "value": 610.5,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261100, 2 reporters: China 584.0 t, USA 26.6 t. Values are CIF."
+  },
+  {
+    "id": "ts_tungsten_exports_reported_gross_weight_2019_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2019,
+    "metric": "exports_reported",
+    "value": 1883.9,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261100, Rwanda as reporter, partner World (code 0), H4. Top partners by value: Singapore 798.4 t, UAE 682.4 t, Belgium 304.5 t, Austria 61.3 t."
+  },
+  {
+    "id": "ts_tungsten_exports_mirror_gross_weight_2019_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2019,
+    "metric": "exports_mirror",
+    "value": 143.4,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261100, 3 reporters: China 90.1 t, USA 53.3 t, Korea 0.0 t. Values are CIF."
+  },
+  {
+    "id": "ts_tungsten_exports_reported_gross_weight_2020_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2020,
+    "metric": "exports_reported",
+    "value": 1932.9,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261100, Rwanda as reporter, partner World (code 0), H4. Top partners by value: Hong Kong 483.8 t, UAE 573.9 t, Singapore 369.4 t, Belgium 416.3 t."
+  },
+  {
+    "id": "ts_tungsten_exports_mirror_gross_weight_2020_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2020,
+    "metric": "exports_mirror",
+    "value": 429.5,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261100, 3 reporters: China 269.0 t, USA 85.3 t, Singapore 75.2 t. Values are CIF."
+  },
+  {
+    "id": "ts_tungsten_exports_reported_gross_weight_2021_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2021,
+    "metric": "exports_reported",
+    "value": 2825.2,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261100, Rwanda as reporter, partner World (code 0), H4. Top partners by value: Singapore 717.7 t, UAE 731.5 t, Hong Kong 808.5 t, Luxembourg 300.7 t."
+  },
+  {
+    "id": "ts_tungsten_exports_mirror_gross_weight_2021_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2021,
+    "metric": "exports_mirror",
+    "value": 564.5,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261100, 3 reporters: China 535.1 t, USA 29.3 t, Russia 0.1 t. Values are CIF."
+  },
+  {
+    "id": "ts_tungsten_exports_reported_gross_weight_2022_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2022,
+    "metric": "exports_reported",
+    "value": 2943.4,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261100, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 960.8 t, Hong Kong 1099.0 t, Singapore 506.9 t, China 194.7 t."
+  },
+  {
+    "id": "ts_tungsten_exports_mirror_gross_weight_2022_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2022,
+    "metric": "exports_mirror",
+    "value": 408.2,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261100, 3 reporters: China 386.2 t, Malaysia 21.9 t, Korea 0.0 t. Values are CIF."
+  },
+  {
+    "id": "ts_tungsten_exports_reported_gross_weight_2023_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2023,
+    "metric": "exports_reported",
+    "value": 2502.4,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261100, Rwanda as reporter, partner World (code 0), H6. Top partners by value: Hong Kong 1157.8 t, UAE 864.4 t, Luxembourg 339.9 t, China 61.8 t."
+  },
+  {
+    "id": "ts_tungsten_exports_mirror_gross_weight_2023_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2023,
+    "metric": "exports_mirror",
+    "value": 578.3,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261100, 3 reporters: China 211.8 t, Malaysia 346.5 t, Korea 20.0 t. Values are CIF."
+  },
+  {
+    "id": "ts_tungsten_exports_reported_gross_weight_2024_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2024,
+    "metric": "exports_reported",
+    "value": 2741.3,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261100, Rwanda as reporter, partner World (code 0), H6. Top partners by value: Luxembourg 1471.3 t, UAE 592.0 t, Hong Kong 480.4 t, China 197.6 t."
+  },
+  {
+    "id": "ts_tungsten_exports_mirror_gross_weight_2024_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2024,
+    "metric": "exports_mirror",
+    "value": 1294.8,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261100, 3 reporters: China 1123.1 t, Malaysia 151.3 t, Korea 20.3 t. Values are CIF."
+  },
+  {
+    "id": "ts_tungsten_exports_reported_gross_weight_2025_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2025,
+    "metric": "exports_reported",
+    "value": 3009.4,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 261100, Rwanda as reporter, partner World (code 0), H6. Top partners by value: Luxembourg 1183.1 t, China 546.5 t, UAE 604.7 t, Hong Kong 440.1 t. 2025 is the latest Comtrade year; may be revised."
+  },
+  {
+    "id": "ts_tungsten_exports_mirror_gross_weight_2025_comtrade_preview",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2025,
+    "metric": "exports_mirror",
+    "value": 691.9,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 261100, 3 reporters: China 414.9 t, USA 112.2 t, Malaysia 164.8 t. Values are CIF."
+  },
+  {
+    "id": "ts_gold_exports_reported_gross_weight_2018_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2018,
+    "metric": "exports_reported",
+    "value": 2168.76,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 7108, Rwanda as reporter, partner World (code 0), H5. Top partners by value: Hong Kong 0.9 t, Thailand 0.5 t, China 0.2 t, Tanzania 0.2 t."
+  },
+  {
+    "id": "ts_gold_exports_mirror_gross_weight_2018_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2018,
+    "metric": "exports_mirror",
+    "value": 18134,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 7108, 1 reporters: UAE 18.1 t. Values are CIF. Only UAE (and occasionally Turkey/India) report; UAE is the dominant buyer."
+  },
+  {
+    "id": "ts_gold_exports_mirror_gross_weight_2019_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2019,
+    "metric": "exports_mirror",
+    "value": 11396,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 7108, 1 reporters: UAE 11.4 t. Values are CIF. Only UAE (and occasionally Turkey/India) report; UAE is the dominant buyer."
+  },
+  {
+    "id": "ts_gold_exports_reported_gross_weight_2020_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2020,
+    "metric": "exports_reported",
+    "value": 11784.38,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 7108, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 10.7 t, Turkey 1.1 t."
+  },
+  {
+    "id": "ts_gold_exports_mirror_gross_weight_2020_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2020,
+    "metric": "exports_mirror",
+    "value": 11836,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 7108, 2 reporters: UAE 10.8 t, Turkey 1.0 t. Values are CIF. Only UAE (and occasionally Turkey/India) report; UAE is the dominant buyer."
+  },
+  {
+    "id": "ts_gold_exports_reported_gross_weight_2021_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2021,
+    "metric": "exports_reported",
+    "value": 6341.0,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 7108, Rwanda as reporter, partner World (code 0), H4. Top partners by value: UAE 6.3 t."
+  },
+  {
+    "id": "ts_gold_exports_mirror_gross_weight_2021_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2021,
+    "metric": "exports_mirror",
+    "value": 6487,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 7108, 2 reporters: UAE 6.5 t, Canada 0.0 t. Values are CIF. Only UAE (and occasionally Turkey/India) report; UAE is the dominant buyer."
+  },
+  {
+    "id": "ts_gold_exports_mirror_gross_weight_2022_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2022,
+    "metric": "exports_mirror",
+    "value": 9146,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 7108, 2 reporters: UAE 8.6 t, India 0.6 t. Values are CIF. Only UAE (and occasionally Turkey/India) report; UAE is the dominant buyer."
+  },
+  {
+    "id": "ts_gold_exports_reported_gross_weight_2023_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2023,
+    "metric": "exports_reported",
+    "value": 13934.0,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 7108, Rwanda as reporter, partner World (code 0), H6. Top partners by value: UAE 13.9 t."
+  },
+  {
+    "id": "ts_gold_exports_mirror_gross_weight_2023_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2023,
+    "metric": "exports_mirror",
+    "value": 13831,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "Sum of partner-reported imports from Rwanda (partnerCode 646, flow M), HS 7108, 1 reporters: UAE 13.8 t. Values are CIF. Only UAE (and occasionally Turkey/India) report; UAE is the dominant buyer."
+  },
+  {
+    "id": "ts_gold_exports_reported_gross_weight_2024_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2024,
+    "metric": "exports_reported",
+    "value": 19218.83,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 7108, Rwanda as reporter, partner World (code 0), H6. Top partners by value: UAE 19.2 t, Hong Kong 0.0 t, India 0.0 t."
+  },
+  {
+    "id": "ts_gold_exports_reported_gross_weight_2025_comtrade_preview",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2025,
+    "metric": "exports_reported",
+    "value": 6359.076,
+    "unit": "kg",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": "HS 7108, Rwanda as reporter, partner World (code 0), H6. Top partners by value: UAE 6.2 t, Egypt 0.1 t. 2025 is the latest Comtrade year; may be revised."
+  },
+  {
+    "id": "ts_coltan_production_usgs_gross_weight_2018_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2018,
+    "metric": "production_usgs",
+    "value": 1644,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "USGS 'Niobium and tantalum, mine, concentrates, columbite-tantalite' gross weight. Footnote: 'Reported exports' - this is Rwanda's export figure, NOT an independent production estimate."
+  },
+  {
+    "id": "ts_coltan_production_usgs_gross_weight_2019_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2019,
+    "metric": "production_usgs",
+    "value": 1354,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "USGS 'Niobium and tantalum, mine, concentrates, columbite-tantalite' gross weight. Footnote: 'Reported exports' - this is Rwanda's export figure, NOT an independent production estimate."
+  },
+  {
+    "id": "ts_coltan_production_usgs_gross_weight_2020_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2020,
+    "metric": "production_usgs",
+    "value": 1028,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Niobium and tantalum, mine, concentrates, columbite-tantalite' gross weight. Footnote: 'Reported exports' - this is Rwanda's export figure, NOT an independent production estimate."
+  },
+  {
+    "id": "ts_coltan_production_usgs_gross_weight_2021_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2021,
+    "metric": "production_usgs",
+    "value": 1046,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Niobium and tantalum, mine, concentrates, columbite-tantalite' gross weight. Footnote: 'Reported exports' - this is Rwanda's export figure, NOT an independent production estimate."
+  },
+  {
+    "id": "ts_coltan_production_usgs_gross_weight_2022_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2022,
+    "metric": "production_usgs",
+    "value": 1305,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Niobium and tantalum, mine, concentrates, columbite-tantalite' gross weight. Footnote: 'Reported exports' - this is Rwanda's export figure, NOT an independent production estimate."
+  },
+  {
+    "id": "ts_coltan_production_usgs_gross_weight_2023_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2023,
+    "metric": "production_usgs",
+    "value": 1300,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Niobium and tantalum, mine, concentrates, columbite-tantalite' gross weight. Footnote: 'Reported exports' - this is Rwanda's export figure, NOT an independent production estimate. 2023-24 are USGS estimates (e) held at 1,300 t, while BNR/Comtrade exports were 2,070 t (2023) and 2,384 t (2024)."
+  },
+  {
+    "id": "ts_coltan_production_usgs_gross_weight_2024_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2024,
+    "metric": "production_usgs",
+    "value": 1300,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Niobium and tantalum, mine, concentrates, columbite-tantalite' gross weight. Footnote: 'Reported exports' - this is Rwanda's export figure, NOT an independent production estimate. 2023-24 are USGS estimates (e) held at 1,300 t, while BNR/Comtrade exports were 2,070 t (2023) and 2,384 t (2024)."
+  },
+  {
+    "id": "ts_coltan_production_usgs_contained_metal_2018_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2018,
+    "metric": "production_usgs",
+    "value": 350,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "Ta content of columbite-tantalite concentrate (USGS est., assumes 26% Ta2O5). A further 72 t Ta is attributed to cassiterite concentrate (1.8% Ta2O5 assumed). Derived from reported exports."
+  },
+  {
+    "id": "ts_coltan_production_usgs_contained_metal_2019_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2019,
+    "metric": "production_usgs",
+    "value": 290,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "Ta content of columbite-tantalite concentrate (USGS est., assumes 26% Ta2O5). A further 61 t Ta is attributed to cassiterite concentrate (1.8% Ta2O5 assumed). Derived from reported exports."
+  },
+  {
+    "id": "ts_coltan_production_usgs_contained_metal_2020_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2020,
+    "metric": "production_usgs",
+    "value": 220,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "Ta content of columbite-tantalite concentrate (USGS est., assumes 26% Ta2O5). A further 56 t Ta is attributed to cassiterite concentrate (1.8% Ta2O5 assumed). Derived from reported exports."
+  },
+  {
+    "id": "ts_coltan_production_usgs_contained_metal_2021_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2021,
+    "metric": "production_usgs",
+    "value": 220,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "Ta content of columbite-tantalite concentrate (USGS est., assumes 26% Ta2O5). A further 55 t Ta is attributed to cassiterite concentrate (1.8% Ta2O5 assumed). Derived from reported exports."
+  },
+  {
+    "id": "ts_coltan_production_usgs_contained_metal_2022_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2022,
+    "metric": "production_usgs",
+    "value": 280,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "Ta content of columbite-tantalite concentrate (USGS est., assumes 26% Ta2O5). A further 78 t Ta is attributed to cassiterite concentrate (1.8% Ta2O5 assumed). Derived from reported exports."
+  },
+  {
+    "id": "ts_coltan_production_usgs_contained_metal_2023_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2023,
+    "metric": "production_usgs",
+    "value": 280,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "Ta content of columbite-tantalite concentrate (USGS est., assumes 26% Ta2O5). A further 69 t Ta is attributed to cassiterite concentrate (1.8% Ta2O5 assumed). Derived from reported exports."
+  },
+  {
+    "id": "ts_coltan_production_usgs_contained_metal_2024_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2024,
+    "metric": "production_usgs",
+    "value": 300,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "Ta content of columbite-tantalite concentrate (USGS est., assumes 26% Ta2O5). A further 74 t Ta is attributed to cassiterite concentrate (1.8% Ta2O5 assumed). Derived from reported exports."
+  },
+  {
+    "id": "ts_coltan_production_usgs_contained_metal_2024_usgs_mcs2026_tantalum",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2024,
+    "metric": "production_usgs",
+    "value": 374,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_mcs2026_tantalum"
+    ],
+    "notes": "MCS 2026 world table, Rwanda tantalum mine production 2024 (all sources, Ta content). ~= 300 (coltan) + 74 (cassiterite) from the yearbook."
+  },
+  {
+    "id": "ts_coltan_production_usgs_contained_metal_2025_usgs_mcs2026_tantalum",
+    "country": "RWA",
+    "mineral": "coltan",
+    "year": 2025,
+    "metric": "production_usgs",
+    "value": 400,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_mcs2026_tantalum"
+    ],
+    "notes": "MCS 2026, 2025 estimate, Ta content."
+  },
+  {
+    "id": "ts_tin_production_usgs_gross_weight_2018_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2018,
+    "metric": "production_usgs",
+    "value": 4780,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "USGS 'Tin, mine, concentrates, cassiterite' gross weight. 2018 flagged 'reported exports' in the 2019 yearbook."
+  },
+  {
+    "id": "ts_tin_production_usgs_gross_weight_2019_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2019,
+    "metric": "production_usgs",
+    "value": 4077,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "USGS 'Tin, mine, concentrates, cassiterite' gross weight. 2018 flagged 'reported exports' in the 2019 yearbook."
+  },
+  {
+    "id": "ts_tin_production_usgs_gross_weight_2020_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2020,
+    "metric": "production_usgs",
+    "value": 3764,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Tin, mine, concentrates, cassiterite' gross weight."
+  },
+  {
+    "id": "ts_tin_production_usgs_gross_weight_2021_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2021,
+    "metric": "production_usgs",
+    "value": 3679,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Tin, mine, concentrates, cassiterite' gross weight."
+  },
+  {
+    "id": "ts_tin_production_usgs_gross_weight_2022_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2022,
+    "metric": "production_usgs",
+    "value": 5445,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Tin, mine, concentrates, cassiterite' gross weight. 2022 yearbook tables gave 5,189 t; revised to 5,445 t in the 2024 chapter."
+  },
+  {
+    "id": "ts_tin_production_usgs_gross_weight_2023_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2023,
+    "metric": "production_usgs",
+    "value": 5844,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Tin, mine, concentrates, cassiterite' gross weight."
+  },
+  {
+    "id": "ts_tin_production_usgs_gross_weight_2024_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2024,
+    "metric": "production_usgs",
+    "value": 6485,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Tin, mine, concentrates, cassiterite' gross weight. Text: 'cassiterite production was 6,485 t, of which 4,861 t was exported'."
+  },
+  {
+    "id": "ts_tin_production_usgs_contained_metal_2018_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2018,
+    "metric": "production_usgs",
+    "value": 3000,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "Sn content, USGS estimate."
+  },
+  {
+    "id": "ts_tin_production_usgs_contained_metal_2019_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2019,
+    "metric": "production_usgs",
+    "value": 2600,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "Sn content, USGS estimate."
+  },
+  {
+    "id": "ts_tin_production_usgs_contained_metal_2020_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2020,
+    "metric": "production_usgs",
+    "value": 2400,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "Sn content, USGS estimate."
+  },
+  {
+    "id": "ts_tin_production_usgs_contained_metal_2021_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2021,
+    "metric": "production_usgs",
+    "value": 2300,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "Sn content, USGS estimate."
+  },
+  {
+    "id": "ts_tin_production_usgs_contained_metal_2022_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2022,
+    "metric": "production_usgs",
+    "value": 3400,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "Sn content, USGS estimate."
+  },
+  {
+    "id": "ts_tin_production_usgs_contained_metal_2023_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2023,
+    "metric": "production_usgs",
+    "value": 3700,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "Sn content, USGS estimate."
+  },
+  {
+    "id": "ts_tin_production_usgs_contained_metal_2024_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2024,
+    "metric": "production_usgs",
+    "value": 4100,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "Sn content, USGS estimate."
+  },
+  {
+    "id": "ts_tin_production_usgs_contained_metal_2025_usgs_mcs2026_tin",
+    "country": "RWA",
+    "mineral": "tin",
+    "year": 2025,
+    "metric": "production_usgs",
+    "value": 4600,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_mcs2026_tin"
+    ],
+    "notes": "MCS 2026, 2025 estimate, Sn content."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_gross_weight_2018_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2018,
+    "metric": "production_usgs",
+    "value": 1966,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "USGS 'Tungsten, mine, concentrates' gross weight. Footnote: 'Reported exports' - identical to BNR export tonnage, not an independent production estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_gross_weight_2019_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2019,
+    "metric": "production_usgs",
+    "value": 1884,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "USGS 'Tungsten, mine, concentrates' gross weight. Footnote: 'Reported exports' - identical to BNR export tonnage, not an independent production estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_gross_weight_2020_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2020,
+    "metric": "production_usgs",
+    "value": 1809,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Tungsten, mine, concentrates' gross weight. Footnote: 'Reported exports' - identical to BNR export tonnage, not an independent production estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_gross_weight_2021_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2021,
+    "metric": "production_usgs",
+    "value": 2825,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Tungsten, mine, concentrates' gross weight. Footnote: 'Reported exports' - identical to BNR export tonnage, not an independent production estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_gross_weight_2022_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2022,
+    "metric": "production_usgs",
+    "value": 2943,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Tungsten, mine, concentrates' gross weight. Footnote: 'Reported exports' - identical to BNR export tonnage, not an independent production estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_gross_weight_2023_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2023,
+    "metric": "production_usgs",
+    "value": 2502,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Tungsten, mine, concentrates' gross weight. Footnote: 'Reported exports' - identical to BNR export tonnage, not an independent production estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_gross_weight_2024_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2024,
+    "metric": "production_usgs",
+    "value": 2741,
+    "unit": "t",
+    "basis": "gross_weight",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Tungsten, mine, concentrates' gross weight. Footnote: 'Reported exports' - identical to BNR export tonnage, not an independent production estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_contained_metal_2018_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2018,
+    "metric": "production_usgs",
+    "value": 940,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "W content, USGS estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_contained_metal_2019_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2019,
+    "metric": "production_usgs",
+    "value": 900,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "W content, USGS estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_contained_metal_2020_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2020,
+    "metric": "production_usgs",
+    "value": 860,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "W content, USGS estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_contained_metal_2021_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2021,
+    "metric": "production_usgs",
+    "value": 1340,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "W content, USGS estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_contained_metal_2022_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2022,
+    "metric": "production_usgs",
+    "value": 1400,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "W content, USGS estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_contained_metal_2023_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2023,
+    "metric": "production_usgs",
+    "value": 1200,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "W content, USGS estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_contained_metal_2024_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2024,
+    "metric": "production_usgs",
+    "value": 1300,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "W content, USGS estimate."
+  },
+  {
+    "id": "ts_tungsten_production_usgs_contained_metal_2025_usgs_mcs2026_tungsten",
+    "country": "RWA",
+    "mineral": "tungsten",
+    "year": 2025,
+    "metric": "production_usgs",
+    "value": 1300,
+    "unit": "t",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_mcs2026_tungsten"
+    ],
+    "notes": "MCS 2026, 2025 estimate, W content."
+  },
+  {
+    "id": "ts_gold_production_usgs_contained_metal_2018_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2018,
+    "metric": "production_usgs",
+    "value": 350,
+    "unit": "kg",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "USGS 'Gold, mine, Au content' (kg), estimate, fiscal-year data. The 2019 yearbook had 2,900 kg for 2018-19; revised down to 350 kg in the 2022 tables."
+  },
+  {
+    "id": "ts_gold_production_usgs_contained_metal_2019_usgs_myb_rwanda_2022_tables",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2019,
+    "metric": "production_usgs",
+    "value": 350,
+    "unit": "kg",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2022_tables"
+    ],
+    "notes": "USGS 'Gold, mine, Au content' (kg), estimate, fiscal-year data. The 2019 yearbook had 2,900 kg for 2018-19; revised down to 350 kg in the 2022 tables."
+  },
+  {
+    "id": "ts_gold_production_usgs_contained_metal_2020_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2020,
+    "metric": "production_usgs",
+    "value": 310,
+    "unit": "kg",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Gold, mine, Au content' (kg), estimate, fiscal-year data."
+  },
+  {
+    "id": "ts_gold_production_usgs_contained_metal_2021_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2021,
+    "metric": "production_usgs",
+    "value": 350,
+    "unit": "kg",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Gold, mine, Au content' (kg), estimate, fiscal-year data."
+  },
+  {
+    "id": "ts_gold_production_usgs_contained_metal_2022_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2022,
+    "metric": "production_usgs",
+    "value": 350,
+    "unit": "kg",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Gold, mine, Au content' (kg), estimate, fiscal-year data."
+  },
+  {
+    "id": "ts_gold_production_usgs_contained_metal_2023_usgs_myb_rwanda_2024",
+    "country": "RWA",
+    "mineral": "gold",
+    "year": 2023,
+    "metric": "production_usgs",
+    "value": 350,
+    "unit": "kg",
+    "basis": "contained_metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_usgs_myb_rwanda_2024"
+    ],
+    "notes": "USGS 'Gold, mine, Au content' (kg), estimate, fiscal-year data."
+  }
+]

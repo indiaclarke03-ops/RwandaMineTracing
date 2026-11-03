@@ -1,0 +1,226 @@
+[
+  {
+    "id": "tq_coltan_2023Q1",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2023Q1",
+    "shipments": 4,
+    "weight_t": 60.4,
+    "gw7_shipments": 3,
+    "gw7_weight_t": 40.6,
+    "uae_buyer_shipments": 1,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2023Q2",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2023Q2",
+    "shipments": 2,
+    "weight_t": 37.3,
+    "gw7_shipments": 0,
+    "gw7_weight_t": 0.0,
+    "uae_buyer_shipments": 0,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2023Q3",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2023Q3",
+    "shipments": 16,
+    "weight_t": 276.0,
+    "gw7_shipments": 10,
+    "gw7_weight_t": 134.0,
+    "uae_buyer_shipments": 5,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2023Q4",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2023Q4",
+    "shipments": 22,
+    "weight_t": 336.4,
+    "gw7_shipments": 16,
+    "gw7_weight_t": 201.7,
+    "uae_buyer_shipments": 13,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2024Q2",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2024Q2",
+    "shipments": 1,
+    "weight_t": 0.5,
+    "gw7_shipments": 0,
+    "gw7_weight_t": 0.0,
+    "uae_buyer_shipments": 0,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2024Q3",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2024Q3",
+    "shipments": 21,
+    "weight_t": 375.1,
+    "gw7_shipments": 12,
+    "gw7_weight_t": 189.4,
+    "uae_buyer_shipments": 11,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2024Q4",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2024Q4",
+    "shipments": 64,
+    "weight_t": 1034.0,
+    "gw7_shipments": 36,
+    "gw7_weight_t": 524.9,
+    "uae_buyer_shipments": 30,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2025Q1",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2025Q1",
+    "shipments": 46,
+    "weight_t": 704.4,
+    "gw7_shipments": 22,
+    "gw7_weight_t": 329.1,
+    "uae_buyer_shipments": 20,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2025Q2",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2025Q2",
+    "shipments": 57,
+    "weight_t": 787.7,
+    "gw7_shipments": 15,
+    "gw7_weight_t": 177.7,
+    "uae_buyer_shipments": 30,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2025Q3",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2025Q3",
+    "shipments": 47,
+    "weight_t": 646.3,
+    "gw7_shipments": 7,
+    "gw7_weight_t": 92.3,
+    "uae_buyer_shipments": 35,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2025Q4",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2025Q4",
+    "shipments": 54,
+    "weight_t": 767.6,
+    "gw7_shipments": 20,
+    "gw7_weight_t": 258.1,
+    "uae_buyer_shipments": 40,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2026Q1",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2026Q1",
+    "shipments": 45,
+    "weight_t": 663.3,
+    "gw7_shipments": 15,
+    "gw7_weight_t": 192.5,
+    "uae_buyer_shipments": 38,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2026Q2",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2026Q2",
+    "shipments": 50,
+    "weight_t": 684.5,
+    "gw7_shipments": 20,
+    "gw7_weight_t": 261.3,
+    "uae_buyer_shipments": 27,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  },
+  {
+    "id": "tq_coltan_2026Q3",
+    "mineral": "coltan",
+    "hs_code": "261590",
+    "quarter": "2026Q3",
+    "shipments": 26,
+    "weight_t": 475.5,
+    "gw7_shipments": 9,
+    "gw7_weight_t": 108.3,
+    "uae_buyer_shipments": 12,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "Sayari customs rows departing Rwanda (mostly Tanzania customs). Partial coverage; Jan–Aug 2024 is a data hole, and 2026Q3 covers July only."
+  }
+]

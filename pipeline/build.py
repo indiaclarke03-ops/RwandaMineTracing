@@ -35,6 +35,9 @@ ENUMS = {
                        "scheme_suspension", "disclosure", "lawsuit", "advisory"},
     "responses.side": {"outside", "inside"},
     "effectiveness.verdict": {"moved", "didn't move", "too early", "no data"},
+    "trade_series.metric": {"exports_reported", "exports_mirror", "production_usgs"},
+    "trade_series.basis": {"gross_weight", "contained_metal", "unknown"},
+    "gap_evidence.section": {"trade", "origin", "alternative"},
     "gaps.layer": {"control", "supply_chain", "impacts", "response", "sayari"},
 }
 
@@ -48,7 +51,8 @@ DATE_FIELDS = {
 }
 
 TABLES = ["sources", "sites", "actors", "control_claims", "relationships", "flows",
-          "impacts", "responses", "effectiveness", "responses_to_claims", "gaps"]
+          "impacts", "responses", "effectiveness", "responses_to_claims", "gaps", "findings",
+          "trade_series", "trade_quarterly", "gap_evidence"]
 
 
 class Report:
@@ -184,6 +188,76 @@ def validate(db):
     return r
 
 
+# ---------- derived analysis: the laundering gap (always tier "inferred") ----------
+
+# Coltan should be ~25% of combined coltan + cassiterite output in the region's mixed deposits
+# (BGR 2020, cited by the UN Group of Experts, S/2025/446 annex 53). So expected coltan = cassiterite / 3.
+GEO_SHARE = 0.25
+GEO_SOURCES = ["src_un_goe_s2025_446"]
+# UN Group of Experts: ~120 t/month of Rubaya coltan traded under M23 (para 64) and 150 t/month smuggled
+# to Rwanda (annex 29), mid-May to late Oct 2024. We scale to the May–Dec 2024 window (8 months).
+RUBAYA_2024 = {"low": 120 * 8, "high": 150 * 8, "months": 8, "source_ids": ["src_un_goe_s2024_969"],
+               "note": "UN monthly estimates (120–150 t) × 8 months of M23 control in 2024 (May–Dec). "
+                       "The UN observed mid-May to late Oct only; extending to December assumes the rate held."}
+
+
+def series(db, mineral, metric, basis="gross_weight"):
+    out = {}
+    for r in db["trade_series"]:
+        if r["mineral"] == mineral and r["metric"] == metric and r["basis"] == basis:
+            out.setdefault(r["year"], r)  # first row per year wins (seed order = preference)
+    return out
+
+
+def laundering_gap(db):
+    col = series(db, "coltan", "exports_reported")
+    tin = series(db, "tin", "exports_reported")
+    mir = series(db, "coltan", "exports_mirror")
+    usgs = series(db, "coltan", "production_usgs")
+    years = sorted(set(col) & set(tin))
+    rows = []
+    for y in years:
+        c, s = col[y]["value"], tin[y]["value"]
+        expected = s * GEO_SHARE / (1 - GEO_SHARE)
+        u = usgs.get(y)
+        # USGS 2018–22 "production" is Rwanda's reported exports (USGS footnote); only 2023+ are USGS estimates.
+        usgs_est = u["value"] if u and y >= 2023 else None
+        rows.append({
+            "year": y,
+            "coltan_exports_t": c,
+            "cassiterite_exports_t": s,
+            "coltan_share_pct": round(100 * c / (c + s), 1),
+            "expected_coltan_t": round(expected),
+            "excess_vs_geology_t": round(c - expected),
+            "coltan_exports_mirror_t": mir[y]["value"] if y in mir else None,
+            "usgs_production_estimate_t": usgs_est,
+            "excess_vs_usgs_t": round(c - usgs_est) if usgs_est else None,
+            "source_ids": sorted(set(col[y]["source_ids"] + tin[y]["source_ids"] + GEO_SOURCES
+                                     + (u["source_ids"] if usgs_est else []) + (mir[y]["source_ids"] if y in mir else []))),
+        })
+    base = [r["coltan_share_pct"] for r in rows if r["year"] <= 2022]
+    return {
+        "mineral": "coltan",
+        "evidence_tier": "inferred",
+        "method": ("Expected coltan exports = cassiterite exports × 25/75, from the ~25% coltan share of the region's mixed "
+                   "coltan–cassiterite deposits (BGR, cited by the UN Group of Experts). Excess = reported coltan exports − expected. "
+                   "Where USGS published its own estimate (2023 onward), excess is also shown against that."),
+        "baseline_share_pct_2018_2022": [min(base), max(base)] if base else None,
+        "geology_share_pct": GEO_SHARE * 100,
+        "rows": rows,
+        "rubaya_2024": RUBAYA_2024,
+        "quarterly": [{k: r[k] for k in ("quarter", "shipments", "weight_t", "gw7_shipments", "gw7_weight_t",
+                                          "uae_buyer_shipments", "source_ids")}
+                      for r in sorted(db["trade_quarterly"], key=lambda r: r["quarter"])],
+        "caveats": [
+            "Rwanda's cassiterite exports also rose sharply in 2025 (+58%, flagged by the UN), so the geological baseline is itself inflated that year and the 2025 excess is understated.",
+            "USGS production figures for 2018–2022 are Rwanda's reported exports, not independent estimates.",
+            "Export tonnages are gross concentrate weight; grades vary.",
+            "A gap shows that exports need explaining. It does not show where the extra material came from.",
+        ],
+    }
+
+
 def sites_geojson(db):
     features = []
     for s in db["sites"]:
@@ -216,6 +290,8 @@ def main():
     DATA.mkdir(exist_ok=True)
     for t in TABLES:
         (DATA / f"{t}.json").write_text(json.dumps(db[t], indent=2, ensure_ascii=False) + "\n")
+    if db["trade_series"]:
+        (DATA / "laundering_gap.json").write_text(json.dumps(laundering_gap(db), indent=2, ensure_ascii=False) + "\n")
     (DATA / "sites.geojson").write_text(json.dumps(sites_geojson(db), indent=2, ensure_ascii=False) + "\n")
     manifest = {
         "case": "rwanda-drc",

@@ -170,10 +170,11 @@
     "unit": "% rise in Rwanda's cassiterite exports (4,859 t → 7,700 t)",
     "evidence_tier": "documented",
     "source_ids": [
+      "src_un_goe_s2026_466",
       "src_itsci_statement_2026_07_10"
     ],
-    "paragraph_or_page": null,
-    "summary": "rise in Rwanda's cassiterite exports in 2025 without matching increases reported by its main producer or tin refinery (UN Group of Experts, as quoted by ITSCI).",
-    "notes": "The UN report S/2026/466 itself could not be fetched; paragraph number not confirmed."
+    "paragraph_or_page": "S/2026/466 paras 223–224",
+    "summary": "rise in Rwanda's cassiterite exports in 2025. The UN Group of Experts says domestic output can't explain it and that it matches M23-area smuggling in timing and size.",
+    "notes": ""
   }
 ]

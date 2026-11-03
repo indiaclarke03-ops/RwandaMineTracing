@@ -16,10 +16,13 @@
     </div>
     <div class="case">Case: <strong>Rwanda / eastern DRC</strong> <span id="built" class="muted"></span></div>
     <nav class="tabs" role="tablist">
-      <button role="tab" data-view="map" aria-selected="true">Control map</button>
+      <button role="tab" data-view="home" aria-selected="true">Overview</button>
+      <button role="tab" data-view="map" aria-selected="false">Control map</button>
+      <button role="tab" data-view="laundering" aria-selected="false">Export gap</button>
       <button role="tab" data-view="responses" aria-selected="false">Responses</button>
-      <button role="tab" data-view="gaps" aria-selected="false">Gaps</button>
+      <button role="tab" data-view="gaps" aria-selected="false">What we don't know</button>
       <button role="tab" data-view="sources" aria-selected="false">Sources</button>
+      <a class="tab-link" href="about.html">About</a>
     </nav>
   </header>
 
@@ -32,7 +35,55 @@
   </section>
 
   <main>
-    <section id="view-map" class="view" role="tabpanel">
+    <section id="view-home" class="view home" role="tabpanel">
+      <div class="hero">
+        <p class="eyebrow">Conflict minerals · eastern DR Congo and Rwanda</p>
+        <h2>An armed group controls major coltan mines in eastern Congo. This tool follows what comes out of them.</h2>
+        <p class="lede">Tantalum, tin and gold from eastern Congo end up in phones, laptops, cars and jewellery. Since 2024 the M23 armed group has seized mining areas there and taxed what they produce. UN investigators say much of that output is smuggled into neighbouring Rwanda and exported as Rwandan. Ground Control maps who controls each site, traces the minerals through traders, exporters and smelters, and checks whether sanctions and industry action have changed anything.</p>
+        <div class="paths">
+          <a class="path" href="#view=map" data-goto="map">
+            <span class="path-who">Checking a supplier?</span>
+            <span class="path-what">Start with the map. Pick a mine to see who controls it, which exporters bought from it, and links to verify each company in Sayari.</span>
+          </a>
+          <a class="path" href="#view=responses" data-goto="responses">
+            <span class="path-who">Working on policy?</span>
+            <span class="path-what">Start with the responses. See every sanction, peace deal and industry suspension since 2024, and whether the indicators it was meant to move actually moved.</span>
+          </a>
+          <a class="path" href="#view=laundering" data-goto="laundering">
+            <span class="path-who">Following the numbers?</span>
+            <span class="path-what">Start with the export gap. Rwanda exports more minerals than it can plausibly mine; see by how much, and what the evidence says fills the difference.</span>
+          </a>
+        </div>
+      </div>
+
+      <h2 class="section-h">Key findings</h2>
+      <div id="findings" class="findings"></div>
+
+      <h2 class="section-h">How a mineral gets from the mine to your phone</h2>
+      <ol class="chain" aria-label="Supply chain stages">
+        <li><span class="step">Mine</span><span class="eg">Rubaya, Lomera</span><span class="risk">armed group taxes or controls the site</span></li>
+        <li><span class="step">Trading centre</span><span class="eg">Mushaki</span><span class="risk">minerals bagged and sold on</span></li>
+        <li><span class="step">Border</span><span class="eg">Goma → Gisenyi; Bukavu → Rusizi</span><span class="risk">smuggled or crossed openly</span></li>
+        <li><span class="step">Rwandan exporter or refinery</span><span class="eg">coltan exporters; Gasabo Gold</span><span class="risk">mixed with Rwandan output, tagged, exported</span></li>
+        <li><span class="step">Port and trader</span><span class="eg">Dar es Salaam, Mombasa; UAE traders</span><span class="risk">origin harder to see</span></li>
+        <li><span class="step">Smelter</span><span class="eg">China, Kazakhstan, Thailand</span><span class="risk">audited, but audits rely on paperwork</span></li>
+        <li><span class="step">Components and brands</span><span class="eg">capacitors, electronics, aerospace</span><span class="risk">not yet mapped here</span></li>
+      </ol>
+
+      <h2 class="section-h">How to read the evidence</h2>
+      <p class="muted">Control in eastern Congo is contested and changes fast, and many claims here are allegations. Every claim carries one of four labels so you can see who is making it.</p>
+      <dl class="tiers-explained">
+        <div><dt><span class="badge designated"><span aria-hidden="true">◆</span>Designated</span></dt><dd>A government has acted on it: named in US, EU or UN sanctions. The strongest label, but it is still that government's finding.</dd></div>
+        <div><dt><span class="badge documented"><span aria-hidden="true">■</span>Documented</span></dt><dd>Set out with evidence by UN investigators or an investigative NGO such as Global Witness or Amnesty. Not a court finding.</dd></div>
+        <div><dt><span class="badge reported"><span aria-hidden="true">●</span>Reported</span></dt><dd>Reported by the media. Useful, but often relies on one or two sources.</dd></div>
+        <div><dt><span class="badge inferred"><span aria-hidden="true">△</span>Inferred</span></dt><dd>Our own analysis, such as comparing export figures with production. Always says how it was worked out. It is not proof.</dd></div>
+      </dl>
+      <p class="small muted">Where a named party denies a claim, the denial is shown next to it. <a href="about.html">More on the method</a>.</p>
+      <p id="stats" class="stats"></p>
+    </section>
+
+    <section id="view-map" class="view" role="tabpanel" hidden>
+      <div class="view-intro"><h2>Who controls which site</h2><p>Each dot is a mine, trading centre, border crossing, refinery or port. A ring means an armed group is recorded as controlling or taxing it at the date on the slider; the ring's line style shows the evidence label. Dashed lines are documented mineral routes. Drag the slider to go back in time.</p></div>
       <div class="map-wrap">
         <div id="map" aria-label="Map of mining sites and trade nodes"></div>
         <aside id="panel" class="panel" aria-live="polite">
@@ -49,7 +100,13 @@
       </div>
     </section>
 
+    <section id="view-laundering" class="view" role="tabpanel" hidden>
+      <div class="view-intro"><h2>The export gap</h2><p>Since 2023 Rwanda has exported far more coltan than its own geology predicts. This view measures that gap, compares it with UN estimates of what comes out of M23-held Rubaya, and sets out what the evidence says fills it — and what Rwanda says.</p></div>
+      <div id="laundering"><p class="muted">Analysis in progress.</p></div>
+    </section>
+
     <section id="view-responses" class="view" role="tabpanel" hidden>
+      <div class="view-intro"><h2>What has been done, and did it work?</h2><p>Every sanction, peace deal, regulation and industry action since 2024, oldest first. Under each one: the indicator that should have moved if it worked, and whether it did.</p></div>
       <div class="filters">
         <label><input type="checkbox" data-side="outside" checked> Outside the company (governments, multilaterals)</label>
         <label><input type="checkbox" data-side="inside" checked> Inside the company / industry</label>
@@ -59,11 +116,12 @@
     </section>
 
     <section id="view-gaps" class="view" role="tabpanel" hidden>
-      <p class="lede">What we don't know. A visible gap beats a confident wrong answer.</p>
+      <div class="view-intro"><h2>What we don't know</h2><p>Missing data, contested numbers and unchecked claims. A visible gap is better than a confident wrong answer.</p></div>
       <div id="gaps"></div>
     </section>
 
     <section id="view-sources" class="view" role="tabpanel" hidden>
+      <div class="view-intro"><h2>Sources</h2><p>Every page and dataset cited on this site, newest first. Each was read before being cited.</p></div>
       <ol id="sources" class="sources"></ol>
     </section>
   </main>
@@ -74,6 +132,7 @@
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="gap.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

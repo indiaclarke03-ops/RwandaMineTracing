@@ -1,0 +1,4341 @@
+{
+ "run_date": "2026-11-03",
+ "coverage_notes": "Sayari holds no Rwandan customs data. Every row is a third-country record: Tanzania Imports & Exports (Jan 2023-present, which captures Rwandan cargo transiting Dar es Salaam/Rusumo) supplies about 95% of rows (1,823 of 1,923); Vietnam (2020 tungsten, 2020 coltan, 2023-25 tungsten imports), Kazakhstan, Japan, Malaysia (Jan 2025-Feb 2026), UK and Turkey import records supply the rest. Kenya data is imports only (Jan 2024-), so exports via Mombasa are missing. There is no source for 2021-2022 (zero rows is a gap, not zero trade), and Tanzania returns essentially nothing for Jan-Aug 2024 (1 row in 8 months, all three ores), which covers the 30 Apr 2024 Rubaya capture. 2023 H1 is thin (source ramp-up); 2026 runs only to 31 Jul. Air freight (gold) is not covered. Weight is gross declared kg; value exists for only about 15% of rows (mostly 2024), so annual value is null. Rows are customs lines, not consignments: 24 coltan, 48 tin and 31 tungsten rows repeat another row's shipper, buyer, date and weight (multi-container lots or duplicates), and nothing was deduplicated. Party names are noisy (e.g. three Sayari IDs for East Group Minerals, two for African Panther, five for Rani Mining); GW exporters were grouped by name pattern. Sunrise, Philbert, Space and Rani matches are low confidence. Coverage is probably well below half of Rwanda's real 3T exports in most years, and it changes over time, so year-on-year changes in Sayari row counts can reflect coverage rather than trade. Cross-check against Comtrade mirror data and RMB figures before using any volume in the gap indicator. Rule 10 applies throughout: these rows show who shipped what to whom from Rwanda, not where the ore was mined.",
+ "by_year": [
+  {
+   "hs_code": "261590",
+   "year": 2020,
+   "shipments": 3,
+   "weight_t": 45.7,
+   "value_usd": 759066,
+   "value_usd_partial": null,
+   "rows_with_value": 3,
+   "customs_sources": [
+    "Vietnam Imports & Exports (January 2019 - Present)"
+   ]
+  },
+  {
+   "hs_code": "261590",
+   "year": 2021,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "value_usd_partial": null,
+   "rows_with_value": 0,
+   "customs_sources": [],
+   "note": "No rows returned. Treat as a coverage gap (no Sayari trade source covers Rwandan exports for this period), not as zero exports."
+  },
+  {
+   "hs_code": "261590",
+   "year": 2022,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "value_usd_partial": null,
+   "rows_with_value": 0,
+   "customs_sources": [],
+   "note": "No rows returned. Treat as a coverage gap (no Sayari trade source covers Rwandan exports for this period), not as zero exports."
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "shipments": 44,
+   "weight_t": 710.1,
+   "value_usd": null,
+   "value_usd_partial": null,
+   "rows_with_value": 0,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)",
+    "Kazakhstan Imports & Exports (January 2023 - Present)"
+   ]
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "shipments": 86,
+   "weight_t": 1409.5,
+   "value_usd": null,
+   "value_usd_partial": 31994176,
+   "rows_with_value": 56,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)"
+   ],
+   "note": "value_usd is null because only 56 of 86 rows carry a USD value; value_usd_partial sums those rows only."
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "shipments": 204,
+   "weight_t": 2906.0,
+   "value_usd": null,
+   "value_usd_partial": null,
+   "rows_with_value": 0,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)"
+   ]
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "shipments": 121,
+   "weight_t": 1823.3,
+   "value_usd": null,
+   "value_usd_partial": 2352339,
+   "rows_with_value": 2,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)",
+    "Japan Imports & Exports (January 2023 - Present)"
+   ],
+   "note": "value_usd is null because only 2 of 121 rows carry a USD value; value_usd_partial sums those rows only."
+  },
+  {
+   "hs_code": "260900",
+   "year": 2020,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "value_usd_partial": null,
+   "rows_with_value": 0,
+   "customs_sources": [],
+   "note": "No rows returned. Treat as a coverage gap (no Sayari trade source covers Rwandan exports for this period), not as zero exports."
+  },
+  {
+   "hs_code": "260900",
+   "year": 2021,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "value_usd_partial": null,
+   "rows_with_value": 0,
+   "customs_sources": [],
+   "note": "No rows returned. Treat as a coverage gap (no Sayari trade source covers Rwandan exports for this period), not as zero exports."
+  },
+  {
+   "hs_code": "260900",
+   "year": 2022,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "value_usd_partial": null,
+   "rows_with_value": 0,
+   "customs_sources": [],
+   "note": "No rows returned. Treat as a coverage gap (no Sayari trade source covers Rwandan exports for this period), not as zero exports."
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "shipments": 149,
+   "weight_t": 3330.4,
+   "value_usd": null,
+   "value_usd_partial": null,
+   "rows_with_value": 0,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)"
+   ]
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "shipments": 128,
+   "weight_t": 3482.8,
+   "value_usd": null,
+   "value_usd_partial": 41226088,
+   "rows_with_value": 83,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)"
+   ],
+   "note": "value_usd is null because only 83 of 128 rows carry a USD value; value_usd_partial sums those rows only."
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "shipments": 354,
+   "weight_t": 9058.5,
+   "value_usd": null,
+   "value_usd_partial": 9108503,
+   "rows_with_value": 17,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)",
+    "Malaysia Imports & Exports (January 2025 - February 2026)"
+   ],
+   "note": "value_usd is null because only 17 of 354 rows carry a USD value; value_usd_partial sums those rows only."
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "shipments": 219,
+   "weight_t": 5072.0,
+   "value_usd": null,
+   "value_usd_partial": 7657132,
+   "rows_with_value": 10,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)",
+    "Malaysia Imports & Exports (January 2025 - February 2026)",
+    "Japan Imports & Exports (January 2023 - Present)"
+   ],
+   "note": "value_usd is null because only 10 of 219 rows carry a USD value; value_usd_partial sums those rows only."
+  },
+  {
+   "hs_code": "261100",
+   "year": 2020,
+   "shipments": 15,
+   "weight_t": 424.1,
+   "value_usd": 3286463,
+   "value_usd_partial": null,
+   "rows_with_value": 15,
+   "customs_sources": [
+    "Vietnam Imports & Exports (January 2019 - Present)"
+   ]
+  },
+  {
+   "hs_code": "261100",
+   "year": 2021,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "value_usd_partial": null,
+   "rows_with_value": 0,
+   "customs_sources": [],
+   "note": "No rows returned. Treat as a coverage gap (no Sayari trade source covers Rwandan exports for this period), not as zero exports."
+  },
+  {
+   "hs_code": "261100",
+   "year": 2022,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "value_usd_partial": null,
+   "rows_with_value": 0,
+   "customs_sources": [],
+   "note": "No rows returned. Treat as a coverage gap (no Sayari trade source covers Rwandan exports for this period), not as zero exports."
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "shipments": 84,
+   "weight_t": 1780.7,
+   "value_usd": null,
+   "value_usd_partial": 11935470,
+   "rows_with_value": 41,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)",
+    "Vietnam Imports & Exports (January 2019 - Present)"
+   ],
+   "note": "value_usd is null because only 41 of 84 rows carry a USD value; value_usd_partial sums those rows only."
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "shipments": 95,
+   "weight_t": 2074.3,
+   "value_usd": null,
+   "value_usd_partial": 13351480,
+   "rows_with_value": 61,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)",
+    "Vietnam Imports & Exports (January 2019 - Present)"
+   ],
+   "note": "value_usd is null because only 61 of 95 rows carry a USD value; value_usd_partial sums those rows only."
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "shipments": 261,
+   "weight_t": 5507.0,
+   "value_usd": null,
+   "value_usd_partial": 1337953,
+   "rows_with_value": 4,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)",
+    "Vietnam Imports & Exports (January 2019 - Present)"
+   ],
+   "note": "value_usd is null because only 4 of 261 rows carry a USD value; value_usd_partial sums those rows only."
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "shipments": 160,
+   "weight_t": 3127.3,
+   "value_usd": null,
+   "value_usd_partial": 2350054,
+   "rows_with_value": 4,
+   "customs_sources": [
+    "Tanzania Imports & Exports (January 2023 - Present)",
+    "UK Imports & Exports (January 2023 - Present)",
+    "Japan Imports & Exports (January 2023 - Present)"
+   ],
+   "note": "value_usd is null because only 4 of 160 rows carry a USD value; value_usd_partial sums those rows only."
+  },
+  {
+   "hs_code": "7108",
+   "year": 2020,
+   "shipments": 1,
+   "weight_t": 0.544,
+   "value_usd": null,
+   "customs_sources": [
+    "Turkey Imports & Exports (January 2019 - September 2024)"
+   ],
+   "note": "One row: ALDANGO LTD -> NIL KIYMETLI MADENLER TICARETI A.S. (Turkey), HS 710812, 543.79 kg, arrival 2020-07-03, Turkish import record."
+  },
+  {
+   "hs_code": "7108",
+   "year": 2021,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "customs_sources": [],
+   "note": "No HS 7108 rows departing RWA. Gold usually moves by air; no Rwandan, UAE or air-freight customs source covers this corridor in Sayari, so absence is not evidence of no exports."
+  },
+  {
+   "hs_code": "7108",
+   "year": 2022,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "customs_sources": [],
+   "note": "No HS 7108 rows departing RWA. Gold usually moves by air; no Rwandan, UAE or air-freight customs source covers this corridor in Sayari, so absence is not evidence of no exports."
+  },
+  {
+   "hs_code": "7108",
+   "year": 2023,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "customs_sources": [],
+   "note": "No HS 7108 rows departing RWA. Gold usually moves by air; no Rwandan, UAE or air-freight customs source covers this corridor in Sayari, so absence is not evidence of no exports."
+  },
+  {
+   "hs_code": "7108",
+   "year": 2024,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "customs_sources": [],
+   "note": "No HS 7108 rows departing RWA. Gold usually moves by air; no Rwandan, UAE or air-freight customs source covers this corridor in Sayari, so absence is not evidence of no exports."
+  },
+  {
+   "hs_code": "7108",
+   "year": 2025,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "customs_sources": [],
+   "note": "No HS 7108 rows departing RWA. Gold usually moves by air; no Rwandan, UAE or air-freight customs source covers this corridor in Sayari, so absence is not evidence of no exports."
+  },
+  {
+   "hs_code": "7108",
+   "year": 2026,
+   "shipments": 0,
+   "weight_t": null,
+   "value_usd": null,
+   "customs_sources": [],
+   "note": "No HS 7108 rows departing RWA. Gold usually moves by air; no Rwandan, UAE or air-freight customs source covers this corridor in Sayari, so absence is not evidence of no exports."
+  }
+ ],
+ "by_quarter_note": "Jan-Aug 2024 is a source gap: Tanzania customs returns 1 row (Jun 2024) across all three ores; 2024Q1 has 0 rows and is omitted. 2023Q1-Q2 look thin (source ramp-up). 2026Q3 = July only (latest row 2026-07-31).",
+ "by_quarter": [
+  {
+   "hs_code": "261590",
+   "quarter": "2023Q1",
+   "shipments": 4,
+   "weight_t": 60.4,
+   "gw7_shipments": 3,
+   "gw7_weight_t": 40.6,
+   "uae_buyer_shipments": 1
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2023Q2",
+   "shipments": 2,
+   "weight_t": 37.3,
+   "gw7_shipments": 0,
+   "gw7_weight_t": 0.0,
+   "uae_buyer_shipments": 0
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2023Q3",
+   "shipments": 16,
+   "weight_t": 276.0,
+   "gw7_shipments": 10,
+   "gw7_weight_t": 134.0,
+   "uae_buyer_shipments": 5
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2023Q4",
+   "shipments": 22,
+   "weight_t": 336.4,
+   "gw7_shipments": 16,
+   "gw7_weight_t": 201.7,
+   "uae_buyer_shipments": 13
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2024Q2",
+   "shipments": 1,
+   "weight_t": 0.5,
+   "gw7_shipments": 0,
+   "gw7_weight_t": 0.0,
+   "uae_buyer_shipments": 0
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2024Q3",
+   "shipments": 21,
+   "weight_t": 375.1,
+   "gw7_shipments": 12,
+   "gw7_weight_t": 189.4,
+   "uae_buyer_shipments": 11
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2024Q4",
+   "shipments": 64,
+   "weight_t": 1034.0,
+   "gw7_shipments": 36,
+   "gw7_weight_t": 524.9,
+   "uae_buyer_shipments": 30
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2025Q1",
+   "shipments": 46,
+   "weight_t": 704.4,
+   "gw7_shipments": 22,
+   "gw7_weight_t": 329.1,
+   "uae_buyer_shipments": 20
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2025Q2",
+   "shipments": 57,
+   "weight_t": 787.7,
+   "gw7_shipments": 15,
+   "gw7_weight_t": 177.7,
+   "uae_buyer_shipments": 30
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2025Q3",
+   "shipments": 47,
+   "weight_t": 646.3,
+   "gw7_shipments": 7,
+   "gw7_weight_t": 92.3,
+   "uae_buyer_shipments": 35
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2025Q4",
+   "shipments": 54,
+   "weight_t": 767.6,
+   "gw7_shipments": 20,
+   "gw7_weight_t": 258.1,
+   "uae_buyer_shipments": 40
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2026Q1",
+   "shipments": 45,
+   "weight_t": 663.3,
+   "gw7_shipments": 15,
+   "gw7_weight_t": 192.5,
+   "uae_buyer_shipments": 38
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2026Q2",
+   "shipments": 50,
+   "weight_t": 684.5,
+   "gw7_shipments": 20,
+   "gw7_weight_t": 261.3,
+   "uae_buyer_shipments": 27
+  },
+  {
+   "hs_code": "261590",
+   "quarter": "2026Q3",
+   "shipments": 26,
+   "weight_t": 475.5,
+   "gw7_shipments": 9,
+   "gw7_weight_t": 108.3,
+   "uae_buyer_shipments": 12
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2023Q1",
+   "shipments": 33,
+   "weight_t": 753.3,
+   "gw7_shipments": 3,
+   "gw7_weight_t": 55.5,
+   "uae_buyer_shipments": 6
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2023Q2",
+   "shipments": 34,
+   "weight_t": 688.5,
+   "gw7_shipments": 9,
+   "gw7_weight_t": 166.8,
+   "uae_buyer_shipments": 13
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2023Q3",
+   "shipments": 46,
+   "weight_t": 1014.9,
+   "gw7_shipments": 21,
+   "gw7_weight_t": 479.6,
+   "uae_buyer_shipments": 17
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2023Q4",
+   "shipments": 36,
+   "weight_t": 873.7,
+   "gw7_shipments": 13,
+   "gw7_weight_t": 320.8,
+   "uae_buyer_shipments": 4
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2024Q3",
+   "shipments": 33,
+   "weight_t": 928.5,
+   "gw7_shipments": 11,
+   "gw7_weight_t": 273.1,
+   "uae_buyer_shipments": 6
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2024Q4",
+   "shipments": 95,
+   "weight_t": 2554.3,
+   "gw7_shipments": 30,
+   "gw7_weight_t": 702.1,
+   "uae_buyer_shipments": 10
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2025Q1",
+   "shipments": 55,
+   "weight_t": 1372.2,
+   "gw7_shipments": 17,
+   "gw7_weight_t": 404.3,
+   "uae_buyer_shipments": 9
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2025Q2",
+   "shipments": 83,
+   "weight_t": 2099.6,
+   "gw7_shipments": 10,
+   "gw7_weight_t": 239.0,
+   "uae_buyer_shipments": 18
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2025Q3",
+   "shipments": 83,
+   "weight_t": 2114.2,
+   "gw7_shipments": 19,
+   "gw7_weight_t": 489.1,
+   "uae_buyer_shipments": 21
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2025Q4",
+   "shipments": 133,
+   "weight_t": 3472.4,
+   "gw7_shipments": 19,
+   "gw7_weight_t": 465.9,
+   "uae_buyer_shipments": 15
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2026Q1",
+   "shipments": 91,
+   "weight_t": 2130.6,
+   "gw7_shipments": 10,
+   "gw7_weight_t": 248.3,
+   "uae_buyer_shipments": 15
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2026Q2",
+   "shipments": 108,
+   "weight_t": 2491.1,
+   "gw7_shipments": 17,
+   "gw7_weight_t": 369.2,
+   "uae_buyer_shipments": 17
+  },
+  {
+   "hs_code": "260900",
+   "quarter": "2026Q3",
+   "shipments": 20,
+   "weight_t": 450.3,
+   "gw7_shipments": 6,
+   "gw7_weight_t": 140.3,
+   "uae_buyer_shipments": 6
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2023Q1",
+   "shipments": 12,
+   "weight_t": 242.0,
+   "gw7_shipments": 0,
+   "gw7_weight_t": 0.0,
+   "uae_buyer_shipments": 0
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2023Q2",
+   "shipments": 8,
+   "weight_t": 178.3,
+   "gw7_shipments": 0,
+   "gw7_weight_t": 0.0,
+   "uae_buyer_shipments": 0
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2023Q3",
+   "shipments": 29,
+   "weight_t": 618.9,
+   "gw7_shipments": 9,
+   "gw7_weight_t": 181.3,
+   "uae_buyer_shipments": 7
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2023Q4",
+   "shipments": 35,
+   "weight_t": 741.4,
+   "gw7_shipments": 15,
+   "gw7_weight_t": 327.7,
+   "uae_buyer_shipments": 12
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2024Q3",
+   "shipments": 23,
+   "weight_t": 531.4,
+   "gw7_shipments": 9,
+   "gw7_weight_t": 213.7,
+   "uae_buyer_shipments": 1
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2024Q4",
+   "shipments": 72,
+   "weight_t": 1543.0,
+   "gw7_shipments": 23,
+   "gw7_weight_t": 497.6,
+   "uae_buyer_shipments": 5
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2025Q1",
+   "shipments": 49,
+   "weight_t": 941.6,
+   "gw7_shipments": 12,
+   "gw7_weight_t": 256.0,
+   "uae_buyer_shipments": 9
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2025Q2",
+   "shipments": 55,
+   "weight_t": 1182.5,
+   "gw7_shipments": 9,
+   "gw7_weight_t": 188.1,
+   "uae_buyer_shipments": 13
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2025Q3",
+   "shipments": 81,
+   "weight_t": 1685.9,
+   "gw7_shipments": 18,
+   "gw7_weight_t": 370.5,
+   "uae_buyer_shipments": 21
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2025Q4",
+   "shipments": 76,
+   "weight_t": 1697.0,
+   "gw7_shipments": 17,
+   "gw7_weight_t": 385.3,
+   "uae_buyer_shipments": 18
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2026Q1",
+   "shipments": 60,
+   "weight_t": 1265.1,
+   "gw7_shipments": 19,
+   "gw7_weight_t": 474.5,
+   "uae_buyer_shipments": 17
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2026Q2",
+   "shipments": 79,
+   "weight_t": 1431.2,
+   "gw7_shipments": 44,
+   "gw7_weight_t": 767.6,
+   "uae_buyer_shipments": 25
+  },
+  {
+   "hs_code": "261100",
+   "quarter": "2026Q3",
+   "shipments": 21,
+   "weight_t": 430.9,
+   "gw7_shipments": 11,
+   "gw7_weight_t": 216.1,
+   "uae_buyer_shipments": 6
+  }
+ ],
+ "exporter_share_note": "Per hs_code/year: the top 5 exporters by rows plus every GW-named exporter present, and a combined GW-seven row. Shares are of Sayari rows departing RWA for that HS/year. rank = position by rows among all exporters that year. GW-named name variants are grouped (other_sayari_ids).",
+ "exporter_share": [
+  {
+   "hs_code": "261590",
+   "year": 2020,
+   "exporter_name": "NOBLE RESOURCES INTERNATIONAL PTE LTD",
+   "sayari_id": "6WTY2iUeJBCc40sNeICJjg",
+   "other_sayari_ids": [],
+   "shipments": 3,
+   "weight_t": 45.7,
+   "share_rows": 1.0,
+   "share_weight": 1.0,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "261590",
+   "year": 2020,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 0,
+   "weight_t": 0.0,
+   "share_rows": 0.0,
+   "share_weight": 0.0,
+   "gw_named": true,
+   "total_rows_year": 3,
+   "total_weight_t_year": 45.7,
+   "distinct_exporters": 1
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "exporter_name": "Sunrise Metal Company",
+   "sayari_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "other_sayari_ids": [],
+   "shipments": 9,
+   "weight_t": 132.7,
+   "share_rows": 0.205,
+   "share_weight": 0.187,
+   "gw_named": true,
+   "rank": 1,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [],
+   "shipments": 8,
+   "weight_t": 85.1,
+   "share_rows": 0.182,
+   "share_weight": 0.12,
+   "gw_named": true,
+   "rank": 2
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [],
+   "shipments": 5,
+   "weight_t": 72.2,
+   "share_rows": 0.114,
+   "share_weight": 0.102,
+   "gw_named": true,
+   "rank": 3
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [],
+   "shipments": 4,
+   "weight_t": 55.9,
+   "share_rows": 0.091,
+   "share_weight": 0.079,
+   "gw_named": true,
+   "rank": 4
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "exporter_name": "EAST GROUP MINERALS LTD",
+   "sayari_id": "f4UQ4x1QLACAPKBYMyC5OQ",
+   "other_sayari_ids": [
+    "QPq0CLV3M5-lPkjdekADMg"
+   ],
+   "shipments": 3,
+   "weight_t": 98.5,
+   "share_rows": 0.068,
+   "share_weight": 0.139,
+   "gw_named": false,
+   "rank": 5
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "exporter_name": "Philbert Trading Minerals",
+   "sayari_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+   "other_sayari_ids": [],
+   "shipments": 3,
+   "weight_t": 30.4,
+   "share_rows": 0.068,
+   "share_weight": 0.043,
+   "gw_named": true,
+   "rank": 6,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 29,
+   "weight_t": 376.2,
+   "share_rows": 0.659,
+   "share_weight": 0.53,
+   "gw_named": true,
+   "total_rows_year": 44,
+   "total_weight_t_year": 710.1,
+   "distinct_exporters": 12
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "exporter_name": "EAST GROUP MINERALS LTD",
+   "sayari_id": "f4UQ4x1QLACAPKBYMyC5OQ",
+   "other_sayari_ids": [
+    "QPq0CLV3M5-lPkjdekADMg"
+   ],
+   "shipments": 26,
+   "weight_t": 489.5,
+   "share_rows": 0.302,
+   "share_weight": 0.347,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [
+    "TPgxRuPKMVc8AN1zrKAKrg",
+    "MMZvOXZf7zTdmOGCIhIl3A"
+   ],
+   "shipments": 17,
+   "weight_t": 260.8,
+   "share_rows": 0.198,
+   "share_weight": 0.185,
+   "gw_named": true,
+   "rank": 2
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "exporter_name": "Sunrise Metal Company",
+   "sayari_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "other_sayari_ids": [],
+   "shipments": 11,
+   "weight_t": 188.1,
+   "share_rows": 0.128,
+   "share_weight": 0.133,
+   "gw_named": true,
+   "rank": 3,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [],
+   "shipments": 8,
+   "weight_t": 104.9,
+   "share_rows": 0.093,
+   "share_weight": 0.074,
+   "gw_named": true,
+   "rank": 4
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "exporter_name": "TAWOTIN LTD",
+   "sayari_id": "OPLZQzwwKb1u-D0QIVfs1w",
+   "other_sayari_ids": [],
+   "shipments": 7,
+   "weight_t": 159.0,
+   "share_rows": 0.081,
+   "share_weight": 0.113,
+   "gw_named": false,
+   "rank": 5
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [],
+   "shipments": 5,
+   "weight_t": 81.3,
+   "share_rows": 0.058,
+   "share_weight": 0.058,
+   "gw_named": true,
+   "rank": 6
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "exporter_name": "Philbert Trading Minerals",
+   "sayari_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+   "other_sayari_ids": [],
+   "shipments": 5,
+   "weight_t": 56.9,
+   "share_rows": 0.058,
+   "share_weight": 0.04,
+   "gw_named": true,
+   "rank": 7,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "exporter_name": "Space Mining",
+   "sayari_id": "DGREDQ68sKQBgvglvG7nhg",
+   "other_sayari_ids": [],
+   "shipments": 2,
+   "weight_t": 22.3,
+   "share_rows": 0.023,
+   "share_weight": 0.016,
+   "gw_named": true,
+   "rank": 8,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 48,
+   "weight_t": 714.3,
+   "share_rows": 0.558,
+   "share_weight": 0.507,
+   "gw_named": true,
+   "total_rows_year": 86,
+   "total_weight_t_year": 1409.5,
+   "distinct_exporters": 12
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "EAST GROUP MINERALS LTD",
+   "sayari_id": "f4UQ4x1QLACAPKBYMyC5OQ",
+   "other_sayari_ids": [],
+   "shipments": 47,
+   "weight_t": 814.2,
+   "share_rows": 0.23,
+   "share_weight": 0.28,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "HILLSIDE MINING COMPANY LTD",
+   "sayari_id": "ljTeEOJXxOOimlbTQFxBeg",
+   "other_sayari_ids": [
+    "c0nfmS2IalvQNuUCdatN9w"
+   ],
+   "shipments": 27,
+   "weight_t": 270.8,
+   "share_rows": 0.132,
+   "share_weight": 0.093,
+   "gw_named": false,
+   "rank": 2
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "Rani Mining",
+   "sayari_id": "KMJ_GrAwF6ZiFOQSsMEbMQ",
+   "other_sayari_ids": [
+    "riuK7DramGj0ryuSwOrs0Q",
+    "21jWppFz6Iq59mjqXaEpzw",
+    "cCVbcSRlTG6wzlh1dJUo-w",
+    "3Tk0n6n9sKMY6uT5D6SOVg"
+   ],
+   "shipments": 20,
+   "weight_t": 207.0,
+   "share_rows": 0.098,
+   "share_weight": 0.071,
+   "gw_named": true,
+   "rank": 3,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md",
+   "note": "Rani has no coltan rows before 2025-03-28 in this pull; Sayari has 5 name-variant IDs grouped here (name match only)."
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "ETS MUNSAD MINERALS LTD",
+   "sayari_id": "4qYA2F7Lc1howDIJpNvzJw",
+   "other_sayari_ids": [
+    "7xx7moiwypaQU9r2J3Uiyg",
+    "JtgpH7xmWHTcMUiDMdAP0Q"
+   ],
+   "shipments": 14,
+   "weight_t": 129.9,
+   "share_rows": 0.069,
+   "share_weight": 0.045,
+   "gw_named": false,
+   "rank": 4
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [],
+   "shipments": 13,
+   "weight_t": 199.4,
+   "share_rows": 0.064,
+   "share_weight": 0.069,
+   "gw_named": true,
+   "rank": 5
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [],
+   "shipments": 11,
+   "weight_t": 136.6,
+   "share_rows": 0.054,
+   "share_weight": 0.047,
+   "gw_named": true,
+   "rank": 7
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [
+    "TPgxRuPKMVc8AN1zrKAKrg"
+   ],
+   "shipments": 8,
+   "weight_t": 124.1,
+   "share_rows": 0.039,
+   "share_weight": 0.043,
+   "gw_named": true,
+   "rank": 9
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "Sunrise Metal Company",
+   "sayari_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "other_sayari_ids": [],
+   "shipments": 7,
+   "weight_t": 113.8,
+   "share_rows": 0.034,
+   "share_weight": 0.039,
+   "gw_named": true,
+   "rank": 10,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "Philbert Trading Minerals",
+   "sayari_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+   "other_sayari_ids": [],
+   "shipments": 3,
+   "weight_t": 36.1,
+   "share_rows": 0.015,
+   "share_weight": 0.012,
+   "gw_named": true,
+   "rank": 13,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "Space Mining",
+   "sayari_id": "DGREDQ68sKQBgvglvG7nhg",
+   "other_sayari_ids": [],
+   "shipments": 2,
+   "weight_t": 40.0,
+   "share_rows": 0.01,
+   "share_weight": 0.014,
+   "gw_named": true,
+   "rank": 15,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 64,
+   "weight_t": 857.1,
+   "share_rows": 0.314,
+   "share_weight": 0.295,
+   "gw_named": true,
+   "total_rows_year": 204,
+   "total_weight_t_year": 2906.0,
+   "distinct_exporters": 31
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "exporter_name": "EAST GROUP MINERALS LTD",
+   "sayari_id": "f4UQ4x1QLACAPKBYMyC5OQ",
+   "other_sayari_ids": [
+    "5kknyrn28CqViSraRhjhnw"
+   ],
+   "shipments": 35,
+   "weight_t": 539.9,
+   "share_rows": 0.289,
+   "share_weight": 0.296,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "exporter_name": "Rani Mining",
+   "sayari_id": "KMJ_GrAwF6ZiFOQSsMEbMQ",
+   "other_sayari_ids": [
+    "3Tk0n6n9sKMY6uT5D6SOVg"
+   ],
+   "shipments": 26,
+   "weight_t": 360.0,
+   "share_rows": 0.215,
+   "share_weight": 0.197,
+   "gw_named": true,
+   "rank": 2,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md",
+   "note": "Rani has no coltan rows before 2025-03-28 in this pull; Sayari has 5 name-variant IDs grouped here (name match only)."
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "exporter_name": "DERICK MINING LTD",
+   "sayari_id": "JKL_uMdnGHTFOZctThqPxA",
+   "other_sayari_ids": [],
+   "shipments": 11,
+   "weight_t": 112.7,
+   "share_rows": 0.091,
+   "share_weight": 0.062,
+   "gw_named": false,
+   "rank": 3
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "exporter_name": "TAWOTIN LTD",
+   "sayari_id": "OPLZQzwwKb1u-D0QIVfs1w",
+   "other_sayari_ids": [],
+   "shipments": 8,
+   "weight_t": 132.1,
+   "share_rows": 0.066,
+   "share_weight": 0.072,
+   "gw_named": false,
+   "rank": 4
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "exporter_name": "RH MINING SUPPORT LTD",
+   "sayari_id": "8fU5CXU5_nMIg-a7KfJ9pQ",
+   "other_sayari_ids": [
+    "_3jTr-_2dXQVsNP-eIN6uA"
+   ],
+   "shipments": 8,
+   "weight_t": 55.2,
+   "share_rows": 0.066,
+   "share_weight": 0.03,
+   "gw_named": false,
+   "rank": 5
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [],
+   "shipments": 6,
+   "weight_t": 71.8,
+   "share_rows": 0.05,
+   "share_weight": 0.039,
+   "gw_named": true,
+   "rank": 6
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [],
+   "shipments": 6,
+   "weight_t": 81.0,
+   "share_rows": 0.05,
+   "share_weight": 0.044,
+   "gw_named": true,
+   "rank": 7
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [],
+   "shipments": 5,
+   "weight_t": 31.7,
+   "share_rows": 0.041,
+   "share_weight": 0.017,
+   "gw_named": true,
+   "rank": 8
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "exporter_name": "Sunrise Metal Company",
+   "sayari_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "other_sayari_ids": [],
+   "shipments": 1,
+   "weight_t": 17.6,
+   "share_rows": 0.008,
+   "share_weight": 0.01,
+   "gw_named": true,
+   "rank": 14,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 44,
+   "weight_t": 562.0,
+   "share_rows": 0.364,
+   "share_weight": 0.308,
+   "gw_named": true,
+   "total_rows_year": 121,
+   "total_weight_t_year": 1823.3,
+   "distinct_exporters": 16
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "exporter_name": "RUTONGO MINES LTD",
+   "sayari_id": "nhmlDK0o3aPxdGLgNUDqEg",
+   "other_sayari_ids": [],
+   "shipments": 37,
+   "weight_t": 889.8,
+   "share_rows": 0.248,
+   "share_weight": 0.267,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [],
+   "shipments": 32,
+   "weight_t": 727.4,
+   "share_rows": 0.215,
+   "share_weight": 0.218,
+   "gw_named": true,
+   "rank": 2
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "exporter_name": "EAST GROUP MINERALS LTD",
+   "sayari_id": "f4UQ4x1QLACAPKBYMyC5OQ",
+   "other_sayari_ids": [],
+   "shipments": 22,
+   "weight_t": 464.2,
+   "share_rows": 0.148,
+   "share_weight": 0.139,
+   "gw_named": false,
+   "rank": 3
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "exporter_name": "PIRAN RWANDA LTD",
+   "sayari_id": "AW7I9rYKZiELpsn7Rncxmw",
+   "other_sayari_ids": [],
+   "shipments": 15,
+   "weight_t": 261.0,
+   "share_rows": 0.101,
+   "share_weight": 0.078,
+   "gw_named": false,
+   "rank": 4
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "exporter_name": "TWC MINERALS LTD",
+   "sayari_id": "pCMxO0b_38gBpU97d9uBiA",
+   "other_sayari_ids": [],
+   "shipments": 7,
+   "weight_t": 171.8,
+   "share_rows": 0.047,
+   "share_weight": 0.052,
+   "gw_named": false,
+   "rank": 5
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [
+    "bgwMxKrZlbw9UjIEZcpJ7A",
+    "usd0y6Lju9f28pW40Ti2vg"
+   ],
+   "shipments": 6,
+   "weight_t": 92.5,
+   "share_rows": 0.04,
+   "share_weight": 0.028,
+   "gw_named": true,
+   "rank": 6
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "exporter_name": "Sunrise Metal Company",
+   "sayari_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "other_sayari_ids": [],
+   "shipments": 5,
+   "weight_t": 125.5,
+   "share_rows": 0.034,
+   "share_weight": 0.038,
+   "gw_named": true,
+   "rank": 7,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [],
+   "shipments": 2,
+   "weight_t": 50.9,
+   "share_rows": 0.013,
+   "share_weight": 0.015,
+   "gw_named": true,
+   "rank": 14
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "exporter_name": "Philbert Trading Minerals",
+   "sayari_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+   "other_sayari_ids": [],
+   "shipments": 1,
+   "weight_t": 26.4,
+   "share_rows": 0.007,
+   "share_weight": 0.008,
+   "gw_named": true,
+   "rank": 18,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 46,
+   "weight_t": 1022.7,
+   "share_rows": 0.309,
+   "share_weight": 0.307,
+   "gw_named": true,
+   "total_rows_year": 149,
+   "total_weight_t_year": 3330.4,
+   "distinct_exporters": 19
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "RAW MINERAL RESOURCE CO.LTD",
+   "sayari_id": "yP0ysscYC3kiiXDl5J6-XA",
+   "other_sayari_ids": [],
+   "shipments": 30,
+   "weight_t": 1065.4,
+   "share_rows": 0.234,
+   "share_weight": 0.306,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "RUTONGO MINE LTD",
+   "sayari_id": "nhmlDK0o3aPxdGLgNUDqEg",
+   "other_sayari_ids": [
+    "2CGMtPLo3EYDVCTwtP5o4g"
+   ],
+   "shipments": 28,
+   "weight_t": 727.3,
+   "share_rows": 0.219,
+   "share_weight": 0.209,
+   "gw_named": false,
+   "rank": 2
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [],
+   "shipments": 26,
+   "weight_t": 629.1,
+   "share_rows": 0.203,
+   "share_weight": 0.181,
+   "gw_named": true,
+   "rank": 3
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "PIRAN RWANDA LTD",
+   "sayari_id": "AW7I9rYKZiELpsn7Rncxmw",
+   "other_sayari_ids": [],
+   "shipments": 6,
+   "weight_t": 148.7,
+   "share_rows": 0.047,
+   "share_weight": 0.043,
+   "gw_named": false,
+   "rank": 4
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "EAST GROUP MINERALS LTD",
+   "sayari_id": "f4UQ4x1QLACAPKBYMyC5OQ",
+   "other_sayari_ids": [],
+   "shipments": 6,
+   "weight_t": 151.7,
+   "share_rows": 0.047,
+   "share_weight": 0.044,
+   "gw_named": false,
+   "rank": 5
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [],
+   "shipments": 4,
+   "weight_t": 92.1,
+   "share_rows": 0.031,
+   "share_weight": 0.026,
+   "gw_named": true,
+   "rank": 6
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "Sunrise Metal Company",
+   "sayari_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "other_sayari_ids": [],
+   "shipments": 4,
+   "weight_t": 87.6,
+   "share_rows": 0.031,
+   "share_weight": 0.025,
+   "gw_named": true,
+   "rank": 7,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [],
+   "shipments": 4,
+   "weight_t": 103.0,
+   "share_rows": 0.031,
+   "share_weight": 0.03,
+   "gw_named": true,
+   "rank": 8
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "Philbert Trading Minerals",
+   "sayari_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+   "other_sayari_ids": [],
+   "shipments": 2,
+   "weight_t": 51.4,
+   "share_rows": 0.016,
+   "share_weight": 0.015,
+   "gw_named": true,
+   "rank": 12,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "Space Mining",
+   "sayari_id": "DGREDQ68sKQBgvglvG7nhg",
+   "other_sayari_ids": [],
+   "shipments": 1,
+   "weight_t": 12.0,
+   "share_rows": 0.008,
+   "share_weight": 0.003,
+   "gw_named": true,
+   "rank": 14,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 41,
+   "weight_t": 975.2,
+   "share_rows": 0.32,
+   "share_weight": 0.28,
+   "gw_named": true,
+   "total_rows_year": 128,
+   "total_weight_t_year": 3482.8,
+   "distinct_exporters": 19
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "RUTONGO MINE LTD",
+   "sayari_id": "nhmlDK0o3aPxdGLgNUDqEg",
+   "other_sayari_ids": [
+    "9djeOxShS7fzA9VuNpPCBQ"
+   ],
+   "shipments": 59,
+   "weight_t": 1272.5,
+   "share_rows": 0.167,
+   "share_weight": 0.14,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "LUNA SMELTER LTD",
+   "sayari_id": "Ut1eOZRNQeWRl20J87NJ5g",
+   "other_sayari_ids": [],
+   "shipments": 44,
+   "weight_t": 1577.4,
+   "share_rows": 0.124,
+   "share_weight": 0.174,
+   "gw_named": false,
+   "rank": 2
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "RAW MINERAL RESOURCE CO.LTD",
+   "sayari_id": "yP0ysscYC3kiiXDl5J6-XA",
+   "other_sayari_ids": [],
+   "shipments": 35,
+   "weight_t": 1185.6,
+   "share_rows": 0.099,
+   "share_weight": 0.131,
+   "gw_named": false,
+   "rank": 3
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "EAST GROUP MINERALS LTD",
+   "sayari_id": "f4UQ4x1QLACAPKBYMyC5OQ",
+   "other_sayari_ids": [
+    "QPq0CLV3M5-lPkjdekADMg"
+   ],
+   "shipments": 28,
+   "weight_t": 704.9,
+   "share_rows": 0.079,
+   "share_weight": 0.078,
+   "gw_named": false,
+   "rank": 4
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [
+    "aWvcNwF_YaUtJFiv6zlgWQ"
+   ],
+   "shipments": 22,
+   "weight_t": 540.4,
+   "share_rows": 0.062,
+   "share_weight": 0.06,
+   "gw_named": true,
+   "rank": 5
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [],
+   "shipments": 18,
+   "weight_t": 437.8,
+   "share_rows": 0.051,
+   "share_weight": 0.048,
+   "gw_named": true,
+   "rank": 7
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [
+    "tmsgTHNqN6FDcLoE_IhZWw"
+   ],
+   "shipments": 9,
+   "weight_t": 231.4,
+   "share_rows": 0.025,
+   "share_weight": 0.026,
+   "gw_named": true,
+   "rank": 11
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "Space Mining",
+   "sayari_id": "DGREDQ68sKQBgvglvG7nhg",
+   "other_sayari_ids": [],
+   "shipments": 7,
+   "weight_t": 185.1,
+   "share_rows": 0.02,
+   "share_weight": 0.02,
+   "gw_named": true,
+   "rank": 12,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "Philbert Trading Minerals",
+   "sayari_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+   "other_sayari_ids": [
+    "A_6KbbGki1L2qtboTxJ4HQ",
+    "I1XiqMrNAbtPM820zMHiXg"
+   ],
+   "shipments": 5,
+   "weight_t": 104.2,
+   "share_rows": 0.014,
+   "share_weight": 0.012,
+   "gw_named": true,
+   "rank": 15,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "Sunrise Metal Company",
+   "sayari_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "other_sayari_ids": [
+    "-Oz7DlAcu0gh1HzNdrIRhA"
+   ],
+   "shipments": 4,
+   "weight_t": 99.2,
+   "share_rows": 0.011,
+   "share_weight": 0.011,
+   "gw_named": true,
+   "rank": 18,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 65,
+   "weight_t": 1598.2,
+   "share_rows": 0.184,
+   "share_weight": 0.176,
+   "gw_named": true,
+   "total_rows_year": 354,
+   "total_weight_t_year": 9058.5,
+   "distinct_exporters": 45
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "EAST GROUP MINERALS LTD",
+   "sayari_id": "f4UQ4x1QLACAPKBYMyC5OQ",
+   "other_sayari_ids": [],
+   "shipments": 28,
+   "weight_t": 711.8,
+   "share_rows": 0.128,
+   "share_weight": 0.14,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "RUTONGO MINES LTD",
+   "sayari_id": "nhmlDK0o3aPxdGLgNUDqEg",
+   "other_sayari_ids": [],
+   "shipments": 24,
+   "weight_t": 502.5,
+   "share_rows": 0.11,
+   "share_weight": 0.099,
+   "gw_named": false,
+   "rank": 2
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [],
+   "shipments": 22,
+   "weight_t": 541.3,
+   "share_rows": 0.1,
+   "share_weight": 0.107,
+   "gw_named": true,
+   "rank": 3
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "MINERALS FUSION LTD",
+   "sayari_id": "vBsrPAmFcXo_3XdjwcEowQ",
+   "other_sayari_ids": [],
+   "shipments": 21,
+   "weight_t": 525.0,
+   "share_rows": 0.096,
+   "share_weight": 0.104,
+   "gw_named": false,
+   "rank": 4
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "RAW MINERAL RESOURCES COMPANY LTD",
+   "sayari_id": "xae00b3HUEBY5nLJtdp5Hg",
+   "other_sayari_ids": [],
+   "shipments": 12,
+   "weight_t": 305.4,
+   "share_rows": 0.055,
+   "share_weight": 0.06,
+   "gw_named": false,
+   "rank": 5
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [],
+   "shipments": 5,
+   "weight_t": 127.4,
+   "share_rows": 0.023,
+   "share_weight": 0.025,
+   "gw_named": true,
+   "rank": 13
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [],
+   "shipments": 3,
+   "weight_t": 36.3,
+   "share_rows": 0.014,
+   "share_weight": 0.007,
+   "gw_named": true,
+   "rank": 18
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "Philbert Trading Minerals",
+   "sayari_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+   "other_sayari_ids": [],
+   "shipments": 1,
+   "weight_t": 25.0,
+   "share_rows": 0.005,
+   "share_weight": 0.005,
+   "gw_named": true,
+   "rank": 27,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "Sunrise Metal Company",
+   "sayari_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "other_sayari_ids": [],
+   "shipments": 1,
+   "weight_t": 17.6,
+   "share_rows": 0.005,
+   "share_weight": 0.003,
+   "gw_named": true,
+   "rank": 28,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "Rani Mining",
+   "sayari_id": "KMJ_GrAwF6ZiFOQSsMEbMQ",
+   "other_sayari_ids": [],
+   "shipments": 1,
+   "weight_t": 10.2,
+   "share_rows": 0.005,
+   "share_weight": 0.002,
+   "gw_named": true,
+   "rank": 32,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md",
+   "note": "Rani has no coltan rows before 2025-03-28 in this pull; Sayari has 5 name-variant IDs grouped here (name match only)."
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 33,
+   "weight_t": 757.8,
+   "share_rows": 0.151,
+   "share_weight": 0.149,
+   "gw_named": true,
+   "total_rows_year": 219,
+   "total_weight_t_year": 5072.0,
+   "distinct_exporters": 39
+  },
+  {
+   "hs_code": "261100",
+   "year": 2020,
+   "exporter_name": "NOBLE RESOURCES INTERNATIONAL PTE LTD",
+   "sayari_id": "6WTY2iUeJBCc40sNeICJjg",
+   "other_sayari_ids": [],
+   "shipments": 10,
+   "weight_t": 254.8,
+   "share_rows": 0.667,
+   "share_weight": 0.601,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "261100",
+   "year": 2020,
+   "exporter_name": "HALCYON INC",
+   "sayari_id": "8eW5KQNdwT7LoG9R3s75kA",
+   "other_sayari_ids": [],
+   "shipments": 5,
+   "weight_t": 169.3,
+   "share_rows": 0.333,
+   "share_weight": 0.399,
+   "gw_named": false,
+   "rank": 2
+  },
+  {
+   "hs_code": "261100",
+   "year": 2020,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 0,
+   "weight_t": 0.0,
+   "share_rows": 0.0,
+   "share_weight": 0.0,
+   "gw_named": true,
+   "total_rows_year": 15,
+   "total_weight_t_year": 424.1,
+   "distinct_exporters": 2
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "exporter_name": "HALCYON INC",
+   "sayari_id": "8eW5KQNdwT7LoG9R3s75kA",
+   "other_sayari_ids": [],
+   "shipments": 39,
+   "weight_t": 862.7,
+   "share_rows": 0.464,
+   "share_weight": 0.484,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "exporter_name": "TRINITY NYAKABINGO MINE LTD",
+   "sayari_id": "1awrVq-pjDKIkIaAmk01AQ",
+   "other_sayari_ids": [
+    "QCXnL-T66hhLWWLVq1d_QQ"
+   ],
+   "shipments": 8,
+   "weight_t": 192.6,
+   "share_rows": 0.095,
+   "share_weight": 0.108,
+   "gw_named": false,
+   "rank": 2
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [],
+   "shipments": 7,
+   "weight_t": 169.2,
+   "share_rows": 0.083,
+   "share_weight": 0.095,
+   "gw_named": true,
+   "rank": 3
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [
+    "yIAOtoB7tX4eQYG4bnO11A"
+   ],
+   "shipments": 6,
+   "weight_t": 134.0,
+   "share_rows": 0.071,
+   "share_weight": 0.075,
+   "gw_named": true,
+   "rank": 4
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "exporter_name": "Sunrise Metal Company",
+   "sayari_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "other_sayari_ids": [],
+   "shipments": 6,
+   "weight_t": 96.5,
+   "share_rows": 0.071,
+   "share_weight": 0.054,
+   "gw_named": true,
+   "rank": 5,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "exporter_name": "Philbert Trading Minerals",
+   "sayari_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+   "other_sayari_ids": [
+    "A_6KbbGki1L2qtboTxJ4HQ"
+   ],
+   "shipments": 3,
+   "weight_t": 60.4,
+   "share_rows": 0.036,
+   "share_weight": 0.034,
+   "gw_named": true,
+   "rank": 8,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [
+    "TPgxRuPKMVc8AN1zrKAKrg"
+   ],
+   "shipments": 2,
+   "weight_t": 48.9,
+   "share_rows": 0.024,
+   "share_weight": 0.027,
+   "gw_named": true,
+   "rank": 9
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 24,
+   "weight_t": 509.0,
+   "share_rows": 0.286,
+   "share_weight": 0.286,
+   "gw_named": true,
+   "total_rows_year": 84,
+   "total_weight_t_year": 1780.7,
+   "distinct_exporters": 14
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "exporter_name": "TRINITY NYAKABINGO MINE LTD",
+   "sayari_id": "i8S1NHEFxPnL94FD6JUM-Q",
+   "other_sayari_ids": [],
+   "shipments": 47,
+   "weight_t": 1131.6,
+   "share_rows": 0.495,
+   "share_weight": 0.546,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [
+    "TPgxRuPKMVc8AN1zrKAKrg"
+   ],
+   "shipments": 18,
+   "weight_t": 441.7,
+   "share_rows": 0.189,
+   "share_weight": 0.213,
+   "gw_named": true,
+   "rank": 2
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [],
+   "shipments": 9,
+   "weight_t": 177.1,
+   "share_rows": 0.095,
+   "share_weight": 0.085,
+   "gw_named": true,
+   "rank": 3
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "exporter_name": "NEW BUGARAMA MINING COMPANY LTD",
+   "sayari_id": "Een04A2rWthnNOCZsgxmQQ",
+   "other_sayari_ids": [],
+   "shipments": 6,
+   "weight_t": 66.0,
+   "share_rows": 0.063,
+   "share_weight": 0.032,
+   "gw_named": false,
+   "rank": 4
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "exporter_name": "HALCYON INC",
+   "sayari_id": "8eW5KQNdwT7LoG9R3s75kA",
+   "other_sayari_ids": [],
+   "shipments": 2,
+   "weight_t": 0.0,
+   "share_rows": 0.021,
+   "share_weight": 0.0,
+   "gw_named": false,
+   "rank": 5
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [],
+   "shipments": 2,
+   "weight_t": 51.3,
+   "share_rows": 0.021,
+   "share_weight": 0.025,
+   "gw_named": true,
+   "rank": 6
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "exporter_name": "Space Mining",
+   "sayari_id": "DGREDQ68sKQBgvglvG7nhg",
+   "other_sayari_ids": [],
+   "shipments": 2,
+   "weight_t": 15.8,
+   "share_rows": 0.021,
+   "share_weight": 0.008,
+   "gw_named": true,
+   "rank": 7,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "exporter_name": "Sunrise Metal Company",
+   "sayari_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "other_sayari_ids": [],
+   "shipments": 1,
+   "weight_t": 25.4,
+   "share_rows": 0.011,
+   "share_weight": 0.012,
+   "gw_named": true,
+   "rank": 14,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 32,
+   "weight_t": 711.3,
+   "share_rows": 0.337,
+   "share_weight": 0.343,
+   "gw_named": true,
+   "total_rows_year": 95,
+   "total_weight_t_year": 2074.3,
+   "distinct_exporters": 15
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "exporter_name": "TRINITY NYAKABINGO MINE LTD",
+   "sayari_id": "i8S1NHEFxPnL94FD6JUM-Q",
+   "other_sayari_ids": [
+    "1awrVq-pjDKIkIaAmk01AQ",
+    "Ah93H45vGc2fziO1wBOHoA",
+    "JSxzqkr2n3HDFcQWOaUBDw",
+    "15L9KuNuu5lidGQVjSohsw",
+    "inUCxiuzZQ3PLk_dapXe_A",
+    "qGHQ6iY23gyShl06HyK7uA"
+   ],
+   "shipments": 76,
+   "weight_t": 1829.1,
+   "share_rows": 0.291,
+   "share_weight": 0.332,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "exporter_name": "BETTER OFF EQUIPMENT AND SOLUTIONS",
+   "sayari_id": "A4vRjTdY_xgR31hulxqS-A",
+   "other_sayari_ids": [
+    "40_Fkp-OqLbgx882p3i98w"
+   ],
+   "shipments": 34,
+   "weight_t": 660.5,
+   "share_rows": 0.13,
+   "share_weight": 0.12,
+   "gw_named": false,
+   "rank": 2
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [
+    "tmsgTHNqN6FDcLoE_IhZWw",
+    "f-y4oSFnpN-IVltS2CN3VQ"
+   ],
+   "shipments": 24,
+   "weight_t": 493.5,
+   "share_rows": 0.092,
+   "share_weight": 0.09,
+   "gw_named": true,
+   "rank": 3
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "exporter_name": "TAWOTIN LTD",
+   "sayari_id": "OPLZQzwwKb1u-D0QIVfs1w",
+   "other_sayari_ids": [],
+   "shipments": 20,
+   "weight_t": 368.9,
+   "share_rows": 0.077,
+   "share_weight": 0.067,
+   "gw_named": false,
+   "rank": 4
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "exporter_name": "HILLSIDE MINING COMPANY LTD",
+   "sayari_id": "ljTeEOJXxOOimlbTQFxBeg",
+   "other_sayari_ids": [],
+   "shipments": 20,
+   "weight_t": 378.1,
+   "share_rows": 0.077,
+   "share_weight": 0.069,
+   "gw_named": false,
+   "rank": 5
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [
+    "CJaJLXD8IfsHNDdqN_LDaA"
+   ],
+   "shipments": 17,
+   "weight_t": 433.9,
+   "share_rows": 0.065,
+   "share_weight": 0.079,
+   "gw_named": true,
+   "rank": 6
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [],
+   "shipments": 6,
+   "weight_t": 146.7,
+   "share_rows": 0.023,
+   "share_weight": 0.027,
+   "gw_named": true,
+   "rank": 9
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "exporter_name": "Rani Mining",
+   "sayari_id": "KMJ_GrAwF6ZiFOQSsMEbMQ",
+   "other_sayari_ids": [
+    "riuK7DramGj0ryuSwOrs0Q"
+   ],
+   "shipments": 5,
+   "weight_t": 64.9,
+   "share_rows": 0.019,
+   "share_weight": 0.012,
+   "gw_named": true,
+   "rank": 11,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md",
+   "note": "Rani has no coltan rows before 2025-03-28 in this pull; Sayari has 5 name-variant IDs grouped here (name match only)."
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "exporter_name": "Philbert Trading Minerals",
+   "sayari_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+   "other_sayari_ids": [],
+   "shipments": 4,
+   "weight_t": 60.9,
+   "share_rows": 0.015,
+   "share_weight": 0.011,
+   "gw_named": true,
+   "rank": 12,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md"
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 56,
+   "weight_t": 1199.9,
+   "share_rows": 0.215,
+   "share_weight": 0.218,
+   "gw_named": true,
+   "total_rows_year": 261,
+   "total_weight_t_year": 5507.0,
+   "distinct_exporters": 32
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "exporter_name": "TRINITY NYAKABINGO MINE LTD",
+   "sayari_id": "1awrVq-pjDKIkIaAmk01AQ",
+   "other_sayari_ids": [
+    "i8S1NHEFxPnL94FD6JUM-Q",
+    "qGHQ6iY23gyShl06HyK7uA"
+   ],
+   "shipments": 40,
+   "weight_t": 895.1,
+   "share_rows": 0.25,
+   "share_weight": 0.286,
+   "gw_named": false,
+   "rank": 1
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "exporter_name": "Rani Mining",
+   "sayari_id": "KMJ_GrAwF6ZiFOQSsMEbMQ",
+   "other_sayari_ids": [
+    "riuK7DramGj0ryuSwOrs0Q"
+   ],
+   "shipments": 26,
+   "weight_t": 609.9,
+   "share_rows": 0.163,
+   "share_weight": 0.195,
+   "gw_named": true,
+   "rank": 2,
+   "match_confidence": "low (name + country + trade route; no identifiers) - see CORRECTIONS.md",
+   "note": "Rani has no coltan rows before 2025-03-28 in this pull; Sayari has 5 name-variant IDs grouped here (name match only)."
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "exporter_name": "Kanzamin",
+   "sayari_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "other_sayari_ids": [
+    "hGy5EzWFioOSSOMLyDTJPQ",
+    "f-y4oSFnpN-IVltS2CN3VQ",
+    "2X_Id5phibK0l5VVj9x4Pg"
+   ],
+   "shipments": 18,
+   "weight_t": 281.7,
+   "share_rows": 0.113,
+   "share_weight": 0.09,
+   "gw_named": true,
+   "rank": 3
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "exporter_name": "African Panther Resources",
+   "sayari_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "other_sayari_ids": [],
+   "shipments": 17,
+   "weight_t": 288.1,
+   "share_rows": 0.106,
+   "share_weight": 0.092,
+   "gw_named": true,
+   "rank": 4
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "exporter_name": "Boss Mining Solution",
+   "sayari_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "other_sayari_ids": [],
+   "shipments": 13,
+   "weight_t": 278.5,
+   "share_rows": 0.081,
+   "share_weight": 0.089,
+   "gw_named": true,
+   "rank": 5
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "exporter_name": "ALL SEVEN GW-NAMED EXPORTERS (combined)",
+   "sayari_id": null,
+   "shipments": 74,
+   "weight_t": 1458.1,
+   "share_rows": 0.463,
+   "share_weight": 0.466,
+   "gw_named": true,
+   "total_rows_year": 160,
+   "total_weight_t_year": 3127.3,
+   "distinct_exporters": 20
+  }
+ ],
+ "destinations_note": "basis=arrival_country is the customs arrival field. basis=buyer_domicile_by_name classifies the consignee by name: ARE = Halcyon Inc (Dubai JLT), Minterra/Miterra FZC, Novacore/Novascore FZE, Saiko General Trading LLC-FZ and other FZC/FZE/DMCC names; HKG = East Rise, Hong Kong Minetraco variants, Specialty Metals Resources Ltd (HK), Halo Moon, Haipu; CHN = Chinese-named companies; LUX = Traxys. UAE-domiciled buyers mostly route cargo to China (arrival CHN), so the arrival-country view understates the UAE role.",
+ "destinations": [
+  {
+   "hs_code": "261590",
+   "year": 2020,
+   "basis": "arrival_country",
+   "buyer_country": "VNM",
+   "shipments": 3,
+   "weight_t": 45.7,
+   "share_rows": 1.0
+  },
+  {
+   "hs_code": "261590",
+   "year": 2020,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 3,
+   "weight_t": 45.7,
+   "share_rows": 1.0
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 17,
+   "weight_t": 329.5,
+   "share_rows": 0.386
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 13,
+   "weight_t": 143.6,
+   "share_rows": 0.295
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "HKG",
+   "shipments": 10,
+   "weight_t": 159.9,
+   "share_rows": 0.227
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 2,
+   "weight_t": 24.2,
+   "share_rows": 0.045
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "KAZ",
+   "shipments": 2,
+   "weight_t": 52.8,
+   "share_rows": 0.045
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 19,
+   "weight_t": 272.2,
+   "share_rows": 0.432
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 15,
+   "weight_t": 255.7,
+   "share_rows": 0.341
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 6,
+   "weight_t": 126.3,
+   "share_rows": 0.136
+  },
+  {
+   "hs_code": "261590",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 4,
+   "weight_t": 55.9,
+   "share_rows": 0.091
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 46,
+   "weight_t": 810.4,
+   "share_rows": 0.535
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 19,
+   "weight_t": 234.5,
+   "share_rows": 0.221
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "HKG",
+   "shipments": 9,
+   "weight_t": 172.3,
+   "share_rows": 0.105
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 5,
+   "weight_t": 80.4,
+   "share_rows": 0.058
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "THA",
+   "shipments": 2,
+   "weight_t": 36.6,
+   "share_rows": 0.023
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "MYS",
+   "shipments": 2,
+   "weight_t": 44.3,
+   "share_rows": 0.023
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "NLD",
+   "shipments": 2,
+   "weight_t": 30.6,
+   "share_rows": 0.023
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "TZA",
+   "shipments": 1,
+   "weight_t": 0.5,
+   "share_rows": 0.012
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 41,
+   "weight_t": 652.8,
+   "share_rows": 0.477
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 16,
+   "weight_t": 256.3,
+   "share_rows": 0.186
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 15,
+   "weight_t": 252.0,
+   "share_rows": 0.174
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 10,
+   "weight_t": 175.7,
+   "share_rows": 0.116
+  },
+  {
+   "hs_code": "261590",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "HKG",
+   "shipments": 4,
+   "weight_t": 72.8,
+   "share_rows": 0.047
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 135,
+   "weight_t": 2028.2,
+   "share_rows": 0.662
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 36,
+   "weight_t": 425.7,
+   "share_rows": 0.176
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 13,
+   "weight_t": 122.9,
+   "share_rows": 0.064
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "HKG",
+   "shipments": 9,
+   "weight_t": 148.0,
+   "share_rows": 0.044
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "MYS",
+   "shipments": 5,
+   "weight_t": 80.7,
+   "share_rows": 0.025
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "JPN",
+   "shipments": 3,
+   "weight_t": 38.6,
+   "share_rows": 0.015
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "TZA",
+   "shipments": 1,
+   "weight_t": 21.0,
+   "share_rows": 0.005
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "BEL",
+   "shipments": 1,
+   "weight_t": 25.0,
+   "share_rows": 0.005
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "SGP",
+   "shipments": 1,
+   "weight_t": 16.0,
+   "share_rows": 0.005
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 125,
+   "weight_t": 1747.8,
+   "share_rows": 0.613
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 22,
+   "weight_t": 246.8,
+   "share_rows": 0.108
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 21,
+   "weight_t": 349.1,
+   "share_rows": 0.103
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 20,
+   "weight_t": 320.6,
+   "share_rows": 0.098
+  },
+  {
+   "hs_code": "261590",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "HKG",
+   "shipments": 16,
+   "weight_t": 241.6,
+   "share_rows": 0.078
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 91,
+   "weight_t": 1198.7,
+   "share_rows": 0.752
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 16,
+   "weight_t": 206.1,
+   "share_rows": 0.132
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "JPN",
+   "shipments": 5,
+   "weight_t": 84.8,
+   "share_rows": 0.041
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "MYS",
+   "shipments": 4,
+   "weight_t": 53.3,
+   "share_rows": 0.033
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "GBR",
+   "shipments": 4,
+   "weight_t": 201.0,
+   "share_rows": 0.033
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "KHM",
+   "shipments": 1,
+   "weight_t": 79.4,
+   "share_rows": 0.008
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 77,
+   "weight_t": 1059.1,
+   "share_rows": 0.636
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 19,
+   "weight_t": 221.4,
+   "share_rows": 0.157
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 13,
+   "weight_t": 412.5,
+   "share_rows": 0.107
+  },
+  {
+   "hs_code": "261590",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "HKG",
+   "shipments": 12,
+   "weight_t": 130.4,
+   "share_rows": 0.099
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 39,
+   "weight_t": 805.6,
+   "share_rows": 0.262
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "THA",
+   "shipments": 27,
+   "weight_t": 654.4,
+   "share_rows": 0.181
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "HKG",
+   "shipments": 20,
+   "weight_t": 474.3,
+   "share_rows": 0.134
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "SGP",
+   "shipments": 17,
+   "weight_t": 378.6,
+   "share_rows": 0.114
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 17,
+   "weight_t": 358.0,
+   "share_rows": 0.114
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "MYS",
+   "shipments": 16,
+   "weight_t": 348.7,
+   "share_rows": 0.107
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 8,
+   "weight_t": 184.5,
+   "share_rows": 0.054
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "BEL",
+   "shipments": 3,
+   "weight_t": 76.4,
+   "share_rows": 0.02
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "IND",
+   "shipments": 1,
+   "weight_t": 24.9,
+   "share_rows": 0.007
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "USA",
+   "shipments": 1,
+   "weight_t": 25.0,
+   "share_rows": 0.007
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 84,
+   "weight_t": 1944.3,
+   "share_rows": 0.564
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 40,
+   "weight_t": 831.1,
+   "share_rows": 0.268
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 21,
+   "weight_t": 455.2,
+   "share_rows": 0.141
+  },
+  {
+   "hs_code": "260900",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 4,
+   "weight_t": 99.8,
+   "share_rows": 0.027
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "THA",
+   "shipments": 65,
+   "weight_t": 1914.0,
+   "share_rows": 0.508
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 18,
+   "weight_t": 415.8,
+   "share_rows": 0.141
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 16,
+   "weight_t": 389.6,
+   "share_rows": 0.125
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "SGP",
+   "shipments": 14,
+   "weight_t": 387.5,
+   "share_rows": 0.109
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 9,
+   "weight_t": 229.6,
+   "share_rows": 0.07
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "MYS",
+   "shipments": 4,
+   "weight_t": 98.1,
+   "share_rows": 0.031
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "COD",
+   "shipments": 1,
+   "weight_t": 24.2,
+   "share_rows": 0.008
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "BEL",
+   "shipments": 1,
+   "weight_t": 24.0,
+   "share_rows": 0.008
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 41,
+   "weight_t": 1049.5,
+   "share_rows": 0.32
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 33,
+   "weight_t": 795.2,
+   "share_rows": 0.258
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "THA",
+   "shipments": 30,
+   "weight_t": 1065.4,
+   "share_rows": 0.234
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 16,
+   "weight_t": 398.1,
+   "share_rows": 0.125
+  },
+  {
+   "hs_code": "260900",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 8,
+   "weight_t": 174.6,
+   "share_rows": 0.062
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 82,
+   "weight_t": 1988.6,
+   "share_rows": 0.232
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "THA",
+   "shipments": 82,
+   "weight_t": 2326.3,
+   "share_rows": 0.232
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "MYS",
+   "shipments": 54,
+   "weight_t": 1345.5,
+   "share_rows": 0.153
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 53,
+   "weight_t": 859.8,
+   "share_rows": 0.15
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "KHM",
+   "shipments": 44,
+   "weight_t": 1582.0,
+   "share_rows": 0.124
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 14,
+   "weight_t": 339.7,
+   "share_rows": 0.04
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "HKG",
+   "shipments": 10,
+   "weight_t": 248.6,
+   "share_rows": 0.028
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "SGP",
+   "shipments": 7,
+   "weight_t": 173.5,
+   "share_rows": 0.02
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "BEL",
+   "shipments": 3,
+   "weight_t": 73.9,
+   "share_rows": 0.008
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "JPN",
+   "shipments": 2,
+   "weight_t": 50.0,
+   "share_rows": 0.006
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "VNM",
+   "shipments": 1,
+   "weight_t": 25.3,
+   "share_rows": 0.003
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "LVA",
+   "shipments": 1,
+   "weight_t": 25.3,
+   "share_rows": 0.003
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "CAN",
+   "shipments": 1,
+   "weight_t": 20.0,
+   "share_rows": 0.003
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 111,
+   "weight_t": 3232.8,
+   "share_rows": 0.314
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 85,
+   "weight_t": 1612.9,
+   "share_rows": 0.24
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 63,
+   "weight_t": 1554.0,
+   "share_rows": 0.178
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "THA",
+   "shipments": 38,
+   "weight_t": 1287.1,
+   "share_rows": 0.107
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 37,
+   "weight_t": 874.6,
+   "share_rows": 0.105
+  },
+  {
+   "hs_code": "260900",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "HKG",
+   "shipments": 20,
+   "weight_t": 497.2,
+   "share_rows": 0.056
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 92,
+   "weight_t": 2232.5,
+   "share_rows": 0.42
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "THA",
+   "shipments": 52,
+   "weight_t": 1221.0,
+   "share_rows": 0.237
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 21,
+   "weight_t": 339.1,
+   "share_rows": 0.096
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "MYS",
+   "shipments": 21,
+   "weight_t": 519.3,
+   "share_rows": 0.096
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "SGP",
+   "shipments": 14,
+   "weight_t": 348.8,
+   "share_rows": 0.064
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "TZA",
+   "shipments": 6,
+   "weight_t": 125.9,
+   "share_rows": 0.027
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 4,
+   "weight_t": 67.0,
+   "share_rows": 0.018
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "JPN",
+   "shipments": 4,
+   "weight_t": 94.6,
+   "share_rows": 0.018
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "GBR",
+   "shipments": 2,
+   "weight_t": 42.2,
+   "share_rows": 0.009
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "BEL",
+   "shipments": 1,
+   "weight_t": 24.4,
+   "share_rows": 0.005
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "HKG",
+   "shipments": 1,
+   "weight_t": 7.1,
+   "share_rows": 0.005
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "KHM",
+   "shipments": 1,
+   "weight_t": 50.0,
+   "share_rows": 0.005
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 94,
+   "weight_t": 2320.5,
+   "share_rows": 0.429
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 53,
+   "weight_t": 973.2,
+   "share_rows": 0.242
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 38,
+   "weight_t": 918.4,
+   "share_rows": 0.174
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "THA",
+   "shipments": 15,
+   "weight_t": 435.0,
+   "share_rows": 0.068
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 11,
+   "weight_t": 263.1,
+   "share_rows": 0.05
+  },
+  {
+   "hs_code": "260900",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "HKG",
+   "shipments": 8,
+   "weight_t": 161.8,
+   "share_rows": 0.037
+  },
+  {
+   "hs_code": "261100",
+   "year": 2020,
+   "basis": "arrival_country",
+   "buyer_country": "VNM",
+   "shipments": 15,
+   "weight_t": 424.1,
+   "share_rows": 1.0
+  },
+  {
+   "hs_code": "261100",
+   "year": 2020,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 15,
+   "weight_t": 424.1,
+   "share_rows": 1.0
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "VNM",
+   "shipments": 41,
+   "weight_t": 876.3,
+   "share_rows": 0.488
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 18,
+   "weight_t": 390.7,
+   "share_rows": 0.214
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 12,
+   "weight_t": 239.6,
+   "share_rows": 0.143
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "HKG",
+   "shipments": 7,
+   "weight_t": 133.3,
+   "share_rows": 0.083
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 5,
+   "weight_t": 120.7,
+   "share_rows": 0.06
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "basis": "arrival_country",
+   "buyer_country": "BEL",
+   "shipments": 1,
+   "weight_t": 20.0,
+   "share_rows": 0.012
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 51,
+   "weight_t": 1065.6,
+   "share_rows": 0.607
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 19,
+   "weight_t": 417.3,
+   "share_rows": 0.226
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 9,
+   "weight_t": 217.0,
+   "share_rows": 0.107
+  },
+  {
+   "hs_code": "261100",
+   "year": 2023,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 5,
+   "weight_t": 80.8,
+   "share_rows": 0.06
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 25,
+   "weight_t": 605.2,
+   "share_rows": 0.263
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 23,
+   "weight_t": 506.2,
+   "share_rows": 0.242
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "NLD",
+   "shipments": 15,
+   "weight_t": 360.4,
+   "share_rows": 0.158
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "HKG",
+   "shipments": 15,
+   "weight_t": 233.2,
+   "share_rows": 0.158
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "THA",
+   "shipments": 8,
+   "weight_t": 193.7,
+   "share_rows": 0.084
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 6,
+   "weight_t": 150.9,
+   "share_rows": 0.063
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "VNM",
+   "shipments": 2,
+   "weight_t": 0.0,
+   "share_rows": 0.021
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "arrival_country",
+   "buyer_country": "SGP",
+   "shipments": 1,
+   "weight_t": 24.7,
+   "share_rows": 0.011
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 66,
+   "weight_t": 1596.7,
+   "share_rows": 0.695
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 13,
+   "weight_t": 177.8,
+   "share_rows": 0.137
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 6,
+   "weight_t": 150.9,
+   "share_rows": 0.063
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 5,
+   "weight_t": 65.2,
+   "share_rows": 0.053
+  },
+  {
+   "hs_code": "261100",
+   "year": 2024,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "HKG",
+   "shipments": 5,
+   "weight_t": 83.7,
+   "share_rows": 0.053
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 63,
+   "weight_t": 1287.0,
+   "share_rows": 0.241
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 49,
+   "weight_t": 1137.1,
+   "share_rows": 0.188
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "TZA",
+   "shipments": 40,
+   "weight_t": 934.5,
+   "share_rows": 0.153
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 28,
+   "weight_t": 625.0,
+   "share_rows": 0.107
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "HKG",
+   "shipments": 25,
+   "weight_t": 374.5,
+   "share_rows": 0.096
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "VNM",
+   "shipments": 17,
+   "weight_t": 295.8,
+   "share_rows": 0.065
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "MYS",
+   "shipments": 15,
+   "weight_t": 302.2,
+   "share_rows": 0.057
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "JPN",
+   "shipments": 8,
+   "weight_t": 142.9,
+   "share_rows": 0.031
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "USA",
+   "shipments": 7,
+   "weight_t": 168.8,
+   "share_rows": 0.027
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "THA",
+   "shipments": 3,
+   "weight_t": 68.3,
+   "share_rows": 0.011
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "SGP",
+   "shipments": 2,
+   "weight_t": 49.3,
+   "share_rows": 0.008
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "IND",
+   "shipments": 2,
+   "weight_t": 46.5,
+   "share_rows": 0.008
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "arrival_country",
+   "buyer_country": "GBR",
+   "shipments": 2,
+   "weight_t": 75.0,
+   "share_rows": 0.008
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 92,
+   "weight_t": 2158.3,
+   "share_rows": 0.352
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 61,
+   "weight_t": 1331.1,
+   "share_rows": 0.234
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 54,
+   "weight_t": 1019.9,
+   "share_rows": 0.207
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "HKG",
+   "shipments": 31,
+   "weight_t": 523.2,
+   "share_rows": 0.119
+  },
+  {
+   "hs_code": "261100",
+   "year": 2025,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 23,
+   "weight_t": 474.4,
+   "share_rows": 0.088
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "CHN",
+   "shipments": 29,
+   "weight_t": 741.4,
+   "share_rows": 0.181
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "ARE",
+   "shipments": 26,
+   "weight_t": 446.6,
+   "share_rows": 0.163
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "TZA",
+   "shipments": 23,
+   "weight_t": 487.1,
+   "share_rows": 0.144
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "USA",
+   "shipments": 20,
+   "weight_t": 427.6,
+   "share_rows": 0.125
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "HKG",
+   "shipments": 20,
+   "weight_t": 319.0,
+   "share_rows": 0.125
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "LUX",
+   "shipments": 11,
+   "weight_t": 191.1,
+   "share_rows": 0.069
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "MYS",
+   "shipments": 10,
+   "weight_t": 169.8,
+   "share_rows": 0.062
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "VNM",
+   "shipments": 8,
+   "weight_t": 122.8,
+   "share_rows": 0.05
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "JPN",
+   "shipments": 5,
+   "weight_t": 87.3,
+   "share_rows": 0.031
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "THA",
+   "shipments": 3,
+   "weight_t": 69.1,
+   "share_rows": 0.019
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "GBR",
+   "shipments": 3,
+   "weight_t": 31.2,
+   "share_rows": 0.019
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "AUT",
+   "shipments": 1,
+   "weight_t": 23.7,
+   "share_rows": 0.006
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "arrival_country",
+   "buyer_country": "SGP",
+   "shipments": 1,
+   "weight_t": 10.5,
+   "share_rows": 0.006
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "LUX (Traxys)",
+   "shipments": 50,
+   "weight_t": 1020.3,
+   "share_rows": 0.312
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "ARE",
+   "shipments": 48,
+   "weight_t": 782.8,
+   "share_rows": 0.3
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "other/unclassified",
+   "shipments": 48,
+   "weight_t": 1101.9,
+   "share_rows": 0.3
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "HKG",
+   "shipments": 12,
+   "weight_t": 179.0,
+   "share_rows": 0.075
+  },
+  {
+   "hs_code": "261100",
+   "year": 2026,
+   "basis": "buyer_domicile_by_name",
+   "buyer_country": "CHN",
+   "shipments": 2,
+   "weight_t": 43.3,
+   "share_rows": 0.013
+  }
+ ],
+ "gold": [
+  {
+   "kind": "export_row",
+   "date": "2020-07-03",
+   "shipper": "ALDANGO LTD",
+   "shipper_id": "gTxGqOcFYGkUVJh_L9Q3pA",
+   "buyer": "NIL KIYMETLI MADENLER TICARETI ANONIM SIRKETI",
+   "buyer_id": "yKLUbGdoWjsRvUqJZ4bqZA",
+   "buyer_country": "TUR",
+   "hs": "710812",
+   "weight_kg": 543.79,
+   "source": "Turkey Imports & Exports (January 2019 - September 2024)",
+   "shipment_id": "AV-RXrEHS9fP-HjU-57LJw",
+   "buyer_entity_url": "https://graph.sayari.com/resource/entity/yKLUbGdoWjsRvUqJZ4bqZA",
+   "note": "Only HS 7108 row departing RWA, 2020-2026. Buyer carries sanctioned_adjacent / export_controls_adjacent flags (network proximity, not a designation). Before both listings."
+  },
+  {
+   "kind": "gasabo_outbound",
+   "entity_id": "i0CKJhgvHKympxUfQw1BUA",
+   "entity_url": "https://graph.sayari.com/resource/entity/i0CKJhgvHKympxUfQw1BUA",
+   "result": "No outbound shipment rows for Gasabo Gold Refinery as shipper, any HS, any date. No gold buyers can be named from Sayari before or after the EU listing (17 Mar 2025) or the OFAC listing (25 Jun 2026)."
+  },
+  {
+   "kind": "gasabo_inbound",
+   "buyer": "Gasabo Gold Refinery",
+   "buyer_id": "i0CKJhgvHKympxUfQw1BUA",
+   "supplier": "BRENNTAG SPA",
+   "supplier_id": "4MHLmT-aZLwLh0y3oC_L_Q",
+   "rows": 6,
+   "dates": [
+    "2024-07-13 (3 rows, departure UGA: hydrochloric acid, caustic soda, sulphites)",
+    "2024-09-04 (3 rows, departure ESP: nitric acid, hydrochloric acid x2)"
+   ],
+   "sources": [
+    "Uganda Imports & Exports (January 2023 - Present)",
+    "Tanzania Imports & Exports (January 2023 - Present)"
+   ],
+   "note": "Refining reagents (HS 2806/2808/2815/2832). All before the EU and OFAC listings."
+  },
+  {
+   "kind": "gasabo_inbound",
+   "buyer": "Gasabo Gold Refinery",
+   "buyer_id": "i0CKJhgvHKympxUfQw1BUA",
+   "supplier": "BRENNTAG S.P.A (Uganda-side record)",
+   "supplier_id": "7DdAM4l2JEV280gvLN6JQg",
+   "rows": 2,
+   "dates": [
+    "2023-08-11 (nitric acid, hydrochloric acid; departure UGA)"
+   ],
+   "note": "Probably the same Brenntag SpA as above (Italian legal address in the name field); kept separate because Sayari splits them. No inbound rows after 2024-09-04."
+  },
+  {
+   "kind": "gold_into_rwanda",
+   "rows": 4,
+   "departure": [
+    "TUR x2",
+    "CHN",
+    "TZA"
+   ],
+   "first": "2020-11-25",
+   "last": "2026-05-03",
+   "note": "HS 7108 rows arriving in RWA (facet counts only, not inspected). No DRC or Uganda departures appear."
+  },
+  {
+   "kind": "text_search",
+   "query": "gold, departure RWA",
+   "rows": 135,
+   "note": "Matches are mostly tea (HS 0902), tin metal (8001) and palm oil: no gold bullion rows. Text search is not a substitute for HS filters."
+  }
+ ],
+ "origin_hints": [
+  {
+   "shipment_or_record": "DJvbbuHSN-_-FQHGQ6yVCw (Tanzania customs)",
+   "detail": "AFRICAN PANTHER RESOURCES LTD (X9BAf2KZzwU7tDfYuH4qoA, GW-named) -> TRAXYS EUROPE S.A. (49gLiIsaRq1p3s8vhLc4cw). Departure country COD, product_origin COD, 11.47 t \"TANTALITE ORES\", HS 261590, arrival 2023-10-17, arrival address \"RUSUMO\" (Rwanda-Tanzania border post) although arrival country is coded LUX. Strongest DRC-origin hint for a GW exporter, but this is one customs field and it predates M23 control of Rubaya."
+  },
+  {
+   "shipment_or_record": "8qNmZ4hKdEMAN3jVfQLg5g (Tanzania customs)",
+   "detail": "TAWOTIN LTD (OPLZQzwwKb1u-D0QIVfs1w) -> EAST RISE CORPORATION LTD (vdCIJ54CEY7kXe8uUJMsvg, Mong Kok, Hong Kong), departure RWA, product_origin COD, \"COLTAN (TANTALITE)\" 19.78 t, arrival MYS, 2024-10-05. Same name as an East Rise target of the 12 Aug 2025 Treasury action (CORRECTIONS.md), but this Sayari trade node has no sanction flag or identifiers: unconfirmed same-entity match. East Rise received 10 coltan rows from Rwanda in total."
+  },
+  {
+   "shipment_or_record": "8cEngugYPVRMz8UcrOQGYA (Tanzania customs)",
+   "detail": "PHILBERT TRADING MINERALS LTD (Z9TfSFyAXgXOCyd-gic-uQ, GW-named, low-confidence match) -> HALCYON INC (8eW5KQNdwT7LoG9R3s75kA, Dubai), departure RWA, product_origin COD, tin ore 25.07 t, arrival ARE, 2024-10-07."
+  },
+  {
+   "shipment_or_record": "H4ztRanBmLeruq_k8GaYWA (Tanzania customs)",
+   "detail": "RUTONGO MINES LTD (nhmlDK0o3aPxdGLgNUDqEg) -> KALON RESOURCES LIMITED (CHx0yP-QKQzEphC_TUSjOg), departure RWA, product_origin COD, cassiterite 24.11 t, arrival THA, 2023-07-18."
+  },
+  {
+   "shipment_or_record": "iDk_pgPdFRvjwruc7ophNQ (Uganda customs)",
+   "detail": "CONGO RESSOURCES MINING SARL (wyMrRIkUJk_gDOchcLMbKw, COD) -> META TRADING MINERALS LTD (lucqYlGjyAR15-l3HtpqMA, UGA-registered), departure COD, arrival RWA, HS 261590, 26 t, 2025-11-22, declared value UGX 261.3m. The only 3T-chapter (HS 26) row from DRC to Rwanda in Sayari. The consignee is not one of the seven GW exporters."
+  },
+  {
+   "shipment_or_record": "product_origin facet, RWA-departing rows",
+   "detail": "Of 1,923 HS 261590/260900/261100 rows departing RWA, product_origin is RWA for 1,866; COD for 3 (Tawotin, Philbert and Rutongo, above); others are CHN, SGP, ZMB, BDI, FRO or blank. The field is filled in by the declarant and mostly mirrors the departure country, so a RWA value is not evidence of Rwandan mining."
+  },
+  {
+   "shipment_or_record": "text scan of all 1,923 rows",
+   "detail": "No shipper, consignee or product description mentions Congo, DRC/RDC, Goma, Bukavu, Kivu, Rubaya, Masisi or Walikale."
+  },
+  {
+   "shipment_or_record": "DRC -> Rwanda flows to GW exporters",
+   "detail": "None found. All DRC-departure rows into RWA (591, Uganda customs, Apr 2023-Jul 2026) are mostly palm oil and timber; only 1 is HS 26 (above). Boss Mining Solution (Rwanda) receives only processing equipment (Russia, Mar 2024; Japan, Jun 2025). The DRC-departure \"Boss Mining\" rows (12) belong to the unrelated Congolese copper namesake (HS 740311); do not merge. Cross-border artisanal flows into Rwanda are not in any customs source Sayari holds."
+  },
+  {
+   "shipment_or_record": "HS 261790 (other ores) departing RWA",
+   "detail": "821 rows, not counted above. A first page of 100 rows is mostly lithium and beryllium ore, with 2 rows described as tantalite. Space Mining (147 rows) and Rani Mining (71) ship mainly under this code. A small amount of coltan may be declared under 261790. Not quantified."
+  },
+  {
+   "shipment_or_record": "HS misclassification within the pull",
+   "detail": "HS 260900 rows include 23 described as \"TANTALITE CONCENTRATES\" and 10 as \"TUNGSTEN CONCENTRATES\"; HS 261590 includes Luna Smelter \"TIN SLAG\" rows (e.g. 79.4 t to Cambodia, Jul 2026). Counts are by declared HS code and have not been reclassified."
+  }
+ ],
+ "call_log": [
+  {
+   "n": 1,
+   "tool": "search_trade_facets",
+   "args_summary": "scope=shipments, query=\"tantalum OR coltan OR tantalite OR niobium\", hs=261590, dep=RWA, 2020-2026",
+   "result_summary": "42 rows: query text narrows results; switched to query=\"*\""
+  },
+  {
+   "n": 2,
+   "tool": "search_trade_facets",
+   "args_summary": "scope=shipments, query=\"*\", hs=261590, dep=RWA, 2020-2026",
+   "result_summary": "458 rows; arrivals CHN 289, ARE 84, HKG 28; sources Tanzania 451, Vietnam 3, Kazakhstan 2, Japan 2"
+  },
+  {
+   "n": 3,
+   "tool": "search_shipments",
+   "args_summary": "query=\"*\", hs=261590, dep=RWA, 2024-01-01..2024-12-31, export, limit 200",
+   "result_summary": "Date filter ignored (2026 rows returned, total 458); export mode has no weight"
+  },
+  {
+   "n": 4,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"*\", hs=261590, dep=RWA, 2024 dates",
+   "result_summary": "Identical to the 2020-2026 result: facets also ignore date filters"
+  },
+  {
+   "n": 5,
+   "tool": "search_shipments",
+   "args_summary": "query=\"*\", hs=261590, dep=RWA, full, limit 5",
+   "result_summary": "Full mode has per-row arrival_date, weight, value (some), TANSAD identifiers, source label"
+  },
+  {
+   "n": 6,
+   "tool": "search_shipments",
+   "args_summary": "query=\"*\", hs=261590, dep=RWA, compact, offset 100",
+   "result_summary": "Compact buckets only by year, no weight; abandoned"
+  },
+  {
+   "n": 7,
+   "tool": "search_shipments",
+   "args_summary": "query=\"*\", hs=261590, dep=RWA, full, limit 100, offset 0",
+   "result_summary": "100 rows 2026-07-31..2026-02-13 (saved and parsed)"
+  },
+  {
+   "n": 8,
+   "tool": "search_shipments",
+   "args_summary": "same, offset 100",
+   "result_summary": "100 rows 2026-02-10..2025-08-16"
+  },
+  {
+   "n": 9,
+   "tool": "search_shipments",
+   "args_summary": "same, offset 200",
+   "result_summary": "100 rows 2025-08-15..2025-02-26"
+  },
+  {
+   "n": 10,
+   "tool": "search_shipments",
+   "args_summary": "same, offset 300",
+   "result_summary": "100 rows 2025-02-26..2024-09-24"
+  },
+  {
+   "n": 11,
+   "tool": "search_shipments",
+   "args_summary": "same, offset 400",
+   "result_summary": "58 rows 2024-09-17..2020-01-07 (end)"
+  },
+  {
+   "n": 12,
+   "tool": "search_shipments",
+   "args_summary": "query=\"*\", hs=260900, dep=RWA, full, limit 100, offset 0",
+   "result_summary": "total 850; 2026-07-31..2026-04-21"
+  },
+  {
+   "n": 13,
+   "tool": "search_shipments",
+   "args_summary": "query=\"*\", hs=261100, dep=RWA, full, limit 100, offset 0",
+   "result_summary": "total 615; 2026-07-30..2026-04-03"
+  },
+  {
+   "n": 14,
+   "tool": "search_shipments",
+   "args_summary": "query=\"*\", hs=7108, dep=RWA, full, limit 100",
+   "result_summary": "1 row: Aldango Ltd -> Nil Kiymetli Madenler (TUR), 543.79 kg, 2020-07-03"
+  },
+  {
+   "n": 15,
+   "tool": "search_shipments",
+   "args_summary": "hs=260900 full, offset 100",
+   "result_summary": "100 rows"
+  },
+  {
+   "n": 16,
+   "tool": "search_shipments",
+   "args_summary": "hs=260900 full, offset 200",
+   "result_summary": "100 rows"
+  },
+  {
+   "n": 17,
+   "tool": "search_shipments",
+   "args_summary": "hs=260900 full, offset 300",
+   "result_summary": "100 rows"
+  },
+  {
+   "n": 18,
+   "tool": "search_shipments",
+   "args_summary": "hs=260900 full, offset 400",
+   "result_summary": "100 rows"
+  },
+  {
+   "n": 19,
+   "tool": "search_shipments",
+   "args_summary": "hs=260900 full, offset 500",
+   "result_summary": "100 rows"
+  },
+  {
+   "n": 20,
+   "tool": "search_shipments",
+   "args_summary": "hs=260900 full, offset 600",
+   "result_summary": "100 rows"
+  },
+  {
+   "n": 21,
+   "tool": "search_shipments",
+   "args_summary": "hs=260900 full, offset 700",
+   "result_summary": "100 rows (2024-09-03..2023-05-13)"
+  },
+  {
+   "n": 22,
+   "tool": "search_shipments",
+   "args_summary": "hs=260900 full, offset 800",
+   "result_summary": "50 rows (end, 2023-04-29..2023-01-17)"
+  },
+  {
+   "n": 23,
+   "tool": "search_shipments",
+   "args_summary": "hs=261100 full, offset 100",
+   "result_summary": "100 rows"
+  },
+  {
+   "n": 24,
+   "tool": "search_shipments",
+   "args_summary": "hs=261100 full, offset 200",
+   "result_summary": "100 rows"
+  },
+  {
+   "n": 25,
+   "tool": "search_shipments",
+   "args_summary": "hs=261100 full, offset 300",
+   "result_summary": "100 rows"
+  },
+  {
+   "n": 26,
+   "tool": "search_shipments",
+   "args_summary": "hs=261100 full, offset 400",
+   "result_summary": "100 rows"
+  },
+  {
+   "n": 27,
+   "tool": "search_shipments",
+   "args_summary": "hs=261100 full, offset 500",
+   "result_summary": "100 rows (2024-09-21..2023-02-14)"
+  },
+  {
+   "n": 28,
+   "tool": "search_shipments",
+   "args_summary": "hs=261100 full, offset 600",
+   "result_summary": "15 rows inline (2020, Vietnam customs: Noble Resources Intl and Halcyon Inc -> Vonfram Masan / C.Steinweg Hai Phong); transcribed manually"
+  },
+  {
+   "n": 29,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"\\\"African Panther\\\"\" (all HS, all countries)",
+   "result_summary": "190 rows; dep RWA 181, COD 1; HS 260900 102, 261100 44, 261590 38; IDs X9BAf2KZ (150) + TPgxRuPK variant (32)"
+  },
+  {
+   "n": 30,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"\\\"Sunrise Metal\\\"\"",
+   "result_summary": "10,000+ rows, dominated by unrelated steel/furniture firms; only 52 dep RWA"
+  },
+  {
+   "n": 31,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"\\\"Boss Mining\\\"\"",
+   "result_summary": "203 rows; dep RWA 108; dep COD 12 = Congolese copper namesake (HS 740311)"
+  },
+  {
+   "n": 32,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"Kanzamin OR Kanzamine\"",
+   "result_summary": "0 rows (OR syntax failed)"
+  },
+  {
+   "n": 33,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"\\\"Philbert Trading\\\"\"",
+   "result_summary": "26 rows, all dep RWA, Tanzania source; 23 to Halcyon Inc"
+  },
+  {
+   "n": 34,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"\\\"Space Mining\\\"\"",
+   "result_summary": "195 rows; 147 under HS 261790 (other ores), 9 tin, 4 coltan"
+  },
+  {
+   "n": 35,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"\\\"Rani Mining\\\"\"",
+   "result_summary": "153 rows from 2024-10-02; HS 261790 71, 261590 46, 261100 31"
+  },
+  {
+   "n": 36,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"Kanzamin\"",
+   "result_summary": "118 rows; HS 261100 56, 261590 30, 260900 17, 261790 15; top buyer Halcyon 68"
+  },
+  {
+   "n": 37,
+   "tool": "search_shipments",
+   "args_summary": "query=\"*\", hs=261790, dep=RWA, full, limit 100",
+   "result_summary": "total 821; first page mostly lithium/beryllium, 2 tantalite rows; not pursued"
+  },
+  {
+   "n": 38,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"gold\", dep=RWA",
+   "result_summary": "135 rows, mostly tea/tin metal/palm oil; no bullion"
+  },
+  {
+   "n": 39,
+   "tool": "search_shipments",
+   "args_summary": "query=\"Gasabo\", compact, limit 50",
+   "result_summary": "Matches Gasabo district addresses (food, sugar, machinery); no refinery rows"
+  },
+  {
+   "n": 40,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"\\\"Gasabo Gold\\\"\"",
+   "result_summary": "8 rows, Gasabo Gold Refinery as buyer only; chemicals from UGA/ESP, 2023-08..2024-09-04"
+  },
+  {
+   "n": 41,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"*\", hs=7108, arr=RWA",
+   "result_summary": "4 rows, departure TUR 2, CHN 1, TZA 1; 2020-11-25..2026-05-03"
+  },
+  {
+   "n": 42,
+   "tool": "search_trade_facets",
+   "args_summary": "query=3T mineral words, dep=COD, arr=RWA",
+   "result_summary": "0 rows"
+  },
+  {
+   "n": 43,
+   "tool": "lookup_data_sources",
+   "args_summary": "country RWA/TZA/KEN/COD/UGA, source_type=trade",
+   "result_summary": "0 (filter value mismatch)"
+  },
+  {
+   "n": 44,
+   "tool": "search_shipments",
+   "args_summary": "query=\"\\\"Gasabo Gold\\\"\", compact",
+   "result_summary": "Brenntag SpA -> Gasabo: HNO3, HCl, NaOH, sulphites; 2023-08-11, 2024-07-13, 2024-09-04"
+  },
+  {
+   "n": 45,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"*\", dep=COD, arr=RWA",
+   "result_summary": "591 rows (Uganda customs), mostly palm oil and timber"
+  },
+  {
+   "n": 46,
+   "tool": "lookup_data_sources",
+   "args_summary": "country TZA/KEN/RWA",
+   "result_summary": "Tanzania Imports & Exports (2023-); Kenya Imports only (2024-); no Rwandan trade source"
+  },
+  {
+   "n": 47,
+   "tool": "search_trade_facets",
+   "args_summary": "query=\"*\", hs=26, dep=COD, arr=RWA",
+   "result_summary": "1 row, HS 261590, 2025-11-22"
+  },
+  {
+   "n": 48,
+   "tool": "search_shipments",
+   "args_summary": "query=\"\\\"Boss Mining\\\"\", arr=RWA, compact",
+   "result_summary": "4 rows to Boss Mining Solution: ore-processing machinery (RUS 2024) and oil (JPN 2025)"
+  },
+  {
+   "n": 49,
+   "tool": "search_shipments",
+   "args_summary": "query=\"\\\"African Panther\\\"\", dep=COD, full",
+   "result_summary": "1 row: COD-origin tantalite 11.47 t to Traxys, 2023-10-17, arrival address Rusumo"
+  },
+  {
+   "n": 50,
+   "tool": "search_shipments",
+   "args_summary": "query=\"*\", hs=261590, dep=COD, arr=RWA, full",
+   "result_summary": "Congo Ressources Mining SARL -> Meta Trading Minerals Ltd (UGA), 26 t, 2025-11-22"
+  },
+  {
+   "n": 51,
+   "tool": "get_entity_summary",
+   "args_summary": "vdCIJ54CEY7kXe8uUJMsvg (East Rise Corporation Ltd)",
+   "result_summary": "HK trade node, not flagged sanctioned, no identifiers; exports_conflict_minerals flag"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Ground Control</title>
+  <meta name="description" content="What Ground Control is, who it is for, how the evidence is gathered and graded, and what it cannot tell you.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1><a href="./" style="color:inherit;text-decoration:none">Ground Control</a></h1>
+      <p class="tagline">Who controls the mine, where do its minerals go, what has been done about it — and did it work?</p>
+    </div>
+    <nav class="tabs">
+      <a class="tab-link" href="./">Overview</a>
+      <a class="tab-link" href="./#view=map">Control map</a>
+      <a class="tab-link" href="./#view=laundering">Export gap</a>
+      <a class="tab-link" href="./#view=responses">Responses</a>
+      <a class="tab-link" href="./#view=gaps">What we don't know</a>
+      <a class="tab-link" href="./#view=sources">Sources</a>
+      <a class="tab-link" href="about.html" aria-current="page" style="border-bottom-color:var(--accent);font-weight:600">About</a>
+    </nav>
+  </header>
+
+  <main class="prose">
+    <h2 style="margin-top:0">What this tool is</h2>
+    <p>Ground Control is an open investigation tool about <strong>conflict minerals</strong>: metals mined in places where armed groups control or tax the mines, so that buying them can fund violence. It answers four questions, in order:</p>
+    <ol>
+      <li><strong>Control.</strong> Which armed group controls, taxes or is present at which mining site, since when, and according to whom?</li>
+      <li><strong>Supply chain.</strong> Where do the minerals go next: through which trading centres, border crossings, exporters, ports, traders and smelters?</li>
+      <li><strong>Impacts.</strong> What happens along the way: money to armed groups, forced and child labour, deaths, and exports that don't match production.</li>
+      <li><strong>Response.</strong> What have governments and companies done about it, such as sanctions, peace deals, due-diligence laws and certification suspensions, and did the things those actions were meant to change actually change?</li>
+    </ol>
+
+    <h2>The first case: Rwanda and eastern DR Congo</h2>
+    <p>Eastern Democratic Republic of the Congo produces a large share of the world's <strong>tantalum</strong> (from the ore coltan, used in capacitors in phones and laptops), as well as tin, tungsten and gold. In April 2024 the M23 armed group took the Rubaya mining area in North Kivu. UN investigators say M23 taxes production there and controls the routes into Rwanda, where Congolese minerals are mixed with Rwandan output and exported as Rwandan. The US and the UN Group of Experts say Rwanda's army backs M23. Rwanda denies this, and its denials are shown next to those claims.</p>
+    <p>Later cases will reuse the same structure: rare earths in Myanmar, gold in the Sahel and Sudan, and gold in Colombia and Venezuela.</p>
+
+    <h2>Who it is for</h2>
+    <table>
+      <tr><th>If you are…</th><th>You are probably asking…</th><th>Start with</th></tr>
+      <tr><td>A compliance analyst, due-diligence team or investigator</td><td>Is my supplier, smelter or counterparty exposed to minerals from armed-group-controlled mines?</td><td><a href="./#view=map">Control map</a>, then the "Verify in Sayari Graph" links on each company</td></tr>
+      <tr><td>A policymaker, regulator or NGO</td><td>Who controls what, what has been done about it, and is it working?</td><td><a href="./#view=responses">Responses</a> and the <a href="./#view=laundering">export gap</a></td></tr>
+    </table>
+
+    <h2>How the evidence is graded</h2>
+    <p>Control in eastern Congo is contested and changes quickly. Most claims about who profits are allegations, not court findings. So every claim on this site carries one of four labels, shown with an icon and a line style as well as a colour:</p>
+    <table>
+      <tr><th>Label</th><th>Means</th><th>Example</th></tr>
+      <tr><td><span class="badge designated"><span aria-hidden="true">◆</span>Designated</span></td><td>Named in a government sanctions or enforcement action (US OFAC, EU, UN)</td><td>OFAC designated Gasabo Gold Refinery in June 2026</td></tr>
+      <tr><td><span class="badge documented"><span aria-hidden="true">■</span>Documented</span></td><td>Set out with evidence by the UN Group of Experts or an investigative NGO</td><td>The UN says M23 has held Rubaya since 30 April 2024</td></tr>
+      <tr><td><span class="badge reported"><span aria-hidden="true">●</span>Reported</span></td><td>Media reporting</td><td>Death tolls from the 2026 Rubaya landslides</td></tr>
+      <tr><td><span class="badge inferred"><span aria-hidden="true">△</span>Inferred</span></td><td>Our own analysis. It always says how it was worked out.</td><td>Whether a sanction changed an indicator</td></tr>
+    </table>
+    <p>We never move a claim up a level: an NGO allegation stays "documented" even when it is widely repeated. Where a named party has denied a claim, the denial appears beside it.</p>
+
+    <h2>How the data is gathered</h2>
+    <h3>Rules every record follows</h3>
+    <ul>
+      <li><strong>Every record has a source.</strong> The build fails if any row lacks one. Each source was read in full before it was cited; search results alone are never used.</li>
+      <li><strong>Every claim is dated</strong> with when it was true and when it was published.</li>
+      <li><strong>Text is paraphrased.</strong> We link to reports rather than copying them.</li>
+    </ul>
+    <h3>Sources</h3>
+    <ul>
+      <li><strong>Control:</strong> UN Group of Experts on the DRC reports, IPIS mining-site data, Amnesty International, Global Witness.</li>
+      <li><strong>Supply chain:</strong> <a href="https://sayari.com" target="_blank" rel="noopener">Sayari</a> corporate and trade records, UN Comtrade, Global Witness, ITSCI.</li>
+      <li><strong>Responses:</strong> US Treasury and State Department releases, the EU Official Journal, peace-agreement texts and ITSCI statements.</li>
+    </ul>
+    <h3>Company matching (Sayari)</h3>
+    <p>A company in a report is linked to a Sayari record only after checking country, identifiers, address and relationships, not on name alone. Every match stores the reason. Weak matches are labelled <em>low-confidence</em>, as are "possibly-same-as" risk flags.</p>
+    <p>Each company links to Sayari Graph so you can check it yourself. Sayari is strongest where a government has already sanctioned someone. It has no ownership records for most private Rwandan and Congolese companies.</p>
+    <h3>Trade records</h3>
+    <p>Customs data shows <strong>who shipped what to whom</strong>, not where the mineral was mined. A coltan shipment from Rwanda is not, by itself, evidence of smuggling.</p>
+
+    <h2>The export gap</h2>
+    <p class="callout">If a country exports more of a mineral than it can plausibly mine, the difference has to come from somewhere: neighbouring countries, stockpiles, or smuggling. Rwanda publishes no mine-level production figures. USGS's "production" numbers for Rwandan coltan are mostly Rwanda's own reported exports. So a simple "exports minus production" calculation shows no gap at all, by construction.</p>
+    <p>We use an independent check instead: geology. In this region's mixed deposits, coltan is about a quarter of combined coltan and tin-ore (cassiterite) output, according to Germany's geological survey (BGR), as cited by the UN Group of Experts. So Rwanda's tin-ore exports predict roughly how much coltan it should export. From 2018 to 2022 the two matched closely; from 2023 coltan pulled far ahead. Where USGS published its own estimate (2023–24), it gives a similar answer.</p>
+    <p>We then set out what UN investigators, NGOs and Sayari trade records say about where the extra material comes from, next to Rwanda's own explanations. The gap is labelled <em>inferred</em>. It shows that something needs explaining. It does not prove that all of the difference comes from armed groups, and no source has measured that split.</p>
+    <p class="small muted">Official statistics, such as UN Comtrade, the National Bank of Rwanda and USGS, are labelled "documented".</p>
+
+    <h2>What this tool cannot tell you</h2>
+    <ul>
+      <li>Who physically controls a mine today. Control changes faster than reports are published, and the control dates shown are the latest we could source.</li>
+      <li>The origin of the mineral in any single shipment.</li>
+      <li>Whether a particular buyer knew.</li>
+      <li>Who owns most private Rwandan and Congolese companies; registry data is not available.</li>
+      <li>What we have not yet checked. The <a href="./#view=gaps">What we don't know</a> page lists every known gap.</li>
+    </ul>
+
+    <h2>Corrections and updates</h2>
+    <p>When checking a claim against its primary source changes it, the correction is logged in the repository's <a href="https://github.com/indiaclarke03-ops/RwandaMineTracing/blob/main/docs/CORRECTIONS.md" target="_blank" rel="noopener">corrections file</a>. One example: a widely repeated "150 tonnes in 2024" turned out, in the UN report, to be 150 tonnes <em>a month</em>.</p>
+    <p>New sanctions rounds, UN reports and control changes are added after they are read and checked. Nothing is published automatically. To report an error, open an issue on <a href="https://github.com/indiaclarke03-ops/RwandaMineTracing/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+
+    <h2>Data and licences</h2>
+    <p>Mining-site data © IPIS (Open Data Commons Attribution). Map tiles © OpenStreetMap contributors. Company and trade links are from Sayari and published with permission. UN and US government documents are public. NGO and media reports are linked and paraphrased, not reproduced.</p>
+    <p>All the data behind this site is open JSON in the <a href="https://github.com/indiaclarke03-ops/RwandaMineTracing/tree/main/data" target="_blank" rel="noopener">repository</a>.</p>
+  </main>
+
+  <footer class="foot">Ground Control is an independent research project. Inclusion of a company or person does not imply wrongdoing beyond what the cited source states.</footer>
+</body>
+</html>

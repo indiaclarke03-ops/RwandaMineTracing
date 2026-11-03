@@ -1,0 +1,300 @@
+[
+  {
+    "id": "ge_2023_pareco",
+    "section": "origin",
+    "order": 1,
+    "headline": "2023: the jump began while another armed group held Rubaya",
+    "detail": "Rwanda's coltan exports rose 50% in 2023, an increase the UN Group of Experts called unprecedented; it found at least part of Rubaya's output was smuggled across the border. Before 30 April 2024 Rubaya was controlled by PARECO-FF, a DRC-aligned militia later sanctioned by the US, with trade split between PARECO-FF, Wazalendo groups and M23.",
+    "armed_group": "PARECO-FF / Wazalendo",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_432",
+      "src_treasury_sb0221"
+    ],
+    "paragraph_or_page": "S/2024/432 paras 143–144",
+    "notes": ""
+  },
+  {
+    "id": "ge_2024_rubaya",
+    "section": "origin",
+    "order": 2,
+    "headline": "2024: 120–150 t of Rubaya coltan a month under M23",
+    "detail": "After M23 took Rubaya, the UN estimated about 120 t a month was traded and transported under its control and about 150 t a month smuggled to Rwanda — a breach it called larger than any before. MONUSCO's head gave a conservative 100 t a month for Rubaya output.",
+    "armed_group": "M23",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 para 64; annex 29; fn 67",
+    "notes": ""
+  },
+  {
+    "id": "ge_gw_1400",
+    "section": "origin",
+    "order": 3,
+    "headline": "At least 1,400 t smuggled in M23's first year at Rubaya",
+    "detail": "Global Witness estimates that at least 1,400 t of coltan, and probably much more, went from the DRC to Rwanda in the twelve months after M23 took Rubaya.",
+    "armed_group": "M23",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "pp. 11–12, fn 39",
+    "notes": ""
+  },
+  {
+    "id": "ge_scale_inferred",
+    "section": "origin",
+    "order": 4,
+    "headline": "That could be half or more of Rwanda's official coltan exports",
+    "detail": "Set against the 2,384 t Rwanda officially exported in 2024, Global Witness's ≥1,400 t a year would make M23-linked coltan roughly half or more of the total. Our geology-based excess for 2024 (~1,040 t) is in the same range.",
+    "armed_group": "M23",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_un_goe_s2025_446"
+    ],
+    "paragraph_or_page": null,
+    "notes": "",
+    "method": "Ratio of Global Witness's 12-month smuggling estimate (Apr 2024–Apr 2025) to Rwanda's calendar-2024 coltan exports. The periods do not match exactly and some smuggled coltan may have been exported later or recorded elsewhere, so this is an order of magnitude, not a share."
+  },
+  {
+    "id": "ge_2025_goma",
+    "section": "origin",
+    "order": 5,
+    "headline": "2025: 195 t in one week through the Goma border crossing",
+    "detail": "In the last week of March 2025 the UN counted nine military-type trucks and three other vehicles carrying Rubaya minerals across Goma's Grande Barrière into Rwanda, about 195 t at its payload estimates. M23 also looted more than 500 t of 3T from exporters' warehouses in Goma and Bukavu, and 186 t of untagged ore at Nyabibwe, smuggled to Rwanda by lake.",
+    "armed_group": "M23",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446"
+    ],
+    "paragraph_or_page": "S/2025/446 paras 115–118",
+    "notes": ""
+  },
+  {
+    "id": "ge_2025_cassiterite",
+    "section": "origin",
+    "order": 6,
+    "headline": "2025: the tin-ore surge matches M23-area smuggling in timing and size",
+    "detail": "Rwanda's cassiterite exports rose 58% (4,859 t → 7,700 t), slightly more than South Kivu's entire recorded 2024 output, starting when official exports from Bukavu stopped after M23 took the city. Rwanda's largest miner and its only tin refinery, about 60% of 2024 exports, did not grow, so smaller producers would have had to triple output. This also means our coltan baseline is inflated for 2025.",
+    "armed_group": "M23",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "S/2026/466 paras 223–224",
+    "notes": ""
+  },
+  {
+    "id": "ge_sk_share",
+    "section": "origin",
+    "order": 7,
+    "headline": "Half of South Kivu's coltan and tin ore now comes from M23-held areas",
+    "detail": "After M23 took the Nzibira trading hub in September 2025, the UN estimated that about half of South Kivu's cassiterite and coltan, and over two-thirds of its wolframite, came from M23-held territory. In 2025 large volumes from the main M23 areas of both Kivus were diverted to Rwanda.",
+    "armed_group": "M23",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858",
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "S/2025/858 para 57; S/2026/466 para 222",
+    "notes": ""
+  },
+  {
+    "id": "ge_gold",
+    "section": "origin",
+    "order": 8,
+    "headline": "Gold: 19 t exported in 2024 from a country producing about 3 t",
+    "detail": "Rwanda reported over 19 t of gold exports for 2024 against about 2.9 t of domestic production (USGS, end-2022). Much of the difference is declared imports from other countries, none from the DRC; but the US Treasury says at least 60 kg moved from M23/army-held South Kivu areas to Kigali's refinery in early 2026.",
+    "armed_group": "M23 / RDF",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gitoc_feeding_furnace_2026_01",
+      "src_treasury_sb0543"
+    ],
+    "paragraph_or_page": "GI-TOC ~pp. 9–10; Treasury sb0543",
+    "notes": ""
+  },
+  {
+    "id": "ge_trade_substitution",
+    "section": "trade",
+    "order": 1,
+    "headline": "New exporters took over when ITSCI suspended the named ones",
+    "detail": "In Sayari's customs records, African Panther, Sunrise Metal and Philbert ship no coltan from Q2 to Q4 2025, during their ITSCI suspensions. The seven exporters Global Witness named fell from 48% to 15% of coltan rows by Q3 2025, while total volume held steady and new exporters such as Hillside Mining (first shipment Feb 2025) appeared, shipping mostly to the same Dubai buyer.",
+    "armed_group": null,
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari",
+      "src_gw_who_buys_coltan"
+    ],
+    "paragraph_or_page": null,
+    "notes": "",
+    "method": "Quarterly counts of Sayari customs rows (HS 261590, departing Rwanda) by exporter, compared with ITSCI suspension dates. Coverage is partial and four of the seven matches are low-confidence; the pattern fits substitution but does not prove the same ore moved through new companies."
+  },
+  {
+    "id": "ge_trade_uae",
+    "section": "trade",
+    "order": 2,
+    "headline": "UAE traders increasingly hold title; the ore goes to China",
+    "detail": "UAE-based buyers (Minterra, Halcyon, Novacore and others) took 43% of Rwandan coltan rows in 2023 and 64% in 2026, peaking above 74% from Q3 2025 to Q1 2026. Over the same period China's share of arrival destinations rose from 39% to 75%.",
+    "armed_group": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "ge_trade_origin",
+    "section": "trade",
+    "order": 3,
+    "headline": "A few shipments leaving Rwanda declare the DRC as origin",
+    "detail": "Three customs rows departing Rwanda list the DRC as product origin, including 19.8 t of coltan to a Hong Kong buyer named East Rise (Oct 2024) and 25 t of tin ore from Philbert to Halcyon (Oct 2024). Origin fields are filled in by the declarant and usually just repeat the departure country, so their rarity says little.",
+    "armed_group": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "ge_trade_itsci_coverage",
+    "section": "trade",
+    "order": 4,
+    "headline": "Half of Rwanda's 3T exports now sit outside ITSCI",
+    "detail": "In 2025 official Rwandan 3T exports rose 33% to 13,295 t while ITSCI-tagged exports fell 11% to 6,646 t. For tantalum, world imports from Rwanda exceeded ITSCI-recorded exports by 1,226 t.",
+    "armed_group": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_itsci_statement_2026_07_10",
+      "src_itsci_2026_02_11_updated"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "ge_alt_rdb",
+    "section": "alternative",
+    "order": 1,
+    "headline": "Rwanda says its own geology explains the exports",
+    "detail": "The Rwanda Development Board says Rwanda produces 8,000–9,000 t of 3T a year and over 22% of world tantalum. The UN Group of Experts says Rwanda's own statistics office, independent geology and ITSCI records contradict this.",
+    "armed_group": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_rdb_mining_page",
+      "src_un_goe_s2025_446"
+    ],
+    "paragraph_or_page": "S/2025/446 para 120",
+    "notes": ""
+  },
+  {
+    "id": "ge_alt_rmb",
+    "section": "alternative",
+    "order": 2,
+    "headline": "Rwanda credits investment, exploration and processing",
+    "detail": "The Rwanda Mines Board attributes growth from $373m (2017) to $1.75bn (2024) to value addition, mechanisation, exploration and professional mining. Its CEO said in February 2026 that Rwanda does not depend on the DRC; President Kagame said processing minerals \"from anywhere\" should not be a problem.",
+    "armed_group": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_rmb_2025_news",
+      "src_allafrica_newtimes_kagame_2026_02_06"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "ge_alt_itsci",
+    "section": "alternative",
+    "order": 3,
+    "headline": "ITSCI points to non-ITSCI operators and data problems",
+    "detail": "ITSCI says part of the rise comes through operators outside its scheme, and that trade databases include warehousing and misclassification. It also flags fraud risk within Rwanda's own domestic production, not only cross-border.",
+    "armed_group": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_itsci_statement_2026_07_10",
+      "src_itsci_2026_02_11_updated",
+      "src_itsci_2025_11_12_tantalum_flows"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "ge_alt_nonm23",
+    "section": "alternative",
+    "order": 4,
+    "headline": "Not all smuggled ore comes from M23 sites",
+    "detail": "South Kivu coltan was smuggled to Rwanda before M23 arrived there, driven by a slow, costly legal export process. Part of what M23 moved in 2025 was stock looted from legitimate Congolese exporters rather than newly mined ore.",
+    "armed_group": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ipis_voix_du_congo_sk_coltan_2025",
+      "src_un_goe_s2025_446"
+    ],
+    "paragraph_or_page": "S/2025/446 paras 115–116",
+    "notes": ""
+  },
+  {
+    "id": "ge_alt_gold_imports",
+    "section": "alternative",
+    "order": 5,
+    "headline": "Rwanda declares gold imports from seven other countries",
+    "detail": "About 13 t of gold imports were declared from Burkina Faso, Cameroon, the Central African Republic, Kenya, Tanzania, South Africa and the UAE in part of 2024, none from the DRC. Much Congolese gold also goes to Uganda (about 62 t of Ugandan exports in 2025) and Burundi rather than Rwanda.",
+    "armed_group": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gitoc_feeding_furnace_2026_01",
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "S/2026/466 paras 204–205",
+    "notes": ""
+  },
+  {
+    "id": "ge_alt_m23",
+    "section": "alternative",
+    "order": 6,
+    "headline": "M23 calls it transit, not smuggling",
+    "detail": "M23/AFC's spokesman accepted in September 2026 that Congolese gold and coltan pass through Rwanda to Mombasa and Dar es Salaam, but called it trade rather than smuggling or laundering.",
+    "armed_group": null,
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_xtrafrica_balinda_2026_09_25"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "ge_alt_noreply",
+    "section": "alternative",
+    "order": 7,
+    "headline": "Rwanda has not answered the specific questions",
+    "detail": "The UN Group asked Rwanda on 2 April 2026 to explain the origin of its higher cassiterite and coltan exports and received no answer by its report. Rwanda also opposed a regional inquiry into mineral smuggling (May 2025) and did not reply to Amnesty in August 2026.",
+    "armed_group": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_un_goe_s2025_858",
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "ge_alt_unknown",
+    "section": "alternative",
+    "order": 8,
+    "headline": "What no source has put a number on",
+    "detail": "No source splits the gap between M23, other armed groups (FDLR, Wazalendo, Raia Mutomboki), non-armed Congolese sources, Burundi, Uganda, or stockpiles. No one, including Rwanda, has proposed recycling or stockpile drawdown as an explanation. Burundi's land border with Rwanda has been closed since January 2024.",
+    "armed_group": null,
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_govrw_2024_01_11_burundi_border",
+      "src_project_notes"
+    ],
+    "paragraph_or_page": null,
+    "notes": "",
+    "method": "Absence finding from our review of UN Group of Experts reports (2023–2026), ITSCI, Global Witness, The Sentry, GI-TOC, IPIS and Rwandan government statements."
+  }
+]
