@@ -1,9 +1,8 @@
 name: Deploy site
 
+# Pages currently serves from the main branch root (index.html redirects to site/).
+# This workflow is only needed if Pages source is switched to "GitHub Actions".
 on:
-  push:
-    branches: [main]
-    paths: ["site/**", "data/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:
