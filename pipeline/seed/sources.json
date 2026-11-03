@@ -702,5 +702,16 @@
     "type": "government",
     "paragraph_or_page": "full statement",
     "notes": "Shows the Burundi-Rwanda land border closed from Jan 2024. Its 2026 status comes only from a travel-company page (lead), not an authoritative source."
+  },
+  {
+    "id": "src_ipis_asm",
+    "title": "IPIS Open Data: artisanal mining site visits in eastern DRC (cod_mines, webmap table cod_mines_webmap_en)",
+    "publisher": "IPIS (International Peace Information Service)",
+    "url": "https://www.ipisresearch.be/mapping/webmapping/drcongo/v6/",
+    "published_date": null,
+    "accessed_date": "2026-11-03",
+    "type": "dataset",
+    "paragraph_or_page": "All 7,419 visit rows (3,469 sites, visits 2009-01-01 to 2026-03-02); fields pcode, visit_date, coordinates, province, territoire, m1-m3, n_workers, ag1-ag3 and agN_type, traceability, source",
+    "notes": "Licence ODC-BY 1.0, attribute IPIS. URL is the webmap a reader can open. Data retrieved from the read-only endpoint that webmap loads (https://anfwarauamfyjxsscymq.supabase.co/rest/v1/cod_mines_webmap_en, schema 'opendata', webmap build 20261015), using the publishable key embedded in that page; no form, login or personal details. The official download (Google Form on https://ipisresearch.be/home/maps-data/open-data) and legacy geoserver were not used; the geoserver timed out on 2026-11-03. Live table with no version date: published_date left null; latest visit 2026-03-02. It is the webmap view, not the full curated opendata layer (fewer columns). Third-party rows mostly lack armed-actor data. See pipeline/notes/ipis_import.md."
   }
 ]

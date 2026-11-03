@@ -24,6 +24,8 @@ DATE_RE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
 ENUMS = {
     "sources.type": {"sanctions", "un_report", "ngo", "media", "dataset", "analysis", "government"},
     "sites.site_type": {"mine", "trading_centre", "border", "port", "refinery", "smelter", "town"},
+    "actors.role": {"armed_group", "state_security", "government", "financial", "refiner", "person", "mining_company",
+                    "mine_operator", "trader", "scheme", "exporter", "smelter", "brand", "other"},
     "actors.type": {"armed_group", "state_force", "state_body", "company", "person",
                     "financial_institution", "scheme"},
     "control_claims.control_type": {"controls", "taxes", "present", "escorts_transport", "operates"},
@@ -52,7 +54,8 @@ DATE_FIELDS = {
 
 TABLES = ["sources", "sites", "actors", "control_claims", "relationships", "flows",
           "impacts", "responses", "effectiveness", "responses_to_claims", "gaps", "findings",
-          "trade_series", "trade_quarterly", "gap_evidence"]
+          "trade_series", "trade_quarterly", "gap_evidence",
+          "ipis_sites"]
 
 
 class Report:

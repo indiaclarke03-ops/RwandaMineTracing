@@ -41,7 +41,7 @@
     <h2>Who it is for</h2>
     <table>
       <tr><th>If you are…</th><th>You are probably asking…</th><th>Start with</th></tr>
-      <tr><td>A compliance analyst, due-diligence team or investigator</td><td>Is my supplier, smelter or counterparty exposed to minerals from armed-group-controlled mines?</td><td><a href="./#view=map">Control map</a>, then the "Verify in Sayari Graph" links on each company</td></tr>
+      <tr><td>A compliance analyst, due-diligence team or investigator</td><td>Is my supplier, smelter or counterparty exposed to minerals from armed-group-controlled mines?</td><td><a href="./#view=search">Check a company</a> for its shortest sourced path to an armed group, then <a href="./#view=chain">Supply chain</a> and the "Verify in Sayari Graph" links</td></tr>
       <tr><td>A policymaker, regulator or NGO</td><td>Who controls what, what has been done about it, and is it working?</td><td><a href="./#view=responses">Responses</a> and the <a href="./#view=laundering">export gap</a></td></tr>
     </table>
 
@@ -65,7 +65,7 @@
     </ul>
     <h3>Sources</h3>
     <ul>
-      <li><strong>Control:</strong> UN Group of Experts on the DRC reports, IPIS mining-site data, Amnesty International, Global Witness.</li>
+      <li><strong>Control:</strong> UN Group of Experts on the DRC reports, Amnesty International and Global Witness for the key sites. The map also shows IPIS's 3,469 surveyed artisanal mining sites, with armed presence at each researcher visit from 2009 to 2026. IPIS records who was present at a visit, not who controls a site today, and does not record M23.</li>
       <li><strong>Supply chain:</strong> <a href="https://sayari.com" target="_blank" rel="noopener">Sayari</a> corporate and trade records, UN Comtrade, Global Witness, ITSCI.</li>
       <li><strong>Responses:</strong> US Treasury and State Department releases, the EU Official Journal, peace-agreement texts and ITSCI statements.</li>
     </ul>
@@ -80,6 +80,10 @@
     <p>We use an independent check instead: geology. In this region's mixed deposits, coltan is about a quarter of combined coltan and tin-ore (cassiterite) output, according to Germany's geological survey (BGR), as cited by the UN Group of Experts. So Rwanda's tin-ore exports predict roughly how much coltan it should export. From 2018 to 2022 the two matched closely; from 2023 coltan pulled far ahead. Where USGS published its own estimate (2023–24), it gives a similar answer.</p>
     <p>We then set out what UN investigators, NGOs and Sayari trade records say about where the extra material comes from, next to Rwanda's own explanations. The gap is labelled <em>inferred</em>. It shows that something needs explaining. It does not prove that all of the difference comes from armed groups, and no source has measured that split.</p>
     <p class="small muted">Official statistics, such as UN Comtrade, the National Bank of Rwanda and USGS, are labelled "documented".</p>
+
+    <h2>How "Check a company" finds paths</h2>
+    <p>We join every sourced link in the dataset into one network: ownership and officer ties, sanctions findings, trade records, mineral flows and site control. For the company you pick, we find the shortest route to each armed group. When two routes are the same length, we prefer stronger evidence and current control over past control. Every step shows its evidence label and source.</p>
+    <p>A path shows that sourced connections exist. It does not show that a company knew, or that a particular shipment came from a conflict mine. Not appearing in the dataset is not a clearance.</p>
 
     <h2>What this tool cannot tell you</h2>
     <ul>

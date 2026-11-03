@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ground Control — Rwanda / eastern DRC</title>
   <meta name="description" content="Who controls the mine, where do its minerals go, and has anyone done anything about it — and did it work?">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,6 +18,8 @@
     <nav class="tabs" role="tablist">
       <button role="tab" data-view="home" aria-selected="true">Overview</button>
       <button role="tab" data-view="map" aria-selected="false">Control map</button>
+      <button role="tab" data-view="chain" aria-selected="false">Supply chain</button>
+      <button role="tab" data-view="search" aria-selected="false">Check a company</button>
       <button role="tab" data-view="laundering" aria-selected="false">Export gap</button>
       <button role="tab" data-view="responses" aria-selected="false">Responses</button>
       <button role="tab" data-view="gaps" aria-selected="false">What we don't know</button>
@@ -41,9 +43,9 @@
         <h2>An armed group controls major coltan mines in eastern Congo. This tool follows what comes out of them.</h2>
         <p class="lede">Tantalum, tin and gold from eastern Congo end up in phones, laptops, cars and jewellery. Since 2024 the M23 armed group has seized mining areas there and taxed what they produce. UN investigators say much of that output is smuggled into neighbouring Rwanda and exported as Rwandan. Ground Control maps who controls each site, traces the minerals through traders, exporters and smelters, and checks whether sanctions and industry action have changed anything.</p>
         <div class="paths">
-          <a class="path" href="#view=map" data-goto="map">
+          <a class="path" href="#view=search" data-goto="search">
             <span class="path-who">Checking a supplier?</span>
-            <span class="path-what">Start with the map. Pick a mine to see who controls it, which exporters bought from it, and links to verify each company in Sayari.</span>
+            <span class="path-what">Search a company to see its shortest sourced path to an armed group, or follow a mine's output through the supply chain.</span>
           </a>
           <a class="path" href="#view=responses" data-goto="responses">
             <span class="path-who">Working on policy?</span>
@@ -82,22 +84,96 @@
       <p id="stats" class="stats"></p>
     </section>
 
-    <section id="view-map" class="view" role="tabpanel" hidden>
-      <div class="view-intro"><h2>Who controls which site</h2><p>Each dot is a mine, trading centre, border crossing, refinery or port. A ring means an armed group is recorded as controlling or taxing it at the date on the slider; the ring's line style shows the evidence label. Dashed lines are documented mineral routes. Drag the slider to go back in time.</p></div>
-      <div class="map-wrap">
-        <div id="map" aria-label="Map of mining sites and trade nodes"></div>
-        <aside id="panel" class="panel" aria-live="polite">
-          <p class="muted">Select a site on the map to see who controls it, since when, according to whom — and what has happened there.</p>
+    <section id="view-map" class="view mapview" role="tabpanel" hidden>
+      <div class="map-shell">
+        <div id="map" aria-label="Map of mining sites, trade routes and armed-group control"></div>
+
+        <aside class="map-controls" aria-label="Map filters">
+          <div class="mc-head">
+            <h2>Who controls which site</h2>
+            <button class="mc-toggle" type="button" aria-expanded="true" aria-controls="mc-body" title="Show or hide filters">Filters</button>
+          </div>
+          <div id="mc-body" class="mc-body">
+            <p class="mc-intro">Mining sites in eastern Congo and the route their minerals take into Rwanda and out to sea. Rings mark armed-group presence at the date below.</p>
+            <label class="mc-search"><span class="sr-only">Find a site</span>
+              <input id="site-search" type="search" placeholder="Find a site, e.g. Rubaya" autocomplete="off" list="site-list">
+              <datalist id="site-list"></datalist>
+            </label>
+            <div class="mc-group">
+              <div class="mc-label">Mineral</div>
+              <div class="chips" id="mineral-chips"></div>
+            </div>
+            <div class="mc-group">
+              <div class="mc-label">Show</div>
+              <label class="switch"><input type="checkbox" id="f-armed"> Only sites with armed presence</label>
+              <label class="switch"><input type="checkbox" id="f-ipis" checked> IPIS mining sites <span class="muted" id="ipis-count"></span></label>
+              <label class="switch"><input type="checkbox" id="f-routes" checked> Mineral routes</label>
+            </div>
+            <div class="mc-group">
+              <div class="mc-label">Zoom to</div>
+              <div class="seg">
+                <button type="button" data-zoom="kivus">The Kivus</button>
+                <button type="button" data-zoom="route">Route to the coast</button>
+              </div>
+            </div>
+            <div id="map-stats" class="mc-stats" aria-live="polite"></div>
+            <details class="mc-legend" open>
+              <summary>Legend</summary>
+              <ul class="key">
+                <li><i class="kdot" style="--c:var(--m1)"></i>Coltan</li>
+                <li><i class="kdot" style="--c:var(--m3)"></i>Tin or tungsten</li>
+                <li><i class="kdot" style="--c:var(--m2)"></i>Gold</li>
+                <li><i class="kdot" style="--c:var(--m0)"></i>Other / trade node</li>
+                <li><i class="kring"></i>Armed group present at last IPIS visit</li>
+                <li><i class="kdot" style="--c:var(--m0);opacity:.4"></i>Faded: armed presence not recorded</li>
+                <li><i class="kring designated"></i>Control: designated</li>
+                <li><i class="kring documented"></i>Control: documented</li>
+                <li><i class="kring reported"></i>Control: reported</li>
+                <li><i class="kline"></i>Documented route &nbsp;<i class="kline inferred"></i>Inferred</li>
+              </ul>
+              <p class="small muted">Larger labelled markers are key sites researched in depth. Small dots are IPIS-surveyed mining sites.</p>
+            </details>
+          </div>
         </aside>
-      </div>
-      <div class="slider">
-        <label for="when">Control as of <strong id="when-label"></strong></label>
-        <div class="slider-track">
-          <input id="when" type="range" min="0" max="0" step="1">
-          <div id="ticks" class="ticks" aria-hidden="true"></div>
+
+        <aside id="panel" class="drawer" aria-live="polite" hidden>
+          <button class="drawer-close" type="button" aria-label="Close details">×</button>
+          <div id="panel-body"></div>
+        </aside>
+
+        <div class="timebar" role="group" aria-label="Date">
+          <button id="play" class="play" type="button" aria-label="Play through time">▶</button>
+          <div class="tb-main">
+            <div class="tb-row"><span class="tb-label">Control as of</span> <strong id="when-label"></strong>
+              <span id="when-event" class="tb-event"></span></div>
+            <div class="slider-track">
+              <input id="when" type="range" min="0" max="0" step="1" aria-label="Date">
+              <div id="ticks" class="ticks"></div>
+            </div>
+            <div class="tb-axis" id="tb-axis" aria-hidden="true"></div>
+          </div>
         </div>
-        <p class="muted small">Tick marks are regulatory responses. Controlled sites carry a ring; ring style shows evidence tier.</p>
       </div>
+    </section>
+
+    <section id="view-chain" class="view" role="tabpanel" hidden>
+      <div class="view-intro"><h2>Follow the minerals</h2><p>Pick a mine to trace its output: first the physical route across the border, then the companies that bought, traded and smelted it. Every link carries its evidence label; click any company for its sources.</p></div>
+      <div class="chain-controls">
+        <div class="seg" id="chain-pick"></div>
+      </div>
+      <div id="chain-route" class="route-strip"></div>
+      <div class="chain-wrap"><div id="chain-graph" class="chain-graph"></div><aside id="chain-card" class="chain-card"></aside></div>
+    </section>
+
+    <section id="view-search" class="view" role="tabpanel" hidden>
+      <div class="view-intro"><h2>Check a company</h2><p>Search any company, person or organisation in this dataset to see its shortest sourced path to an armed group — or confirm there is none in our data. Each step shows who says so.</p></div>
+      <div class="search-box">
+        <label for="company-q" class="sr-only">Company name</label>
+        <input id="company-q" type="search" placeholder="Start typing a name, e.g. Halcyon, Kanzamin, Ulba…" autocomplete="off">
+        <ul id="company-suggest" class="suggest" role="listbox" hidden></ul>
+      </div>
+      <div id="company-quick" class="quick"></div>
+      <div id="company-result"></div>
     </section>
 
     <section id="view-laundering" class="view" role="tabpanel" hidden>
@@ -131,8 +207,11 @@
     Denials by named parties appear beside the claim. Site data © IPIS (ODC). Ownership and trade links: Sayari — verify in Sayari Graph.
   </footer>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
   <script src="gap.js"></script>
+  <script src="map.js"></script>
+  <script src="chain.js"></script>
+  <script src="search.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

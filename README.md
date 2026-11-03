@@ -80,4 +80,6 @@ Deployment: `.github/workflows/pages.yml` validates the seed, bundles `site/` + 
 
 - Phase 0 (scaffolding) — done.
 - Phase 1 (hand-built Rwanda seed: sources, actors, sites, control claims, responses) — first pass; see `pipeline/notes/` for verification logs.
-- Phase 5 (front end) — control map with time slider, response tracker, gaps panel and source list. Chain view and network view are next, after Phase 3 Sayari tracing.
+- Phase 2 (bulk data) — IPIS artisanal mining sites imported (3,469 sites, visits 2009–Mar 2026) via `pipeline/import_ipis.py`; Comtrade/BNR/USGS series for the export gap.
+- Phase 4 (analysis) — export gap (coltan vs geology-predicted, cross-checked with USGS) in `data/laundering_gap.json`.
+- Phase 5 (front end) — overview, control map (MapLibre + OpenFreeMap, IPIS layer, time slider with play), supply-chain view, company path search, export gap, responses, gaps, sources, about.

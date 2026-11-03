@@ -49,7 +49,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "armed_group"
   },
   {
     "id": "act_afc",
@@ -96,7 +97,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "Political-military coalition that includes M23. Treasury sb0668 notes the 12 Oct 2026 renaming.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "armed_group"
   },
   {
     "id": "act_pareco",
@@ -119,7 +121,8 @@
     "sayari_url": null,
     "sayari_match_reason": null,
     "sayari_risk_flags": [],
-    "notes": "DRC-aligned militia that held Rubaya mining sites before M23 (2022 – early 2024)."
+    "notes": "DRC-aligned militia that held Rubaya mining sites before M23 (2022 – early 2024).",
+    "role": "armed_group"
   },
   {
     "id": "act_rdf",
@@ -151,7 +154,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "state_security"
   },
   {
     "id": "act_rw_mod",
@@ -181,7 +185,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "state_security"
   },
   {
     "id": "act_gov_rwanda",
@@ -198,7 +203,8 @@
     "sayari_url": null,
     "sayari_match_reason": null,
     "sayari_risk_flags": [],
-    "notes": ""
+    "notes": "",
+    "role": "government"
   },
   {
     "id": "act_zigama",
@@ -228,7 +234,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "A second, sparse Sayari record (j8ka8O7pMigvUthBvI-auA) is not treated as the same entity.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "financial"
   },
   {
     "id": "act_gasabo",
@@ -273,7 +280,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "Rwanda's only gold refinery; began refining 1 Jun 2022 (EU statement of reasons).",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "refiner"
   },
   {
     "id": "act_kalima",
@@ -309,7 +317,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "Chairman, Gasabo Gold Refinery.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "person"
   },
   {
     "id": "act_kayobotsi",
@@ -339,7 +348,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "General manager, Gasabo Gold Refinery.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "person"
   },
   {
     "id": "act_bugambira",
@@ -375,7 +385,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "mining_company"
   },
   {
     "id": "act_wolfram",
@@ -411,7 +422,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "mining_company"
   },
   {
     "id": "act_rwinkwavu",
@@ -447,7 +459,8 @@
       "sanctioned_usa_ofac_sdn"
     ],
     "notes": "",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "mining_company"
   },
   {
     "id": "act_kamanzi",
@@ -483,7 +496,8 @@
       "soe_adjacent"
     ],
     "notes": "CEO of the Rwanda Mines, Petroleum and Gas Board at the time of EU listing.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "person"
   },
   {
     "id": "act_cdmc",
@@ -506,7 +520,8 @@
     "sayari_url": null,
     "sayari_match_reason": null,
     "sayari_risk_flags": [],
-    "notes": "Operated the largest Rubaya concession."
+    "notes": "Operated the largest Rubaya concession.",
+    "role": "mine_operator"
   },
   {
     "id": "act_east_rise",
@@ -529,7 +544,8 @@
     "sayari_url": null,
     "sayari_match_reason": null,
     "sayari_risk_flags": [],
-    "notes": ""
+    "notes": "",
+    "role": "trader"
   },
   {
     "id": "act_star_dragon",
@@ -552,7 +568,8 @@
     "sayari_url": null,
     "sayari_match_reason": null,
     "sayari_risk_flags": [],
-    "notes": ""
+    "notes": "",
+    "role": "trader"
   },
   {
     "id": "act_rmb",
@@ -578,7 +595,8 @@
       "state_owned"
     ],
     "notes": "State regulator; not itself sanctioned. EU says it benefited from conflict minerals mixed into Rwandan output.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "government"
   },
   {
     "id": "act_itsci",
@@ -595,7 +613,8 @@
     "sayari_url": null,
     "sayari_match_reason": null,
     "sayari_risk_flags": [],
-    "notes": ""
+    "notes": "",
+    "role": "scheme"
   },
   {
     "id": "act_african_panther",
@@ -619,7 +638,8 @@
       "psa_exports_conflict_minerals"
     ],
     "notes": "One of the seven largest Rwandan coltan exporters.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "exporter"
   },
   {
     "id": "act_sunrise",
@@ -641,7 +661,8 @@
       "cpi_score"
     ],
     "notes": "One of the seven largest Rwandan coltan exporters.",
-    "sayari_confidence": "low"
+    "sayari_confidence": "low",
+    "role": "exporter"
   },
   {
     "id": "act_boss_mining",
@@ -663,7 +684,8 @@
       "cpi_score"
     ],
     "notes": "One of the seven largest. A separate DRC company of the same name (Sayari yFQo_xvgXez4UJgGyJ9qBw) is NOT merged.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "exporter"
   },
   {
     "id": "act_kanzamin",
@@ -685,7 +707,8 @@
       "cpi_score"
     ],
     "notes": "One of the seven largest Rwandan coltan exporters.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "exporter"
   },
   {
     "id": "act_philbert",
@@ -713,7 +736,8 @@
       "psa_exports_ilab_forced_labor"
     ],
     "notes": "One of the seven largest Rwandan coltan exporters.",
-    "sayari_confidence": "low"
+    "sayari_confidence": "low",
+    "role": "exporter"
   },
   {
     "id": "act_space_mining",
@@ -735,7 +759,8 @@
       "cpi_score"
     ],
     "notes": "Smaller exporter.",
-    "sayari_confidence": "low"
+    "sayari_confidence": "low",
+    "role": "exporter"
   },
   {
     "id": "act_rani",
@@ -757,7 +782,8 @@
       "cpi_score"
     ],
     "notes": "Smaller exporter.",
-    "sayari_confidence": "low"
+    "sayari_confidence": "low",
+    "role": "exporter"
   },
   {
     "id": "act_otic",
@@ -786,7 +812,8 @@
       "soe_adjacent"
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "smelter"
   },
   {
     "id": "act_jinxin",
@@ -810,7 +837,8 @@
       "law_enforcement_action_historic"
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "smelter"
   },
   {
     "id": "act_tanbre",
@@ -835,7 +863,8 @@
       "psa_owned_by_soe"
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "smelter"
   },
   {
     "id": "act_zhongao",
@@ -857,7 +886,8 @@
       "cpi_score"
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "smelter"
   },
   {
     "id": "act_ximei",
@@ -879,7 +909,8 @@
       "cpi_score"
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "smelter"
   },
   {
     "id": "act_kingxing",
@@ -901,7 +932,8 @@
       "cpi_score"
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "smelter"
   },
   {
     "id": "act_ulba",
@@ -940,7 +972,8 @@
       "state_owned"
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "smelter"
   },
   {
     "id": "act_taniobis_th",
@@ -963,7 +996,8 @@
       "sanctioned_adjacent"
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
-    "sayari_confidence": "high"
+    "sayari_confidence": "high",
+    "role": "smelter"
   },
   {
     "id": "act_halcyon",
@@ -981,7 +1015,8 @@
     "sayari_match_reason": "Buyer entity on Sayari customs records of HS 261590 shipments from the named exporter.",
     "sayari_risk_flags": [],
     "sayari_confidence": "high",
-    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing.",
+    "role": "trader"
   },
   {
     "id": "act_novacore",
@@ -999,7 +1034,8 @@
     "sayari_match_reason": "Buyer entity on Sayari customs records of HS 261590 shipments from the named exporter.",
     "sayari_risk_flags": [],
     "sayari_confidence": "high",
-    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing.",
+    "role": "trader"
   },
   {
     "id": "act_traxys",
@@ -1017,7 +1053,8 @@
     "sayari_match_reason": "Buyer entity on Sayari customs records of HS 261590 shipments from the named exporter.",
     "sayari_risk_flags": [],
     "sayari_confidence": "high",
-    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing.",
+    "role": "trader"
   },
   {
     "id": "act_smr_be",
@@ -1035,7 +1072,8 @@
     "sayari_match_reason": "Buyer entity on Sayari customs records of HS 261590 shipments from the named exporter.",
     "sayari_risk_flags": [],
     "sayari_confidence": "high",
-    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing.",
+    "role": "trader"
   },
   {
     "id": "act_smr_hk",
@@ -1053,6 +1091,7 @@
     "sayari_match_reason": "Buyer entity on Sayari customs records of HS 261590 shipments from the named exporter.",
     "sayari_risk_flags": [],
     "sayari_confidence": "high",
-    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing.",
+    "role": "trader"
   }
 ]

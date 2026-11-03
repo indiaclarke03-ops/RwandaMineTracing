@@ -1,11 +1,23 @@
 [
   {
-    "id": "gap_ipis",
+    "id": "gap_ipis_m23",
     "layer": "control",
-    "title": "No site-level armed-presence data loaded yet",
-    "detail": "The IPIS open-data geoserver is offline while IPIS migrates providers. The mining-site base layer (CSV/GeoJSON via a download form) still has to be pulled, so the map shows only hand-entered sites.",
+    "title": "The IPIS mining-site data does not record M23",
+    "detail": "The map's 3,469 IPIS sites show armed presence at each researcher visit from 2009 to March 2026, but M23/AFC never appears. There are no IPIS sites in Rutshuru or Nyiragongo, and recent visits in Masisi (including Rubaya) are third-party visits that did not record armed actors. Current M23 control comes only from the key sites researched from UN, NGO and US government sources.",
     "source_ids": [
-      "src_ipis_open_data"
+      "src_ipis_asm",
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_ipis_source",
+    "layer": "control",
+    "title": "IPIS data comes from its public webmap feed, not the official download",
+    "detail": "IPIS's official download sits behind a registration form and its old geoserver is offline. We used the same open data IPIS's public webmap serves to every visitor (ODC-BY licence). It has fewer fields than the full dataset, and about 13% of visit dates are year-only.",
+    "source_ids": [
+      "src_ipis_asm",
+      "src_project_notes"
     ],
     "notes": ""
   },

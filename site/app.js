@@ -10,13 +10,11 @@ const TIER = {
   reported:   { icon: "●", label: "Reported",   verb: "reported by",   dash: "5 4", weight: 2 },
   inferred:   { icon: "△", label: "Inferred",   verb: "our analysis suggests", dash: "1 5", weight: 2 },
 };
-const MINERAL_VAR = { coltan: "--m-coltan", gold: "--m-gold", tin: "--m-tin", tungsten: "--m-tungsten" };
 const CONTROL_VERB = {
   controls: "controls", taxes: "taxes production at", present: "is present at",
   escorts_transport: "escorts transport from", operates: "operates",
 };
 
-const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
@@ -78,150 +76,8 @@ function denialsFor(claimId) {
   ).join("");
 }
 
-// ---------- control map ----------
-let map, siteLayers = {}, months = [], mapBounds = [];
-
-function activeClaims(siteId, when) {
-  const t = dkey(when);
-  // With no start date, a claim is shown only from when it was observed.
-  return DB.control_claims.filter((c) => c.site_id === siteId &&
-    (dkey(c.valid_from || c.observed_date) || "0") <= t && (!c.valid_to || dkey(c.valid_to) >= t));
-}
-
-function strongest(claims) {
-  const order = ["designated", "documented", "reported", "inferred"];
-  return claims.map((c) => c.evidence_tier).sort((a, b) => order.indexOf(a) - order.indexOf(b))[0];
-}
-
-function buildMap() {
-  map = L.map("map", { scrollWheelZoom: false }).setView([-1.9, 29.2], 8);
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxZoom: 18, className: "basemap",
-  }).addTo(map);
-
-  // Flows between located nodes (sites, or actors with a site_id).
-  const loc = (id) => {
-    const s = byId.sites[id] || byId.sites[byId.actors[id]?.site_id];
-    return s && s.lat != null ? [s.lat, s.lon] : null;
-  };
-  for (const f of DB.flows) {
-    const a = loc(f.from_node), b = loc(f.to_node);
-    if (!a || !b) continue;
-    const t = TIER[f.evidence_tier] || TIER.inferred;
-    L.polyline([a, b], { color: css("--muted"), weight: 2, opacity: 0.8, dashArray: t.dash || "8 5" })
-      .bindTooltip(`${esc(f.mineral)}: ${esc(nodeName(f.from_node))} → ${esc(nodeName(f.to_node))} · ${t.label}`)
-      .addTo(map);
-  }
-
-  mapBounds = [];
-  for (const s of DB.sites) {
-    if (s.lat == null) continue;
-    const mineral = (s.minerals || [])[0];
-    const fill = css(MINERAL_VAR[mineral] || "--m-none");
-    const isNode = !["mine"].includes(s.site_type);
-    const ring = L.circleMarker([s.lat, s.lon], { radius: 13, fill: false, weight: 0, color: css("--accent") });
-    const dot = L.circleMarker([s.lat, s.lon], {
-      radius: isNode ? 5 : 7, color: "#fff", weight: 1.5, fillColor: fill, fillOpacity: 1,
-    });
-    dot.bindTooltip(`${esc(s.name)} — ${esc(s.site_type.replace("_", " "))}${mineral ? ", " + esc(mineral) : ""}`);
-    dot.on("click", () => showSite(s.id));
-    ring.on("click", () => showSite(s.id));
-    ring.addTo(map); dot.addTo(map);
-    siteLayers[s.id] = { ring, dot };
-    if (s.site_type !== "port") mapBounds.push([s.lat, s.lon]);  // ports sit far east; keep the Kivus in view
-  }
-}
-
 function nodeName(id) {
   return byId.sites[id]?.name || byId.actors[id]?.name || id;
-}
-
-function buildSlider() {
-  const start = new Date(Date.UTC(2023, 0, 1));
-  const end = new Date(DB.manifest.built || Date.now());
-  for (let d = new Date(start); d <= end; d.setUTCMonth(d.getUTCMonth() + 1)) {
-    months.push(d.toISOString().slice(0, 7));
-  }
-  const input = document.getElementById("when");
-  input.max = months.length - 1;
-  input.value = months.length - 1;
-  input.addEventListener("input", () => setWhen(months[+input.value]));
-
-  const ticks = document.getElementById("ticks");
-  for (const r of DB.responses) {
-    const i = months.indexOf(String(r.date).slice(0, 7));
-    if (i < 0) continue;
-    const span = document.createElement("span");
-    span.style.left = `calc(${(i / (months.length - 1)) * 100}% - 1px)`;
-    span.title = `${fmtDate(r.date)} — ${r.title}`;
-    ticks.appendChild(span);
-  }
-  setWhen(months[months.length - 1]);
-}
-
-let currentWhen, currentSite;
-function setWhen(m) {
-  currentWhen = m;
-  document.getElementById("when-label").textContent = fmtDate(m);
-  for (const [id, { ring }] of Object.entries(siteLayers)) {
-    const claims = activeClaims(id, m);
-    if (!claims.length) { ring.setStyle({ weight: 0 }); continue; }
-    const t = TIER[strongest(claims)];
-    ring.setStyle({ weight: t.weight, dashArray: t.dash });
-  }
-  if (currentSite) showSite(currentSite);
-}
-
-function showSite(id) {
-  currentSite = id;
-  history.replaceState(null, "", "#site=" + encodeURIComponent(id));
-  const s = byId.sites[id];
-  const claims = DB.control_claims.filter((c) => c.site_id === id)
-    .sort((a, b) => (dkey(a.valid_from) || "").localeCompare(dkey(b.valid_from) || ""));
-  const active = new Set(activeClaims(id, currentWhen).map((c) => c.id));
-  const impacts = DB.impacts.filter((i) => i.site_id === id);
-  const flowsOut = DB.flows.filter((f) => f.from_node === id || f.to_node === id ||
-    byId.actors[f.from_node]?.site_id === id || byId.actors[f.to_node]?.site_id === id);
-  const atSite = DB.actors.filter((a) => a.site_id === id);
-
-  const claimHtml = claims.length ? claims.map((c) => {
-    const actor = byId.actors[c.actor_id];
-    const period = `${fmtDate(c.valid_from) || "?"} – ${c.valid_to ? fmtDate(c.valid_to) : "present"}`;
-    return `<li>
-      <div><strong>${esc(actor?.name)}</strong> ${esc(CONTROL_VERB[c.control_type] || c.control_type)} ${esc(s.name)}
-      ${active.has(c.id) ? "" : '<span class="muted small">(not active at selected date)</span>'}</div>
-      <div class="claim-meta">${badge(c.evidence_tier)} <span>${esc(period)}</span></div>
-      ${c.summary ? `<div class="small">${esc(c.summary)}</div>` : ""}
-      <div class="cite">${cites(c.source_ids, c.paragraph_or_page)}</div>
-      ${denialsFor(c.id)}
-    </li>`;
-  }).join("") : '<li class="muted">No control claim recorded. That is a gap, not evidence of no armed presence.</li>';
-
-  const impactHtml = impacts.map((i) => `<li>
-      <div><strong>${esc(i.value != null ? i.value.toLocaleString() + " " + (i.unit || "") : "")}</strong> ${esc(i.summary)}</div>
-      <div class="claim-meta">${badge(i.evidence_tier)} <span>${esc(i.period || "")}</span></div>
-      ${i.method ? `<div class="small muted">How: ${esc(i.method)}</div>` : ""}
-      <div class="cite">${cites(i.source_ids, i.paragraph_or_page)}</div>${denialsFor(i.id)}</li>`).join("");
-
-  const flowHtml = flowsOut.map((f) => `<li>
-      <div>${esc(f.mineral)}: ${esc(nodeName(f.from_node))} → ${esc(nodeName(f.to_node))}
-        ${sayariLink(f.from_node)}${sayariLink(f.to_node)}</div>
-      <div class="claim-meta">${badge(f.evidence_tier)} <span>${esc(f.period || "")}</span></div>
-      ${f.summary ? `<div class="small">${esc(f.summary)}</div>` : ""}
-      <div class="cite">${cites(f.source_ids)}</div>${denialsFor(f.id)}</li>`).join("");
-
-  const actorHtml = atSite.map((a) => `<li>${actorLine(a)}</li>`).join("");
-
-  document.getElementById("panel").innerHTML = `
-    <h2>${esc(s.name)}</h2>
-    <div class="muted small">${esc([s.site_type.replace("_", " "), (s.minerals || []).join(", "), s.admin_area, s.country].filter(Boolean).join(" · "))}</div>
-    ${s.notes ? `<p class="small muted">${esc(s.notes)}</p>` : ""}
-    <h3>Control history</h3><ul>${claimHtml}</ul>
-    ${actorHtml ? `<h3>Located here</h3><ul>${actorHtml}</ul>` : ""}
-    ${impactHtml ? `<h3>Impacts</h3><ul>${impactHtml}</ul>` : ""}
-    ${flowHtml ? `<h3>Mineral flows</h3><ul>${flowHtml}</ul>` : ""}
-    <div class="cite" style="margin-top:12px">Location: ${cites(s.source_ids)}</div>`;
 }
 
 function sayariLink(id) {
@@ -320,24 +176,26 @@ function buildHome() {
 }
 
 // ---------- views & routing ----------
-let mapFitted = false;
-function showView(name) {
+// Modules (map.js, chain.js, search.js, gap.js) register here: { build(), show(params) }
+const VIEWS = (window.GC_VIEWS = window.GC_VIEWS || {});
+
+function showView(name, params) {
   const btn = document.querySelector(`.tabs [data-view="${CSS.escape(name)}"]`);
   if (!btn) return;
   document.querySelectorAll(".tabs button").forEach((x) => x.setAttribute("aria-selected", x === btn));
   document.querySelectorAll(".view").forEach((v) => (v.hidden = v.id !== "view-" + name));
-  document.querySelector(".legend").hidden = name === "home" || name === "sources";  // overview explains tiers in full
-  if (name === "map") {
-    map.invalidateSize();
-    if (!mapFitted && mapBounds.length > 1) { map.fitBounds(mapBounds, { padding: [40, 40], maxZoom: 10 }); mapFitted = true; }
-  }
+  document.querySelector(".legend").hidden = ["home", "sources", "map"].includes(name);  // these explain tiers themselves
+  document.body.dataset.view = name;
+  VIEWS[name]?.show?.(params || new URLSearchParams());
   if (name === "laundering" && window.drawGap) window.drawGap();
 }
 
 function route() {
   const h = new URLSearchParams(location.hash.slice(1));
-  if (h.get("site") && byId.sites[h.get("site")]) { showView("map"); showSite(h.get("site")); return; }
-  showView(h.get("view") || "home");
+  if (h.get("site")) { showView("map", h); return; }
+  if (h.get("company")) { showView("search", h); return; }
+  if (h.get("chain")) { showView("chain", h); return; }
+  showView(h.get("view") || "home", h);
   window.scrollTo(0, 0);
 }
 
@@ -357,14 +215,14 @@ function tabs() {
     return;
   }
   index();
+  window.GC = { DB, byId, TIER, esc, badge, cites, fmtDate, dkey, denialsFor, actorLine, sayariLink, nodeName, CONTROL_VERB, go: (hash) => { location.hash = hash; } };
   document.getElementById("built").textContent = `· data built ${fmtDate(DB.manifest.built)}`;
   tabs();
   buildHome();
-  buildMap();
-  buildSlider();
   buildTimeline();
   buildGaps();
   buildSources();
+  for (const v of Object.values(VIEWS)) v.build?.();
   if (window.buildGap) window.buildGap(DB, { badge, cites, esc, fmtDate });
   route();
 })();
