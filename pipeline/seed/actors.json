@@ -1,0 +1,1058 @@
+[
+  {
+    "id": "act_m23",
+    "name": "M23 (Mouvement du 23 mars)",
+    "type": "armed_group",
+    "country": "COD",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_un_goe_s2024_969",
+      "src_treasury_sb0411",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "diV1zDu2TnrgnGxCb3WD8Q",
+    "sayari_url": "https://graph.sayari.com/resource/entity/diV1zDu2TnrgnGxCb3WD8Q",
+    "sayari_match_reason": "Known ID returned unchanged; aliases include '23 March Movement (M23)' and 'M23/ARC'; address North Kivu; OFAC SDN 15585 and UN CDe.006.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "controlled_by_aus_sanctioned",
+      "controlled_by_eu_sanctioned",
+      "controlled_by_jpn_sanctioned",
+      "controlled_by_ofac_sdn",
+      "controlled_by_uk_sanctioned",
+      "controlled_by_un_sanctioned",
+      "cpi_score",
+      "export_controls",
+      "export_controls_other",
+      "law_enforcement_action",
+      "law_enforcement_action_historic",
+      "pep_adjacent",
+      "psa_regulatory_action",
+      "reputational_risk_organized_crime_recent",
+      "reputational_risk_other",
+      "reputational_risk_other_historic",
+      "reputational_risk_terrorism_recent",
+      "sanctioned_arg_repet_jus",
+      "sanctioned_aus_dfat",
+      "sanctioned_che_seco",
+      "sanctioned_eu_dg_fisma_ec",
+      "sanctioned_eu_ec_sanctions_map",
+      "sanctioned_eu_sanctions",
+      "sanctioned_fra_dgt_mefids",
+      "sanctioned_gbr_fcdo",
+      "sanctioned_jpn_mof",
+      "sanctioned_other",
+      "sanctioned_ukr_sfms",
+      "sanctioned_un_sc",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_afc",
+    "name": "AFC (Alliance Fleuve Congo) — succeeded by the Front for the Refoundation of the Nation, 12 Oct 2026",
+    "type": "armed_group",
+    "country": "COD",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0668",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "tANZaCKgA6oMa6jl9OmdHg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/tANZaCKgA6oMa6jl9OmdHg",
+    "sayari_match_reason": "Known ID returned unchanged; names 'Alliance Fleuve Congo'/'AFC'; business purpose 'Politico-military movement'; registration date 2023-12-15; OFAC SDN 48601.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "controlled_by_aus_sanctioned",
+      "controlled_by_eu_sanctioned",
+      "controlled_by_jpn_sanctioned",
+      "controlled_by_ofac_sdn",
+      "controlled_by_uk_sanctioned",
+      "cpi_score",
+      "export_controls",
+      "export_controls_other",
+      "formerly_sanctioned",
+      "formerly_sanctioned_che_seco",
+      "pep_adjacent",
+      "psa_regulatory_action",
+      "reputational_risk_organized_crime_recent",
+      "reputational_risk_terrorism_recent",
+      "sanctioned_arg_repet_jus",
+      "sanctioned_che_seco",
+      "sanctioned_eu_dg_fisma_ec",
+      "sanctioned_eu_ec_sanctions_map",
+      "sanctioned_eu_sanctions",
+      "sanctioned_fra_dgt_mefids",
+      "sanctioned_gbr_fcdo",
+      "sanctioned_jpn_mof",
+      "sanctioned_other",
+      "sanctioned_ukr_sfms",
+      "sanctioned_un_sc",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "Political-military coalition that includes M23. Treasury sb0668 notes the 12 Oct 2026 renaming.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_pareco",
+    "name": "PARECO-FF",
+    "type": "armed_group",
+    "country": "COD",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2025-08-12",
+        "ref": "sb0221"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": "DRC-aligned militia that held Rubaya mining sites before M23 (2022 – early 2024)."
+  },
+  {
+    "id": "act_rdf",
+    "name": "Rwanda Defence Force (RDF)",
+    "type": "state_force",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2026-03-02",
+        "ref": "sb0411"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0411",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "E74Od6qY6XwVVlUY-W0G7Q",
+    "sayari_url": "https://graph.sayari.com/resource/entity/E74Od6qY6XwVVlUY-W0G7Q",
+    "sayari_match_reason": "Known ID returned unchanged; names 'RDF'/'Rwanda Defence Force'; address Ministry of Defence, KG 1 Roundabout, Kigali; company_type Government Entity; OFAC SDN 56928.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "export_controls",
+      "pep_adjacent",
+      "regulatory_action",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_rw_mod",
+    "name": "Rwandan Ministry of Defence",
+    "type": "state_body",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2026-10-28",
+        "ref": "sb0668"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0668",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "8fKsoMBpty_6tRnAfSuONQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/8fKsoMBpty_6tRnAfSuONQ",
+    "sayari_match_reason": "Aliases 'Rwandan Ministry of Defence', 'MINADEF', 'MOD of the Republic of Rwanda'; address KG 1 Roundabout, Kigali (same as RDF record); Government Entity; OFAC SDN 59069; sourced from OFAC SDN list. Consistent with the 28 Oct 2026 designation in the case doc.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "export_controls",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_gov_rwanda",
+    "name": "Government of Rwanda",
+    "type": "state_body",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_govrw_2026_03_02_statement"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_zigama",
+    "name": "Zigama Credit and Savings Society",
+    "type": "financial_institution",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2026-10-28",
+        "ref": "sb0668"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0668",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "GBgw7aYaaYfLAQO2KsliQA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/GBgw7aYaaYfLAQO2KsliQA",
+    "sayari_match_reason": "Known ID returned unchanged; aliases 'Zigama CSS', 'Zigama Credit and Savings Bank'; address KG 178 Street 3, PO Box 4772, Kigali; company_type Financial Institution; OFAC SDN 58407.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "export_controls",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "A second, sparse Sayari record (j8ka8O7pMigvUthBvI-auA) is not treated as the same entity.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_gasabo",
+    "name": "Gasabo Gold Refinery",
+    "type": "company",
+    "country": "RWA",
+    "site_id": "site_kigali_refinery",
+    "sanctions": [
+      {
+        "issuer": "EU",
+        "date": "2025-03-17",
+        "ref": "Reg. 2025/509"
+      },
+      {
+        "issuer": "US OFAC",
+        "date": "2026-06-25",
+        "ref": "sb0543"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_eurlex_2025_509",
+      "src_opensanctions_gasabo",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "i0CKJhgvHKympxUfQw1BUA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/i0CKJhgvHKympxUfQw1BUA",
+    "sayari_match_reason": "Known ID returned unchanged; Kigali address; registration date 2022-05-26; OFAC SDN 57937 and EU FSD 173827.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "controlled_by_ofac_sdn",
+      "cpi_score",
+      "export_controls",
+      "reputational_risk_organized_crime_recent",
+      "reputational_risk_terrorism_recent",
+      "sanctioned_eu_dg_fisma_ec",
+      "sanctioned_eu_ec_sanctions_map",
+      "sanctioned_eu_sanctions",
+      "sanctioned_fra_dgt_mefids",
+      "sanctioned_other",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "Rwanda's only gold refinery; began refining 1 Jun 2022 (EU statement of reasons).",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_kalima",
+    "name": "Jean Malic Kalima Karekezi",
+    "type": "person",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2026-06-25",
+        "ref": "sb0543"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "3IPk7makLLnIcTI_C5uNSw",
+    "sayari_url": "https://graph.sayari.com/resource/entity/3IPk7makLLnIcTI_C5uNSw",
+    "sayari_match_reason": "Known ID returned unchanged; addresses Uvira (DRC) and Kigali; OFAC SDN 57936; passport PC638680.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "export_controls",
+      "owner_of_export_controls_entity",
+      "owner_of_sanctioned_entity",
+      "owner_of_sanctioned_usa_ofac_sdn_entity",
+      "psa_owner_of_export_controls_entity",
+      "psa_owner_of_sanctioned_entity",
+      "psa_owner_of_sanctioned_usa_ofac_sdn_entity",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "Chairman, Gasabo Gold Refinery.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_kayobotsi",
+    "name": "Bosco Kayobotsi",
+    "type": "person",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2026-06-25",
+        "ref": "sb0543"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "Pj4_K8Exf3J8OW-nAvaiZg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/Pj4_K8Exf3J8OW-nAvaiZg",
+    "sayari_match_reason": "Known ID returned unchanged; addresses Masisi (DRC) and Kigali; OFAC SDN 57938.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "export_controls",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "General manager, Gasabo Gold Refinery.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_bugambira",
+    "name": "Bugambira Mines LTD",
+    "type": "company",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2026-06-25",
+        "ref": "sb0543"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "bMpOqIwnc55hTXWt_FeGyA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/bMpOqIwnc55hTXWt_FeGyA",
+    "sayari_match_reason": "Known ID returned unchanged; Kigali; registered 2006-06-20; OFAC SDN 57939; Kalima is shareholder (traverse).",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "export_controls",
+      "owned_by_entity_in_export_controls",
+      "owned_by_sanctioned_entity",
+      "owned_by_sanctioned_usa_ofac_sdn_entity",
+      "psa_owned_by_entity_in_export_controls",
+      "psa_owned_by_sanctioned_entity",
+      "psa_owned_by_sanctioned_usa_ofac_sdn_entity",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_wolfram",
+    "name": "Wolfram Mining and Processing LTD",
+    "type": "company",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2026-06-25",
+        "ref": "sb0543"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "ByUCmIzSSyFaep1RBIu4jQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/ByUCmIzSSyFaep1RBIu4jQ",
+    "sayari_match_reason": "Known ID returned unchanged; Kigali; registered 2006-12-22; OFAC SDN 57940; Kalima is shareholder (traverse).",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "export_controls",
+      "owned_by_entity_in_export_controls",
+      "owned_by_sanctioned_entity",
+      "owned_by_sanctioned_usa_ofac_sdn_entity",
+      "psa_owned_by_entity_in_export_controls",
+      "psa_owned_by_sanctioned_entity",
+      "psa_owned_by_sanctioned_usa_ofac_sdn_entity",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_rwinkwavu",
+    "name": "Rwinkwavu Mining Corporation LTD",
+    "type": "company",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2026-06-25",
+        "ref": "sb0543"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "vVqCspLlm9Vn-RCNojSrhQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/vVqCspLlm9Vn-RCNojSrhQ",
+    "sayari_match_reason": "Known ID returned unchanged; address Rwinkwavu, Rwanda; OFAC SDN 57941; Kalima is shareholder (traverse).",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "export_controls",
+      "owned_by_entity_in_export_controls",
+      "owned_by_sanctioned_entity",
+      "owned_by_sanctioned_usa_ofac_sdn_entity",
+      "psa_owned_by_entity_in_export_controls",
+      "psa_owned_by_sanctioned_entity",
+      "psa_owned_by_sanctioned_usa_ofac_sdn_entity",
+      "sanctioned_usa_ofac_sdn"
+    ],
+    "notes": "",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_kamanzi",
+    "name": "Francis Kamanzi",
+    "type": "person",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "EU",
+        "date": "2025-03-17",
+        "ref": "Reg. 2025/509"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_eurlex_2025_509",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "7UisBIYHVOxjxjZXLnOsUA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/7UisBIYHVOxjxjZXLnOsUA",
+    "sayari_match_reason": "Person, Kigali, EU sanctions identifiers (EU.12860.90) adjacent to Gasabo's EU.12862.88 (same EU listing batch), PEP=true, and officer_of Rwanda Mines, Petroleum and Gas Board with position 'Chief Executive Officer'.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "reputational_risk_organized_crime_recent",
+      "reputational_risk_terrorism_recent",
+      "sanctioned_eu_dg_fisma_ec",
+      "sanctioned_eu_ec_sanctions_map",
+      "sanctioned_eu_sanctions",
+      "sanctioned_fra_dgt_mefids",
+      "sanctioned_other",
+      "soe_adjacent"
+    ],
+    "notes": "CEO of the Rwanda Mines, Petroleum and Gas Board at the time of EU listing.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_cdmc",
+    "name": "Coopérative des Artisanaux Miniers du Congo (CDMC)",
+    "type": "company",
+    "country": "COD",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2025-08-12",
+        "ref": "sb0221"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": "Operated the largest Rubaya concession."
+  },
+  {
+    "id": "act_east_rise",
+    "name": "East Rise Corporation Limited",
+    "type": "company",
+    "country": "HKG",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2025-08-12",
+        "ref": "sb0221"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_star_dragon",
+    "name": "Star Dragon Corporation Limited",
+    "type": "company",
+    "country": "HKG",
+    "site_id": null,
+    "sanctions": [
+      {
+        "issuer": "US OFAC",
+        "date": "2025-08-12",
+        "ref": "sb0221"
+      }
+    ],
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_rmb",
+    "name": "Rwanda Mines, Petroleum and Gas Board (RMB)",
+    "type": "state_body",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_eurlex_2025_509",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "Q6LfuEyiZrbWfsrDNi9MAQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/Q6LfuEyiZrbWfsrDNi9MAQ",
+    "sayari_match_reason": "Exact name, alias 'RMB', address KG 9 Avenue PO Box 937 Kigali, business purpose 'Regulation and Management of Minerals, Quarry, Oil and Gas', state_owned, and Kamanzi recorded as its CEO. Only search hit.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "controlled_by_eu_sanctioned",
+      "cpi_score",
+      "pep_adjacent",
+      "sanctioned_adjacent",
+      "state_owned"
+    ],
+    "notes": "State regulator; not itself sanctioned. EU says it benefited from conflict minerals mixed into Rwandan output.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_itsci",
+    "name": "ITSCI (International Tin Supply Chain Initiative)",
+    "type": "scheme",
+    "country": null,
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_itsci_2026_06_12_gw_response"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_african_panther",
+    "name": "African Panther Resources Ltd",
+    "type": "company",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "X9BAf2KZzwU7tDfYuH4qoA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/X9BAf2KZzwU7tDfYuH4qoA",
+    "sayari_match_reason": "Known ID returned unchanged; RWA country; HS 261590 exports departing RWA in Tanzania customs; 150 shipments sent.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "exports_conflict_minerals",
+      "psa_exports_conflict_minerals"
+    ],
+    "notes": "One of the seven largest Rwandan coltan exporters.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_sunrise",
+    "name": "Sunrise Metal Company Ltd",
+    "type": "company",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/XdjwXWTJpPSM6qhH8gqhnQ",
+    "sayari_match_reason": "Only RWA/COD/TZA-country record among 144 'Sunrise Metal' hits; exact name; trade sources are China and Tanzania customs (the coltan export corridor); 66 shipments sent.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score"
+    ],
+    "notes": "One of the seven largest Rwandan coltan exporters.",
+    "sayari_confidence": "low"
+  },
+  {
+    "id": "act_boss_mining",
+    "name": "Boss Mining Solution Ltd",
+    "type": "company",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "WKC3rFluM3Fgj6NXzGwxTA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/WKC3rFluM3Fgj6NXzGwxTA",
+    "sayari_match_reason": "Known ID returned unchanged; address Kigali, Niboye, Kicukiro, KK 21 Av 31; RWA; HS 261590 exports from RWA.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score"
+    ],
+    "notes": "One of the seven largest. A separate DRC company of the same name (Sayari yFQo_xvgXez4UJgGyJ9qBw) is NOT merged.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_kanzamin",
+    "name": "Kanzamin Limited",
+    "type": "company",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "PgSzW4JGmOSkebhc9rXaLg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/PgSzW4JGmOSkebhc9rXaLg",
+    "sayari_match_reason": "Known ID returned unchanged; address PO Box 2294 Karisimbi Village; RWA; HS 261590 exports departing RWA.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score"
+    ],
+    "notes": "One of the seven largest Rwandan coltan exporters.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_philbert",
+    "name": "Philbert Trading Minerals Ltd",
+    "type": "company",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/Z9TfSFyAXgXOCyd-gic-uQ",
+    "sayari_match_reason": "Exact name, RWA, Tanzania customs exporter (24 shipments sent), Sayari flags exports_conflict_minerals.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "exports_conflict_minerals",
+      "exports_ilab_child_labor",
+      "exports_ilab_forced_labor",
+      "psa_exports_conflict_minerals",
+      "psa_exports_ilab_child_labor",
+      "psa_exports_ilab_forced_labor"
+    ],
+    "notes": "One of the seven largest Rwandan coltan exporters.",
+    "sayari_confidence": "low"
+  },
+  {
+    "id": "act_space_mining",
+    "name": "Space Mining Ltd",
+    "type": "company",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "DGREDQ68sKQBgvglvG7nhg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/DGREDQ68sKQBgvglvG7nhg",
+    "sayari_match_reason": "Exact name; address Nyarugenge, Kigali; RWA; China and Tanzania customs sources; 174 shipments sent. Other 'Space Mining' hits are Singapore/Ireland/Australia/Chile/Canada space-tech or unrelated firms.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score"
+    ],
+    "notes": "Smaller exporter.",
+    "sayari_confidence": "low"
+  },
+  {
+    "id": "act_rani",
+    "name": "Rani Mining Ltd",
+    "type": "company",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "KMJ_GrAwF6ZiFOQSsMEbMQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/KMJ_GrAwF6ZiFOQSsMEbMQ",
+    "sayari_match_reason": "Exact name; addresses Niboye, Kicukiro District, Kigali and Kimihurura, Gasabo; RWA; China, Tanzania and Uganda customs; 131 shipments sent.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score"
+    ],
+    "notes": "Smaller exporter.",
+    "sayari_confidence": "low"
+  },
+  {
+    "id": "act_otic",
+    "name": "Ningxia Orient Tantalum Industry Co. (OTIC)",
+    "type": "company",
+    "country": "CHN",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "ZpTn4A-iShM17oe5UZ0pbA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/ZpTn4A-iShM17oe5UZ0pbA",
+    "sayari_match_reason": "Chinese registry record (China SAIC) with USCC; English aliases 'NINGXIA ORIENT TANTALUM INDUSTRY CO.,LTD'; address Dawukou District, Shizuishan, Ningxia; business purpose tantalum/niobium production; listed issuer.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "chinese_soe_adjacent",
+      "cpi_score",
+      "meu_list_contractors",
+      "owned_by_chinese_soe",
+      "owned_by_soe",
+      "psa_owned_by_chinese_soe",
+      "psa_owned_by_soe",
+      "soe_adjacent"
+    ],
+    "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_jinxin",
+    "name": "Jiujiang Jinxin Nonferrous Metals Co.",
+    "type": "company",
+    "country": "CHN",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "vEZic6aOgtwXXiMgRT3MsA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/vEZic6aOgtwXXiMgRT3MsA",
+    "sayari_match_reason": "Registry record with USCC and LEI; aliases 'JIUJIANG JINXIN NONFERROUS METALS CO LTD'; Xunyang District, Jiujiang; business purpose nonferrous/rare metal smelting; TZA in country list (Tanzania customs counterparty); 29 shipments received.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "law_enforcement_action",
+      "law_enforcement_action_historic"
+    ],
+    "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_tanbre",
+    "name": "Jiujiang Tanbre Co.",
+    "type": "company",
+    "country": "CHN",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "8Q09O1PQ4twjsSdyprTyYA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/8Q09O1PQ4twjsSdyprTyYA",
+    "sayari_match_reason": "Search for 'Jiujiang Tanbre' returned this registry record, which carries 'JIUJIANG TANBRE CO LTD' as an alias; address No. 62 Jiuhu Road, Lianxi District, Jiujiang; business scope tantalum/niobium/tungsten smelting; registered 2017-12-29; USCC + LEI.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "chinese_core_soe",
+      "cpi_score",
+      "owned_by_soe",
+      "psa_owned_by_soe"
+    ],
+    "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_zhongao",
+    "name": "Jiujiang Zhongao Tantalum & Niobium Co.",
+    "type": "company",
+    "country": "CHN",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "IL1aY2MwQCbcccOK9EI7_A",
+    "sayari_url": "https://graph.sayari.com/resource/entity/IL1aY2MwQCbcccOK9EI7_A",
+    "sayari_match_reason": "Registry record with USCC + LEI; English alias 'Jiujiang Zhongao Tantalum & Niobium Co., Ltd.'; address Binjiang East Road 801, Lianxi Industrial Park, Jiujiang; business scope tantalum/niobium compounds (K2TaF7, Ta2O5, Nb2O5); TZA source = Tanzania customs (2 received).",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score"
+    ],
+    "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_ximei",
+    "name": "Ximei Resources (Guangdong) Ltd",
+    "type": "company",
+    "country": "CHN",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "6ITu5Fse7Hyja2GUl7g_8w",
+    "sayari_url": "https://graph.sayari.com/resource/entity/6ITu5Fse7Hyja2GUl7g_8w",
+    "sayari_match_reason": "Registry record found via Chinese name; English alias 'Ximei Resources (Guangdong) Co., Ltd.'; former names 广东致远新材料 / 英德佳特新材料; address Qiaotou Town, Yingde, Qingyuan, Guangdong; business scope Ta/Nb compounds and K2TaF7.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score"
+    ],
+    "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_kingxing",
+    "name": "Hengyang King Xing Lifeng New Materials Co.",
+    "type": "company",
+    "country": "CHN",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "JoPJdyraJ9o9KbVk_TBqmg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/JoPJdyraJ9o9KbVk_TBqmg",
+    "sayari_match_reason": "Registry record carries alias 'HENGYANG KING XING LIFENG NEW MATERIALS CO.,LTD' (and 'Hengyang Jinxin Laifu New Materials'); Hengyang, Hunan; registered 1993-12-24; business scope high-grade Ta/Nb concentrates and high-purity Ta/Nb.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score"
+    ],
+    "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_ulba",
+    "name": "Ulba Metallurgical Plant",
+    "type": "company",
+    "country": "KAZ",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "yd4WCfTHQsYYVO6SEoutWA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/yd4WCfTHQsYYVO6SEoutWA",
+    "sayari_match_reason": "Kazakhstan registry record (DFO) with BIN 941040000097; address 102 Abay Ave, Oskemen (Ust-Kamenogorsk); registered 1994-10-31; aliases 'Ulbinsky Metallurgichesky Zavod', 'UMZ'; state_owned.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "chinese_soe_adjacent",
+      "cpi_score",
+      "export_controls_adjacent",
+      "export_to_chinese_soe",
+      "forced_labor_xinjiang_origin_subtier",
+      "imports_from_sanctioned_usa_ofac_sdn_entity",
+      "meu_list_contractors",
+      "owned_by_regulatory_action_entity",
+      "owned_by_soe",
+      "pep_adjacent",
+      "psa_export_to_chinese_soe",
+      "psa_forced_labor_xinjiang_origin_subtier",
+      "psa_imports_from_sanctioned_usa_ofac_sdn_entity",
+      "psa_owned_by_regulatory_action_entity",
+      "psa_owned_by_soe",
+      "regulatory_action",
+      "sanctioned_adjacent",
+      "state_owned"
+    ],
+    "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_taniobis_th",
+    "name": "Taniobis (Thailand)",
+    "type": "company",
+    "country": "THA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "dfQ3LgjqYoadPsJFejbYsg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/dfQ3LgjqYoadPsJFejbYsg",
+    "sayari_match_reason": "Thai registration no. 0835522000255 + LEI; Thai name transliterates to 'Taniobis Co., Ltd'; former name H.C. Starck Co., Ltd.; address 5 I-3A Road, Map Ta Phut, Rayong (industrial estate); registered 1979-12-24; business: Ta/Nb powders and ores.",
+    "sayari_risk_flags": [
+      "basel_aml",
+      "cpi_score",
+      "sanctioned_adjacent"
+    ],
+    "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_halcyon",
+    "name": "Halcyon Inc",
+    "type": "company",
+    "country": "ARE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "8eW5KQNdwT7LoG9R3s75kA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/8eW5KQNdwT7LoG9R3s75kA",
+    "sayari_match_reason": "Buyer entity on Sayari customs records of HS 261590 shipments from the named exporter.",
+    "sayari_risk_flags": [],
+    "sayari_confidence": "high",
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_novacore",
+    "name": "Novacore FZE",
+    "type": "company",
+    "country": "ARE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "fc7RNdHZNcMUqXa0gnEjhA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/fc7RNdHZNcMUqXa0gnEjhA",
+    "sayari_match_reason": "Buyer entity on Sayari customs records of HS 261590 shipments from the named exporter.",
+    "sayari_risk_flags": [],
+    "sayari_confidence": "high",
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_traxys",
+    "name": "Traxys Europe S.A.",
+    "type": "company",
+    "country": "LUX",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "49gLiIsaRq1p3s8vhLc4cw",
+    "sayari_url": "https://graph.sayari.com/resource/entity/49gLiIsaRq1p3s8vhLc4cw",
+    "sayari_match_reason": "Buyer entity on Sayari customs records of HS 261590 shipments from the named exporter.",
+    "sayari_risk_flags": [],
+    "sayari_confidence": "high",
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_smr_be",
+    "name": "Specialty Metals Resources SA",
+    "type": "company",
+    "country": "BEL",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "eUxn6Q_VZ8MhKbTUAEMjCg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/eUxn6Q_VZ8MhKbTUAEMjCg",
+    "sayari_match_reason": "Buyer entity on Sayari customs records of HS 261590 shipments from the named exporter.",
+    "sayari_risk_flags": [],
+    "sayari_confidence": "high",
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_smr_hk",
+    "name": "Specialty Metals Resources Limited",
+    "type": "company",
+    "country": "HKG",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "Q3uaj_zHDMOGtN4-OoTi8Q",
+    "sayari_url": "https://graph.sayari.com/resource/entity/Q3uaj_zHDMOGtN4-OoTi8Q",
+    "sayari_match_reason": "Buyer entity on Sayari customs records of HS 261590 shipments from the named exporter.",
+    "sayari_risk_flags": [],
+    "sayari_confidence": "high",
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  }
+]

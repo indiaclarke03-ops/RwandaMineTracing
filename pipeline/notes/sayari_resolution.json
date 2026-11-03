@@ -1,0 +1,669 @@
+{
+  "run_date": "2026-11-02",
+  "method_note": "Sayari MCP (claude.ai connector). Known IDs confirmed with get_entity_summary; new names resolved with search_entities + get_entity_summary/profile. Sanctions dates are null because Sayari summaries do not return designation dates; take dates from the primary OFAC/EU notices, not from this file. check_watchlist was not needed: every summary already carried sanctioned flags and list identifiers.",
+  "entities": [
+    {
+      "our_name": "M23",
+      "status": "confirmed",
+      "sayari_entity_id": "diV1zDu2TnrgnGxCb3WD8Q",
+      "sayari_name": "M23",
+      "entity_type": "company",
+      "countries": ["COD", "COG", "GBR", "ZAF"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "15585"},
+        {"type": "un_sanction_prn", "value": "CDe.006"},
+        {"type": "eu_fsd_id", "value": "7203"},
+        {"type": "eu_sanction_rn", "value": "EU.3674.45"},
+        {"type": "gbr_uk_sanctions_id", "value": "DRC0020"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "15585", "date": null},
+        {"list": "UN Security Council", "id": "CDe.006", "date": null},
+        {"list": "EU", "id": "EU.3674.45 / FSD 7203", "date": null},
+        {"list": "UK FCDO", "id": "DRC0020", "date": null},
+        {"list": "Also flagged: AUS DFAT, CHE SECO, JPN MOF, FRA DGT, UKR SFMS, ARG RePET", "id": null, "date": null}
+      ],
+      "risk_flags": ["basel_aml", "controlled_by_aus_sanctioned", "controlled_by_eu_sanctioned", "controlled_by_jpn_sanctioned", "controlled_by_ofac_sdn", "controlled_by_uk_sanctioned", "controlled_by_un_sanctioned", "cpi_score", "export_controls", "export_controls_other", "law_enforcement_action", "law_enforcement_action_historic", "pep_adjacent", "psa_regulatory_action", "reputational_risk_organized_crime_recent", "reputational_risk_other", "reputational_risk_other_historic", "reputational_risk_terrorism_recent", "sanctioned_arg_repet_jus", "sanctioned_aus_dfat", "sanctioned_che_seco", "sanctioned_eu_dg_fisma_ec", "sanctioned_eu_ec_sanctions_map", "sanctioned_eu_sanctions", "sanctioned_fra_dgt_mefids", "sanctioned_gbr_fcdo", "sanctioned_jpn_mof", "sanctioned_other", "sanctioned_ukr_sfms", "sanctioned_un_sc", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/diV1zDu2TnrgnGxCb3WD8Q",
+      "match_reason": "Known ID returned unchanged; aliases include '23 March Movement (M23)' and 'M23/ARC'; address North Kivu; OFAC SDN 15585 and UN CDe.006.",
+      "notes": "Typed as 'company' in Sayari (armed group). Country list includes GBR/ZAF, probably from sanctions-list address fields rather than presence."
+    },
+    {
+      "our_name": "AFC (Alliance Fleuve Congo)",
+      "status": "confirmed",
+      "sayari_entity_id": "tANZaCKgA6oMa6jl9OmdHg",
+      "sayari_name": "Alliance Fleuve Congo (AFC)",
+      "entity_type": "company",
+      "countries": ["COD", "KEN", "COG", "FJI"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "48601"},
+        {"type": "eu_fsd_id", "value": "168554"},
+        {"type": "eu_sanction_rn", "value": "EU.12072.82"},
+        {"type": "gbr_uk_sanctions_id", "value": "DRC0076"},
+        {"type": "fra_asset_freeze_id", "value": "7631"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "48601", "date": null},
+        {"list": "EU", "id": "EU.12072.82 / FSD 168554", "date": null},
+        {"list": "UK FCDO", "id": "DRC0076", "date": null},
+        {"list": "Also flagged: UN SC, AUS DFAT, JPN MOF, CHE SECO (formerly_sanctioned_che_seco also present), FRA, UKR, ARG", "id": null, "date": null}
+      ],
+      "risk_flags": ["basel_aml", "controlled_by_aus_sanctioned", "controlled_by_eu_sanctioned", "controlled_by_jpn_sanctioned", "controlled_by_ofac_sdn", "controlled_by_uk_sanctioned", "cpi_score", "export_controls", "export_controls_other", "formerly_sanctioned", "formerly_sanctioned_che_seco", "pep_adjacent", "psa_regulatory_action", "reputational_risk_organized_crime_recent", "reputational_risk_terrorism_recent", "sanctioned_arg_repet_jus", "sanctioned_che_seco", "sanctioned_eu_dg_fisma_ec", "sanctioned_eu_ec_sanctions_map", "sanctioned_eu_sanctions", "sanctioned_fra_dgt_mefids", "sanctioned_gbr_fcdo", "sanctioned_jpn_mof", "sanctioned_other", "sanctioned_ukr_sfms", "sanctioned_un_sc", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/tANZaCKgA6oMa6jl9OmdHg",
+      "match_reason": "Known ID returned unchanged; names 'Alliance Fleuve Congo'/'AFC'; business purpose 'Politico-military movement'; registration date 2023-12-15; OFAC SDN 48601.",
+      "notes": "Both sanctioned_che_seco and formerly_sanctioned_che_seco present: Swiss status may have changed; check SECO directly. FJI country code looks like a data artefact."
+    },
+    {
+      "our_name": "Rwanda Defence Force (RDF)",
+      "status": "confirmed",
+      "sayari_entity_id": "E74Od6qY6XwVVlUY-W0G7Q",
+      "sayari_name": "Rwanda Defence Force",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "56928"},
+        {"type": "usa_sam_uei_number", "value": "P7V6N2F57LZ8"},
+        {"type": "xxx_acuris_id", "value": "C2233754"},
+        {"type": "open_sanctions_internal_id", "value": "NK-bPfYXTs7X5kRfBR3xKxFi2"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "56928", "date": null}
+      ],
+      "risk_flags": ["basel_aml", "cpi_score", "export_controls", "pep_adjacent", "regulatory_action", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/E74Od6qY6XwVVlUY-W0G7Q",
+      "match_reason": "Known ID returned unchanged; names 'RDF'/'Rwanda Defence Force'; address Ministry of Defence, KG 1 Roundabout, Kigali; company_type Government Entity; OFAC SDN 56928.",
+      "notes": "OFAC only in Sayari (no EU/UK list flags on the RDF as an institution). Case doc says OFAC designation 2 Mar 2026 (not returned by Sayari)."
+    },
+    {
+      "our_name": "Zigama Credit and Savings Society",
+      "status": "confirmed",
+      "sayari_entity_id": "GBgw7aYaaYfLAQO2KsliQA",
+      "sayari_name": "ZIGAMA CREDIT AND SAVINGS SOCIETY",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "58407"},
+        {"type": "unknown", "value": "RCA/546/2010"},
+        {"type": "open_sanctions_internal_id", "value": "NK-Emm2Umjnn7yetTMhsGSZYj"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "58407", "date": null}
+      ],
+      "risk_flags": ["basel_aml", "cpi_score", "export_controls", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/GBgw7aYaaYfLAQO2KsliQA",
+      "match_reason": "Known ID returned unchanged; aliases 'Zigama CSS', 'Zigama Credit and Savings Bank'; address KG 178 Street 3, PO Box 4772, Kigali; company_type Financial Institution; OFAC SDN 58407.",
+      "notes": "get_entity_profile returned NO relationships: Sayari has no edge from Zigama to the RDF, MoD or M23. The link is only in the Treasury press release (sb0668). RCA/546/2010 looks like a Rwanda Cooperative Agency registration number (type unknown in Sayari)."
+    },
+    {
+      "our_name": "Zigama Credit and Savings Society (duplicate record)",
+      "status": "ambiguous",
+      "sayari_entity_id": "j8ka8O7pMigvUthBvI-auA",
+      "sayari_name": "ZIGAMA CREDIT AND SAVINGS SOCIETY.",
+      "entity_type": "company",
+      "countries": [],
+      "identifiers": [],
+      "sanctions": [],
+      "risk_flags": [],
+      "sayari_url": "https://graph.sayari.com/resource/entity/j8ka8O7pMigvUthBvI-auA",
+      "match_reason": "Name match only (trailing period). No country, identifier or address.",
+      "notes": "Single source: Pakistan Imports & Exports (Jan 2023-present), 1 shipment received. Not sanctioned in Sayari. Do not merge with GBgw7aYaaYfLAQO2KsliQA; treat as unconfirmed trade-party fragment."
+    },
+    {
+      "our_name": "Gasabo Gold Refinery",
+      "status": "confirmed",
+      "sayari_entity_id": "i0CKJhgvHKympxUfQw1BUA",
+      "sayari_name": "Gasabo Gold Refinery",
+      "entity_type": "company",
+      "countries": ["RWA", "TZA"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "57937"},
+        {"type": "eu_fsd_id", "value": "173827"},
+        {"type": "eu_sanction_rn", "value": "EU.12862.88"},
+        {"type": "fra_asset_freeze_id", "value": "7978"},
+        {"type": "unknown", "value": "120323055"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "57937", "date": null},
+        {"list": "EU", "id": "EU.12862.88 / FSD 173827", "date": null},
+        {"list": "France asset freeze", "id": "7978", "date": null}
+      ],
+      "risk_flags": ["basel_aml", "controlled_by_ofac_sdn", "cpi_score", "export_controls", "reputational_risk_organized_crime_recent", "reputational_risk_terrorism_recent", "sanctioned_eu_dg_fisma_ec", "sanctioned_eu_ec_sanctions_map", "sanctioned_eu_sanctions", "sanctioned_fra_dgt_mefids", "sanctioned_other", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/i0CKJhgvHKympxUfQw1BUA",
+      "match_reason": "Known ID returned unchanged; Kigali address; registration date 2022-05-26; OFAC SDN 57937 and EU FSD 173827.",
+      "notes": "Identifier 120323055 (type unknown) is probably the Rwanda RDB company code; worth checking. Registration 2022-05-26 vs case doc 'began operating 1 June 2022' is consistent. Trade: 8 shipments received (Uganda customs), 0 sent; counterparties are Brenntag entities (chemicals)."
+    },
+    {
+      "our_name": "Jean Malic Kalima Karekezi",
+      "status": "confirmed",
+      "sayari_entity_id": "3IPk7makLLnIcTI_C5uNSw",
+      "sayari_name": "Jean Malic Kalima Karekezi",
+      "entity_type": "person",
+      "countries": ["COD", "RWA"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "57936"},
+        {"type": "unknown_national_id_num", "value": "1196380005387371"},
+        {"type": "unknown_passport", "value": "PC638680"},
+        {"type": "xxx_acuris_id", "value": "I12971241"},
+        {"type": "open_sanctions_internal_id", "value": "NK-mjj9dDkVHmdaS6wgQyAmet"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "57936", "date": null}
+      ],
+      "risk_flags": ["basel_aml", "cpi_score", "export_controls", "owner_of_export_controls_entity", "owner_of_sanctioned_entity", "owner_of_sanctioned_usa_ofac_sdn_entity", "psa_owner_of_export_controls_entity", "psa_owner_of_sanctioned_entity", "psa_owner_of_sanctioned_usa_ofac_sdn_entity", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/3IPk7makLLnIcTI_C5uNSw",
+      "match_reason": "Known ID returned unchanged; addresses Uvira (DRC) and Kigali; OFAC SDN 57936; passport PC638680.",
+      "notes": "OFAC only in Sayari; no EU listing on this person. National ID and passport are personal data: store but do not publish on the public site."
+    },
+    {
+      "our_name": "Bosco Kayobotsi",
+      "status": "confirmed",
+      "sayari_entity_id": "Pj4_K8Exf3J8OW-nAvaiZg",
+      "sayari_name": "Bosco Kayobotsi",
+      "entity_type": "person",
+      "countries": ["COD", "RWA"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "57938"},
+        {"type": "unknown_national_id_num", "value": "1198580022378192"},
+        {"type": "unknown_passport", "value": "PC648741"},
+        {"type": "xxx_acuris_id", "value": "I12971242"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "57938", "date": null}
+      ],
+      "risk_flags": ["basel_aml", "cpi_score", "export_controls", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/Pj4_K8Exf3J8OW-nAvaiZg",
+      "match_reason": "Known ID returned unchanged; addresses Masisi (DRC) and Kigali; OFAC SDN 57938.",
+      "notes": "Masisi address is notable (Rubaya is in Masisi territory) but it is only an address field. National ID/passport are personal data: do not publish."
+    },
+    {
+      "our_name": "Bugambira Mines",
+      "status": "confirmed",
+      "sayari_entity_id": "bMpOqIwnc55hTXWt_FeGyA",
+      "sayari_name": "Bugambira Mines LTD",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "57939"},
+        {"type": "xxx_acuris_id", "value": "C2287989"},
+        {"type": "open_sanctions_internal_id", "value": "NK-TtHdiF6znGWHnovDMwrJzd"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "57939", "date": null}
+      ],
+      "risk_flags": ["basel_aml", "cpi_score", "export_controls", "owned_by_entity_in_export_controls", "owned_by_sanctioned_entity", "owned_by_sanctioned_usa_ofac_sdn_entity", "psa_owned_by_entity_in_export_controls", "psa_owned_by_sanctioned_entity", "psa_owned_by_sanctioned_usa_ofac_sdn_entity", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/bMpOqIwnc55hTXWt_FeGyA",
+      "match_reason": "Known ID returned unchanged; Kigali; registered 2006-06-20; OFAC SDN 57939; Kalima is shareholder (traverse).",
+      "notes": "Alias 'Multiserve Consults LTD' (likely former name). No trade records."
+    },
+    {
+      "our_name": "Rwinkwavu Mining Corporation",
+      "status": "confirmed",
+      "sayari_entity_id": "vVqCspLlm9Vn-RCNojSrhQ",
+      "sayari_name": "Rwinkwavu Mining Corporation LTD",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "57941"},
+        {"type": "xxx_acuris_id", "value": "C2287990"},
+        {"type": "open_sanctions_internal_id", "value": "NK-SWwJPyGSVBqLugwkCyKGg5"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "57941", "date": null}
+      ],
+      "risk_flags": ["basel_aml", "cpi_score", "export_controls", "owned_by_entity_in_export_controls", "owned_by_sanctioned_entity", "owned_by_sanctioned_usa_ofac_sdn_entity", "psa_owned_by_entity_in_export_controls", "psa_owned_by_sanctioned_entity", "psa_owned_by_sanctioned_usa_ofac_sdn_entity", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/vVqCspLlm9Vn-RCNojSrhQ",
+      "match_reason": "Known ID returned unchanged; address Rwinkwavu, Rwanda; OFAC SDN 57941; Kalima is shareholder (traverse).",
+      "notes": "No registration date in Sayari. No trade records."
+    },
+    {
+      "our_name": "Wolfram Mining and Processing",
+      "status": "confirmed",
+      "sayari_entity_id": "ByUCmIzSSyFaep1RBIu4jQ",
+      "sayari_name": "Wolfram Mining and Processing LTD",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "57940"},
+        {"type": "xxx_acuris_id", "value": "C2287993"},
+        {"type": "open_sanctions_internal_id", "value": "NK-o9dmJEVUp5fppA9dZsDSKv"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "57940", "date": null}
+      ],
+      "risk_flags": ["basel_aml", "cpi_score", "export_controls", "owned_by_entity_in_export_controls", "owned_by_sanctioned_entity", "owned_by_sanctioned_usa_ofac_sdn_entity", "psa_owned_by_entity_in_export_controls", "psa_owned_by_sanctioned_entity", "psa_owned_by_sanctioned_usa_ofac_sdn_entity", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/ByUCmIzSSyFaep1RBIu4jQ",
+      "match_reason": "Known ID returned unchanged; Kigali; registered 2006-12-22; OFAC SDN 57940; Kalima is shareholder (traverse).",
+      "notes": "No trade records."
+    },
+    {
+      "our_name": "African Panther Resources",
+      "status": "confirmed",
+      "sayari_entity_id": "X9BAf2KZzwU7tDfYuH4qoA",
+      "sayari_name": "AFRICAN PANTHER RESOURCES LTD",
+      "entity_type": "company",
+      "countries": ["RWA", "COD", "TZA"],
+      "identifiers": [],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score", "exports_conflict_minerals", "psa_exports_conflict_minerals"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/X9BAf2KZzwU7tDfYuH4qoA",
+      "match_reason": "Known ID returned unchanged; RWA country; HS 261590 exports departing RWA in Tanzania customs; 150 shipments sent.",
+      "notes": "Trade-record-only entity: no registry identifier, no address, no ownership data. Sources: Tanzania and Vietnam customs. Not sanctioned. Aliases 'AFRICA PANTHER RESOURCES LTD'. The Zug, Switzerland lead from SAYARI_METHOD.md was not re-checked in this run."
+    },
+    {
+      "our_name": "Boss Mining Solution (Rwanda)",
+      "status": "confirmed",
+      "sayari_entity_id": "WKC3rFluM3Fgj6NXzGwxTA",
+      "sayari_name": "BOSS MINING SOLUTION LTD",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/WKC3rFluM3Fgj6NXzGwxTA",
+      "match_reason": "Known ID returned unchanged; address Kigali, Niboye, Kicukiro, KK 21 Av 31; RWA; HS 261590 exports from RWA.",
+      "notes": "Trade-record-only: sources Japan, Russia and Tanzania customs; 103 sent / 4 received. No registry ID, no UBO. Note: Sayari does NOT flag exports_conflict_minerals on this entity (unlike African Panther/Philbert). Address string uses Cyrillic 'К' characters (data-entry artefact from Russian customs)."
+    },
+    {
+      "our_name": "Boss Mining Solution (DRC namesake)",
+      "status": "confirmed",
+      "sayari_entity_id": "yFQo_xvgXez4UJgGyJ9qBw",
+      "sayari_name": "BOSS MINING SOLUTION",
+      "entity_type": "company",
+      "countries": ["COD"],
+      "identifiers": [
+        {"type": "cod_rccm_number", "value": "CD/KNM/RCCM/22-B-00187"}
+      ],
+      "sanctions": [],
+      "risk_flags": [],
+      "sayari_url": "https://graph.sayari.com/resource/entity/yFQo_xvgXez4UJgGyJ9qBw",
+      "match_reason": "Known ID returned unchanged; DRC RCCM registry record (KNM = Kinshasa/Matete court registry prefix), SARL registered 2022-03-25.",
+      "notes": "Record confirmed but it is NOT shown to be the same legal entity as the Rwandan exporter: different jurisdiction, no shared identifier/address/officer. Keep separate; do not merge. No trade, no risk flags."
+    },
+    {
+      "our_name": "Kanzamin",
+      "status": "confirmed",
+      "sayari_entity_id": "PgSzW4JGmOSkebhc9rXaLg",
+      "sayari_name": "KANZAMIN LIMITED",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/PgSzW4JGmOSkebhc9rXaLg",
+      "match_reason": "Known ID returned unchanged; address PO Box 2294 Karisimbi Village; RWA; HS 261590 exports departing RWA.",
+      "notes": "Trade-record-only: sources China and Tanzania customs; 112 sent. No registry ID or UBO. No conflict-minerals flag in Sayari."
+    },
+    {
+      "our_name": "Rwandan Ministry of Defence",
+      "status": "resolved",
+      "sayari_entity_id": "8fKsoMBpty_6tRnAfSuONQ",
+      "sayari_name": "Ministry of Defence of the Republic of Rwanda",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [
+        {"type": "usa_ofac_sdn_number", "value": "59069"},
+        {"type": "open_sanctions_internal_id", "value": "ofac-59069"}
+      ],
+      "sanctions": [
+        {"list": "US OFAC SDN", "id": "59069", "date": null}
+      ],
+      "risk_flags": ["basel_aml", "cpi_score", "export_controls", "sanctioned_usa_ofac_sdn"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/8fKsoMBpty_6tRnAfSuONQ",
+      "match_reason": "Aliases 'Rwandan Ministry of Defence', 'MINADEF', 'MOD of the Republic of Rwanda'; address KG 1 Roundabout, Kigali (same as RDF record); Government Entity; OFAC SDN 59069; sourced from OFAC SDN list. Consistent with the 28 Oct 2026 designation in the case doc.",
+      "notes": "Four other MoD records exist and are NOT the sanctioned entity: YO2A4R7TZHcpc9kCTV_AYg and OW24XdOpuUcR4rCM7ZNcDQ (RWA trade-party records, unsanctioned, flagged sanctioned_adjacent), L-U3FEfBwrfhw62ExLYvLA (country SAU, Kigali BP 23 address, trade record). These look like customs-data fragments of the same ministry; do not link them as confirmed. Profile has NO relationships: Sayari does not yet link the MoD to the RDF or M23."
+    },
+    {
+      "our_name": "Francis Kamanzi (RMB CEO)",
+      "status": "resolved",
+      "sayari_entity_id": "7UisBIYHVOxjxjZXLnOsUA",
+      "sayari_name": "Francis KAMANZI",
+      "entity_type": "person",
+      "countries": ["RWA"],
+      "identifiers": [
+        {"type": "eu_fsd_id", "value": "173815"},
+        {"type": "eu_sanction_rn", "value": "EU.12860.90"},
+        {"type": "fra_asset_freeze_id", "value": "7976"},
+        {"type": "xxx_acuris_id", "value": "I12473200"},
+        {"type": "open_sanctions_internal_id", "value": "NK-PcmguttteRpSR6CvRr8PNT"}
+      ],
+      "sanctions": [
+        {"list": "EU", "id": "EU.12860.90 / FSD 173815", "date": null},
+        {"list": "France asset freeze", "id": "7976", "date": null}
+      ],
+      "risk_flags": ["basel_aml", "cpi_score", "reputational_risk_organized_crime_recent", "reputational_risk_terrorism_recent", "sanctioned_eu_dg_fisma_ec", "sanctioned_eu_ec_sanctions_map", "sanctioned_eu_sanctions", "sanctioned_fra_dgt_mefids", "sanctioned_other", "soe_adjacent"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/7UisBIYHVOxjxjZXLnOsUA",
+      "match_reason": "Person, Kigali, EU sanctions identifiers (EU.12860.90) adjacent to Gasabo's EU.12862.88 (same EU listing batch), PEP=true, and officer_of Rwanda Mines, Petroleum and Gas Board with position 'Chief Executive Officer'.",
+      "notes": "Not on OFAC in Sayari (EU/France only). Second hit fHRMVX0Uqi3Cxp-yOsv9jg is a Kampala, Uganda company-typed record with a person's name; unrelated."
+    },
+    {
+      "our_name": "Rwanda Mines, Petroleum and Gas Board (RMB)",
+      "status": "resolved",
+      "sayari_entity_id": "Q6LfuEyiZrbWfsrDNi9MAQ",
+      "sayari_name": "Rwanda Mines, Petroleum and Gas Board",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [
+        {"type": "xxx_acuris_id", "value": "C2102742"}
+      ],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "controlled_by_eu_sanctioned", "cpi_score", "pep_adjacent", "sanctioned_adjacent", "state_owned"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/Q6LfuEyiZrbWfsrDNi9MAQ",
+      "match_reason": "Exact name, alias 'RMB', address KG 9 Avenue PO Box 937 Kigali, business purpose 'Regulation and Management of Minerals, Quarry, Oil and Gas', state_owned, and Kamanzi recorded as its CEO. Only search hit.",
+      "notes": "Not itself sanctioned. Flag controlled_by_eu_sanctioned comes from Kamanzi (propagated risk, tier 'inferred' for meaning). Sayari registration_date 2023-05-18 likely reflects the RMB restructuring, not founding. Source is Acuris only."
+    },
+    {
+      "our_name": "Sunrise Metal Company",
+      "status": "resolved",
+      "sayari_entity_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+      "sayari_name": "SUNRISE METAL COMPANY LTD",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/XdjwXWTJpPSM6qhH8gqhnQ",
+      "match_reason": "Only RWA/COD/TZA-country record among 144 'Sunrise Metal' hits; exact name; trade sources are China and Tanzania customs (the coltan export corridor); 66 shipments sent.",
+      "notes": "LOW confidence: trade-record-only, no identifier, no address, no officers. Match rests on country + exact name + export corridor, not identifiers. Confirm with ITSCI/RMB exporter list or Global Witness detail before linking in the public view."
+    },
+    {
+      "our_name": "Philbert Trading Minerals",
+      "status": "resolved",
+      "sayari_entity_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+      "sayari_name": "PHILBERT TRADING MINERALS LTD",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score", "exports_conflict_minerals", "exports_ilab_child_labor", "exports_ilab_forced_labor", "psa_exports_conflict_minerals", "psa_exports_ilab_child_labor", "psa_exports_ilab_forced_labor"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/Z9TfSFyAXgXOCyd-gic-uQ",
+      "match_reason": "Exact name, RWA, Tanzania customs exporter (24 shipments sent), Sayari flags exports_conflict_minerals.",
+      "notes": "LOW-MEDIUM confidence (trade-record-only, no identifiers/address). Probable fragment: A_6KbbGki1L2qtboTxJ4HQ 'PHILBERT TRADING MINERAL SARL LTD' (RWA, Tanzania customs, 2 shipments) - likely the same exporter, not merged. KTKMDHA_ztnuzEO4mMdGDQ 'Philbert Trading and Projects' is a South African company, unrelated."
+    },
+    {
+      "our_name": "Space Mining",
+      "status": "resolved",
+      "sayari_entity_id": "DGREDQ68sKQBgvglvG7nhg",
+      "sayari_name": "SPACE MINING LTD",
+      "entity_type": "company",
+      "countries": ["RWA", "TZA"],
+      "identifiers": [],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/DGREDQ68sKQBgvglvG7nhg",
+      "match_reason": "Exact name; address Nyarugenge, Kigali; RWA; China and Tanzania customs sources; 174 shipments sent. Other 'Space Mining' hits are Singapore/Ireland/Australia/Chile/Canada space-tech or unrelated firms.",
+      "notes": "LOW-MEDIUM confidence: trade-record-only, no registry ID. Fragment UbRhhMNfm1uoDhrzUuAojQ 'SPACE MINING LITD' (typed person, RWA) is probably a misspelt customs party for the same exporter. Note the first query '\"Space Mining\" Rwanda' returned 0 hits; '\"Space Mining\" Ltd' found it."
+    },
+    {
+      "our_name": "Rani Mining",
+      "status": "resolved",
+      "sayari_entity_id": "KMJ_GrAwF6ZiFOQSsMEbMQ",
+      "sayari_name": "RANI MINING LTD",
+      "entity_type": "company",
+      "countries": ["RWA"],
+      "identifiers": [],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/KMJ_GrAwF6ZiFOQSsMEbMQ",
+      "match_reason": "Exact name; addresses Niboye, Kicukiro District, Kigali and Kimihurura, Gasabo; RWA; China, Tanzania and Uganda customs; 131 shipments sent.",
+      "notes": "LOW-MEDIUM confidence: trade-record-only. Fragment sLvtoeNYJR8pRZtyZbGqZg '(R.M.L) RANI MINING LTD' (no country, Tanzania customs, 1 shipment) likely same exporter. 8 person-typed 'RANI MINING' records with no country are customs-party noise. Niboye/Kicukiro is the same neighbourhood as Boss Mining Solution's address - coincidence or shared agent; worth a look."
+    },
+    {
+      "our_name": "Ningxia Orient Tantalum Industry Co. (OTIC)",
+      "status": "resolved",
+      "sayari_entity_id": "ZpTn4A-iShM17oe5UZ0pbA",
+      "sayari_name": "宁夏东方钽业股份有限公司 (Ningxia Orient Tantalum Industry Co., Ltd)",
+      "entity_type": "company",
+      "countries": ["CHN"],
+      "identifiers": [
+        {"type": "cn_unified_social_credit_code", "value": "916400007106545275"},
+        {"type": "cn_registration_number", "value": "640000000000764"},
+        {"type": "cn_organization_code", "value": "710654527"},
+        {"type": "xxx_edi_global_issuer_id", "value": "11844"}
+      ],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "chinese_soe_adjacent", "cpi_score", "meu_list_contractors", "owned_by_chinese_soe", "owned_by_soe", "psa_owned_by_chinese_soe", "psa_owned_by_soe", "soe_adjacent"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/ZpTn4A-iShM17oe5UZ0pbA",
+      "match_reason": "Chinese registry record (China SAIC) with USCC; English aliases 'NINGXIA ORIENT TANTALUM INDUSTRY CO.,LTD'; address Dawukou District, Shizuishan, Ningxia; business purpose tantalum/niobium production; listed issuer.",
+      "notes": "Found by both the Chinese and English name. Many trade-name fragments exist (mAxMvzuACtRUxo-9llaHiw KOR, 9BEzxAQjp8MNemOvi5THsg, JDeHO93qCL5J-94_hMCZEQ, VHVA9R5Kc8Eeq4vN2IteAA, jUVG5mC23F87VFCmIIZz5g CHN; mY5bGl9u8ghF5Bp2LrRBPw and xzeLJzZAlGwxAXvqKeXEYg typed TZA). The TZA-country fragments are probably consignee records in Tanzania customs, i.e. the coltan buyer side: use them for supplier searches. meu_list_contractors = on US Military End-User list contractor set."
+    },
+    {
+      "our_name": "Jiujiang Jinxin Nonferrous Metals",
+      "status": "resolved",
+      "sayari_entity_id": "vEZic6aOgtwXXiMgRT3MsA",
+      "sayari_name": "九江市金鑫有色金属有限公司 (Jiujiang Jinxin Nonferrous Metals Co., Ltd)",
+      "entity_type": "company",
+      "countries": ["CHN", "USA", "KOR", "TZA"],
+      "identifiers": [
+        {"type": "cn_unified_social_credit_code", "value": "91360400748515821R"},
+        {"type": "lei", "value": "6556000JPBYZM8VQFU30"},
+        {"type": "cn_registration_number", "value": "360400210015690"},
+        {"type": "xxx_acuris_id", "value": "C943232"}
+      ],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score", "law_enforcement_action", "law_enforcement_action_historic"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/vEZic6aOgtwXXiMgRT3MsA",
+      "match_reason": "Registry record with USCC and LEI; aliases 'JIUJIANG JINXIN NONFERROUS METALS CO LTD'; Xunyang District, Jiujiang; business purpose nonferrous/rare metal smelting; TZA in country list (Tanzania customs counterparty); 29 shipments received.",
+      "notes": "law_enforcement_action flag (Acuris) - details not retrieved; check with lookup_risk_factors/get_entity_profile before using. Person-typed fragments named 'JIUJIANG JINXIN NONFERROUS METALS' (_OjCPT6SKonSt4dMkhxZ9Q, Beeej_QRWx6xIyEdsNoV0g, jNjr1o7Be8lQxHIYMkrQgg, Z_ZlKqZn-JNudb_YAxEdvw CHN; opoYEK0kgXA-S-hEPuuGQw NGA) are customs-party noise."
+    },
+    {
+      "our_name": "Jiujiang Tanbre",
+      "status": "resolved",
+      "sayari_entity_id": "8Q09O1PQ4twjsSdyprTyYA",
+      "sayari_name": "九江有色金属冶炼有限公司 (Jiujiang Nonferrous Metal Smelting Co., Ltd; alias JIUJIANG TANBRE CO LTD)",
+      "entity_type": "company",
+      "countries": ["CHN", "NGA", "TZA"],
+      "identifiers": [
+        {"type": "cn_unified_social_credit_code", "value": "91360402MA37NCAU62"},
+        {"type": "lei", "value": "836800DGFOUC5F0GZN68"},
+        {"type": "cn_organization_code", "value": "MA37NCAU6"},
+        {"type": "cn_registration_number", "value": "360402110002674"}
+      ],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "chinese_core_soe", "cpi_score", "owned_by_soe", "psa_owned_by_soe"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/8Q09O1PQ4twjsSdyprTyYA",
+      "match_reason": "Search for 'Jiujiang Tanbre' returned this registry record, which carries 'JIUJIANG TANBRE CO LTD' as an alias; address No. 62 Jiuhu Road, Lianxi District, Jiujiang; business scope tantalum/niobium/tungsten smelting; registered 2017-12-29; USCC + LEI.",
+      "notes": "Legal name differs from trade name (Tanbre is the trade name of Jiujiang Nonferrous Metal Smelting). Flag chinese_core_soe. Fragment 2IQhpC7wDHOCmgM35XWR4g 'BUYER KROME COMMODITIES, JIUJIANG TANBRE CO., LTD' is a mangled customs party string mentioning Krome Commodities - possible intermediary lead."
+    },
+    {
+      "our_name": "Jiujiang Zhongao Tantalum & Niobium",
+      "status": "resolved",
+      "sayari_entity_id": "IL1aY2MwQCbcccOK9EI7_A",
+      "sayari_name": "九江中澳钽铌有限公司 (Jiujiang Zhongao Tantalum & Niobium Co., Ltd)",
+      "entity_type": "company",
+      "countries": ["CHN", "TZA"],
+      "identifiers": [
+        {"type": "cn_unified_social_credit_code", "value": "91360402581632080Y"},
+        {"type": "lei", "value": "6556003255S8YDUCE193"},
+        {"type": "cn_registration_number", "value": "360402210012746"},
+        {"type": "cn_organization_code", "value": "581632080"}
+      ],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/IL1aY2MwQCbcccOK9EI7_A",
+      "match_reason": "Registry record with USCC + LEI; English alias 'Jiujiang Zhongao Tantalum & Niobium Co., Ltd.'; address Binjiang East Road 801, Lianxi Industrial Park, Jiujiang; business scope tantalum/niobium compounds (K2TaF7, Ta2O5, Nb2O5); TZA source = Tanzania customs (2 received).",
+      "notes": "Chinese name is 中澳 (not 中傲/中骜 - my guessed Chinese query returned 0). Sayari label has a typo ('有有限公司'). Trade-name fragments: Ro9JMTSjqLlGi1LVyKv3GQ (TZA/CHN), -AwJgMyZlWGrm_E2gcXT4g, xc0VWKye1eqasS7dmWvASw. 九江中奥 investment/property companies (Hly9Y_4rNoSo4myOd8DaFA etc.) are different firms."
+    },
+    {
+      "our_name": "Ximei Resources (Guangdong)",
+      "status": "resolved",
+      "sayari_entity_id": "6ITu5Fse7Hyja2GUl7g_8w",
+      "sayari_name": "稀美资源（广东）有限公司 (Ximei Resources (Guangdong) Co., Ltd)",
+      "entity_type": "company",
+      "countries": ["CHN"],
+      "identifiers": [
+        {"type": "cn_unified_social_credit_code", "value": "91441800787935562B"},
+        {"type": "cn_importexport_code", "value": "4400787935562"},
+        {"type": "cn_organization_code", "value": "787935562"},
+        {"type": "cn_registration_number", "value": "441800400003896"}
+      ],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/6ITu5Fse7Hyja2GUl7g_8w",
+      "match_reason": "Registry record found via Chinese name; English alias 'Ximei Resources (Guangdong) Co., Ltd.'; former names 广东致远新材料 / 英德佳特新材料; address Qiaotou Town, Yingde, Qingyuan, Guangdong; business scope Ta/Nb compounds and K2TaF7.",
+      "notes": "Registry record has 0 trade rows. Trade activity sits on the English-name fragment 0Ai6LlL2Jr419AFOEN91ZQ 'XIMEI RESOURCES (GUANGDONG) LIMITED' (countries incl. TZA, NGA) and mBEnNoS06To2CiZTmAQh2g/u5_XYjVofA3kJSIIW1H6ug - use those for supplier searches but label them unconfirmed fragments. Parent listed company: Ximei Resources Holding Ltd (KDTApG4sJ_eSLMRaIRcXPg, HKEX 09936)."
+    },
+    {
+      "our_name": "Hengyang King Xing Lifeng New Materials",
+      "status": "resolved",
+      "sayari_entity_id": "JoPJdyraJ9o9KbVk_TBqmg",
+      "sayari_name": "衡阳金新莱孚新材料有限公司 (Hengyang King Xing Lifeng New Materials Co., Ltd)",
+      "entity_type": "company",
+      "countries": ["CHN"],
+      "identifiers": [
+        {"type": "cn_unified_social_credit_code", "value": "91430400616630588Y"},
+        {"type": "cn_organization_code", "value": "616630588"},
+        {"type": "cn_registration_number", "value": "430400400000078"},
+        {"type": "cn_tax_identification_number", "value": "430405616630588"}
+      ],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/JoPJdyraJ9o9KbVk_TBqmg",
+      "match_reason": "Registry record carries alias 'HENGYANG KING XING LIFENG NEW MATERIALS CO.,LTD' (and 'Hengyang Jinxin Laifu New Materials'); Hengyang, Hunan; registered 1993-12-24; business scope high-grade Ta/Nb concentrates and high-purity Ta/Nb.",
+      "notes": "Exact-name English search returned 0; found via 'Hengyang Lifeng New Materials'. Customs spelling is 'KING XNG' (fragments W5-Yr_aVLYCIbq2ix_YYVQ CHN and 2WducYZHMjSn6DSRuPJZCQ) - use that spelling for trade searches. Registry record has no trade rows."
+    },
+    {
+      "our_name": "Ulba Metallurgical Plant (Kazakhstan)",
+      "status": "resolved",
+      "sayari_entity_id": "yd4WCfTHQsYYVO6SEoutWA",
+      "sayari_name": "Акционерное общество \"Ульбинский металлургический завод\" (JSC Ulba Metallurgical Plant, UMZ)",
+      "entity_type": "company",
+      "countries": ["KAZ", "CHN", "RUS"],
+      "identifiers": [
+        {"type": "kaz_bin", "value": "941040000097"},
+        {"type": "kaz_tin", "value": "181600004619"},
+        {"type": "xxx_acuris_id", "value": "C683794"}
+      ],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "chinese_soe_adjacent", "cpi_score", "export_controls_adjacent", "export_to_chinese_soe", "forced_labor_xinjiang_origin_subtier", "imports_from_sanctioned_usa_ofac_sdn_entity", "meu_list_contractors", "owned_by_regulatory_action_entity", "owned_by_soe", "pep_adjacent", "psa_export_to_chinese_soe", "psa_forced_labor_xinjiang_origin_subtier", "psa_imports_from_sanctioned_usa_ofac_sdn_entity", "psa_owned_by_regulatory_action_entity", "psa_owned_by_soe", "regulatory_action", "sanctioned_adjacent", "state_owned"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/yd4WCfTHQsYYVO6SEoutWA",
+      "match_reason": "Kazakhstan registry record (DFO) with BIN 941040000097; address 102 Abay Ave, Oskemen (Ust-Kamenogorsk); registered 1994-10-31; aliases 'Ulbinsky Metallurgichesky Zavod', 'UMZ'; state_owned.",
+      "notes": "Large trade footprint (1,338 sent / 335 received). Flags imports_from_sanctioned_usa_ofac_sdn_entity and regulatory_action are notable but unrelated to Rwanda so far (likely Russia-linked counterparties); not investigated. Several Russian-registry duplicates (woKOwMRo9JRNSVYaXkDy5g, hovQ0X5myb1fhbHYZdfqPQ, L4_qYa1sTSIGx6N6RM_SKQ, Gi8sZpAAiQVBSPeyJ_KktQ) carry placeholder-looking IDs - not linked."
+    },
+    {
+      "our_name": "Taniobis (Thailand)",
+      "status": "resolved",
+      "sayari_entity_id": "dfQ3LgjqYoadPsJFejbYsg",
+      "sayari_name": "บริษัท ทานิโอบิส จำกัด (Taniobis Co., Ltd; formerly H.C. Starck Co., Ltd.)",
+      "entity_type": "company",
+      "countries": ["THA", "DEU", "UKR", "JPN"],
+      "identifiers": [
+        {"type": "tha_registration_no", "value": "0835522000255"},
+        {"type": "lei", "value": "529900NPLG4EEZ34RP77"}
+      ],
+      "sanctions": [],
+      "risk_flags": ["basel_aml", "cpi_score", "sanctioned_adjacent"],
+      "sayari_url": "https://graph.sayari.com/resource/entity/dfQ3LgjqYoadPsJFejbYsg",
+      "match_reason": "Thai registration no. 0835522000255 + LEI; Thai name transliterates to 'Taniobis Co., Ltd'; former name H.C. Starck Co., Ltd.; address 5 I-3A Road, Map Ta Phut, Rayong (industrial estate); registered 1979-12-24; business: Ta/Nb powders and ores.",
+      "notes": "English query 'Taniobis Thailand' returned 0; plain 'TANIOBIS' found it. Group entities: TANIOBIS GmbH (xr8lzPSiZYUEIUkBxsfl_g, Goslar) and TANIOBIS Smelting GmbH & Co. KG (DfKuOUIBDUP-TO1vURAEtg). Group carries psa_owned_by_sanctioned_entity (weak PSA link; check which owner triggers it before showing). Thai entity itself only sanctioned_adjacent."
+    }
+  ],
+  "edges": [
+    {"from_id": "3IPk7makLLnIcTI_C5uNSw", "from_name": "Jean Malic Kalima Karekezi", "to_id": "bMpOqIwnc55hTXWt_FeGyA", "to_name": "Bugambira Mines LTD", "sayari_type": "shareholder_of", "record_or_source": "traverse_network (depth 1, filtered); no record_id returned. Entity sources: OFAC SDN, Acuris, OpenSanctions", "notes": "Matches OFAC sb0543 narrative (Kalima controls the three mining companies)."},
+    {"from_id": "3IPk7makLLnIcTI_C5uNSw", "from_name": "Jean Malic Kalima Karekezi", "to_id": "vVqCspLlm9Vn-RCNojSrhQ", "to_name": "Rwinkwavu Mining Corporation LTD", "sayari_type": "shareholder_of", "record_or_source": "traverse_network (depth 1, filtered); no record_id returned", "notes": null},
+    {"from_id": "3IPk7makLLnIcTI_C5uNSw", "from_name": "Jean Malic Kalima Karekezi", "to_id": "ByUCmIzSSyFaep1RBIu4jQ", "to_name": "Wolfram Mining and Processing LTD", "sayari_type": "shareholder_of", "record_or_source": "traverse_network (depth 1, filtered); no record_id returned", "notes": null},
+    {"from_id": "3IPk7makLLnIcTI_C5uNSw", "from_name": "Jean Malic Kalima Karekezi", "to_id": "i0CKJhgvHKympxUfQw1BUA", "to_name": "Gasabo Gold Refinery", "sayari_type": "legal_representative_of", "record_or_source": "traverse_network (depth 1, filtered); Gasabo profile shows inverse has_legal_representative with position 'Acting for or on behalf of'", "notes": "Sanctions-list phrasing ('acting for or on behalf of'), not a registry filing."},
+    {"from_id": "Pj4_K8Exf3J8OW-nAvaiZg", "from_name": "Bosco Kayobotsi", "to_id": "i0CKJhgvHKympxUfQw1BUA", "to_name": "Gasabo Gold Refinery", "sayari_type": "legal_representative_of", "record_or_source": "traverse_network (depth 1, filtered); Gasabo profile shows inverse has_legal_representative 'Acting for or on behalf of'", "notes": "Kayobotsi has no shareholder/director/officer edges beyond Gasabo."},
+    {"from_id": "i0CKJhgvHKympxUfQw1BUA", "from_name": "Gasabo Gold Refinery", "to_id": "3IPk7makLLnIcTI_C5uNSw", "to_name": "Jean Malic Kalima Karekezi", "sayari_type": "has_member_of_the_board", "record_or_source": "get_entity_profile (Gasabo); position 'Acting for or on behalf of'; no record_id", "notes": "Consistent with 'chairman' in the case doc. Also linked_to with same position."},
+    {"from_id": "i0CKJhgvHKympxUfQw1BUA", "from_name": "Gasabo Gold Refinery", "to_id": "Pj4_K8Exf3J8OW-nAvaiZg", "to_name": "Bosco Kayobotsi", "sayari_type": "has_manager", "record_or_source": "get_entity_profile (Gasabo); position 'Acting for or on behalf of'; no record_id", "notes": "Consistent with 'general manager' in the case doc. Also linked_to with same position."},
+    {"from_id": "i0CKJhgvHKympxUfQw1BUA", "from_name": "Gasabo Gold Refinery", "to_id": "diV1zDu2TnrgnGxCb3WD8Q", "to_name": "M23", "sayari_type": "linked_to", "record_or_source": "get_entity_profile (Gasabo); position text 'Providing support to'; no record_id; entity sources include OFAC SDN and Acuris", "notes": "This is the designation-derived armed-group link (tier 'designated'). Sayari's relationship type is generic 'linked_to'; the semantic 'providing support to' is only in the position text, so the pipeline must read the position string."},
+    {"from_id": "E74Od6qY6XwVVlUY-W0G7Q", "from_name": "Rwanda Defence Force", "to_id": "diV1zDu2TnrgnGxCb3WD8Q", "to_name": "M23", "sayari_type": "linked_to", "record_or_source": "get_entity_profile (RDF); position text 'Mouvement du 23 Mars is linked to Rwanda Defence Force'; no record_id", "notes": "Weaker wording than Gasabo's ('is linked to', not 'providing support to'). RDF profile also linked_to four sanctioned officers: Stanislas Gashugi (aiARwTClb9z_uMh2KiFjRw, Commander), Mubarakh Muganga (EgrSLhqFEXeeUonyCNyDrg, Chief of Staff), Vincent Nyakarundi (DCP4St2Z3Y2i8g2OXwu3xA, Chief of Staff), Ruki Karusisi (7MlY_9z9z0TgMwtJ2QIsLA, Commander; also EU-sanctioned)."},
+    {"from_id": "tANZaCKgA6oMa6jl9OmdHg", "from_name": "Alliance Fleuve Congo (AFC)", "to_id": "diV1zDu2TnrgnGxCb3WD8Q", "to_name": "M23", "sayari_type": "linked_to", "record_or_source": "get_entity_profile (AFC); position text 'Mouvement du 23 Mars is linked to Congo River Alliance'; no record_id", "notes": "AFC profile also: Joseph Kabila linked_to 'Providing support to' AFC (y9uJ4EFzVue7md2SILKxcQ); founders Bertrand Bisimwa and Corneille Nangaa; Twirwaneho affiliated group."},
+    {"from_id": "7UisBIYHVOxjxjZXLnOsUA", "from_name": "Francis KAMANZI", "to_id": "Q6LfuEyiZrbWfsrDNi9MAQ", "to_name": "Rwanda Mines, Petroleum and Gas Board", "sayari_type": "officer_of", "record_or_source": "get_entity_profile (Kamanzi); position 'Chief Executive Officer'; former=false; source Acuris", "notes": "Used as a resolution anchor for both Kamanzi and RMB."},
+    {"from_id": "i0CKJhgvHKympxUfQw1BUA", "from_name": "Gasabo Gold Refinery", "to_id": "4MHLmT-aZLwLh0y3oC_L_Q", "to_name": "BRENNTAG SPA", "sayari_type": "receives_from", "record_or_source": "get_entity_profile (Gasabo); Uganda customs", "notes": "Trade counterparty (chemicals supplier). Also 7DdAM4l2JEV280gvLN6JQg (Brenntag S.p.A. address string). This is the edge that makes unfiltered depth-2 traversals explode; exclude from armed-group views."}
+  ],
+  "edges_not_found": [
+    "Ministry of Defence (8fKsoMBpty_6tRnAfSuONQ): no relationships at all in Sayari - no edge to RDF or M23.",
+    "Zigama CSS (GBgw7aYaaYfLAQO2KsliQA): no relationships at all in Sayari - no edge to RDF, MoD or M23.",
+    "traverse_network from Gasabo with shareholder_of/director_of/legal_representative_of/officer_of returned 0 items: these relationship types are directional (person -> company), so filtered traversal from the company side finds nothing. Use get_entity_profile or the inverse types (has_shareholder, has_director, has_legal_representative, has_officer) from company nodes."
+  ],
+  "trade": [
+    {"shipper_id": "PgSzW4JGmOSkebhc9rXaLg", "shipper_name": "KANZAMIN LIMITED", "hs_code": "261590", "buyer_name": "HALCYON INC", "buyer_id": "8eW5KQNdwT7LoG9R3s75kA", "buyer_country": "ARE", "shipments": 25, "first_date": "2023-10-04", "last_date": "2026-07-31", "source_note": "search_shipments(query=KANZAMIN, hs_code=261590, compact). 25 shipment rows (Sayari groups customs rows; may include duplicate rows for one consignment). Departure RWA; arrival ARE and CHN. Buyer address Mazaya Business Avenue, JLT, Dubai. Halcyon carries exports_conflict_minerals flag. By year: 2023: 2, 2024: 6, 2025: 11, 2026: 6 - shipments continue after the Jun 2026 OFAC Gasabo action."},
+    {"shipper_id": "PgSzW4JGmOSkebhc9rXaLg", "shipper_name": "KANZAMIN LIMITED", "hs_code": "261590", "buyer_name": "SPECIALTY METALS RESOURCES SA", "buyer_id": "eUxn6Q_VZ8MhKbTUAEMjCg", "buyer_country": "BEL", "shipments": 3, "first_date": "2023-07-24", "last_date": "2023-12-23", "source_note": "search_shipments; departure RWA, arrival HKG; buyer Brussels (BE enterprise 0890.465.938). Product text 'TANTALITE CONCENTRATE'."},
+    {"shipper_id": "PgSzW4JGmOSkebhc9rXaLg", "shipper_name": "KANZAMIN LIMITED", "hs_code": "261590", "buyer_name": "SPECIALTY METALS RESOURCES LIMITED", "buyer_id": "Q3uaj_zHDMOGtN4-OoTi8Q", "buyer_country": "HKG", "shipments": 2, "first_date": "2024-11-23", "last_date": "2024-11-23", "source_note": "search_shipments; departure RWA, arrival HKG; buyer address China Resources Building, Wanchai, Hong Kong. Same group as the Belgian SMR SA; carries exports_conflict_minerals flag."},
+    {"shipper_id": "X9BAf2KZzwU7tDfYuH4qoA", "shipper_name": "AFRICAN PANTHER RESOURCES LTD", "hs_code": "261590", "buyer_name": "TRAXYS EUROPE S.A.", "buyer_id": "49gLiIsaRq1p3s8vhLc4cw", "buyer_country": "LUX", "shipments": 11, "first_date": "2023-03-22", "last_date": "2025-03-21", "source_note": "search_shipments(query=AFRICAN PANTHER RESOURCES, hs_code=261590, compact). Departure RWA (one 2023 row COD); arrival CHN and LUX (LUX = consignee address, goods likely routed to China). Traxys RCS B24562 Luxembourg. No Traxys rows after Mar 2025."},
+    {"shipper_id": "X9BAf2KZzwU7tDfYuH4qoA", "shipper_name": "AFRICAN PANTHER RESOURCES LTD", "hs_code": "261590", "buyer_name": "TRAXYS EUROPE S A", "buyer_id": "44VVibn3tqgVe8Eb3_QnQA", "buyer_country": "LUX", "shipments": 1, "first_date": "2023-03-17", "last_date": "2023-03-17", "source_note": "Second Sayari record for Traxys Europe (shares identifier LU13238340 with 49gLiIsaRq1p3s8vhLc4cw) - probably the same company, split in Sayari. Add to the 11 above for a Traxys total of 12."},
+    {"shipper_id": "X9BAf2KZzwU7tDfYuH4qoA", "shipper_name": "AFRICAN PANTHER RESOURCES LTD", "hs_code": "261590", "buyer_name": "HALCYON INC", "buyer_id": "8eW5KQNdwT7LoG9R3s75kA", "buyer_country": "ARE", "shipments": 7, "first_date": "2024-11-30", "last_date": "2026-07-04", "source_note": "search_shipments; departure RWA; arrival ARE (2024), CHN and MYS (2026). Buyer switches from Traxys (to Mar 2025) to Halcyon (Dubai) - pattern worth a 'UAE intermediary' annotation (tier inferred)."},
+    {"shipper_id": "WKC3rFluM3Fgj6NXzGwxTA", "shipper_name": "BOSS MINING SOLUTION LTD", "hs_code": "261590", "buyer_name": "NOVACORE FZE", "buyer_id": "fc7RNdHZNcMUqXa0gnEjhA", "buyer_country": "ARE", "shipments": 30, "first_date": "2023-02-28", "last_date": "2026-04-21", "source_note": "search_shipments(query=BOSS MINING SOLUTION, hs_code=261590, compact). Departure RWA; arrival ARE and CHN. Buyer address Compass Building, Al Hamra Industrial Zone, Ras Al Khaimah (RAK free zone - Sayari guidance flags RAK for extra scrutiny). By year: 2023: 7, 2024: 5, 2025: 12, 2026: 6. Novacore is Boss Mining's dominant buyer (30 of 32 rows)."},
+    {"shipper_id": "WKC3rFluM3Fgj6NXzGwxTA", "shipper_name": "BOSS MINING SOLUTION LTD", "hs_code": "261590", "buyer_name": "HALCYON INC", "buyer_id": "8eW5KQNdwT7LoG9R3s75kA", "buyer_country": "ARE", "shipments": 1, "first_date": "2025-04-11", "last_date": "2025-04-11", "source_note": "search_shipments; departure RWA, arrival ARE."},
+    {"shipper_id": "WKC3rFluM3Fgj6NXzGwxTA", "shipper_name": "BOSS MINING SOLUTION LTD", "hs_code": "261590", "buyer_name": "NOVASCORE FZE", "buyer_id": "uOTgm5kthXzYAv_ahgNNHg", "buyer_country": "TZA", "shipments": 1, "first_date": "2023-10-17", "last_date": "2023-10-17", "source_note": "Departure RWA, arrival CHN. 'NOVASCORE FZE' is very likely a misspelling of NOVACORE FZE (same FZE suffix, same shipper, same period); Sayari country TZA is the customs record origin. Treat as same buyer only with a note (unconfirmed)."}
+  ],
+  "trade_notes": [
+    "Counts are Sayari shipment rows grouped by supplier-buyer pair, from Tanzania/China customs. One consignment can appear in more than one row; treat as indicative, not exact consignment counts.",
+    "Rule 10 applies: these records show shipper and consignee for HS 261590 leaving Rwanda, not where the ore was mined.",
+    "SAYARI_METHOD.md said Boss Mining's coltan buyers spanned TZA, CHN, KOR, JPN, ARE, GBR, NLD. This run (query + hs_code=261590) found only UAE buyers (Novacore FZE, Halcyon). The earlier facet result was probably buyer_country facets across all of a broad query, or other HS codes; the method note should be corrected.",
+    "One anomalous row: shipper TRAXYS EUROPE S.A. -> buyer AFRICAN PANTHER RESOURCES LTD, 2024-09-28, departure RWA, arrival CHN, 'TANTALITE ORES AND CONCENTRATES LOT'. Probably shipper/consignee fields swapped in the customs record; not counted above.",
+    "Common buyer: HALCYON INC (Dubai) buys from all three exporters (Kanzamin 25, African Panther 7, Boss Mining 1)."
+  ],
+  "call_log": [
+    {"n": 1, "tool": "get_entity_summary", "args_summary": "diV1zDu2TnrgnGxCb3WD8Q (M23)", "result_summary": "Confirmed; OFAC 15585, UN CDe.006, EU, UK"},
+    {"n": 2, "tool": "get_entity_summary", "args_summary": "tANZaCKgA6oMa6jl9OmdHg (AFC)", "result_summary": "Confirmed; OFAC 48601, EU, UK"},
+    {"n": 3, "tool": "get_entity_summary", "args_summary": "E74Od6qY6XwVVlUY-W0G7Q (RDF)", "result_summary": "Confirmed; OFAC 56928"},
+    {"n": 4, "tool": "get_entity_summary", "args_summary": "GBgw7aYaaYfLAQO2KsliQA (Zigama)", "result_summary": "Confirmed; OFAC 58407"},
+    {"n": 5, "tool": "get_entity_summary", "args_summary": "j8ka8O7pMigvUthBvI-auA (Zigama dup)", "result_summary": "Pakistan customs fragment, unsanctioned, no country"},
+    {"n": 6, "tool": "get_entity_summary", "args_summary": "i0CKJhgvHKympxUfQw1BUA (Gasabo)", "result_summary": "Confirmed; OFAC 57937, EU"},
+    {"n": 7, "tool": "get_entity_summary", "args_summary": "3IPk7makLLnIcTI_C5uNSw (Kalima)", "result_summary": "Confirmed; OFAC 57936"},
+    {"n": 8, "tool": "get_entity_summary", "args_summary": "Pj4_K8Exf3J8OW-nAvaiZg (Kayobotsi)", "result_summary": "Confirmed; OFAC 57938"},
+    {"n": 9, "tool": "get_entity_summary", "args_summary": "bMpOqIwnc55hTXWt_FeGyA (Bugambira)", "result_summary": "Confirmed; OFAC 57939"},
+    {"n": 10, "tool": "get_entity_summary", "args_summary": "vVqCspLlm9Vn-RCNojSrhQ (Rwinkwavu)", "result_summary": "Confirmed; OFAC 57941"},
+    {"n": 11, "tool": "get_entity_summary", "args_summary": "ByUCmIzSSyFaep1RBIu4jQ (Wolfram)", "result_summary": "Confirmed; OFAC 57940"},
+    {"n": 12, "tool": "get_entity_summary", "args_summary": "X9BAf2KZzwU7tDfYuH4qoA (African Panther)", "result_summary": "Confirmed; trade-only, exports_conflict_minerals"},
+    {"n": 13, "tool": "get_entity_summary", "args_summary": "WKC3rFluM3Fgj6NXzGwxTA (Boss Mining RWA)", "result_summary": "Confirmed; trade-only, Kigali address"},
+    {"n": 14, "tool": "get_entity_summary", "args_summary": "yFQo_xvgXez4UJgGyJ9qBw (Boss Mining DRC)", "result_summary": "Confirmed; RCCM CD/KNM/RCCM/22-B-00187; separate entity"},
+    {"n": 15, "tool": "get_entity_summary", "args_summary": "PgSzW4JGmOSkebhc9rXaLg (Kanzamin)", "result_summary": "Confirmed; trade-only"},
+    {"n": 16, "tool": "search_entities", "args_summary": "\"Ministry of Defence\" Rwanda", "result_summary": "5 hits; sanctioned 8fKsoMBpty_6tRnAfSuONQ (OFAC 59069) plus 3 unsanctioned trade fragments and RDF"},
+    {"n": 17, "tool": "search_entities", "args_summary": "\"Francis Kamanzi\"", "result_summary": "2 hits; 7UisBIYHVOxjxjZXLnOsUA EU-sanctioned person RWA; other is a Uganda record"},
+    {"n": 18, "tool": "search_entities", "args_summary": "\"Rwanda Mines, Petroleum and Gas Board\"", "result_summary": "1 hit Q6LfuEyiZrbWfsrDNi9MAQ"},
+    {"n": 19, "tool": "get_entity_summary", "args_summary": "8fKsoMBpty_6tRnAfSuONQ (MoD)", "result_summary": "Aliases incl. 'Rwandan Ministry of Defence'; OFAC 59069"},
+    {"n": 20, "tool": "get_entity_profile", "args_summary": "7UisBIYHVOxjxjZXLnOsUA (Kamanzi), rel limit 15", "result_summary": "officer_of RMB, position CEO"},
+    {"n": 21, "tool": "search_entities", "args_summary": "\"Sunrise Metal\"", "result_summary": "144 hits (output overflowed to file, parsed with jq); only RWA one is XdjwXWTJpPSM6qhH8gqhnQ"},
+    {"n": 22, "tool": "search_entities", "args_summary": "\"Philbert Trading\"", "result_summary": "3 hits; 2 RWA, 1 ZAF"},
+    {"n": 23, "tool": "get_entity_summary", "args_summary": "XdjwXWTJpPSM6qhH8gqhnQ (Sunrise)", "result_summary": "RWA, China/Tanzania customs, 66 sent"},
+    {"n": 24, "tool": "get_entity_summary", "args_summary": "Z9TfSFyAXgXOCyd-gic-uQ (Philbert)", "result_summary": "RWA, Tanzania customs, 24 sent, conflict-minerals flag"},
+    {"n": 25, "tool": "get_entity_summary", "args_summary": "A_6KbbGki1L2qtboTxJ4HQ (Philbert SARL)", "result_summary": "RWA, 2 sent; probable fragment"},
+    {"n": 26, "tool": "search_entities", "args_summary": "\"Space Mining\" Rwanda", "result_summary": "0 hits"},
+    {"n": 27, "tool": "search_entities", "args_summary": "\"Rani Mining\"", "result_summary": "12 hits; KMJ_GrAwF6ZiFOQSsMEbMQ RWA company plus fragments"},
+    {"n": 28, "tool": "search_entities", "args_summary": "\"Space Mining\" Ltd", "result_summary": "37 hits; DGREDQ68sKQBgvglvG7nhg RWA/TZA"},
+    {"n": 29, "tool": "get_entity_summary", "args_summary": "KMJ_GrAwF6ZiFOQSsMEbMQ (Rani)", "result_summary": "RWA, Niboye/Kimihurura addresses, 131 sent"},
+    {"n": 30, "tool": "get_entity_summary", "args_summary": "sLvtoeNYJR8pRZtyZbGqZg ((R.M.L) Rani)", "result_summary": "No country, 1 sent; fragment"},
+    {"n": 31, "tool": "get_entity_summary", "args_summary": "DGREDQ68sKQBgvglvG7nhg (Space Mining)", "result_summary": "Nyarugenge Kigali, 174 sent"},
+    {"n": 32, "tool": "search_entities", "args_summary": "\"Ningxia Orient Tantalum\"", "result_summary": "9 hits; registry ZpTn4A-iShM17oe5UZ0pbA + trade fragments"},
+    {"n": 33, "tool": "search_entities", "args_summary": "宁夏东方钽业股份有限公司", "result_summary": "Same registry record top hit"},
+    {"n": 34, "tool": "search_entities", "args_summary": "\"Jiujiang Jinxin Nonferrous\"", "result_summary": "Registry vEZic6aOgtwXXiMgRT3MsA + person-typed fragments"},
+    {"n": 35, "tool": "search_entities", "args_summary": "九江金鑫有色金属有限公司", "result_summary": "Same registry record top hit"},
+    {"n": 36, "tool": "search_entities", "args_summary": "\"Jiujiang Tanbre\"", "result_summary": "2 hits; 8Q09O1PQ4twjsSdyprTyYA (九江有色金属冶炼) and a mangled Krome Commodities string"},
+    {"n": 37, "tool": "get_entity_summary", "args_summary": "8Q09O1PQ4twjsSdyprTyYA", "result_summary": "Alias JIUJIANG TANBRE CO LTD; USCC 91360402MA37NCAU62"},
+    {"n": 38, "tool": "get_entity_summary", "args_summary": "vEZic6aOgtwXXiMgRT3MsA", "result_summary": "Jinxin; USCC 91360400748515821R; law_enforcement_action flag"},
+    {"n": 39, "tool": "search_entities", "args_summary": "\"Jiujiang Zhongao\"", "result_summary": "19 hits; registry IL1aY2MwQCbcccOK9EI7_A 九江中澳钽铌"},
+    {"n": 40, "tool": "search_entities", "args_summary": "九江中骜钽铌有限公司 OR 九江中傲钽铌有限公司", "result_summary": "0 hits (wrong characters guessed)"},
+    {"n": 41, "tool": "get_entity_summary", "args_summary": "IL1aY2MwQCbcccOK9EI7_A", "result_summary": "Zhongao; USCC 91360402581632080Y"},
+    {"n": 42, "tool": "search_entities", "args_summary": "\"Ximei Resources\"", "result_summary": "35 hits; English trade fragments + HK holding company"},
+    {"n": 43, "tool": "search_entities", "args_summary": "\"King Xing Lifeng\" OR \"Kingxing Lifeng\"", "result_summary": "0 hits"},
+    {"n": 44, "tool": "search_entities", "args_summary": "稀美资源（广东）有限公司", "result_summary": "Registry 6ITu5Fse7Hyja2GUl7g_8w"},
+    {"n": 45, "tool": "search_entities", "args_summary": "Hengyang Lifeng New Materials", "result_summary": "3 hits; registry JoPJdyraJ9o9KbVk_TBqmg + 'KING XNG' fragments"},
+    {"n": 46, "tool": "search_entities", "args_summary": "衡阳金星立丰新材料", "result_summary": "0 hits (wrong characters guessed)"},
+    {"n": 47, "tool": "get_entity_summary", "args_summary": "JoPJdyraJ9o9KbVk_TBqmg", "result_summary": "Alias HENGYANG KING XING LIFENG NEW MATERIALS; USCC 91430400616630588Y"},
+    {"n": 48, "tool": "get_entity_summary", "args_summary": "6ITu5Fse7Hyja2GUl7g_8w", "result_summary": "Ximei Guangdong; USCC 91441800787935562B"},
+    {"n": 49, "tool": "search_entities", "args_summary": "\"Ulba Metallurgical Plant\"", "result_summary": "12 hits; KAZ registry yd4WCfTHQsYYVO6SEoutWA"},
+    {"n": 50, "tool": "search_entities", "args_summary": "Taniobis Thailand", "result_summary": "0 hits"},
+    {"n": 51, "tool": "get_entity_summary", "args_summary": "yd4WCfTHQsYYVO6SEoutWA", "result_summary": "Ulba; BIN 941040000097; state-owned"},
+    {"n": 52, "tool": "search_entities", "args_summary": "TANIOBIS", "result_summary": "30 hits; Thai entity dfQ3LgjqYoadPsJFejbYsg + German group"},
+    {"n": 53, "tool": "get_entity_summary", "args_summary": "dfQ3LgjqYoadPsJFejbYsg", "result_summary": "Taniobis Co Ltd (TH), ex-H.C. Starck, reg 0835522000255"},
+    {"n": 54, "tool": "get_entity_summary", "args_summary": "ZpTn4A-iShM17oe5UZ0pbA", "result_summary": "OTIC registry details"},
+    {"n": 55, "tool": "get_entity_summary", "args_summary": "Q6LfuEyiZrbWfsrDNi9MAQ", "result_summary": "RMB; state_owned; controlled_by_eu_sanctioned"},
+    {"n": 56, "tool": "traverse_network", "args_summary": "Gasabo, depth 1, rel=[shareholder_of,director_of,legal_representative_of,officer_of]", "result_summary": "0 items (relationship types are person->company directional)"},
+    {"n": 57, "tool": "traverse_network", "args_summary": "Kalima, depth 1, same filter", "result_summary": "4: shareholder_of Bugambira/Rwinkwavu/Wolfram; legal_representative_of Gasabo"},
+    {"n": 58, "tool": "traverse_network", "args_summary": "Kayobotsi, depth 1, same filter", "result_summary": "1: legal_representative_of Gasabo"},
+    {"n": 59, "tool": "get_entity_profile", "args_summary": "Gasabo, rel limit 20", "result_summary": "linked_to M23 'Providing support to'; board/manager/legal rep edges; receives_from Brenntag"},
+    {"n": 60, "tool": "get_entity_profile", "args_summary": "RDF, rel limit 20", "result_summary": "linked_to M23 + 4 sanctioned officers"},
+    {"n": 61, "tool": "get_entity_profile", "args_summary": "Zigama, rel limit 15", "result_summary": "No relationships"},
+    {"n": 62, "tool": "get_entity_profile", "args_summary": "MoD, rel limit 15", "result_summary": "No relationships"},
+    {"n": 63, "tool": "get_entity_profile", "args_summary": "AFC, rel limit 10", "result_summary": "linked_to M23; founders; Kabila 'Providing support to'"},
+    {"n": 64, "tool": "search_trade_facets", "args_summary": "scope=buyers, query=KANZAMIN, hs=261590", "result_summary": "3 buyers; buyer_country facets only (no names)"},
+    {"n": 65, "tool": "search_buyers", "args_summary": "query=KANZAMIN, hs=261590", "result_summary": "HALCYON INC (25), SMR SA (3), SMR Ltd (2)"},
+    {"n": 66, "tool": "search_buyers", "args_summary": "query=AFRICAN PANTHER RESOURCES, hs=261590", "result_summary": "Traxys Europe S.A. (11), Halcyon (7), Traxys Europe (1), African Panther itself (1, swapped-role row)"},
+    {"n": 67, "tool": "search_buyers", "args_summary": "query=BOSS MINING SOLUTION, hs=261590", "result_summary": "Novacore FZE (30), Halcyon (1), Novascore FZE (1)"},
+    {"n": 68, "tool": "search_shipments", "args_summary": "query=KANZAMIN, hs=261590, compact, limit 40", "result_summary": "30 rows, 3 pairs; dates 2023-07-24 to 2026-07-31"},
+    {"n": 69, "tool": "search_shipments", "args_summary": "query=AFRICAN PANTHER RESOURCES, hs=261590, compact, limit 40", "result_summary": "20 rows, 4 pairs; dates 2023-03-17 to 2026-07-04"},
+    {"n": 70, "tool": "search_shipments", "args_summary": "query=BOSS MINING SOLUTION, hs=261590, compact, limit 40", "result_summary": "32 rows, 3 pairs; dates 2023-02-28 to 2026-04-21"}
+  ]
+}

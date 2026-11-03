@@ -1,0 +1,292 @@
+[
+  {
+    "id": "fl_rubaya_mushaki",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "site_mushaki",
+    "period": "2024",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "summary": "Rubaya coltan moves through the M23-controlled Mushaki trading centre toward Rwanda (S/2024/969 para 57).",
+    "notes": ""
+  },
+  {
+    "id": "fl_goma_gisenyi",
+    "mineral": "coltan",
+    "from_node": "site_goma",
+    "to_node": "site_gisenyi",
+    "period": "2025–2026",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Crossing at Goma's Grande Barrière into Gisenyi/Rubavu, observed by Global Witness.",
+    "notes": ""
+  },
+  {
+    "id": "fl_mushaki_goma",
+    "mineral": "coltan",
+    "from_node": "site_mushaki",
+    "to_node": "site_goma",
+    "period": "2025–2026",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_un_goe_s2024_969"
+    ],
+    "summary": "Road link between the Masisi trading centres and the Goma crossing.",
+    "notes": "Route segment is our inference connecting two documented points; neither source states this hop explicitly.",
+    "method": "Connects the UN-documented Mushaki trading centre with the Global Witness-documented Goma crossing."
+  },
+  {
+    "id": "fl_rubaya_african_panther",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_african_panther",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness found evidence this exporter bought conflict coltan from Rubaya.",
+    "notes": ""
+  },
+  {
+    "id": "fl_rubaya_sunrise",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_sunrise",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness found evidence this exporter bought conflict coltan from Rubaya.",
+    "notes": ""
+  },
+  {
+    "id": "fl_rubaya_boss_mining",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_boss_mining",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness found evidence this exporter bought conflict coltan from Rubaya.",
+    "notes": ""
+  },
+  {
+    "id": "fl_rubaya_kanzamin",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_kanzamin",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness found evidence this exporter bought conflict coltan from Rubaya.",
+    "notes": ""
+  },
+  {
+    "id": "fl_rubaya_philbert",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_philbert",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness found evidence this exporter bought conflict coltan from Rubaya.",
+    "notes": ""
+  },
+  {
+    "id": "fl_rubaya_space_mining",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_space_mining",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness found evidence this exporter bought conflict coltan from Rubaya.",
+    "notes": ""
+  },
+  {
+    "id": "fl_rubaya_rani",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_rani",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness found evidence this exporter bought conflict coltan from Rubaya.",
+    "notes": ""
+  },
+  {
+    "id": "fl_gisenyi_dar",
+    "mineral": "coltan",
+    "from_node": "site_gisenyi",
+    "to_node": "site_dar",
+    "period": "2025–2026",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness: after crossing into Rwanda, coltan leaves via Dar es Salaam or Mombasa.",
+    "notes": ""
+  },
+  {
+    "id": "fl_gisenyi_mombasa",
+    "mineral": "coltan",
+    "from_node": "site_gisenyi",
+    "to_node": "site_mombasa",
+    "period": "2025–2026",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness: after crossing into Rwanda, coltan leaves via Dar es Salaam or Mombasa.",
+    "notes": ""
+  },
+  {
+    "id": "fl_rubaya_tanbre",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_tanbre",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness: likely processed Rubaya conflict coltan. Route between exporter and smelter not specified.",
+    "notes": ""
+  },
+  {
+    "id": "fl_rubaya_otic",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_otic",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness: likely processed Rubaya conflict coltan. Route between exporter and smelter not specified.",
+    "notes": ""
+  },
+  {
+    "id": "fl_rubaya_jinxin",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_jinxin",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness: likely processed Rubaya conflict coltan ('may have'). Route between exporter and smelter not specified.",
+    "notes": ""
+  },
+  {
+    "id": "fl_rubaya_ulba",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_ulba",
+    "period": "2023 – Sep 2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "summary": "Global Witness: likely processed Rubaya conflict coltan (via East Rise). Route between exporter and smelter not specified.",
+    "notes": ""
+  },
+  {
+    "id": "fl_lomera_kamembe",
+    "mineral": "gold",
+    "from_node": "site_lomera",
+    "to_node": "site_kamembe",
+    "period": "2025–2026",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "7108",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "summary": "Amnesty: gold-bearing material from Lomera shipped by boat toward Kamembe, Rwanda.",
+    "notes": ""
+  },
+  {
+    "id": "fl_kamembe_gasabo",
+    "mineral": "gold",
+    "from_node": "site_kamembe",
+    "to_node": "act_gasabo",
+    "period": "early 2026",
+    "volume_t": 0.06,
+    "value_usd": null,
+    "hs_code": "7108",
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543"
+    ],
+    "summary": "Treasury: RDF soldiers and M23 escort gold from M23-held South Kivu areas via Rusizi District to Gasabo in Kigali; at least 60 kg in early 2026.",
+    "notes": ""
+  }
+]

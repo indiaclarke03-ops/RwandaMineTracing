@@ -1,0 +1,241 @@
+[
+  {
+    "id": "eff_state_2024_smelters",
+    "response_id": "resp_2024_07_state",
+    "indicator": "Smelters processing Rubaya-linked coltan",
+    "expected_direction": "fall",
+    "before_value": null,
+    "after_value": null,
+    "window": "Jul 2024 → Sep 2025",
+    "verdict": "didn't move",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "notes": "",
+    "method": "Global Witness finds at least four smelters likely processed Rubaya conflict coltan during 2023 – Sep 2025, i.e. after the statement."
+  },
+  {
+    "id": "eff_eu_mou",
+    "response_id": "resp_2025_02_eu_mou",
+    "indicator": "MoU suspended or conditioned",
+    "expected_direction": "be suspended",
+    "before_value": null,
+    "after_value": null,
+    "window": "Feb 2025 → Oct 2025",
+    "verdict": "no data",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_taipeitimes_2025_10_12_mou"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eff_eu_gasabo",
+    "response_id": "resp_2025_03_eu_sanctions",
+    "indicator": "Conflict gold reaching Gasabo",
+    "expected_direction": "fall",
+    "before_value": "refinery listed by EU (Mar 2025)",
+    "after_value": "≥60 kg via RDF/M23 route (early 2026)",
+    "window": "Mar 2025 → early 2026",
+    "verdict": "didn't move",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_treasury_sb0543"
+    ],
+    "notes": "",
+    "method": "Treasury reports gold still reaching Gasabo via the RDF/M23 route about a year after the EU listing. Volume before the listing is unknown."
+  },
+  {
+    "id": "eff_peace_reif",
+    "response_id": "resp_2025_06_peace",
+    "indicator": "Minerals framework (REIF) launched within three months",
+    "expected_direction": "be launched",
+    "before_value": null,
+    "after_value": "Signed 4 Dec 2025 (about five months, not three)",
+    "window": "Jun 2025 → Dec 2025",
+    "verdict": "moved",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_state_reif_2025_12_04"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eff_pareco",
+    "response_id": "resp_2025_08_ofac_pareco",
+    "indicator": "Trade by designated Hong Kong exporters",
+    "expected_direction": "fall",
+    "before_value": null,
+    "after_value": null,
+    "window": null,
+    "verdict": "no data",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "notes": "",
+    "method": "Pending Sayari before/after trade check (Phase 3)."
+  },
+  {
+    "id": "eff_washington_rubaya",
+    "response_id": "resp_2025_12_washington",
+    "indicator": "M23 control of Rubaya",
+    "expected_direction": "end",
+    "before_value": null,
+    "after_value": null,
+    "window": "Dec 2025 → Oct 2026",
+    "verdict": "didn't move",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_bbc_rubaya_2026_01",
+      "src_amnesty_afr62_1454_2026",
+      "src_state_2026_10_28_press_statement"
+    ],
+    "notes": "",
+    "method": "M23-appointed authorities spoke for Rubaya after the Jan 2026 landslide; Amnesty testimony runs to Mar 2026; State's Oct 2026 statement still refers to M23-held areas including Rubaya."
+  },
+  {
+    "id": "eff_rdf_gold",
+    "response_id": "resp_2026_03_ofac_rdf",
+    "indicator": "RDF-escorted gold transport to Kigali",
+    "expected_direction": "fall",
+    "before_value": null,
+    "after_value": null,
+    "window": null,
+    "verdict": "no data",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_treasury_sb0543"
+    ],
+    "notes": "",
+    "method": "Treasury's 'early 2026' figure may straddle the designation date, so it can't show a before/after."
+  },
+  {
+    "id": "eff_gasabo_buyers",
+    "response_id": "resp_2026_06_ofac_gasabo",
+    "indicator": "Buyers of Gasabo gold (trade records)",
+    "expected_direction": "fall",
+    "before_value": null,
+    "after_value": null,
+    "window": null,
+    "verdict": "no data",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_treasury_sb0543"
+    ],
+    "notes": "",
+    "method": "Pending Sayari before/after trade check (Phase 3)."
+  },
+  {
+    "id": "eff_mod_review",
+    "response_id": "resp_2026_10_ofac_mod",
+    "indicator": "Zigama-linked gold and funding flows",
+    "expected_direction": "fall",
+    "before_value": null,
+    "after_value": null,
+    "window": "Review Jan 2027 and Apr 2027",
+    "verdict": "too early",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_treasury_sb0668"
+    ],
+    "notes": "",
+    "method": "Designation is less than a week old."
+  },
+  {
+    "id": "eff_state_2026",
+    "response_id": "resp_2026_10_state",
+    "indicator": "Company disclosures responding to the statement",
+    "expected_direction": "rise",
+    "before_value": null,
+    "after_value": null,
+    "window": null,
+    "verdict": "too early",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_state_2026_10_28_press_statement"
+    ],
+    "notes": "",
+    "method": "Statement is less than a week old."
+  },
+  {
+    "id": "eff_itsci_space",
+    "response_id": "resp_itsci_space",
+    "indicator": "Suspended exporters stop sourcing Rubaya coltan",
+    "expected_direction": "stop",
+    "before_value": null,
+    "after_value": null,
+    "window": null,
+    "verdict": "didn't move",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "notes": "",
+    "method": "Global Witness found former ITSCI members Space Mining and Philbert sourcing conflict coltan while working with the alternative scheme Better Mining."
+  },
+  {
+    "id": "eff_itsci_philbert",
+    "response_id": "resp_itsci_philbert",
+    "indicator": "Suspended exporters stop sourcing Rubaya coltan",
+    "expected_direction": "stop",
+    "before_value": null,
+    "after_value": null,
+    "window": null,
+    "verdict": "didn't move",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "notes": "",
+    "method": "As above (Global Witness, Better Mining finding)."
+  },
+  {
+    "id": "eff_itsci_ap",
+    "response_id": "resp_itsci_apr",
+    "indicator": "Exporter's coltan shipments after suspension",
+    "expected_direction": "fall",
+    "before_value": null,
+    "after_value": null,
+    "window": null,
+    "verdict": "no data",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "notes": "",
+    "method": "Suspension later lifted; pending Sayari trade check."
+  },
+  {
+    "id": "eff_itsci_sunrise",
+    "response_id": "resp_itsci_sunrise",
+    "indicator": "Exporter's coltan shipments after suspension",
+    "expected_direction": "fall",
+    "before_value": null,
+    "after_value": null,
+    "window": null,
+    "verdict": "no data",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "notes": "",
+    "method": "Pending Sayari trade check."
+  },
+  {
+    "id": "eff_battery",
+    "response_id": "resp_2027_08_eu_battery",
+    "indicator": "Coverage of 3T minerals",
+    "expected_direction": "be in scope",
+    "before_value": null,
+    "after_value": "Tantalum and tin are outside Annex X",
+    "window": null,
+    "verdict": "too early",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_eurlex_2023_1542"
+    ],
+    "notes": ""
+  }
+]

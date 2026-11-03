@@ -1,0 +1,62 @@
+[
+  {
+    "id": "den_rw_2026_03",
+    "claim_ref": "rel_rdf_supports_m23",
+    "respondent": "Government of Rwanda",
+    "date": "2026-03-02",
+    "summary": "Rwanda called the US sanctions on the RDF unjust and one-sided, said they distort the facts, and blamed DRC ceasefire violations, mercenaries, Wazalendo militias and the FDLR fighting alongside the Congolese army. It said the DRC had taken no steps on its Washington Accords commitment to end support for the FDLR, and that Rwanda would disengage its forces only in tandem with the DRC meeting its obligations.",
+    "source_ids": [
+      "src_govrw_2026_03_02_statement"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_rw_2026_10",
+    "claim_ref": "rel_rdf_supports_m23",
+    "respondent": "Government of Rwanda (spokesperson Yolande Makolo)",
+    "date": "2026-10-28",
+    "summary": "Reuters reported that Rwanda denies backing the rebels (now styled Refoundation of the Nation, formerly AFC-M23). Makolo said the Washington Accords commitments on neutralising the FDLR remain unmet, and that Rwanda would implement the Accords alongside the DRC if the mediator holds all parties accountable.",
+    "source_ids": [
+      "src_reuters_2026_10_28_mod_sanctions"
+    ],
+    "evidence_tier": "reported",
+    "notes": ""
+  },
+  {
+    "id": "den_ulba",
+    "claim_ref": "fl_rubaya_ulba",
+    "respondent": "Ulba Metallurgical Plant",
+    "date": "2026-06",
+    "summary": "Says it stopped buying from the region in May 2024 and denies a conflict link (response published by Global Witness).",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_ulba_rel",
+    "claim_ref": "rel_ulba_buys_eastrise",
+    "respondent": "Ulba Metallurgical Plant",
+    "date": "2026-06",
+    "summary": "Says it stopped buying from the region in May 2024 and denies a conflict link (response published by Global Witness).",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_taniobis",
+    "claim_ref": "act_taniobis_th",
+    "respondent": "Taniobis",
+    "date": "2026-06",
+    "summary": "Says it stopped sourcing from the DRC and Rwanda at the end of 2023 (response published by Global Witness).",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  }
+]

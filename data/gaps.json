@@ -1,0 +1,135 @@
+[
+  {
+    "id": "gap_ipis",
+    "layer": "control",
+    "title": "No site-level armed-presence data loaded yet",
+    "detail": "The IPIS open-data geoserver is offline while IPIS migrates providers. The mining-site base layer (CSV/GeoJSON via a download form) still has to be pulled, so the map shows only hand-entered sites.",
+    "source_ids": [
+      "src_ipis_open_data"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_aoi",
+    "layer": "control",
+    "title": "M23 area-of-influence polygons are not public and are not site-precise",
+    "detail": "IPIS maps M23 influence to May 2026, but no shapefile is published and IPIS warns the polygons (±10 km) can't settle control of a specific mine. Polygons must be requested or digitised, and labelled as approximate.",
+    "source_ids": [
+      "src_ipis_m23_aoi"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_lomera",
+    "layer": "control",
+    "title": "Lomera has no verified coordinates",
+    "detail": "Amnesty locates Lomera in Kabare territory, South Kivu, but no source we read gives coordinates, so it does not appear on the map.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_landslide",
+    "layer": "impacts",
+    "title": "The January 2026 Rubaya death toll is contested",
+    "detail": "Counts range from 'over 200' (M23-appointed officials) to about 400 (civil society) and over 430 bodies (a rescuer). The widely quoted '227' comes from an anonymous source whose page we could not read.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_cassiterite",
+    "layer": "impacts",
+    "title": "The cassiterite laundering-gap figure is not yet checked in the UN report",
+    "detail": "The +58% figure is quoted by ITSCI from UN report S/2026/466, which we could not fetch. No paragraph number yet.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_uae_gold",
+    "layer": "supply_chain",
+    "title": "The UAE's share of Rwandan gold is unconfirmed",
+    "detail": "Rwanda says the UAE took 63.9% of its formal goods exports in 2024 and that gold is a main export there, but we have no gold-specific figure. Check UN Comtrade HS 7108.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_boss",
+    "layer": "supply_chain",
+    "title": "Reuters reporting on Boss Mining Solution not yet read",
+    "detail": "Figures reported by Reuters (Jul 2025) are known only from search snippets and are not shown.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_smelter_brand",
+    "layer": "supply_chain",
+    "title": "No smelter → brand links yet",
+    "detail": "SEC Conflict Minerals Reports and RMI status for the eight smelters still need to be pulled (Phase 3, Route 4).",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_sayari_ownership",
+    "layer": "sayari",
+    "title": "No ownership data for unsanctioned Rwandan exporters",
+    "detail": "Sayari has no Rwandan corporate registry coverage, so ownership of the Global Witness-named exporters is unknown. Their link to conflict coltan rests on Global Witness evidence, not on ownership.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_itsci",
+    "layer": "response",
+    "title": "Two of ITSCI's six suspensions are not yet identified",
+    "detail": "Four suspensions are verified by name and date. A reported Rani Mining suspension (Jul 2026) and one more could not be confirmed from ITSCI's own pages.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_exporters_unsanctioned",
+    "layer": "response",
+    "title": "Sanctions have not reached the named coltan exporters",
+    "detail": "US and EU sanctions hit the gold refinery, the army, the defence ministry and a bank, plus DRC-side and Hong Kong actors. None of the Rwandan coltan exporters Global Witness names has been designated.",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_treasury_sb0543",
+      "src_treasury_sb0668",
+      "src_eurlex_2025_509"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_ofac_2026",
+    "layer": "response",
+    "title": "Two 2026 OFAC actions not yet added",
+    "detail": "Treasury's June 2026 release refers to actions on 30 Apr 2026 (Joseph Kabila) and 2 Jun 2026 (FDLR and M23 commanders). Their primary releases have not been read yet.",
+    "source_ids": [
+      "src_treasury_sb0543"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_mou",
+    "layer": "response",
+    "title": "Outcome of the EU–Rwanda minerals MoU review unknown",
+    "detail": "No primary Commission document on how the review ended was found.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  }
+]

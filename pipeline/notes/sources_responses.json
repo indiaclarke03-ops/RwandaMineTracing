@@ -1,0 +1,472 @@
+{
+  "run_date": "2026-11-02",
+  "sources": [
+    {
+      "key": "state_2024_statement_of_concern",
+      "title": "Statement of Concern Related to Certain Minerals Supply Chains from Rwanda and Eastern Democratic Republic of the Congo Contributing to the Ongoing Conflict",
+      "publisher": "US Department of State (archived 2021-2025 site)",
+      "url": "https://2021-2025.state.gov/statement-of-concern-related-to-certain-minerals-supply-chains-from-rwanda-and-eastern-democratic-republic-of-the-congo-contributing-to-the-ongoing-conflict/",
+      "published_date": "2024-07-08",
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Introductory section (issued at private-sector request; Rubaya takeover by M23 April 2024); Annex 1 (due diligence frameworks)",
+      "notes": "Extract confirmed content but the extracted chunks did not show the dateline. Date 8 July 2024 is taken from three Treasury press releases (sb0221, sb0543, sb0668) that link this page. They are primary government sources, but they are not this page."
+    },
+    {
+      "key": "consilium_2025_03_17_drc_listings",
+      "title": "Democratic Republic of the Congo: EU lists further nine individuals and one entity",
+      "publisher": "Council of the European Union",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/03/17/democratic-republic-of-the-congo-eu-lists-further-nine-individuals-and-one-entity",
+      "published_date": "2025-03-17",
+      "type": "sanctions",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "tavily_extract failed twice. Search snippet only, so this is a lead. The listing itself is verified through EUR-Lex 2025/509."
+    },
+    {
+      "key": "eurlex_2025_509",
+      "title": "Council Implementing Regulation (EU) 2025/509 of 17 March 2025 implementing Regulation (EC) No 1183/2005 (DRC restrictive measures)",
+      "publisher": "EUR-Lex / Official Journal of the EU",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32025R0509",
+      "published_date": "2025-03-17",
+      "type": "sanctions",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Recital 5 (nine persons, one entity); Annex: entries 37 Karusisi, 40 Nkubito, 41 Muhizi, 43 Kamanzi, 44 Bahati Musanga; Section B entity 2 Gasabo Gold Refinery",
+      "notes": "Extract confirmed Gasabo Gold Refinery (Kigali, refining since 1 June 2022), Francis Kamanzi (RMB CEO since Feb 2024), RDF officers Ruki Karusisi, Eugene Nkubito and Pascal Muhizi, and M23 figures Bertrand Bisimwa, John Imani Nzenze and Joseph Bahati Musanga. The other two M23 listees (reported as Desire Rukomera and Jean-Bosco Nzabonimpa Mupenzi) were not in the extracted chunks."
+    },
+    {
+      "key": "kenyanwallstreet_2025_03_eu_sanctions",
+      "title": "EU Sanctions Rwandan CEO, Gold Refinery, Over DRC Conflict",
+      "publisher": "The Kenyan Wallstreet",
+      "url": "https://kenyanwallstreet.com/eu-sanctions-rwandan-ceo-gold-refinery-over-drc-conflict",
+      "published_date": "2025-03-18",
+      "type": "media",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "Search lead only. Names Rukomera and Nzabonimpa Mupenzi among the five M23 listees."
+    },
+    {
+      "key": "consilium_2025_12_08_renewal",
+      "title": "Democratic Republic of the Congo: Council prolongs individual sanctions by another year",
+      "publisher": "Council of the European Union",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/12/08/democratic-republic-of-the-congo-council-prolongs-individual-sanctions-by-another-year",
+      "published_date": "2025-12-08",
+      "type": "sanctions",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "Search lead only. Says the DRC regime was renewed until 12 Dec 2026. Renewal status after that date is not yet known."
+    },
+    {
+      "key": "europarl_2025_02_13_mou",
+      "title": "MEPs want to suspend EU-Rwanda deal on sustainable value chains for critical raw materials",
+      "publisher": "European Parliament",
+      "url": "https://www.europarl.europa.eu/news/en/press-room/20250206IPR26752/meps-want-to-suspend-eu-rwanda-deal-on-critical-raw-materials",
+      "published_date": "2025-02-13",
+      "type": "government",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "Search lead only. A non-binding Parliament resolution urged the Commission and Council to suspend the MoU."
+    },
+    {
+      "key": "euronews_2025_02_24_mou_review",
+      "title": "EU to review raw materials deal with Rwanda over DRC conflict - top diplomat",
+      "publisher": "Euronews",
+      "url": "https://www.euronews.com/2025/02/24/eu-to-review-raw-materials-deal-with-rwanda-over-drc-conflict-top-diplomat",
+      "published_date": "2025-02-24",
+      "type": "media",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Kallas remarks after Foreign Affairs Council",
+      "notes": "Kallas said the MoU would be under review and that EU defence consultations with Rwanda were suspended. The MoU was signed in Feb 2024."
+    },
+    {
+      "key": "taipeitimes_2025_10_12_mou",
+      "title": "EU-Rwanda minerals deal 'double standard': DR Congo",
+      "publisher": "Taipei Times (wire/Guardian-sourced)",
+      "url": "https://www.taipeitimes.com/News/world/archives/2025/10/12/2003845351",
+      "published_date": "2025-10-12",
+      "type": "media",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Paragraphs on Commission response to suspension calls",
+      "notes": "Reports that the Commission had brushed off calls to suspend the 2024 MoU. The original Guardian article (2025-10-10) could not be extracted."
+    },
+    {
+      "key": "state_peace_agreement_2025_06_27",
+      "title": "Peace Agreement Between the Democratic Republic of the Congo and the Republic of Rwanda",
+      "publisher": "US Department of State",
+      "url": "https://www.state.gov/peace-agreement-between-the-democratic-republic-of-the-congo-and-the-republic-of-rwanda/",
+      "published_date": "2025-06-27",
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Article 6 (Regional Economic Integration Framework); Article 9 (entry into force on signature); signature block",
+      "notes": "Signed in Washington by foreign ministers Kayikwamba Wagner (DRC) and Nduhungirehe (Rwanda), witnessed by Marco Rubio."
+    },
+    {
+      "key": "treasury_sb0221",
+      "title": "Treasury Sanctions Entities Linked to Violence and Illegal Mining in the Democratic Republic of the Congo",
+      "publisher": "US Department of the Treasury (OFAC)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0221",
+      "published_date": "2025-08-12",
+      "type": "sanctions",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Sections 'PARECO-FF' and 'Mining and Export Companies'",
+      "notes": "Date confirmed by the OFAC recent-actions link (20250812) and by the citation in sb0543."
+    },
+    {
+      "key": "state_joint_declaration_2025_12_04",
+      "title": "Joint Declaration by the DRC and the Republic of Rwanda on the Occasion of Establishing the Washington Accords for Peace and Prosperity",
+      "publisher": "US Department of State",
+      "url": "https://www.state.gov/joint-declaration-by-the-democratic-republic-of-the-congo-and-the-republic-of-rwanda-on-the-occasion-of-establishing-the-washington-accords-for-peace-and-prosperity/",
+      "published_date": "2025-12-04",
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Signature block",
+      "notes": "Signed by Presidents Tshisekedi and Kagame and witnessed by President Trump. The extract returned only the header and signature block, not the operative paragraphs."
+    },
+    {
+      "key": "state_reif_2025_12_04",
+      "title": "Regional Economic Integration Framework Between the Government of the DRC and the Government of the Republic of Rwanda",
+      "publisher": "US Department of State",
+      "url": "https://www.state.gov/regional-economic-integration-framework-between-the-government-of-the-democratic-republic-of-the-congo-and-the-government-of-the-republic-of-rwanda/",
+      "published_date": "2025-12-04",
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Section (b) 'Structuring Fair Value Sharing in the Regional Minerals Supply Chain'; signature block",
+      "notes": "Signed by the two foreign ministers. Prioritises tin, tantalum, tungsten, niobium and gold for licit chain-of-custody and processing investment."
+    },
+    {
+      "key": "state_2026_10_report_to_congress",
+      "title": "Report to Congress on Assistance Provided in Support of the Peace Agreement Between the DRC and Rwanda",
+      "publisher": "US Department of State",
+      "url": "https://www.state.gov/wp-content/uploads/2026/10/Report-Peace-Agreement-Between-the-Democratic-Republic-of-the-Congo-and-the-Republic-of-Rwand-2.pdf",
+      "published_date": null,
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": "p.1-2",
+      "notes": "Uploaded Oct 2026, but the document shows no exact date. It confirms that the Washington Accords comprise the 27 Jun 2025 peace agreement plus the REIF, and it describes $25M of FY2026 minerals programming (traceable certification for artisanal mining)."
+    },
+    {
+      "key": "treasury_sb0411",
+      "title": "Treasury Sanctions Rwanda Officials, Condemns Blatant Violations of Washington Peace Accords",
+      "publisher": "US Department of the Treasury (OFAC)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0411",
+      "published_date": "2026-03-02",
+      "type": "sanctions",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Section 'The Rwanda Defence Force' and designation paragraph",
+      "notes": "Date confirmed by the OFAC recent-actions link (20260302) and by later Treasury releases. A Federal Register notice of 2026-03-05 (lead, not extracted) carries the SDN identifiers."
+    },
+    {
+      "key": "treasury_sb0543",
+      "title": "Treasury Sanctions Rwandan Gold Refinery and Network Enabling Illicit Conflict Minerals Trade",
+      "publisher": "US Department of the Treasury (OFAC)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0543",
+      "published_date": "2026-06-25",
+      "type": "sanctions",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Section 'Minerals Laundering Scheme'",
+      "notes": "Date confirmed by the OFAC recent-actions link (20260625). The release also says a March 2026 mine-shaft collapse at Rubaya killed over 200 people. That conflicts with the 'Jan 2026, at least 227' figure in RWANDA_CASE.md, which belongs to the impacts layer (see run notes)."
+    },
+    {
+      "key": "treasury_sb0668",
+      "title": "Treasury Sanctions Rwandan Ministry of Defence and Financial Institution Supporting M23",
+      "publisher": "US Department of the Treasury (OFAC)",
+      "url": "https://home.treasury.gov/news/press-releases/sb0668",
+      "published_date": "2026-10-28",
+      "type": "sanctions",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Sections 'The Rwandan Ministry of Defence' and 'Zigama'",
+      "notes": "Date confirmed by the OFAC recent-actions link (20261028). The release notes that on 12 Oct 2026 the Front for the Refoundation of the Nation announced itself as the AFC's successor."
+    },
+    {
+      "key": "state_2026_10_28_press_statement",
+      "title": "The United States Announces Sanctions in Response to Rwanda's Destabilizing Activities in Eastern Democratic Republic of the Congo",
+      "publisher": "US Department of State, Office of the Spokesman (Tommy Pigott)",
+      "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/the-united-states-announces-sanctions-in-response-to-rwandas-destabilizing-activities-in-eastern-democratic-republic-of-the-congo",
+      "published_date": "2026-10-28",
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Paragraph 2",
+      "notes": "Contains the call for partners and the private sector to examine their supply chains, with reference to gold and coltan areas under M23 control including Rubaya. This is a sentence in a press statement, not a standalone business advisory."
+    },
+    {
+      "key": "itsci_2025_05_02_gw_comments",
+      "title": "ITSCI comments on recent Global Witness investigation",
+      "publisher": "ITSCI",
+      "url": "https://www.itsci.org/2025/05/02/itsci-comments-on-recent-global-witness-investigation",
+      "published_date": "2025-05-02",
+      "type": "analysis",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Paragraph on actions taken since start of 2025",
+      "notes": "Names African Panther Resources Ltd (suspended 16 Mar 2025) and Sunrise Metal Company Ltd (suspended 16 Apr 2025) for insufficient evidence of due diligence."
+    },
+    {
+      "key": "itsci_2026_01_19_q4_2025_update",
+      "title": "Quarterly membership update Q4 2025",
+      "publisher": "ITSCI",
+      "url": "https://www.itsci.org/2026/01/19/quarterly-membership-update-q4-2025",
+      "published_date": "2026-01-19",
+      "type": "dataset",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Membership Changes",
+      "notes": "Space Mining Ltd suspended 13 Oct 2025; Philbert Trading Minerals Ltd suspended 12 Nov 2025. The other suspensions on 16 Oct 2025 (DFSA Mining Congo, Metachem, MTALX, NPM Silmet, SAKIMA, TMT, Vin Metal Synergies, Yinchuan Kinfintra) appear to be non-Rwandan or non-exporter members, and some are likely for fee non-payment. Do not count them as Rwandan coltan exporters without checking."
+    },
+    {
+      "key": "itsci_2025_11_12_tantalum_flows",
+      "title": "ITSCI statement: Shifts in tantalum mineral flows from the Great Lakes Region",
+      "publisher": "ITSCI",
+      "url": "https://www.itsci.org/2025/11/12/itsci-statement-shifts-in-tantalum-mineral-flows-from-the-great-lakes-region",
+      "published_date": "2025-11-12",
+      "type": "analysis",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Section 'High risks of mineral fraud'",
+      "notes": "Says four Rwandan exporters were suspended in 2025 up to that date."
+    },
+    {
+      "key": "itsci_2026_06_12_gw_response",
+      "title": "ITSCI response to Global Witness report on Rwanda's coltan",
+      "publisher": "ITSCI",
+      "url": "https://www.itsci.org/2026/06/12/itsci-response-to-global-witness-report-on-rwandas-coltan",
+      "published_date": "2026-06-12",
+      "type": "analysis",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Section 'Effective ITSCI incident management system'",
+      "notes": "Four GW-named exporters suspended in 2025 or 2026, plus a fifth (not GW-named) suspended in 2026. High-level incidents are open on three more GW-named exporters and on one other. The 5th exporter is not named."
+    },
+    {
+      "key": "itsci_2026_07_10_3t_flows",
+      "title": "Statement: 3T mineral flows from the Great Lakes Region (context of UN GoE 2025 final report)",
+      "publisher": "ITSCI",
+      "url": "https://www.itsci.org/2026/07/10/statement-3t-mineral-flows-from-the-great-lakes-region-distinguishing-itsci-monitored-supply-chains-from-wider-trade-data-in-context-of-the-un-group-of-experts-2025-final-report",
+      "published_date": "2026-07-10",
+      "type": "analysis",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Accountability paragraph",
+      "notes": "Says six local exporters suspended so far. Also says the UN GoE final report was published 5 Jun 2026 (para 223, p.40 cited)."
+    },
+    {
+      "key": "itsci_participation_list_2026_10",
+      "title": "ITSCI Online Participation List (xlsx, dated 20.10.26)",
+      "publisher": "ITSCI",
+      "url": "https://www.itsci.org/wp-content/uploads/2023/03/408-Online-Participation-List-20.10.26.xlsx",
+      "published_date": "2026-10-20",
+      "type": "dataset",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "tavily_extract failed twice. Search snippets (lead only) say Rani Mining Ltd was suspended 10 Jul 2026 and that African Panther Resources was suspended between 16 Mar and 16 Jun 2025, so its suspension was lifted. Download the file and check before using."
+    },
+    {
+      "key": "gw_2026_06_who_buys_coltan",
+      "title": "Who buys Rwanda's smuggled coltan?",
+      "publisher": "Global Witness",
+      "url": "https://globalwitness.org/en/campaigns/transition-minerals/who-buys-rwandas-smuggled-coltan-the-global-journey-of-conflict-coltan-from-drc-to-the-worlds-electronics",
+      "published_date": "2026-06-18",
+      "type": "ngo",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Sections on ITSCI and Better Mining; company responses",
+      "notes": "States six coltan exporters suspended or expelled by ITSCI since 2024. Space Mining and Philbert are now with Better Mining, and Sunrise is onboarding. GW says APR's suspension was lifted. Published date taken from DATA_SOURCES.md ('updated 18 June 2026'), not from the extract."
+    },
+    {
+      "key": "eurlex_2025_1561",
+      "title": "Regulation (EU) 2025/1561 amending Regulation (EU) 2023/1542 as regards battery due diligence obligations",
+      "publisher": "EUR-Lex / Official Journal of the EU",
+      "url": "https://eur-lex.europa.eu/eli/reg/2025/1561/oj/eng",
+      "published_date": "2025-07-18",
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Recital 1; Article 1(a)-(b)",
+      "notes": "Date is the adoption date ('Done at Brussels, 18 July 2025'). Secondary sources say it was published in the OJ on 30 Jul 2025 (not verified)."
+    },
+    {
+      "key": "eurlex_2023_1542",
+      "title": "Regulation (EU) 2023/1542 concerning batteries and waste batteries",
+      "publisher": "EUR-Lex / Official Journal of the EU",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj/eng",
+      "published_date": "2023-07-28",
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Article 48(4)(a); Article 49(1); Annex X point 1",
+      "notes": "Annex X point 1 lists cobalt, natural graphite, lithium and nickel (and their compounds) only. The Commission may amend the list, including in light of changes to Regulation 2017/821. Published date is the OJ publication date from general knowledge and was not seen in the extract."
+    },
+    {
+      "key": "govrw_2026_03_02_statement",
+      "title": "Rwanda Regrets One-Sided Sanctions",
+      "publisher": "Republic of Rwanda, Office of the Government Spokesperson",
+      "url": "https://www.gov.rw/fileadmin/user_upload/gov_user_upload/Gov_News_images/Statement-Eng.pdf",
+      "published_date": "2026-03-02",
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Full statement (3 paragraphs)",
+      "notes": "Response to OFAC sb0411. It does not literally say 'we do not support M23'. Instead it calls the sanctions one-sided and blames DRC/FDLR violations."
+    },
+    {
+      "key": "reuters_2026_10_28_mod_sanctions",
+      "title": "US imposes sanctions on Rwanda's defense ministry over Congo conflict",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/africa/us-imposes-sanctions-rwandas-ministry-defense-2026-10-28",
+      "published_date": "2026-10-28",
+      "type": "media",
+      "verified_by_extract": true,
+      "paragraph_or_page": "Paragraphs quoting Yolande Makolo",
+      "notes": "Reports that Rwanda denies backing the rebels (now Refoundation of the Nation, formerly AFC-M23). Quotes government spokesperson Yolande Makolo saying the DRC's FDLR commitments are unmet. No primary gov.rw text for this date was found."
+    },
+    {
+      "key": "steptoe_2026_11_02_update",
+      "title": "Weekly Sanctions Update: November 2, 2026",
+      "publisher": "Steptoe",
+      "url": "https://www.steptoe.com/en/news-publications/international-compliance-blog/weekly-sanctions-update-november-2-2026.html",
+      "published_date": "2026-11-02",
+      "type": "analysis",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "Search lead only. Says it remains unclear whether Treasury will sanction persons in the Rwandan mineral trade, which supports the 'gap' finding in RWANDA_CASE.md."
+    }
+  ],
+  "responses": [
+    {
+      "item": 1,
+      "date": "2024-07-08",
+      "issuer": "US Department of State",
+      "type": "advisory",
+      "targets": ["Mineral supply chains (tantalum, gold, tin) from eastern DRC, Rwanda and Uganda", "Midstream and downstream companies using 3TG"],
+      "summary": "State issued a statement of concern, at industry's request, setting out the risks of buying minerals mined, moved or exported from eastern DRC, Rwanda and Uganda, citing M23's April 2024 takeover of the Rubaya tantalum area and flawed traceability schemes. It urged heightened OECD-aligned due diligence but did not call for a blanket embargo.",
+      "source_keys": ["state_2024_statement_of_concern", "treasury_sb0221"],
+      "status": "verified",
+      "correction": "None of substance. The exact date is 8 July 2024. It also covers Uganda, not just eastern DRC."
+    },
+    {
+      "item": 2,
+      "date": "2025-03-17",
+      "issuer": "Council of the European Union",
+      "type": "sanction",
+      "targets": ["Gasabo Gold Refinery (Kigali)", "Francis Kamanzi (CEO, Rwanda Mines, Petroleum and Gas Board)", "Ruki Karusisi (RDF Special Forces commander)", "Eugene Nkubito (RDF 3rd Division commander)", "Pascal Muhizi (RDF 2nd Division commander)", "Bertrand Bisimwa (M23)", "John Imani Nzenze (M23)", "Joseph Bahati Musanga a.k.a. Erasto (M23 finance chief / M23-appointed North Kivu governor)", "Two further M23 leaders (reported as Desire Rukomera and Jean-Bosco Nzabonimpa Mupenzi; not confirmed in extract)"],
+      "summary": "The EU added nine people and one entity to its DRC sanctions regime (asset freeze and travel ban): five M23 leaders, three RDF commanders, RMB chief Francis Kamanzi and Gasabo Gold Refinery. The EU said Gasabo was a transit point for illegally extracted Congolese gold and that RMB benefited from conflict minerals mixed into Rwandan output.",
+      "source_keys": ["eurlex_2025_509", "consilium_2025_03_17_drc_listings", "kenyanwallstreet_2025_03_eu_sanctions"],
+      "status": "verified",
+      "correction": "Exact date is 17 Mar 2025 (Implementing Regulation 2025/509). There were three RDF commanders (Karusisi, Nkubito, Muhizi). The alias 'Erasto' belongs to Joseph Bahati Musanga, not Kamanzi; some media (e.g. Business Insider Africa) wrongly attach it to Kamanzi. Lead to check: OpenSanctions cites an EU OJ update of 2026-09-15 saying Kamanzi left RMB in Jul 2025 to head the Rwanda Cooperative Agency and is still listed."
+    },
+    {
+      "item": 2,
+      "date": "2025-02-24",
+      "issuer": "European Union (HR/VP Kaja Kallas; European Commission)",
+      "type": "advisory",
+      "targets": ["EU-Rwanda Memorandum of Understanding on Sustainable Raw Materials Value Chains (signed Feb 2024)"],
+      "summary": "After the European Parliament on 13 Feb 2025 urged suspension of the minerals MoU, the EU's top diplomat said on 24 Feb 2025 that it would be put under review rather than suspended. By October 2025 the Commission was still declining to suspend it.",
+      "source_keys": ["euronews_2025_02_24_mou_review", "taipeitimes_2025_10_12_mou", "europarl_2025_02_13_mou"],
+      "status": "corrected",
+      "correction": "RWANDA_CASE.md says the MoU was 'under reconsideration'. The verified position is under review but not suspended, and as of Oct 2025 the Commission had refused to suspend it. I found no primary Commission document on the outcome of the review, so the MoU's status as of Nov 2026 is unverified. A secondary lead (RNZ, Oct 2026) still lists Rwanda among the EU's raw-materials partnerships."
+    },
+    {
+      "item": 3,
+      "date": "2025-06-27",
+      "issuer": "Governments of the DRC and Rwanda (witnessed by the United States)",
+      "type": "peace_deal",
+      "targets": ["DRC", "Rwanda"],
+      "summary": "The DRC and Rwanda signed a peace agreement in Washington, which took effect on signature. On minerals, the parties committed to launch, within three months, a separate Regional Economic Integration Framework. It would use regional critical-mineral supply chains to expand trade and investment and bring in transparency to block illicit economic pathways.",
+      "source_keys": ["state_peace_agreement_2025_06_27"],
+      "status": "verified",
+      "correction": "None. Signed by the foreign ministers (Kayikwamba Wagner and Nduhungirehe) and witnessed by Secretary Rubio. The minerals provision is Article 6, which defers the substance to the REIF."
+    },
+    {
+      "item": 4,
+      "date": "2025-08-12",
+      "issuer": "US Department of the Treasury (OFAC)",
+      "type": "sanction",
+      "targets": ["Coalition des Patriotes Resistants Congolais-Force de Frappe (PARECO-FF)", "Cooperative des Artisanaux Miniers du Congo (CDMC)", "East Rise Corporation Limited (Hong Kong)", "Star Dragon Corporation Limited (Hong Kong)"],
+      "summary": "OFAC sanctioned PARECO-FF, an armed group that controlled Rubaya mining sites from 2022 to early 2024, together with CDMC, which operated the largest Rubaya concession and sold PARECO-FF-area minerals. It also sanctioned two Hong Kong exporters that bought from CDMC, noting that such minerals often move through Rwanda.",
+      "source_keys": ["treasury_sb0221"],
+      "status": "corrected",
+      "correction": "It happened, on 12 Aug 2025 (press release sb0221). The targets were not M23 or Rwandan actors: PARECO-FF is a DRC-aligned militia that held Rubaya before M23, and the companies are Congolese (CDMC) and Hong Kong-based (East Rise, Star Dragon). No Rwandan exporter was designated."
+    },
+    {
+      "item": 5,
+      "date": "2025-12-04",
+      "issuer": "Presidents of the DRC and Rwanda (witnessed by the US President); foreign ministers for the REIF",
+      "type": "peace_deal",
+      "targets": ["DRC", "Rwanda", "Regional minerals supply chains (tin, tantalum, tungsten, niobium, gold)"],
+      "summary": "Tshisekedi and Kagame signed a Joint Declaration establishing the Washington Accords, which bundle the June 2025 peace agreement with a Regional Economic Integration Framework signed the same day. The REIF commits both countries to build licit chain-of-custody systems, transparent supply chains and processing capacity for tin, tantalum, tungsten, niobium and gold, and to remove barriers to direct lawful export.",
+      "source_keys": ["state_joint_declaration_2025_12_04", "state_reif_2025_12_04", "state_2026_10_report_to_congress"],
+      "status": "verified",
+      "correction": "None on date. Context: a separate US-DRC Strategic Partnership Agreement was also signed on 4 Dec 2025 (lead, not extracted). Treasury says M23 took Uvira days after the signing."
+    },
+    {
+      "item": 6,
+      "date": "2026-03-02",
+      "issuer": "US Department of the Treasury (OFAC)",
+      "type": "sanction",
+      "targets": ["Rwanda Defence Force (RDF)", "Vincent Nyakarundi (RDF Army Chief of Staff)", "Ruki Karusisi (Maj. Gen., commander RDF 5th Infantry Division; former Special Operations Force commander)", "Mubarakh Muganga (RDF Chief of Defence Staff)", "Stanislas Gashugi (RDF Special Operations Force commander since 15 Mar 2025)"],
+      "summary": "In press release sb0411, OFAC designated the RDF under E.O. 13413 for fighting alongside, training and equipping M23, and designated four senior commanders as RDF leaders. Treasury said Rwanda gained access to mineral-rich areas of eastern DRC in return for its support to M23.",
+      "source_keys": ["treasury_sb0411"],
+      "status": "verified",
+      "correction": "None. Press release number sb0411. Karusisi is now sanctioned by both the EU (Mar 2025) and the US."
+    },
+    {
+      "item": 7,
+      "date": "2026-06-25",
+      "issuer": "US Department of the Treasury (OFAC)",
+      "type": "sanction",
+      "targets": ["Gasabo Gold Refinery LTD", "Jean Malic Kalima (Chairman, Gasabo Gold)", "Bosco Kayobotsi (General Manager, Gasabo Gold)", "Bugambira Mines LTD", "Wolfram Mining and Processing LTD", "Rwinkwavu Mining Corporation LTD"],
+      "summary": "OFAC designated Gasabo Gold for supporting M23 and for illicit trade in DRC natural resources, and designated its two executives and three Kalima-controlled mining companies. Treasury alleges that Rwandan government forces kept strict control of gold from RDF/M23-held South Kivu mines, that RDF soldiers and M23 moved it via Rusizi District to the Kigali refinery, and that at least 60 kg passed through this route in early 2026.",
+      "source_keys": ["treasury_sb0543"],
+      "status": "verified",
+      "correction": "None on targets or date. Nuance: Treasury says 'Rwandan government forces' had oversight and that 'RDF soldiers and M23 rebels' handled transport, which matches 'RDF overseeing gold transport'. The release also mentions Treasury actions on 30 Apr 2026 (sb0480, Joseph Kabila) and 2 Jun 2026 (sb0518, FDLR/M23 commanders), which are missing from the response timeline."
+    },
+    {
+      "item": 8,
+      "date": "2026-10-28",
+      "issuer": "US Department of the Treasury (OFAC) and US Department of State",
+      "type": "sanction",
+      "targets": ["Rwandan Ministry of Defence", "Zigama Credit and Savings Society"],
+      "summary": "In press release sb0668, OFAC designated Rwanda's Ministry of Defence for supporting the RDF. It also designated Zigama, a financial institution serving the security services, which allegedly paid for RDF weapons (including to Chinese entities), moved tens of millions of dollars for M23/AFC, and had a branch that enabled gold from M23-held areas to reach Kigali.",
+      "source_keys": ["treasury_sb0668", "state_2026_10_28_press_statement"],
+      "status": "verified",
+      "correction": "None on targets or date. sb0668 also notes that the AFC was succeeded by the 'Front for the Refoundation of the Nation' on 12 Oct 2026, so actor naming in the data should be updated."
+    },
+    {
+      "item": 8,
+      "date": "2026-10-28",
+      "issuer": "US Department of State (Office of the Spokesman)",
+      "type": "advisory",
+      "targets": ["Partners and private sector buying from gold and coltan supply chains linked to M23-controlled areas (incl. Rubaya)"],
+      "summary": "State's press statement on the same day said armed groups and their state sponsors must not profit from DRC resources, cited forced labour and illegal taxation in M23-held gold and coltan areas including Rubaya, and urged partners and companies to examine their supply chains closely.",
+      "source_keys": ["state_2026_10_28_press_statement"],
+      "status": "verified",
+      "correction": "The 'advisory' is one sentence in a State press statement, not a formal business advisory like the July 2024 statement of concern. The UI should not present it as a standalone advisory."
+    },
+    {
+      "item": 9,
+      "date": "2025-03-16",
+      "issuer": "ITSCI",
+      "type": "scheme_suspension",
+      "targets": ["African Panther Resources Ltd (suspended 16 Mar 2025; later lifted)", "Sunrise Metal Company Ltd (suspended 16 Apr 2025)", "Space Mining Ltd (suspended 13 Oct 2025)", "Philbert Trading Minerals Ltd (suspended 12 Nov 2025)", "Rani Mining Ltd (reported suspended 10 Jul 2026; unverified)", "One further 2026 suspension not named by ITSCI"],
+      "summary": "ITSCI suspended Rwandan exporters for insufficient evidence of due diligence, starting with African Panther Resources and Sunrise Metal in March and April 2025 and then Space Mining and Philbert Trading Minerals in Oct-Nov 2025. By July 2026 ITSCI said six local exporters had been suspended and that several more faced open high-risk incidents.",
+      "source_keys": ["itsci_2025_05_02_gw_comments", "itsci_2026_01_19_q4_2025_update", "itsci_2025_11_12_tantalum_flows", "itsci_2026_06_12_gw_response", "itsci_2026_07_10_3t_flows", "gw_2026_06_who_buys_coltan", "itsci_participation_list_2026_10"],
+      "status": "corrected",
+      "correction": "Four suspensions are verified by name and date (APR, Sunrise, Space Mining, Philbert), all in 2025. I found no 2024 suspension, so the '2024-2026' framing is not supported for 2024. ITSCI's own count is 'six suspended', while GW says 'suspended or expelled'. I verified no expulsion of a Rwandan coltan exporter; the January 2026 expulsions found were of other members. APR's suspension was lifted (about 16 Jun 2025 per a lead). Rani Mining (10 Jul 2026) and the sixth name are unverified because the ITSCI participation list could not be extracted. Boss Mining Solution and Kanzamin are not verified as suspended; they may be among the exporters under high-level incidents."
+    },
+    {
+      "item": 10,
+      "date": "2027-08-18",
+      "issuer": "European Parliament and Council of the EU",
+      "type": "due_diligence_law",
+      "targets": ["Economic operators placing in-scope batteries on the EU market", "Supply chains of cobalt, natural graphite, lithium, nickel and their compounds"],
+      "summary": "The Batteries Regulation's supply-chain due diligence duties now apply from 18 Aug 2027, after Regulation 2025/1561 moved them back from 18 Aug 2025 and pushed the Commission guidelines deadline to 26 Jul 2026. Annex X covers only cobalt, natural graphite, lithium and nickel, so tantalum and tin are not in scope, although the Commission can amend the list.",
+      "source_keys": ["eurlex_2025_1561", "eurlex_2023_1542"],
+      "status": "verified",
+      "correction": "Confirms the Aug 2027 date. Tantalum and tin are not in scope, so this regulation does not reach Rwanda's coltan or cassiterite trade. Those minerals fall under the EU Conflict Minerals Regulation (2017/821) instead. Whether the Commission's 26 Jul 2026 guidelines were issued was not checked."
+    }
+  ],
+  "denials": [
+    {
+      "date": "2026-03-02",
+      "respondent": "Government of Rwanda (Office of the Government Spokesperson)",
+      "summary": "Rwanda called the US sanctions on the RDF unjust and one-sided, said they distort the facts, and blamed DRC ceasefire violations, mercenaries, Wazalendo militias and the FDLR fighting alongside the Congolese army. It said the DRC had taken no steps on its Washington Accords commitment to end support for the FDLR, and that Rwanda would disengage its forces only in tandem with the DRC meeting its obligations.",
+      "source_keys": ["govrw_2026_03_02_statement"]
+    },
+    {
+      "date": "2026-10-28",
+      "respondent": "Government of Rwanda (spokesperson Yolande Makolo, as reported by Reuters)",
+      "summary": "Reuters reported that Rwanda denies backing the rebels (now styled Refoundation of the Nation, formerly AFC-M23). Makolo said the Washington Accords commitments on neutralising the FDLR remain unmet, and that Rwanda would implement the Accords alongside the DRC if the mediator holds all parties accountable.",
+      "source_keys": ["reuters_2026_10_28_mod_sanctions"]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "cc_rubaya_pareco",
+    "site_id": "site_rubaya",
+    "actor_id": "act_pareco",
+    "control_type": "controls",
+    "valid_from": "2022",
+    "valid_to": "2024-04-29",
+    "observed_date": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "paragraph_or_page": null,
+    "summary": "Treasury says PARECO-FF controlled Rubaya mining sites from 2022 until early 2024, when M23 took over.",
+    "notes": "End date set to the eve of the M23 takeover; Treasury says only 'early 2024'."
+  },
+  {
+    "id": "cc_rubaya_m23",
+    "site_id": "site_rubaya",
+    "actor_id": "act_m23",
+    "control_type": "controls",
+    "valid_from": "2024-04-30",
+    "valid_to": null,
+    "observed_date": "2024-12",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 para 56",
+    "summary": "UN Group of Experts: AFC/M23 has occupied Rubaya town and the whole surrounding mining area since 30 April 2024.",
+    "notes": ""
+  },
+  {
+    "id": "cc_rubaya_m23_tax",
+    "site_id": "site_rubaya",
+    "actor_id": "act_m23",
+    "control_type": "taxes",
+    "valid_from": "2024-05",
+    "valid_to": null,
+    "observed_date": "2024-10",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 paras 65–66",
+    "summary": "UN Group of Experts: M23 taxed Rubaya coltan at $7/kg and cassiterite at $4/kg, collecting at least US$800,000 a month.",
+    "notes": ""
+  },
+  {
+    "id": "cc_rubaya_m23_routes",
+    "site_id": "site_rubaya",
+    "actor_id": "act_m23",
+    "control_type": "escorts_transport",
+    "valid_from": "2024-04-30",
+    "valid_to": null,
+    "observed_date": "2024-12",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 paras 57–58",
+    "summary": "UN Group of Experts: M23 controlled transport routes from Rubaya to Rwanda and ensured a monopoly on Rubaya coltan exports to Rwanda.",
+    "notes": ""
+  },
+  {
+    "id": "cc_mushaki_m23",
+    "site_id": "site_mushaki",
+    "actor_id": "act_m23",
+    "control_type": "controls",
+    "valid_from": null,
+    "valid_to": null,
+    "observed_date": "2024-12",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 para 57",
+    "summary": "UN Group of Experts: M23 controlled the Rubaya and Mushaki trading centres.",
+    "notes": "No separate start date given; shown from the report date (Dec 2024)."
+  },
+  {
+    "id": "cc_lomera_m23",
+    "site_id": "site_lomera",
+    "actor_id": "act_m23",
+    "control_type": "controls",
+    "valid_from": "2025-04",
+    "valid_to": null,
+    "observed_date": "2026-03",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "AFR 62/1454/2026, Lomera section",
+    "summary": "Amnesty: M23 forced the mining cooperatives out of Lomera in April–May 2025, then taxed miners and controlled the site, working with a company and Rwandan nationals.",
+    "notes": "Amnesty does not name a single operator; the operator is left unnamed."
+  },
+  {
+    "id": "cc_goma_m23",
+    "site_id": "site_goma",
+    "actor_id": "act_m23",
+    "control_type": "controls",
+    "valid_from": "2025-01",
+    "valid_to": null,
+    "observed_date": "2026-06",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "paragraph_or_page": null,
+    "summary": "Global Witness: since M23 took Goma, coltan often crosses into Rwanda openly at the Grande Barrière crossing in view of Rwandan border officials.",
+    "notes": ""
+  }
+]

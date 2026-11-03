@@ -1,0 +1,323 @@
+[
+  {
+    "id": "rel_rdf_supports_m23",
+    "from_actor": "act_rdf",
+    "to_actor": "act_m23",
+    "type": "supports",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0411"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "Treasury: RDF fought alongside, trained and equipped M23."
+  },
+  {
+    "id": "rel_rdf_part_of_mod",
+    "from_actor": "act_rdf",
+    "to_actor": "act_rw_mod",
+    "type": "part_of",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0668"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": ""
+  },
+  {
+    "id": "rel_mod_supports_rdf",
+    "from_actor": "act_rw_mod",
+    "to_actor": "act_rdf",
+    "type": "supports",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0668"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": ""
+  },
+  {
+    "id": "rel_zigama_supports_m23",
+    "from_actor": "act_zigama",
+    "to_actor": "act_m23",
+    "type": "supports",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0668"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "Treasury: moved tens of millions of dollars for M23/AFC; a branch enabled gold from M23-held areas to reach Kigali."
+  },
+  {
+    "id": "rel_gasabo_supports_m23",
+    "from_actor": "act_gasabo",
+    "to_actor": "act_m23",
+    "type": "supports",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": "linked_to ('Providing support to')",
+    "notes": ""
+  },
+  {
+    "id": "rel_kalima_directs_gasabo",
+    "from_actor": "act_kalima",
+    "to_actor": "act_gasabo",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": "legal_representative_of; board_member_of",
+    "notes": "Chairman."
+  },
+  {
+    "id": "rel_kayobotsi_directs_gasabo",
+    "from_actor": "act_kayobotsi",
+    "to_actor": "act_gasabo",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": "legal_representative_of; manager_of",
+    "notes": "General manager."
+  },
+  {
+    "id": "rel_kalima_owns_bugambira",
+    "from_actor": "act_kalima",
+    "to_actor": "act_bugambira",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": "shareholder_of",
+    "notes": "Treasury: Kalima-controlled."
+  },
+  {
+    "id": "rel_kalima_owns_wolfram",
+    "from_actor": "act_kalima",
+    "to_actor": "act_wolfram",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": "shareholder_of",
+    "notes": "Treasury: Kalima-controlled."
+  },
+  {
+    "id": "rel_kalima_owns_rwinkwavu",
+    "from_actor": "act_kalima",
+    "to_actor": "act_rwinkwavu",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": "shareholder_of",
+    "notes": "Treasury: Kalima-controlled."
+  },
+  {
+    "id": "rel_pareco_cdmc",
+    "from_actor": "act_cdmc",
+    "to_actor": "act_pareco",
+    "type": "supports",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "Treasury: CDMC sold minerals from PARECO-FF-controlled areas."
+  },
+  {
+    "id": "rel_eastrise_buys_cdmc",
+    "from_actor": "act_east_rise",
+    "to_actor": "act_cdmc",
+    "type": "buys_from",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": ""
+  },
+  {
+    "id": "rel_stardragon_buys_cdmc",
+    "from_actor": "act_star_dragon",
+    "to_actor": "act_cdmc",
+    "type": "buys_from",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": ""
+  },
+  {
+    "id": "rel_ulba_buys_eastrise",
+    "from_actor": "act_ulba",
+    "to_actor": "act_east_rise",
+    "type": "buys_from",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "Global Witness links Ulba to Rubaya coltan via East Rise. Ulba denies (see responses_to_claims)."
+  },
+  {
+    "id": "rel_trade_kanzamin_halcyon",
+    "from_actor": "act_kanzamin",
+    "to_actor": "act_halcyon",
+    "type": "ships_to",
+    "valid_from": "2023-10-04",
+    "valid_to": "2026-07-31",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "25 customs rows, HS 261590 (Sayari). Customs data shows who shipped to whom, not where the mineral was mined."
+  },
+  {
+    "id": "rel_trade_kanzamin_smr_be",
+    "from_actor": "act_kanzamin",
+    "to_actor": "act_smr_be",
+    "type": "ships_to",
+    "valid_from": "2023-07-24",
+    "valid_to": "2023-12-23",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "3 customs rows, HS 261590 (Sayari). Customs data shows who shipped to whom, not where the mineral was mined."
+  },
+  {
+    "id": "rel_trade_kanzamin_smr_hk",
+    "from_actor": "act_kanzamin",
+    "to_actor": "act_smr_hk",
+    "type": "ships_to",
+    "valid_from": "2024-11-23",
+    "valid_to": "2024-11-23",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "2 customs rows, HS 261590 (Sayari). Customs data shows who shipped to whom, not where the mineral was mined."
+  },
+  {
+    "id": "rel_trade_african_panther_traxys",
+    "from_actor": "act_african_panther",
+    "to_actor": "act_traxys",
+    "type": "ships_to",
+    "valid_from": "2023-03-22",
+    "valid_to": "2025-03-21",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "11 customs rows, HS 261590 (Sayari). Customs data shows who shipped to whom, not where the mineral was mined."
+  },
+  {
+    "id": "rel_trade_african_panther_halcyon",
+    "from_actor": "act_african_panther",
+    "to_actor": "act_halcyon",
+    "type": "ships_to",
+    "valid_from": "2024-11-30",
+    "valid_to": "2026-07-04",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "7 customs rows, HS 261590 (Sayari). Customs data shows who shipped to whom, not where the mineral was mined."
+  },
+  {
+    "id": "rel_trade_boss_mining_novacore",
+    "from_actor": "act_boss_mining",
+    "to_actor": "act_novacore",
+    "type": "ships_to",
+    "valid_from": "2023-02-28",
+    "valid_to": "2026-04-21",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "30 customs rows, HS 261590 (Sayari). Customs data shows who shipped to whom, not where the mineral was mined."
+  },
+  {
+    "id": "rel_trade_boss_mining_halcyon",
+    "from_actor": "act_boss_mining",
+    "to_actor": "act_halcyon",
+    "type": "ships_to",
+    "valid_from": "2025-04-11",
+    "valid_to": "2025-04-11",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "1 customs rows, HS 261590 (Sayari). Customs data shows who shipped to whom, not where the mineral was mined."
+  }
+]

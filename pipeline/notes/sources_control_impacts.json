@@ -1,0 +1,740 @@
+{
+  "run_date": "2026-11-02",
+  "sources": [
+    {
+      "key": "un_goe_s2024_969",
+      "title": "Midterm report of the Group of Experts on the Democratic Republic of the Congo (S/2024/969)",
+      "publisher": "UN Security Council, Group of Experts on the DRC",
+      "url": "https://docs.un.org/en/s/2024/969",
+      "published_date": "2024-12-27",
+      "type": "un_report",
+      "verified_by_extract": true,
+      "paragraph_or_page": "paras 56-58, 64-66; annex 29 (p.114)",
+      "notes": "Read via tavily_extract. Date of report confirmed on the UN 1533 reports page."
+    },
+    {
+      "key": "un_1533_reports_page",
+      "title": "Group of Experts reports list (1533 Committee)",
+      "publisher": "UN Security Council",
+      "url": "https://main.un.org/securitycouncil/en/sanctions/1533/panel-of-experts/expert-reports",
+      "published_date": null,
+      "type": "un_report",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Confirms report numbers and dates: S/2026/466 = 5 Jun 2026 (final); S/2025/858 = 30 Dec 2025; S/2025/446 = 3 Jul 2025; S/2024/969 = 27 Dec 2024. Some secondary sources date S/2026/466 to 11 Jun 2026; the UN list says 5 Jun 2026."
+    },
+    {
+      "key": "un_goe_s2026_466",
+      "title": "Final report of the Group of Experts on the Democratic Republic of the Congo (S/2026/466)",
+      "publisher": "UN Security Council, Group of Experts on the DRC",
+      "url": "https://docs.un.org/en/s/2026/466",
+      "published_date": "2026-06-05",
+      "type": "un_report",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "tavily_extract failed on docs.un.org and undocs.org for this symbol (fetch errors). Paragraph for the cassiterite figure not located. A secondary analysis (SMM) cites paras 213-225 for Rubaya, not checked."
+    },
+    {
+      "key": "itsci_statement_2026_07_10",
+      "title": "Statement: 3T mineral flows from the Great Lakes Region: distinguishing ITSCI-monitored supply chains from wider trade data in context of the UN Group of Experts' final report",
+      "publisher": "ITSCI",
+      "url": "https://www.itsci.org/2026/07/10/statement-3t-mineral-flows-from-the-great-lakes-region-distinguishing-itsci-monitored-supply-chains-from-wider-trade-data-in-context-of-the-un-group-of-experts-2025-final-report",
+      "published_date": "2026-07-10",
+      "type": "analysis",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Industry scheme (interested party). Quotes the UN GoE final report's figure for Rwanda's cassiterite exports (4,859 t to 7,700 t, +58%, 2025), sourced to the National Bank of Rwanda (NBR). ITSCI says its own recorded Rwandan cassiterite exports were 3,326 t in 2025, down 6% on 2024, and that ITSCI covered about 50% of official 3T exports in 2025."
+    },
+    {
+      "key": "gw_who_buys_coltan",
+      "title": "Who buys Rwanda's smuggled coltan? The global journey of conflict coltan from DRC to the world's electronics",
+      "publisher": "Global Witness",
+      "url": "https://globalwitness.org/en/campaigns/transition-minerals/who-buys-rwandas-smuggled-coltan-the-global-journey-of-conflict-coltan-from-drc-to-the-worlds-electronics",
+      "published_date": "2026-06-18",
+      "type": "ngo",
+      "verified_by_extract": true,
+      "paragraph_or_page": "web page (no paragraph numbers); sections 'Which companies are buying conflict coltan?', 'Coltan smuggle to Rwanda', smelter list, ITSCI section",
+      "notes": "The page shows 'Updated: 18 June 2026'; the original publication date was blank in the extract. Companies' denials are on the page (Halcyon, Ulba, Taniobis); record them in responses_to_claims."
+    },
+    {
+      "key": "amnesty_afr62_1454_2026",
+      "title": "DRC: 'We didn't come to play': M23 abuses at artisanal mines and the trafficking of gold and coltan to Rwanda (AFR 62/1454/2026)",
+      "publisher": "Amnesty International",
+      "url": "https://www.amnesty.org/en/wp-content/uploads/2026/09/AFR6214542026ENGLISH.pdf",
+      "published_date": "2026-09-20",
+      "type": "ngo",
+      "verified_by_extract": true,
+      "paragraph_or_page": "PDF pp. ~22 and ~28 (page numbers taken from footer text in the extract; check them in the PDF)",
+      "notes": "Date 20 Sep 2026 per Amnesty USA report page. Based on 26 interviews. Document index page: https://www.amnesty.org/en/documents/afr62/1454/2026/en"
+    },
+    {
+      "key": "amnesty_news_2026_09",
+      "title": "DRC: M23 fighters abused miners and trafficked gold and coltan to Rwanda",
+      "publisher": "Amnesty International",
+      "url": "https://www.amnesty.org/en/latest/news/2026/09/drc-m23-fighters-abused-miners-and-trafficked-gold-and-coltan-to-rwanda",
+      "published_date": null,
+      "type": "ngo",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "Search snippet only (lead). Press release for the briefing."
+    },
+    {
+      "key": "reuters_boss_mining_2025_07_03",
+      "title": "Major Rwandan coltan exporter bought smuggled Congolese minerals, UN report says",
+      "publisher": "Reuters",
+      "url": "https://www.reuters.com/world/africa/major-rwandan-coltan-exporter-bought-smuggled-congolese-minerals-un-report-says-2025-07-03",
+      "published_date": "2025-07-03",
+      "type": "media",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "tavily_extract failed twice on reuters.com. Extracting a syndicated copy was blocked (walled content). Details are from search snippets only: a confidential UN GoE report to the sanctions committee names Boss Mining Solution, and Reuters' analysis of 2024 customs records found Boss Mining exported at least 150 t of coltan worth $6.6m (6.5% of Rwanda's coltan exports, 6th-largest exporter). Not verified."
+    },
+    {
+      "key": "bbc_rubaya_2026_01",
+      "title": "DR Congo: More than 200 killed in mine collapse",
+      "publisher": "BBC News",
+      "url": "https://www.bbc.com/news/articles/cly381dvnvzo",
+      "published_date": "2026-01-30",
+      "type": "media",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Published date approximate (article covers the 28 Jan collapse and the governor's visit the following Friday). Gives >200 from the spokesman of the M23-appointed governor."
+    },
+    {
+      "key": "pnn_rubaya_2026_02",
+      "title": "Hundreds Killed in Rubaya Mine Collapse Amidst DRC's Mineral War",
+      "publisher": "Peace News Network (Anicet Kimonyo)",
+      "url": "https://peacenews.com/hundreds-killed-in-rubaya-mine-collapse-amidst-drcs-mineral-war-highlighting-urgent-need-for-peace-and-accountability",
+      "published_date": null,
+      "type": "media",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Published about one week after 28 Jan 2026 (exact date not captured). Site: Luwowo, Gasasa. M23-installed governor's spokesman: >200 provisional; a rescuer: >430 bodies recovered. Quotes the DRC government statement (condolences; 112-125 t of coltan extracted monthly, all to Rwanda)."
+    },
+    {
+      "key": "tv5_rubaya_2026_03_05",
+      "title": "La RD Congo évoque 'plus de 200 morts, dont 70 enfants mineurs' dans un éboulement à Rubaya",
+      "publisher": "TV5MONDE (with agencies)",
+      "url": "https://information.tv5monde.com/afrique/la-rd-congo-evoque-plus-de-200-morts-dont-70-enfants-mineurs-dans-un-eboulement-rubaya-2812341",
+      "published_date": "2026-03-05",
+      "type": "media",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Quotes a DRC Ministry of Mines communiqué of 4 Mar 2026 on the SECOND landslide (3 Mar 2026, Gasasa): >200 dead, ~70 minors. Recaps 28 Jan: local authorities said 200; Masisi civil society said nearer 400."
+    },
+    {
+      "key": "mongabay_rubaya_2026_03",
+      "title": "RDC : Plus de 200 morts et des disparus dans un nouvel éboulement minier à Rubaya",
+      "publisher": "Mongabay (French)",
+      "url": "https://fr.mongabay.com/short-article/rdc-des-morts-et-des-disparus-dans-un-nouvel-eboulement-minier-a-rubaya",
+      "published_date": null,
+      "type": "media",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Published early Mar 2026. DRC Mines Minister Louis Watum Kabamba: >200 dead, including children, in the 3 Mar 2026 collapse (Kasasa site). States the 28 Jan collapse killed >200 according to M23 authorities."
+    },
+    {
+      "key": "eos_landslideblog_rubaya",
+      "title": "The 28 January 2026 landslide at the Rubaya coltan mine complex in the Democratic Republic of Congo",
+      "publisher": "Eos / AGU Landslide Blog (Dave Petley)",
+      "url": "https://eos.org/thelandslideblog/the-28-january-2026-landslide-at-the-rubaya-coltan-mine-complex-in-the-democratic-republic-of-congo",
+      "published_date": null,
+      "type": "analysis",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Secondary: cites Discovery Alert for 'at least 227 killed, 20 injured' and gives the approximate landslide location as -1.55938, 28.88349. Notes an earlier landslide on 19 Jun 2025 with >300 reported dead."
+    },
+    {
+      "key": "guardian_reuters_rubaya_227",
+      "title": "More than 200 killed in coltan mine collapse in eastern DRC, officials say",
+      "publisher": "The Guardian (Reuters/AP copy)",
+      "url": "https://www.theguardian.com/world/2026/jan/30/more-than-200-killed-in-coltan-mine-collapse-in-eastern-drc-officials-say",
+      "published_date": "2026-01-30",
+      "type": "media",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "Extract failed. Search snippet: an adviser to the (M23-appointed) governor, speaking anonymously, said confirmed dead were at least 227. Same wording in a Reuters snippet (reuters.com/.../2026-01-30). This is the origin of the 227 figure; not verified by extract."
+    },
+    {
+      "key": "opensanctions_gasabo",
+      "title": "Gasabo Gold Refinery LTD - OpenSanctions entity (incl. EU listing text)",
+      "publisher": "OpenSanctions (aggregating EU FSF / Council of the EU, OFAC)",
+      "url": "https://www.opensanctions.org/entities/NK-nVeADWekmWgoep8caL49tx",
+      "published_date": null,
+      "type": "dataset",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Carries the EU statement of reasons (French): began refining 1 Jun 2022 after Aldango Gold Refinery closed; Rwanda's only gold refinery. EU listing 17 Mar 2025. Incorporation 26 May 2022 (company no. 120323055). For citation, prefer the Official Journal entry; OpenSanctions is an aggregator."
+    },
+    {
+      "key": "treasury_sb0543",
+      "title": "Treasury Sanctions Rwandan Gold Refinery and Network Enabling Illicit Conflict Minerals Trade (sb0543)",
+      "publisher": "US Department of the Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/sb0543",
+      "published_date": "2026-06-25",
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "RDF/M23 move gold from South Kivu M23-held areas to Rusizi District (opposite Bukavu), then to Gasabo in Kigali by ground or air; at least 60 kg in early 2026. Says nothing about export destinations (UAE)."
+    },
+    {
+      "key": "rwanda_embassy_uae_coop",
+      "title": "UAE Cooperation",
+      "publisher": "Embassy of the Republic of Rwanda in the UAE (gov.rw)",
+      "url": "https://www.rwandainuae.gov.rw/cooperation/uae-cooperation",
+      "published_date": null,
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "UAE is Rwanda's leading trade partner; main exports to the UAE include gold, coltan and horticulture. No gold-specific volumes."
+    },
+    {
+      "key": "rwanda_embassy_uae_exports_2024",
+      "title": "Rwanda's exports to the United Arab Emirates surpass $1.5 billion",
+      "publisher": "Embassy of the Republic of Rwanda in the UAE (citing RDB 2024 report via The New Times)",
+      "url": "https://www.rwandainuae.gov.rw/actualites/info-details/rwandas-exports-to-the-united-arab-emirates-surpass-15-billion",
+      "published_date": null,
+      "type": "government",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "UAE took 63.9% of Rwanda's formal goods exports in 2024 (US$1.55bn), up from 56.9% in 2023. Not broken down by commodity."
+    },
+    {
+      "key": "oec_rwanda_gold",
+      "title": "Gold in Rwanda trade",
+      "publisher": "OEC (Observatory of Economic Complexity)",
+      "url": "https://oec.world/en/profile/bilateral-product/gold/reporter/rwa",
+      "published_date": null,
+      "type": "dataset",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "Lead only (extract failed). Snippet: in 2023 the main destination of Rwanda's gold exports was the UAE ($885M), and $885M of $895M of Rwanda's exports to the UAE was gold. Confirm with UN Comtrade HS 7108 before use."
+    },
+    {
+      "key": "ipis_open_data",
+      "title": "IPIS Open Data",
+      "publisher": "IPIS (International Peace Information Service)",
+      "url": "https://ipisresearch.be/home/maps-data/open-data",
+      "published_date": null,
+      "type": "dataset",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Licence ODC-BY 1.0. Page says IPIS is migrating database providers and the old geoserver is offline; datasets are available via direct downloads after a short form (https://forms.gle/AgXordRaNDuHyWHB8). Formats: CSV and GeoJSON recommended, Shapefile possible, JSON for tabular layers. WFS endpoint geo.ipisresearch.be timed out on 2026-11-02."
+    },
+    {
+      "key": "ipis_m23_aoi",
+      "title": "Mapping the M23's territorial influence in eastern DRC",
+      "publisher": "IPIS",
+      "url": "https://ipisresearch.be/home/maps-data/maps-of-drc/mapping-the-m23s-territorial-influence-in-eastern-drc",
+      "published_date": null,
+      "type": "dataset",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Area of influence built from ACLED plus media. Latest asset is an animated map covering Jan-May 2026 (uploaded 2026/06). AOI shapefiles exist internally (scale 1:1,500,000, ±10 km), but no public download link is shown. IPIS warns they must not be used to decide whether a specific village or mine is under M23 control."
+    },
+    {
+      "key": "openafrica_ipis_mines",
+      "title": "Artisanal mining site visits in Eastern DRC",
+      "publisher": "openAFRICA (IPIS dataset mirror)",
+      "url": "https://open.africa/es_AR/dataset/artisanal-mining-site-visits-in-eastern-drc",
+      "published_date": "2019-02-07",
+      "type": "dataset",
+      "verified_by_extract": true,
+      "paragraph_or_page": null,
+      "notes": "Stale mirror (last updated 2019-02-07; data up to Dec 2017); lists CC-BY. GeoJSON resource points at the IPIS geoserver WFS (layer public:cod_mines_curated_all_opendata_p_ipis), currently offline."
+    },
+    {
+      "key": "osm_nominatim",
+      "title": "OpenStreetMap Nominatim gazetteer",
+      "publisher": "OpenStreetMap contributors (ODbL 1.0)",
+      "url": "https://nominatim.openstreetmap.org",
+      "published_date": "2026-11-02",
+      "type": "dataset",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "Queried directly via the API on 2026-11-02 (not Tavily). OSM IDs are recorded per coordinate. Attribution: © OpenStreetMap contributors, ODbL."
+    },
+    {
+      "key": "wikipedia_rubaya_collapses",
+      "title": "2026 Rubaya mines collapses",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_Rubaya_mines_collapses",
+      "published_date": null,
+      "type": "analysis",
+      "verified_by_extract": false,
+      "paragraph_or_page": null,
+      "notes": "Lead only. Says the 227 figure came from an anonymous DRC official and was unconfirmed; >400 by 2 Feb; total 600+ across both events. Mine coordinates -1.567, 28.887. Do not cite as a primary source."
+    }
+  ],
+  "claims": [
+    {
+      "item": 1,
+      "layer": "control",
+      "claim": "AFC/M23 has occupied and controlled Rubaya town and the whole surrounding mining area since 30 April 2024.",
+      "value": "2024-04-30",
+      "unit": "date",
+      "date_or_period": "2024-04-30 onward (as of report, Dec 2024)",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "un_goe_s2024_969"
+      ],
+      "paragraph_or_page": "S/2024/969 para 56 (citing S/2024/432 para 138)",
+      "status": "verified",
+      "correction": null
+    },
+    {
+      "item": 1,
+      "layer": "control",
+      "claim": "ITSCI suspended all tagging in Masisi territory again on 8 May 2024, after a brief limited resumption in April 2024.",
+      "value": "2024-05-08",
+      "unit": "date",
+      "date_or_period": "2024-05",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "un_goe_s2024_969"
+      ],
+      "paragraph_or_page": "S/2024/969 para 56; annex 28",
+      "status": "verified",
+      "correction": null
+    },
+    {
+      "item": 2,
+      "layer": "control",
+      "claim": "AFC/M23 controlled the trading centres in Rubaya and Mushaki and the mineral transport routes from Rubaya to Rwanda, where Rubaya minerals were mixed with Rwandan production.",
+      "value": null,
+      "unit": null,
+      "date_or_period": "2024 (from 30 Apr 2024; report dated 27 Dec 2024)",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "un_goe_s2024_969"
+      ],
+      "paragraph_or_page": "S/2024/969 para 57",
+      "status": "verified",
+      "correction": "The source gives no separate 'since' date for Mushaki. Use the Rubaya takeover period (from 30 Apr 2024) and record valid_from as 2024 with the paragraph cited."
+    },
+    {
+      "item": 2,
+      "layer": "control",
+      "claim": "The Group calls this the most significant contamination of 3T supply chains in the Great Lakes region in the past decade, and says M23 ensured a monopoly on Rubaya coltan exports to Rwanda.",
+      "value": null,
+      "unit": null,
+      "date_or_period": "2024",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "un_goe_s2024_969"
+      ],
+      "paragraph_or_page": "S/2024/969 paras 57-58",
+      "status": "verified",
+      "correction": "The UN wording is 'most significant contamination ... recorded in the Great Lakes region over the past decade'. Global Witness paraphrases it as 'largest contamination of mineral supply chains'."
+    },
+    {
+      "item": 3,
+      "layer": "control",
+      "claim": "At Lomera (gold, Kabare territory, South Kivu), M23 forced the Congolese mining cooperatives out in April-May 2025. M23 then taxed miners and controlled the site, working with a company and Rwandan nationals whose security guards beat miners. Gold-bearing sand was shipped by boat towards Kamembe (Rusizi), Rwanda.",
+      "value": null,
+      "unit": null,
+      "date_or_period": "Apr-May 2025 onward; testimony to Mar 2026",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "amnesty_afr62_1454_2026"
+      ],
+      "paragraph_or_page": "Amnesty AFR 62/1454/2026, pp. ~22 and ~28 and the section on Lomera",
+      "status": "corrected",
+      "correction": "Amnesty describes a company that 'collaborates with M23' and Rwandans who collaborate with M23 at Lomera. In the extracted text it does not name a single 'M23-linked operator'. Use 'M23-controlled, with collaborating company/security guards'. Operator name: null."
+    },
+    {
+      "item": 3,
+      "layer": "impact",
+      "claim": "Amnesty documented summary killings, torture and ill-treatment, arbitrary detention, forced labour, forced recruitment and pillage by M23 at Rubaya and Lomera. Miners were made to work underground for over a week at a time, sleeping about two hours a night on minimal food.",
+      "value": null,
+      "unit": null,
+      "date_or_period": "2025-2026",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "amnesty_afr62_1454_2026"
+      ],
+      "paragraph_or_page": "Amnesty AFR 62/1454/2026 summary and p. ~22",
+      "status": "verified",
+      "correction": "The extracted text did not confirm child labour at Rubaya. For children among the dead, see the 3 Mar 2026 landslide entry (DRC Ministry of Mines: ~70 minors)."
+    },
+    {
+      "item": 4,
+      "layer": "impact",
+      "claim": "AFC/M23 collected at least US$800,000 a month from taxing coltan production and trade in Rubaya. The tax was $7/kg on coltan and manganese and $4/kg on cassiterite.",
+      "value": 800000,
+      "unit": "USD per month (minimum)",
+      "date_or_period": "mid-May to late Oct 2024",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "un_goe_s2024_969",
+        "gw_who_buys_coltan"
+      ],
+      "paragraph_or_page": "S/2024/969 paras 65-66",
+      "status": "verified",
+      "correction": null
+    },
+    {
+      "item": 4,
+      "layer": "impact",
+      "claim": "Volume of Rubaya coltan under M23 control or smuggled to Rwanda.",
+      "value": "~120 t/month traded and transported (para 64); 150 t/month smuggled to Rwanda (annex 29)",
+      "unit": "tonnes per month",
+      "date_or_period": "mid-May to late Oct 2024",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "un_goe_s2024_969",
+        "gw_who_buys_coltan"
+      ],
+      "paragraph_or_page": "S/2024/969 para 64; annex 29 (p.114)",
+      "status": "corrected",
+      "correction": "'≥150 t smuggled to Rwanda in 2024' is wrong: the report gives MONTHLY figures. Para 64 says M23 controlled the trade and transport of about 120 t of coltan a month. Annex 29 refers to 150 t smuggled monthly from Rubaya to Rwanda and says M23 produced at least 150 t a month. Store both monthly figures with their paragraphs. Global Witness uses '>120 t/month' and estimates at least 1,400 t smuggled within a year of the takeover."
+    },
+    {
+      "item": 5,
+      "layer": "impact",
+      "claim": "Rwanda's cassiterite exports rose 58% in 2025, from 4,859 t to 7,700 t, without matching increases reported by its main producer or tin refinery.",
+      "value": {
+        "2024": 4859,
+        "2025": 7700,
+        "pct_change": 58
+      },
+      "unit": "tonnes",
+      "date_or_period": "2024 vs 2025",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "un_goe_s2026_466",
+        "itsci_statement_2026_07_10"
+      ],
+      "paragraph_or_page": null,
+      "status": "unverified",
+      "correction": "I could not open the UN report itself (S/2026/466 fetch failed). ITSCI (extracted) quotes the same figures from the UN final report and says they come from National Bank of Rwanda data. Keep VERIFY until the paragraph is located. Note that 7,700/4,859 is +58.5%. ITSCI's own records show Rwandan cassiterite exports of 3,326 t in 2025, down 6%."
+    },
+    {
+      "item": 6,
+      "layer": "impact",
+      "claim": "Rubaya landslide, 28 Jan 2026 (Luwowo/Gasasa site): death toll.",
+      "value": [
+        {
+          "count": ">200",
+          "source": "Lumumba Kambere Muyisa, spokesman for M23-appointed North Kivu governor",
+          "source_key": "bbc_rubaya_2026_01"
+        },
+        {
+          "count": "≥227 confirmed",
+          "source": "adviser to the M23-appointed governor, anonymous (Reuters/Guardian); Wikipedia calls it an unconfirmed DRC official",
+          "source_key": "guardian_reuters_rubaya_227"
+        },
+        {
+          "count": ">430 bodies recovered",
+          "source": "anonymous rescuer to PNN",
+          "source_key": "pnn_rubaya_2026_02"
+        },
+        {
+          "count": "~400",
+          "source": "Masisi civil society, per TV5MONDE",
+          "source_key": "tv5_rubaya_2026_03_05"
+        }
+      ],
+      "unit": "deaths",
+      "date_or_period": "2026-01-28",
+      "evidence_tier": "reported",
+      "source_keys": [
+        "bbc_rubaya_2026_01",
+        "pnn_rubaya_2026_02",
+        "tv5_rubaya_2026_03_05",
+        "guardian_reuters_rubaya_227",
+        "eos_landslideblog_rubaya"
+      ],
+      "paragraph_or_page": null,
+      "status": "conflicting",
+      "correction": "Do not present 227 as a DRC-government figure. It came from an anonymous adviser to the M23-appointed governor and was not verified by extract. In the extracted coverage, the DRC government statement on the January event gave condolences but no count. Show it as a range: >200 (M23 authorities) to >400 (civil society and rescuers)."
+    },
+    {
+      "item": 6,
+      "layer": "impact",
+      "claim": "A second Rubaya landslide on 3 Mar 2026 (Gasasa/Kasasa site): DRC Ministry of Mines communiqué of 4 Mar reported >200 dead, about 70 of them children.",
+      "value": ">200 (incl. ~70 minors)",
+      "unit": "deaths",
+      "date_or_period": "2026-03-03",
+      "evidence_tier": "reported",
+      "source_keys": [
+        "tv5_rubaya_2026_03_05",
+        "mongabay_rubaya_2026_03"
+      ],
+      "paragraph_or_page": null,
+      "status": "verified",
+      "correction": "This is a separate event from 28 Jan. Some reports (e.g. the Wikipedia 600+ total) combine the two. The DRC government count (Ministry of Mines / Minister Louis Watum Kabamba) applies to the March event."
+    },
+    {
+      "item": 7,
+      "layer": "supply_chain",
+      "claim": "Global Witness found direct evidence that at least five of the seven largest Rwandan coltan exporters bought conflict coltan from Rubaya: African Panther Resources, Sunrise Metal Company, Boss Mining Solution, Kanzamin and Philbert Trading Minerals. Smaller exporters Space Mining and Rani Mining also did. The seven largest exporters were the direct buyers of almost 80% of Rwanda's coltan exports from 2023 to Sep 2025.",
+      "value": [
+        "African Panther Resources",
+        "Sunrise Metal Company",
+        "Boss Mining Solution",
+        "Kanzamin",
+        "Philbert Trading Minerals",
+        "Space Mining",
+        "Rani Mining"
+      ],
+      "unit": "companies",
+      "date_or_period": "2023 to Sep 2025",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "gw_who_buys_coltan"
+      ],
+      "paragraph_or_page": "section 'Which companies are buying conflict coltan?'",
+      "status": "verified",
+      "correction": null
+    },
+    {
+      "item": 7,
+      "layer": "supply_chain",
+      "claim": "Global Witness names eight smelters that processed the bulk of Rwanda's coltan exports from 2023 to Sep 2025: Ningxia Orient Tantalum (OTIC), Jiujiang Jinxin, Jiujiang Tanbre, Jiujiang Zhongao, Ximei Resources (Guangdong), Hengyang King Xing Lifeng (China), Ulba Metallurgical Plant (Kazakhstan) and Taniobis (Thailand). At least four are likely to have processed Rubaya conflict coltan: Tanbre, OTIC, Jinxin ('may have') and Ulba (via East Rise).",
+      "value": [
+        "Ningxia Orient Tantalum Industry Co.",
+        "Jiujiang Jinxin Nonferrous Metals Co.",
+        "Jiujiang Tanbre Co.",
+        "Jiujiang Zhongao Tantalum & Niobium Co.",
+        "Ximei Resources (Guangdong) Ltd",
+        "Hengyang King Xing Lifeng New Materials Co.",
+        "Ulba Metallurgical Plant",
+        "Taniobis (Thailand)"
+      ],
+      "unit": "smelters",
+      "date_or_period": "2023 to Sep 2025",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "gw_who_buys_coltan"
+      ],
+      "paragraph_or_page": "smelter section",
+      "status": "corrected",
+      "correction": "RWANDA_CASE.md lists all eight as if each were linked to conflict coltan. Global Witness says all eight processed the bulk of Rwandan coltan and all were found compliant. Only four are linked to Rubaya conflict coltan, with varying certainty. Record denials: Taniobis says it stopped DRC/Rwanda sourcing at the end of 2023; Ulba says it stopped buying from the region in May 2024 and denies a conflict link."
+    },
+    {
+      "item": 7,
+      "layer": "supply_chain",
+      "claim": "ITSCI has suspended or expelled six coltan exporters since 2024. Three of the exporters Global Witness links to conflict coltan have since been suspended, and in early 2026 three more were under review. Space Mining and Philbert Trading Minerals (former ITSCI members) sourced conflict coltan while working with Better Mining.",
+      "value": 6,
+      "unit": "exporters suspended or expelled",
+      "date_or_period": "2024 to early 2026",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "gw_who_buys_coltan"
+      ],
+      "paragraph_or_page": "ITSCI / Better Mining section",
+      "status": "verified",
+      "correction": null
+    },
+    {
+      "item": 7,
+      "layer": "supply_chain",
+      "claim": "Since M23 took Goma, coltan often crosses into Rwanda openly through Goma's 'Grande barrière' crossing (to Gisenyi/Rubavu), in view of Rwandan border officials, whom Global Witness observed recording it. Coltan then leaves via Dar es Salaam or Mombasa.",
+      "value": null,
+      "unit": null,
+      "date_or_period": "since late Jan 2025 (M23 takeover of Goma)",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "gw_who_buys_coltan"
+      ],
+      "paragraph_or_page": "sections 'Coltan smuggle to Rwanda' and 'Crossing the border into Rwanda'",
+      "status": "verified",
+      "correction": null
+    },
+    {
+      "item": 8,
+      "layer": "supply_chain",
+      "claim": "Reuters (3 Jul 2025): a confidential UN GoE report names Boss Mining Solution as buying minerals smuggled from M23-held areas. Reuters' customs analysis found it exported at least 150 t of coltan worth $6.6m in 2024 (6.5% of Rwanda's coltan exports; 6th-largest exporter).",
+      "value": {
+        "tonnes_2024": 150,
+        "usd_2024": 6600000,
+        "share_pct": 6.5
+      },
+      "unit": "t / USD / %",
+      "date_or_period": "2024 (report 3 Jul 2025)",
+      "evidence_tier": "reported",
+      "source_keys": [
+        "reuters_boss_mining_2025_07_03",
+        "gw_who_buys_coltan"
+      ],
+      "paragraph_or_page": null,
+      "status": "unverified",
+      "correction": "Reuters could not be extracted (fetch failure; syndicated copy blocked). Figures are from search snippets only. Global Witness (verified) independently lists Boss Mining Solution among the exporters with evidence of buying Rubaya coltan."
+    },
+    {
+      "item": 9,
+      "layer": "supply_chain",
+      "claim": "Gasabo Gold Refinery (Kigali) began refining on 1 June 2022 after the Aldango Gold Refinery closed. It is Rwanda's only gold refinery. Incorporated 26 May 2022.",
+      "value": "2022-06-01",
+      "unit": "date",
+      "date_or_period": "2022-06-01",
+      "evidence_tier": "designated",
+      "source_keys": [
+        "opensanctions_gasabo"
+      ],
+      "paragraph_or_page": "EU listing statement of reasons (as carried by OpenSanctions)",
+      "status": "verified",
+      "correction": "Cite the EU Official Journal (Council listing of 17 Mar 2025) as the primary source. OpenSanctions was used to read it."
+    },
+    {
+      "item": 9,
+      "layer": "supply_chain",
+      "claim": "Treasury says RDF and M23 escort gold from M23-held South Kivu areas to Rusizi District (opposite Bukavu), then to Gasabo in Kigali, with at least 60 kg in early 2026.",
+      "value": 60,
+      "unit": "kg (minimum, early 2026)",
+      "date_or_period": "early 2026",
+      "evidence_tier": "designated",
+      "source_keys": [
+        "treasury_sb0543"
+      ],
+      "paragraph_or_page": null,
+      "status": "verified",
+      "correction": null
+    },
+    {
+      "item": 9,
+      "layer": "supply_chain",
+      "claim": "The UAE is a major destination for Rwandan gold exports.",
+      "value": "UAE = 63.9% of Rwanda's formal goods exports in 2024; gold is a main export to the UAE",
+      "unit": null,
+      "date_or_period": "2023-2024",
+      "evidence_tier": "reported",
+      "source_keys": [
+        "rwanda_embassy_uae_coop",
+        "rwanda_embassy_uae_exports_2024",
+        "oec_rwanda_gold"
+      ],
+      "paragraph_or_page": null,
+      "status": "verified",
+      "correction": "Verified qualitatively from Rwandan government (embassy) pages: the UAE is Rwanda's largest export market and gold is a main export to it. I could not verify a gold-specific value or share (the OEC snippet of $885M in 2023 was not extracted). Pull UN Comtrade HS 7108 (Rwanda to ARE, and the ARE mirror) before showing a number. This is official trade, not evidence that the gold is Gasabo or conflict gold."
+    },
+    {
+      "item": 10,
+      "layer": "control",
+      "claim": "IPIS maps M23's area of influence from ACLED and media data. The latest published maps run to May 2026. IPIS cautions the polygons (±10 km) must not be used to judge control of specific mines or villages.",
+      "value": null,
+      "unit": null,
+      "date_or_period": "2024 to May 2026",
+      "evidence_tier": "documented",
+      "source_keys": [
+        "ipis_m23_aoi"
+      ],
+      "paragraph_or_page": null,
+      "status": "verified",
+      "correction": "DATA_SOURCES.md is right that the polygons are not a public download; request the shapefiles from IPIS (mapping@ipisresearch.be). The 'hardly any mining sites until Rubaya' and '~7,800 km² by late Jan 2025' points were not checked here."
+    }
+  ],
+  "coordinates": [
+    {
+      "place": "Rubaya (town)",
+      "lat": -1.5472,
+      "lon": 28.8743,
+      "source_key": "osm_nominatim",
+      "precision": "town",
+      "notes": "OSM node 1158948305. The IPIS geoserver was offline, so no IPIS site coordinate. Wikipedia gives the mine at -1.567, 28.887 (lead only)."
+    },
+    {
+      "place": "Rubaya mine complex (28 Jan 2026 landslide, approx.)",
+      "lat": -1.5594,
+      "lon": 28.8835,
+      "source_key": "eos_landslideblog_rubaya",
+      "precision": "approx",
+      "notes": "Approximate location of the landslide given by Dave Petley (Eos)."
+    },
+    {
+      "place": "Mushaki",
+      "lat": -1.5301,
+      "lon": 28.98,
+      "source_key": "osm_nominatim",
+      "precision": "town",
+      "notes": "OSM node 1158947912."
+    },
+    {
+      "place": "Lomera",
+      "lat": null,
+      "lon": null,
+      "source_key": null,
+      "precision": "approx",
+      "notes": "Not in OSM Nominatim. No coordinates found in extracted sources (MSF/ReliefWeb: lakeside village in South Kivu; Amnesty: Kabare territory; boats leave for Kamembe). Get it from the IPIS ASM dataset once downloaded. Left null."
+    },
+    {
+      "place": "Goma",
+      "lat": -1.6666,
+      "lon": 29.2257,
+      "source_key": "osm_nominatim",
+      "precision": "town",
+      "notes": "OSM relation 5327779 (admin centroid)."
+    },
+    {
+      "place": "Gisenyi / Rubavu",
+      "lat": -1.6935,
+      "lon": 29.2599,
+      "source_key": "osm_nominatim",
+      "precision": "town",
+      "notes": "OSM node 271317488."
+    },
+    {
+      "place": "Bukavu",
+      "lat": -2.5056,
+      "lon": 28.8595,
+      "source_key": "osm_nominatim",
+      "precision": "town",
+      "notes": "OSM relation 5327777 (admin centroid)."
+    },
+    {
+      "place": "Rusizi (Kamembe)",
+      "lat": -2.4868,
+      "lon": 28.9086,
+      "source_key": "osm_nominatim",
+      "precision": "town",
+      "notes": "OSM relation 1744268 (Kamembe sector centroid)."
+    },
+    {
+      "place": "Gasabo Gold Refinery, Kigali Special Economic Zone",
+      "lat": -1.9438,
+      "lon": 30.1652,
+      "source_key": "osm_nominatim",
+      "precision": "site",
+      "notes": "OSM way 1253458372, tagged 'Gasabo Gold Refinery', Free Trade Zone, Gasabo District."
+    },
+    {
+      "place": "Dar es Salaam port (Kurasini ward centroid)",
+      "lat": -6.8497,
+      "lon": 39.2842,
+      "source_key": "osm_nominatim",
+      "precision": "approx",
+      "notes": "OSM relation 6000987. The port terminal itself was not resolved (Overpass was at capacity); the Kurasini ward contains the port. About 1-2 km accuracy."
+    },
+    {
+      "place": "Mombasa port (Kilindini Harbour)",
+      "lat": -4.0656,
+      "lon": 39.5826,
+      "source_key": "osm_nominatim",
+      "precision": "approx",
+      "notes": "OSM relation 7827849 (harbour water-body centroid); the container terminals are on the north/west shore, within about 2 km."
+    }
+  ],
+  "ipis": {
+    "portal_url": "https://ipisresearch.be/home/maps-data/open-data",
+    "dataset_urls": {
+      "download_form": "https://forms.gle/AgXordRaNDuHyWHB8",
+      "dashboard": "https://ipisresearch.be/publication/ipis-open-data-dashboard-on-the-artisanal-and-small-scale-mining-sector-in-eastern-drc/",
+      "webmap": "https://www.ipisresearch.be/mapping/webmapping/drcongo/v6/",
+      "wfs_legacy": "http://geo.ipisresearch.be/geoserver/wfs?",
+      "wfs_layer_legacy": "public:cod_mines_curated_all_opendata_p_ipis",
+      "m23_aoi_page": "https://ipisresearch.be/home/maps-data/maps-of-drc/mapping-the-m23s-territorial-influence-in-eastern-drc",
+      "openafrica_mirror": "https://open.africa/es_AR/dataset/artisanal-mining-site-visits-in-eastern-drc",
+      "dictionary": "https://ipisresearch.be/home/maps-data/open-data/open-data-faq-dictionary/"
+    },
+    "licence": "Open Data Commons Attribution License (ODC-BY) v1.0. Attribute IPIS. (The stale openAFRICA mirror lists CC-BY.)",
+    "latest_update": "ASM site data: downloads are live-linked to the IPIS database ('most up to date'); the 2023 update is the latest full analysis (not re-checked here). M23 AOI maps: latest animation covers Jan-May 2026 (uploaded June 2026). openAFRICA mirror: 2019-02-07 (stale).",
+    "download_formats": [
+      "CSV",
+      "GeoJSON",
+      "Shapefile",
+      "JSON (tabular layers)"
+    ],
+    "notes": "As of 2026-11-02 the open-data page says IPIS is migrating database provider and the old geoserver is offline; WFS GetCapabilities timed out. Downloads go via a short Google Form, then a download page with format dropdowns. IPIS recommends CSV or GeoJSON because Shapefile truncates column names and breaks accents. IPIS may hold new data back for up to 6 months after a report. M23 AOI polygons: IPIS refers to 'AOI shapefiles' but no public download link was found; request them from mapping@ipisresearch.be. IPIS says they are ±10 km at 1:1.5M scale and not valid for site-level control."
+  }
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "id": "site_rubaya",
+    "name": "Rubaya mining area",
+    "site_type": "mine",
+    "minerals": [
+      "coltan",
+      "tin"
+    ],
+    "lat": -1.5594,
+    "lon": 28.8835,
+    "admin_area": "Masisi, North Kivu",
+    "country": "COD",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_eos_landslideblog_rubaya",
+      "src_un_goe_s2024_969"
+    ],
+    "notes": "Approximate point (landslide location per Eos). Replace with IPIS site ids once the IPIS dataset is downloaded."
+  },
+  {
+    "id": "site_mushaki",
+    "name": "Mushaki",
+    "site_type": "trading_centre",
+    "minerals": [
+      "coltan"
+    ],
+    "lat": -1.5301,
+    "lon": 28.98,
+    "admin_area": "Masisi, North Kivu",
+    "country": "COD",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_osm_nominatim",
+      "src_un_goe_s2024_969"
+    ],
+    "notes": "Town-level point (OSM node 1158947912)."
+  },
+  {
+    "id": "site_lomera",
+    "name": "Lomera",
+    "site_type": "mine",
+    "minerals": [
+      "gold"
+    ],
+    "lat": null,
+    "lon": null,
+    "admin_area": "Kabare, South Kivu",
+    "country": "COD",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "notes": "No verified coordinates yet; take from the IPIS ASM dataset."
+  },
+  {
+    "id": "site_goma",
+    "name": "Goma — Grande Barrière crossing",
+    "site_type": "border",
+    "minerals": [],
+    "lat": -1.6666,
+    "lon": 29.2257,
+    "admin_area": "North Kivu",
+    "country": "COD",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_osm_nominatim",
+      "src_gw_who_buys_coltan"
+    ],
+    "notes": "Town-level point (OSM relation 5327779)."
+  },
+  {
+    "id": "site_gisenyi",
+    "name": "Gisenyi / Rubavu",
+    "site_type": "border",
+    "minerals": [],
+    "lat": -1.6935,
+    "lon": 29.2599,
+    "admin_area": "Western Province",
+    "country": "RWA",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_osm_nominatim",
+      "src_gw_who_buys_coltan"
+    ],
+    "notes": "Town-level point (OSM node 271317488)."
+  },
+  {
+    "id": "site_bukavu",
+    "name": "Bukavu",
+    "site_type": "town",
+    "minerals": [],
+    "lat": -2.5056,
+    "lon": 28.8595,
+    "admin_area": "South Kivu",
+    "country": "COD",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_osm_nominatim",
+      "src_treasury_sb0543"
+    ],
+    "notes": "Town-level point (OSM relation 5327777)."
+  },
+  {
+    "id": "site_kamembe",
+    "name": "Rusizi (Kamembe)",
+    "site_type": "border",
+    "minerals": [
+      "gold"
+    ],
+    "lat": -2.4868,
+    "lon": 28.9086,
+    "admin_area": "Rusizi District, Western Province",
+    "country": "RWA",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_osm_nominatim",
+      "src_treasury_sb0543",
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "notes": "Sector centroid (OSM relation 1744268)."
+  },
+  {
+    "id": "site_kigali_refinery",
+    "name": "Gasabo Gold Refinery (Kigali SEZ)",
+    "site_type": "refinery",
+    "minerals": [
+      "gold"
+    ],
+    "lat": -1.9438,
+    "lon": 30.1652,
+    "admin_area": "Gasabo District, Kigali",
+    "country": "RWA",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_osm_nominatim",
+      "src_treasury_sb0543"
+    ],
+    "notes": "Building footprint tagged in OSM (way 1253458372)."
+  },
+  {
+    "id": "site_dar",
+    "name": "Port of Dar es Salaam",
+    "site_type": "port",
+    "minerals": [],
+    "lat": -6.8497,
+    "lon": 39.2842,
+    "admin_area": "Dar es Salaam",
+    "country": "TZA",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_osm_nominatim",
+      "src_gw_who_buys_coltan"
+    ],
+    "notes": "Approximate (Kurasini ward centroid, ~1–2 km)."
+  },
+  {
+    "id": "site_mombasa",
+    "name": "Port of Mombasa",
+    "site_type": "port",
+    "minerals": [],
+    "lat": -4.0656,
+    "lon": 39.5826,
+    "admin_area": "Mombasa",
+    "country": "KEN",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_osm_nominatim",
+      "src_gw_who_buys_coltan"
+    ],
+    "notes": "Approximate (Kilindini Harbour centroid, ~2 km)."
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "case": "rwanda-drc",
+  "built": "2026-11-02",
+  "counts": {
+    "sources": 40,
+    "sites": 10,
+    "actors": 39,
+    "control_claims": 7,
+    "relationships": 21,
+    "flows": 18,
+    "impacts": 11,
+    "responses": 15,
+    "effectiveness": 15,
+    "responses_to_claims": 5,
+    "gaps": 13
+  },
+  "warnings": [
+    "sites[site_lomera]: no coordinates; will not appear on the map"
+  ]
+}

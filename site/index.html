@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ground Control — Rwanda / eastern DRC</title>
+  <meta name="description" content="Who controls the mine, where do its minerals go, and has anyone done anything about it — and did it work?">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1>Ground Control</h1>
+      <p class="tagline">Who controls the mine, where do its minerals go, what has been done about it — and did it work?</p>
+    </div>
+    <div class="case">Case: <strong>Rwanda / eastern DRC</strong> <span id="built" class="muted"></span></div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-view="map" aria-selected="true">Control map</button>
+      <button role="tab" data-view="responses" aria-selected="false">Responses</button>
+      <button role="tab" data-view="gaps" aria-selected="false">Gaps</button>
+      <button role="tab" data-view="sources" aria-selected="false">Sources</button>
+    </nav>
+  </header>
+
+  <section class="legend" aria-label="Evidence tiers">
+    <span class="legend-title">Evidence:</span>
+    <span class="tier tier-designated"><span class="tier-icon" aria-hidden="true">◆</span>Designated <small>by a government</small></span>
+    <span class="tier tier-documented"><span class="tier-icon" aria-hidden="true">■</span>Documented <small>UN / NGO evidence</small></span>
+    <span class="tier tier-reported"><span class="tier-icon" aria-hidden="true">●</span>Reported <small>media</small></span>
+    <span class="tier tier-inferred"><span class="tier-icon" aria-hidden="true">△</span>Inferred <small>our analysis</small></span>
+  </section>
+
+  <main>
+    <section id="view-map" class="view" role="tabpanel">
+      <div class="map-wrap">
+        <div id="map" aria-label="Map of mining sites and trade nodes"></div>
+        <aside id="panel" class="panel" aria-live="polite">
+          <p class="muted">Select a site on the map to see who controls it, since when, according to whom — and what has happened there.</p>
+        </aside>
+      </div>
+      <div class="slider">
+        <label for="when">Control as of <strong id="when-label"></strong></label>
+        <div class="slider-track">
+          <input id="when" type="range" min="0" max="0" step="1">
+          <div id="ticks" class="ticks" aria-hidden="true"></div>
+        </div>
+        <p class="muted small">Tick marks are regulatory responses. Controlled sites carry a ring; ring style shows evidence tier.</p>
+      </div>
+    </section>
+
+    <section id="view-responses" class="view" role="tabpanel" hidden>
+      <div class="filters">
+        <label><input type="checkbox" data-side="outside" checked> Outside the company (governments, multilaterals)</label>
+        <label><input type="checkbox" data-side="inside" checked> Inside the company / industry</label>
+      </div>
+      <div id="indicators" class="indicators"></div>
+      <ol id="timeline" class="timeline"></ol>
+    </section>
+
+    <section id="view-gaps" class="view" role="tabpanel" hidden>
+      <p class="lede">What we don't know. A visible gap beats a confident wrong answer.</p>
+      <div id="gaps"></div>
+    </section>
+
+    <section id="view-sources" class="view" role="tabpanel" hidden>
+      <ol id="sources" class="sources"></ol>
+    </section>
+  </main>
+
+  <footer class="foot">
+    Every claim is sourced and dated. Allegation ≠ fact: tiers show who is making each claim.
+    Denials by named parties appear beside the claim. Site data © IPIS (ODC). Ownership and trade links: Sayari — verify in Sayari Graph.
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

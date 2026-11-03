@@ -1,0 +1,179 @@
+[
+  {
+    "id": "imp_rubaya_revenue",
+    "type": "revenue_to_armed_group",
+    "site_id": "site_rubaya",
+    "actor_id": "act_m23",
+    "period": "May – Oct 2024",
+    "value": 800000,
+    "unit": "USD / month (minimum)",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 paras 65–66",
+    "summary": "minimum M23 revenue from taxing Rubaya coltan production and trade.",
+    "notes": ""
+  },
+  {
+    "id": "imp_rubaya_traded",
+    "type": "smuggled_volume",
+    "site_id": "site_rubaya",
+    "actor_id": "act_m23",
+    "period": "May – Oct 2024",
+    "value": 120,
+    "unit": "t / month",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 para 64",
+    "summary": "coltan traded and transported under M23 control.",
+    "notes": ""
+  },
+  {
+    "id": "imp_rubaya_smuggled",
+    "type": "smuggled_volume",
+    "site_id": "site_rubaya",
+    "actor_id": null,
+    "period": "May – Oct 2024",
+    "value": 150,
+    "unit": "t / month",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 annex 29",
+    "summary": "coltan smuggled from Rubaya to Rwanda.",
+    "notes": "Corrects RWANDA_CASE.md, which gave '≥150 t in 2024' — the UN figure is per month."
+  },
+  {
+    "id": "imp_abuses",
+    "type": "abuses",
+    "site_id": "site_rubaya",
+    "actor_id": "act_m23",
+    "period": "2025 – Mar 2026",
+    "value": null,
+    "unit": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "AFR 62/1454/2026",
+    "summary": "Amnesty documented killings, torture, arbitrary detention, forced labour, forced recruitment and pillage by M23 at Rubaya and Lomera; miners kept underground for over a week on minimal food.",
+    "notes": ""
+  },
+  {
+    "id": "imp_lomera_abuses",
+    "type": "abuses",
+    "site_id": "site_lomera",
+    "actor_id": "act_m23",
+    "period": "Apr 2025 – Mar 2026",
+    "value": null,
+    "unit": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "AFR 62/1454/2026",
+    "summary": "Amnesty documented forced labour, beatings by security guards and pillage at Lomera under M23 control.",
+    "notes": ""
+  },
+  {
+    "id": "imp_landslide_jan_bbc",
+    "type": "deaths",
+    "site_id": "site_rubaya",
+    "actor_id": null,
+    "period": "28 Jan 2026",
+    "value": 200,
+    "unit": "deaths (more than)",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_bbc_rubaya_2026_01"
+    ],
+    "paragraph_or_page": null,
+    "summary": "deaths in the 28 Jan 2026 Rubaya landslide, per the spokesman of the M23-appointed North Kivu governor.",
+    "notes": "Counts conflict (see sibling rows). The widely quoted '≥227' came from an anonymous adviser and its page could not be read; not shown."
+  },
+  {
+    "id": "imp_landslide_jan_cs",
+    "type": "deaths",
+    "site_id": "site_rubaya",
+    "actor_id": null,
+    "period": "28 Jan 2026",
+    "value": 400,
+    "unit": "deaths (about)",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_tv5_rubaya_2026_03_05"
+    ],
+    "paragraph_or_page": null,
+    "summary": "deaths in the 28 Jan 2026 landslide, per Masisi civil society.",
+    "notes": ""
+  },
+  {
+    "id": "imp_landslide_jan_rescuer",
+    "type": "deaths",
+    "site_id": "site_rubaya",
+    "actor_id": null,
+    "period": "28 Jan 2026",
+    "value": 430,
+    "unit": "bodies recovered (more than)",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_pnn_rubaya_2026_02"
+    ],
+    "paragraph_or_page": null,
+    "summary": "bodies recovered after the 28 Jan 2026 landslide, per an anonymous rescuer.",
+    "notes": ""
+  },
+  {
+    "id": "imp_landslide_mar",
+    "type": "deaths",
+    "site_id": "site_rubaya",
+    "actor_id": null,
+    "period": "3 Mar 2026",
+    "value": 200,
+    "unit": "deaths (more than; ~70 children)",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_tv5_rubaya_2026_03_05",
+      "src_mongabay_rubaya_2026_03"
+    ],
+    "paragraph_or_page": null,
+    "summary": "deaths in a second Rubaya landslide, per a DRC Ministry of Mines communiqué of 4 Mar 2026; about 70 were children.",
+    "notes": ""
+  },
+  {
+    "id": "imp_gasabo_gold",
+    "type": "smuggled_volume",
+    "site_id": "site_kigali_refinery",
+    "actor_id": "act_gasabo",
+    "period": "early 2026",
+    "value": 60,
+    "unit": "kg (at least)",
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0543"
+    ],
+    "paragraph_or_page": null,
+    "summary": "gold moved from RDF/M23-held South Kivu areas to Gasabo via Rusizi.",
+    "notes": ""
+  },
+  {
+    "id": "imp_cassiterite_gap",
+    "type": "laundering_gap",
+    "site_id": null,
+    "actor_id": null,
+    "period": "2024 → 2025",
+    "value": 58,
+    "unit": "% rise in Rwanda's cassiterite exports (4,859 t → 7,700 t)",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_itsci_statement_2026_07_10"
+    ],
+    "paragraph_or_page": null,
+    "summary": "rise in Rwanda's cassiterite exports in 2025 without matching increases reported by its main producer or tin refinery (UN Group of Experts, as quoted by ITSCI).",
+    "notes": "The UN report S/2026/466 itself could not be fetched; paragraph number not confirmed."
+  }
+]
