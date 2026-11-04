@@ -10,17 +10,13 @@
 </head>
 <body>
   <header class="top">
-    <div class="brand">
-      <h1>Ground Control</h1>
-      <p class="tagline">Who controls the mine, where do its minerals go, what has been done about it — and did it work?</p>
-    </div>
-    <div class="case">Case: <strong>Rwanda / eastern DRC</strong> <span id="built" class="muted"></span></div>
+    <a class="brand-mark" href="./" title="Ground Control: overview">Ground Control</a>
     <nav class="tabs" role="tablist">
       <button role="tab" data-view="home" aria-selected="true">Overview</button>
       <button role="tab" data-view="map" aria-selected="false">Control map</button>
       <button role="tab" data-view="chain" aria-selected="false">Supply chain</button>
       <button role="tab" data-view="search" aria-selected="false">Check a company</button>
-      <button role="tab" data-view="laundering" aria-selected="false">Export gap</button>
+      <button role="tab" data-view="laundering" aria-selected="false">Mineral balance</button>
       <button role="tab" data-view="responses" aria-selected="false">Responses</button>
       <button role="tab" data-view="gaps" aria-selected="false">What we don't know</button>
       <button role="tab" data-view="sources" aria-selected="false">Sources</button>
@@ -39,7 +35,7 @@
   <main>
     <section id="view-home" class="view home" role="tabpanel">
       <div class="hero">
-        <p class="eyebrow">Conflict minerals · eastern DR Congo and Rwanda</p>
+        <p class="eyebrow">Case: Rwanda and eastern DR Congo · <span id="built"></span></p>
         <h2>An armed group controls major coltan mines in eastern Congo. This tool follows what comes out of them.</h2>
         <p class="lede">Tantalum, tin and gold from eastern Congo end up in phones, laptops, cars and jewellery. Since 2024 the M23 armed group has seized mining areas there and taxed what they produce. UN investigators say much of that output is smuggled into neighbouring Rwanda and exported as Rwandan. Ground Control maps who controls each site, traces the minerals through traders, exporters and smelters, and checks whether sanctions and industry action have changed anything.</p>
         <div class="paths">
@@ -53,7 +49,7 @@
           </a>
           <a class="path" href="#view=laundering" data-goto="laundering">
             <span class="path-who">Following the numbers?</span>
-            <span class="path-what">Start with the export gap. Rwanda exports more minerals than it can plausibly mine; see by how much, and what the evidence says fills the difference.</span>
+            <span class="path-what">Start with the mineral balance: what Rwanda exports against what it can mine, what Congo stopped recording, and where the difference shipped.</span>
           </a>
         </div>
       </div>
@@ -94,19 +90,28 @@
             <button class="mc-toggle" type="button" aria-expanded="true" aria-controls="mc-body" title="Show or hide filters">Filters</button>
           </div>
           <div id="mc-body" class="mc-body">
-            <p class="mc-intro">Mining sites in eastern Congo and the route their minerals take into Rwanda and out to sea. Rings mark armed-group presence at the date below.</p>
+            <p class="mc-intro">Which mining sites an armed group held or was present at on the date below. Drag or play the timeline to see it change.</p>
             <label class="mc-search"><span class="sr-only">Find a site</span>
               <input id="site-search" type="search" placeholder="Find a site, e.g. Rubaya" autocomplete="off" list="site-list">
               <datalist id="site-list"></datalist>
             </label>
+            <div id="map-stats" class="mc-stats" aria-live="polite"></div>
+            <p class="small muted mc-hint">Click a row to hide or show those sites.</p>
+            <div class="mc-group">
+              <div class="mc-label">Colour sites by</div>
+              <div class="seg" id="color-by">
+                <button type="button" data-color="control" aria-pressed="true">Control</button>
+                <button type="button" data-color="mineral" aria-pressed="false">Mineral</button>
+              </div>
+            </div>
             <div class="mc-group">
               <div class="mc-label">Mineral</div>
               <div class="chips" id="mineral-chips"></div>
             </div>
             <div class="mc-group">
               <div class="mc-label">Show</div>
-              <label class="switch"><input type="checkbox" id="f-armed"> Only sites with armed presence</label>
-              <label class="switch"><input type="checkbox" id="f-ipis" checked> IPIS mining sites <span class="muted" id="ipis-count"></span></label>
+              <label class="switch"><input type="checkbox" id="f-recent"> Only sites visited in the last 4 years</label>
+              <label class="switch"><input type="checkbox" id="f-ipis" checked> Surveyed mining sites (IPIS) <span class="muted" id="ipis-count"></span></label>
               <label class="switch"><input type="checkbox" id="f-routes" checked> Mineral routes</label>
             </div>
             <div class="mc-group">
@@ -116,22 +121,14 @@
                 <button type="button" data-zoom="route">Route to the coast</button>
               </div>
             </div>
-            <div id="map-stats" class="mc-stats" aria-live="polite"></div>
-            <details class="mc-legend" open>
-              <summary>Legend</summary>
+            <details class="mc-legend">
+              <summary>How to read this map</summary>
               <ul class="key">
-                <li><i class="kdot" style="--c:var(--m1)"></i>Coltan</li>
-                <li><i class="kdot" style="--c:var(--m3)"></i>Tin or tungsten</li>
-                <li><i class="kdot" style="--c:var(--m2)"></i>Gold</li>
-                <li><i class="kdot" style="--c:var(--m0)"></i>Other / trade node</li>
-                <li><i class="kring"></i>Armed group present at last IPIS visit</li>
-                <li><i class="kdot" style="--c:var(--m0);opacity:.4"></i>Faded: armed presence not recorded</li>
-                <li><i class="kring designated"></i>Control: designated</li>
-                <li><i class="kring documented"></i>Control: documented</li>
-                <li><i class="kring reported"></i>Control: reported</li>
+                <li><i class="kring designated"></i>Ring on a labelled site: control claim (thicker = stronger evidence)</li>
+                <li><i class="kring reported"></i>Dashed ring: media-reported only</li>
                 <li><i class="kline"></i>Documented route &nbsp;<i class="kline inferred"></i>Inferred</li>
               </ul>
-              <p class="small muted">Larger labelled markers are key sites researched in depth. Small dots are IPIS-surveyed mining sites.</p>
+              <p class="small muted">Labelled markers are sites researched in depth. Dots are mining sites surveyed by IPIS. Fainter dots were last visited over four years before the selected date. A visit shows who was present that day, not who controls the site now.</p>
             </details>
           </div>
         </aside>
@@ -173,11 +170,12 @@
         <ul id="company-suggest" class="suggest" role="listbox" hidden></ul>
       </div>
       <div id="company-quick" class="quick"></div>
+      <div id="assess"></div>
       <div id="company-result"></div>
     </section>
 
     <section id="view-laundering" class="view" role="tabpanel" hidden>
-      <div class="view-intro"><h2>The export gap</h2><p>Since 2023 Rwanda has exported far more coltan than its own geology predicts. This view measures that gap, compares it with UN estimates of what comes out of M23-held Rubaya, and sets out what the evidence says fills it — and what Rwanda says.</p></div>
+      <div class="view-intro"><h2>The mineral balance</h2><p>What Rwanda exports against what it can mine, what Congo's Kivu provinces stopped recording, and where the difference went.</p></div>
       <div id="laundering"><p class="muted">Analysis in progress.</p></div>
     </section>
 

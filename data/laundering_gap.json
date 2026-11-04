@@ -21,7 +21,9 @@
       "source_ids": [
         "src_comtrade_preview",
         "src_un_goe_s2025_446"
-      ]
+      ],
+      "excess_best_t": 50,
+      "expected_best_t": 1593
     },
     {
       "year": 2019,
@@ -36,7 +38,9 @@
       "source_ids": [
         "src_comtrade_preview",
         "src_un_goe_s2025_446"
-      ]
+      ],
+      "excess_best_t": 95,
+      "expected_best_t": 1259
     },
     {
       "year": 2020,
@@ -51,7 +55,9 @@
       "source_ids": [
         "src_comtrade_preview",
         "src_un_goe_s2025_446"
-      ]
+      ],
+      "excess_best_t": 188,
+      "expected_best_t": 775
     },
     {
       "year": 2021,
@@ -66,7 +72,9 @@
       "source_ids": [
         "src_comtrade_preview",
         "src_un_goe_s2025_446"
-      ]
+      ],
+      "excess_best_t": 86,
+      "expected_best_t": 960
     },
     {
       "year": 2022,
@@ -81,7 +89,9 @@
       "source_ids": [
         "src_comtrade_preview",
         "src_un_goe_s2025_446"
-      ]
+      ],
+      "excess_best_t": 54,
+      "expected_best_t": 1251
     },
     {
       "year": 2023,
@@ -97,7 +107,9 @@
         "src_comtrade_preview",
         "src_un_goe_s2025_446",
         "src_usgs_myb_rwanda_2024"
-      ]
+      ],
+      "excess_best_t": 763,
+      "expected_best_t": 1307
     },
     {
       "year": 2024,
@@ -113,7 +125,9 @@
         "src_comtrade_preview",
         "src_un_goe_s2025_446",
         "src_usgs_myb_rwanda_2024"
-      ]
+      ],
+      "excess_best_t": 1044,
+      "expected_best_t": 1339
     },
     {
       "year": 2025,
@@ -128,7 +142,9 @@
       "source_ids": [
         "src_comtrade_preview",
         "src_un_goe_s2025_446"
-      ]
+      ],
+      "excess_best_t": 1444,
+      "expected_best_t": 1299
     }
   ],
   "rubaya_2024": {
@@ -140,6 +156,618 @@
     ],
     "note": "UN monthly estimates (120–150 t) × 8 months of M23 control in 2024 (May–Dec). The UN observed mid-May to late Oct only; extending to December assumes the rate held."
   },
+  "bridge": [
+    {
+      "id": "br_coltan_2023",
+      "mineral": "coltan",
+      "year": 2023,
+      "variant": null,
+      "rwanda_excess_t": 763,
+      "kivu_loss_t": 486,
+      "armed_area_t": null,
+      "low": 34,
+      "central": 51,
+      "high": 67,
+      "method": "No UN volume exists for 2023. Volume = fall in official North Kivu output, 1,120 (2020-22 mean) - 605 = 515 t. Pass-through 50/75/100% gives 257/386/515 t over 763 t. Rubaya was held by PARECO-FF/Wazalendo, not M23, until 30 Apr 2024.",
+      "falsifiers": "Mine-level Rwandan production records showing the rise; independent grade or analytical-fingerprint tests tying Rwandan exports to Rwandan pits; a documented stock drawdown or a non-Kivu source (Burundi, Uganda, Maniema) of matching size; Rubaya output shown to leave by another route; official North Kivu output recovering without a fall in Rwandan exports.",
+      "evidence_tier": "inferred",
+      "source_ids": [
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023",
+        "src_un_goe_s2024_969",
+        "src_un_goe_s2025_858",
+        "src_comtrade_preview",
+        "src_project_notes"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "br_coltan_2024",
+      "mineral": "coltan",
+      "year": 2024,
+      "variant": null,
+      "rwanda_excess_t": 1044,
+      "kivu_loss_t": 910,
+      "armed_area_t": 960,
+      "low": 34,
+      "central": 69,
+      "high": 100,
+      "method": "Low: 120 t x 6 observed months x 50% = 360 t. Central: 120 t x 8 months x 75% = 720 t. High: 150 t x 8 months x 100% = 1,200 t, capped at 100%. All over 1044 t. Global Witness >=1,400 t in the first 12 months fits about 117 t/month.",
+      "falsifiers": "Mine-level Rwandan production records showing the rise; independent grade or analytical-fingerprint tests tying Rwandan exports to Rwandan pits; a documented stock drawdown or a non-Kivu source (Burundi, Uganda, Maniema) of matching size; Rubaya output shown to leave by another route; official North Kivu output recovering without a fall in Rwandan exports.",
+      "evidence_tier": "inferred",
+      "source_ids": [
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023",
+        "src_un_goe_s2024_969",
+        "src_un_goe_s2025_858",
+        "src_comtrade_preview",
+        "src_project_notes"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "br_coltan_2025",
+      "mineral": "coltan",
+      "year": 2025,
+      "variant": null,
+      "rwanda_excess_t": 1444,
+      "kivu_loss_t": 1350,
+      "armed_area_t": 1440,
+      "low": 50,
+      "central": 84,
+      "high": 100,
+      "method": "Excess uses the frozen cassiterite baseline: 2,743 - 1,299 = 1,444 t. Low: 120 x 12 x 50% = 720 t. Central: (1,440 Rubaya + 175 half of South Kivu 2024) x 75% = 1,211 t. High: (150 x 12 + 175) x 100%, capped. On the BNR baseline (1,198 t) the shares are 60/100/100. On the unfrozen 627 t all are 100, and Rubaya alone would exceed the excess.",
+      "falsifiers": "Mine-level Rwandan production records showing the rise; independent grade or analytical-fingerprint tests tying Rwandan exports to Rwandan pits; a documented stock drawdown or a non-Kivu source (Burundi, Uganda, Maniema) of matching size; Rubaya output shown to leave by another route; official North Kivu output recovering without a fall in Rwandan exports.",
+      "evidence_tier": "inferred",
+      "source_ids": [
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023",
+        "src_un_goe_s2024_969",
+        "src_un_goe_s2025_858",
+        "src_comtrade_preview",
+        "src_project_notes"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "br_tin_2025_as_published",
+      "mineral": "tin",
+      "year": 2025,
+      "variant": "as_published",
+      "rwanda_excess_t": 2841,
+      "kivu_loss_t": 3273,
+      "armed_area_t": 1500,
+      "low": 26,
+      "central": 52,
+      "high": 70,
+      "method": "Volume = half of South Kivu (about 1,500 t, annex 26) plus North Kivu artisanal exports (486 t) = 1,986 t. Low: 1,500 x 50% = 750 t. Central: 1,986 x 75% = 1,490 t. High: 1,986 t. Half-of-South-Kivu applies only from Sept 2025, so the volume may be high for the year; official Kivu figures may be low for real output. Over the UN rise of 2,841 t. This keeps the low-value Cambodia tonnage in the denominator, so it understates the share of concentrate.",
+      "falsifiers": "Evidence that the 2025 rise came from a named Rwandan mine or from stock; RMB or NISR production data; ITSCI or customs data tying the October 2025 spike (1,460 t) to non-DRC origins; evidence that official Kivu volumes moved through Kindu and Kalemie instead, as the ministry says part did.",
+      "evidence_tier": "inferred",
+      "source_ids": [
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023",
+        "src_un_goe_s2024_969",
+        "src_un_goe_s2025_858",
+        "src_comtrade_preview",
+        "src_project_notes"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "br_tin_2025_excl_cambodia_low_value",
+      "mineral": "tin",
+      "year": 2025,
+      "variant": "excl_cambodia_low_value",
+      "rwanda_excess_t": 1221,
+      "kivu_loss_t": 3273,
+      "armed_area_t": 1500,
+      "low": 61,
+      "central": 100,
+      "high": 100,
+      "method": "Volume = half of South Kivu (about 1,500 t, annex 26) plus North Kivu artisanal exports (486 t) = 1,986 t. Low: 1,500 x 50% = 750 t. Central: 1,986 x 75% = 1,490 t. High: 1,986 t. Half-of-South-Kivu applies only from Sept 2025, so the volume may be high for the year; official Kivu figures may be low for real output. Over 1,221 t = 7,700 - 1,620 (Cambodia, $1.6/kg) - 4,859. Preferred: the excess concentrate is smaller and armed-area volumes could fill it. Kivu loss (3,273 t) then exceeds the excess by about 2,053 t, so much of the lost Kivu ore went elsewhere or was not produced.",
+      "falsifiers": "Evidence that the 2025 rise came from a named Rwandan mine or from stock; RMB or NISR production data; ITSCI or customs data tying the October 2025 spike (1,460 t) to non-DRC origins; evidence that official Kivu volumes moved through Kindu and Kalemie instead, as the ministry says part did.",
+      "evidence_tier": "inferred",
+      "source_ids": [
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023",
+        "src_un_goe_s2024_969",
+        "src_un_goe_s2025_858",
+        "src_comtrade_preview",
+        "src_project_notes"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "br_tungsten_2025",
+      "mineral": "tungsten",
+      "year": 2025,
+      "variant": null,
+      "rwanda_excess_t": 280,
+      "kivu_loss_t": 180,
+      "armed_area_t": 133,
+      "low": 0,
+      "central": 36,
+      "high": 64,
+      "method": "Comtrade excess 280 t vs 2022-24 mean; BNR to Nov suggests none, hence low = 0. Central: two-thirds of 200 t South Kivu = 133 t x 75% = 100 t. High: all 180 t of lost Kivu exports. Weak: Rwanda is a real tungsten producer.",
+      "falsifiers": "Reconciling BNR with Comtrade for 2025 would settle whether any excess exists.",
+      "evidence_tier": "inferred",
+      "source_ids": [
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023",
+        "src_un_goe_s2024_969",
+        "src_un_goe_s2025_858",
+        "src_comtrade_preview",
+        "src_project_notes"
+      ],
+      "notes": ""
+    }
+  ],
+  "partners": [
+    {
+      "id": "pg_coltan_mirror_CHN",
+      "mineral": "coltan",
+      "side": "mirror",
+      "from_year": 2022,
+      "to_year": 2024,
+      "partner": "CHN",
+      "t_from": 811.1,
+      "t_to": 2286.5,
+      "change_t": 1475.4,
+      "share_from_pct": 52.5,
+      "share_to_pct": 78.6,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_coltan_mirror_MYS",
+      "mineral": "coltan",
+      "side": "mirror",
+      "from_year": 2022,
+      "to_year": 2024,
+      "partner": "MYS",
+      "t_from": 0,
+      "t_to": 601.8,
+      "change_t": 601.8,
+      "share_from_pct": 0.0,
+      "share_to_pct": 20.7,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_coltan_mirror_JPN",
+      "mineral": "coltan",
+      "side": "mirror",
+      "from_year": 2022,
+      "to_year": 2024,
+      "partner": "JPN",
+      "t_from": 72.0,
+      "t_to": 10.0,
+      "change_t": -62.0,
+      "share_from_pct": 4.7,
+      "share_to_pct": 0.3,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_coltan_mirror_USA",
+      "mineral": "coltan",
+      "side": "mirror",
+      "from_year": 2022,
+      "to_year": 2024,
+      "partner": "USA",
+      "t_from": 92.5,
+      "t_to": 0,
+      "change_t": -92.5,
+      "share_from_pct": 6.0,
+      "share_to_pct": 0.0,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_coltan_mirror_THA",
+      "mineral": "coltan",
+      "side": "mirror",
+      "from_year": 2022,
+      "to_year": 2024,
+      "partner": "THA",
+      "t_from": 549.7,
+      "t_to": 10.0,
+      "change_t": -539.6,
+      "share_from_pct": 35.6,
+      "share_to_pct": 0.3,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_coltan_rwanda_CHN",
+      "mineral": "coltan",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "CHN",
+      "t_from": 305.5,
+      "t_to": 1884.8,
+      "change_t": 1579.2,
+      "share_from_pct": 23.4,
+      "share_to_pct": 68.7,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_coltan_rwanda_LUX",
+      "mineral": "coltan",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "LUX",
+      "t_from": 31.5,
+      "t_to": 138.5,
+      "change_t": 107.0,
+      "share_from_pct": 2.4,
+      "share_to_pct": 5.1,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_coltan_rwanda_ARE",
+      "mineral": "coltan",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "ARE",
+      "t_from": 501.3,
+      "t_to": 396.8,
+      "change_t": -104.5,
+      "share_from_pct": 38.4,
+      "share_to_pct": 14.5,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_coltan_rwanda_SGP",
+      "mineral": "coltan",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "SGP",
+      "t_from": 119.5,
+      "t_to": 2.6,
+      "change_t": -117.0,
+      "share_from_pct": 9.2,
+      "share_to_pct": 0.1,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_tin_rwanda_CHN",
+      "mineral": "tin",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "CHN",
+      "t_from": 72.1,
+      "t_to": 1706.0,
+      "change_t": 1633.9,
+      "share_from_pct": 1.9,
+      "share_to_pct": 26.9,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_tin_rwanda_KHM",
+      "mineral": "tin",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "KHM",
+      "t_from": 0,
+      "t_to": 1620.2,
+      "change_t": 1620.2,
+      "share_from_pct": 0.0,
+      "share_to_pct": 25.5,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_tin_rwanda_THA",
+      "mineral": "tin",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "THA",
+      "t_from": 0,
+      "t_to": 748.2,
+      "change_t": 748.2,
+      "share_from_pct": 0.0,
+      "share_to_pct": 11.8,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_tin_rwanda_LUX",
+      "mineral": "tin",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "LUX",
+      "t_from": 368.2,
+      "t_to": 845.8,
+      "change_t": 477.6,
+      "share_from_pct": 9.8,
+      "share_to_pct": 13.3,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_tin_rwanda_BEL",
+      "mineral": "tin",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "BEL",
+      "t_from": 125.7,
+      "t_to": 196.8,
+      "change_t": 71.1,
+      "share_from_pct": 3.4,
+      "share_to_pct": 3.1,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_tin_rwanda_JPN",
+      "mineral": "tin",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "JPN",
+      "t_from": 0,
+      "t_to": 50.0,
+      "change_t": 50.0,
+      "share_from_pct": 0.0,
+      "share_to_pct": 0.8,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_tin_rwanda_MYS",
+      "mineral": "tin",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "MYS",
+      "t_from": 390.8,
+      "t_to": 244.1,
+      "change_t": -146.7,
+      "share_from_pct": 10.4,
+      "share_to_pct": 3.8,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_tin_rwanda_HKG",
+      "mineral": "tin",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "HKG",
+      "t_from": 486.3,
+      "t_to": 174.1,
+      "change_t": -312.2,
+      "share_from_pct": 13.0,
+      "share_to_pct": 2.7,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_tin_rwanda_ARE",
+      "mineral": "tin",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "ARE",
+      "t_from": 1282.2,
+      "t_to": 502.5,
+      "change_t": -779.7,
+      "share_from_pct": 34.2,
+      "share_to_pct": 7.9,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pg_tin_rwanda_SGP",
+      "mineral": "tin",
+      "side": "rwanda",
+      "from_year": 2022,
+      "to_year": 2025,
+      "partner": "SGP",
+      "t_from": 1027.0,
+      "t_to": 211.1,
+      "change_t": -815.8,
+      "share_from_pct": 27.4,
+      "share_to_pct": 3.3,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview"
+      ],
+      "notes": ""
+    }
+  ],
+  "zero_sum": [
+    {
+      "id": "zs_coltan_2022",
+      "mineral": "coltan",
+      "year": 2022,
+      "rwanda_exports_t": 1304.7,
+      "drc_official_exports_t": 1909.66,
+      "combined_t": 3214.4,
+      "rwanda_share_pct": 40.6,
+      "china_imports_from_rwa_t": 811.1,
+      "china_imports_from_cod_t": 879.1,
+      "china_combined_t": 1690.2,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "zs_coltan_2023",
+      "mineral": "coltan",
+      "year": 2023,
+      "rwanda_exports_t": 2070.4,
+      "drc_official_exports_t": 1878.7,
+      "combined_t": 3949.1,
+      "rwanda_share_pct": 52.4,
+      "china_imports_from_rwa_t": 1571.3,
+      "china_imports_from_cod_t": 1202.7,
+      "china_combined_t": 2774.0,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "zs_coltan_2024",
+      "mineral": "coltan",
+      "year": 2024,
+      "rwanda_exports_t": 2383.9,
+      "drc_official_exports_t": 1244.86,
+      "combined_t": 3628.8,
+      "rwanda_share_pct": 65.7,
+      "china_imports_from_rwa_t": 2286.5,
+      "china_imports_from_cod_t": 1087.9,
+      "china_combined_t": 3374.4,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "zs_coltan_2025",
+      "mineral": "coltan",
+      "year": 2025,
+      "rwanda_exports_t": 2743.0,
+      "drc_official_exports_t": 891.31,
+      "combined_t": 3634.3,
+      "rwanda_share_pct": 75.5,
+      "china_imports_from_rwa_t": 2864.8,
+      "china_imports_from_cod_t": 987.2,
+      "china_combined_t": 3852.0,
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "zs_tin_2024",
+      "mineral": "tin",
+      "year": 2024,
+      "rwanda_exports_t": 4861.49,
+      "drc_official_exports_t": 14886.67,
+      "combined_t": 19748.2,
+      "rwanda_share_pct": 24.6,
+      "notes": "",
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023"
+      ]
+    },
+    {
+      "id": "zs_tin_2025",
+      "mineral": "tin",
+      "year": 2025,
+      "rwanda_exports_t": 7700,
+      "drc_official_exports_t": 12690.57,
+      "combined_t": 20390.6,
+      "rwanda_share_pct": 37.8,
+      "notes": "",
+      "evidence_tier": "documented",
+      "source_ids": [
+        "src_comtrade_preview",
+        "src_sg_mines_2025",
+        "src_sg_mines_2024",
+        "src_sg_mines_2023"
+      ]
+    }
+  ],
   "quarterly": [
     {
       "quarter": "2023Q1",

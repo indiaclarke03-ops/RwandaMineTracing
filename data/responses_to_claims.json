@@ -58,5 +58,233 @@
     ],
     "evidence_tier": "documented",
     "notes": ""
+  },
+  {
+    "id": "den_otic",
+    "claim_ref": "fl_rubaya_otic",
+    "respondent": "Ningxia Orient Tantalum (OTIC)",
+    "date": "2026-06",
+    "summary": "Denied the claim in its response to Global Witness.",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_tanbre",
+    "claim_ref": "fl_rubaya_tanbre",
+    "respondent": "Jiujiang Tanbre",
+    "date": "2026-06",
+    "summary": "Denied the claim in its response to Global Witness.",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_jinxin",
+    "claim_ref": "fl_rubaya_jinxin",
+    "respondent": "Jiujiang Jinxin",
+    "date": "2026-06",
+    "summary": "Denied the claim in its response to Global Witness.",
+    "source_ids": [
+      "src_gw_who_buys_coltan"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_1",
+    "claim_ref": "ca_halcyon",
+    "respondent": "Halcyon Inc",
+    "date": "2026-01-10",
+    "summary": "Confirmed buying from Kanzamin but denied the coltan came from Rubaya; says it disengaged from Kanzamin pending stronger due diligence, and that GW showed no transaction-level proof.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_2",
+    "claim_ref": "ca_halcyon",
+    "respondent": "Halcyon Inc",
+    "date": "2026-04-15",
+    "summary": "Denied any contractual or commercial relationship with Boss Mining Solution.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_3",
+    "claim_ref": "ca_halcyon",
+    "respondent": "Halcyon Inc",
+    "date": "2026-04-23",
+    "summary": "Denied having received coltan from African Panther Resources.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_4",
+    "claim_ref": "ca_halcyon",
+    "respondent": "Halcyon Inc",
+    "date": "2026-01-22",
+    "summary": "Denied buying any Rubaya material in 2023, citing geo-fingerprinting.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_5",
+    "claim_ref": "ca_novacore",
+    "respondent": "Novacore FZE",
+    "date": "2026-01-08",
+    "summary": "Said a Kigali visit found no anomalies in Boss Mining Solution's export volumes and that shipments originated in Rwanda and met ITSCI requirements.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_6",
+    "claim_ref": "ca_african_panther",
+    "respondent": "African Panther Resources",
+    "date": "2025-03-05",
+    "summary": "Previously denied sourcing conflict coltan, citing due diligence; did not reply to GW's later letter.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_7",
+    "claim_ref": "ca_tawotin_ltd",
+    "respondent": "Tawotin Ltd",
+    "date": "2025-12-22",
+    "summary": "Denied sourcing conflict material from DRC and denied any connection to Chris Huber.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_8",
+    "claim_ref": "ca_minterra_fzc",
+    "respondent": "Minterra",
+    "date": "2026",
+    "summary": "Said it found no sign of smuggled or conflict minerals at East Group Minerals, citing ITSCI membership; director Ignas Pilvinis said Andrius Jankunas was never a Minterra director.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_9",
+    "claim_ref": "ca_rani",
+    "respondent": "Kanzamin, Boss Mining Solution, Rani Mining, Hillside Mining, Sunrise Metal, Better Off Equipment, Philbert, Space Mining, East Group Minerals, East Rise",
+    "date": "2026",
+    "summary": "Did not reply to GW's requests for comment (non-response, not denial).",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_10",
+    "claim_ref": "ca_better_off_equipment_solutions",
+    "respondent": "Better Mining",
+    "date": "2026",
+    "summary": "Denied tagging conflict-affected coltan and said no conflict material was shown to have entered its system.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_11",
+    "claim_ref": "ca_halcyon",
+    "respondent": "Halcyon Inc",
+    "date": "2026",
+    "summary": "Said it permanently disengaged from Philbert Trading Minerals in 2025.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_101",
+    "claim_ref": "rel_nw_44",
+    "respondent": "SOGECOM",
+    "date": "2026-01-10",
+    "summary": "Strongly denied that the Kotecha family profited from conflict minerals and denied sourcing conflict minerals from Rubaya; said Ketankumar Kotecha is a stakeholder, not operationally involved.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_102",
+    "claim_ref": "act_traxys",
+    "respondent": "Traxys",
+    "date": "2026",
+    "summary": "Strongly denied that coltan from African Panther, Rani or Hillside was from DRC or conflict-linked; cites mineralogy and mine-level tracing; says it stopped sourcing Rwandan tantalum in May 2025.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_103",
+    "claim_ref": "ca_tawotin_ltd",
+    "respondent": "Chris Huber",
+    "date": "2025-12-22",
+    "summary": "Denied being or ever having been a beneficial owner or member of Tawotin.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_104",
+    "claim_ref": "rel_pareco_cdmc",
+    "respondent": "CDMC",
+    "date": "2025-12-22",
+    "summary": "Denied trading conflict minerals from Rubaya and denied any connection to John Crawley.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_nw_105",
+    "claim_ref": "ca_boss_mining",
+    "respondent": "Eddy Habimana",
+    "date": "2025-06",
+    "summary": "Told Reuters by text that Boss Mining has never been involved in buying coltan from Rubaya; declined comment on the UN report.",
+    "source_ids": [
+      "src_reuters_sabc_2025"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
   }
 ]

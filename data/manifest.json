@@ -1,25 +1,31 @@
 {
   "case": "rwanda-drc",
-  "built": "2026-11-03",
+  "built": "2026-11-04",
   "counts": {
-    "sources": 65,
-    "sites": 10,
-    "actors": 39,
-    "control_claims": 7,
-    "relationships": 21,
-    "flows": 18,
+    "sources": 167,
+    "sites": 13,
+    "actors": 133,
+    "control_claims": 12,
+    "relationships": 87,
+    "flows": 19,
     "impacts": 11,
     "responses": 15,
     "effectiveness": 15,
-    "responses_to_claims": 5,
+    "responses_to_claims": 24,
     "gaps": 15,
-    "findings": 5,
+    "findings": 7,
     "trade_series": 111,
     "trade_quarterly": 14,
-    "gap_evidence": 20,
-    "ipis_sites": 3469
+    "gap_evidence": 22,
+    "ipis_sites": 3469,
+    "smelter_brand": 323,
+    "network_signals": 21,
+    "company_assessments": 20,
+    "areas": 31,
+    "area_claims": 57,
+    "balance_bridge": 6,
+    "partner_growth": 19,
+    "zero_sum": 6
   },
-  "warnings": [
-    "sites[site_lomera]: no coordinates; will not appear on the map"
-  ]
+  "warnings": []
 }

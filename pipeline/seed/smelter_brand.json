@@ -1,0 +1,5766 @@
+[
+  {
+    "id": "sb_amd_jinxin",
+    "brand_actor": "act_brand_amd",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Table 3 of facilities that, to the extent known, process minerals in its products; AMD says the list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amd_ry2024",
+      "src_sec_amd_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amd_kingxing",
+    "brand_actor": "act_brand_amd",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Table 3 of facilities that, to the extent known, process minerals in its products; AMD says the list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amd_ry2024",
+      "src_sec_amd_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amd_otic",
+    "brand_actor": "act_brand_amd",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Table 3 of facilities that, to the extent known, process minerals in its products; AMD says the list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amd_ry2024",
+      "src_sec_amd_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amd_tanbre",
+    "brand_actor": "act_brand_amd",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Table 3 of facilities that, to the extent known, process minerals in its products; AMD says the list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amd_ry2024",
+      "src_sec_amd_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amd_taniobis_th",
+    "brand_actor": "act_brand_amd",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Table 3 of facilities that, to the extent known, process minerals in its products; AMD says the list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amd_ry2024",
+      "src_sec_amd_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amd_ulba",
+    "brand_actor": "act_brand_amd",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Table 3 of facilities that, to the extent known, process minerals in its products; AMD says the list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amd_ry2024",
+      "src_sec_amd_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amd_ximei",
+    "brand_actor": "act_brand_amd",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Table 3 of facilities that, to the extent known, process minerals in its products; AMD says the list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amd_ry2024",
+      "src_sec_amd_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amd_zhongao",
+    "brand_actor": "act_brand_amd",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Table 3 of facilities that, to the extent known, process minerals in its products; AMD says the list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amd_ry2024",
+      "src_sec_amd_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amazon_jinxin",
+    "brand_actor": "act_brand_amazon",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex A of known smelters that may have processed 3TG in in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amazon_ry2024",
+      "src_sec_amazon_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amazon_kingxing",
+    "brand_actor": "act_brand_amazon",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex A of known smelters that may have processed 3TG in in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amazon_ry2024",
+      "src_sec_amazon_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amazon_otic",
+    "brand_actor": "act_brand_amazon",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex A of known smelters that may have processed 3TG in in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amazon_ry2024",
+      "src_sec_amazon_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amazon_tanbre",
+    "brand_actor": "act_brand_amazon",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex A of known smelters that may have processed 3TG in in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amazon_ry2024",
+      "src_sec_amazon_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amazon_taniobis_th",
+    "brand_actor": "act_brand_amazon",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex A of known smelters that may have processed 3TG in in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amazon_ry2024",
+      "src_sec_amazon_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amazon_ulba",
+    "brand_actor": "act_brand_amazon",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex A of known smelters that may have processed 3TG in in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amazon_ry2024",
+      "src_sec_amazon_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amazon_ximei",
+    "brand_actor": "act_brand_amazon",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex A of known smelters that may have processed 3TG in in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amazon_ry2024",
+      "src_sec_amazon_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amazon_zhongao",
+    "brand_actor": "act_brand_amazon",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex A of known smelters that may have processed 3TG in in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amazon_ry2024",
+      "src_sec_amazon_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amphenol_jinxin",
+    "brand_actor": "act_brand_amphenol",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of validated facilities in which minerals may be processed for its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amphenol_ry2024",
+      "src_sec_amphenol_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amphenol_kingxing",
+    "brand_actor": "act_brand_amphenol",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of validated facilities in which minerals may be processed for its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amphenol_ry2024",
+      "src_sec_amphenol_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amphenol_otic",
+    "brand_actor": "act_brand_amphenol",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of validated facilities in which minerals may be processed for its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amphenol_ry2024",
+      "src_sec_amphenol_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amphenol_tanbre",
+    "brand_actor": "act_brand_amphenol",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of validated facilities in which minerals may be processed for its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amphenol_ry2024",
+      "src_sec_amphenol_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amphenol_taniobis_th",
+    "brand_actor": "act_brand_amphenol",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of validated facilities in which minerals may be processed for its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amphenol_ry2024",
+      "src_sec_amphenol_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amphenol_ulba",
+    "brand_actor": "act_brand_amphenol",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of validated facilities in which minerals may be processed for its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amphenol_ry2024",
+      "src_sec_amphenol_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amphenol_ximei",
+    "brand_actor": "act_brand_amphenol",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of validated facilities in which minerals may be processed for its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amphenol_ry2024",
+      "src_sec_amphenol_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_amphenol_zhongao",
+    "brand_actor": "act_brand_amphenol",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of validated facilities in which minerals may be processed for its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amphenol_ry2024",
+      "src_sec_amphenol_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_analog_devices_jinxin",
+    "brand_actor": "act_brand_analog_devices",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed in Annex I of facilities that may have been used to process conflict minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_analog_devices_ry2024",
+      "src_sec_analog_devices_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_analog_devices_kingxing",
+    "brand_actor": "act_brand_analog_devices",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed in Annex I of facilities that may have been used to process conflict minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_analog_devices_ry2024",
+      "src_sec_analog_devices_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_analog_devices_otic",
+    "brand_actor": "act_brand_analog_devices",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed in Annex I of facilities that may have been used to process conflict minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_analog_devices_ry2024",
+      "src_sec_analog_devices_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_analog_devices_tanbre",
+    "brand_actor": "act_brand_analog_devices",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed in Annex I of facilities that may have been used to process conflict minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_analog_devices_ry2024",
+      "src_sec_analog_devices_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_analog_devices_taniobis_th",
+    "brand_actor": "act_brand_analog_devices",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed in Annex I of facilities that may have been used to process conflict minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_analog_devices_ry2024",
+      "src_sec_analog_devices_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_analog_devices_ulba",
+    "brand_actor": "act_brand_analog_devices",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed in Annex I of facilities that may have been used to process conflict minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_analog_devices_ry2024",
+      "src_sec_analog_devices_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_analog_devices_ximei",
+    "brand_actor": "act_brand_analog_devices",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed in Annex I of facilities that may have been used to process conflict minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_analog_devices_ry2024",
+      "src_sec_analog_devices_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_analog_devices_zhongao",
+    "brand_actor": "act_brand_analog_devices",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed in Annex I of facilities that may have been used to process conflict minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_analog_devices_ry2024",
+      "src_sec_analog_devices_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_applied_materials_jinxin",
+    "brand_actor": "act_brand_applied_materials",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters named by surveyed suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_applied_materials_ry2024",
+      "src_sec_applied_materials_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_applied_materials_kingxing",
+    "brand_actor": "act_brand_applied_materials",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters named by surveyed suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_applied_materials_ry2024",
+      "src_sec_applied_materials_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_applied_materials_otic",
+    "brand_actor": "act_brand_applied_materials",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters named by surveyed suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_applied_materials_ry2024",
+      "src_sec_applied_materials_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_applied_materials_tanbre",
+    "brand_actor": "act_brand_applied_materials",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters named by surveyed suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_applied_materials_ry2024",
+      "src_sec_applied_materials_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_applied_materials_taniobis_th",
+    "brand_actor": "act_brand_applied_materials",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters named by surveyed suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_applied_materials_ry2024",
+      "src_sec_applied_materials_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_applied_materials_ulba",
+    "brand_actor": "act_brand_applied_materials",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters named by surveyed suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_applied_materials_ry2024",
+      "src_sec_applied_materials_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_applied_materials_ximei",
+    "brand_actor": "act_brand_applied_materials",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters named by surveyed suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_applied_materials_ry2024",
+      "src_sec_applied_materials_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_applied_materials_zhongao",
+    "brand_actor": "act_brand_applied_materials",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters named by surveyed suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_applied_materials_ry2024",
+      "src_sec_applied_materials_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_aptiv_jinxin",
+    "brand_actor": "act_brand_aptiv",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed as a facility named in supplier CMRT responses during its country-of-origin inquiry",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_aptiv_ry2024",
+      "src_sec_aptiv_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_aptiv_kingxing",
+    "brand_actor": "act_brand_aptiv",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed as a facility named in supplier CMRT responses during its country-of-origin inquiry",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_aptiv_ry2024",
+      "src_sec_aptiv_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_aptiv_otic",
+    "brand_actor": "act_brand_aptiv",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed as a facility named in supplier CMRT responses during its country-of-origin inquiry",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_aptiv_ry2024",
+      "src_sec_aptiv_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_aptiv_tanbre",
+    "brand_actor": "act_brand_aptiv",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed as a facility named in supplier CMRT responses during its country-of-origin inquiry",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_aptiv_ry2024",
+      "src_sec_aptiv_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_aptiv_taniobis_th",
+    "brand_actor": "act_brand_aptiv",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed as a facility named in supplier CMRT responses during its country-of-origin inquiry",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_aptiv_ry2024",
+      "src_sec_aptiv_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_aptiv_ulba",
+    "brand_actor": "act_brand_aptiv",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed as a facility named in supplier CMRT responses during its country-of-origin inquiry",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_aptiv_ry2024",
+      "src_sec_aptiv_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_aptiv_ximei",
+    "brand_actor": "act_brand_aptiv",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed as a facility named in supplier CMRT responses during its country-of-origin inquiry",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_aptiv_ry2024",
+      "src_sec_aptiv_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_aptiv_zhongao",
+    "brand_actor": "act_brand_aptiv",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed as a facility named in supplier CMRT responses during its country-of-origin inquiry",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_aptiv_ry2024",
+      "src_sec_aptiv_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_borgwarner_jinxin",
+    "brand_actor": "act_brand_borgwarner",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A of smelters named in supplier CMRTs; list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_borgwarner_ry2024",
+      "src_sec_borgwarner_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_borgwarner_kingxing",
+    "brand_actor": "act_brand_borgwarner",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A of smelters named in supplier CMRTs; list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_borgwarner_ry2024",
+      "src_sec_borgwarner_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_borgwarner_otic",
+    "brand_actor": "act_brand_borgwarner",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A of smelters named in supplier CMRTs; list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_borgwarner_ry2024",
+      "src_sec_borgwarner_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_borgwarner_tanbre",
+    "brand_actor": "act_brand_borgwarner",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A of smelters named in supplier CMRTs; list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_borgwarner_ry2024",
+      "src_sec_borgwarner_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_borgwarner_taniobis_th",
+    "brand_actor": "act_brand_borgwarner",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A of smelters named in supplier CMRTs; list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_borgwarner_ry2024",
+      "src_sec_borgwarner_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_borgwarner_ulba",
+    "brand_actor": "act_brand_borgwarner",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A of smelters named in supplier CMRTs; list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_borgwarner_ry2024",
+      "src_sec_borgwarner_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_borgwarner_ximei",
+    "brand_actor": "act_brand_borgwarner",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A of smelters named in supplier CMRTs; list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_borgwarner_ry2024",
+      "src_sec_borgwarner_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_borgwarner_zhongao",
+    "brand_actor": "act_brand_borgwarner",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A of smelters named in supplier CMRTs; list may contain more facilities than actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_borgwarner_ry2024",
+      "src_sec_borgwarner_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_caterpillar_jinxin",
+    "brand_actor": "act_brand_caterpillar",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed on Schedule B of smelters it has reason to believe supplied 3TG to 6 suppliers for Caterpillar parts",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_caterpillar_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_caterpillar_otic",
+    "brand_actor": "act_brand_caterpillar",
+    "smelter_actor": "act_otic",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed on Schedule B of smelters it has reason to believe supplied 3TG to 6 suppliers for Caterpillar parts",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_caterpillar_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_caterpillar_tanbre",
+    "brand_actor": "act_brand_caterpillar",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed on Schedule B of smelters it has reason to believe supplied 3TG to 6 suppliers for Caterpillar parts",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_caterpillar_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_caterpillar_taniobis_th",
+    "brand_actor": "act_brand_caterpillar",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed on Schedule B of smelters it has reason to believe supplied 3TG to 6 suppliers for Caterpillar parts",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_caterpillar_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_caterpillar_ulba",
+    "brand_actor": "act_brand_caterpillar",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed on Schedule B of smelters it has reason to believe supplied 3TG to 6 suppliers for Caterpillar parts",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_caterpillar_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_caterpillar_ximei",
+    "brand_actor": "act_brand_caterpillar",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed on Schedule B of smelters it has reason to believe supplied 3TG to 6 suppliers for Caterpillar parts",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_caterpillar_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_caterpillar_zhongao",
+    "brand_actor": "act_brand_caterpillar",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-22",
+    "wording": "Listed on Schedule B of smelters it has reason to believe supplied 3TG to 6 suppliers for Caterpillar parts",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_caterpillar_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_corning_jinxin",
+    "brand_actor": "act_brand_corning",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in RMI smelter appendix; Corning says listed facilities cannot be tied to specific Corning products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_corning_ry2024",
+      "src_sec_corning_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_corning_kingxing",
+    "brand_actor": "act_brand_corning",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in RMI smelter appendix; Corning says listed facilities cannot be tied to specific Corning products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_corning_ry2024",
+      "src_sec_corning_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_corning_otic",
+    "brand_actor": "act_brand_corning",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in RMI smelter appendix; Corning says listed facilities cannot be tied to specific Corning products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_corning_ry2024",
+      "src_sec_corning_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_corning_tanbre",
+    "brand_actor": "act_brand_corning",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in RMI smelter appendix; Corning says listed facilities cannot be tied to specific Corning products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_corning_ry2024",
+      "src_sec_corning_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_corning_taniobis_th",
+    "brand_actor": "act_brand_corning",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in RMI smelter appendix; Corning says listed facilities cannot be tied to specific Corning products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_corning_ry2024",
+      "src_sec_corning_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_corning_ulba",
+    "brand_actor": "act_brand_corning",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in RMI smelter appendix; Corning says listed facilities cannot be tied to specific Corning products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_corning_ry2024",
+      "src_sec_corning_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_corning_ximei",
+    "brand_actor": "act_brand_corning",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in RMI smelter appendix; Corning says listed facilities cannot be tied to specific Corning products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_corning_ry2024",
+      "src_sec_corning_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_corning_zhongao",
+    "brand_actor": "act_brand_corning",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in RMI smelter appendix; Corning says listed facilities cannot be tied to specific Corning products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_corning_ry2024",
+      "src_sec_corning_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_cummins_jinxin",
+    "brand_actor": "act_brand_cummins",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex I; Cummins says it could not validate that listed smelters are actually in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_cummins_ry2024",
+      "src_sec_cummins_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_cummins_kingxing",
+    "brand_actor": "act_brand_cummins",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex I; Cummins says it could not validate that listed smelters are actually in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_cummins_ry2024",
+      "src_sec_cummins_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_cummins_otic",
+    "brand_actor": "act_brand_cummins",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex I; Cummins says it could not validate that listed smelters are actually in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_cummins_ry2024",
+      "src_sec_cummins_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_cummins_tanbre",
+    "brand_actor": "act_brand_cummins",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex I; Cummins says it could not validate that listed smelters are actually in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_cummins_ry2024",
+      "src_sec_cummins_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_cummins_taniobis_th",
+    "brand_actor": "act_brand_cummins",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex I; Cummins says it could not validate that listed smelters are actually in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_cummins_ry2024",
+      "src_sec_cummins_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_cummins_ulba",
+    "brand_actor": "act_brand_cummins",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex I; Cummins says it could not validate that listed smelters are actually in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_cummins_ry2024",
+      "src_sec_cummins_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_cummins_ximei",
+    "brand_actor": "act_brand_cummins",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex I; Cummins says it could not validate that listed smelters are actually in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_cummins_ry2024",
+      "src_sec_cummins_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_cummins_zhongao",
+    "brand_actor": "act_brand_cummins",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex I; Cummins says it could not validate that listed smelters are actually in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_cummins_ry2024",
+      "src_sec_cummins_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_deere_jinxin",
+    "brand_actor": "act_brand_deere",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in table of facilities that may have processed minerals in in-scope components; no direct link established",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_deere_ry2024",
+      "src_sec_deere_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_deere_kingxing",
+    "brand_actor": "act_brand_deere",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in table of facilities that may have processed minerals in in-scope components; no direct link established",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_deere_ry2024",
+      "src_sec_deere_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_deere_otic",
+    "brand_actor": "act_brand_deere",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in table of facilities that may have processed minerals in in-scope components; no direct link established",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_deere_ry2024",
+      "src_sec_deere_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_deere_tanbre",
+    "brand_actor": "act_brand_deere",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in table of facilities that may have processed minerals in in-scope components; no direct link established",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_deere_ry2024",
+      "src_sec_deere_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_deere_taniobis_th",
+    "brand_actor": "act_brand_deere",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in table of facilities that may have processed minerals in in-scope components; no direct link established",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_deere_ry2024",
+      "src_sec_deere_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_deere_ulba",
+    "brand_actor": "act_brand_deere",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in table of facilities that may have processed minerals in in-scope components; no direct link established",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_deere_ry2024",
+      "src_sec_deere_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_deere_ximei",
+    "brand_actor": "act_brand_deere",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in table of facilities that may have processed minerals in in-scope components; no direct link established",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_deere_ry2024",
+      "src_sec_deere_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_deere_zhongao",
+    "brand_actor": "act_brand_deere",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in table of facilities that may have processed minerals in in-scope components; no direct link established",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_deere_ry2024",
+      "src_sec_deere_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_embraer_jinxin",
+    "brand_actor": "act_brand_embraer",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 2 as potentially part of its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_embraer_ry2024",
+      "src_sec_embraer_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_embraer_kingxing",
+    "brand_actor": "act_brand_embraer",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 2 as potentially part of its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_embraer_ry2024",
+      "src_sec_embraer_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_embraer_otic",
+    "brand_actor": "act_brand_embraer",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 2 as potentially part of its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_embraer_ry2024",
+      "src_sec_embraer_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_embraer_tanbre",
+    "brand_actor": "act_brand_embraer",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 2 as potentially part of its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_embraer_ry2024",
+      "src_sec_embraer_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_embraer_taniobis_th",
+    "brand_actor": "act_brand_embraer",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 2 as potentially part of its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_embraer_ry2024",
+      "src_sec_embraer_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_embraer_ulba",
+    "brand_actor": "act_brand_embraer",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 2 as potentially part of its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_embraer_ry2024",
+      "src_sec_embraer_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_embraer_ximei",
+    "brand_actor": "act_brand_embraer",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 2 as potentially part of its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_embraer_ry2024",
+      "src_sec_embraer_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_embraer_zhongao",
+    "brand_actor": "act_brand_embraer",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 2 as potentially part of its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_embraer_ry2024",
+      "src_sec_embraer_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_ericsson_jinxin",
+    "brand_actor": "act_brand_ericsson",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex 1 of facilities that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_ericsson_ry2024",
+      "src_sec_ericsson_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_ericsson_kingxing",
+    "brand_actor": "act_brand_ericsson",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex 1 of facilities that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_ericsson_ry2024",
+      "src_sec_ericsson_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_ericsson_otic",
+    "brand_actor": "act_brand_ericsson",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex 1 of facilities that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_ericsson_ry2024",
+      "src_sec_ericsson_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_ericsson_tanbre",
+    "brand_actor": "act_brand_ericsson",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex 1 of facilities that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_ericsson_ry2024",
+      "src_sec_ericsson_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_ericsson_taniobis_th",
+    "brand_actor": "act_brand_ericsson",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex 1 of facilities that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_ericsson_ry2024",
+      "src_sec_ericsson_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_ericsson_ulba",
+    "brand_actor": "act_brand_ericsson",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex 1 of facilities that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_ericsson_ry2024",
+      "src_sec_ericsson_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_ericsson_ximei",
+    "brand_actor": "act_brand_ericsson",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex 1 of facilities that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_ericsson_ry2024",
+      "src_sec_ericsson_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_ericsson_zhongao",
+    "brand_actor": "act_brand_ericsson",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex 1 of facilities that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_ericsson_ry2024",
+      "src_sec_ericsson_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_hewlett_packard_enterprise_jinxin",
+    "brand_actor": "act_brand_hewlett_packard_enterprise",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in 3TG Facility List of facilities reported by suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_hewlett_packard_enterprise_ry2024",
+      "src_sec_hewlett_packard_enterprise_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_hewlett_packard_enterprise_kingxing",
+    "brand_actor": "act_brand_hewlett_packard_enterprise",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in 3TG Facility List of facilities reported by suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_hewlett_packard_enterprise_ry2024",
+      "src_sec_hewlett_packard_enterprise_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_hewlett_packard_enterprise_otic",
+    "brand_actor": "act_brand_hewlett_packard_enterprise",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in 3TG Facility List of facilities reported by suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_hewlett_packard_enterprise_ry2024",
+      "src_sec_hewlett_packard_enterprise_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_hewlett_packard_enterprise_tanbre",
+    "brand_actor": "act_brand_hewlett_packard_enterprise",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in 3TG Facility List of facilities reported by suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_hewlett_packard_enterprise_ry2024",
+      "src_sec_hewlett_packard_enterprise_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_hewlett_packard_enterprise_taniobis_th",
+    "brand_actor": "act_brand_hewlett_packard_enterprise",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in 3TG Facility List of facilities reported by suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_hewlett_packard_enterprise_ry2024",
+      "src_sec_hewlett_packard_enterprise_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_hewlett_packard_enterprise_ulba",
+    "brand_actor": "act_brand_hewlett_packard_enterprise",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in 3TG Facility List of facilities reported by suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_hewlett_packard_enterprise_ry2024",
+      "src_sec_hewlett_packard_enterprise_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_hewlett_packard_enterprise_ximei",
+    "brand_actor": "act_brand_hewlett_packard_enterprise",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in 3TG Facility List of facilities reported by suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_hewlett_packard_enterprise_ry2024",
+      "src_sec_hewlett_packard_enterprise_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_hewlett_packard_enterprise_zhongao",
+    "brand_actor": "act_brand_hewlett_packard_enterprise",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in 3TG Facility List of facilities reported by suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_hewlett_packard_enterprise_ry2024",
+      "src_sec_hewlett_packard_enterprise_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honda_jinxin",
+    "brand_actor": "act_brand_honda",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 1 of smelters suppliers reported as conformant, matched to the RMI list",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honda_ry2024",
+      "src_sec_honda_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honda_kingxing",
+    "brand_actor": "act_brand_honda",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 1 of smelters suppliers reported as conformant, matched to the RMI list",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honda_ry2024",
+      "src_sec_honda_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honda_otic",
+    "brand_actor": "act_brand_honda",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 1 of smelters suppliers reported as conformant, matched to the RMI list",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honda_ry2024",
+      "src_sec_honda_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honda_tanbre",
+    "brand_actor": "act_brand_honda",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 1 of smelters suppliers reported as conformant, matched to the RMI list",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honda_ry2024",
+      "src_sec_honda_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honda_taniobis_th",
+    "brand_actor": "act_brand_honda",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 1 of smelters suppliers reported as conformant, matched to the RMI list",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honda_ry2024",
+      "src_sec_honda_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honda_ulba",
+    "brand_actor": "act_brand_honda",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 1 of smelters suppliers reported as conformant, matched to the RMI list",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honda_ry2024",
+      "src_sec_honda_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honda_ximei",
+    "brand_actor": "act_brand_honda",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 1 of smelters suppliers reported as conformant, matched to the RMI list",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honda_ry2024",
+      "src_sec_honda_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honda_zhongao",
+    "brand_actor": "act_brand_honda",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-26",
+    "wording": "Listed in Annex 1 of smelters suppliers reported as conformant, matched to the RMI list",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honda_ry2024",
+      "src_sec_honda_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honeywell_otic",
+    "brand_actor": "act_brand_honeywell",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of smelters identified as potentially sourcing from Covered Countries, each verified conformant by Honeywell",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honeywell_ry2024",
+      "src_sec_honeywell_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honeywell_tanbre",
+    "brand_actor": "act_brand_honeywell",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2025-06-02",
+    "wording": "Listed in Annex I of smelters identified as potentially sourcing from Covered Countries, each verified conformant by Honeywell",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honeywell_ry2024"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honeywell_taniobis_th",
+    "brand_actor": "act_brand_honeywell",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of smelters identified as potentially sourcing from Covered Countries, each verified conformant by Honeywell",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honeywell_ry2024",
+      "src_sec_honeywell_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honeywell_ulba",
+    "brand_actor": "act_brand_honeywell",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of smelters identified as potentially sourcing from Covered Countries, each verified conformant by Honeywell",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honeywell_ry2024",
+      "src_sec_honeywell_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honeywell_ximei",
+    "brand_actor": "act_brand_honeywell",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2025-06-02",
+    "wording": "Listed in Annex I of smelters identified as potentially sourcing from Covered Countries, each verified conformant by Honeywell",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honeywell_ry2024"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_honeywell_zhongao",
+    "brand_actor": "act_brand_honeywell",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex I of smelters identified as potentially sourcing from Covered Countries, each verified conformant by Honeywell",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honeywell_ry2024",
+      "src_sec_honeywell_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_howmet_aerospace_jinxin",
+    "brand_actor": "act_brand_howmet_aerospace",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex A of smelters suppliers reported as having processed 3TG in its in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_howmet_aerospace_ry2024",
+      "src_sec_howmet_aerospace_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_howmet_aerospace_kingxing",
+    "brand_actor": "act_brand_howmet_aerospace",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex A of smelters suppliers reported as having processed 3TG in its in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_howmet_aerospace_ry2024",
+      "src_sec_howmet_aerospace_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_howmet_aerospace_otic",
+    "brand_actor": "act_brand_howmet_aerospace",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex A of smelters suppliers reported as having processed 3TG in its in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_howmet_aerospace_ry2024",
+      "src_sec_howmet_aerospace_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_howmet_aerospace_tanbre",
+    "brand_actor": "act_brand_howmet_aerospace",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex A of smelters suppliers reported as having processed 3TG in its in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_howmet_aerospace_ry2024",
+      "src_sec_howmet_aerospace_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_howmet_aerospace_taniobis_th",
+    "brand_actor": "act_brand_howmet_aerospace",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex A of smelters suppliers reported as having processed 3TG in its in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_howmet_aerospace_ry2024",
+      "src_sec_howmet_aerospace_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_howmet_aerospace_ulba",
+    "brand_actor": "act_brand_howmet_aerospace",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex A of smelters suppliers reported as having processed 3TG in its in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_howmet_aerospace_ry2024",
+      "src_sec_howmet_aerospace_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_howmet_aerospace_ximei",
+    "brand_actor": "act_brand_howmet_aerospace",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex A of smelters suppliers reported as having processed 3TG in its in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_howmet_aerospace_ry2024",
+      "src_sec_howmet_aerospace_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_howmet_aerospace_zhongao",
+    "brand_actor": "act_brand_howmet_aerospace",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex A of smelters suppliers reported as having processed 3TG in its in-scope products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_howmet_aerospace_ry2024",
+      "src_sec_howmet_aerospace_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_intel_jinxin",
+    "brand_actor": "act_brand_intel",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-19",
+    "wording": "Listed in Table 2 of facilities that, to the extent known, processed minerals in its products, based on supplier responses",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_intel_ry2024",
+      "src_sec_intel_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_intel_kingxing",
+    "brand_actor": "act_brand_intel",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-19",
+    "wording": "Listed in Table 2 of facilities that, to the extent known, processed minerals in its products, based on supplier responses",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_intel_ry2024",
+      "src_sec_intel_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_intel_otic",
+    "brand_actor": "act_brand_intel",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-19",
+    "wording": "Listed in Table 2 of facilities that, to the extent known, processed minerals in its products, based on supplier responses",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_intel_ry2024",
+      "src_sec_intel_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_intel_tanbre",
+    "brand_actor": "act_brand_intel",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-19",
+    "wording": "Listed in Table 2 of facilities that, to the extent known, processed minerals in its products, based on supplier responses",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_intel_ry2024",
+      "src_sec_intel_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_intel_taniobis_th",
+    "brand_actor": "act_brand_intel",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-19",
+    "wording": "Listed in Table 2 of facilities that, to the extent known, processed minerals in its products, based on supplier responses",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_intel_ry2024",
+      "src_sec_intel_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_intel_ulba",
+    "brand_actor": "act_brand_intel",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-19",
+    "wording": "Listed in Table 2 of facilities that, to the extent known, processed minerals in its products, based on supplier responses",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_intel_ry2024",
+      "src_sec_intel_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_intel_ximei",
+    "brand_actor": "act_brand_intel",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-19",
+    "wording": "Listed in Table 2 of facilities that, to the extent known, processed minerals in its products, based on supplier responses",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_intel_ry2024",
+      "src_sec_intel_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_intel_zhongao",
+    "brand_actor": "act_brand_intel",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-19",
+    "wording": "Listed in Table 2 of facilities that, to the extent known, processed minerals in its products, based on supplier responses",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_intel_ry2024",
+      "src_sec_intel_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_kemet_yageo_jinxin",
+    "brand_actor": "act_brand_kemet_yageo",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2025
+    ],
+    "form": "Voluntary CMR (not SEC)",
+    "latest_filing": "2026-06",
+    "wording": "Listed in Table 1 of known facilities that processed minerals in KEMET products; KEMET says external tantalum came only from low-risk sources and conformant smelters",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_kemet_cmr_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_kemet_yageo_kingxing",
+    "brand_actor": "act_brand_kemet_yageo",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2025
+    ],
+    "form": "Voluntary CMR (not SEC)",
+    "latest_filing": "2026-06",
+    "wording": "Listed in Table 1 of known facilities that processed minerals in KEMET products; KEMET says external tantalum came only from low-risk sources and conformant smelters",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_kemet_cmr_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_kemet_yageo_otic",
+    "brand_actor": "act_brand_kemet_yageo",
+    "smelter_actor": "act_otic",
+    "years": [
+      2025
+    ],
+    "form": "Voluntary CMR (not SEC)",
+    "latest_filing": "2026-06",
+    "wording": "Listed in Table 1 of known facilities that processed minerals in KEMET products; KEMET says external tantalum came only from low-risk sources and conformant smelters",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_kemet_cmr_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_kemet_yageo_tanbre",
+    "brand_actor": "act_brand_kemet_yageo",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2025
+    ],
+    "form": "Voluntary CMR (not SEC)",
+    "latest_filing": "2026-06",
+    "wording": "Listed in Table 1 of known facilities that processed minerals in KEMET products; KEMET says external tantalum came only from low-risk sources and conformant smelters",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_kemet_cmr_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_kemet_yageo_taniobis_th",
+    "brand_actor": "act_brand_kemet_yageo",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2025
+    ],
+    "form": "Voluntary CMR (not SEC)",
+    "latest_filing": "2026-06",
+    "wording": "Listed in Table 1 of known facilities that processed minerals in KEMET products; KEMET says external tantalum came only from low-risk sources and conformant smelters",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_kemet_cmr_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_kemet_yageo_zhongao",
+    "brand_actor": "act_brand_kemet_yageo",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2025
+    ],
+    "form": "Voluntary CMR (not SEC)",
+    "latest_filing": "2026-06",
+    "wording": "Listed in Table 1 of known facilities that processed minerals in KEMET products; KEMET says external tantalum came only from low-risk sources and conformant smelters",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_kemet_cmr_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_lg_display_jinxin",
+    "brand_actor": "act_brand_lg_display",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex I of conformant smelters and refiners",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_lg_display_ry2024",
+      "src_sec_lg_display_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_lg_display_kingxing",
+    "brand_actor": "act_brand_lg_display",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex I of conformant smelters and refiners",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_lg_display_ry2024",
+      "src_sec_lg_display_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_lg_display_otic",
+    "brand_actor": "act_brand_lg_display",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex I of conformant smelters and refiners",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_lg_display_ry2024",
+      "src_sec_lg_display_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_lg_display_tanbre",
+    "brand_actor": "act_brand_lg_display",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex I of conformant smelters and refiners",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_lg_display_ry2024",
+      "src_sec_lg_display_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_lg_display_taniobis_th",
+    "brand_actor": "act_brand_lg_display",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex I of conformant smelters and refiners",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_lg_display_ry2024",
+      "src_sec_lg_display_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_lg_display_ulba",
+    "brand_actor": "act_brand_lg_display",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex I of conformant smelters and refiners",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_lg_display_ry2024",
+      "src_sec_lg_display_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_lg_display_ximei",
+    "brand_actor": "act_brand_lg_display",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex I of conformant smelters and refiners",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_lg_display_ry2024",
+      "src_sec_lg_display_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_lg_display_zhongao",
+    "brand_actor": "act_brand_lg_display",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex I of conformant smelters and refiners",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_lg_display_ry2024",
+      "src_sec_lg_display_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_leonardo_drs_jinxin",
+    "brand_actor": "act_brand_leonardo_drs",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A; company says the list is likely more comprehensive than those that actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_leonardo_drs_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_leonardo_drs_kingxing",
+    "brand_actor": "act_brand_leonardo_drs",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A; company says the list is likely more comprehensive than those that actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_leonardo_drs_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_leonardo_drs_otic",
+    "brand_actor": "act_brand_leonardo_drs",
+    "smelter_actor": "act_otic",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A; company says the list is likely more comprehensive than those that actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_leonardo_drs_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_leonardo_drs_tanbre",
+    "brand_actor": "act_brand_leonardo_drs",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A; company says the list is likely more comprehensive than those that actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_leonardo_drs_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_leonardo_drs_taniobis_th",
+    "brand_actor": "act_brand_leonardo_drs",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A; company says the list is likely more comprehensive than those that actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_leonardo_drs_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_leonardo_drs_ulba",
+    "brand_actor": "act_brand_leonardo_drs",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A; company says the list is likely more comprehensive than those that actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_leonardo_drs_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_leonardo_drs_ximei",
+    "brand_actor": "act_brand_leonardo_drs",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A; company says the list is likely more comprehensive than those that actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_leonardo_drs_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_leonardo_drs_zhongao",
+    "brand_actor": "act_brand_leonardo_drs",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Appendix A; company says the list is likely more comprehensive than those that actually processed its 3TG",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_leonardo_drs_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_logitech_jinxin",
+    "brand_actor": "act_brand_logitech",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters identified in its supply chain from supplier CMRTs",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_logitech_ry2024",
+      "src_sec_logitech_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_logitech_kingxing",
+    "brand_actor": "act_brand_logitech",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters identified in its supply chain from supplier CMRTs",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_logitech_ry2024",
+      "src_sec_logitech_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_logitech_otic",
+    "brand_actor": "act_brand_logitech",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters identified in its supply chain from supplier CMRTs",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_logitech_ry2024",
+      "src_sec_logitech_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_logitech_tanbre",
+    "brand_actor": "act_brand_logitech",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters identified in its supply chain from supplier CMRTs",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_logitech_ry2024",
+      "src_sec_logitech_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_logitech_taniobis_th",
+    "brand_actor": "act_brand_logitech",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters identified in its supply chain from supplier CMRTs",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_logitech_ry2024",
+      "src_sec_logitech_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_logitech_ulba",
+    "brand_actor": "act_brand_logitech",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters identified in its supply chain from supplier CMRTs",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_logitech_ry2024",
+      "src_sec_logitech_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_logitech_ximei",
+    "brand_actor": "act_brand_logitech",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters identified in its supply chain from supplier CMRTs",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_logitech_ry2024",
+      "src_sec_logitech_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_logitech_zhongao",
+    "brand_actor": "act_brand_logitech",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of smelters identified in its supply chain from supplier CMRTs",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_logitech_ry2024",
+      "src_sec_logitech_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_medtronic_jinxin",
+    "brand_actor": "act_brand_medtronic",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I smelters and refiners table for the reporting year",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_medtronic_ry2024",
+      "src_sec_medtronic_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_medtronic_kingxing",
+    "brand_actor": "act_brand_medtronic",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I smelters and refiners table for the reporting year",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_medtronic_ry2024",
+      "src_sec_medtronic_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_medtronic_otic",
+    "brand_actor": "act_brand_medtronic",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I smelters and refiners table for the reporting year",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_medtronic_ry2024",
+      "src_sec_medtronic_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_medtronic_tanbre",
+    "brand_actor": "act_brand_medtronic",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I smelters and refiners table for the reporting year",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_medtronic_ry2024",
+      "src_sec_medtronic_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_medtronic_taniobis_th",
+    "brand_actor": "act_brand_medtronic",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I smelters and refiners table for the reporting year",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_medtronic_ry2024",
+      "src_sec_medtronic_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_medtronic_ulba",
+    "brand_actor": "act_brand_medtronic",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I smelters and refiners table for the reporting year",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_medtronic_ry2024",
+      "src_sec_medtronic_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_medtronic_ximei",
+    "brand_actor": "act_brand_medtronic",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I smelters and refiners table for the reporting year",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_medtronic_ry2024",
+      "src_sec_medtronic_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_medtronic_zhongao",
+    "brand_actor": "act_brand_medtronic",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I smelters and refiners table for the reporting year",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_medtronic_ry2024",
+      "src_sec_medtronic_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_micron_jinxin",
+    "brand_actor": "act_brand_micron",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-20",
+    "wording": "Listed in Appendix A of potential smelters in its memory and storage supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_micron_ry2024",
+      "src_sec_micron_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_micron_kingxing",
+    "brand_actor": "act_brand_micron",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-20",
+    "wording": "Listed in Appendix A of potential smelters in its memory and storage supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_micron_ry2024",
+      "src_sec_micron_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_micron_otic",
+    "brand_actor": "act_brand_micron",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-20",
+    "wording": "Listed in Appendix A of potential smelters in its memory and storage supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_micron_ry2024",
+      "src_sec_micron_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_micron_tanbre",
+    "brand_actor": "act_brand_micron",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-20",
+    "wording": "Listed in Appendix A of potential smelters in its memory and storage supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_micron_ry2024",
+      "src_sec_micron_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_micron_taniobis_th",
+    "brand_actor": "act_brand_micron",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-20",
+    "wording": "Listed in Appendix A of potential smelters in its memory and storage supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_micron_ry2024",
+      "src_sec_micron_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_micron_ulba",
+    "brand_actor": "act_brand_micron",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-20",
+    "wording": "Listed in Appendix A of potential smelters in its memory and storage supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_micron_ry2024",
+      "src_sec_micron_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_micron_ximei",
+    "brand_actor": "act_brand_micron",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-20",
+    "wording": "Listed in Appendix A of potential smelters in its memory and storage supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_micron_ry2024",
+      "src_sec_micron_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_micron_zhongao",
+    "brand_actor": "act_brand_micron",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-20",
+    "wording": "Listed in Appendix A of potential smelters in its memory and storage supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_micron_ry2024",
+      "src_sec_micron_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_microsoft_jinxin",
+    "brand_actor": "act_brand_microsoft",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of eligible smelters identified in the Microsoft Devices supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_microsoft_ry2024",
+      "src_sec_microsoft_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_microsoft_kingxing",
+    "brand_actor": "act_brand_microsoft",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of eligible smelters identified in the Microsoft Devices supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_microsoft_ry2024",
+      "src_sec_microsoft_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_microsoft_otic",
+    "brand_actor": "act_brand_microsoft",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of eligible smelters identified in the Microsoft Devices supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_microsoft_ry2024",
+      "src_sec_microsoft_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_microsoft_tanbre",
+    "brand_actor": "act_brand_microsoft",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of eligible smelters identified in the Microsoft Devices supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_microsoft_ry2024",
+      "src_sec_microsoft_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_microsoft_taniobis_th",
+    "brand_actor": "act_brand_microsoft",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of eligible smelters identified in the Microsoft Devices supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_microsoft_ry2024",
+      "src_sec_microsoft_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_microsoft_ulba",
+    "brand_actor": "act_brand_microsoft",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of eligible smelters identified in the Microsoft Devices supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_microsoft_ry2024",
+      "src_sec_microsoft_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_microsoft_ximei",
+    "brand_actor": "act_brand_microsoft",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of eligible smelters identified in the Microsoft Devices supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_microsoft_ry2024",
+      "src_sec_microsoft_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_microsoft_zhongao",
+    "brand_actor": "act_brand_microsoft",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Appendix A of eligible smelters identified in the Microsoft Devices supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_microsoft_ry2024",
+      "src_sec_microsoft_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_moog_jinxin",
+    "brand_actor": "act_brand_moog",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters reported to Moog as likely in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_moog_ry2024",
+      "src_sec_moog_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_moog_kingxing",
+    "brand_actor": "act_brand_moog",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters reported to Moog as likely in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_moog_ry2024",
+      "src_sec_moog_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_moog_otic",
+    "brand_actor": "act_brand_moog",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters reported to Moog as likely in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_moog_ry2024",
+      "src_sec_moog_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_moog_tanbre",
+    "brand_actor": "act_brand_moog",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters reported to Moog as likely in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_moog_ry2024",
+      "src_sec_moog_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_moog_taniobis_th",
+    "brand_actor": "act_brand_moog",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters reported to Moog as likely in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_moog_ry2024",
+      "src_sec_moog_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_moog_ulba",
+    "brand_actor": "act_brand_moog",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters reported to Moog as likely in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_moog_ry2024",
+      "src_sec_moog_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_moog_ximei",
+    "brand_actor": "act_brand_moog",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters reported to Moog as likely in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_moog_ry2024",
+      "src_sec_moog_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_moog_zhongao",
+    "brand_actor": "act_brand_moog",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters reported to Moog as likely in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_moog_ry2024",
+      "src_sec_moog_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_motorola_solutions_jinxin",
+    "brand_actor": "act_brand_motorola_solutions",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in Table 1 (RMAP conformant); listed facilities may have been used to process minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_motorola_solutions_ry2024",
+      "src_sec_motorola_solutions_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_motorola_solutions_kingxing",
+    "brand_actor": "act_brand_motorola_solutions",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in Table 1 (RMAP conformant); listed facilities may have been used to process minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_motorola_solutions_ry2024",
+      "src_sec_motorola_solutions_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_motorola_solutions_otic",
+    "brand_actor": "act_brand_motorola_solutions",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in Table 1 (RMAP conformant); listed facilities may have been used to process minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_motorola_solutions_ry2024",
+      "src_sec_motorola_solutions_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_motorola_solutions_tanbre",
+    "brand_actor": "act_brand_motorola_solutions",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in Table 1 (RMAP conformant); listed facilities may have been used to process minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_motorola_solutions_ry2024",
+      "src_sec_motorola_solutions_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_motorola_solutions_taniobis_th",
+    "brand_actor": "act_brand_motorola_solutions",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in Table 1 (RMAP conformant); listed facilities may have been used to process minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_motorola_solutions_ry2024",
+      "src_sec_motorola_solutions_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_motorola_solutions_ulba",
+    "brand_actor": "act_brand_motorola_solutions",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in Table 1 (RMAP conformant); listed facilities may have been used to process minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_motorola_solutions_ry2024",
+      "src_sec_motorola_solutions_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_motorola_solutions_ximei",
+    "brand_actor": "act_brand_motorola_solutions",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in Table 1 (RMAP conformant); listed facilities may have been used to process minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_motorola_solutions_ry2024",
+      "src_sec_motorola_solutions_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_motorola_solutions_zhongao",
+    "brand_actor": "act_brand_motorola_solutions",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-18",
+    "wording": "Listed in Table 1 (RMAP conformant); listed facilities may have been used to process minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_motorola_solutions_ry2024",
+      "src_sec_motorola_solutions_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nvidia_jinxin",
+    "brand_actor": "act_brand_nvidia",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Exhibit A of smelters reported in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nvidia_ry2024",
+      "src_sec_nvidia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nvidia_kingxing",
+    "brand_actor": "act_brand_nvidia",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Exhibit A of smelters reported in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nvidia_ry2024",
+      "src_sec_nvidia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nvidia_otic",
+    "brand_actor": "act_brand_nvidia",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Exhibit A of smelters reported in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nvidia_ry2024",
+      "src_sec_nvidia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nvidia_tanbre",
+    "brand_actor": "act_brand_nvidia",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Exhibit A of smelters reported in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nvidia_ry2024",
+      "src_sec_nvidia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nvidia_taniobis_th",
+    "brand_actor": "act_brand_nvidia",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Exhibit A of smelters reported in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nvidia_ry2024",
+      "src_sec_nvidia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nvidia_ulba",
+    "brand_actor": "act_brand_nvidia",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Exhibit A of smelters reported in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nvidia_ry2024",
+      "src_sec_nvidia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nvidia_ximei",
+    "brand_actor": "act_brand_nvidia",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Exhibit A of smelters reported in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nvidia_ry2024",
+      "src_sec_nvidia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nvidia_zhongao",
+    "brand_actor": "act_brand_nvidia",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Exhibit A of smelters reported in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nvidia_ry2024",
+      "src_sec_nvidia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nxp_jinxin",
+    "brand_actor": "act_brand_nxp",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I of facilities that may have been used to process its minerals",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nxp_ry2024",
+      "src_sec_nxp_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nxp_kingxing",
+    "brand_actor": "act_brand_nxp",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I of facilities that may have been used to process its minerals",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nxp_ry2024",
+      "src_sec_nxp_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nxp_otic",
+    "brand_actor": "act_brand_nxp",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I of facilities that may have been used to process its minerals",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nxp_ry2024",
+      "src_sec_nxp_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nxp_tanbre",
+    "brand_actor": "act_brand_nxp",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I of facilities that may have been used to process its minerals",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nxp_ry2024",
+      "src_sec_nxp_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nxp_taniobis_th",
+    "brand_actor": "act_brand_nxp",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I of facilities that may have been used to process its minerals",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nxp_ry2024",
+      "src_sec_nxp_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nxp_ulba",
+    "brand_actor": "act_brand_nxp",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I of facilities that may have been used to process its minerals",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nxp_ry2024",
+      "src_sec_nxp_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nxp_ximei",
+    "brand_actor": "act_brand_nxp",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I of facilities that may have been used to process its minerals",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nxp_ry2024",
+      "src_sec_nxp_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nxp_zhongao",
+    "brand_actor": "act_brand_nxp",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed in Annex I of facilities that may have been used to process its minerals",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nxp_ry2024",
+      "src_sec_nxp_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nokia_jinxin",
+    "brand_actor": "act_brand_nokia",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-21",
+    "wording": "Listed in tables of facilities identified through due diligence as having processed minerals in Nokia products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nokia_ry2024",
+      "src_sec_nokia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nokia_kingxing",
+    "brand_actor": "act_brand_nokia",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-21",
+    "wording": "Listed in tables of facilities identified through due diligence as having processed minerals in Nokia products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nokia_ry2024",
+      "src_sec_nokia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nokia_otic",
+    "brand_actor": "act_brand_nokia",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-21",
+    "wording": "Listed in tables of facilities identified through due diligence as having processed minerals in Nokia products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nokia_ry2024",
+      "src_sec_nokia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nokia_tanbre",
+    "brand_actor": "act_brand_nokia",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-21",
+    "wording": "Listed in tables of facilities identified through due diligence as having processed minerals in Nokia products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nokia_ry2024",
+      "src_sec_nokia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nokia_taniobis_th",
+    "brand_actor": "act_brand_nokia",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-21",
+    "wording": "Listed in tables of facilities identified through due diligence as having processed minerals in Nokia products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nokia_ry2024",
+      "src_sec_nokia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nokia_ulba",
+    "brand_actor": "act_brand_nokia",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-21",
+    "wording": "Listed in tables of facilities identified through due diligence as having processed minerals in Nokia products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nokia_ry2024",
+      "src_sec_nokia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nokia_ximei",
+    "brand_actor": "act_brand_nokia",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-21",
+    "wording": "Listed in tables of facilities identified through due diligence as having processed minerals in Nokia products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nokia_ry2024",
+      "src_sec_nokia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_nokia_zhongao",
+    "brand_actor": "act_brand_nokia",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-21",
+    "wording": "Listed in tables of facilities identified through due diligence as having processed minerals in Nokia products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nokia_ry2024",
+      "src_sec_nokia_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_philips_jinxin",
+    "brand_actor": "act_brand_philips",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed among smelters that may have been used to process metals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_philips_ry2024",
+      "src_sec_philips_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_philips_kingxing",
+    "brand_actor": "act_brand_philips",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed among smelters that may have been used to process metals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_philips_ry2024",
+      "src_sec_philips_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_philips_otic",
+    "brand_actor": "act_brand_philips",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed among smelters that may have been used to process metals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_philips_ry2024",
+      "src_sec_philips_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_philips_tanbre",
+    "brand_actor": "act_brand_philips",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed among smelters that may have been used to process metals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_philips_ry2024",
+      "src_sec_philips_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_philips_taniobis_th",
+    "brand_actor": "act_brand_philips",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed among smelters that may have been used to process metals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_philips_ry2024",
+      "src_sec_philips_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_philips_ulba",
+    "brand_actor": "act_brand_philips",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed among smelters that may have been used to process metals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_philips_ry2024",
+      "src_sec_philips_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_philips_ximei",
+    "brand_actor": "act_brand_philips",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed among smelters that may have been used to process metals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_philips_ry2024",
+      "src_sec_philips_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_philips_zhongao",
+    "brand_actor": "act_brand_philips",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed among smelters that may have been used to process metals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_philips_ry2024",
+      "src_sec_philips_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_qualcomm_jinxin",
+    "brand_actor": "act_brand_qualcomm",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Table 1 as reported by direct suppliers; Qualcomm says the list may over-represent facilities in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_qualcomm_ry2024",
+      "src_sec_qualcomm_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_qualcomm_kingxing",
+    "brand_actor": "act_brand_qualcomm",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Table 1 as reported by direct suppliers; Qualcomm says the list may over-represent facilities in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_qualcomm_ry2024",
+      "src_sec_qualcomm_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_qualcomm_otic",
+    "brand_actor": "act_brand_qualcomm",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Table 1 as reported by direct suppliers; Qualcomm says the list may over-represent facilities in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_qualcomm_ry2024",
+      "src_sec_qualcomm_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_qualcomm_tanbre",
+    "brand_actor": "act_brand_qualcomm",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Table 1 as reported by direct suppliers; Qualcomm says the list may over-represent facilities in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_qualcomm_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_qualcomm_taniobis_th",
+    "brand_actor": "act_brand_qualcomm",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Table 1 as reported by direct suppliers; Qualcomm says the list may over-represent facilities in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_qualcomm_ry2024",
+      "src_sec_qualcomm_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_qualcomm_ulba",
+    "brand_actor": "act_brand_qualcomm",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Table 1 as reported by direct suppliers; Qualcomm says the list may over-represent facilities in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_qualcomm_ry2024",
+      "src_sec_qualcomm_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_qualcomm_ximei",
+    "brand_actor": "act_brand_qualcomm",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Table 1 as reported by direct suppliers; Qualcomm says the list may over-represent facilities in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_qualcomm_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_qualcomm_zhongao",
+    "brand_actor": "act_brand_qualcomm",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Table 1 as reported by direct suppliers; Qualcomm says the list may over-represent facilities in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_qualcomm_ry2024",
+      "src_sec_qualcomm_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_rocket_lab_jinxin",
+    "brand_actor": "act_brand_rocket_lab",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_rocket_lab_ry2024",
+      "src_sec_rocket_lab_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_rocket_lab_kingxing",
+    "brand_actor": "act_brand_rocket_lab",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_rocket_lab_ry2024",
+      "src_sec_rocket_lab_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_rocket_lab_otic",
+    "brand_actor": "act_brand_rocket_lab",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_rocket_lab_ry2024",
+      "src_sec_rocket_lab_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_rocket_lab_tanbre",
+    "brand_actor": "act_brand_rocket_lab",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_rocket_lab_ry2024",
+      "src_sec_rocket_lab_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_rocket_lab_taniobis_th",
+    "brand_actor": "act_brand_rocket_lab",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_rocket_lab_ry2024",
+      "src_sec_rocket_lab_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_rocket_lab_ulba",
+    "brand_actor": "act_brand_rocket_lab",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_rocket_lab_ry2024",
+      "src_sec_rocket_lab_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_rocket_lab_ximei",
+    "brand_actor": "act_brand_rocket_lab",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_rocket_lab_ry2024",
+      "src_sec_rocket_lab_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_rocket_lab_zhongao",
+    "brand_actor": "act_brand_rocket_lab",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_rocket_lab_ry2024",
+      "src_sec_rocket_lab_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_stmicroelectronics_jinxin",
+    "brand_actor": "act_brand_stmicroelectronics",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed in Table 1; identified by suppliers as potentially in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_stmicroelectronics_ry2024",
+      "src_sec_stmicroelectronics_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_stmicroelectronics_kingxing",
+    "brand_actor": "act_brand_stmicroelectronics",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed in Table 1; identified by suppliers as potentially in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_stmicroelectronics_ry2024",
+      "src_sec_stmicroelectronics_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_stmicroelectronics_otic",
+    "brand_actor": "act_brand_stmicroelectronics",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed in Table 1; identified by suppliers as potentially in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_stmicroelectronics_ry2024",
+      "src_sec_stmicroelectronics_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_stmicroelectronics_tanbre",
+    "brand_actor": "act_brand_stmicroelectronics",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed in Table 1; identified by suppliers as potentially in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_stmicroelectronics_ry2024",
+      "src_sec_stmicroelectronics_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_stmicroelectronics_taniobis_th",
+    "brand_actor": "act_brand_stmicroelectronics",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed in Table 1; identified by suppliers as potentially in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_stmicroelectronics_ry2024",
+      "src_sec_stmicroelectronics_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_stmicroelectronics_ulba",
+    "brand_actor": "act_brand_stmicroelectronics",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed in Table 1; identified by suppliers as potentially in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_stmicroelectronics_ry2024",
+      "src_sec_stmicroelectronics_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_stmicroelectronics_ximei",
+    "brand_actor": "act_brand_stmicroelectronics",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed in Table 1; identified by suppliers as potentially in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_stmicroelectronics_ry2024",
+      "src_sec_stmicroelectronics_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_stmicroelectronics_zhongao",
+    "brand_actor": "act_brand_stmicroelectronics",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-12",
+    "wording": "Listed in Table 1; identified by suppliers as potentially in its supply chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_stmicroelectronics_ry2024",
+      "src_sec_stmicroelectronics_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_sony_jinxin",
+    "brand_actor": "act_brand_sony",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex II of smelters that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_sony_ry2024",
+      "src_sec_sony_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_sony_kingxing",
+    "brand_actor": "act_brand_sony",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex II of smelters that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_sony_ry2024",
+      "src_sec_sony_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_sony_otic",
+    "brand_actor": "act_brand_sony",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex II of smelters that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_sony_ry2024",
+      "src_sec_sony_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_sony_tanbre",
+    "brand_actor": "act_brand_sony",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex II of smelters that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_sony_ry2024",
+      "src_sec_sony_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_sony_taniobis_th",
+    "brand_actor": "act_brand_sony",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex II of smelters that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_sony_ry2024",
+      "src_sec_sony_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_sony_ulba",
+    "brand_actor": "act_brand_sony",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex II of smelters that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_sony_ry2024",
+      "src_sec_sony_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_sony_ximei",
+    "brand_actor": "act_brand_sony",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex II of smelters that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_sony_ry2024",
+      "src_sec_sony_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_sony_zhongao",
+    "brand_actor": "act_brand_sony",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Annex II of smelters that may have been used to process 3TG in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_sony_ry2024",
+      "src_sec_sony_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_t_mobile_us_jinxin",
+    "brand_actor": "act_brand_t_mobile_us",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Annex A; may have contributed 3TG to a single covered product",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_t_mobile_us_ry2024",
+      "src_sec_t_mobile_us_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_t_mobile_us_kingxing",
+    "brand_actor": "act_brand_t_mobile_us",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Annex A; may have contributed 3TG to a single covered product",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_t_mobile_us_ry2024",
+      "src_sec_t_mobile_us_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_t_mobile_us_otic",
+    "brand_actor": "act_brand_t_mobile_us",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Annex A; may have contributed 3TG to a single covered product",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_t_mobile_us_ry2024",
+      "src_sec_t_mobile_us_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_t_mobile_us_tanbre",
+    "brand_actor": "act_brand_t_mobile_us",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Annex A; may have contributed 3TG to a single covered product",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_t_mobile_us_ry2024",
+      "src_sec_t_mobile_us_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_t_mobile_us_taniobis_th",
+    "brand_actor": "act_brand_t_mobile_us",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Annex A; may have contributed 3TG to a single covered product",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_t_mobile_us_ry2024",
+      "src_sec_t_mobile_us_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_t_mobile_us_ulba",
+    "brand_actor": "act_brand_t_mobile_us",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Annex A; may have contributed 3TG to a single covered product",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_t_mobile_us_ry2024",
+      "src_sec_t_mobile_us_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_t_mobile_us_ximei",
+    "brand_actor": "act_brand_t_mobile_us",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Annex A; may have contributed 3TG to a single covered product",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_t_mobile_us_ry2024",
+      "src_sec_t_mobile_us_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_t_mobile_us_zhongao",
+    "brand_actor": "act_brand_t_mobile_us",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-15",
+    "wording": "Listed in Annex A; may have contributed 3TG to a single covered product",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_t_mobile_us_ry2024",
+      "src_sec_t_mobile_us_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_te_connectivity_jinxin",
+    "brand_actor": "act_brand_te_connectivity",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Exhibit A of smelters that, to the extent known, may have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_te_connectivity_ry2024",
+      "src_sec_te_connectivity_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_te_connectivity_kingxing",
+    "brand_actor": "act_brand_te_connectivity",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Exhibit A of smelters that, to the extent known, may have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_te_connectivity_ry2024",
+      "src_sec_te_connectivity_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_te_connectivity_otic",
+    "brand_actor": "act_brand_te_connectivity",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Exhibit A of smelters that, to the extent known, may have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_te_connectivity_ry2024",
+      "src_sec_te_connectivity_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_te_connectivity_tanbre",
+    "brand_actor": "act_brand_te_connectivity",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Exhibit A of smelters that, to the extent known, may have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_te_connectivity_ry2024",
+      "src_sec_te_connectivity_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_te_connectivity_taniobis_th",
+    "brand_actor": "act_brand_te_connectivity",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Exhibit A of smelters that, to the extent known, may have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_te_connectivity_ry2024",
+      "src_sec_te_connectivity_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_te_connectivity_ulba",
+    "brand_actor": "act_brand_te_connectivity",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Exhibit A of smelters that, to the extent known, may have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_te_connectivity_ry2024",
+      "src_sec_te_connectivity_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_te_connectivity_ximei",
+    "brand_actor": "act_brand_te_connectivity",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Exhibit A of smelters that, to the extent known, may have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_te_connectivity_ry2024",
+      "src_sec_te_connectivity_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_te_connectivity_zhongao",
+    "brand_actor": "act_brand_te_connectivity",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Exhibit A of smelters that, to the extent known, may have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_te_connectivity_ry2024",
+      "src_sec_te_connectivity_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_tsmc_jinxin",
+    "brand_actor": "act_brand_tsmc",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Exhibit I of smelters reasonably identified as known to have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_tsmc_ry2024",
+      "src_sec_tsmc_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_tsmc_kingxing",
+    "brand_actor": "act_brand_tsmc",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Exhibit I of smelters reasonably identified as known to have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_tsmc_ry2024",
+      "src_sec_tsmc_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_tsmc_otic",
+    "brand_actor": "act_brand_tsmc",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Exhibit I of smelters reasonably identified as known to have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_tsmc_ry2024",
+      "src_sec_tsmc_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_tsmc_tanbre",
+    "brand_actor": "act_brand_tsmc",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Exhibit I of smelters reasonably identified as known to have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_tsmc_ry2024",
+      "src_sec_tsmc_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_tsmc_taniobis_th",
+    "brand_actor": "act_brand_tsmc",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Exhibit I of smelters reasonably identified as known to have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_tsmc_ry2024",
+      "src_sec_tsmc_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_tsmc_ulba",
+    "brand_actor": "act_brand_tsmc",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Exhibit I of smelters reasonably identified as known to have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_tsmc_ry2024",
+      "src_sec_tsmc_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_tsmc_ximei",
+    "brand_actor": "act_brand_tsmc",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Exhibit I of smelters reasonably identified as known to have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_tsmc_ry2024",
+      "src_sec_tsmc_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_tsmc_zhongao",
+    "brand_actor": "act_brand_tsmc",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-27",
+    "wording": "Listed in Exhibit I of smelters reasonably identified as known to have processed minerals in its products",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_tsmc_ry2024",
+      "src_sec_tsmc_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_texas_instruments_jinxin",
+    "brand_actor": "act_brand_texas_instruments",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-06-01",
+    "wording": "Listed in Appendix A as potentially in its supply chain; TI says listing does not mean its products contained that metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_texas_instruments_ry2024",
+      "src_sec_texas_instruments_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_texas_instruments_kingxing",
+    "brand_actor": "act_brand_texas_instruments",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-06-01",
+    "wording": "Listed in Appendix A as potentially in its supply chain; TI says listing does not mean its products contained that metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_texas_instruments_ry2024",
+      "src_sec_texas_instruments_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_texas_instruments_otic",
+    "brand_actor": "act_brand_texas_instruments",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-06-01",
+    "wording": "Listed in Appendix A as potentially in its supply chain; TI says listing does not mean its products contained that metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_texas_instruments_ry2024",
+      "src_sec_texas_instruments_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_texas_instruments_tanbre",
+    "brand_actor": "act_brand_texas_instruments",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-06-01",
+    "wording": "Listed in Appendix A as potentially in its supply chain; TI says listing does not mean its products contained that metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_texas_instruments_ry2024",
+      "src_sec_texas_instruments_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_texas_instruments_taniobis_th",
+    "brand_actor": "act_brand_texas_instruments",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-06-01",
+    "wording": "Listed in Appendix A as potentially in its supply chain; TI says listing does not mean its products contained that metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_texas_instruments_ry2024",
+      "src_sec_texas_instruments_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_texas_instruments_ulba",
+    "brand_actor": "act_brand_texas_instruments",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-06-01",
+    "wording": "Listed in Appendix A as potentially in its supply chain; TI says listing does not mean its products contained that metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_texas_instruments_ry2024",
+      "src_sec_texas_instruments_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_texas_instruments_ximei",
+    "brand_actor": "act_brand_texas_instruments",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-06-01",
+    "wording": "Listed in Appendix A as potentially in its supply chain; TI says listing does not mean its products contained that metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_texas_instruments_ry2024",
+      "src_sec_texas_instruments_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_texas_instruments_zhongao",
+    "brand_actor": "act_brand_texas_instruments",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-06-01",
+    "wording": "Listed in Appendix A as potentially in its supply chain; TI says listing does not mean its products contained that metal",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_texas_instruments_ry2024",
+      "src_sec_texas_instruments_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_toyota_jinxin",
+    "brand_actor": "act_brand_toyota",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex 1 of smelters reported as conformant; Toyota says company-level replies mean it cannot confirm or negate use",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_toyota_ry2024",
+      "src_sec_toyota_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_toyota_kingxing",
+    "brand_actor": "act_brand_toyota",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex 1 of smelters reported as conformant; Toyota says company-level replies mean it cannot confirm or negate use",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_toyota_ry2024",
+      "src_sec_toyota_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_toyota_otic",
+    "brand_actor": "act_brand_toyota",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex 1 of smelters reported as conformant; Toyota says company-level replies mean it cannot confirm or negate use",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_toyota_ry2024",
+      "src_sec_toyota_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_toyota_tanbre",
+    "brand_actor": "act_brand_toyota",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex 1 of smelters reported as conformant; Toyota says company-level replies mean it cannot confirm or negate use",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_toyota_ry2024",
+      "src_sec_toyota_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_toyota_taniobis_th",
+    "brand_actor": "act_brand_toyota",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex 1 of smelters reported as conformant; Toyota says company-level replies mean it cannot confirm or negate use",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_toyota_ry2024",
+      "src_sec_toyota_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_toyota_ulba",
+    "brand_actor": "act_brand_toyota",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex 1 of smelters reported as conformant; Toyota says company-level replies mean it cannot confirm or negate use",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_toyota_ry2024",
+      "src_sec_toyota_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_toyota_ximei",
+    "brand_actor": "act_brand_toyota",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex 1 of smelters reported as conformant; Toyota says company-level replies mean it cannot confirm or negate use",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_toyota_ry2024",
+      "src_sec_toyota_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_toyota_zhongao",
+    "brand_actor": "act_brand_toyota",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-29",
+    "wording": "Listed in Annex 1 of smelters reported as conformant; Toyota says company-level replies mean it cannot confirm or negate use",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_toyota_ry2024",
+      "src_sec_toyota_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_vishay_jinxin",
+    "brand_actor": "act_brand_vishay",
+    "smelter_actor": "act_jinxin",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_vishay_ry2024",
+      "src_sec_vishay_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_vishay_kingxing",
+    "brand_actor": "act_brand_vishay",
+    "smelter_actor": "act_kingxing",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_vishay_ry2024",
+      "src_sec_vishay_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_vishay_otic",
+    "brand_actor": "act_brand_vishay",
+    "smelter_actor": "act_otic",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_vishay_ry2024",
+      "src_sec_vishay_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_vishay_tanbre",
+    "brand_actor": "act_brand_vishay",
+    "smelter_actor": "act_tanbre",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_vishay_ry2024",
+      "src_sec_vishay_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_vishay_taniobis_th",
+    "brand_actor": "act_brand_vishay",
+    "smelter_actor": "act_taniobis_th",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_vishay_ry2024",
+      "src_sec_vishay_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_vishay_ulba",
+    "brand_actor": "act_brand_vishay",
+    "smelter_actor": "act_ulba",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_vishay_ry2024",
+      "src_sec_vishay_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_vishay_ximei",
+    "brand_actor": "act_brand_vishay",
+    "smelter_actor": "act_ximei",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_vishay_ry2024",
+      "src_sec_vishay_ry2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sb_vishay_zhongao",
+    "brand_actor": "act_brand_vishay",
+    "smelter_actor": "act_zhongao",
+    "years": [
+      2024,
+      2025
+    ],
+    "form": "Form SD (EX-1.01)",
+    "latest_filing": "2026-05-28",
+    "wording": "Listed among smelters identified by its suppliers",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_vishay_ry2024",
+      "src_sec_vishay_ry2025"
+    ],
+    "notes": ""
+  }
+]

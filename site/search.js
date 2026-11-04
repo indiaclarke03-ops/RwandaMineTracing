@@ -11,6 +11,7 @@
     owns: "owns", directs: "directs", legal_rep: "is legal representative of", supports: "supports",
     buys_from: "buys from", ships_to: "shipped minerals to", member_of_scheme: "is a member of",
     officer_of: "is an officer of", political_wing_of: "is the political wing of", part_of: "is part of",
+    alleged_link: "is alleged to have dealt in minerals from areas held by",
   };
 
   VIEWS.search = {
@@ -34,6 +35,7 @@
       const quick = ["act_halcyon", "act_kanzamin", "act_ulba", "act_gasabo", "act_zigama", "act_taniobis_th"].filter((id) => G.byId.actors[id]);
       document.getElementById("company-quick").innerHTML = `<span class="muted small">Try:</span> ` +
         quick.map((id) => `<button type="button" class="chip" data-id="${id}">${G.esc(short(id))}</button>`).join("");
+      buildTable();
       document.getElementById("company-quick").addEventListener("click", (e) => { const b = e.target.closest("[data-id]"); if (b) pick(b.dataset.id); });
     },
     show(params) {
@@ -53,6 +55,8 @@
       A.get(a).push({ to: b, e }); A.get(b).push({ to: a, e });
     };
     for (const r of G.DB.relationships) add(r.from_actor, r.to_actor, { from: r.from_actor, to: r.to_actor, text: REL_TEXT[r.type] || r.type, tier: r.evidence_tier, src: r.source_ids, rec: r });
+    // A filing listing is a weak step: it says a smelter may be in a supply chain.
+    for (const x of G.DB.smelter_brand) add(x.brand_actor, x.smelter_actor, { from: x.brand_actor, to: x.smelter_actor, text: "lists as a possible smelter", tier: "documented", src: x.source_ids, rec: x, extra: 1.2, when: x.years.join(", ") });
     for (const f of G.DB.flows) add(f.from_node, f.to_node, { from: f.from_node, to: f.to_node, text: G.byId.sites[f.from_node] && G.byId.actors[f.to_node] ? `supplied ${f.mineral} to` : `${f.mineral} moves to`, tier: f.evidence_tier, src: f.source_ids, rec: f });
     for (const c of G.DB.control_claims) add(c.actor_id, c.site_id, { from: c.actor_id, to: c.site_id, text: G.CONTROL_VERB[c.control_type] || c.control_type, tier: c.evidence_tier, src: c.source_ids, rec: c,
       when: `${G.fmtDate(c.valid_from || c.observed_date)} – ${c.valid_to ? G.fmtDate(c.valid_to) : "present"}` });
@@ -71,7 +75,7 @@
       if (u !== start && isArmed(u)) continue;
       for (const { to, e } of adj.get(u) || []) {
         // Ended control (e.g. PARECO-FF at Rubaya until 2024) ranks after current control.
-        const nd = d + 1 + (PEN[e.tier] ?? 1) + (e.rec.valid_to && e.rec.control_type ? 0.5 : 0);
+        const nd = d + 1 + (PEN[e.tier] ?? 1) + (e.extra || 0) + (e.rec.valid_to && e.rec.control_type ? 0.5 : 0);
         if (nd < (dist.get(to) ?? Infinity)) { dist.set(to, nd); prev.set(to, { u, e }); q.push([nd, to]); }
       }
     }
@@ -83,9 +87,31 @@
       const weakest = steps.map((s) => s.e.tier).sort((x, y) => ORDER.indexOf(y) - ORDER.indexOf(x))[0];
       out.push({ target: a.id, steps, cost: dist.get(a.id), weakest });
     }
-    return out.sort((a, b) => a.cost - b.cost);
+    // Fewest steps first; on a tie, lead with M23, the group holding these mines now.
+    return out.sort((a, b) => a.steps.length - b.steps.length || (b.target === "act_m23") - (a.target === "act_m23") || a.cost - b.cost);
   }
   const isArmed = (id) => G.byId.actors[id]?.role === "armed_group";
+
+  // ---------- exporter assessments ----------
+  const LEVEL = { strong: [3, "Strong"], moderate: [2, "Moderate"], weak: [1, "Weak"], none: [0, "None found"] };
+  const meter = (l) => `<span class="meter" aria-label="${LEVEL[l][1]}">${[1, 2, 3].map((i) => `<i class="${i <= LEVEL[l][0] ? "on" : ""}"></i>`).join("")}</span> ${LEVEL[l][1]}`;
+  const people = (id) => [...new Set(G.DB.relationships.filter((r) => (r.type === "owns" || r.type === "directs") && r.to_actor === id).map((r) => short(r.from_actor)))];
+
+  function buildTable() {
+    const rows = [...G.DB.company_assessments].sort((a, b) => LEVEL[b.link][0] - LEVEL[a.link][0] || short(a.actor_id).localeCompare(short(b.actor_id)));
+    const flagged = rows.filter((r) => r.link === "strong" || r.link === "moderate").length;
+    const sanctioned = rows.filter((r) => G.byId.actors[r.actor_id].sanctions?.length).length;
+    document.getElementById("assess").innerHTML = `
+      <details open class="assess-box"><summary><strong>Unsanctioned exporters and traders, graded</strong> <span class="muted">${rows.length} companies · ${flagged} with moderate or strong evidence · ${sanctioned} sanctioned</span></summary>
+      <p class="small muted">Sayari has no Rwandan company registry, so these grades combine UN and NGO reports, customs records and open registries. "Strong" means a UN report plus a second organisation, which may share sources. Grades describe the evidence; they are allegations, not findings of knowledge or intent. Customs and registry records add structure but never show where ore came from.</p>
+      <div class="assess-scroll"><table class="assess"><thead><tr><th>Company</th><th>Evidence of an armed-group link</th><th>Best source type</th><th>Named owners, directors</th><th>Basis</th></tr></thead><tbody>
+      ${rows.map((r) => { const a = G.byId.actors[r.actor_id], pp = people(a.id); return `<tr data-id="${G.esc(a.id)}" tabindex="0">
+        <td><strong>${G.esc(short(a.id))}</strong><div class="small muted">${G.esc([a.country, a.role].filter(Boolean).join(" · "))}</div></td>
+        <td class="nowrap">${meter(r.link)}</td><td>${G.badge(r.evidence_tier)}</td>
+        <td class="small">${pp.length ? G.esc(pp.join(", ")) : '<span class="muted">unknown</span>'}</td><td class="small">${G.esc(r.basis)}</td></tr>`; }).join("")}
+      </tbody></table></div></details>`;
+    document.querySelectorAll(".assess tbody tr").forEach((tr) => { const go = () => pick(tr.dataset.id); tr.addEventListener("click", go); tr.addEventListener("keydown", (e) => e.key === "Enter" && go()); });
+  }
 
   function suggest(text) {
     const list = document.getElementById("company-suggest");
@@ -104,6 +130,7 @@
     document.getElementById("company-suggest").hidden = true;
     if (!fromRoute) history.replaceState(null, "", "#company=" + encodeURIComponent(id));
     render(a);
+    document.getElementById("company-result").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function render(a) {
@@ -139,6 +166,16 @@
     const nbHtml = nb.length ? `<details class="nb"><summary>All direct links (${nb.length})</summary><ul class="cc-list">${nb.map(({ to, e }) =>
       `<li>${esc(short(e.from))} ${esc(e.text)} ${esc(short(e.to))} ${badge(e.tier)}<div class="cite">${cites(e.src)}</div></li>`).join("")}</ul></details>` : "";
 
+    const ca = G.DB.company_assessments.find((c) => c.actor_id === a.id);
+    const assess = ca ? `<div class="verdict-box"><div class="vb-main">Evidence of an armed-group link: ${meter(ca.link)}</div>
+      <div class="small">${esc(ca.basis)}</div>${ca.still_unknown ? `<div class="small muted">Still unknown: ${esc(ca.still_unknown)}</div>` : ""}${G.denialsFor(ca.id)}</div>` : "";
+    const sb = G.DB.smelter_brand.filter((x) => x.brand_actor === a.id || x.smelter_actor === a.id);
+    const smelterSide = !sb.length ? "" : a.role === "brand"
+      ? `<details class="nb" open><summary>Smelters this company lists (${sb.length})</summary><ul class="cc-list">${sb.map((x) => `<li>${esc(short(x.smelter_actor))} <span class="muted">${esc(x.years.join(", "))}</span><div class="small muted">${esc(x.wording)}</div><div class="cite">${cites(x.source_ids)}</div></li>`).join("")}</ul></details>`
+      : `<details class="nb"><summary>Companies listing this smelter (${sb.length})</summary><ul class="cc-list">${sb.map((x) => `<li><a href="#company=${encodeURIComponent(x.brand_actor)}">${esc(short(x.brand_actor))}</a> <span class="muted">${esc(x.years.join(", "))}</span></li>`).join("")}</ul></details>`;
+    const sig = G.DB.network_signals.filter((s) => s.from_actor === a.id || s.to_actor === a.id);
+    const sigHtml = sig.length ? `<details class="nb"><summary>Network signals (${sig.length})</summary><p class="small muted">Shared buyers, addresses or labels. These are leads only and never count as a path: a common customer is not evidence of ownership or control.</p><ul class="cc-list">${sig.map((s) =>
+      `<li>${esc(short(s.from_actor))} · ${esc(short(s.to_actor))} <span class="muted">${esc(s.type.replace(/_/g, " "))}, ${esc(s.strength)}</span> ${badge(s.evidence_tier)}<div class="small">${esc(s.summary)}</div><div class="cite">${cites(s.source_ids)}</div></li>`).join("")}</ul></details>` : "";
     document.getElementById("company-result").innerHTML = `
       <article class="company-card">
         <div class="cc-kicker">${esc([a.role?.replace("_", " "), a.country].filter(Boolean).join(" · "))}</div>
@@ -146,9 +183,12 @@
         <div class="cc-actor">${actorLine(a).replace(/<strong>.*?<\/strong>/, "")}</div>
         <div class="cite">${cites(a.source_ids)}</div>
       </article>
+      ${assess}
       ${verdict}
+      ${smelterSide}
       ${pathHtml}
       ${nbHtml}
+      ${sigHtml}
       <p class="small muted">How paths are found: we join every sourced link in the dataset — ownership and officer ties, sanctions findings, trade records, mineral flows and site control — and take the shortest route to each armed group, preferring stronger evidence when two routes are the same length. Trade links show who traded with whom, never where a specific shipment was mined.</p>`;
   }
 })();

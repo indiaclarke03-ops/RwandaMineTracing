@@ -32,17 +32,21 @@
   {
     "id": "fd_export_gap",
     "order": 2.5,
-    "kicker": "Export gap",
-    "headline": "Rwanda exported about 1,000 t more coltan in 2024 than its geology predicts",
-    "detail": "Until 2022 Rwanda's coltan exports tracked its tin-ore exports as the region's geology would predict. From 2023, with Rubaya in armed-group hands, they pulled away: an excess of about 760 t in 2023 and 1,040 t in 2024, in line with UN estimates of Rubaya output under M23.",
+    "kicker": "Mineral balance",
+    "headline": "Rwanda's coltan excess tracks what Congo's Kivu provinces stopped recording",
+    "detail": "Rwanda exported about 760, 1,040 and 1,440 t more coltan than its geology predicts in 2023–25, while official Kivu output fell 490, 910 and 1,350 t below its earlier level. Our central estimate is that 50–85% of the excess could have come from armed-group-held areas. Net growth shipped to China.",
     "link": "#view=laundering",
-    "link_label": "See the export gap",
+    "link_label": "See the balance",
     "evidence_tier": "inferred",
-    "method": "Expected coltan = Rwanda's cassiterite exports × 25/75 (regional geology, cited by the UN Group of Experts); excess = reported coltan exports − expected. Comtrade data.",
+    "method": "Excess uses a tin-ore baseline frozen at 2022–24 for 2025. Shares apply 50/75/100% pass-through rates, which are our judgement, to UN volumes. No source states these shares.",
     "source_ids": [
+      "src_sg_mines_2025",
+      "src_sg_mines_2024",
+      "src_sg_mines_2023",
+      "src_un_goe_s2024_969",
+      "src_un_goe_s2025_858",
       "src_comtrade_preview",
-      "src_un_goe_s2025_446",
-      "src_un_goe_s2024_969"
+      "src_project_notes"
     ],
     "notes": ""
   },
@@ -76,6 +80,37 @@
     "evidence_tier": "designated",
     "source_ids": [
       "src_treasury_sb0543"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "fd_exporters",
+    "order": 3.5,
+    "kicker": "Unsanctioned exporters",
+    "headline": "Eight Rwandan exporters have strong or moderate evidence and no sanctions",
+    "detail": "Mixing UN and NGO reports, customs records and open registries grades 20 unsanctioned exporters and traders. Four exporters rest on a UN report plus a second organisation. Customs and registry data reveal owners and networks, but every armed-group link still rests on UN or NGO evidence. Most of them deny the claims or did not reply.",
+    "link": "#view=search",
+    "link_label": "See the graded list",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_un_goe_s2025_446",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "fd_brands",
+    "order": 3.7,
+    "kicker": "Brands",
+    "headline": "41 major companies list smelters named in the coltan chain",
+    "detail": "All eight smelters were conformant under the industry audit scheme in May 2026, and six of those statuses have been frozen since RMI paused China assessments. A listing means a smelter may be in a supply chain; no filing says a company received Rubaya material.",
+    "link": "#chain=site_rubaya",
+    "link_label": "Follow the chain",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_ericsson_ry2025",
+      "src_gw_who_buys_coltan"
     ],
     "notes": ""
   }

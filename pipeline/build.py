@@ -25,12 +25,15 @@ ENUMS = {
     "sources.type": {"sanctions", "un_report", "ngo", "media", "dataset", "analysis", "government"},
     "sites.site_type": {"mine", "trading_centre", "border", "port", "refinery", "smelter", "town"},
     "actors.role": {"armed_group", "state_security", "government", "financial", "refiner", "person", "mining_company",
-                    "mine_operator", "trader", "scheme", "exporter", "smelter", "brand", "other"},
+                    "mine_operator", "trader", "scheme", "exporter", "smelter", "brand", "component_maker", "other"},
     "actors.type": {"armed_group", "state_force", "state_body", "company", "person",
                     "financial_institution", "scheme"},
-    "control_claims.control_type": {"controls", "taxes", "present", "escorts_transport", "operates"},
+    "control_claims.control_type": {"controls", "taxes", "present", "escorts_transport", "operates", "contested"},
+    "area_claims.control_type": {"controls", "taxes", "present", "contested"},
+    "areas.selection": {"names", "radius", "territory"},
     "relationships.type": {"owns", "directs", "legal_rep", "supports", "buys_from", "ships_to",
-                           "member_of_scheme", "officer_of", "political_wing_of", "part_of"},
+                           "member_of_scheme", "officer_of", "political_wing_of", "part_of", "alleged_link"},
+    "company_assessments.link": {"strong", "moderate", "weak", "none"},
     "impacts.type": {"deaths", "forced_labour", "child_labour", "displacement", "violence",
                      "revenue_to_armed_group", "laundering_gap", "smuggled_volume", "abuses"},
     "responses.type": {"sanction", "import_rule", "due_diligence_law", "peace_deal",
@@ -39,6 +42,7 @@ ENUMS = {
     "effectiveness.verdict": {"moved", "didn't move", "too early", "no data"},
     "trade_series.metric": {"exports_reported", "exports_mirror", "production_usgs"},
     "trade_series.basis": {"gross_weight", "contained_metal", "unknown"},
+    "partner_growth.side": {"mirror", "rwanda"},
     "gap_evidence.section": {"trade", "origin", "alternative"},
     "gaps.layer": {"control", "supply_chain", "impacts", "response", "sayari"},
 }
@@ -47,6 +51,7 @@ ENUMS = {
 DATE_FIELDS = {
     "sources": ["published_date", "accessed_date"],
     "control_claims": ["valid_from", "valid_to", "observed_date"],
+    "area_claims": ["valid_from", "valid_to", "observed_date"],
     "relationships": ["valid_from", "valid_to"],
     "responses": ["date"],
     "responses_to_claims": ["date"],
@@ -55,7 +60,8 @@ DATE_FIELDS = {
 TABLES = ["sources", "sites", "actors", "control_claims", "relationships", "flows",
           "impacts", "responses", "effectiveness", "responses_to_claims", "gaps", "findings",
           "trade_series", "trade_quarterly", "gap_evidence",
-          "ipis_sites"]
+          "ipis_sites", "smelter_brand", "network_signals", "company_assessments", "areas", "area_claims",
+          "balance_bridge", "partner_growth", "zero_sum"]
 
 
 class Report:
@@ -182,6 +188,21 @@ def validate(db):
         w = f"responses[{x['id']}]"
         for t in x.get("targets", []):
             ref(w, t, ids["actors"], "target")
+    for x in db["area_claims"]:
+        ref(f"area_claims[{x['id']}]", x.get("area_id"), ids["areas"], "area_id")
+    for x in db["areas"]:
+        for sid in x.get("site_ids", []):
+            ref(f"areas[{x['id']}]", sid, ids["ipis_sites"], "site_id")
+    for x in db["network_signals"]:
+        w = f"network_signals[{x['id']}]"
+        ref(w, x.get("from_actor"), ids["actors"], "from_actor")
+        ref(w, x.get("to_actor"), ids["actors"], "to_actor")
+    for x in db["company_assessments"]:
+        ref(f"company_assessments[{x['id']}]", x.get("actor_id"), ids["actors"], "actor_id")
+    for x in db["smelter_brand"]:
+        w = f"smelter_brand[{x['id']}]"
+        ref(w, x.get("brand_actor"), ids["actors"], "brand_actor")
+        ref(w, x.get("smelter_actor"), ids["actors"], "smelter_actor")
     for x in db["effectiveness"]:
         ref(f"effectiveness[{x['id']}]", x.get("response_id"), ids["responses"], "response_id")
     claim_ids = set().union(*(ids[t] for t in TABLES if t != "sources"))
@@ -238,6 +259,12 @@ def laundering_gap(db):
             "source_ids": sorted(set(col[y]["source_ids"] + tin[y]["source_ids"] + GEO_SOURCES
                                      + (u["source_ids"] if usgs_est else []) + (mir[y]["source_ids"] if y in mir else []))),
         })
+    # 2025's tin-ore surge inflates a same-year baseline, so also freeze it at the 2022–24 mean.
+    frozen_tin = [tin[y]["value"] for y in (2022, 2023, 2024) if y in tin]
+    frozen = sum(frozen_tin) / len(frozen_tin) * GEO_SHARE / (1 - GEO_SHARE)
+    for r in rows:
+        r["excess_best_t"] = round(r["coltan_exports_t"] - frozen) if r["year"] == 2025 else r["excess_vs_geology_t"]
+        r["expected_best_t"] = round(frozen) if r["year"] == 2025 else r["expected_coltan_t"]
     base = [r["coltan_share_pct"] for r in rows if r["year"] <= 2022]
     return {
         "mineral": "coltan",
@@ -249,6 +276,9 @@ def laundering_gap(db):
         "geology_share_pct": GEO_SHARE * 100,
         "rows": rows,
         "rubaya_2024": RUBAYA_2024,
+        "bridge": db["balance_bridge"],
+        "partners": db["partner_growth"],
+        "zero_sum": db["zero_sum"],
         "quarterly": [{k: r[k] for k in ("quarter", "shipments", "weight_t", "gw7_shipments", "gw7_weight_t",
                                           "uae_buyer_shipments", "source_ids")}
                       for r in sorted(db["trade_quarterly"], key=lambda r: r["quarter"])],
@@ -293,6 +323,7 @@ def main():
     DATA.mkdir(exist_ok=True)
     for t in TABLES:
         (DATA / f"{t}.json").write_text(json.dumps(db[t], indent=2, ensure_ascii=False) + "\n")
+    (DATA / "area_control.json").write_text(json.dumps({"areas": db["areas"], "claims": db["area_claims"]}, indent=1, ensure_ascii=False) + "\n")
     if db["trade_series"]:
         (DATA / "laundering_gap.json").write_text(json.dumps(laundering_gap(db), indent=2, ensure_ascii=False) + "\n")
     (DATA / "sites.geojson").write_text(json.dumps(sites_geojson(db), indent=2, ensure_ascii=False) + "\n")

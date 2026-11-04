@@ -2,7 +2,7 @@
 "use strict";
 
 const TABLES = ["manifest", "sources", "sites", "actors", "control_claims", "relationships",
-  "flows", "impacts", "responses", "effectiveness", "responses_to_claims", "gaps", "findings", "gap_evidence"];
+  "flows", "impacts", "responses", "effectiveness", "responses_to_claims", "gaps", "findings", "gap_evidence", "smelter_brand", "network_signals", "company_assessments"];
 
 const TIER = {
   designated: { icon: "◆", label: "Designated", verb: "designated by", dash: null, weight: 3.5 },
@@ -167,7 +167,7 @@ function buildHome() {
       <p>${esc(f.detail)}</p>
       <div class="claim-meta">${badge(f.evidence_tier)}</div>
       ${f.method ? `<div class="small muted">How: ${esc(f.method)}</div>` : ""}
-      <div class="cite">${cites(f.source_ids, f.paragraph_or_page)}</div>
+      ${f.source_ids.length > 2 ? `<details class="cite-more"><summary>Sources (${f.source_ids.length})</summary><div class="cite">${cites(f.source_ids, f.paragraph_or_page)}</div></details>` : `<div class="cite">${cites(f.source_ids, f.paragraph_or_page)}</div>`}
       ${f.link ? `<a class="more" href="${esc(f.link)}">${esc(f.link_label || "More")} →</a>` : ""}
     </article>`).join("");
   const c = DB.manifest.counts || {};
@@ -216,7 +216,7 @@ function tabs() {
   }
   index();
   window.GC = { DB, byId, TIER, esc, badge, cites, fmtDate, dkey, denialsFor, actorLine, sayariLink, nodeName, CONTROL_VERB, go: (hash) => { location.hash = hash; } };
-  document.getElementById("built").textContent = `· data built ${fmtDate(DB.manifest.built)}`;
+  document.getElementById("built").textContent = `data built ${fmtDate(DB.manifest.built)}`;
   tabs();
   buildHome();
   buildTimeline();

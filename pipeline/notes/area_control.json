@@ -1,0 +1,1797 @@
+{
+ "run_date": "2026-11-04",
+ "sources": [
+  {
+   "key": "un_s2024_432",
+   "title": "Final report of the Group of Experts on the DRC (S/2024/432)",
+   "publisher": "UN Security Council",
+   "url": "https://www.ecoi.net/en/file/local/2112471/n2411880.pdf",
+   "published_date": "2024-06-04",
+   "type": "un_report",
+   "verified_by_extract": true,
+   "paragraph_or_page": "paras 138-140, 189-193",
+   "notes": "Full PDF (293 pp) parsed. ecoi.net mirror; docs.un.org returned a redirect page, not the PDF."
+  },
+  {
+   "key": "un_s2024_969",
+   "title": "Midterm report of the Group of Experts on the DRC (S/2024/969)",
+   "publisher": "UN Security Council",
+   "url": "https://www.ecoi.net/en/file/local/2120496/n2437337.pdf",
+   "published_date": "2024-12-27",
+   "type": "un_report",
+   "verified_by_extract": true,
+   "paragraph_or_page": "paras 44-47, 56-66",
+   "notes": "Full PDF (160 pp) parsed. First download was truncated; re-fetched and EOF confirmed."
+  },
+  {
+   "key": "un_s2025_446",
+   "title": "Final report of the Group of Experts on the DRC (S/2025/446)",
+   "publisher": "UN Security Council",
+   "url": "https://www.ecoi.net/en/file/local/2127798/n2512440.pdf",
+   "published_date": "2025-07-03",
+   "type": "un_report",
+   "verified_by_extract": true,
+   "paragraph_or_page": "paras 14, 17-18, 35, 109-115, 128, 164-165, 169, 171",
+   "notes": "Full PDF (254 pp) parsed. Report sent to the Committee 6 May 2025, so 'at the time of writing' means about May 2025."
+  },
+  {
+   "key": "un_s2025_858",
+   "title": "Midterm report of the Group of Experts on the DRC (S/2025/858)",
+   "publisher": "UN Security Council",
+   "url": "https://www.ecoi.net/en/file/local/2135580/n2532744.pdf",
+   "published_date": "2025-12-30",
+   "type": "un_report",
+   "verified_by_extract": true,
+   "paragraph_or_page": "paras 46-66; annexes 25-29",
+   "notes": "Full PDF (142 pp) parsed. Annex 26 is a production-share estimate, not a locality list."
+  },
+  {
+   "key": "un_s2026_466",
+   "title": "Final report of the Group of Experts on the DRC (S/2026/466)",
+   "publisher": "UN Security Council",
+   "url": "https://www.ecoi.net/en/file/local/2142213/n2611394.pdf",
+   "published_date": "2026-06-05",
+   "type": "un_report",
+   "verified_by_extract": true,
+   "paragraph_or_page": "paras 21, 29, 47-49, 51, 64, 70-78, 113-114, 122-125, 136-137, 193-198, 210, 213-222; annexes 25, 67, 68",
+   "notes": "Full PDF (230 pp) parsed. Investigations run to 15 Apr 2026, so nothing here is later than that."
+  },
+  {
+   "key": "amnesty_afr62_1454_2026",
+   "title": "DRC: 'We didn't come to play' - M23 abuses at artisanal mines and the trafficking of gold and coltan to Rwanda (AFR 62/1454/2026)",
+   "publisher": "Amnesty International",
+   "url": "https://www.amnesty.org/en/wp-content/uploads/2026/09/AFR6214542026ENGLISH.pdf",
+   "published_date": "2026-09",
+   "type": "ngo",
+   "verified_by_extract": true,
+   "paragraph_or_page": "pp 4, 6, 14-15",
+   "notes": "Full PDF (40 pp) parsed. Published date is month-level, from the URL path. Its footnote dates an Aug 2025 X post as '29 August 2026'; read as a typo for 2025."
+  },
+  {
+   "key": "treasury_sb0221",
+   "title": "Treasury Sanctions Entities Linked to Violence and Illegal Mining in the DRC (sb0221)",
+   "publisher": "US Treasury / OFAC",
+   "url": "https://home.treasury.gov/news/press-releases/sb0221",
+   "published_date": "2025-08-12",
+   "type": "sanctions",
+   "verified_by_extract": true,
+   "paragraph_or_page": "PARECO-FF section",
+   "notes": "Read with tavily_extract."
+  },
+  {
+   "key": "treasury_sb0543",
+   "title": "Treasury Sanctions Rwandan Gold Refinery and Network Enabling Illicit Conflict Minerals Trade (sb0543)",
+   "publisher": "US Treasury / OFAC",
+   "url": "https://home.treasury.gov/news/press-releases/sb0543",
+   "published_date": "2026-06-25",
+   "type": "sanctions",
+   "verified_by_extract": true,
+   "paragraph_or_page": "body text",
+   "notes": "Read with tavily_extract. Date is from the Amnesty citation of this release. Calls Rubaya M23-controlled in March 2026."
+  },
+  {
+   "key": "ipis_m23_aoi",
+   "title": "Mapping the M23's territorial influence in eastern DRC",
+   "publisher": "IPIS",
+   "url": "https://ipisresearch.be/home/maps-data/maps-of-drc/mapping-the-m23s-territorial-influence-in-eastern-drc",
+   "published_date": null,
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "methodology and caveats",
+   "notes": "Read with tavily_extract. Text gives no AoI dates or km2; those are only inside map images, which were not digitised. IPIS warns its AoI must not be used to decide whether villages or mines near the edge are under M23 control."
+  },
+  {
+   "key": "ct_cwsr_2026_08_28",
+   "title": "Congo War Security Review, August 28, 2026",
+   "publisher": "Critical Threats Project (AEI)",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/august-28-2026",
+   "published_date": "2026-08-28",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Northwest Axis",
+   "notes": "Read with tavily_extract (query-ranked excerpts). Aggregates media and social-media claims, so tier is reported."
+  },
+  {
+   "key": "ct_cwsr_2026_09_11",
+   "title": "Congo War Security Review, September 11, 2026",
+   "publisher": "Critical Threats Project (AEI)",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/september-11-2026",
+   "published_date": "2026-09-11",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Northwest Axis",
+   "notes": "Read with tavily_extract (query-ranked excerpts)."
+  },
+  {
+   "key": "ct_cwsr_2026_10_07",
+   "title": "Congo War Security Review, October 7, 2026",
+   "publisher": "Critical Threats Project (AEI)",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/october-7-2026",
+   "published_date": "2026-10-07",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "South Kivu and southern Masisi sections",
+   "notes": "Read with tavily_extract (query-ranked excerpts)."
+  },
+  {
+   "key": "ct_cwsr_2026_10_21",
+   "title": "Congo War Security Review, October 21, 2026",
+   "publisher": "Critical Threats Project (AEI)",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/october-21-2026",
+   "published_date": "2026-10-21",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Northwest Axis; Kaziba",
+   "notes": "Read with tavily_extract (query-ranked excerpts). No 14 Oct issue exists (404)."
+  },
+  {
+   "key": "ct_cwsr_2026_10_28",
+   "title": "Congo War Security Review, October 28, 2026",
+   "publisher": "Critical Threats Project (AEI)",
+   "url": "https://www.criticalthreats.org/briefs/congo-war-security-review/october-28-2026",
+   "published_date": "2026-10-28",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "full issue",
+   "notes": "Read in full. Data cutoff 28 Oct 2026 10:00 EST. Latest issue; next due 11 Nov. Header says map shapefiles are available by email request."
+  },
+  {
+   "key": "osm_nominatim",
+   "title": "OpenStreetMap Nominatim geocoding of named localities",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://nominatim.openstreetmap.org/",
+   "published_date": null,
+   "type": "dataset",
+   "verified_by_extract": true,
+   "paragraph_or_page": "node ids in area notes",
+   "notes": "Queried directly on 2026-11-04. ODbL. Used for centre points only."
+  },
+  {
+   "key": "ipis_asm_seed",
+   "title": "IPIS DRC artisanal mining sites (pipeline/seed/ipis_sites.json)",
+   "publisher": "IPIS",
+   "url": "https://ipisresearch.be/home/maps-data/open-data",
+   "published_date": null,
+   "type": "dataset",
+   "verified_by_extract": true,
+   "paragraph_or_page": "site ids",
+   "notes": "Local file, source row src_ipis_asm. Coordinates and names only; never used here as evidence of control."
+  },
+  {
+   "key": "drc_mines_arrete_00031",
+   "title": "Annex to Arrete ministeriel 00031 CAB.MIN/MINES/01/2025 of 12 Feb 2025: qualification of mining sites in Masisi and Kalehe",
+   "publisher": "DRC Ministry of Mines",
+   "url": "https://files.passle.net/Passle/6182994d49b2340a4c485aab/MediaLibrary/Document/2025-02-21-14-38-59-416-AnnextoArreteMinisteriel.pdf",
+   "published_date": "2025-02-12",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "annex pp 1-3",
+   "notes": "Scanned table read by eye from the page images, so coordinates are hand-transcribed. Third-party mirror; the mines.gouv.cd copy cited by Amnesty returned 404. Only the annex was read, not the arrete's reasoning. Used as an overlay only, never as a control claim."
+  },
+  {
+   "key": "ecofin_red_status_2025_11",
+   "title": "RDC: le gouvernement maintient l'interdiction d'exploitation de 38 sites miniers pour contrer le financement du M23",
+   "publisher": "Agence Ecofin",
+   "url": "https://www.agenceecofin.com/actualites-industries/2211-133631-rdc-le-gouvernement-maintient-linterdiction-dexploitation-de-38-sites-miniers-pour-contrer-le-financement-du-m23",
+   "published_date": "2025-11-22",
+   "type": "media",
+   "verified_by_extract": true,
+   "paragraph_or_page": "body text",
+   "notes": "Red status extended by arrete of 3 Nov 2025 for six months from 12 Aug 2025, which implies expiry about Feb 2026. No later extension was checked."
+  },
+  {
+   "key": "ipis_m23_q3_2025",
+   "title": "M23's territorial advances in July, August, and September 2025",
+   "publisher": "IPIS",
+   "url": "https://ipisresearch.be/publication/m23s-territorial-advances-in-july-august-and-september-2025-escalating-violence-and-fragile-peace-in-eastern-drcs-kivu-regions",
+   "published_date": null,
+   "type": "ngo",
+   "verified_by_extract": true,
+   "paragraph_or_page": "body text (query-ranked excerpts)",
+   "notes": "No km2 figure in the excerpts read. Publication date not captured."
+  },
+  {
+   "key": "icg_320",
+   "title": "The M23 Offensive: Elusive Peace in the Great Lakes (Report 320)",
+   "publisher": "International Crisis Group",
+   "url": "https://www.crisisgroup.org/rpt/africa/democratic-republic-congo-rwanda/320-m23-offensive-elusive-peace-great-lakes",
+   "published_date": null,
+   "type": "ngo",
+   "verified_by_extract": true,
+   "paragraph_or_page": "body text (query-ranked excerpts)",
+   "notes": "Says M23/AFC holds the largest area of any rebel group since the wars of the 1990s and 2000s. Gives no km2 in the excerpts read. Publication date not captured."
+  },
+  {
+   "key": "icg_crisiswatch_2026_08",
+   "title": "CrisisWatch Africa, August 2026",
+   "publisher": "International Crisis Group",
+   "url": "https://www.crisisgroup.org/sites/default/files/crisiswatch/crisiswatch-august-2026-africa.pdf",
+   "published_date": "2026-08",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "DR Congo entry",
+   "notes": "Monthly tracker; date is the month covered."
+  },
+  {
+   "key": "acled_africa_2026_03",
+   "title": "Africa Overview: March 2026",
+   "publisher": "ACLED",
+   "url": "https://acleddata.com/update/africa-overview-march-2026",
+   "published_date": "2026-03-09",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "DRC section (query-ranked excerpts)",
+   "notes": "FARDC incursions and air strikes on M23-held areas around Rubaya in February 2026; M23 counterattacks forced retreats by month end."
+  },
+  {
+   "key": "actualite_nzibira_2026_08",
+   "title": "Walungu: affrontements entre l'AFC/M23 et les Wazalendo provoquent un deplacement massif a Nzibira",
+   "publisher": "Actualite.cd",
+   "url": "https://actualite.cd/2026/08/27/walungu-affrontements-entre-lafcm23-et-les-wazalendo-provoquent-un-deplacement-massif",
+   "published_date": "2026-08-27",
+   "type": "media",
+   "verified_by_extract": true,
+   "paragraph_or_page": "body text",
+   "notes": "Read in full."
+  },
+  {
+   "key": "actualite_kamituga_2026_07",
+   "title": "Mwenga: une femme violee et tuee a Kamituga, zone sous influence des wazalendo",
+   "publisher": "Actualite.cd",
+   "url": "https://actualite.cd/index.php/2026/07/16/mwenga-une-femme-violee-et-tuee-kamituga-zone-sous-influence-des-wazalendo",
+   "published_date": "2026-07-16",
+   "type": "media",
+   "verified_by_extract": true,
+   "paragraph_or_page": "body text",
+   "notes": "Date from the URL. The text says 'mardi 13 juillet', but 13 July 2026 was a Monday, so the date is slightly doubtful."
+  }
+ ],
+ "areas": [
+  {
+   "id": "area_rubaya",
+   "name": "Rubaya mining sites named in PE76 / former PE4731",
+   "centre": [
+    -1.5735,
+    28.887
+   ],
+   "radius_km": null,
+   "territory": "Masisi",
+   "ipis_ids": [
+    "ipis_codmine00309",
+    "ipis_codmine00310",
+    "ipis_codmine00311",
+    "ipis_codmine00312",
+    "ipis_codmine00313",
+    "ipis_codmine00318",
+    "ipis_codmine03057",
+    "ipis_codmine03062"
+   ],
+   "selection": "names",
+   "selection_reason": "S/2025/446 para 113 lists the sites worked under AFC/M23 inside PE76 and the revoked PE4731. These IPIS sites match that list.",
+   "notes": "Spelling matches we assumed: Bundjali = Bunjari; Luwowo/Gasasa = Luwowo/Nyange and Kasasa. Kashaki (03062) is about 11 km east of the D sites and is the weakest match. Excluded: 03285 'D2 Bibatama' (coordinates about 37 km south of the Rubaya sites, likely a data error). Listed by the UN but no IPIS match: Muderi, Muchacha (Rubaya), Nyambisi, Luoo. The IPIS site 'Muchacha' is in Mambasa, Ituri, and is unrelated. The UN satellite annex places the main coltan hill in permit PE16159, attributed to SAKIMA (S/2026/466 annex 67), so permit numbers have changed; do not select on PE numbers alone."
+  },
+  {
+   "id": "area_rubaya_ring",
+   "name": "Rubaya mining area: other IPIS sites within 4 km",
+   "centre": [
+    -1.5735,
+    28.887
+   ],
+   "radius_km": 4,
+   "territory": "Masisi",
+   "ipis_ids": [
+    "ipis_codmine00319",
+    "ipis_codmine01695",
+    "ipis_codmine01707",
+    "ipis_codmine03061",
+    "ipis_codmine03762",
+    "ipis_codmine03818",
+    "ipis_codmine04002"
+   ],
+   "selection": "radius",
+   "selection_reason": "S/2024/969 para 56 says the entire mining area around Rubaya is held. SMB's licence was 30.5 km2 (Amnesty p12), a circle of about 3.1 km radius; 4 km adds about 1 km for coordinate error. Centre is the mean of the D-site coordinates.",
+   "notes": "Radius is our inference. Masisi sites only; sites already in area_rubaya are removed."
+  },
+  {
+   "id": "area_mushaki",
+   "name": "Mushaki trading centre",
+   "centre": [
+    -1.5301,
+    28.98
+   ],
+   "radius_km": 3,
+   "territory": "Masisi",
+   "ipis_ids": [
+    "ipis_codmine01120"
+   ],
+   "selection": "radius",
+   "selection_reason": "Source names the trading centre, not mines. 3 km covers the town only.",
+   "notes": "Radius is our inference. OSM node 1158947912."
+  },
+  {
+   "id": "area_ngungu",
+   "name": "Ngungu gold mine and town",
+   "centre": [
+    -1.6574,
+    28.8767
+   ],
+   "radius_km": 3,
+   "territory": "Masisi",
+   "ipis_ids": [
+    "ipis_codmine00300"
+   ],
+   "selection": "radius",
+   "selection_reason": "Amnesty names a gold mine at Ngungu but gives no location. 3 km around the town, because no IPIS site is named Ngungu.",
+   "notes": "Radius is our inference. OSM node 1159317037. Bishasha (00300) is exactly at the 3 km edge and is a weak match."
+  },
+  {
+   "id": "area_masisi_centre",
+   "name": "Masisi centre",
+   "centre": [
+    -1.3987,
+    28.8206
+   ],
+   "radius_km": 5,
+   "territory": "Masisi",
+   "ipis_ids": [
+    "ipis_codmine02762",
+    "ipis_codmine02764",
+    "ipis_codmine04128"
+   ],
+   "selection": "radius",
+   "selection_reason": "Source names the town only, so 5 km covers its immediate surroundings. Masisi territory as a whole is not applied: its west and south are contested.",
+   "notes": "Radius is our inference. Centre from OSM node 7399890656 (Ecole Primaire Masisi Centre)."
+  },
+  {
+   "id": "area_numbi",
+   "name": "Numbi mining area",
+   "centre": [
+    -1.7877,
+    28.8938
+   ],
+   "radius_km": 3,
+   "territory": "Kalehe",
+   "ipis_ids": [
+    "ipis_codmine00845",
+    "ipis_codmine00846",
+    "ipis_codmine00847",
+    "ipis_codmine00848",
+    "ipis_codmine00849",
+    "ipis_codmine00850",
+    "ipis_codmine00851",
+    "ipis_codmine00852",
+    "ipis_codmine01335",
+    "ipis_codmine01681",
+    "ipis_codmine01686",
+    "ipis_codmine01700",
+    "ipis_codmine01779",
+    "ipis_codmine01827",
+    "ipis_codmine01828",
+    "ipis_codmine01837",
+    "ipis_codmine01853",
+    "ipis_codmine01854",
+    "ipis_codmine03641",
+    "ipis_codmine04313"
+   ],
+   "selection": "radius",
+   "selection_reason": "S/2025/858 para 56 refers to the main 3T mining areas around Numbi. The IPIS cluster lies within about 2.5 km of the town.",
+   "notes": "Radius is our inference. Kalehe sites only. OSM node 1159316948."
+  },
+  {
+   "id": "area_lumbishi",
+   "name": "Lumbishi mining area",
+   "centre": [
+    -1.7687,
+    28.8088
+   ],
+   "radius_km": 3,
+   "territory": "Kalehe",
+   "ipis_ids": [
+    "ipis_codmine00853",
+    "ipis_codmine00854",
+    "ipis_codmine00855",
+    "ipis_codmine02819",
+    "ipis_codmine02820",
+    "ipis_codmine03638",
+    "ipis_codmine03639",
+    "ipis_codmine03640"
+   ],
+   "selection": "radius",
+   "selection_reason": "S/2025/858 para 56 refers to the main 3T mining areas around Lumbishi. Centre is IPIS site 00855 Lumbishi.",
+   "notes": "Radius is our inference. Kalehe only: 01159 Biembamba is in Masisi and is left out."
+  },
+  {
+   "id": "area_nyabibwe",
+   "name": "Nyabibwe mining area (Kalehe)",
+   "centre": [
+    -1.9215,
+    28.9406
+   ],
+   "radius_km": 4,
+   "territory": "Kalehe",
+   "ipis_ids": [
+    "ipis_codmine00917",
+    "ipis_codmine01678",
+    "ipis_codmine01747",
+    "ipis_codmine03127"
+   ],
+   "selection": "radius",
+   "selection_reason": "S/2025/858 para 56 refers to the main 3T mining areas around Nyabibwe. Four IPIS sites, including Kalimbi, lie within 2.5 km.",
+   "notes": "Radius is our inference. Excluded: 03059 'Nyabibwe' is in Masisi, a same-named place about 44 km north. OSM node 1159316902."
+  },
+  {
+   "id": "area_minova",
+   "name": "Minova town",
+   "centre": [
+    -1.7078,
+    29.0243
+   ],
+   "radius_km": null,
+   "territory": "Kalehe",
+   "ipis_ids": [],
+   "selection": "names",
+   "selection_reason": "Hub only. No IPIS site within 5 km.",
+   "notes": "Lake port and transit point. Classifies no IPIS sites. OSM relation 2627437."
+  },
+  {
+   "id": "area_goma",
+   "name": "Goma",
+   "centre": [
+    -1.6666,
+    29.2257
+   ],
+   "radius_km": null,
+   "territory": null,
+   "ipis_ids": [],
+   "selection": "names",
+   "selection_reason": "Hub only. No IPIS sites in Goma.",
+   "notes": "Classifies no IPIS sites."
+  },
+  {
+   "id": "area_bukavu",
+   "name": "Bukavu",
+   "centre": [
+    -2.5056,
+    28.8595
+   ],
+   "radius_km": null,
+   "territory": null,
+   "ipis_ids": [],
+   "selection": "names",
+   "selection_reason": "Hub only. No IPIS sites within the city.",
+   "notes": "Classifies no IPIS sites. Centre is the OSM admin relation 5327777, so approximate."
+  },
+  {
+   "id": "area_lomera_luhihi",
+   "name": "Lomera (Luhihi), Kabare: nearest IPIS gold sites",
+   "centre": [
+    -2.2769,
+    28.8804
+   ],
+   "radius_km": 4,
+   "territory": "Kabare",
+   "ipis_ids": [
+    "ipis_codmine03829",
+    "ipis_codmine03830",
+    "ipis_codmine04175",
+    "ipis_codmine04176"
+   ],
+   "selection": "radius",
+   "selection_reason": "S/2025/858 paras 59-60 place the Lomera site at Luhihi and say M23 took de facto control of mining in the area. Lomera itself is not in IPIS: it dates from late 2024 or Jan 2025. The 4 km radius catches the only IPIS gold sites nearby.",
+   "notes": "These four sites are neighbours visited in 2022-23, not Lomera. Radius is our inference. Centre is Luhihi village (OSM node 1160970919), not the mine; Amnesty puts the mine on the Lake Kivu shore."
+  },
+  {
+   "id": "area_nzibira",
+   "name": "Nzibira trading hub",
+   "centre": [
+    -2.6753,
+    28.5055
+   ],
+   "radius_km": 3,
+   "territory": "Walungu",
+   "ipis_ids": [
+    "ipis_codmine00890",
+    "ipis_codmine00928",
+    "ipis_codmine00929",
+    "ipis_codmine01130",
+    "ipis_codmine01751",
+    "ipis_codmine01753",
+    "ipis_codmine01774",
+    "ipis_codmine02841",
+    "ipis_codmine02842",
+    "ipis_codmine02919",
+    "ipis_codmine03037"
+   ],
+   "selection": "radius",
+   "selection_reason": "Source calls Nzibira a mineral trading hub. 3 km covers the sites around the town.",
+   "notes": "Radius is our inference. Walungu sites only, so 00891 Muhinga (Kabare) is left out. OSM node 2815257203. A second Nzibira exists in Shabunda and is unrelated."
+  },
+  {
+   "id": "area_luntukulu_lubimbe",
+   "name": "Luntukulu and Lubimbe",
+   "centre": null,
+   "radius_km": null,
+   "territory": null,
+   "ipis_ids": [
+    "ipis_codmine01728",
+    "ipis_codmine02192"
+   ],
+   "selection": "names",
+   "selection_reason": "S/2025/858 para 52 names both as captured. IPIS has sites of those names.",
+   "notes": "Lubimbe is taken as the Kabare site (02192) because a source cited by the Group ties it to Kabare. Excluded: 03948 Lubimbe in Shabunda, about 45 km west. Chulwe has no IPIS match."
+  },
+  {
+   "id": "area_twangiza",
+   "name": "Twangiza mine, Luhwindja",
+   "centre": null,
+   "radius_km": null,
+   "territory": "Mwenga",
+   "ipis_ids": [],
+   "selection": "names",
+   "selection_reason": "No IPIS site named Twangiza, and no verified coordinates this run.",
+   "notes": "Industrial site, outside IPIS artisanal coverage. Data gap: map it from the concession data if wanted."
+  },
+  {
+   "id": "area_karhembu",
+   "name": "Karhembu semi-mechanised gold site",
+   "centre": null,
+   "radius_km": null,
+   "territory": "Walungu",
+   "ipis_ids": [],
+   "selection": "names",
+   "selection_reason": "No IPIS site of this name.",
+   "notes": "Data gap. Amnesty spells it Karhembo."
+  },
+  {
+   "id": "area_walikale_town",
+   "name": "Walikale town",
+   "centre": [
+    -1.4301,
+    28.0764
+   ],
+   "radius_km": 6,
+   "territory": "Walikale",
+   "ipis_ids": [
+    "ipis_codmine03837"
+   ],
+   "selection": "radius",
+   "selection_reason": "Source names the town. 6 km catches the one nearby IPIS site.",
+   "notes": "Radius is our inference. Historic only: M23 left in April 2025. OSM node 626734473."
+  },
+  {
+   "id": "area_bisie",
+   "name": "Bisie (Mpama-Bisie) tin mine",
+   "centre": null,
+   "radius_km": null,
+   "territory": "Walikale",
+   "ipis_ids": [
+    "ipis_codmine00396"
+   ],
+   "selection": "names",
+   "selection_reason": "IPIS site 'Bisie Mpama'.",
+   "notes": "No source read here places M23 in control of Bisie. The UN says only that the mine suspended 13 Mar to mid-Apr 2025 and restarted as M23 left Walikale. No claim row, so not classified. Excluded: 'Mpama' sites 01051 and 03103 in Moba, Tanganyika, which are unrelated."
+  },
+  {
+   "id": "area_pinga",
+   "name": "Pinga",
+   "centre": [
+    -0.984,
+    28.702
+   ],
+   "radius_km": 5,
+   "territory": "Walikale",
+   "ipis_ids": [
+    "ipis_codmine00492",
+    "ipis_codmine00493",
+    "ipis_codmine04133"
+   ],
+   "selection": "radius",
+   "selection_reason": "Source names the town. 5 km covers nearby sites only.",
+   "notes": "Radius is our inference. OSM node 2081473037."
+  },
+  {
+   "id": "area_mpeti",
+   "name": "Mpeti front line (RP1030)",
+   "centre": [
+    -0.9572,
+    28.8217
+   ],
+   "radius_km": 5,
+   "territory": "Walikale",
+   "ipis_ids": [
+    "ipis_codmine00501",
+    "ipis_codmine00503",
+    "ipis_codmine00504"
+   ],
+   "selection": "radius",
+   "selection_reason": "Source names the village. 5 km covers Mpeti, Mera and Katobi.",
+   "notes": "Radius is our inference. OSM node 12334379663."
+  },
+  {
+   "id": "area_lubero_south",
+   "name": "Southern Lubero",
+   "centre": null,
+   "radius_km": null,
+   "territory": "Lubero",
+   "ipis_ids": [],
+   "selection": "names",
+   "selection_reason": "Sources say only 'areas south of Lubero centre' and the Kanyabayonga-Kaseghe road. That is part of the territory, so it is not applied to all 259 Lubero sites.",
+   "notes": "No IPIS site falls within 8 km of Kirumba. Classifies no sites. Data gap: needs named localities."
+  },
+  {
+   "id": "area_rutshuru_nyiragongo",
+   "name": "Rutshuru and Nyiragongo",
+   "centre": null,
+   "radius_km": null,
+   "territory": "Rutshuru; Nyiragongo",
+   "ipis_ids": [],
+   "selection": "territory",
+   "selection_reason": "Named as M23-occupied defence zones, but no source says the whole of either. IPIS has no sites in them, so nothing is classified.",
+   "notes": "FDLR remains active in Bwito (Rutshuru)."
+  },
+  {
+   "id": "area_uvira_town",
+   "name": "Uvira town",
+   "centre": [
+    -3.4056,
+    29.1376
+   ],
+   "radius_km": null,
+   "territory": "Uvira",
+   "ipis_ids": [],
+   "selection": "names",
+   "selection_reason": "Hub only. No IPIS site within 10 km.",
+   "notes": "Shows that control can reverse. Centre from OSM relation 2650257."
+  },
+  {
+   "id": "area_sange",
+   "name": "Sange, Ruzizi Plain",
+   "centre": [
+    -3.0883,
+    29.079
+   ],
+   "radius_km": 5,
+   "territory": "Uvira",
+   "ipis_ids": [
+    "ipis_codmine01342"
+   ],
+   "selection": "radius",
+   "selection_reason": "Source names Sange as the M23 South Kivu headquarters after Uvira. 5 km covers the town.",
+   "notes": "Radius is our inference. OSM node 801932696."
+  },
+  {
+   "id": "area_lemera_uvira",
+   "name": "Lemera hills (Uvira territory)",
+   "centre": [
+    -3.0356,
+    28.9852
+   ],
+   "radius_km": 5,
+   "territory": "Uvira",
+   "ipis_ids": [
+    "ipis_codmine00973",
+    "ipis_codmine00974",
+    "ipis_codmine02878"
+   ],
+   "selection": "radius",
+   "selection_reason": "S/2026/466 annex 25 says the Lemera hills were occupied in March 2026. 5 km around the village.",
+   "notes": "Radius is our inference. Excluded: 03301 'Lemera' is on Idjwi island and is unrelated. OSM node 1160972442."
+  },
+  {
+   "id": "area_mikenge",
+   "name": "Mikenge, Hauts Plateaux",
+   "centre": null,
+   "radius_km": null,
+   "territory": "Mwenga",
+   "ipis_ids": [
+    "ipis_codmine00999",
+    "ipis_codmine01758"
+   ],
+   "selection": "names",
+   "selection_reason": "Named by S/2026/466 annex 25 and para 122. IPIS has sites of that name.",
+   "notes": "Minembwe itself has no IPIS site."
+  },
+  {
+   "id": "area_misisi_kachanga",
+   "name": "Kachanga, Misisi area (Fizi)",
+   "centre": null,
+   "radius_km": null,
+   "territory": "Fizi",
+   "ipis_ids": [
+    "ipis_codmine01181",
+    "ipis_codmine01296"
+   ],
+   "selection": "names",
+   "selection_reason": "S/2024/432 para 190 names Kachanga. IPIS has two sites with that name near Misisi.",
+   "notes": "Fizi territory is not applied: the source says Yakutumba held 'most' gold mining, not all."
+  },
+  {
+   "id": "area_mongbwalu",
+   "name": "Mongbwalu gold sites",
+   "centre": null,
+   "radius_km": null,
+   "territory": "Djugu",
+   "ipis_ids": [
+    "ipis_codmine00116",
+    "ipis_codmine00117"
+   ],
+   "selection": "names",
+   "selection_reason": "S/2026/466 para 197 names Makala and Senzere.",
+   "notes": "Camp Blanquette, Kobu and Licei have no IPIS match. Excluded: 02128 'Bambu' is in Mambasa, a different place from the Djugu Bambu."
+  },
+  {
+   "id": "area_nizi",
+   "name": "Nizi",
+   "centre": null,
+   "radius_km": null,
+   "territory": "Djugu",
+   "ipis_ids": [
+    "ipis_codmine03688"
+   ],
+   "selection": "names",
+   "selection_reason": "S/2026/466 para 193 names Nizi.",
+   "notes": "Excluded: every IPIS 'Mabanga' is outside Djugu (Irumu, Lubero, Pangi), so none matches the UN Mabanga."
+  },
+  {
+   "id": "area_muchacha",
+   "name": "Muchacha mining site (Mambasa)",
+   "centre": null,
+   "radius_km": null,
+   "territory": "Mambasa",
+   "ipis_ids": [
+    "ipis_codmine02178",
+    "ipis_codmine04064"
+   ],
+   "selection": "names",
+   "selection_reason": "S/2026/466 para 21 and annex 9 name it.",
+   "notes": "A raid, not a hold. Not to be confused with Muchacha near Rubaya."
+  },
+  {
+   "id": "area_kamituga",
+   "name": "Kamituga town",
+   "centre": [
+    -3.0649,
+    28.187
+   ],
+   "radius_km": 3,
+   "territory": "Mwenga",
+   "ipis_ids": [
+    "ipis_codmine00723",
+    "ipis_codmine00724",
+    "ipis_codmine00725",
+    "ipis_codmine00726",
+    "ipis_codmine00727",
+    "ipis_codmine00729",
+    "ipis_codmine00730",
+    "ipis_codmine00731",
+    "ipis_codmine00732",
+    "ipis_codmine00733",
+    "ipis_codmine00735",
+    "ipis_codmine00736",
+    "ipis_codmine00767",
+    "ipis_codmine00768",
+    "ipis_codmine00769",
+    "ipis_codmine00770",
+    "ipis_codmine00771",
+    "ipis_codmine00772",
+    "ipis_codmine01694",
+    "ipis_codmine01724",
+    "ipis_codmine01726",
+    "ipis_codmine02311",
+    "ipis_codmine02354",
+    "ipis_codmine03182",
+    "ipis_codmine03185"
+   ],
+   "selection": "radius",
+   "selection_reason": "Source names the gold town. Kept to 3 km because the belt around it is dense (29 sites within 5 km) and the source is a single article.",
+   "notes": "Radius is our inference. Mwenga sites only. OSM node 1110428358. No source read places M23 here; S/2025/858 annex 24 calls the Kamituga zone within reach of M23 positions."
+  }
+ ],
+ "claims": [
+  {
+   "area_id": "area_rubaya",
+   "actor": "PARECO-FF",
+   "control_type": "controls",
+   "valid_from": "2022",
+   "valid_to": "2024-04-29",
+   "observed_date": null,
+   "evidence_tier": "designated",
+   "source_keys": [
+    "treasury_sb0221"
+   ],
+   "paragraph_or_page": "PARECO-FF section",
+   "summary": "OFAC says PARECO-FF controlled Rubaya mining sites from 2022 to early 2024, collecting fees and taxes. End date set to the eve of the M23 takeover.",
+   "method": null
+  },
+  {
+   "area_id": "area_rubaya",
+   "actor": "PARECO-FF",
+   "control_type": "controls",
+   "valid_from": null,
+   "valid_to": "2024-04-29",
+   "observed_date": "2024-01",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2024_432"
+   ],
+   "paragraph_or_page": "paras 138, 140",
+   "summary": "UN experts: the Rubaya sites stayed under PARECO-FF, which oversaw extraction, with Rubaya hill and D2 Bibatama active in January 2024.",
+   "method": null
+  },
+  {
+   "area_id": "area_rubaya",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2024-04-30",
+   "valid_to": null,
+   "observed_date": "2024-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2024_969"
+   ],
+   "paragraph_or_page": "para 56",
+   "summary": "UN experts: AFC/M23 has held Rubaya town and the whole surrounding mining area since 30 April 2024.",
+   "method": null
+  },
+  {
+   "area_id": "area_rubaya",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2024-04-30",
+   "valid_to": null,
+   "observed_date": "2025-05",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446"
+   ],
+   "paragraph_or_page": "paras 109, 113",
+   "summary": "UN experts list the sites M23 worked inside PE76 and revoked PE4731, and the trading centres it held.",
+   "method": null
+  },
+  {
+   "area_id": "area_rubaya",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2024-04-30",
+   "valid_to": null,
+   "observed_date": "2026-03-26",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "paras 213-221; annex 67",
+   "summary": "UN experts: mining around Rubaya stayed under AFC/M23 and rose; output is assessed above 120 t a month from March 2026 satellite imagery.",
+   "method": null
+  },
+  {
+   "area_id": "area_rubaya",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2024-04-30",
+   "valid_to": null,
+   "observed_date": "2026-06",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "amnesty_afr62_1454_2026"
+   ],
+   "paragraph_or_page": "p6",
+   "summary": "Amnesty: M23 holds exclusive control of the mine and much of the surrounding area, despite attacks by other armed groups. Observed date is approximate: last interviews cited are May 2026.",
+   "method": null
+  },
+  {
+   "area_id": "area_rubaya",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2024-04-30",
+   "valid_to": null,
+   "observed_date": "2026-03",
+   "evidence_tier": "designated",
+   "source_keys": [
+    "treasury_sb0543"
+   ],
+   "paragraph_or_page": "body text",
+   "summary": "OFAC refers to Rubaya as an M23-controlled mine at the March 2026 collapse.",
+   "method": null
+  },
+  {
+   "area_id": "area_rubaya",
+   "actor": "M23",
+   "control_type": "taxes",
+   "valid_from": "2024-05",
+   "valid_to": null,
+   "observed_date": "2024-10",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2024_969"
+   ],
+   "paragraph_or_page": "paras 64-66",
+   "summary": "UN experts: M23 taxed coltan and manganese at $7/kg and cassiterite at $4/kg, raising at least $800,000 a month.",
+   "method": null
+  },
+  {
+   "area_id": "area_rubaya",
+   "actor": "M23",
+   "control_type": "taxes",
+   "valid_from": "2024-05",
+   "valid_to": null,
+   "observed_date": "2026-03",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "para 214; annex 68",
+   "summary": "UN experts: M23 still taxes all actors, now about $4/kg coltan and $2/kg cassiterite at sale, with licences and a daily access fee.",
+   "method": null
+  },
+  {
+   "area_id": "area_rubaya_ring",
+   "actor": "PARECO-FF",
+   "control_type": "controls",
+   "valid_from": null,
+   "valid_to": "2024-04-29",
+   "observed_date": "2024-01",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2024_432"
+   ],
+   "paragraph_or_page": "para 138",
+   "summary": "UN experts: mining sites in the Rubaya area were under PARECO-FF until the M23 takeover.",
+   "method": "Source places this at the mining area as a whole; applying it to these IPIS sites by a 4 km radius is our inference."
+  },
+  {
+   "area_id": "area_rubaya_ring",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2024-04-30",
+   "valid_to": null,
+   "observed_date": "2026-03-26",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2024_969",
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "S/2024/969 para 56; S/2026/466 para 213",
+   "summary": "UN experts: the entire mining area around Rubaya is held by AFC/M23.",
+   "method": "Source places this at the mining area as a whole; applying it to these IPIS sites by a 4 km radius is our inference."
+  },
+  {
+   "area_id": "area_mushaki",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": null,
+   "valid_to": null,
+   "observed_date": "2024-04",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2024_432"
+   ],
+   "paragraph_or_page": "para 138",
+   "summary": "UN experts: Mushaki became the hub for Rubaya minerals, and the onward route from it was solely under M23, before M23 took Rubaya.",
+   "method": "Source places control at the Mushaki hub; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_mushaki",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": null,
+   "valid_to": null,
+   "observed_date": "2024-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2024_969"
+   ],
+   "paragraph_or_page": "paras 57, 60-61",
+   "summary": "UN experts: M23 held the Mushaki trading centre and ran mineral administration and detention from there. No start date given.",
+   "method": "Source places control at the Mushaki hub; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_ngungu",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": null,
+   "valid_to": null,
+   "observed_date": "2025-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "amnesty_afr62_1454_2026"
+   ],
+   "paragraph_or_page": "pp 8-9, 23",
+   "summary": "Amnesty names Ngungu among mines M23 controls, with coerced work reported there. No start date given.",
+   "method": "Source places control at the Ngungu mine; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_ngungu",
+   "actor": "M23",
+   "control_type": "contested",
+   "valid_from": "2026-10-08",
+   "valid_to": null,
+   "observed_date": "2026-10-12",
+   "evidence_tier": "reported",
+   "source_keys": [
+    "ct_cwsr_2026_10_21"
+   ],
+   "paragraph_or_page": "Northwest Axis",
+   "summary": "Critical Threats reports clashes around Ngungu and Kibabi on 8 and 11-12 October, with government-aligned and rebel sources disagreeing on who holds what. Rubaya town was not reported as threatened.",
+   "method": "Source places control at Ngungu; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_masisi_centre",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-01-04",
+   "valid_to": null,
+   "observed_date": "2025-05",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446"
+   ],
+   "paragraph_or_page": "para 14",
+   "summary": "UN experts: AFC/M23 and RDF took Masisi centre on 4 January 2025 and kept it against repeated attacks. Latest dated confirmation is May 2025.",
+   "method": "Source places control at the town; extending it to IPIS sites within 5 km is our inference."
+  },
+  {
+   "area_id": "area_numbi",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-02",
+   "valid_to": "2026-10-06",
+   "observed_date": "2025-05",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446"
+   ],
+   "paragraph_or_page": "para 109",
+   "summary": "UN experts: from early February 2025 AFC/M23 held exclusive control of the key mineral trading centre at Numbi.",
+   "method": "Source places control at Numbi; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_numbi",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-02",
+   "valid_to": "2026-10-06",
+   "observed_date": "2025-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "para 56",
+   "summary": "UN experts: AFC/M23 still held the main 3T mining areas around Numbi.",
+   "method": "Source places control at Numbi; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_lumbishi",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-02",
+   "valid_to": "2026-10-05",
+   "observed_date": "2025-05",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446"
+   ],
+   "paragraph_or_page": "para 109",
+   "summary": "UN experts: from early February 2025 AFC/M23 held exclusive control of the key mineral trading centre at Lumbishi.",
+   "method": "Source places control at Lumbishi; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_lumbishi",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-02",
+   "valid_to": "2026-10-05",
+   "observed_date": "2025-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "para 56",
+   "summary": "UN experts: AFC/M23 still held the main 3T mining areas around Lumbishi.",
+   "method": "Source places control at Lumbishi; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_nyabibwe",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-02",
+   "valid_to": null,
+   "observed_date": "2025-05",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446"
+   ],
+   "paragraph_or_page": "para 109",
+   "summary": "UN experts: from early February 2025 AFC/M23 held exclusive control of the key mineral trading centre at Nyabibwe.",
+   "method": "Source places control at Nyabibwe; extending it to IPIS sites within 4 km is our inference."
+  },
+  {
+   "area_id": "area_nyabibwe",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-02",
+   "valid_to": null,
+   "observed_date": "2025-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "para 56",
+   "summary": "UN experts: AFC/M23 still held the main 3T mining areas around Nyabibwe.",
+   "method": "Source places control at Nyabibwe; extending it to IPIS sites within 4 km is our inference."
+  },
+  {
+   "area_id": "area_nyabibwe",
+   "actor": "M23",
+   "control_type": "taxes",
+   "valid_from": "2025-02",
+   "valid_to": null,
+   "observed_date": "2026-03",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "paras 216-217; annex 68",
+   "summary": "UN experts show AFC/M23 mineral exit permits issued at Nyabibwe, with tax invoices issued at Mubambiro. Observed date is approximate.",
+   "method": "Source places control at Nyabibwe; extending it to IPIS sites within 4 km is our inference."
+  },
+  {
+   "area_id": "area_nyabibwe",
+   "actor": "M23",
+   "control_type": "taxes",
+   "valid_from": "2025-02",
+   "valid_to": null,
+   "observed_date": "2025-05",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446"
+   ],
+   "paragraph_or_page": "para 115",
+   "summary": "UN experts: AFC/M23 looted 186 t of untagged 3T minerals in Nyabibwe and smuggled them to Rwanda.",
+   "method": "Source places control at Nyabibwe; extending it to IPIS sites within 4 km is our inference."
+  },
+  {
+   "area_id": "area_numbi",
+   "actor": "FARDC/Wazalendo",
+   "control_type": "controls",
+   "valid_from": "2026-10-06",
+   "valid_to": "2026-10-07",
+   "observed_date": "2026-10-07",
+   "evidence_tier": "reported",
+   "source_keys": [
+    "ct_cwsr_2026_10_07"
+   ],
+   "paragraph_or_page": "South Kivu section",
+   "summary": "Critical Threats reports government forces and Wazalendo took Numbi on 6 October after M23 withdrew.",
+   "method": "Source places control at Numbi; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_numbi",
+   "actor": "M23",
+   "control_type": "contested",
+   "valid_from": "2026-10-07",
+   "valid_to": null,
+   "observed_date": "2026-10-07",
+   "evidence_tier": "reported",
+   "source_keys": [
+    "ct_cwsr_2026_10_07"
+   ],
+   "paragraph_or_page": "South Kivu section",
+   "summary": "Critical Threats reports M23 recaptured Numbi on 7 October as clashes went on. This is the fourth offensive in northern Kalehe since late June, so treat the hold as unstable.",
+   "method": "Source places control at Numbi; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_lumbishi",
+   "actor": "FARDC/Wazalendo",
+   "control_type": "contested",
+   "valid_from": "2026-10-05",
+   "valid_to": null,
+   "observed_date": "2026-10-12",
+   "evidence_tier": "reported",
+   "source_keys": [
+    "ct_cwsr_2026_10_07",
+    "ct_cwsr_2026_10_21"
+   ],
+   "paragraph_or_page": "South Kivu section; Northwest Axis",
+   "summary": "Critical Threats reports government forces took Lumbishi around 5 October; an M23 spokesman then alleged attacks there in mid-October. Who holds it now is unclear.",
+   "method": "Source places control at Lumbishi; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_minova",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-01",
+   "valid_to": null,
+   "observed_date": "2025-05",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446"
+   ],
+   "paragraph_or_page": "para 14",
+   "summary": "UN experts: AFC/M23 and RDF took Minova about two weeks after 4 January 2025.",
+   "method": null
+  },
+  {
+   "area_id": "area_goma",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-01-27",
+   "valid_to": null,
+   "observed_date": "2026-04",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446",
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "S/2025/446 para 35; S/2026/466 paras 94, 216",
+   "summary": "UN experts: RDF columns and AFC/M23 seized Goma between 21 and 27 January 2025; M23 taxation and transport controls near Goma continue in 2026.",
+   "method": null
+  },
+  {
+   "area_id": "area_bukavu",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-02-16",
+   "valid_to": null,
+   "observed_date": "2026-04",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446",
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "S/2025/446 paras 17, 169; S/2026/466 para 109",
+   "summary": "UN experts: Bukavu fell on 16 February 2025 without major combat and remained occupied.",
+   "method": null
+  },
+  {
+   "area_id": "area_lomera_luhihi",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-02",
+   "valid_to": null,
+   "observed_date": "2025-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "paras 59-62",
+   "summary": "UN experts: AFC/M23 took de facto control of mining at Luhihi after its mid-February 2025 takeover, replacing state services. Mining was suspended on 30 August 2025.",
+   "method": "Source places control at the Lomera site at Luhihi; extending it to IPIS sites within 4 km is our inference."
+  },
+  {
+   "area_id": "area_lomera_luhihi",
+   "actor": "M23",
+   "control_type": "taxes",
+   "valid_from": "2025-02",
+   "valid_to": "2025-09",
+   "observed_date": "2025-08",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "paras 60-61",
+   "summary": "UN experts: M23 imposed a 30 per cent production tax on the pit-level sale price, ending with the site's closure.",
+   "method": "Source places control at the Lomera site at Luhihi; extending it to IPIS sites within 4 km is our inference."
+  },
+  {
+   "area_id": "area_lomera_luhihi",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-04",
+   "valid_to": null,
+   "observed_date": "2026-06-18",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "amnesty_afr62_1454_2026"
+   ],
+   "paragraph_or_page": "pp 6, 14-15",
+   "summary": "Amnesty: M23 expelled the cooperatives in April-May 2025, closed the site in September 2025 and began clearing structures in March 2026; miners still bribed fighters for access. Amnesty describes M23 control as exclusive.",
+   "method": "Source places control at the Lomera site; extending it to IPIS sites within 4 km is our inference."
+  },
+  {
+   "area_id": "area_nzibira",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-09-21",
+   "valid_to": null,
+   "observed_date": "2025-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "paras 52, 56; annex 26",
+   "summary": "UN experts: AFC/M23 took Nzibira on 21 September 2025. About 40 t a month of cassiterite and wolframite used to trade through it.",
+   "method": "Source places control at the Nzibira hub; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_luntukulu_lubimbe",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-09",
+   "valid_to": null,
+   "observed_date": "2025-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "para 52",
+   "summary": "UN experts: advances in September and October 2025 captured Luntukulu, Chulwe, Lubimbe and positions on RP503.",
+   "method": null
+  },
+  {
+   "area_id": "area_twangiza",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-05-08",
+   "valid_to": null,
+   "observed_date": "2025-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "paras 58, 63-66",
+   "summary": "UN experts: AFC/M23 took over the Twangiza mine on 8 May 2025. FARDC air strikes hit it in October 2025. Twangiza Mining denounces the takeover.",
+   "method": null
+  },
+  {
+   "area_id": "area_karhembu",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": null,
+   "valid_to": null,
+   "observed_date": "2025-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "para 58",
+   "summary": "UN experts list a semi-mechanised operation near Karhembu as inside M23-held South Kivu. No start date given.",
+   "method": null
+  },
+  {
+   "area_id": "area_walikale_town",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-03",
+   "valid_to": "2025-04",
+   "observed_date": "2025-05",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446",
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "S/2025/446 para 18; S/2025/858 para 46",
+   "summary": "UN experts: AFC/M23 pushed deep into Walikale in mid-March 2025 and left in early April after air strikes and pressure.",
+   "method": "Source places control at the town; extending it to IPIS sites within 6 km is our inference."
+  },
+  {
+   "area_id": "area_pinga",
+   "actor": "FDLR",
+   "control_type": "present",
+   "valid_from": null,
+   "valid_to": null,
+   "observed_date": "2026-03",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "paras 136-137",
+   "summary": "UN experts: FDLR-FOCA high command operates in Pinga, where FARDC delivered weapons in late March 2026. This is presence, not sole control.",
+   "method": "Source places control at Pinga; extending it to IPIS sites within 5 km is our inference."
+  },
+  {
+   "area_id": "area_mpeti",
+   "actor": "M23",
+   "control_type": "contested",
+   "valid_from": "2024-10",
+   "valid_to": null,
+   "observed_date": "2026-10-27",
+   "evidence_tier": "reported",
+   "source_keys": [
+    "ct_cwsr_2026_09_11",
+    "ct_cwsr_2026_10_28"
+   ],
+   "paragraph_or_page": "Northwest Axis",
+   "summary": "Critical Threats reports positions around Mpeti changing hands in September 2026 and fighting on hills above it on 27 October. Start date is the UN-recorded advance (S/2024/969 para 46).",
+   "method": "Source places control at Mpeti; extending it to IPIS sites within 5 km is our inference."
+  },
+  {
+   "area_id": "area_lubero_south",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-02",
+   "valid_to": null,
+   "observed_date": "2025-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446",
+    "un_s2025_858"
+   ],
+   "paragraph_or_page": "S/2025/446 para 18; S/2025/858 para 49",
+   "summary": "UN experts: AFC/M23 took areas south of Lubero centre in mid-February 2025 and held the Kanyabayonga-Kirumba axis. Lubero centre itself was not taken.",
+   "method": null
+  },
+  {
+   "area_id": "area_rutshuru_nyiragongo",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": null,
+   "valid_to": null,
+   "observed_date": "2026-04",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "paras 48, 64",
+   "summary": "UN experts: Rutshuru and Nyiragongo fall in an AFC/M23 defence zone, though RDF was still fighting FDLR in Bwito in April 2026.",
+   "method": null
+  },
+  {
+   "area_id": "area_uvira_town",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2025-12-10",
+   "valid_to": "2026-01-18",
+   "observed_date": "2026-04",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "paras 40, 74, 77",
+   "summary": "UN experts: AFC/M23 and RDF took Uvira on 10 December 2025 and left on 18 January 2026 under diplomatic pressure.",
+   "method": null
+  },
+  {
+   "area_id": "area_uvira_town",
+   "actor": "Wazalendo",
+   "control_type": "present",
+   "valid_from": "2026-01-18",
+   "valid_to": null,
+   "observed_date": "2026-04",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "paras 82, 114",
+   "summary": "UN experts: Wazalendo were first back into Uvira, then government forces redeployed and ordered them out toward the front.",
+   "method": null
+  },
+  {
+   "area_id": "area_sange",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2026-01-18",
+   "valid_to": null,
+   "observed_date": "2026-03",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "annex 25",
+   "summary": "UN experts: on leaving Uvira, AFC/M23 made Sange its South Kivu headquarters.",
+   "method": "Source places control at Sange; extending it to IPIS sites within 5 km is our inference."
+  },
+  {
+   "area_id": "area_lemera_uvira",
+   "actor": "M23",
+   "control_type": "controls",
+   "valid_from": "2026-03",
+   "valid_to": null,
+   "observed_date": "2026-03",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "annex 25",
+   "summary": "UN experts: AFC/M23 and RDF occupied the Lemera hills in March 2026, forming a corridor toward Minembwe.",
+   "method": "Source places control at the Lemera hills; extending it to IPIS sites within 5 km is our inference."
+  },
+  {
+   "area_id": "area_mikenge",
+   "actor": "MRDP-Twirwaneho",
+   "control_type": "contested",
+   "valid_from": "2025-08",
+   "valid_to": null,
+   "observed_date": "2026-04",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "para 122; annex 25",
+   "summary": "UN experts: MRDP-Twirwaneho and AFC/M23 hold Mikenge, while the FARDC-Wazalendo-FDNB coalition fights to take it. Start date is the M23 arrival in S/2025/858 para 53.",
+   "method": null
+  },
+  {
+   "area_id": "area_misisi_kachanga",
+   "actor": "Mai-Mai Yakutumba",
+   "control_type": "controls",
+   "valid_from": null,
+   "valid_to": null,
+   "observed_date": "2024-04",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2024_432"
+   ],
+   "paragraph_or_page": "paras 189-193",
+   "summary": "UN experts: Yakutumba held most Fizi gold mining; about 100 combatants were at Kachanga, taking ore and taxing pits. Latest dated confirmation for this site is 2024.",
+   "method": null
+  },
+  {
+   "area_id": "area_misisi_kachanga",
+   "actor": "Mai-Mai Yakutumba",
+   "control_type": "taxes",
+   "valid_from": "2023",
+   "valid_to": null,
+   "observed_date": "2026-01",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "paras 123-125",
+   "summary": "UN experts: Yakutumba's CNPSC ran a tax system and mining courts in areas it holds, particularly in Fizi. Kachanga is not named here.",
+   "method": null
+  },
+  {
+   "area_id": "area_mongbwalu",
+   "actor": "CODECO",
+   "control_type": "taxes",
+   "valid_from": null,
+   "valid_to": null,
+   "observed_date": "2026-03",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446",
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "S/2025/446 para 128; S/2026/466 para 197",
+   "summary": "UN experts: CODECO/URDPC pushed Zaire out of Mongbwalu and taxes miners and pits at sites including Makala and Senzere.",
+   "method": null
+  },
+  {
+   "area_id": "area_nizi",
+   "actor": "Zaire",
+   "control_type": "controls",
+   "valid_from": null,
+   "valid_to": "2025-08",
+   "observed_date": "2025-08",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2025_446",
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "S/2025/446 paras 164-165; S/2026/466 paras 193, 210",
+   "summary": "UN experts: Zaire held the Mabanga-Nizi gold area until government operations from mid-August 2025.",
+   "method": null
+  },
+  {
+   "area_id": "area_nizi",
+   "actor": "FARDC",
+   "control_type": "controls",
+   "valid_from": "2025-08",
+   "valid_to": null,
+   "observed_date": "2026-03",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "paras 193, 195, 198",
+   "summary": "UN experts: state authority was restored at Nizi from August 2025. Miners around Mabanga still pay CRP/FRP, but Nizi is not named for that.",
+   "method": null
+  },
+  {
+   "area_id": "area_muchacha",
+   "actor": "ADF",
+   "control_type": "present",
+   "valid_from": "2026-03-12",
+   "valid_to": "2026-03-12",
+   "observed_date": "2026-03-12",
+   "evidence_tier": "documented",
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "para 21; annex 9",
+   "summary": "UN experts: ADF attacked the Muchacha site on 12 March 2026. This was a raid, not a hold.",
+   "method": null
+  },
+  {
+   "area_id": "area_nzibira",
+   "actor": "M23",
+   "control_type": "contested",
+   "valid_from": "2026-08-20",
+   "valid_to": null,
+   "observed_date": "2026-08-31",
+   "evidence_tier": "reported",
+   "source_keys": [
+    "actualite_nzibira_2026_08",
+    "icg_crisiswatch_2026_08"
+   ],
+   "paragraph_or_page": "body text; DR Congo entry",
+   "summary": "Actualite.cd reports repeated AFC/M23-Wazalendo fighting at Nzibira from 20 August 2026. Crisis Group says the government-side push toward Nzibira and Luntukulu did not produce a sustained advance, so M23 stays the likely holder.",
+   "method": "Source places fighting at Nzibira; extending it to IPIS sites within 3 km is our inference."
+  },
+  {
+   "area_id": "area_luntukulu_lubimbe",
+   "actor": "M23",
+   "control_type": "contested",
+   "valid_from": "2026-08-20",
+   "valid_to": null,
+   "observed_date": "2026-08-31",
+   "evidence_tier": "reported",
+   "source_keys": [
+    "actualite_nzibira_2026_08",
+    "icg_crisiswatch_2026_08"
+   ],
+   "paragraph_or_page": "body text; DR Congo entry",
+   "summary": "Same fighting reached Luntukulu, spelled Lutunkulu in the report, with residents fleeing. Crisis Group reports no sustained government advance. Lubimbe is not named.",
+   "method": null
+  },
+  {
+   "area_id": "area_sange",
+   "actor": "M23",
+   "control_type": "contested",
+   "valid_from": "2026-10-22",
+   "valid_to": null,
+   "observed_date": "2026-10-26",
+   "evidence_tier": "reported",
+   "source_keys": [
+    "ct_cwsr_2026_10_28"
+   ],
+   "paragraph_or_page": "Southern Axis",
+   "summary": "M23 says government forces reinforced Luvungi and Lubarika, and clashes run along the Ruzizi foothills. Who holds Sange now is not stated, so the March position should not be read as current.",
+   "method": "Source places fighting near Sange; extending it to IPIS sites within 5 km is our inference."
+  },
+  {
+   "area_id": "area_kamituga",
+   "actor": "Wazalendo",
+   "control_type": "controls",
+   "valid_from": null,
+   "valid_to": null,
+   "observed_date": "2026-07-16",
+   "evidence_tier": "reported",
+   "source_keys": [
+    "actualite_kamituga_2026_07"
+   ],
+   "paragraph_or_page": "body text",
+   "summary": "Actualite.cd says gold town Kamituga is controlled by Wazalendo militias allied to the army, who are accused of abuses there. This is one media line, with no start date.",
+   "method": "Source places control at the town; extending it to IPIS sites within 3 km is our inference."
+  }
+ ],
+ "key_site_updates": [
+  {
+   "site_id": "site_lomera",
+   "lat": -2.2769,
+   "lon": 28.8804,
+   "source": "osm_nominatim (Luhihi village, node 1160970919); un_s2025_858 para 59",
+   "notes": "Lomera is NOT in IPIS (searched Lomera, Lumera, Lomero, Luhihi). This point is Luhihi village, a proxy, not the mine: Amnesty places the mine on the Lake Kivu shore, so true position is probably a few km east. Show as approximate. Nearest IPIS gold sites, 3 km ENE: Nyenyezi 03829, Nyabihanga 03830 and 04175, Lwafumbiri 04176."
+  },
+  {
+   "site_id": "site_rubaya",
+   "lat": -1.5602,
+   "lon": 28.88186,
+   "source": "ipis_asm_seed codmine00312",
+   "notes": "Luwowo/Gasasa. Other IPIS ids: D3 Bibatama 00309 (-1.5841, 28.8925), D2 Mataba 00310 (-1.5772, 28.8888), D4 Gakombe 00311 (-1.5697, 28.8815), Bundjali 00313, D2 Bibatama 00318 (-1.5782, 28.8889). Do not use 03285."
+  },
+  {
+   "site_id": "site_numbi",
+   "lat": -1.79185,
+   "lon": 28.8733,
+   "source": "ipis_asm_seed codmine01779",
+   "notes": "IPIS point, last visit 2009, about 2.3 km west of Numbi town (OSM -1.7877, 28.8938). No row in sites.json yet."
+  },
+  {
+   "site_id": "site_nyabibwe",
+   "lat": -1.9431,
+   "lon": 28.9386,
+   "source": "ipis_asm_seed codmine00917",
+   "notes": "Kalimbi (Nyabibwe), Kalehe. No row in sites.json yet."
+  },
+  {
+   "site_id": "site_nzibira",
+   "lat": -2.6753,
+   "lon": 28.5055,
+   "source": "osm_nominatim node 2815257203",
+   "notes": "Not in IPIS by name. Town point. No row in sites.json yet."
+  },
+  {
+   "site_id": "site_bisie",
+   "lat": -1.03304,
+   "lon": 27.74432,
+   "source": "ipis_asm_seed codmine00396",
+   "notes": "Bisie Mpama, last visit 2017. No control claim. No row in sites.json yet."
+  }
+ ],
+ "polygons": {
+  "found": false,
+  "sources": [
+   {
+    "name": "IPIS M23 Area of Influence",
+    "url": "https://ipisresearch.be/home/maps-data/maps-of-drc/mapping-the-m23s-territorial-influence-in-eastern-drc",
+    "availability": "Shapefiles exist but no download on the page; published as PNG and GIF. Not in the webmap bundle (no M23 reference found).",
+    "licence": "None stated for AoI data. IPIS open data is ODC-BY but this layer is not in it.",
+    "notes": "IPIS warns of +/-10 km accuracy at 1:1,500,000 and says not to use it to decide whether border villages or mines are M23-held. Worth requesting by email."
+   },
+   {
+    "name": "Critical Threats Project (ISW/AEI) CWSR maps",
+    "url": "https://www.criticalthreats.org/briefs/congo-war-security-review",
+    "availability": "Header says map shapefiles are available by email request.",
+    "licence": "Not stated; ask for terms.",
+    "notes": "Best candidate: weekly, current to 28 Oct 2026. Not public, so not used."
+   },
+   {
+    "name": "Humanitarian Data Exchange",
+    "url": "https://data.humdata.org/",
+    "availability": "CKAN API searches found no control polygon. Only displacement tables (XLSX, CSV).",
+    "licence": "n/a",
+    "notes": "Queried 2026-11-04 with four terms."
+   },
+   {
+    "name": "GitHub",
+    "url": "https://github.com/search",
+    "availability": "Repository search returned 0 for four queries. Code search was not run: it needs an authenticated token.",
+    "licence": "n/a",
+    "notes": "Treat as not found, not as proven absent."
+   },
+   {
+    "name": "Wikimedia Commons / Wikipedia",
+    "url": "https://commons.wikimedia.org/wiki/File:Zone-de-controle-M23.svg",
+    "availability": "SVG images only (Zone-de-controle-M23.svg, DRC-Rwanda Conflict (2022-present).svg, East Congo conflict map.svg). No Data: namespace map found.",
+    "licence": "Per file; not checked.",
+    "notes": "Images, not digitised, per the brief."
+   },
+   {
+    "name": "ACLED",
+    "url": "https://acleddata.com/",
+    "availability": "Event data and written updates. No control polygons seen.",
+    "licence": "Registration and ACLED terms; not checked in this run.",
+    "notes": "Points only; IPIS derives its AoI from them."
+   },
+   {
+    "name": "DRC Ministry of Mines",
+    "url": "https://files.passle.net/Passle/6182994d49b2340a4c485aab/MediaLibrary/Document/2025-02-21-14-38-59-416-AnnextoArreteMinisteriel.pdf",
+    "availability": "No M23 polygons. A table of red-status site points only.",
+    "licence": "Government document; no licence stated.",
+    "notes": "Not a control source."
+   }
+  ],
+  "notes": "No public GeoJSON or KML of M23-held area was found. IPIS and Critical Threats hold shapefiles, and only Critical Threats offers them, by email request. Nothing was digitised."
+ },
+ "caveats": [
+  "Tier rule for the map: claim rows carry the tier of the source about the place. A site selected by radius is one step weaker: show it as inferred ('our analysis suggests'), even if the place-level claim is documented or designated. Every radius claim has a method note saying so.",
+  "Armed-held counts are at the latest evidence, not a confirmed state on 2026-11-04. UN evidence stops at 15 Apr 2026, Amnesty at about June 2026, Critical Threats at 28 Oct 2026.",
+  "Staleness: an open claim means no source has ended it, not that it was reconfirmed. Masisi centre and Minova were last dated in May 2025. Nzibira, Karhembu and Twangiza were last confirmed by the UN in Dec 2025.",
+  "Absence of a claim is not evidence of no armed group. Sites with no claim here are unclassified, and must not be drawn as 'not armed-held'. Most of Walikale, Lubero, Shabunda, Mwenga, Fizi and Ituri falls in this group.",
+  "S/2025/858 para 58 says most South Kivu gold comes from Shabunda, Mwenga and Fizi areas held by FARDC and Wazalendo. Not M23 is not the same as no armed group, because Wazalendo are armed groups.",
+  "Wazalendo are government-allied armed groups. Decide in the UI whether a joint FARDC/Wazalendo hold counts as armed-group control. Here Wazalendo alone counts as armed; FARDC alone does not; a joint hold lasting one day at Numbi is logged but superseded.",
+  "Control changes fast at the front. Numbi: government forces took it 6 Oct 2026 after M23 withdrew, and M23 reportedly retook it 7 Oct. Local reports of the first step alone would have misclassified it. Headlines of further Masisi clashes on 3 Nov 2026 (Mirindano, Mahanga, Kibanda, Kilongo) were seen but not read.",
+  "Rubaya: Amnesty and the UN both show M23 hold. Fighting reached Kibabi and Ngungu in Oct 2026 and Critical Threats reports Rubaya town not threatened, so area_rubaya stays armed_held. It is the nearest front to the key site, so re-check on each update.",
+  "Lomera is closed, not abandoned: M23 suspended it on 30 Aug 2025 (UN), announced the closure on 8 Sep 2025 (Amnesty), and began clearing structures in March 2026, while miners still bribed fighters for access. Start dates differ too: the UN dates M23 control from mid-Feb 2025, Amnesty dates the expulsion of cooperatives to April-May 2025. seed control_claims uses 2025-04; the UN date is earlier. Discovery is late 2024 (Amnesty) or Jan 2025 (UN).",
+  "IPIS name traps left out on purpose: 03059 Nyabibwe (Masisi), 03285 D2 Bibatama (coordinate error: the Ministry annex gives -1.5782 for this site, as does IPIS 00318), 03948 Lubimbe (Shabunda), 02128 Bambu (Mambasa), 01206-01208 Kamanyola (Maniema), 03301 Lemera (Idjwi), 01051 and 03103 Mpama (Moba), all IPIS Mabanga sites. Do not re-add them by name search.",
+  "Red-status overlay: the 38 Masisi and Kalehe sites are a regulatory ban and are not used to classify anything here. Ecofin links them to M23 influence, but the arrete's own reasoning was not read. Four sites (nos 17-20) have no coordinates in the annex. See area_control.md for the IPIS matches.",
+  "Rubaya permits: the UN uses PE76 and revoked PE4731 (S/2025/446 para 113), while annex 67 of S/2026/466 places the main hill in PE16159, attributed to SAKIMA. Treat permit numbers as dated labels.",
+  "M23 was renamed Front pour la Refondation de la Nation (FRN) in Oct 2026; actor stays M23 for continuity. 'Zaire' is the Ituri armed group, not the country.",
+  "Denials to show beside these claims: Rwanda denies supporting M23 and trafficking coltan (see responses_to_claims). AFC/M23 said in 2026 that no withdrawal was under way and described moves as troop rotations (S/2026/466 para 50). Rwanda and RMB gave no reply to Amnesty. Twangiza Mining disputes M23's actions at its mine.",
+  "Critical Threats aggregates media and partisan social-media claims and says so in its wording, so its rows are tiered reported even where it is the best source. Excerpts were query-ranked for some issues, so these reviews were not all read end to end. The Kamituga row rests on one article with a doubtful weekday.",
+  "Area size: no km2 figure was found in any source read. The UN gives only relative change: up 30 per cent April to early Nov 2024 (S/2024/969 para 47) and up 100 per cent Nov 2024 to early April 2025 (S/2025/446 para 19). IPIS AoI dates and any area estimates are inside map images, not digitised.",
+  "Not done: Tavily rate-limited one search (429). S/2025/446 annex 54 (Rubaya sites), S/2026/466 annexes 35 and 37, and the Ngungu site location were not pursued. Bisie, Lubero, Twangiza and Karhembu need better selectors or coordinates before they can classify sites.",
+  "Counts at latest evidence, of 3,469 IPIS sites: 59 armed-held (12 named: 8 Rubaya M23, 2 Yakutumba, 2 CODECO; 47 by radius: 22 M23 and 25 Wazalendo at Kamituga, the latter resting on one article), 48 contested, 3 armed presence only at Pinga. Unclassified sites are unknown, not clear. Report the Kamituga 25 separately."
+ ]
+}

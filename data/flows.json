@@ -288,5 +288,21 @@
     ],
     "summary": "Treasury: RDF soldiers and M23 escort gold from M23-held South Kivu areas via Rusizi District to Gasabo in Kigali; at least 60 kg in early 2026.",
     "notes": ""
+  },
+  {
+    "id": "fl_rubaya_3u",
+    "mineral": "coltan",
+    "from_node": "site_rubaya",
+    "to_node": "act_3u_mining_supporters_ltd",
+    "period": "2025",
+    "volume_t": null,
+    "value_usd": null,
+    "hs_code": "261590",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "summary": "The UN says this new Kigali exporter bought Rubaya coltan, citing confidential documents and audio (S/2026/466 para 218).",
+    "notes": ""
   }
 ]

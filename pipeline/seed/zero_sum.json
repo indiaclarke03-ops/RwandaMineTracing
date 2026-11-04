@@ -1,0 +1,116 @@
+[
+  {
+    "id": "zs_coltan_2022",
+    "mineral": "coltan",
+    "year": 2022,
+    "rwanda_exports_t": 1304.7,
+    "drc_official_exports_t": 1909.66,
+    "combined_t": 3214.4,
+    "rwanda_share_pct": 40.6,
+    "china_imports_from_rwa_t": 811.1,
+    "china_imports_from_cod_t": 879.1,
+    "china_combined_t": 1690.2,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview",
+      "src_sg_mines_2025",
+      "src_sg_mines_2024",
+      "src_sg_mines_2023"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "zs_coltan_2023",
+    "mineral": "coltan",
+    "year": 2023,
+    "rwanda_exports_t": 2070.4,
+    "drc_official_exports_t": 1878.7,
+    "combined_t": 3949.1,
+    "rwanda_share_pct": 52.4,
+    "china_imports_from_rwa_t": 1571.3,
+    "china_imports_from_cod_t": 1202.7,
+    "china_combined_t": 2774.0,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview",
+      "src_sg_mines_2025",
+      "src_sg_mines_2024",
+      "src_sg_mines_2023"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "zs_coltan_2024",
+    "mineral": "coltan",
+    "year": 2024,
+    "rwanda_exports_t": 2383.9,
+    "drc_official_exports_t": 1244.86,
+    "combined_t": 3628.8,
+    "rwanda_share_pct": 65.7,
+    "china_imports_from_rwa_t": 2286.5,
+    "china_imports_from_cod_t": 1087.9,
+    "china_combined_t": 3374.4,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview",
+      "src_sg_mines_2025",
+      "src_sg_mines_2024",
+      "src_sg_mines_2023"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "zs_coltan_2025",
+    "mineral": "coltan",
+    "year": 2025,
+    "rwanda_exports_t": 2743.0,
+    "drc_official_exports_t": 891.31,
+    "combined_t": 3634.3,
+    "rwanda_share_pct": 75.5,
+    "china_imports_from_rwa_t": 2864.8,
+    "china_imports_from_cod_t": 987.2,
+    "china_combined_t": 3852.0,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview",
+      "src_sg_mines_2025",
+      "src_sg_mines_2024",
+      "src_sg_mines_2023"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "zs_tin_2024",
+    "mineral": "tin",
+    "year": 2024,
+    "rwanda_exports_t": 4861.49,
+    "drc_official_exports_t": 14886.67,
+    "combined_t": 19748.2,
+    "rwanda_share_pct": 24.6,
+    "notes": "",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview",
+      "src_sg_mines_2025",
+      "src_sg_mines_2024",
+      "src_sg_mines_2023"
+    ]
+  },
+  {
+    "id": "zs_tin_2025",
+    "mineral": "tin",
+    "year": 2025,
+    "rwanda_exports_t": 7700,
+    "drc_official_exports_t": 12690.57,
+    "combined_t": 20390.6,
+    "rwanda_share_pct": 37.8,
+    "notes": "",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview",
+      "src_sg_mines_2025",
+      "src_sg_mines_2024",
+      "src_sg_mines_2023"
+    ]
+  }
+]

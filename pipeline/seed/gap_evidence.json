@@ -43,22 +43,6 @@
     "notes": ""
   },
   {
-    "id": "ge_scale_inferred",
-    "section": "origin",
-    "order": 4,
-    "headline": "That could be half or more of Rwanda's official coltan exports",
-    "detail": "Set against the 2,384 t Rwanda officially exported in 2024, Global Witness's ≥1,400 t a year would make M23-linked coltan roughly half or more of the total. Our geology-based excess for 2024 (~1,040 t) is in the same range.",
-    "armed_group": "M23",
-    "evidence_tier": "inferred",
-    "source_ids": [
-      "src_gw_who_buys_coltan_pdf",
-      "src_un_goe_s2025_446"
-    ],
-    "paragraph_or_page": null,
-    "notes": "",
-    "method": "Ratio of Global Witness's 12-month smuggling estimate (Apr 2024–Apr 2025) to Rwanda's calendar-2024 coltan exports. The periods do not match exactly and some smuggled coltan may have been exported later or recorded elsewhere, so this is an order of magnitude, not a share."
-  },
-  {
     "id": "ge_2025_goma",
     "section": "origin",
     "order": 5,
@@ -296,5 +280,52 @@
     "paragraph_or_page": null,
     "notes": "",
     "method": "Absence finding from our review of UN Group of Experts reports (2023–2026), ITSCI, Global Witness, The Sentry, GI-TOC, IPIS and Rwandan government statements."
+  },
+  {
+    "id": "ge_kivu_stop",
+    "section": "origin",
+    "order": 4,
+    "headline": "Official exports from Goma and Bukavu stopped after M23 took them",
+    "detail": "Congo's ministry tables show Goma and Bukavu carrying no coltan or wolframite in 2025, against 134 t and 349 t of coltan in 2024. Artisanal cassiterite from the Kivus fell from 3,349 t to 76 t. The ministry says some Kivu ore was rerouted through Kindu and Kalemie, so not all of it went to Rwanda.",
+    "armed_group": "M23",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sg_mines_2025",
+      "src_sg_mines_2024",
+      "src_sg_mines_2023"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "ge_books",
+    "section": "trade",
+    "order": 5,
+    "headline": "Neither country's records show the flow",
+    "detail": "Congo reports no 3T exports to Rwanda in any year. Rwanda reported cassiterite imports from Congo of 147–299 t in 2021–24, then none in 2025 as its exports surged. In Sayari only one row shows coltan going from Congo to Rwanda (26 t).",
+    "armed_group": null,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview",
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "ge_east_rise",
+    "section": "trade",
+    "order": 6,
+    "headline": "A sanctioned buyer took ore from both countries",
+    "detail": "East Rise, sanctioned by the US in August 2025, took Congolese coltan from CDMC-named shippers and about 1,408 t of 3T from Rwanda in customs records. Sayari's trade record has no sanction flag but shares the listed company's Hong Kong address. Its last Rwandan row is dated 12 Aug 2025, the day of the action; earlier rows are not a breach.",
+    "armed_group": "PARECO-FF",
+    "evidence_tier": "inferred",
+    "method": "Same-entity judgment from a shared address with the OFAC-listed company, then a sum of Sayari customs rows.",
+    "source_ids": [
+      "src_sayari",
+      "src_treasury_sb0221"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
   }
 ]

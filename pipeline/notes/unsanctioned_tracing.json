@@ -1,0 +1,2733 @@
+{
+ "run_date": "2026-11-04",
+ "status": "complete",
+ "run_notes": [
+  "Link types are limited to the brief's list. shares_agent is used for joint shipper labels and shared named persons, because no agent or broker field exists in the data.",
+  "Phone numbers, passport numbers, dates of birth and home addresses seen in sources were deliberately not stored.",
+  "strong on an armed-group link means a UN report plus a second organisation; it remains documented and is an allegation, not a finding of knowledge or intent.",
+  "Sayari conflict-mineral risk flags are rule-based and were not used as evidence."
+ ],
+ "sources": [
+  {
+   "key": "gw_2026",
+   "title": "Who buys Rwanda's smuggled coltan?",
+   "publisher": "Global Witness",
+   "url": "https://globalwitness.org/documents/1016/Global_Witness_Who_buys_Rwandas_smuggled_coltan_Sept2026.pdf",
+   "published_date": "2026-06",
+   "type": "ngo",
+   "verified_by_extract": true,
+   "paragraph_or_page": "pp.19-31 exporter profiles",
+   "notes": "Full text read via tavily_extract (direct curl returned 404 HTML). Running head says June 2026; filename says Sept2026."
+  },
+  {
+   "key": "un_s2026_466",
+   "title": "UN Group of Experts on the DRC, final report",
+   "publisher": "United Nations Security Council",
+   "url": "https://www.ecoi.net/en/file/local/2142213/n2611394.pdf",
+   "published_date": "2026",
+   "type": "un_report",
+   "verified_by_extract": true,
+   "paragraph_or_page": "paras 213-221, pp.38-40",
+   "notes": "Full 230-page PDF downloaded from ecoi.net mirror and parsed locally."
+  },
+  {
+   "key": "un_s2025_446",
+   "title": "UN Group of Experts on the DRC, midterm/final report S/2025/446",
+   "publisher": "United Nations Security Council",
+   "url": "https://documents.un.org/api/symbol/access?s=S/2025/446&l=en&t=pdf",
+   "published_date": "2025",
+   "type": "un_report",
+   "verified_by_extract": true,
+   "paragraph_or_page": "para 119 and fn 139, p.30",
+   "notes": "Full 254-page PDF downloaded and parsed locally."
+  },
+  {
+   "key": "un_s2024_969",
+   "title": "UN Group of Experts on the DRC, midterm report S/2024/969",
+   "publisher": "United Nations Security Council",
+   "url": "https://documents.un.org/api/symbol/access?s=S/2024/969&l=en&t=pdf",
+   "published_date": "2024",
+   "type": "un_report",
+   "verified_by_extract": true,
+   "paragraph_or_page": "name search; CDMC mention",
+   "notes": "Full 160-page PDF downloaded and parsed locally."
+  },
+  {
+   "key": "gw_2022",
+   "title": "The ITSCI Laundromat",
+   "publisher": "Global Witness",
+   "url": "https://gw.cdn.ngo/media/documents/The_ITSCI_Laundromat_-_April_2022.pdf",
+   "published_date": "2022-04",
+   "type": "ngo",
+   "verified_by_extract": true,
+   "paragraph_or_page": "sections on CDMC, Tawotin and Huber",
+   "notes": "Full 86-page PDF downloaded and parsed locally."
+  },
+  {
+   "key": "amnesty_2026",
+   "title": "Amnesty International AFR 62/1454/2026",
+   "publisher": "Amnesty International",
+   "url": "https://www.amnesty.org/en/wp-content/uploads/2026/09/AFR6214542026ENGLISH.pdf",
+   "published_date": "2026-09",
+   "type": "ngo",
+   "verified_by_extract": true,
+   "paragraph_or_page": "name search: no target company named",
+   "notes": "Full 40-page PDF downloaded and parsed locally."
+  },
+  {
+   "key": "rma_magazine_2024",
+   "title": "Rwanda Mining Magazine, members list, August 2024",
+   "publisher": "Rwanda Mining Association",
+   "url": "https://cdnc.heyzine.com/flip-book/pdf/b01d5d5b642c850b74ea25febe23d93c08ea4055.pdf",
+   "published_date": "2024-08",
+   "type": "dataset",
+   "verified_by_extract": true,
+   "paragraph_or_page": "p.8 onward, members tables",
+   "notes": "Cited in S/2025/446 fn 139. Lists company, representative and telephone. Phone numbers deliberately not copied here."
+  },
+  {
+   "key": "sayari",
+   "title": "Sayari Graph",
+   "publisher": "Sayari",
+   "url": "https://graph.sayari.com",
+   "published_date": "2026-11-04",
+   "type": "dataset",
+   "verified_by_extract": false,
+   "paragraph_or_page": null,
+   "notes": "Trade records and watchlist data via MCP. Customs rows show parties, not ore origin."
+  },
+  {
+   "key": "cy_registrar_via_sayari",
+   "title": "Cyprus Registrar of Companies record for Metarex Ltd HE 322537 (read through Sayari)",
+   "publisher": "Cyprus Department of Registrar of Companies, via Sayari",
+   "url": "https://graph.sayari.com/resource/entity/UOsIBkQxpnsjOjV6Gasj9w",
+   "published_date": "2026-11-04",
+   "type": "dataset",
+   "verified_by_extract": false,
+   "paragraph_or_page": "has_shareholder, has_director",
+   "notes": "Read as a Sayari profile, not on the Cyprus site. Sources listed: Cyprus Registrar, Infocredit, LEI."
+  },
+  {
+   "key": "treasury_sb0221",
+   "title": "Treasury Sanctions Entities Linked to Violence and Illegal Mining in the DRC",
+   "publisher": "US Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0221",
+   "published_date": "2025-08-12",
+   "type": "sanctions",
+   "verified_by_extract": true,
+   "paragraph_or_page": "sections on PARECO-FF and mining and export companies",
+   "notes": "Read with tavily_extract."
+  },
+  {
+   "key": "gleif",
+   "title": "GLEIF LEI records for Novacore, Halcyon Inc and Saiko",
+   "publisher": "GLEIF",
+   "url": "https://api.gleif.org/api/v1/lei-records",
+   "published_date": "2026-11-04",
+   "type": "dataset",
+   "verified_by_extract": true,
+   "paragraph_or_page": "LEIs 2138004BO81Z3GZDV303; 98450010BF0E9DEC1L19; 9845004A1BB4A64DE723",
+   "notes": "Public API. No direct or ultimate parent reported for any of the three."
+  },
+  {
+   "key": "zefix",
+   "title": "Zefix central business name index",
+   "publisher": "Swiss Federal Office of Justice",
+   "url": "https://www.zefix.admin.ch",
+   "published_date": "2026-11-04",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "CHE-113.516.288; CHE-112.119.358",
+   "notes": "Search API open without login."
+  },
+  {
+   "key": "reuters_sabc_2025",
+   "title": "Major Rwandan coltan exporter bought smuggled minerals: UN Report",
+   "publisher": "Reuters, via SABC Channel Africa",
+   "url": "http://web.sabc.co.za/sabc/home/channelafrica/economy/details?id=436f184c-830b-453c-9c49-b35d3f60d25a&title=Major+Rwandan+coltan+exporter+bought+smuggled+minerals%3A+UN+Report",
+   "published_date": "2025-07",
+   "type": "media",
+   "verified_by_extract": true,
+   "paragraph_or_page": "partial chunks",
+   "notes": "Reuters copy on SABC. Read in extract chunks, not whole."
+  },
+  {
+   "key": "un_s2024_432",
+   "title": "UN Group of Experts on the DRC, final report S/2024/432",
+   "publisher": "United Nations Security Council",
+   "url": "https://documents.un.org/doc/undoc/gen/n24/118/80/pdf/n2411880.pdf",
+   "published_date": "2024",
+   "type": "un_report",
+   "verified_by_extract": true,
+   "paragraph_or_page": "paras 141-144",
+   "notes": "Local PDF truncated; these paragraphs read with tavily_extract. Report not fully searched."
+  },
+  {
+   "key": "zefix_chetu",
+   "title": "Zefix firm record and SOGC notices for CHE-113.516.288",
+   "publisher": "Swiss Federal Office of Justice / SOGC",
+   "url": "https://www.zefix.admin.ch/ZefixREST/api/v1/firm/866819.json",
+   "published_date": "2026-09-16",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "oldNames; SOGC 2016-2026",
+   "notes": "Full JSON read."
+  },
+  {
+   "key": "uk_companies_house",
+   "title": "Companies House officer pages: 03843554, 13961630, 16007691",
+   "publisher": "Companies House",
+   "url": "https://find-and-update.company-information.service.gov.uk/company/03843554/officers",
+   "published_date": "2026-11-04",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "officer lists",
+   "notes": "Open without login."
+  },
+  {
+   "key": "gw_2017",
+   "title": "Undermined",
+   "publisher": "Global Witness",
+   "url": "https://gw.cdn.ngo/media/documents/Undermined_Report.pdf",
+   "published_date": "2017",
+   "type": "ngo",
+   "verified_by_extract": true,
+   "paragraph_or_page": "African Panther section, pp.16-17 and fn 63-66",
+   "notes": "Read in tavily_extract chunks, not whole."
+  },
+  {
+   "key": "ugeiti_2021",
+   "title": "Uganda EITI Report FY 2020-21",
+   "publisher": "Uganda EITI",
+   "url": "https://eiti.org/sites/default/files/2023-07/UGEITI%20Report%20FY%202020-2021.pdf",
+   "published_date": "2023-07",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "p.258 entity roles table",
+   "notes": "Spells the shareholder Principle Investments AG. Read in tavily_extract chunks."
+  },
+  {
+   "key": "treasury_sb0543",
+   "title": "Treasury action on Gasabo Gold Refinery and related parties",
+   "publisher": "US Treasury",
+   "url": "https://home.treasury.gov/news/press-releases/sb0543",
+   "published_date": "2026-06-25",
+   "type": "sanctions",
+   "verified_by_extract": false,
+   "paragraph_or_page": null,
+   "notes": "Read in an earlier run per CORRECTIONS.md; not re-read here."
+  }
+ ],
+ "entities": [
+  {
+   "our_name": "African Panther Resources Ltd",
+   "existing_actor_id": "act_african_panther",
+   "sayari_entity_id": "X9BAf2KZzwU7tDfYuH4qoA",
+   "sayari_url": "https://graph.sayari.com/resource/entity/X9BAf2KZzwU7tDfYuH4qoA",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Exact name, RWA/TZA trade corridor, buyer Traxys matches GW; no identifier.",
+   "notes": "Sayari holds no officers or addresses."
+  },
+  {
+   "our_name": "Sunrise Metal Company Ltd",
+   "existing_actor_id": "act_sunrise",
+   "sayari_entity_id": "XdjwXWTJpPSM6qhH8gqhnQ",
+   "sayari_url": "https://graph.sayari.com/resource/entity/XdjwXWTJpPSM6qhH8gqhnQ",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Exact name, RWA, Chinese smelter buyers match GW; no identifier. Raised from low because GW buyer list agrees with trade rows.",
+   "notes": ""
+  },
+  {
+   "our_name": "Boss Mining Solution Ltd",
+   "existing_actor_id": "act_boss_mining",
+   "sayari_entity_id": "WKC3rFluM3Fgj6NXzGwxTA",
+   "sayari_url": "https://graph.sayari.com/resource/entity/WKC3rFluM3Fgj6NXzGwxTA",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "RWA Kigali record; buyer Novacore matches GW; RMA lists the same company. Rejected DRC namesake yFQo_xvgXez4UJgGyJ9qBw; S/2025/446 fn 139 also says it is unrelated to ERG Boss Mining.",
+   "notes": "Fragments: lKOQzrnbuoEgpYmvqQJ89Q, bgwMxKrZlbw9UjIEZcpJ7A, CJaJLXD8IfsHNDdqN_LDaA, person-typed usd0y6Lju9f28pW40Ti2vg."
+  },
+  {
+   "our_name": "Kanzamin Limited",
+   "existing_actor_id": "act_kanzamin",
+   "sayari_entity_id": "PgSzW4JGmOSkebhc9rXaLg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/PgSzW4JGmOSkebhc9rXaLg",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "Exact name, Kigali, buyers Halcyon and Specialty Metals match GW; RMA lists it.",
+   "notes": ""
+  },
+  {
+   "our_name": "Philbert Trading Minerals Ltd",
+   "existing_actor_id": "act_philbert",
+   "sayari_entity_id": "Z9TfSFyAXgXOCyd-gic-uQ",
+   "sayari_url": "https://graph.sayari.com/resource/entity/Z9TfSFyAXgXOCyd-gic-uQ",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Exact name, RWA, Halcyon buyer matches GW; no identifier.",
+   "notes": ""
+  },
+  {
+   "our_name": "Space Mining Ltd",
+   "existing_actor_id": "act_space_mining",
+   "sayari_entity_id": "DGREDQ68sKQBgvglvG7nhg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/DGREDQ68sKQBgvglvG7nhg",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "low",
+   "match_reason": "Name, country and corridor only; RMA confirms a Rwandan firm of this name exists.",
+   "notes": ""
+  },
+  {
+   "our_name": "Rani Mining Ltd",
+   "existing_actor_id": "act_rani",
+   "sayari_entity_id": "KMJ_GrAwF6ZiFOQSsMEbMQ",
+   "sayari_url": "https://graph.sayari.com/resource/entity/KMJ_GrAwF6ZiFOQSsMEbMQ",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Name, RWA, Traxys buyer from Apr 2025 matches GW; five name fragments per earlier run.",
+   "notes": ""
+  },
+  {
+   "our_name": "East Group Minerals Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": "f4UQ4x1QLACAPKBYMyC5OQ",
+   "sayari_url": "https://graph.sayari.com/resource/entity/f4UQ4x1QLACAPKBYMyC5OQ",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "Exact name, RWA/TZA, Minterra buyer matches GW; RMA lists Galubickas for it.",
+   "notes": "Sibling fragment 3JDmqM6b9cadb7Eb7mb6sQ has no country. Formerly Blancomet AA Metals per GW."
+  },
+  {
+   "our_name": "Hillside Mining Company Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": "ljTeEOJXxOOimlbTQFxBeg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/ljTeEOJXxOOimlbTQFxBeg",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Trade fragment with no country; Halcyon and Traxys rows match GW. Rejected about 20 US, Canadian, South African and other namesakes on country and identifiers.",
+   "notes": "Fragments c0nfmS2IalvQNuUCdatN9w, AfLAVzHSB2by1-vZ4jyu_w."
+  },
+  {
+   "our_name": "ETS Munsad Minerals Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": "4qYA2F7Lc1howDIJpNvzJw",
+   "sayari_url": "https://graph.sayari.com/resource/entity/4qYA2F7Lc1howDIJpNvzJw",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Exact name, RWA, and the RMA lists Ets Munsad Minerals. Indian persons surnamed Munsad rejected as unrelated.",
+   "notes": "Fragment JtgpH7xmWHTcMUiDMdAP0Q."
+  },
+  {
+   "our_name": "Tebuka Mineral Processing Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": "MCReAHWzd8pMPEaWhldOvQ",
+   "sayari_url": "https://graph.sayari.com/resource/entity/MCReAHWzd8pMPEaWhldOvQ",
+   "country": "unknown",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "low",
+   "match_reason": "Single name fragment with no country. Rejected Tebuka Express (CAN), Tebuka Congo Express (COG) and persons surnamed Tebuka: name similarity only.",
+   "notes": ""
+  },
+  {
+   "our_name": "Tawotin Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": "OPLZQzwwKb1u-D0QIVfs1w",
+   "sayari_url": "https://graph.sayari.com/resource/entity/OPLZQzwwKb1u-D0QIVfs1w",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "Exact name, RWA, East Rise buyer matches GW; RMA lists it.",
+   "notes": "Joint-name fragments _0CRdjT0Ln4YLs0Llyo7fg and Dj2ObWJ3ExrC344D73KsZA pair it with W.M.P / Wolfram Mining Processing."
+  },
+  {
+   "our_name": "Meta Trading Minerals Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": "lucqYlGjyAR15-l3HtpqMA",
+   "sayari_url": "https://graph.sayari.com/resource/entity/lucqYlGjyAR15-l3HtpqMA",
+   "country": "UGA",
+   "role": "trader",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "low",
+   "match_reason": "Single Uganda customs record; no identifier.",
+   "notes": ""
+  },
+  {
+   "our_name": "Congo Ressources Mining SARL",
+   "existing_actor_id": null,
+   "sayari_entity_id": "wyMrRIkUJk_gDOchcLMbKw",
+   "sayari_url": "https://graph.sayari.com/resource/entity/wyMrRIkUJk_gDOchcLMbKw",
+   "country": "COD",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "low",
+   "match_reason": "Trade record only, no RCCM. Buyers include BlueQuest Ressources AG fragments.",
+   "notes": ""
+  },
+  {
+   "our_name": "Halcyon Inc",
+   "existing_actor_id": "act_halcyon",
+   "sayari_entity_id": "8eW5KQNdwT7LoG9R3s75kA",
+   "sayari_url": "https://graph.sayari.com/resource/entity/8eW5KQNdwT7LoG9R3s75kA",
+   "country": "ARE",
+   "role": "trader",
+   "registry_ids": [],
+   "addresses": [
+    "Mazaya Business Avenue AA1, Level 41, JLT, Dubai",
+    "Unit 505, 1st Floor, Centennial Park, Elstree WD6 3FG"
+   ],
+   "match_confidence": "high",
+   "match_reason": "Dubai JLT address and Rwandan exporter rows match GW.",
+   "notes": ""
+  },
+  {
+   "our_name": "Minterra FZC",
+   "existing_actor_id": null,
+   "sayari_entity_id": "8LLbna7zYvBdV-y8BjQumQ",
+   "sayari_url": "https://graph.sayari.com/resource/entity/8LLbna7zYvBdV-y8BjQumQ",
+   "country": "ARE",
+   "role": "trader",
+   "registry_ids": [],
+   "addresses": [
+    "P5-ELOB Office E-30F-11, Hamriyah Free Zone, Sharjah"
+   ],
+   "match_confidence": "high",
+   "match_reason": "Hamriyah Free Zone address; East Group rows match GW.",
+   "notes": ""
+  },
+  {
+   "our_name": "Novacore FZE",
+   "existing_actor_id": "act_novacore",
+   "sayari_entity_id": "fc7RNdHZNcMUqXa0gnEjhA",
+   "sayari_url": "https://graph.sayari.com/resource/entity/fc7RNdHZNcMUqXa0gnEjhA",
+   "country": "ARE",
+   "role": "trader",
+   "registry_ids": [],
+   "addresses": [
+    "JT020003 Compass Building, Al Shohada Road, Al Hamra Industrial Zone, Ras Al Khaimah"
+   ],
+   "match_confidence": "high",
+   "match_reason": "Ras Al Khaimah address; receives from Boss Mining fragments, matching GW.",
+   "notes": ""
+  },
+  {
+   "our_name": "Saiko General Trading LLC-FZ",
+   "existing_actor_id": null,
+   "sayari_entity_id": "dgV4xQV56svBspRtof7Zjg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/dgV4xQV56svBspRtof7Zjg",
+   "country": "ARE",
+   "role": "trader",
+   "registry_ids": [
+    "UAE licence 2418744.01",
+    "LEI 9845004A1BB4A64DE723"
+   ],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "UAE record with licence 2418744.01; Arabic-name record shares the licence digits and has an LEI. Trade fragments OI9rkm7jwaOFu_zGswhBnw and nvrbDta1AZNpQIzK9zIfFQ are TZA-tagged.",
+   "notes": ""
+  },
+  {
+   "our_name": "Better Off Equipment & Solutions",
+   "existing_actor_id": null,
+   "sayari_entity_id": "A4vRjTdY_xgR31hulxqS-A",
+   "sayari_url": "https://graph.sayari.com/resource/entity/A4vRjTdY_xgR31hulxqS-A",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [
+    "122352760 (type unknown in Sayari)"
+   ],
+   "addresses": [
+    "Niboye, Kicukiro, Kigali"
+   ],
+   "match_confidence": "medium",
+   "match_reason": "GW names it; Uganda customs fragment gives Kicukiro, Niboye, Kigali and number 122352760 (type unknown).",
+   "notes": ""
+  },
+  {
+   "our_name": "3U Mining Supporters Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "low",
+   "match_reason": "Named in S/2026/466 para 218. No Sayari hit.",
+   "notes": ""
+  },
+  {
+   "our_name": "Eddy (Fernand) Habimana",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "Same company in UN, GW and RMA.",
+   "notes": ""
+  },
+  {
+   "our_name": "Dany Nzaramba",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "Same company in UN, GW and RMA.",
+   "notes": ""
+  },
+  {
+   "our_name": "Viateur Sibomana",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "Same company in UN, GW and RMA.",
+   "notes": ""
+  },
+  {
+   "our_name": "Gilbert Kabano",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "UN names him as Rani main agent. NOT linked to Bazimazika Kabano Bazinga: a shared name is not identity.",
+   "notes": ""
+  },
+  {
+   "our_name": "Bazimazika Kabano Bazinga",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "COD",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "UN names him as AFC/M23-appointed coordinator for artisanal mining at Rubaya.",
+   "notes": ""
+  },
+  {
+   "our_name": "Joseph Karamira",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "GW and RMA both tie him to African Panther.",
+   "notes": ""
+  },
+  {
+   "our_name": "Henry Dudgeon",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "GBR",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW names him as co-owner. No registry match accepted.",
+   "notes": ""
+  },
+  {
+   "our_name": "Odette Uzayisenga",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW for Rani; RMA lists her as 1st Advisor and for UH Mining.",
+   "notes": ""
+  },
+  {
+   "our_name": "Gvidas Galubickas",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "LTU",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "GW and RMA both tie him to East Group.",
+   "notes": ""
+  },
+  {
+   "our_name": "Yuri Tolmatchev",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "GBR",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW names him at Boss Mining and Novacore.",
+   "notes": ""
+  },
+  {
+   "our_name": "Alexander Konovalchik",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "GBR",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW names him at Boss Mining and Metarex.",
+   "notes": ""
+  },
+  {
+   "our_name": "Chris Huber",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "CHE",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW named; denies link to Tawotin.",
+   "notes": ""
+  },
+  {
+   "our_name": "John Crawley",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "GBR",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW named; denies link to CDMC.",
+   "notes": ""
+  },
+  {
+   "our_name": "Rajan Sureshchandra Karia",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "ARE",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW: Halcyon principal.",
+   "notes": ""
+  },
+  {
+   "our_name": "Dharam Kotecha",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "unknown",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW: Halcyon director until at least 2024.",
+   "notes": ""
+  },
+  {
+   "our_name": "Metarex Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": "UOsIBkQxpnsjOjV6Gasj9w",
+   "sayari_url": "https://graph.sayari.com/resource/entity/UOsIBkQxpnsjOjV6Gasj9w",
+   "country": "CYP",
+   "role": "other",
+   "registry_ids": [
+    "HE 322537",
+    "LEI 21380029W3NJX5FI4T64"
+   ],
+   "addresses": [
+    "36 Agias Fylaxeos, Limassol 3025, Cyprus",
+    "Agiou Georgiou 7, Paralimni, Cyprus"
+   ],
+   "match_confidence": "high",
+   "match_reason": "Cyprus registration as GW says; Konovalchik and Tolmatchev are both recorded as shareholder-directors, which matches GW names.",
+   "notes": "Business purpose: other financial services. Rejected Metarex SpA (ITA), Metarex Srl, Metarex Co. Ltd, Financiere Metarex."
+  },
+  {
+   "our_name": "Alexander Konovalchik (Sayari record)",
+   "existing_actor_id": null,
+   "sayari_entity_id": "1Y_4Q_i1qpmXT3GlybYtmA",
+   "sayari_url": "https://graph.sayari.com/resource/entity/1Y_4Q_i1qpmXT3GlybYtmA",
+   "country": "GBR",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "GBR/CYP person record that is 25% shareholder and director of Metarex; same name as GW.",
+   "notes": "Passport value in Sayari not copied. Role only in registry data."
+  },
+  {
+   "our_name": "Yuriy Tolmatchev (Sayari record)",
+   "existing_actor_id": null,
+   "sayari_entity_id": "oYEbW3IHqSMcOFQexDOKDg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/oYEbW3IHqSMcOFQexDOKDg",
+   "country": "GBR",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "GBR/CYP/FRA/RUS record, 20% shareholder and director of Metarex; GW spells him Yuri.",
+   "notes": "Passport value in Sayari not copied. Role only in registry data."
+  },
+  {
+   "our_name": "East Rise Corporation Limited (designated record)",
+   "existing_actor_id": "act_east_rise",
+   "sayari_entity_id": "RXGsi4gAb93ZNWFwc4MkPA",
+   "sayari_url": "https://graph.sayari.com/resource/entity/RXGsi4gAb93ZNWFwc4MkPA",
+   "country": "HKG",
+   "role": "trader",
+   "registry_ids": [
+    "OFAC SDN 55048",
+    "HK CR 1585306"
+   ],
+   "addresses": [
+    "Room 1003, 10/F, Wu Sang House, 655 Nathan Road, Mong Kok, Kowloon"
+   ],
+   "match_confidence": "high",
+   "match_reason": "OFAC SDN 55048, HK CR 1585306.",
+   "notes": ""
+  },
+  {
+   "our_name": "East Rise Corporation Ltd (trade record)",
+   "existing_actor_id": "act_east_rise",
+   "sayari_entity_id": "vdCIJ54CEY7kXe8uUJMsvg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/vdCIJ54CEY7kXe8uUJMsvg",
+   "country": "HKG",
+   "role": "trader",
+   "registry_ids": [],
+   "addresses": [
+    "Rm 1003, 10/F, Wu Sang House, 655 Nathan Road, Mong Kok"
+   ],
+   "match_confidence": "high",
+   "match_reason": "Same legal entity as the SDN record: identical room, floor, building and street address, plus GW says Tawotin sold to East Rise. This upgrades the unconfirmed match in gap_sayari_trade.md. Sayari has not merged them, so the trade node carries no sanction flag.",
+   "notes": ""
+  },
+  {
+   "our_name": "Wolfram Mining and Processing Ltd",
+   "existing_actor_id": "act_wolfram",
+   "sayari_entity_id": "ByUCmIzSSyFaep1RBIu4jQ",
+   "sayari_url": "https://graph.sayari.com/resource/entity/ByUCmIzSSyFaep1RBIu4jQ",
+   "country": "RWA",
+   "role": "exporter",
+   "registry_ids": [
+    "OFAC SDN 57940"
+   ],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "OFAC SDN 57940 per project notes.",
+   "notes": ""
+  },
+  {
+   "our_name": "Principal Investments AG (formerly African Panther Resources AG)",
+   "existing_actor_id": null,
+   "sayari_entity_id": "ltcfc9OyDrGpPul-sGFVNg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/ltcfc9OyDrGpPul-sGFVNg",
+   "country": "CHE",
+   "role": "other",
+   "registry_ids": [
+    "CHE-113.516.288"
+   ],
+   "addresses": [
+    "Baarerstrasse 2, 6300 Zug (current)",
+    "Baarerstrasse 53, 6300 Zug (former)",
+    "Dorfstrasse 13, 6340 Baar (former)",
+    "Bahnhofstrasse 32, 6300 Zug (former)"
+   ],
+   "match_confidence": "high",
+   "match_reason": "Exact UID match between Sayari and Zefix; former name stated in SOGC notices.",
+   "notes": "Commodity-trading purpose. Renamed 2019, dissolved by general meeting 2 Dec 2025, in liquidation. Registry officers (Eibl, Banzhaf, Gunn) recorded as roles only. Same brand as the Rwandan exporter, but no record ties the two companies."
+  },
+  {
+   "our_name": "African Panther Resources U Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": "R1BtNudvFSqleMoSgROYhg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/R1BtNudvFSqleMoSgROYhg",
+   "country": "UGA",
+   "role": "other",
+   "registry_ids": [
+    "UGA TIN 1006247302"
+   ],
+   "addresses": [],
+   "match_confidence": "low",
+   "match_reason": "Uganda customs record with TIN 1006247302 and Isingiro/Kikagati address. Not merged with the Rwandan firm.",
+   "notes": ""
+  },
+  {
+   "our_name": "African Panther Resources (Nigerian registry fragment)",
+   "existing_actor_id": null,
+   "sayari_entity_id": "WSPSMuP7C2ZNp10OMSYclA",
+   "sayari_url": "https://graph.sayari.com/resource/entity/WSPSMuP7C2ZNp10OMSYclA",
+   "country": "CHE",
+   "role": "other",
+   "registry_ids": [],
+   "addresses": [
+    "Baarerstrasse 53, 6300 Zug"
+   ],
+   "match_confidence": "low",
+   "match_reason": "Nigerian registry fragment, typed as a person, gives Baarerstrasse 53, Zug and a representative name. This is the record behind the SAYARI_METHOD lead.",
+   "notes": ""
+  },
+  {
+   "our_name": "Bluequest Resources AG",
+   "existing_actor_id": null,
+   "sayari_entity_id": "qYdCSGSJz6kChfhshkzT0Q",
+   "sayari_url": "https://graph.sayari.com/resource/entity/qYdCSGSJz6kChfhshkzT0Q",
+   "country": "CHE",
+   "role": "trader",
+   "registry_ids": [
+    "CHE-112.119.358"
+   ],
+   "addresses": [
+    "Neuhofstrasse 8, 6341 Baar"
+   ],
+   "match_confidence": "medium",
+   "match_reason": "Zefix CHE-112.119.358 at Neuhofstrasse 8, Baar; trade fragments spell it Ressources.",
+   "notes": ""
+  },
+  {
+   "our_name": "Trading Logistics Services",
+   "existing_actor_id": null,
+   "sayari_entity_id": "Xq69Opw7XaF5ogoepTT8Dg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/Xq69Opw7XaF5ogoepTT8Dg",
+   "country": "RWA",
+   "role": "other",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "low",
+   "match_reason": "Possible customs variant of Trading Services Logistics, the former Kanzamin name; not confirmed.",
+   "notes": ""
+  },
+  {
+   "our_name": "Rajan Sureshchandra Karia (Sayari record)",
+   "existing_actor_id": null,
+   "sayari_entity_id": "NA_MKVRtEw92P88LzAdGdA",
+   "sayari_url": "https://graph.sayari.com/resource/entity/NA_MKVRtEw92P88LzAdGdA",
+   "country": "ARE",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Exact full name as in GW; Cedar Rose UAE and India person IDs. No relationship to Halcyon shown in Sayari.",
+   "notes": ""
+  },
+  {
+   "our_name": "Dharam Ketankumar Kotecha (Sayari record)",
+   "existing_actor_id": null,
+   "sayari_entity_id": "Rt2XBmWR_1uUHvay3-OXtQ",
+   "sayari_url": "https://graph.sayari.com/resource/entity/Rt2XBmWR_1uUHvay3-OXtQ",
+   "country": "GBR",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Name matches GW. Companies House lists the same full name; UK appointments not reviewed.",
+   "notes": ""
+  },
+  {
+   "our_name": "Better Off Equipment & Solutions (fragment)",
+   "existing_actor_id": null,
+   "sayari_entity_id": "WKH0vMsmqcb8TIAo8CzUyg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/WKH0vMsmqcb8TIAo8CzUyg",
+   "country": "RWA",
+   "role": "other",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Name plus Niboye address in Uganda customs; receiver of 3 rows.",
+   "notes": ""
+  },
+  {
+   "our_name": "Boniface Mbanza",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW 2022 lists him as Tawotin managing director as of 2018; RMA 2024 lists Mbanza Bony for Tawotin. Treated as probably the same person. Role only.",
+   "notes": ""
+  },
+  {
+   "our_name": "Jean Claude Mbarushimana",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "CHE",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW: Hillside chairperson. Not the Jean Baptiste Mbarushimana in the RMA list: different first name and company. Role only.",
+   "notes": ""
+  },
+  {
+   "our_name": "Evode Muvunyi",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "USA",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW: Hillside managing director. Role only.",
+   "notes": ""
+  },
+  {
+   "our_name": "Martynas Medelis",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "LTU",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW: East Group manager. Role only.",
+   "notes": ""
+  },
+  {
+   "our_name": "Christoph Eibl",
+   "existing_actor_id": null,
+   "sayari_entity_id": "54UnTTuLCRwUNh2qNNbfaA",
+   "sayari_url": "https://graph.sayari.com/resource/entity/54UnTTuLCRwUNh2qNNbfaA",
+   "country": "CHE",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "Same name in SOGC, Sayari and UGEITI. Role only; no allegation concerning the Rwandan exporter.",
+   "notes": ""
+  },
+  {
+   "our_name": "African Panther Resources (U) Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "UGA",
+   "role": "other",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "UGEITI entity table. The Sayari node R1BtNudvFSqleMoSgROYhg is a probable match on name and Isingiro location.",
+   "notes": ""
+  },
+  {
+   "our_name": "SOGECOM",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "COD",
+   "role": "trader",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "GW names it as a Halcyon supplier; denies conflict sourcing.",
+   "notes": ""
+  },
+  {
+   "our_name": "Speck Minerals Ltd",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "other",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "low",
+   "match_reason": "RMA list only.",
+   "notes": ""
+  },
+  {
+   "our_name": "East African Mining Company (EAMICO)",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "other",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "low",
+   "match_reason": "RMA list only. Possibly the unnamed mining company GW says Sibomana owns; not confirmed.",
+   "notes": ""
+  },
+  {
+   "our_name": "M23",
+   "existing_actor_id": "act_m23",
+   "sayari_entity_id": "diV1zDu2TnrgnGxCb3WD8Q",
+   "sayari_url": "https://graph.sayari.com/resource/entity/diV1zDu2TnrgnGxCb3WD8Q",
+   "country": "COD",
+   "role": "other",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "Existing actor; OFAC 15585.",
+   "notes": ""
+  },
+  {
+   "our_name": "PARECO-FF",
+   "existing_actor_id": "act_pareco",
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "COD",
+   "role": "other",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "Existing actor; OFAC designated Aug 2025.",
+   "notes": ""
+  },
+  {
+   "our_name": "CDMC",
+   "existing_actor_id": "act_cdmc",
+   "sayari_entity_id": "4WRQGD0jznrVt2MR5c4OBg",
+   "sayari_url": "https://graph.sayari.com/resource/entity/4WRQGD0jznrVt2MR5c4OBg",
+   "country": "COD",
+   "role": "trader",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "OFAC-listed record linked to East Rise in Sayari.",
+   "notes": ""
+  },
+  {
+   "our_name": "Star Dragon Corporation Limited",
+   "existing_actor_id": "act_star_dragon",
+   "sayari_entity_id": "EOhsW8l7khZBEzP0r4qzVQ",
+   "sayari_url": "https://graph.sayari.com/resource/entity/EOhsW8l7khZBEzP0r4qzVQ",
+   "country": "HKG",
+   "role": "trader",
+   "registry_ids": [
+    "OFAC SDN 55049",
+    "HK CR 1237860"
+   ],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "OFAC SDN 55049, HK CR 1237860.",
+   "notes": ""
+  },
+  {
+   "our_name": "Jean Malic Kalima Karekezi",
+   "existing_actor_id": "act_kalima",
+   "sayari_entity_id": "3IPk7makLLnIcTI_C5uNSw",
+   "sayari_url": "https://graph.sayari.com/resource/entity/3IPk7makLLnIcTI_C5uNSw",
+   "country": "RWA",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "high",
+   "match_reason": "Existing actor; OFAC 57936.",
+   "notes": ""
+  },
+  {
+   "our_name": "James Kabarebe",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "RWA",
+   "role": "person",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Named by GW; OFAC sanctioned Feb 2025 per GW. Not resolved in Sayari in this run.",
+   "notes": ""
+  },
+  {
+   "our_name": "APCLS / Nyatura groups",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "COD",
+   "role": "other",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "medium",
+   "match_reason": "Armed groups named in S/2024/969 annex 29.",
+   "notes": ""
+  },
+  {
+   "our_name": "unspecified armed group",
+   "existing_actor_id": null,
+   "sayari_entity_id": null,
+   "sayari_url": null,
+   "country": "COD",
+   "role": "other",
+   "registry_ids": [],
+   "addresses": [],
+   "match_confidence": "low",
+   "match_reason": "Placeholder: the source raises smuggling concerns but names no armed group.",
+   "notes": ""
+  }
+ ],
+ "links": [
+  {
+   "from": "Rani Mining Ltd",
+   "to": "M23",
+   "type": "linked_to_armed_group",
+   "armed_group": "AFC/M23",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2026_466",
+    "gw_2026"
+   ],
+   "paragraph_or_page": "S/2026/466 para 218; GW pp.26-27",
+   "period": "2025 to Mar 2026",
+   "strength": "strong",
+   "summary": "UN says Rani, via main agent Gilbert Kabano, bought coltan shipments from AFC/M23-held Rubaya, citing invoices, assays and audio. GW test call: a senior representative offered to buy from a supposed Rubaya trader."
+  },
+  {
+   "from": "Philbert Trading Minerals Ltd",
+   "to": "M23",
+   "type": "linked_to_armed_group",
+   "armed_group": "AFC/M23",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2026_466",
+    "gw_2026"
+   ],
+   "paragraph_or_page": "S/2026/466 para 219; GW p.28",
+   "period": "to at least Nov 2025",
+   "strength": "strong",
+   "summary": "UN cites verified audio and documents for Rubaya purchases; two GW-interviewed smugglers say the same."
+  },
+  {
+   "from": "Kanzamin Limited",
+   "to": "M23",
+   "type": "linked_to_armed_group",
+   "armed_group": "AFC/M23",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2026_466",
+    "gw_2026"
+   ],
+   "paragraph_or_page": "S/2026/466 para 220; GW p.21",
+   "period": "2024-2025",
+   "strength": "strong",
+   "summary": "UN says it bought 3T from Masisi. Four traders and an employee told GW it bought Rubaya coltan; GW reports a company lab at Rubaya."
+  },
+  {
+   "from": "Boss Mining Solution Ltd",
+   "to": "M23",
+   "type": "linked_to_armed_group",
+   "armed_group": "AFC/M23",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2025_446",
+    "gw_2026"
+   ],
+   "paragraph_or_page": "S/2025/446 para 119; GW pp.23-24",
+   "period": "2025",
+   "strength": "strong",
+   "summary": "UN says part of the minerals smuggled to Rwanda were bought by Boss Mining; a trader told GW he sold it Rubaya coltan."
+  },
+  {
+   "from": "African Panther Resources Ltd",
+   "to": "M23",
+   "type": "linked_to_armed_group",
+   "armed_group": "AFC/M23",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW pp.25-26",
+   "period": "2025",
+   "strength": "moderate",
+   "summary": "Five traders across two GW reports say they sold it Rubaya coltan. No UN naming found in the reports read."
+  },
+  {
+   "from": "Sunrise Metal Company Ltd",
+   "to": "M23",
+   "type": "linked_to_armed_group",
+   "armed_group": "AFC/M23",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW pp.27-28",
+   "period": "2024-2025",
+   "strength": "moderate",
+   "summary": "GW test call: it offered to buy supposed Rubaya coltan and to help at the border. ITSCI incidents point to possible smuggled supply. GW is the sole source."
+  },
+  {
+   "from": "Space Mining Ltd",
+   "to": "M23",
+   "type": "linked_to_armed_group",
+   "armed_group": "AFC/M23",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.29",
+   "period": "2025",
+   "strength": "moderate",
+   "summary": "Two traders say they sold it Rubaya coltan; one alleges good relations with M23. Single-source allegation."
+  },
+  {
+   "from": "East Group Minerals Ltd",
+   "to": "unspecified armed group",
+   "type": "linked_to_armed_group",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.29",
+   "period": "H1 2024",
+   "strength": "weak",
+   "summary": "GW lists ITSCI incidents that may indicate smuggled supply. It does not say East Group bought from Rubaya."
+  },
+  {
+   "from": "Hillside Mining Company Ltd",
+   "to": "unspecified armed group",
+   "type": "linked_to_armed_group",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW pp.26-27",
+   "period": "2021-2025",
+   "strength": "weak",
+   "summary": "GW cites ITSCI incidents and a sudden rise to 108 t in Mar-Sep 2025. No trader or UN evidence of Rubaya purchases."
+  },
+  {
+   "from": "Halcyon Inc",
+   "to": "Kanzamin Limited",
+   "type": "buys_from",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW pp.21-22",
+   "period": "2025",
+   "strength": "moderate",
+   "summary": "GW says Kanzamin sold conflict coltan to Halcyon. Halcyon confirms the trade and denies Rubaya origin."
+  },
+  {
+   "from": "Novacore FZE",
+   "to": "Boss Mining Solution Ltd",
+   "type": "buys_from",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.24",
+   "period": "2023-2026",
+   "strength": "moderate",
+   "summary": "GW says Novacore bought most Boss Mining coltan, and so conflict coltan. Novacore says it found no anomalies."
+  },
+  {
+   "from": "Eddy (Fernand) Habimana",
+   "to": "Boss Mining Solution Ltd",
+   "type": "directs",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2025_446",
+    "gw_2026",
+    "rma_magazine_2024"
+   ],
+   "paragraph_or_page": "S/2025/446 para 119; GW p.23; RMA members list",
+   "period": "2024-2025",
+   "strength": "strong",
+   "summary": "UN says he represents the company; GW says he runs and co-owns it; RMA lists him as its representative."
+  },
+  {
+   "from": "Eddy (Fernand) Habimana",
+   "to": "M23",
+   "type": "linked_to_armed_group",
+   "armed_group": "M23 (2012)",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2025_446",
+    "gw_2026"
+   ],
+   "paragraph_or_page": "S/2025/446 para 119 citing S/2012/843 para 167; GW p.24",
+   "period": "2012",
+   "strength": "moderate",
+   "summary": "UN previously reported his involvement in mineral smuggling to Rwanda; GW adds that the 2012 report said part of the profits reached M23. Historic, pre-dating Rubaya capture."
+  },
+  {
+   "from": "Yuri Tolmatchev",
+   "to": "Boss Mining Solution Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.24",
+   "period": "as of 2026",
+   "strength": "moderate",
+   "summary": "GW corporate document: co-owner. He is also Novacore managing director."
+  },
+  {
+   "from": "Alexander Konovalchik",
+   "to": "Boss Mining Solution Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.24",
+   "period": "as of 2026",
+   "strength": "moderate",
+   "summary": "GW corporate document: co-owner. He also owns Metarex (Cyprus), which owns Novacore."
+  },
+  {
+   "from": "Dany Nzaramba",
+   "to": "Kanzamin Limited",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2026_466",
+    "gw_2026",
+    "rma_magazine_2024"
+   ],
+   "paragraph_or_page": "S/2026/466 para 220; GW p.20; RMA members list",
+   "period": "2012-2026",
+   "strength": "strong",
+   "summary": "UN says at least partly owned by him; GW says he chairs it; RMA lists him as representative."
+  },
+  {
+   "from": "Dany Nzaramba",
+   "to": "unspecified armed group",
+   "type": "linked_to_armed_group",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "S/2026/466 para 220 citing S/2012/843 para 175",
+   "period": "2012",
+   "strength": "weak",
+   "summary": "UN says he was involved in smuggling 3T from DRC in 2012. The paragraph does not itself tie him personally to M23."
+  },
+  {
+   "from": "Viateur Sibomana",
+   "to": "Philbert Trading Minerals Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2026_466",
+    "gw_2026",
+    "rma_magazine_2024"
+   ],
+   "paragraph_or_page": "S/2026/466 para 219; GW p.28; RMA members list",
+   "period": "to 2026",
+   "strength": "strong",
+   "summary": "UN says sole owner; GW and RMA agree."
+  },
+  {
+   "from": "Gilbert Kabano",
+   "to": "Rani Mining Ltd",
+   "type": "directs",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "S/2026/466 para 218",
+   "period": "to Mar 2026",
+   "strength": "moderate",
+   "summary": "UN calls him its main agent. Agent, not owner."
+  },
+  {
+   "from": "Odette Uzayisenga",
+   "to": "Rani Mining Ltd",
+   "type": "directs",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.26",
+   "period": "registered 2020",
+   "strength": "moderate",
+   "summary": "GW corporate document: director and chairwoman at registration. Role only."
+  },
+  {
+   "from": "Henry Dudgeon",
+   "to": "African Panther Resources Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.25",
+   "period": "as of 2026",
+   "strength": "moderate",
+   "summary": "GW corporate document: co-owner. Role only."
+  },
+  {
+   "from": "Joseph Karamira",
+   "to": "African Panther Resources Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026",
+    "rma_magazine_2024"
+   ],
+   "paragraph_or_page": "GW p.25; RMA members list",
+   "period": "2024-2026",
+   "strength": "strong",
+   "summary": "GW corporate document: co-owner; RMA lists him as representative. Role only."
+  },
+  {
+   "from": "Gvidas Galubickas",
+   "to": "East Group Minerals Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026",
+    "rma_magazine_2024"
+   ],
+   "paragraph_or_page": "GW p.29; RMA members list",
+   "period": "2024-2026",
+   "strength": "strong",
+   "summary": "GW corporate document: owner; RMA lists him as representative. Role only."
+  },
+  {
+   "from": "Better Off Equipment & Solutions",
+   "to": "Sunrise Metal Company Ltd",
+   "type": "shares_address",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.28 fn 235",
+   "period": "2025",
+   "strength": "moderate",
+   "summary": "GW says both give the same address in corporate documents and that Better Off began exporting as Sunrise stopped, to three of its customers."
+  },
+  {
+   "from": "Chris Huber",
+   "to": "Tawotin Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026",
+    "gw_2022"
+   ],
+   "paragraph_or_page": "GW 2026 p.30; GW 2022 Tawotin section",
+   "period": "alleged",
+   "strength": "moderate",
+   "summary": "GW names him as ultimate beneficial owner on industry sources. Both Huber and Tawotin deny this."
+  },
+  {
+   "from": "Alexander Konovalchik (Sayari record)",
+   "to": "Metarex Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "cy_registrar_via_sayari"
+   ],
+   "paragraph_or_page": "Sayari has_shareholder",
+   "period": "current per Sayari",
+   "strength": "strong",
+   "summary": "Registry record: 25% shareholder and director. A second Konovalchik holds 25%. This refines GW, which says he owns Metarex."
+  },
+  {
+   "from": "Yuriy Tolmatchev (Sayari record)",
+   "to": "Metarex Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "cy_registrar_via_sayari"
+   ],
+   "paragraph_or_page": "Sayari has_shareholder",
+   "period": "current per Sayari",
+   "strength": "strong",
+   "summary": "Registry record: 20% shareholder and director, with two other Tolmatchev family-name holders at 20% and 10%."
+  },
+  {
+   "from": "Metarex Ltd",
+   "to": "Novacore FZE",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.24",
+   "period": "as of 2026",
+   "strength": "moderate",
+   "summary": "GW says Metarex owns Novacore. Not independently confirmed: Sayari finds no path and GLEIF reports no parent for Novacore."
+  },
+  {
+   "from": "Tawotin Ltd",
+   "to": "East Rise Corporation Limited (designated record)",
+   "type": "ships_to",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026",
+    "sayari"
+   ],
+   "paragraph_or_page": "GW p.30; Sayari shipment rows",
+   "period": "to Aug 2025",
+   "strength": "moderate",
+   "summary": "GW says Tawotin sold to East Rise; Sayari rows agree, and Tawotin says it changed buyer after the sanctions. Customs rows do not show ore origin."
+  },
+  {
+   "from": "East Rise Corporation Limited (designated record)",
+   "to": "PARECO-FF",
+   "type": "linked_to_armed_group",
+   "armed_group": "PARECO-FF",
+   "evidence_tier": "designated",
+   "method": null,
+   "source_keys": [
+    "treasury_sb0221"
+   ],
+   "paragraph_or_page": "sb0221, mining and export companies section",
+   "period": "2022 to early 2024",
+   "strength": "strong",
+   "summary": "OFAC designated East Rise for supporting CDMC, which it says sold minerals sourced from PARECO-FF areas. This is East Rise's designation, not a finding about any of its suppliers."
+  },
+  {
+   "from": "Tawotin Ltd",
+   "to": "Wolfram Mining and Processing Ltd",
+   "type": "shares_agent",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Read the combined shipper string in Tanzanian customs rows as two named firms acting on one consignment; strength limited by three rows.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari fragments _0CRdjT0Ln4YLs0Llyo7fg, Dj2ObWJ3ExrC344D73KsZA",
+   "period": "Dec 2024 to May 2025",
+   "strength": "moderate",
+   "summary": "Three tungsten rows name the two firms together as one shipper, all to East Rise. It shows a joint shipment label, not common ownership or control."
+  },
+  {
+   "from": "East Group Minerals Ltd",
+   "to": "Hillside Mining Company Ltd",
+   "type": "shares_agent",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Read a combined shipper string in one Tanzanian customs row as two named firms on one consignment.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari fragment j-a_f5WjwtemQL-oJdAJiQ",
+   "period": "14 Jul 2025",
+   "strength": "weak",
+   "summary": "One coltan row names both firms as shipper, to Minterra. A single row could be a clerical merge; it does not show shared ownership."
+  },
+  {
+   "from": "Kanzamin Limited",
+   "to": "Trading Logistics Services",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared a near-identical name with country and a shared buyer; no identifier confirms it.",
+   "source_keys": [
+    "sayari",
+    "gw_2026"
+   ],
+   "paragraph_or_page": "Sayari Xq69Opw7XaF5ogoepTT8Dg; GW p.20",
+   "period": "2023-",
+   "strength": "weak",
+   "summary": "Possible earlier trading name in customs data. GW says Kanzamin was Trading Services Logistics until 2023. The Sayari node has reversed wording, is Rwandan and ships to Speciality Metals, a Kanzamin buyer, but this is not an armed-group link in itself."
+  },
+  {
+   "from": "African Panther Resources Ltd",
+   "to": "Principal Investments AG (formerly African Panther Resources AG)",
+   "type": "shares_agent",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared the Swiss former name and purpose with the Rwandan company name and sector; identity not established.",
+   "source_keys": [
+    "zefix_chetu",
+    "sayari"
+   ],
+   "paragraph_or_page": "SOGC notices 2016-2019",
+   "period": "2016-2019",
+   "strength": "weak",
+   "summary": "Same brand, same sector, and a Swiss firm with a director resident in Kampala, plus a Ugandan namesake. No shareholder, director or identifier ties it to the Rwandan company. Treat as an unconfirmed possible affiliate, not as ownership."
+  },
+  {
+   "from": "3U Mining Supporters Ltd",
+   "to": "M23",
+   "type": "linked_to_armed_group",
+   "armed_group": "AFC/M23",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2026_466"
+   ],
+   "paragraph_or_page": "S/2026/466 para 218, fn 244",
+   "period": "2025 to Mar 2026",
+   "strength": "moderate",
+   "summary": "UN says this new Kigali exporter also bought Rubaya coltan, citing confidential documents and audio. Single source; not in Sayari."
+  },
+  {
+   "from": "Better Off Equipment & Solutions",
+   "to": "M23",
+   "type": "linked_to_armed_group",
+   "armed_group": "none specified",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.28",
+   "period": "2025",
+   "strength": "weak",
+   "summary": "No direct evidence against it. GW suggests it took over Sunrise's coltan business after the suspension."
+  },
+  {
+   "from": "Eddy (Fernand) Habimana",
+   "to": "James Kabarebe",
+   "type": "linked_to_armed_group",
+   "armed_group": "M23 / RDF",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.23, fn 160",
+   "period": "as reported 2012",
+   "strength": "weak",
+   "summary": "GW cites a US State Department report calling Habimana a relative of Kabarebe, who OFAC sanctioned in Feb 2025. A family tie, not evidence of any business link. The designation is his alone."
+  },
+  {
+   "from": "Eddy (Fernand) Habimana",
+   "to": "Speck Minerals Ltd",
+   "type": "directs",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "rma_magazine_2024"
+   ],
+   "paragraph_or_page": "RMA members list",
+   "period": "Aug 2024",
+   "strength": "weak",
+   "summary": "Listed as representative of a second mining company. Role only."
+  },
+  {
+   "from": "Boniface Mbanza",
+   "to": "Tawotin Ltd",
+   "type": "directs",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2022",
+    "rma_magazine_2024"
+   ],
+   "paragraph_or_page": "GW 2022 Tawotin section; RMA members list",
+   "period": "2018-2024",
+   "strength": "moderate",
+   "summary": "Managing director as of 2018 per GW; RMA lists Mbanza Bony in 2024. Role only."
+  },
+  {
+   "from": "Jean Claude Mbarushimana",
+   "to": "Hillside Mining Company Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.27",
+   "period": "as of 2026",
+   "strength": "moderate",
+   "summary": "Co-owner and chairperson per corporate document. Role only."
+  },
+  {
+   "from": "Evode Muvunyi",
+   "to": "Hillside Mining Company Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.27",
+   "period": "as of 2026",
+   "strength": "moderate",
+   "summary": "Co-owner and managing director per corporate document. Role only."
+  },
+  {
+   "from": "Martynas Medelis",
+   "to": "East Group Minerals Ltd",
+   "type": "directs",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.29",
+   "period": "as of 2026",
+   "strength": "moderate",
+   "summary": "Manager per corporate documents. Role only."
+  },
+  {
+   "from": "Dharam Kotecha",
+   "to": "Halcyon Inc",
+   "type": "directs",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.23",
+   "period": "to at least 2024",
+   "strength": "moderate",
+   "summary": "GW says he was a Halcyon director. The family link to past allegations is disputed by SOGECOM."
+  },
+  {
+   "from": "Rajan Sureshchandra Karia",
+   "to": "Halcyon Inc",
+   "type": "directs",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.22",
+   "period": "as of 2026",
+   "strength": "moderate",
+   "summary": "GW names him as Halcyon principal. Role only."
+  },
+  {
+   "from": "Halcyon Inc",
+   "to": "SOGECOM",
+   "type": "supplied_by",
+   "armed_group": "none specified",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026",
+    "gw_2022"
+   ],
+   "paragraph_or_page": "GW 2026 p.23; GW 2022 p.60",
+   "period": "2019-2023",
+   "strength": "moderate",
+   "summary": "Pre-2024 Rubaya-era link: GW says most SOGECOM coltan went to Halcyon, including 2023 North Kivu material. Both deny Rubaya sourcing."
+  },
+  {
+   "from": "Halcyon Inc",
+   "to": "Philbert Trading Minerals Ltd",
+   "type": "buys_from",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW pp.28-29",
+   "period": "to Feb 2025",
+   "strength": "moderate",
+   "summary": "Trade data shows sales to Halcyon. Halcyon says it permanently disengaged in 2025."
+  },
+  {
+   "from": "Minterra FZC",
+   "to": "East Group Minerals Ltd",
+   "type": "buys_from",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.29, fn 260",
+   "period": "2019-2026",
+   "strength": "moderate",
+   "summary": "GW links the two firms through past managers, directors and third companies, and says Minterra was Tardigrade Trading FZE. Minterra disputes one directorship."
+  },
+  {
+   "from": "CDMC",
+   "to": "PARECO-FF",
+   "type": "linked_to_armed_group",
+   "armed_group": "PARECO-FF",
+   "evidence_tier": "designated",
+   "method": null,
+   "source_keys": [
+    "treasury_sb0221"
+   ],
+   "paragraph_or_page": "sb0221",
+   "period": "2022 to early 2024",
+   "strength": "strong",
+   "summary": "OFAC says CDMC sold minerals sourced from PARECO-FF areas. CDMC denies. Pre-M23 Rubaya context."
+  },
+  {
+   "from": "CDMC",
+   "to": "APCLS / Nyatura groups",
+   "type": "linked_to_armed_group",
+   "armed_group": "APCLS, Nyatura FDDH, Nyatura Matata",
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "un_s2024_969"
+   ],
+   "paragraph_or_page": "S/2024/969 annex 29",
+   "period": "2019",
+   "strength": "moderate",
+   "summary": "UN says minerals from armed-group areas were tagged at Ngungu and sold to CDMC."
+  },
+  {
+   "from": "Rani Mining Ltd",
+   "to": "East Rise Corporation Limited (designated record)",
+   "type": "ships_to",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Matched the graph ships_to edge to the East Rise node whose address equals the SDN record.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to edges to vdCIJ54CEY7kXe8uUJMsvg and fragments",
+   "period": "to 25 Jul 2025 per search_buyers metadata",
+   "strength": "moderate",
+   "summary": "Sayari shows Rani shipping to East Rise, before the 12 Aug 2025 designation. Row-level check failed because the receiver filter was ignored. New link not reported by GW."
+  },
+  {
+   "from": "Principal Investments AG (formerly African Panther Resources AG)",
+   "to": "African Panther Resources (U) Ltd",
+   "type": "owns",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "ugeiti_2021",
+    "gw_2017",
+    "zefix_chetu"
+   ],
+   "paragraph_or_page": "UGEITI FY2020-21 p.258; GW 2017 pp.16-17; SOGC 2019",
+   "period": "2015-2021",
+   "strength": "strong",
+   "summary": "UGEITI lists Principle Investments AG as shareholder and GW 2017 reports the Swiss firm as 100% holder from March 2015. SOGC shows the rename. Spelling differs in UGEITI."
+  },
+  {
+   "from": "Henry Dudgeon",
+   "to": "African Panther Resources (U) Ltd",
+   "type": "directs",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "ugeiti_2021"
+   ],
+   "paragraph_or_page": "UGEITI FY2020-21 p.258",
+   "period": "FY2020-21",
+   "strength": "strong",
+   "summary": "Henry Guy Dudgeon listed as director and secretary. Role only."
+  },
+  {
+   "from": "Christoph Eibl",
+   "to": "African Panther Resources (U) Ltd",
+   "type": "directs",
+   "armed_group": null,
+   "evidence_tier": "documented",
+   "method": null,
+   "source_keys": [
+    "ugeiti_2021"
+   ],
+   "paragraph_or_page": "UGEITI FY2020-21 p.258",
+   "period": "FY2020-21",
+   "strength": "strong",
+   "summary": "Listed as director; also chairs the Swiss firm per SOGC. Role only."
+  },
+  {
+   "from": "African Panther Resources Ltd",
+   "to": "African Panther Resources (U) Ltd",
+   "type": "shares_agent",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Matched a named British mining person and brand across GW and UGEITI; no registry identifier joins the Rwandan company.",
+   "source_keys": [
+    "gw_2026",
+    "ugeiti_2021"
+   ],
+   "paragraph_or_page": "GW p.25; UGEITI p.258",
+   "period": "2020-2026",
+   "strength": "moderate",
+   "summary": "The same name, Henry Dudgeon, appears as co-owner in Rwanda and director in Uganda, with a shared brand and sector. This suggests a common group. No evidence places Rubaya material in the Ugandan or Swiss firms."
+  },
+  {
+   "from": "Wolfram Mining and Processing Ltd",
+   "to": "Jean Malic Kalima Karekezi",
+   "type": "owns",
+   "armed_group": "M23 (via Gasabo)",
+   "evidence_tier": "designated",
+   "method": null,
+   "source_keys": [
+    "treasury_sb0543",
+    "rma_magazine_2024"
+   ],
+   "paragraph_or_page": "sb0543; RMA members list",
+   "period": "as designated Jun 2026",
+   "strength": "strong",
+   "summary": "OFAC-listed firm tied to Kalima, whose Gasabo refinery is designated. RMA lists Kalima for WMP. The Tawotin joint rows pre-date the designation."
+  },
+  {
+   "from": "Tawotin Ltd",
+   "to": "Star Dragon Corporation Limited",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Read the shortest watchlist path; kept only to record that it was checked.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "check_watchlist, 2 hops",
+   "period": "n/a",
+   "strength": "weak",
+   "summary": "Both touch Malaysia Smelting in trade data. A two-hop trade path of this kind carries no meaning for ownership or origin."
+  },
+  {
+   "from": "Kanzamin Limited",
+   "to": "African Panther Resources Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to / search_buyers; prior gap_sayari_trade run",
+   "period": "2023-2026",
+   "strength": "weak",
+   "summary": "Both ship to Halcyon Inc. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "Kanzamin Limited",
+   "to": "Philbert Trading Minerals Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to / search_buyers; prior gap_sayari_trade run",
+   "period": "2023-2026",
+   "strength": "weak",
+   "summary": "Both ship to Halcyon Inc. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "Kanzamin Limited",
+   "to": "Hillside Mining Company Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to / search_buyers; prior gap_sayari_trade run",
+   "period": "2023-2026",
+   "strength": "weak",
+   "summary": "Both ship to Halcyon Inc. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "Hillside Mining Company Ltd",
+   "to": "ETS Munsad Minerals Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to / search_buyers; prior gap_sayari_trade run",
+   "period": "2023-2026",
+   "strength": "weak",
+   "summary": "Both ship to Halcyon Inc. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "Boss Mining Solution Ltd",
+   "to": "Kanzamin Limited",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to / search_buyers; prior gap_sayari_trade run",
+   "period": "2023-2026",
+   "strength": "weak",
+   "summary": "Both ship to Halcyon Inc (one Boss row; Halcyon denies any relationship). Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "African Panther Resources Ltd",
+   "to": "Rani Mining Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "gw_2026",
+    "sayari"
+   ],
+   "paragraph_or_page": "GW p.26; Sayari",
+   "period": "2023-2025",
+   "strength": "weak",
+   "summary": "Both ship to Traxys Europe. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "African Panther Resources Ltd",
+   "to": "Hillside Mining Company Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "gw_2026",
+    "sayari"
+   ],
+   "paragraph_or_page": "GW p.26; Sayari",
+   "period": "2023-2025",
+   "strength": "weak",
+   "summary": "Both ship to Traxys Europe. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "Rani Mining Ltd",
+   "to": "Hillside Mining Company Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "gw_2026",
+    "sayari"
+   ],
+   "paragraph_or_page": "GW p.26; Sayari",
+   "period": "2025",
+   "strength": "weak",
+   "summary": "Both ship to Traxys Europe. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "East Group Minerals Ltd",
+   "to": "Tebuka Mineral Processing Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to / search_buyers; prior gap_sayari_trade run",
+   "period": "2023-2026",
+   "strength": "weak",
+   "summary": "Both ship to Minterra FZC. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "East Group Minerals Ltd",
+   "to": "Rani Mining Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to / search_buyers; prior gap_sayari_trade run",
+   "period": "2023-2026",
+   "strength": "weak",
+   "summary": "Both ship to Minterra FZC. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "Tawotin Ltd",
+   "to": "Rani Mining Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to / search_buyers; prior gap_sayari_trade run",
+   "period": "2023-2026",
+   "strength": "weak",
+   "summary": "Both ship to East Rise. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "Kanzamin Limited",
+   "to": "Rani Mining Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to / search_buyers; prior gap_sayari_trade run",
+   "period": "2023-2026",
+   "strength": "weak",
+   "summary": "Both ship to Specialty Metals Resources. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "Rani Mining Ltd",
+   "to": "ETS Munsad Minerals Ltd",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari ships_to / search_buyers; prior gap_sayari_trade run",
+   "period": "2023-2026",
+   "strength": "weak",
+   "summary": "Both ship to Saiko General Trading. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "Sunrise Metal Company Ltd",
+   "to": "Better Off Equipment & Solutions",
+   "type": "shares_buyer",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Compared buyer names across customs rows for each exporter.",
+   "source_keys": [
+    "gw_2026"
+   ],
+   "paragraph_or_page": "GW p.28 fn 234",
+   "period": "2025",
+   "strength": "weak",
+   "summary": "Both ship to Uniton Industries, Ningxia Nonferrous Metals I&E and Yinchuan Kinfintra. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin."
+  },
+  {
+   "from": "Congo Ressources Mining SARL",
+   "to": "Meta Trading Minerals Ltd",
+   "type": "ships_to",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Read a single Uganda customs row.",
+   "source_keys": [
+    "sayari"
+   ],
+   "paragraph_or_page": "Sayari Uganda customs",
+   "period": "22 Nov 2025",
+   "strength": "weak",
+   "summary": "One 26 t coltan row departing DRC for Rwanda. No mine or armed group is named."
+  },
+  {
+   "from": "Congo Ressources Mining SARL",
+   "to": "Bluequest Resources AG",
+   "type": "ships_to",
+   "armed_group": null,
+   "evidence_tier": "inferred",
+   "method": "Matched a variant spelling to the only Zefix firm of that name.",
+   "source_keys": [
+    "sayari",
+    "zefix"
+   ],
+   "paragraph_or_page": "Sayari fragments; Zefix CHE-112.119.358",
+   "period": "2023-",
+   "strength": "weak",
+   "summary": "Trade fragments name BlueQuest Ressources AG, likely the Swiss commodity trader. Spelling differs and nothing ties it to an armed group."
+  }
+ ],
+ "per_company_verdicts": [
+  {
+   "company": "Rani Mining",
+   "armed_group_link": "strong",
+   "basis": "UN and GW both report Rubaya purchases by Rani from 2025, with invoices, assays and audio cited by the UN.",
+   "best_tier": "documented",
+   "gaps": "Registry record unread; the role of Gilbert Kabano; whether Traxys shipments came from these lots."
+  },
+  {
+   "company": "Philbert Trading Minerals",
+   "armed_group_link": "strong",
+   "basis": "UN cites audio and documents for Rubaya purchases to Nov 2025, and two GW sources agree.",
+   "best_tier": "documented",
+   "gaps": "Corporate record unread; the supplier chain."
+  },
+  {
+   "company": "Kanzamin",
+   "armed_group_link": "strong",
+   "basis": "UN reports Masisi purchases and GW has four traders plus an employee on Rubaya; the UN names Nzaramba as part-owner.",
+   "best_tier": "documented",
+   "gaps": "Full shareholding; whether Trading Logistics Services in customs data is the former name. No comment from Kanzamin."
+  },
+  {
+   "company": "Boss Mining Solution",
+   "armed_group_link": "strong",
+   "basis": "UN says it bought minerals smuggled to Rwanda and a trader told GW he sold it Rubaya coltan; Habimana told Reuters it never bought from Rubaya.",
+   "best_tier": "documented",
+   "gaps": "Shareholding percentages; the Novacore ownership chain is GW-only for its Metarex to Novacore step."
+  },
+  {
+   "company": "African Panther Resources",
+   "armed_group_link": "moderate",
+   "basis": "Five traders told GW they sold it Rubaya coltan, but no UN naming was found in the reports read, and it denied earlier claims.",
+   "best_tier": "documented",
+   "gaps": "S/2025/858 annexes and S/2024/432 not fully read; Rwandan registry record; whether the Uganda and Swiss firms are formally affiliated."
+  },
+  {
+   "company": "Sunrise Metal",
+   "armed_group_link": "moderate",
+   "basis": "GW test call and ITSCI incidents point to smuggled supply; there is no UN naming or trader testimony.",
+   "best_tier": "documented",
+   "gaps": "The two Chinese owners are unnamed in GW; RMA lists Chen Zhap as representative, unconfirmed as owner."
+  },
+  {
+   "company": "Space Mining",
+   "armed_group_link": "moderate",
+   "basis": "Two traders told GW they sold it Rubaya coltan and one alleged good relations with M23; GW is the only source.",
+   "best_tier": "documented",
+   "gaps": "The two Chinese owners are unnamed; RMA lists Ma Kang as representative."
+  },
+  {
+   "company": "East Group Minerals",
+   "armed_group_link": "weak",
+   "basis": "ITSCI incidents may indicate smuggled supply, but no source says it bought from Rubaya or any armed group.",
+   "best_tier": "documented",
+   "gaps": "Mine-level sourcing, which Minterra declined to disclose; East Group has not commented."
+  },
+  {
+   "company": "Hillside Mining",
+   "armed_group_link": "weak",
+   "basis": "Sudden 2025 growth and ITSCI incidents raise concern, but no source ties it to Rubaya or an armed group.",
+   "best_tier": "documented",
+   "gaps": "Registry record; meaning of the single joint row with East Group."
+  },
+  {
+   "company": "ETS Munsad",
+   "armed_group_link": "none found",
+   "basis": "No source alleges anything; only a shared buyer (Halcyon) and an RMA representative listing.",
+   "best_tier": "inferred",
+   "gaps": "Owners unknown. RMA lists Guy Nsanza Sheja as representative, role only."
+  },
+  {
+   "company": "Tebuka",
+   "armed_group_link": "none found",
+   "basis": "No source mentions it; the only tie is a shared buyer (Minterra).",
+   "best_tier": "inferred",
+   "gaps": "Identity rests on one name fragment; owners and country unconfirmed."
+  },
+  {
+   "company": "Tawotin",
+   "armed_group_link": "weak",
+   "basis": "It sold to OFAC-designated East Rise and shipped jointly with designated WMP, but neither designation concerns Tawotin and it denies conflict sourcing.",
+   "best_tier": "documented",
+   "gaps": "Huber beneficial ownership is alleged and denied; any evidence on Tawotin's own supply; three joint rows are thin."
+  },
+  {
+   "company": "Meta Trading Minerals (Uganda)",
+   "armed_group_link": "none found",
+   "basis": "One customs row of DRC-departing coltan names no mine or armed group.",
+   "best_tier": "inferred",
+   "gaps": "Owners, and whether the Rwanda arrival is genuine."
+  },
+  {
+   "company": "Congo Ressources Mining",
+   "armed_group_link": "none found",
+   "basis": "Customs rows only; the Sayari flag is a rule-based risk label, not evidence of any armed-group tie.",
+   "best_tier": "inferred",
+   "gaps": "RCCM number, owners, and mine sources."
+  },
+  {
+   "company": "Halcyon Inc",
+   "armed_group_link": "moderate",
+   "basis": "GW alleges it bought conflict coltan from Kanzamin; Halcyon confirms that trade but denies Rubaya origin.",
+   "best_tier": "documented",
+   "gaps": "Shareholders; GLEIF reports no parent; UAE register not reachable."
+  },
+  {
+   "company": "Novacore FZE",
+   "armed_group_link": "moderate",
+   "basis": "GW says it bought most of Boss Mining's coltan, with shared owners; Novacore says it found no anomalies.",
+   "best_tier": "documented",
+   "gaps": "The Metarex to Novacore ownership step is unconfirmed by any registry we could read."
+  },
+  {
+   "company": "Minterra FZC",
+   "armed_group_link": "weak",
+   "basis": "It is East Group's main buyer and shares past personnel per GW, but nothing beyond ITSCI incidents ties that supply to conflict.",
+   "best_tier": "documented",
+   "gaps": "Current owners, disputed directorship; Hamriyah register not tried."
+  },
+  {
+   "company": "Saiko",
+   "armed_group_link": "none found",
+   "basis": "No source mentions it; customs rows only, with Rani among its suppliers.",
+   "best_tier": "inferred",
+   "gaps": "Owners; GLEIF confirms a Dubai entity created 2024 with no reported parent."
+  },
+  {
+   "company": "3U Mining Supporters (added)",
+   "armed_group_link": "moderate",
+   "basis": "The UN names it as a Rubaya buyer on confidential documents and audio; there is no second source.",
+   "best_tier": "documented",
+   "gaps": "Absent from Sayari; owners unknown."
+  },
+  {
+   "company": "Better Off Equipment & Solutions (added)",
+   "armed_group_link": "weak",
+   "basis": "GW suggests it took over Sunrise's business, but no evidence shows it bought conflict minerals.",
+   "best_tier": "documented",
+   "gaps": "Owners; whether the unknown number 122352760 is a tax ID."
+  }
+ ],
+ "sources_tried": [
+  {
+   "name": "Global Witness PDF",
+   "reachable": true,
+   "useful": true,
+   "note": "tavily_extract works; direct curl returns 404 page."
+  },
+  {
+   "name": "S/2026/466 via ecoi.net",
+   "reachable": true,
+   "useful": true,
+   "note": "Full PDF downloaded and parsed."
+  },
+  {
+   "name": "S/2025/858 digitallibrary.un.org",
+   "reachable": true,
+   "useful": false,
+   "note": "curl failed; tavily_extract returned paras 56-58 and 92 only, none naming target exporters. Annexes 42-43 unread, so this is not a clean negative."
+  },
+  {
+   "name": "S/2024/432",
+   "reachable": true,
+   "useful": true,
+   "note": "Local PDF truncated and did not parse; paras 141-144 read with tavily_extract, so the report was not fully searched for names."
+  },
+  {
+   "name": "Rwanda Mining Association magazine",
+   "reachable": true,
+   "useful": true,
+   "note": "Readable via tavily_extract; gives representatives per company."
+  },
+  {
+   "name": "org.rdb.rw (Rwanda registrar)",
+   "reachable": true,
+   "useful": false,
+   "note": "Home page opens; /search returns 404. No open company search found."
+  },
+  {
+   "name": "RDB and RMB licence lists",
+   "reachable": true,
+   "useful": false,
+   "note": "rmb.gov.rw opens; no public exporter or licensee list found. GIMCS and MCIS portals not tested."
+  },
+  {
+   "name": "Rwanda Official Gazette",
+   "reachable": true,
+   "useful": false,
+   "note": "MINIJUST landing page opens; not searchable by company in this run, so no notices were read."
+  },
+  {
+   "name": "OpenCorporates",
+   "reachable": false,
+   "useful": false,
+   "note": "Web search behind a browser check; API returns 401."
+  },
+  {
+   "name": "OCCRP Aleph",
+   "reachable": false,
+   "useful": false,
+   "note": "API returns 401; site could not be fetched."
+  },
+  {
+   "name": "ICIJ Offshore Leaks",
+   "reachable": false,
+   "useful": false,
+   "note": "Returns 202 with empty body by curl; Tavily failed. Not searched, so no result either way."
+  },
+  {
+   "name": "RAK ICC",
+   "reachable": false,
+   "useful": false,
+   "note": "Connection failed."
+  },
+  {
+   "name": "DMCC directory",
+   "reachable": true,
+   "useful": false,
+   "note": "Page opens but results are script-rendered; nothing read. Hamriyah, RAKEZ and Meydan registers not tried."
+  },
+  {
+   "name": "Zefix",
+   "reachable": true,
+   "useful": true,
+   "note": "Open search and detail API with SOGC notices; decisive for the African Panther lead."
+  },
+  {
+   "name": "Zug cantonal register",
+   "reachable": true,
+   "useful": false,
+   "note": "Excerpt page returned only a script shell; SOGC notices filled the gap."
+  },
+  {
+   "name": "UK Companies House",
+   "reachable": true,
+   "useful": true,
+   "note": "Open. Confirmed Konovalchik and Tolmatchev UK directorships by company number. Elstree address lead not resolved."
+  },
+  {
+   "name": "GLEIF",
+   "reachable": true,
+   "useful": true,
+   "note": "Open API. Confirmed Halcyon, Novacore and Saiko; no parents reported; no Minterra record."
+  },
+  {
+   "name": "Uganda EITI report",
+   "reachable": true,
+   "useful": true,
+   "note": "Named directors and shareholder of African Panther (U)."
+  },
+  {
+   "name": "Sayari",
+   "reachable": true,
+   "useful": true,
+   "note": "About 60 calls. Strong outside Rwanda (Cyprus, Swiss, Chinese records). No agent, broker or freight-forwarder field in rows, so those pair checks could not be run. No shared phone data for exporters."
+  },
+  {
+   "name": "ITSCI participation list xlsx",
+   "reachable": false,
+   "useful": false,
+   "note": "Search snippet only (Hillside registered Dec 2022); file returns 404."
+  },
+  {
+   "name": "Africa Intelligence, D&B, LinkedIn",
+   "reachable": true,
+   "useful": false,
+   "note": "Leads only. Paywalled or read as snippets, so not counted as sources."
+  },
+  {
+   "name": "HDX ACLED aggregates",
+   "reachable": true,
+   "useful": false,
+   "note": "Open, no login. Dataset is aggregated counts by country-month or year to 30 Oct 2026; event-level data needs an account. It can show conflict intensity over time but names no company or transaction."
+  },
+  {
+   "name": "IPIS sites (seed)",
+   "reachable": true,
+   "useful": false,
+   "note": "Fields cover site, minerals, workers, armed presence and ITSCI status. Zero mentions of any target company, so no company attribution is possible."
+  },
+  {
+   "name": "The Sentry, IPIS PDF, Reuters direct",
+   "reachable": false,
+   "useful": false,
+   "note": "Not attempted in this run; the Reuters copy came via SABC."
+  }
+ ],
+ "denials": [
+  {
+   "date": "2026-01-10",
+   "respondent": "Halcyon Inc",
+   "summary": "Confirmed buying from Kanzamin but denied the coltan came from Rubaya; says it disengaged from Kanzamin pending stronger due diligence, and that GW showed no transaction-level proof.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2026-04-15",
+   "respondent": "Halcyon Inc",
+   "summary": "Denied any contractual or commercial relationship with Boss Mining Solution.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2026-04-23",
+   "respondent": "Halcyon Inc",
+   "summary": "Denied having received coltan from African Panther Resources.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2026-01-22",
+   "respondent": "Halcyon Inc",
+   "summary": "Denied buying any Rubaya material in 2023, citing geo-fingerprinting.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2026-01-10",
+   "respondent": "SOGECOM",
+   "summary": "Strongly denied that the Kotecha family profited from conflict minerals and denied sourcing conflict minerals from Rubaya; said Ketankumar Kotecha is a stakeholder, not operationally involved.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2026-01-08",
+   "respondent": "Novacore FZE",
+   "summary": "Said a Kigali visit found no anomalies in Boss Mining Solution's export volumes and that shipments originated in Rwanda and met ITSCI requirements.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2025-03-05",
+   "respondent": "African Panther Resources",
+   "summary": "Previously denied sourcing conflict coltan, citing due diligence; did not reply to GW's later letter.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2026",
+   "respondent": "Traxys",
+   "summary": "Strongly denied that coltan from African Panther, Rani or Hillside was from DRC or conflict-linked; cites mineralogy and mine-level tracing; says it stopped sourcing Rwandan tantalum in May 2025.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2025-12-22",
+   "respondent": "Tawotin Ltd",
+   "summary": "Denied sourcing conflict material from DRC and denied any connection to Chris Huber.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2025-12-22",
+   "respondent": "Chris Huber",
+   "summary": "Denied being or ever having been a beneficial owner or member of Tawotin.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2025-12-22",
+   "respondent": "CDMC",
+   "summary": "Denied trading conflict minerals from Rubaya and denied any connection to John Crawley.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2021-12-15",
+   "respondent": "John Crawley",
+   "summary": "Denied being connected to CDMC.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2026",
+   "respondent": "Minterra",
+   "summary": "Said it found no sign of smuggled or conflict minerals at East Group Minerals, citing ITSCI membership; director Ignas Pilvinis said Andrius Jankunas was never a Minterra director.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2026",
+   "respondent": "Antanas Krasauskas",
+   "summary": "Former Minterra CEO said only documented material was bought in his time and that he has no relationship with Darius Krasauskas beyond the surname.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2026",
+   "respondent": "Kanzamin, Boss Mining Solution, Rani Mining, Hillside Mining, Sunrise Metal, Better Off Equipment, Philbert, Space Mining, East Group Minerals, East Rise",
+   "summary": "Did not reply to GW's requests for comment (non-response, not denial).",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2025-06",
+   "respondent": "Eddy Habimana",
+   "summary": "Told Reuters by text that Boss Mining has never been involved in buying coltan from Rubaya; declined comment on the UN report.",
+   "source_key": "reuters_sabc_2025"
+  },
+  {
+   "date": "2026",
+   "respondent": "Better Mining",
+   "summary": "Denied tagging conflict-affected coltan and said no conflict material was shown to have entered its system.",
+   "source_key": "gw_2026"
+  },
+  {
+   "date": "2026",
+   "respondent": "Halcyon Inc",
+   "summary": "Said it permanently disengaged from Philbert Trading Minerals in 2025.",
+   "source_key": "gw_2026"
+  }
+ ],
+ "call_log": [
+  {
+   "n": 1,
+   "tool": "search_entities",
+   "args_summary": "\"EAST GROUP MINERALS\"",
+   "result_summary": "2 hits: f4UQ4x1QLACAPKBYMyC5OQ (RWA/TZA, no identifiers), 3JDmqM6b9cadb7Eb7mb6sQ (no country)"
+  },
+  {
+   "n": 2,
+   "tool": "search_entities",
+   "args_summary": "\"HILLSIDE MINING\"",
+   "result_summary": "27 hits, mostly unrelated US/CAN/ZAF/TTO firms rejected on country and identifiers; ljTeEOJXxOOimlbTQFxBeg, c0nfmS2IalvQNuUCdatN9w, AfLAVzHSB2by1-vZ4jyu_w trade fragments with no country; j-a_f5WjwtemQL-oJdAJiQ joint-name fragment"
+  },
+  {
+   "n": 3,
+   "tool": "get_entity_profile",
+   "args_summary": "X9BAf2KZzwU7tDfYuH4qoA (African Panther)",
+   "result_summary": "No identifiers, no addresses, no officers; trade sources only (Tanzania, Vietnam); 150 sent, 1 received"
+  },
+  {
+   "n": 4,
+   "tool": "get_entity_profile",
+   "args_summary": "8eW5KQNdwT7LoG9R3s75kA (Halcyon Inc)",
+   "result_summary": "Addresses Dubai JLT Mazaya AA1 L41 and Unit 505 Centennial Park, Elstree WD6 3FG; no identifiers; ships to Malaysia Smelting, Yunnan Tin, Vonfram Masan, Trading Logistics Services (RWA)"
+  },
+  {
+   "n": 5,
+   "tool": "get_entity_summary",
+   "args_summary": "j-a_f5WjwtemQL-oJdAJiQ",
+   "result_summary": "Single Tanzania trade record; name joins East Group and Hillside; no country or identifiers"
+  },
+  {
+   "n": 6,
+   "tool": "search_shipments",
+   "args_summary": "EAST GROUP AND HILLSIDE MINING",
+   "result_summary": "1 row HS 261590, RWA to CHN, 2025-07-14, buyer MINTERRA FZC (8LLbna7zYvBdV-y8BjQumQ)"
+  },
+  {
+   "n": 7,
+   "tool": "tavily_extract",
+   "args_summary": "GW Sept 2026 PDF, full text",
+   "result_summary": "Read via Tavily; curl of same URL returned 404 HTML"
+  },
+  {
+   "n": 8,
+   "tool": "search_entities / get_entity_profile / summary",
+   "args_summary": "About 30 lookups across exporters, buyers, Metarex, East Rise, Principal Investments",
+   "result_summary": "See entities; most exporters have trade records only"
+  },
+  {
+   "n": 9,
+   "tool": "traverse_network (filtered, depth <=2)",
+   "args_summary": "Konovalchik, Tolmatchev (ownership types); East Group (ships_to depth 1)",
+   "result_summary": "Metarex plus UK companies; Minterra name variants, Chinese smelters and logistics firms"
+  },
+  {
+   "n": 10,
+   "tool": "find_shortest_path",
+   "args_summary": "Metarex to Novacore; African Panther to Principal Investments",
+   "result_summary": "No path; second call failed with HTTP 408"
+  },
+  {
+   "n": 11,
+   "tool": "search_trade_facets",
+   "args_summary": "9 exporter buyer facets",
+   "result_summary": "Returned country and risk buckets only, no party names, and fuzzy matching inflated Sunrise and Space counts. Not used as evidence."
+  },
+  {
+   "n": 12,
+   "tool": "check_watchlist",
+   "args_summary": "Tawotin, depth 2",
+   "result_summary": "Only path is via Malaysia Smelting to Star Dragon; not meaningful"
+  },
+  {
+   "n": 13,
+   "tool": "search_shipments / search_buyers / search_suppliers",
+   "args_summary": "Tawotin rows, joint shippers, Rani, Hillside, Saiko",
+   "result_summary": "shipper and receiver filters ignored on Rani test; rows have no agent, broker or notify fields"
+  },
+  {
+   "n": 14,
+   "tool": "tavily_extract",
+   "args_summary": "GW 2026, RMA magazine, S/2025/858, S/2024/432, sb0221, SABC, GW 2017, UGEITI, ITSCI, ICIJ, Aleph, OpenCorporates",
+   "result_summary": "See sources and sources_tried"
+  },
+  {
+   "n": 15,
+   "tool": "tavily_search",
+   "args_summary": "7 searches: exporters, Minterra, Tebuka/Saiko/Meta, Congo Ressources, RMB, ITSCI, African Panther, Dudgeon",
+   "result_summary": "Leads only until read"
+  },
+  {
+   "n": 16,
+   "tool": "curl",
+   "args_summary": "Registries, GLEIF, Zefix, Companies House, HDX, UN and NGO PDFs",
+   "result_summary": "Saved under scratchpad entity_raw; parsed with python -I"
+  }
+ ]
+}

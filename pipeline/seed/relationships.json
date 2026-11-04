@@ -319,5 +319,1125 @@
     "paragraph_or_page": null,
     "sayari_path": null,
     "notes": "1 customs rows, HS 261590 (Sayari). Customs data shows who shipped to whom, not where the mineral was mined."
+  },
+  {
+    "id": "rel_dn_otic_samsung_electro_mechanics_co_l",
+    "from_actor": "act_otic",
+    "to_actor": "act_buy_samsung_electro_mechanics_co_ltd",
+    "type": "ships_to",
+    "valid_from": "2019-03-21",
+    "valid_to": "2026-08-26",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "123 customs rows, HS 810320, 810399. Inferred from customs rows; rows are not consignments. All arrive PHL. Matches GW finding of OTIC shipments to Samsung subsidiaries. Samsung told GW it had no concerns, citing OTIC RMI audit. search_buyers rollup shows 235 rows across all HS."
+  },
+  {
+    "id": "rel_dn_otic_samsung_electro_mechanics_phil",
+    "from_actor": "act_otic",
+    "to_actor": "act_buy_samsung_electro_mechanics_philippines_co",
+    "type": "ships_to",
+    "valid_from": "2023-01-05",
+    "valid_to": "2025-06-27",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "92 customs rows, HS 810320, 810399. Inferred from customs rows; rows are not consignments. Same plant as above under a second consignee name; rows stop mid-2025 as the parent name takes over. Do not add as a separate buyer."
+  },
+  {
+    "id": "rel_dn_otic_pt_kasen_indonesia",
+    "from_actor": "act_otic",
+    "to_actor": "act_buy_pt_kasen_indonesia",
+    "type": "ships_to",
+    "valid_from": "2023-01-18",
+    "valid_to": "2026-08-06",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "76 customs rows, HS 810399. Inferred from customs rows; rows are not consignments. Tantalum plate, not powder. End use unknown; not a capacitor maker on this evidence."
+  },
+  {
+    "id": "rel_dn_otic_c_h_powell_company",
+    "from_actor": "act_otic",
+    "to_actor": "act_buy_c_h_powell_company",
+    "type": "ships_to",
+    "valid_from": "2022-11-26",
+    "valid_to": "2023-07-19",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "6 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. Freight forwarder as consignee, so the US end buyer is hidden. Powder rows stop July 2023 here."
+  },
+  {
+    "id": "rel_dn_otic_kyocera_avx_components_corpora",
+    "from_actor": "act_otic",
+    "to_actor": "act_buy_kyocera_avx_components_corporation",
+    "type": "ships_to",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "1 customs rows, HS 8103. Inferred from customs rows; rows are not consignments. search_buyers rollup only; no shipment row or date read. Low confidence."
+  },
+  {
+    "id": "rel_dn_otic_tdk_india_private_limited",
+    "from_actor": "act_otic",
+    "to_actor": "act_buy_tdk_india_private_limited",
+    "type": "ships_to",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "5 customs rows, HS 282590. Inferred from customs rows; rows are not consignments. Rollup only; oxide HS code, tantalum content not confirmed."
+  },
+  {
+    "id": "rel_dn_taniobis_th_panasonic_industrial_component",
+    "from_actor": "act_taniobis_th",
+    "to_actor": "act_buy_panasonic_industrial_components_indonesi",
+    "type": "ships_to",
+    "valid_from": "2020-08-05",
+    "valid_to": "2026-06-05",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "50 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. Capacitor-grade powder named in 2020-21 rows. Rows continue after the end-2023 date Taniobis gave for stopping DRC or Rwanda sourcing, so later rows are not implied to be affected. GW instead cited OTIC to Panasonic Philippines; no such row found."
+  },
+  {
+    "id": "rel_dn_taniobis_th_kyocera_avx_components_ltd",
+    "from_actor": "act_taniobis_th",
+    "to_actor": "act_buy_kyocera_avx_components_ltd",
+    "type": "ships_to",
+    "valid_from": "2022-01-16",
+    "valid_to": "2024-02-01",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "14 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. UK-registered consignee; goods mostly THA to SLV. Last row Feb 2024, about when Taniobis says it stopped."
+  },
+  {
+    "id": "rel_dn_taniobis_th_kyocera_avx_components_s_r_o",
+    "from_actor": "act_taniobis_th",
+    "to_actor": "act_buy_kyocera_avx_components_s_r_o",
+    "type": "ships_to",
+    "valid_from": "2023-10-05",
+    "valid_to": "2023-10-25",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "2 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. THA to DEU."
+  },
+  {
+    "id": "rel_dn_taniobis_th_avx_industries_pte_ltd",
+    "from_actor": "act_taniobis_th",
+    "to_actor": "act_buy_avx_industries_pte_ltd",
+    "type": "ships_to",
+    "valid_from": "2021-11-24",
+    "valid_to": "2021-11-24",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "1 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. THA to SLV."
+  },
+  {
+    "id": "rel_dn_taniobis_th_samsung_electro_mechanics_co_l",
+    "from_actor": "act_taniobis_th",
+    "to_actor": "act_buy_samsung_electro_mechanics_co_ltd",
+    "type": "ships_to",
+    "valid_from": "2025-12-02",
+    "valid_to": "2026-06-03",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "2 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. THA to PHL. Large Taniobis Japan flows to Samsung are a different facility and are excluded."
+  },
+  {
+    "id": "rel_dn_ulba_kyocera_avx_components_s_r_o",
+    "from_actor": "act_ulba",
+    "to_actor": "act_buy_kyocera_avx_components_s_r_o",
+    "type": "ships_to",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "None customs rows, HS . Inferred from customs rows; rows are not consignments. ships_to edge only; no dated row read."
+  },
+  {
+    "id": "rel_dn_ulba_kyocera_avx_component_pte_ltd",
+    "from_actor": "act_ulba",
+    "to_actor": "act_buy_kyocera_avx_component_pte_ltd",
+    "type": "ships_to",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "None customs rows, HS . Inferred from customs rows; rows are not consignments. ships_to edge only; no dated row read."
+  },
+  {
+    "id": "rel_dn_ulba_praxair_surface_technologies_i",
+    "from_actor": "act_ulba",
+    "to_actor": "act_buy_praxair_surface_technologies_inc",
+    "type": "ships_to",
+    "valid_from": "2024-02",
+    "valid_to": "2024-12-26",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "23 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. Tantalum ingots. Only 100 of 542 Ulba rows read, all 2024."
+  },
+  {
+    "id": "rel_dn_ulba_a_r_merchants_inc",
+    "from_actor": "act_ulba",
+    "to_actor": "act_buy_a_r_merchants_inc",
+    "type": "ships_to",
+    "valid_from": "2024-01",
+    "valid_to": "2024-12-26",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "19 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. Tantalum ingots; trader."
+  },
+  {
+    "id": "rel_dn_ulba_advanced_material_japan_corpor",
+    "from_actor": "act_ulba",
+    "to_actor": "act_buy_advanced_material_japan_corporation",
+    "type": "ships_to",
+    "valid_from": "2024-01",
+    "valid_to": "2024-12-25",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "20 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. Tantalum ingots; trader."
+  },
+  {
+    "id": "rel_dn_ulba_eurofins_eag_materials_science",
+    "from_actor": "act_ulba",
+    "to_actor": "act_buy_eurofins_eag_materials_science_llc",
+    "type": "ships_to",
+    "valid_from": "2024-02",
+    "valid_to": "2024-12-25",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "28 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. Samples to a test lab, not a customer."
+  },
+  {
+    "id": "rel_dn_ulba_east_rise_corporation_ltd",
+    "from_actor": "act_ulba",
+    "to_actor": "act_east_rise",
+    "type": "ships_to",
+    "valid_from": "2024-09-30",
+    "valid_to": "2024-09-30",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "1 customs rows, HS 810320. Inferred from customs rows; rows are not consignments. See caveat on the East Rise lots: looks like tolling of ingots, not a coltan sale."
+  },
+  {
+    "id": "rel_dn_tanbre_pacific_industrial_development",
+    "from_actor": "act_tanbre",
+    "to_actor": "act_buy_pacific_industrial_development_corp",
+    "type": "ships_to",
+    "valid_from": "2021-11-01",
+    "valid_to": "2026-05-08",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "8 customs rows, HS . Inferred from customs rows; rows are not consignments. Tantalum and niobium pentoxide; rows carry no HS code. Not a capacitor maker."
+  },
+  {
+    "id": "rel_dn_tanbre_s_n_usa_inc",
+    "from_actor": "act_tanbre",
+    "to_actor": "act_buy_s_n_usa_inc",
+    "type": "ships_to",
+    "valid_from": "2022-12-29",
+    "valid_to": "2023-07-10",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "3 customs rows, HS . Inferred from customs rows; rows are not consignments. Tantalum carbide; rows carry no HS code."
+  },
+  {
+    "id": "rel_dn_ximei_kennametal_india_limited",
+    "from_actor": "act_ximei",
+    "to_actor": "act_buy_kennametal_india_limited",
+    "type": "ships_to",
+    "valid_from": "2024-05-04",
+    "valid_to": "2026-01-31",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "23 customs rows, HS 282590. Inferred from customs rows; rows are not consignments. Oxide; cutting-tool use likely, not capacitors. Via unconfirmed trade fragments. 100 of 217 rows read."
+  },
+  {
+    "id": "rel_dn_ximei_sre_vietnam_co_ltd",
+    "from_actor": "act_ximei",
+    "to_actor": "act_buy_sre_vietnam_co_ltd",
+    "type": "ships_to",
+    "valid_from": "2025-01-23",
+    "valid_to": "2026-06-18",
+    "evidence_tier": "inferred",
+    "method": "Sayari customs rows naming the smelter as shipper. Rows are not consignments and show nothing about the ore's origin.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "21 customs rows, HS 282590. Inferred from customs rows; rows are not consignments. Oxide; via unconfirmed trade fragment."
+  },
+  {
+    "id": "rel_eastrise_ulba_ingots",
+    "from_actor": "act_east_rise",
+    "to_actor": "act_ulba",
+    "type": "ships_to",
+    "valid_from": "2024-09-06",
+    "valid_to": "2024-09-06",
+    "evidence_tier": "inferred",
+    "method": "Matching lot numbers on Sayari customs rows (East Rise to Ulba 6 Sep 2024; Ulba to East Rise 30 Sep 2024) suggest tolling or re-melting.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": null,
+    "sayari_path": null,
+    "notes": "Tantalum ingots, not ore, and provenance unknown. Falls after the May 2024 stop Ulba described, but this is not a contradiction on this evidence. A question to put to Ulba."
+  },
+  {
+    "id": "rel_nw_0",
+    "from_actor": "act_rani",
+    "to_actor": "act_m23",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "S/2026/466 para 218; GW pp.26-27",
+    "period": "2025 to Mar 2026",
+    "sayari_path": null,
+    "notes": "UN says Rani, via main agent Gilbert Kabano, bought coltan shipments from AFC/M23-held Rubaya, citing invoices, assays and audio. GW test call: a senior representative offered to buy from a supposed Rubaya trader."
+  },
+  {
+    "id": "rel_nw_1",
+    "from_actor": "act_philbert",
+    "to_actor": "act_m23",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "S/2026/466 para 219; GW p.28",
+    "period": "to at least Nov 2025",
+    "sayari_path": null,
+    "notes": "UN cites verified audio and documents for Rubaya purchases; two GW-interviewed smugglers say the same."
+  },
+  {
+    "id": "rel_nw_2",
+    "from_actor": "act_kanzamin",
+    "to_actor": "act_m23",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "S/2026/466 para 220; GW p.21",
+    "period": "2024-2025",
+    "sayari_path": null,
+    "notes": "UN says it bought 3T from Masisi. Four traders and an employee told GW it bought Rubaya coltan; GW reports a company lab at Rubaya."
+  },
+  {
+    "id": "rel_nw_3",
+    "from_actor": "act_boss_mining",
+    "to_actor": "act_m23",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "S/2025/446 para 119; GW pp.23-24",
+    "period": "2025",
+    "sayari_path": null,
+    "notes": "UN says part of the minerals smuggled to Rwanda were bought by Boss Mining; a trader told GW he sold it Rubaya coltan."
+  },
+  {
+    "id": "rel_nw_4",
+    "from_actor": "act_african_panther",
+    "to_actor": "act_m23",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW pp.25-26",
+    "period": "2025",
+    "sayari_path": null,
+    "notes": "Five traders across two GW reports say they sold it Rubaya coltan. No UN naming found in the reports read."
+  },
+  {
+    "id": "rel_nw_5",
+    "from_actor": "act_sunrise",
+    "to_actor": "act_m23",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW pp.27-28",
+    "period": "2024-2025",
+    "sayari_path": null,
+    "notes": "GW test call: it offered to buy supposed Rubaya coltan and to help at the border. ITSCI incidents point to possible smuggled supply. GW is the sole source."
+  },
+  {
+    "id": "rel_nw_6",
+    "from_actor": "act_space_mining",
+    "to_actor": "act_m23",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.29",
+    "period": "2025",
+    "sayari_path": null,
+    "notes": "Two traders say they sold it Rubaya coltan; one alleges good relations with M23. Single-source allegation."
+  },
+  {
+    "id": "rel_nw_9",
+    "from_actor": "act_halcyon",
+    "to_actor": "act_kanzamin",
+    "type": "buys_from",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW pp.21-22",
+    "period": "2025",
+    "sayari_path": null,
+    "notes": "GW says Kanzamin sold conflict coltan to Halcyon. Halcyon confirms the trade and denies Rubaya origin."
+  },
+  {
+    "id": "rel_nw_10",
+    "from_actor": "act_novacore",
+    "to_actor": "act_boss_mining",
+    "type": "buys_from",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.24",
+    "period": "2023-2026",
+    "sayari_path": null,
+    "notes": "GW says Novacore bought most Boss Mining coltan, and so conflict coltan. Novacore says it found no anomalies."
+  },
+  {
+    "id": "rel_nw_11",
+    "from_actor": "act_eddy_fernand_habimana",
+    "to_actor": "act_boss_mining",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "paragraph_or_page": "S/2025/446 para 119; GW p.23; RMA members list",
+    "period": "2024-2025",
+    "sayari_path": null,
+    "notes": "UN says he represents the company; GW says he runs and co-owns it; RMA lists him as its representative."
+  },
+  {
+    "id": "rel_nw_12",
+    "from_actor": "act_eddy_fernand_habimana",
+    "to_actor": "act_m23",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "S/2025/446 para 119 citing S/2012/843 para 167; GW p.24",
+    "period": "2012",
+    "sayari_path": null,
+    "notes": "UN previously reported his involvement in mineral smuggling to Rwanda; GW adds that the 2012 report said part of the profits reached M23. Historic, pre-dating Rubaya capture."
+  },
+  {
+    "id": "rel_nw_13",
+    "from_actor": "act_yuri_tolmatchev",
+    "to_actor": "act_boss_mining",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.24",
+    "period": "as of 2026",
+    "sayari_path": null,
+    "notes": "GW corporate document: co-owner. He is also Novacore managing director."
+  },
+  {
+    "id": "rel_nw_14",
+    "from_actor": "act_alexander_konovalchik",
+    "to_actor": "act_boss_mining",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.24",
+    "period": "as of 2026",
+    "sayari_path": null,
+    "notes": "GW corporate document: co-owner. He also owns Metarex (Cyprus), which owns Novacore."
+  },
+  {
+    "id": "rel_nw_15",
+    "from_actor": "act_dany_nzaramba",
+    "to_actor": "act_kanzamin",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "paragraph_or_page": "S/2026/466 para 220; GW p.20; RMA members list",
+    "period": "2012-2026",
+    "sayari_path": null,
+    "notes": "UN says at least partly owned by him; GW says he chairs it; RMA lists him as representative."
+  },
+  {
+    "id": "rel_nw_17",
+    "from_actor": "act_viateur_sibomana",
+    "to_actor": "act_philbert",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "paragraph_or_page": "S/2026/466 para 219; GW p.28; RMA members list",
+    "period": "to 2026",
+    "sayari_path": null,
+    "notes": "UN says sole owner; GW and RMA agree."
+  },
+  {
+    "id": "rel_nw_18",
+    "from_actor": "act_gilbert_kabano",
+    "to_actor": "act_rani",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "S/2026/466 para 218",
+    "period": "to Mar 2026",
+    "sayari_path": null,
+    "notes": "UN calls him its main agent. Agent, not owner."
+  },
+  {
+    "id": "rel_nw_19",
+    "from_actor": "act_odette_uzayisenga",
+    "to_actor": "act_rani",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.26",
+    "period": "registered 2020",
+    "sayari_path": null,
+    "notes": "GW corporate document: director and chairwoman at registration. Role only."
+  },
+  {
+    "id": "rel_nw_20",
+    "from_actor": "act_henry_dudgeon",
+    "to_actor": "act_african_panther",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.25",
+    "period": "as of 2026",
+    "sayari_path": null,
+    "notes": "GW corporate document: co-owner. Role only."
+  },
+  {
+    "id": "rel_nw_21",
+    "from_actor": "act_joseph_karamira",
+    "to_actor": "act_african_panther",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "paragraph_or_page": "GW p.25; RMA members list",
+    "period": "2024-2026",
+    "sayari_path": null,
+    "notes": "GW corporate document: co-owner; RMA lists him as representative. Role only."
+  },
+  {
+    "id": "rel_nw_22",
+    "from_actor": "act_gvidas_galubickas",
+    "to_actor": "act_east_group_minerals_ltd",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "paragraph_or_page": "GW p.29; RMA members list",
+    "period": "2024-2026",
+    "sayari_path": null,
+    "notes": "GW corporate document: owner; RMA lists him as representative. Role only."
+  },
+  {
+    "id": "rel_nw_24",
+    "from_actor": "act_chris_huber",
+    "to_actor": "act_tawotin_ltd",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_gw_2022"
+    ],
+    "paragraph_or_page": "GW 2026 p.30; GW 2022 Tawotin section",
+    "period": "alleged",
+    "sayari_path": null,
+    "notes": "GW names him as ultimate beneficial owner on industry sources. Both Huber and Tawotin deny this."
+  },
+  {
+    "id": "rel_nw_27",
+    "from_actor": "act_metarex_ltd",
+    "to_actor": "act_novacore",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.24",
+    "period": "as of 2026",
+    "sayari_path": null,
+    "notes": "GW says Metarex owns Novacore. Not independently confirmed: Sayari finds no path and GLEIF reports no parent for Novacore."
+  },
+  {
+    "id": "rel_nw_28",
+    "from_actor": "act_tawotin_ltd",
+    "to_actor": "act_east_rise",
+    "type": "ships_to",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_sayari"
+    ],
+    "paragraph_or_page": "GW p.30; Sayari shipment rows",
+    "period": "to Aug 2025",
+    "sayari_path": null,
+    "notes": "GW says Tawotin sold to East Rise; Sayari rows agree, and Tawotin says it changed buyer after the sanctions. Customs rows do not show ore origin."
+  },
+  {
+    "id": "rel_nw_29",
+    "from_actor": "act_east_rise",
+    "to_actor": "act_pareco",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "strength": "strong",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "paragraph_or_page": "sb0221, mining and export companies section",
+    "period": "2022 to early 2024",
+    "sayari_path": null,
+    "notes": "OFAC designated East Rise for supporting CDMC, which it says sold minerals sourced from PARECO-FF areas. This is East Rise's designation, not a finding about any of its suppliers."
+  },
+  {
+    "id": "rel_nw_34",
+    "from_actor": "act_3u_mining_supporters_ltd",
+    "to_actor": "act_m23",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "S/2026/466 para 218, fn 244",
+    "period": "2025 to Mar 2026",
+    "sayari_path": null,
+    "notes": "UN says this new Kigali exporter also bought Rubaya coltan, citing confidential documents and audio. Single source; not in Sayari."
+  },
+  {
+    "id": "rel_nw_38",
+    "from_actor": "act_boniface_mbanza",
+    "to_actor": "act_tawotin_ltd",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_2022",
+      "src_rma_magazine_2024"
+    ],
+    "paragraph_or_page": "GW 2022 Tawotin section; RMA members list",
+    "period": "2018-2024",
+    "sayari_path": null,
+    "notes": "Managing director as of 2018 per GW; RMA lists Mbanza Bony in 2024. Role only."
+  },
+  {
+    "id": "rel_nw_39",
+    "from_actor": "act_jean_claude_mbarushimana",
+    "to_actor": "act_hillside_mining_company_ltd",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.27",
+    "period": "as of 2026",
+    "sayari_path": null,
+    "notes": "Co-owner and chairperson per corporate document. Role only."
+  },
+  {
+    "id": "rel_nw_40",
+    "from_actor": "act_evode_muvunyi",
+    "to_actor": "act_hillside_mining_company_ltd",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.27",
+    "period": "as of 2026",
+    "sayari_path": null,
+    "notes": "Co-owner and managing director per corporate document. Role only."
+  },
+  {
+    "id": "rel_nw_41",
+    "from_actor": "act_martynas_medelis",
+    "to_actor": "act_east_group_minerals_ltd",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.29",
+    "period": "as of 2026",
+    "sayari_path": null,
+    "notes": "Manager per corporate documents. Role only."
+  },
+  {
+    "id": "rel_nw_42",
+    "from_actor": "act_dharam_kotecha",
+    "to_actor": "act_halcyon",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.23",
+    "period": "to at least 2024",
+    "sayari_path": null,
+    "notes": "GW says he was a Halcyon director. The family link to past allegations is disputed by SOGECOM."
+  },
+  {
+    "id": "rel_nw_43",
+    "from_actor": "act_rajan_sureshchandra_karia",
+    "to_actor": "act_halcyon",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.22",
+    "period": "as of 2026",
+    "sayari_path": null,
+    "notes": "GW names him as Halcyon principal. Role only."
+  },
+  {
+    "id": "rel_nw_44",
+    "from_actor": "act_halcyon",
+    "to_actor": "act_sogecom",
+    "type": "buys_from",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_gw_2022"
+    ],
+    "paragraph_or_page": "GW 2026 p.23; GW 2022 p.60",
+    "period": "2019-2023",
+    "sayari_path": null,
+    "notes": "Pre-2024 Rubaya-era link: GW says most SOGECOM coltan went to Halcyon, including 2023 North Kivu material. Both deny Rubaya sourcing."
+  },
+  {
+    "id": "rel_nw_45",
+    "from_actor": "act_halcyon",
+    "to_actor": "act_philbert",
+    "type": "buys_from",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW pp.28-29",
+    "period": "to Feb 2025",
+    "sayari_path": null,
+    "notes": "Trade data shows sales to Halcyon. Halcyon says it permanently disengaged in 2025."
+  },
+  {
+    "id": "rel_nw_46",
+    "from_actor": "act_minterra_fzc",
+    "to_actor": "act_east_group_minerals_ltd",
+    "type": "buys_from",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "paragraph_or_page": "GW p.29, fn 260",
+    "period": "2019-2026",
+    "sayari_path": null,
+    "notes": "GW links the two firms through past managers, directors and third companies, and says Minterra was Tardigrade Trading FZE. Minterra disputes one directorship."
+  },
+  {
+    "id": "rel_nw_47",
+    "from_actor": "act_cdmc",
+    "to_actor": "act_pareco",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "strength": "strong",
+    "source_ids": [
+      "src_treasury_sb0221"
+    ],
+    "paragraph_or_page": "sb0221",
+    "period": "2022 to early 2024",
+    "sayari_path": null,
+    "notes": "OFAC says CDMC sold minerals sourced from PARECO-FF areas. CDMC denies. Pre-M23 Rubaya context."
+  },
+  {
+    "id": "rel_nw_48",
+    "from_actor": "act_cdmc",
+    "to_actor": "act_apcls_nyatura_groups",
+    "type": "alleged_link",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "moderate",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "paragraph_or_page": "S/2024/969 annex 29",
+    "period": "2019",
+    "sayari_path": null,
+    "notes": "UN says minerals from armed-group areas were tagged at Ngungu and sold to CDMC."
+  },
+  {
+    "id": "rel_nw_49",
+    "from_actor": "act_rani",
+    "to_actor": "act_east_rise",
+    "type": "ships_to",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "inferred",
+    "strength": "moderate",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": "Sayari ships_to edges to vdCIJ54CEY7kXe8uUJMsvg and fragments",
+    "period": "to 25 Jul 2025 per search_buyers metadata",
+    "sayari_path": null,
+    "notes": "Sayari shows Rani shipping to East Rise, before the 12 Aug 2025 designation. Row-level check failed because the receiver filter was ignored. New link not reported by GW.",
+    "method": "Matched the graph ships_to edge to the East Rise node whose address equals the SDN record."
+  },
+  {
+    "id": "rel_nw_50",
+    "from_actor": "act_principal_investments_ag_formerly_africa",
+    "to_actor": "act_african_panther_resources_u_ltd",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_ugeiti_2021",
+      "src_gw_2017",
+      "src_zefix_chetu"
+    ],
+    "paragraph_or_page": "UGEITI FY2020-21 p.258; GW 2017 pp.16-17; SOGC 2019",
+    "period": "2015-2021",
+    "sayari_path": null,
+    "notes": "UGEITI lists Principle Investments AG as shareholder and GW 2017 reports the Swiss firm as 100% holder from March 2015. SOGC shows the rename. Spelling differs in UGEITI."
+  },
+  {
+    "id": "rel_nw_51",
+    "from_actor": "act_henry_dudgeon",
+    "to_actor": "act_african_panther_resources_u_ltd",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_ugeiti_2021"
+    ],
+    "paragraph_or_page": "UGEITI FY2020-21 p.258",
+    "period": "FY2020-21",
+    "sayari_path": null,
+    "notes": "Henry Guy Dudgeon listed as director and secretary. Role only."
+  },
+  {
+    "id": "rel_nw_52",
+    "from_actor": "act_christoph_eibl",
+    "to_actor": "act_african_panther_resources_u_ltd",
+    "type": "directs",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_ugeiti_2021"
+    ],
+    "paragraph_or_page": "UGEITI FY2020-21 p.258",
+    "period": "FY2020-21",
+    "sayari_path": null,
+    "notes": "Listed as director; also chairs the Swiss firm per SOGC. Role only."
+  },
+  {
+    "id": "rel_nw_54",
+    "from_actor": "act_wolfram",
+    "to_actor": "act_kalima",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "designated",
+    "strength": "strong",
+    "source_ids": [
+      "src_treasury_sb0543",
+      "src_rma_magazine_2024"
+    ],
+    "paragraph_or_page": "sb0543; RMA members list",
+    "period": "as designated Jun 2026",
+    "sayari_path": null,
+    "notes": "OFAC-listed firm tied to Kalima, whose Gasabo refinery is designated. RMA lists Kalima for WMP. The Tawotin joint rows pre-date the designation."
+  },
+  {
+    "id": "rel_metarex_alexander_konovalchik",
+    "from_actor": "act_alexander_konovalchik",
+    "to_actor": "act_metarex_ltd",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": "Cyprus registry HE 322537, via Sayari",
+    "period": null,
+    "sayari_path": "shareholder_of",
+    "notes": "Registry record: 25% shareholder and director. A second Konovalchik holds 25%. This refines GW, which says he owns Metarex."
+  },
+  {
+    "id": "rel_metarex_yuri_tolmatchev",
+    "from_actor": "act_yuri_tolmatchev",
+    "to_actor": "act_metarex_ltd",
+    "type": "owns",
+    "valid_from": null,
+    "valid_to": null,
+    "evidence_tier": "documented",
+    "strength": "strong",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "paragraph_or_page": "Cyprus registry HE 322537, via Sayari",
+    "period": null,
+    "sayari_path": "shareholder_of",
+    "notes": "Registry record: 20% shareholder and director, with two other Tolmatchev family-name holders at 20% and 10%."
   }
 ]

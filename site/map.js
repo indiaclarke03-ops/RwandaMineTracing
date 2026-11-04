@@ -24,7 +24,17 @@
   let G, map, ready = false, fitted = false;
   let ipis = [], months = [], whenIdx = 0, playTimer = null;
   const markers = {};
-  const state = { minerals: new Set(GROUPS.map((g) => g[0])), armedOnly: false, showIpis: true, showRoutes: true, selected: null };
+  // Control status of a site at the selected date; order = strongest claim first.
+  const STATUS = [
+    { k: "held", label: "In an armed-group-held area", note: "A UN, NGO or government source places the area under armed-group control at this date" },
+    { k: "contested", label: "Contested area", note: "Sources report fighting or changing control here at this date" },
+    { k: "armed", label: "Armed group at last visit", note: "IPIS researchers recorded an armed group at the most recent visit before this date" },
+    { k: "army", label: "Congolese army only", note: "FARDC present, no armed group recorded at the last visit" },
+    { k: "none", label: "No armed actor at last visit", note: "The last visit recorded none. Old visits may no longer hold" },
+    { k: "unknown", label: "Armed presence not recorded", note: "The last visit did not collect this" },
+  ];
+  const state = { minerals: new Set(GROUPS.map((g) => g[0])), status: new Set(STATUS.map((s) => s.k)), colorBy: "control", recentOnly: false, showIpis: true, showRoutes: true, selected: null };
+  let areaClaims = [], areaBySite = new Map(), areas = {};
 
   VIEWS.map = {
     build() {
@@ -46,6 +56,18 @@
       try {
         const r = await fetch(base + "ipis_sites.json");
         if (r.ok) { ipis = await r.json(); break; }
+      } catch (e) { /* next */ }
+    }
+    for (const base of ["data/", "../data/"]) {
+      try {
+        const r = await fetch(base + "area_control.json");
+        if (r.ok) {
+          const d = await r.json();
+          areaClaims = d.claims || [];
+          areas = Object.fromEntries((d.areas || []).map((a) => [a.id, a]));
+          for (const a of d.areas || []) for (const id of a.site_ids || []) { if (!areaBySite.has(id)) areaBySite.set(id, []); areaBySite.get(id).push(a.id); }
+          break;
+        }
       } catch (e) { /* next */ }
     }
     document.getElementById("ipis-count").textContent = ipis.length ? `(${ipis.length.toLocaleString("en-GB")})` : "(not loaded yet)";
@@ -99,14 +121,16 @@
 
     // IPIS sites: ring when armed presence at the latest visit on or before the selected date.
     map.addSource("ipis", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
-    const color = ["match", ["get", "g"], "coltan", cssv("--m1"), "tin", cssv("--m3"), "gold", cssv("--m2"), cssv("--m0")];
-    map.addLayer({ id: "ipis-ring", type: "circle", source: "ipis", filter: ["==", ["get", "armed"], 1],
-      paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 5, 4.5, 9, 8, 12, 12], "circle-color": "transparent",
-        "circle-stroke-color": cssv("--accent"), "circle-stroke-width": 1.6 } });
+    // Status is carried by size, fill and ring as well as colour. Draw weakest first so armed sites sit on top.
+    const sizeAt = (held, armed, army, rest) => ["match", ["get", "st"], "held", held, "contested", armed, "armed", armed, "army", army, rest];
     map.addLayer({ id: "ipis-dots", type: "circle", source: "ipis",
-      paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 5, 2.2, 9, 4.5, 12, 7], "circle-color": color,
-        "circle-stroke-color": dark ? "#1a1a19" : "#ffffff", "circle-stroke-width": ["interpolate", ["linear"], ["zoom"], 5, 0.4, 10, 1.2],
-        "circle-opacity": ["match", ["get", "armed"], 1, 1, 0, 0.7, 0.35] } });
+      layout: { "circle-sort-key": ["match", ["get", "st"], "held", 6, "contested", 5, "armed", 4, "army", 3, "none", 2, 1] },
+      paint: {
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 5, sizeAt(4.5, 3.6, 2.6, 2), 9, sizeAt(7.5, 6, 4.5, 3.6), 12, sizeAt(11, 9, 7, 6)],
+        "circle-color": dotColor(),
+        "circle-stroke-color": ["match", ["get", "st"], "held", cssv("--st-held-ring"), "unknown", cssv("--st-unknown"), dark ? "#1a1a19" : "#ffffff"],
+        "circle-stroke-width": ["match", ["get", "st"], "held", 2, "unknown", 1, 0.6],
+        "circle-opacity": ["case", ["==", ["get", "old"], 1], 0.6, 1] } });
     map.addLayer({ id: "ipis-sel", type: "circle", source: "ipis", filter: ["==", ["get", "id"], ""],
       paint: { "circle-radius": 11, "circle-color": "transparent", "circle-stroke-color": dark ? "#fff" : "#111", "circle-stroke-width": 2 } });
 
@@ -114,8 +138,9 @@
     map.on("mousemove", "ipis-dots", (e) => {
       map.getCanvas().style.cursor = "pointer";
       const p = e.features[0].properties;
+      const stLabel = STATUS.find((x) => x.k === p.st)?.label || "";
       pop.setLngLat(e.lngLat).setHTML(`<strong>${G.esc(p.name)}</strong><div>${G.esc(p.minerals)}</div>
-        <div class="muted">${p.armed === 1 ? `Armed presence: ${G.esc(p.groups)}` : p.armed === 0 ? "No armed group at this visit" : "Armed presence not recorded at this visit"} · ${G.esc(G.fmtDate(p.visit))}</div>`).addTo(map);
+        <div><strong>${G.esc(stLabel)}</strong>${p.groups ? `: ${G.esc(p.groups)}` : ""}</div><div class="muted">Last visit ${G.esc(G.fmtDate(p.visit))}</div>`).addTo(map);
     });
     map.on("mouseleave", "ipis-dots", () => { map.getCanvas().style.cursor = ""; pop.remove(); });
     map.on("click", "ipis-dots", (e) => openSite(e.features[0].properties.id));
@@ -248,7 +273,20 @@
       on ? state.minerals.add(b.dataset.g) : state.minerals.delete(b.dataset.g);
       refresh();
     });
-    document.getElementById("f-armed").addEventListener("change", (e) => { state.armedOnly = e.target.checked; refresh(); });
+    document.getElementById("f-recent").addEventListener("change", (e) => { state.recentOnly = e.target.checked; refresh(); });
+    document.getElementById("map-stats").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-st]"); if (!b) return;
+      const k = b.dataset.st;
+      state.status.has(k) ? state.status.delete(k) : state.status.add(k);
+      refresh();
+    });
+    document.getElementById("color-by").addEventListener("click", (e) => {
+      const b = e.target.closest("[data-color]"); if (!b) return;
+      state.colorBy = b.dataset.color;
+      document.querySelectorAll("#color-by [data-color]").forEach((x) => x.setAttribute("aria-pressed", x === b));
+      document.querySelector(".map-shell").dataset.color = state.colorBy;
+      if (ready) { map.setPaintProperty("ipis-dots", "circle-color", dotColor()); refresh(); }
+    });
     document.getElementById("f-ipis").addEventListener("change", (e) => { state.showIpis = e.target.checked; refresh(); });
     document.getElementById("f-routes").addEventListener("change", (e) => { state.showRoutes = e.target.checked; refresh(); });
     document.querySelectorAll("[data-zoom]").forEach((b) => b.addEventListener("click", () =>
@@ -272,6 +310,24 @@
 
 
   // ---------- state -> map ----------
+  function dotColor() {
+    if (state.colorBy === "mineral") return ["match", ["get", "g"], "coltan", cssv("--m1"), "tin", cssv("--m3"), "gold", cssv("--m2"), cssv("--m0")];
+    return ["match", ["get", "st"], "held", cssv("--st-held"), "contested", cssv("--st-contested"), "armed", cssv("--st-armed"), "army", cssv("--st-army"), "none", cssv("--st-none"), "transparent"];
+  }
+
+  // Area claims active at this date for a site, newest first. State forces alone don't count as armed-group control.
+  function areaState(id, ym) {
+    const key = G.dkey(ym), ids = areaBySite.get(id);
+    if (!ids) return null;
+    const active = areaClaims.filter((c) => ids.includes(c.area_id) && c.actor !== "FARDC" &&
+      (G.dkey(c.valid_from || c.observed_date) || "0") <= key && (!c.valid_to || G.dkey(c.valid_to) >= key))
+      .sort((a, b) => (G.dkey(b.valid_from || b.observed_date) || "").localeCompare(G.dkey(a.valid_from || a.observed_date) || ""));
+    if (!active.length) return null;
+    const t0 = active[0];
+    const st = t0.control_type === "contested" ? "contested" : t0.control_type === "present" ? "armed" : "held";
+    return { st, actors: [...new Set(active.filter((c) => c.control_type !== "contested").map((c) => c.actor))], claims: active };
+  }
+
   function lastVisit(site, ym) {
     let v = null;
     for (const x of site.visits || []) if (x.d.slice(0, 7) <= ym && (!v || x.d > v.d)) v = x;
@@ -294,19 +350,22 @@
     if (!ready) return;
 
     // IPIS
-    let armedN = 0, visibleN = 0, knownN = 0;
+    const counts = Object.fromEntries(STATUS.map((s) => [s.k, 0]));
     const feats = [];
+    const oldCut = String(+ym.slice(0, 4) - 4) + ym.slice(4);
     if (state.showIpis) for (const s of ipis) {
       const g = GROUP(s.minerals);
       if (!state.minerals.has(g)) continue;
       const v = lastVisit(s, ym);
-      if (!v) continue;  // not yet surveyed at this date
-      // 1 = armed group recorded, 0 = visit recorded none, -1 = not recorded (e.g. third-party visits)
-      const armed = v.ag == null ? -1 : v.ag.length ? 1 : 0;
-      if (state.armedOnly && !armed) continue;
-      visibleN++; if (armed === 1) armedN++; if (armed !== -1) knownN++;
+      const area = areaState(s.id, ym);
+      if (!v && !area) continue;  // not yet surveyed at this date
+      if (state.recentOnly && !area && v.d.slice(0, 7) < String(+ym.slice(0, 4) - 4) + ym.slice(4)) continue;
+      const st = area ? area.st : !v || v.ag == null ? "unknown" : v.ag.length ? "armed" : v.fardc ? "army" : "none";
+      counts[st]++;
+      if (!state.status.has(st)) continue;
+      const groups = area ? area.actors : v?.ag || [];
       feats.push({ type: "Feature", geometry: { type: "Point", coordinates: [s.lon, s.lat] },
-        properties: { id: s.id, name: s.name, g, armed, groups: (v.ag || []).join(", "), visit: v.d, minerals: (s.minerals || []).join(", ") } });
+        properties: { id: s.id, name: s.name, g, st, groups: groups.join(", "), visit: v?.d || "", old: v && v.d.slice(0, 7) < oldCut ? 1 : 0, minerals: (s.minerals || []).join(", ") } });
     }
     map.getSource("ipis").setData({ type: "FeatureCollection", features: feats });
 
@@ -317,17 +376,20 @@
       const tier = cs.length ? strongest(cs) : "";
       el.dataset.tier = tier;
       if (tier) ctrlN++;
+      const mineralColor = cssv({ coltan: "--m1", tin: "--m3", gold: "--m2" }[GROUP(site.minerals)] || "--m0");
+      el.style.setProperty("--c", state.colorBy === "control" ? (tier ? cssv("--st-held") : cssv("--m0")) : mineralColor);
       const g = GROUP(site.minerals);
-      const hide = (site.site_type === "mine" && !state.minerals.has(g)) || (state.armedOnly && !tier && site.site_type === "mine");
+      const hide = site.site_type === "mine" && !state.minerals.has(g);
       el.style.display = hide ? "none" : "";
       el.title = tier ? `${site.name}: ${cs.map((c) => G.byId.actors[c.actor_id]?.name.replace(/ \(.*/, "")).filter((v, i, a) => a.indexOf(v) === i).join(", ")} (${G.TIER[tier].label.toLowerCase()})` : site.name;
     }
     ["routes-casing", "routes-solid", "routes-dashed", "routes-dotted"].forEach((l) => map.setLayoutProperty(l, "visibility", state.showRoutes ? "visible" : "none"));
 
+    const total = Object.values(counts).reduce((x, y) => x + y, 0);
     document.getElementById("map-stats").innerHTML = `
-      <div><strong>${ctrlN}</strong> key site${ctrlN === 1 ? "" : "s"} under armed-group control or taxation</div>
-      ${ipis.length ? `<div><strong>${armedN.toLocaleString("en-GB")}</strong> of ${knownN.toLocaleString("en-GB")} IPIS sites had an armed group present at their last visit before this date <span class="muted">(${(visibleN - knownN).toLocaleString("en-GB")} more visited, armed presence not recorded)</span></div>` : ""}
-      <div class="muted small">as of ${G.fmtDate(ym)}</div>`;
+      <div class="st-head"><strong>${ctrlN}</strong> researched site${ctrlN === 1 ? "" : "s"} under armed-group control · ${total.toLocaleString("en-GB")} surveyed sites, ${G.fmtDate(ym)}</div>
+      <div class="st-list">${STATUS.map((s) => `<button type="button" class="st-row" data-st="${s.k}" aria-pressed="${state.status.has(s.k)}" title="${G.esc(s.note)}">
+        <i class="st-dot st-${s.k}"></i><span class="st-lab">${s.label}</span><span class="st-n">${counts[s.k].toLocaleString("en-GB")}</span></button>`).join("")}</div>`;
     if (state.selected && !document.getElementById("panel").hidden) renderPanel(state.selected);
   }
 
@@ -361,6 +423,21 @@
     else body.innerHTML = ipisPanel(ipis.find((s) => s.id === id));
   }
 
+  function areaHtml(id) {
+    const { esc, fmtDate, cites, badge } = G;
+    const ids = areaBySite.get(id);
+    if (!ids) return "";
+    const ym = months[whenIdx], now = areaState(id, ym);
+    const rows = areaClaims.filter((c) => ids.includes(c.area_id)).sort((a, b) => (G.dkey(a.valid_from || a.observed_date) || "").localeCompare(G.dkey(b.valid_from || b.observed_date) || ""));
+    const how = ids.map((i) => areas[i]).filter(Boolean).map((a) => a.selection === "names" ? `Named in a source for ${a.name}.` : `Our inference: within ${a.radius_km} km of the place named in the source. ${a.selection_reason || ""}`).join(" ");
+    return `<div class="dr-status${now && now.st !== "armed" ? " on" : ""}">${now ? `<strong>${esc(now.actors.join(", ") || "Control contested")}</strong> ${now.st === "contested" ? "contested area" : now.st === "held" ? "holds this area" : "present in this area"} as of ${esc(fmtDate(ym))}` : `No area claim active at ${esc(fmtDate(ym))}`}</div>
+      <h3>Area control history</h3><ul class="dr-timeline">${rows.map((c) => `<li>
+        <div class="tl-when">${esc(fmtDate(c.valid_from || c.observed_date) || "?")} – ${c.valid_to ? esc(fmtDate(c.valid_to)) : "latest source"}</div>
+        <div><strong>${esc(c.actor)}</strong> ${esc(c.control_type)}</div><div class="claim-meta">${badge(c.evidence_tier)}</div>
+        <div class="small">${esc(c.summary)}</div><div class="cite">${cites(c.source_ids, c.paragraph_or_page)}</div></li>`).join("")}</ul>
+      <p class="small muted">How this site was matched: ${esc(how)}</p>`;
+  }
+
   function ipisPanel(s) {
     const { esc, fmtDate, cites, badge } = G;
     const v = [...(s.visits || [])].sort((a, b) => b.d.localeCompare(a.d));
@@ -373,6 +450,7 @@
         <div><span>Last visit</span><strong>${esc(fmtDate(s.last_visit))}</strong></div>
         <div><span>ITSCI tagged</span><strong>${s.itsci == null ? "–" : s.itsci ? "Yes" : "No"}</strong></div>
       </div>
+      ${areaHtml(s.id)}
       <h3>Armed presence at each visit</h3>
       <table class="visits"><thead><tr><th>Visit</th><th>Armed groups</th><th>Army (FARDC)</th></tr></thead><tbody>
       ${v.map((x) => `<tr><td>${esc(fmtDate(x.d))}</td><td>${x.ag == null ? '<span class="muted">not recorded</span>' : x.ag.length ? `<span class="armed">${esc(x.ag.join(", "))}</span>` : "none"}</td><td>${x.fardc == null ? "–" : x.fardc ? "present" : "–"}</td></tr>`).join("")}

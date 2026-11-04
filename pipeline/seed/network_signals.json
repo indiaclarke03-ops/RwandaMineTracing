@@ -1,0 +1,300 @@
+[
+  {
+    "id": "sig_23",
+    "from_actor": "act_better_off_equipment_solutions",
+    "to_actor": "act_sunrise",
+    "type": "shares_address",
+    "strength": "moderate",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "summary": "GW says both give the same address in corporate documents and that Better Off began exporting as Sunrise stopped, to three of its customers.",
+    "notes": ""
+  },
+  {
+    "id": "sig_30",
+    "from_actor": "act_tawotin_ltd",
+    "to_actor": "act_wolfram",
+    "type": "shares_agent",
+    "strength": "moderate",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Three tungsten rows name the two firms together as one shipper, all to East Rise. It shows a joint shipment label, not common ownership or control.",
+    "notes": "",
+    "method": "Read the combined shipper string in Tanzanian customs rows as two named firms acting on one consignment; strength limited by three rows."
+  },
+  {
+    "id": "sig_31",
+    "from_actor": "act_east_group_minerals_ltd",
+    "to_actor": "act_hillside_mining_company_ltd",
+    "type": "shares_agent",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "One coltan row names both firms as shipper, to Minterra. A single row could be a clerical merge; it does not show shared ownership.",
+    "notes": "",
+    "method": "Read a combined shipper string in one Tanzanian customs row as two named firms on one consignment."
+  },
+  {
+    "id": "sig_33",
+    "from_actor": "act_african_panther",
+    "to_actor": "act_principal_investments_ag_formerly_africa",
+    "type": "shares_agent",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_zefix_chetu",
+      "src_sayari"
+    ],
+    "summary": "Same brand, same sector, and a Swiss firm with a director resident in Kampala, plus a Ugandan namesake. No shareholder, director or identifier ties it to the Rwandan company. Treat as an unconfirmed possible affiliate, not as ownership.",
+    "notes": "",
+    "method": "Compared the Swiss former name and purpose with the Rwandan company name and sector; identity not established."
+  },
+  {
+    "id": "sig_53",
+    "from_actor": "act_african_panther",
+    "to_actor": "act_african_panther_resources_u_ltd",
+    "type": "shares_agent",
+    "strength": "moderate",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_ugeiti_2021"
+    ],
+    "summary": "The same name, Henry Dudgeon, appears as co-owner in Rwanda and director in Uganda, with a shared brand and sector. This suggests a common group. No evidence places Rubaya material in the Ugandan or Swiss firms.",
+    "notes": "",
+    "method": "Matched a named British mining person and brand across GW and UGEITI; no registry identifier joins the Rwandan company."
+  },
+  {
+    "id": "sig_55",
+    "from_actor": "act_tawotin_ltd",
+    "to_actor": "act_star_dragon",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both touch Malaysia Smelting in trade data. A two-hop trade path of this kind carries no meaning for ownership or origin.",
+    "notes": "",
+    "method": "Read the shortest watchlist path; kept only to record that it was checked."
+  },
+  {
+    "id": "sig_56",
+    "from_actor": "act_kanzamin",
+    "to_actor": "act_african_panther",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both ship to Halcyon Inc. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_57",
+    "from_actor": "act_kanzamin",
+    "to_actor": "act_philbert",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both ship to Halcyon Inc. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_58",
+    "from_actor": "act_kanzamin",
+    "to_actor": "act_hillside_mining_company_ltd",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both ship to Halcyon Inc. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_59",
+    "from_actor": "act_hillside_mining_company_ltd",
+    "to_actor": "act_ets_munsad_minerals_ltd",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both ship to Halcyon Inc. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_60",
+    "from_actor": "act_boss_mining",
+    "to_actor": "act_kanzamin",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both ship to Halcyon Inc (one Boss row; Halcyon denies any relationship). Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_61",
+    "from_actor": "act_african_panther",
+    "to_actor": "act_rani",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_sayari"
+    ],
+    "summary": "Both ship to Traxys Europe. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_62",
+    "from_actor": "act_african_panther",
+    "to_actor": "act_hillside_mining_company_ltd",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_sayari"
+    ],
+    "summary": "Both ship to Traxys Europe. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_63",
+    "from_actor": "act_rani",
+    "to_actor": "act_hillside_mining_company_ltd",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_sayari"
+    ],
+    "summary": "Both ship to Traxys Europe. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_64",
+    "from_actor": "act_east_group_minerals_ltd",
+    "to_actor": "act_tebuka_mineral_processing_ltd",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both ship to Minterra FZC. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_65",
+    "from_actor": "act_east_group_minerals_ltd",
+    "to_actor": "act_rani",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both ship to Minterra FZC. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_66",
+    "from_actor": "act_tawotin_ltd",
+    "to_actor": "act_rani",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both ship to East Rise. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_67",
+    "from_actor": "act_kanzamin",
+    "to_actor": "act_rani",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both ship to Specialty Metals Resources. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_68",
+    "from_actor": "act_rani",
+    "to_actor": "act_ets_munsad_minerals_ltd",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "Both ship to Saiko General Trading. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_69",
+    "from_actor": "act_sunrise",
+    "to_actor": "act_better_off_equipment_solutions",
+    "type": "shares_buyer",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "summary": "Both ship to Uniton Industries, Ningxia Nonferrous Metals I&E and Yinchuan Kinfintra. Sharing a buyer shows a common customer only. It is not evidence of ownership, control or shared ore origin.",
+    "notes": "",
+    "method": "Compared buyer names across customs rows for each exporter."
+  },
+  {
+    "id": "sig_70",
+    "from_actor": "act_congo_ressources_mining_sarl",
+    "to_actor": "act_meta_trading_minerals_ltd",
+    "type": "ships_to",
+    "strength": "weak",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "summary": "One 26 t coltan row departing DRC for Rwanda. No mine or armed group is named.",
+    "method": "Read a single Uganda customs row.",
+    "notes": ""
+  }
+]

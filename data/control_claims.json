@@ -84,16 +84,17 @@
     "site_id": "site_lomera",
     "actor_id": "act_m23",
     "control_type": "controls",
-    "valid_from": "2025-04",
+    "valid_from": "2025-02",
     "valid_to": null,
     "observed_date": "2026-03",
     "evidence_tier": "documented",
     "source_ids": [
-      "src_amnesty_afr62_1454_2026"
+      "src_amnesty_afr62_1454_2026",
+      "src_un_goe_s2025_858"
     ],
     "paragraph_or_page": "AFR 62/1454/2026, Lomera section",
     "summary": "Amnesty: M23 forced the mining cooperatives out of Lomera in April–May 2025, then taxed miners and controlled the site, working with a company and Rwandan nationals.",
-    "notes": "Amnesty does not name a single operator; the operator is left unnamed."
+    "notes": "Corrected from Apr 2025: the UN dates M23 control to mid-February 2025 and Amnesty dates the expulsion of cooperatives to Apr–May 2025. The site has reportedly been closed since about September 2025."
   },
   {
     "id": "cc_goma_m23",
@@ -109,6 +110,87 @@
     ],
     "paragraph_or_page": null,
     "summary": "Global Witness: since M23 took Goma, coltan often crosses into Rwanda openly at the Grande Barrière crossing in view of Rwandan border officials.",
+    "notes": ""
+  },
+  {
+    "id": "cc_ac_16",
+    "site_id": "site_numbi",
+    "actor_id": "act_m23",
+    "control_type": "controls",
+    "valid_from": "2025-02",
+    "valid_to": "2026-10-06",
+    "observed_date": "2025-05",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446"
+    ],
+    "paragraph_or_page": "para 109",
+    "summary": "UN experts: from early February 2025 AFC/M23 held exclusive control of the key mineral trading centre at Numbi.",
+    "notes": ""
+  },
+  {
+    "id": "cc_ac_20",
+    "site_id": "site_nyabibwe",
+    "actor_id": "act_m23",
+    "control_type": "controls",
+    "valid_from": "2025-02",
+    "valid_to": null,
+    "observed_date": "2025-05",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446"
+    ],
+    "paragraph_or_page": "para 109",
+    "summary": "UN experts: from early February 2025 AFC/M23 held exclusive control of the key mineral trading centre at Nyabibwe.",
+    "notes": ""
+  },
+  {
+    "id": "cc_ac_25",
+    "site_id": "site_numbi",
+    "actor_id": "act_m23",
+    "control_type": "contested",
+    "valid_from": "2026-10-07",
+    "valid_to": null,
+    "observed_date": "2026-10-07",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_ct_cwsr_2026_10_07"
+    ],
+    "paragraph_or_page": "South Kivu section",
+    "summary": "Critical Threats reports M23 recaptured Numbi on 7 October as clashes went on. This is the fourth offensive in northern Kalehe since late June, so treat the hold as unstable.",
+    "notes": ""
+  },
+  {
+    "id": "cc_ac_33",
+    "site_id": "site_nzibira",
+    "actor_id": "act_m23",
+    "control_type": "controls",
+    "valid_from": "2025-09-21",
+    "valid_to": null,
+    "observed_date": "2025-12",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858"
+    ],
+    "paragraph_or_page": "paras 52, 56; annex 26",
+    "summary": "UN experts: AFC/M23 took Nzibira on 21 September 2025. About 40 t a month of cassiterite and wolframite used to trade through it.",
+    "notes": ""
+  },
+  {
+    "id": "cc_ac_53",
+    "site_id": "site_nzibira",
+    "actor_id": "act_m23",
+    "control_type": "contested",
+    "valid_from": "2026-08-20",
+    "valid_to": null,
+    "observed_date": "2026-08-31",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_actualite_nzibira_2026_08",
+      "src_icg_crisiswatch_2026_08"
+    ],
+    "paragraph_or_page": "body text; DR Congo entry",
+    "summary": "Actualite.cd reports repeated AFC/M23-Wazalendo fighting at Nzibira from 20 August 2026. Crisis Group says the government-side push toward Nzibira and Luntukulu did not produce a sustained advance, so M23 stays the likely holder.",
     "notes": ""
   }
 ]

@@ -40,57 +40,113 @@
 
   function renderText() {
     const { esc, badge, cites } = H;
-    const rows = GAP.rows;
-    const r24 = rows.find((r) => r.year === 2024);
-    const b = GAP.baseline_share_pct_2018_2022;
-    const un = GAP.rubaya_2024;
-    const el = document.getElementById("laundering");
-    el.innerHTML = `
-      <div class="gap-headline">
-        <div class="hero-num"><span class="num">${fmt(r24.excess_vs_geology_t)} t</span>
-          <span class="lbl">more coltan exported by Rwanda in 2024 than its tin output predicts</span></div>
-        <div class="hero-num"><span class="num">${fmt(un.low)}–${fmt(un.high)} t</span>
-          <span class="lbl">UN estimate of Rubaya coltan under M23 control or smuggled to Rwanda, May–Dec 2024</span></div>
-        <div class="hero-badge">${badge("inferred")}<span class="small muted">Our calculation. It shows the exports need explaining; it does not prove where the extra coltan came from.</span></div>
-      </div>
+    const rows = GAP.rows, un = GAP.rubaya_2024;
+    const row = (y) => rows.find((r) => r.year === y);
+    const br = (m, y, v) => GAP.bridge.find((b) => b.mineral === m && b.year === y && (!v || b.variant === v));
+    const b24 = br("coltan", 2024), b25 = br("coltan", 2025), tinAll = br("tin", 2025, "as_published"), tinNet = br("tin", 2025, "excl_cambodia_low_value");
+    const base = GAP.baseline_share_pct_2018_2022;
+    const zs = GAP.zero_sum.filter((z) => z.mineral === "coltan");
+    document.getElementById("laundering").innerHTML = `
+      <section class="answer">
+        <h3>Does Congo's missing output explain Rwanda's excess?</h3>
+        <p><strong>For coltan, broadly yes, province by province.</strong> From 2023 Rwanda exported far more coltan than its tin-ore exports predict, and over the same years official output in Congo's Kivu provinces fell by a similar amount. In size, this fits ore from armed-group-held areas, chiefly M23's Rubaya. For tin ore the 2025 surge is smaller than it looks. Gold can't be measured this way.</p>
+        <div class="tiles">
+          <div class="tile"><span class="num">${fmt(b24.rwanda_excess_t)} t</span><span class="lbl">Rwanda's coltan excess, 2024</span></div>
+          <div class="tile"><span class="num">${fmt(b24.kivu_loss_t)} t</span><span class="lbl">Fall in official Kivu coltan output, 2024</span></div>
+          <div class="tile"><span class="num">${b24.central}%</span><span class="lbl">Central estimate of the excess that could be from armed-group-held areas (range ${b24.low}–${b24.high}%)</span></div>
+        </div>
+        <p class="small muted">${badge("inferred")} Our analysis. No source states these shares. Rwanda denies laundering and has not answered the UN's April 2026 request to explain the rise.</p>
+      </section>
 
-      <h3 class="chart-title">Rwanda's coltan exports vs what its geology predicts</h3>
-      <p class="chart-sub">Tonnes of concentrate a year. In this region's mixed deposits coltan is about a quarter of combined coltan and tin-ore output, so Rwanda's tin-ore exports predict roughly how much coltan it should export. From 2018 to 2022 the two tracked closely (coltan was ${b[0]}–${b[1]}% of the total). From 2023, with Rubaya in armed-group hands, they separate.</p>
+      <h3 class="step"><span>1</span>Rwanda exports more coltan than its geology predicts</h3>
+      <p class="chart-sub">Rwanda publishes no mine-level output, and USGS's "production" figures for it are mostly reported exports, so we use geology. In this region's mixed deposits coltan is about a quarter of combined coltan and tin-ore output, so tin-ore exports predict coltan exports. From 2018 to 2022 they tracked closely (coltan was ${base[0]}–${base[1]}% of the total). They separate from 2023, while Rubaya is in armed-group hands. For 2025 the baseline is frozen at its 2022–24 level, because the tin-ore surge itself looks non-domestic.</p>
       <div class="legend-row" aria-hidden="true">
         <span><i class="sw s1"></i>Coltan exports reported by Rwanda</span>
         <span><i class="sw s2"></i>Coltan expected from tin-ore exports</span>
         <span><i class="sw hatch"></i>Excess</span>
       </div>
-      <div id="gap-line" class="chart" role="img" aria-label="Line chart: reported coltan exports and expected coltan, 2018 to 2025. The lines track until 2022, then reported exports exceed expected by 763 tonnes in 2023 and ${fmt(r24.excess_vs_geology_t)} tonnes in 2024."></div>
+      <div id="gap-line" class="chart" role="img" aria-label="Line chart of reported and expected coltan exports, 2018 to 2025. The lines track until 2022, then reported exports pull ahead."></div>
 
-      <h3 class="chart-title">The excess, year by year, against the UN's Rubaya estimate</h3>
-      <p class="chart-sub">Excess = reported coltan exports minus expected. The shaded band on 2024 is the UN Group of Experts' estimate of Rubaya coltan under M23 control (120 t a month) or smuggled to Rwanda (150 t a month), over the eight months M23 held Rubaya that year.</p>
-      <div id="gap-bars" class="chart" role="img" aria-label="Bar chart of excess coltan exports by year; 2024 excess sits inside the UN Rubaya estimate band."></div>
+      <h3 class="step"><span>2</span>Official output in the Kivus fell by a similar amount</h3>
+      <p class="chart-sub">Nationally there is no "missing" coltan: Congo's recorded exports exceed its recorded output in 2022–24. The signal appears by province. This compares Rwanda's excess with the fall in official North and South Kivu output against the 2020–22 mean. The fall means ore left the state's books, not that it reached Rwanda; the ministry says some Kivu ore was rerouted through Kindu and Kalemie. Shaded: the UN's estimate of Rubaya coltan for May–Dec 2024.</p>
+      <div class="legend-row" aria-hidden="true">
+        <span><i class="sw s1 block"></i>Rwanda's excess</span>
+        <span><i class="sw s2 block"></i>Fall in official Kivu output</span>
+        <span><i class="sw band"></i>UN Rubaya estimate, 2024</span>
+      </div>
+      <div id="gap-bars" class="chart" role="img" aria-label="Paired bars of Rwanda's coltan excess and the fall in official Kivu output, 2023 to 2025. The two are similar in size each year."></div>
+      <details class="table-view"><summary>Rwanda and Congo official coltan exports together</summary>
+        <table><thead><tr><th>Year</th><th>Rwanda</th><th>Congo official</th><th>Combined</th><th>Rwanda's share</th><th>China's imports from both</th></tr></thead>
+        <tbody>${zs.map((z) => `<tr><td>${z.year}</td><td>${fmt(z.rwanda_exports_t)}</td><td>${fmt(z.drc_official_exports_t)}</td><td>${fmt(z.combined_t)}</td><td>${Math.round(z.rwanda_share_pct)}%</td><td>${fmt(z.china_combined_t)}</td></tr>`).join("")}</tbody></table>
+        <p class="small muted">On official figures the combined total is about flat from 2023 while Rwanda's share climbs, which fits ore being rerouted. China's import figures rise much more, so some of Congo's fall may be a recording problem and total supply may have grown.</p>
+      </details>
 
-      <h3 class="chart-title">Who ships Rwanda's coltan, quarter by quarter</h3>
-      <p class="chart-sub">Tonnes of coltan leaving Rwanda in Sayari's customs records (mostly Tanzanian transit records, so partial). Blue is the seven exporters Global Witness found buying Rubaya conflict coltan; orange is everyone else. When ITSCI suspended several of the seven in 2025, total volume held steady while other exporters' share grew.</p>
+      <h3 class="step"><span>3</span>How much could come from armed-group-held areas?</h3>
+      <p class="chart-sub">We take published volumes from armed-group-held areas, assume 50, 75 or 100% reached Rwanda, and divide by the excess. Those pass-through rates are our judgement. Before 30 April 2024 Rubaya was under PARECO-FF and Wazalendo groups, so "armed-group-held" isn't the same as M23, and about 500 t of the 2025 flow was stock looted from exporters rather than new ore.</p>
+      <div id="gap-range" class="range-chart"></div>
+      <details class="table-view"><summary>The arithmetic, and what would disprove it</summary>
+        <table class="left"><thead><tr><th>Mineral, year</th><th>Excess</th><th>How the shares are worked out</th></tr></thead>
+        <tbody>${GAP.bridge.map((b) => `<tr><td>${esc(rangeLabel(b))}</td><td>${fmt(b.rwanda_excess_t)} t</td><td>${esc(b.method)}</td></tr>`).join("")}</tbody></table>
+        <p class="small"><strong>What would disprove this:</strong> ${esc(b25.falsifiers)}</p>
+      </details>
+
+      <h3 class="step"><span>4</span>Where the extra ore shipped</h3>
+      <p class="chart-sub">Change in tonnes by destination, using importers' figures for coltan and Rwanda's own for tin ore. The partner that grew most is the likeliest destination of the excess, though customs data never shows which tonnes were which.</p>
+      <div class="partner-grid"><div id="pg-coltan"></div><div id="pg-tin"></div></div>
+      <aside class="callout-box">
+        <h4>Why the tin-ore rise is smaller than it looks</h4>
+        <p>The UN reports Rwanda's tin-ore exports rose 58% in 2025 (about ${fmt(tinAll.rwanda_excess_t)} t), and says this matches M23-area smuggling. But Rwanda's own trade data shows 1,620 t of the increase going to Cambodia at about $1.6/kg, against about $20/kg elsewhere. Customs rows point to low-grade material from one Rwandan smelter. Without it, the rise is about ${fmt(tinNet.rwanda_excess_t)} t. This is unconfirmed and sits awkwardly with the UN's reading, so we show both.</p>
+      </aside>
+
+      <h3 class="step"><span>5</span>Who ships it</h3>
+      <p class="chart-sub">Coltan leaving Rwanda in Sayari's customs records, mostly Tanzanian transit data. Blue is the seven exporters Global Witness found buying Rubaya coltan. When ITSCI suspended several in 2025, total volume held steady while other exporters' share grew.</p>
       <div class="legend-row" aria-hidden="true">
         <span><i class="sw s1 block"></i>Seven exporters named by Global Witness</span>
         <span><i class="sw s2 block"></i>Other exporters</span>
         <span><i class="sw band"></i>ITSCI suspensions (Mar–Nov 2025)</span>
       </div>
-      <div id="gap-quarters" class="chart" role="img" aria-label="Stacked bar chart of coltan export weight by quarter, 2023 to mid-2026, split between seven Global Witness-named exporters and other exporters. The named exporters' share falls during the 2025 ITSCI suspensions while total volume holds steady."></div>
-      <p class="small muted">Sayari customs records, mostly Tanzanian transit data; ${badge("documented")} for the shipments, ${badge("inferred")} for reading the shift as one set of exporters replacing another. Jan–Aug 2024 is missing from the data. Four of the seven company matches are low confidence.</p>
+      <div id="gap-quarters" class="chart" role="img" aria-label="Stacked bars of coltan export weight by quarter, 2023 to mid-2026. The named exporters' share falls during the 2025 ITSCI suspensions while the total holds steady."></div>
+      <p class="small muted">${badge("documented")} for the shipments, ${badge("inferred")} for reading the shift as one set of exporters replacing another. January–August 2024 is missing from the data.</p>
 
-      <details class="table-view"><summary>Show the numbers as a table</summary>
-        <table><thead><tr><th>Year</th><th>Coltan exports (t)</th><th>Tin-ore exports (t)</th><th>Coltan share</th><th>Expected coltan (t)</th><th>Excess (t)</th><th>USGS estimate (t)</th><th>Partner-reported imports (t)</th></tr></thead>
-        <tbody>${rows.map((r) => `<tr><td>${r.year}</td><td>${fmt(r.coltan_exports_t)}</td><td>${fmt(r.cassiterite_exports_t)}</td><td>${r.coltan_share_pct}%</td><td>${fmt(r.expected_coltan_t)}</td><td><strong>${fmt(r.excess_vs_geology_t)}</strong></td><td>${fmt(r.usgs_production_estimate_t)}</td><td>${fmt(r.coltan_exports_mirror_t)}</td></tr>`).join("")}</tbody></table>
-        <p class="small muted">Sources: ${cites([...new Set(rows.flatMap((r) => r.source_ids))])}</p>
+      <div id="gap-evidence"></div>
+
+      <details class="table-view"><summary>All the coltan numbers</summary>
+        <table><thead><tr><th>Year</th><th>Coltan exports</th><th>Tin-ore exports</th><th>Coltan share</th><th>Expected coltan</th><th>Excess</th><th>USGS estimate</th><th>Importers' figure</th></tr></thead>
+        <tbody>${rows.map((r) => `<tr><td>${r.year}</td><td>${fmt(r.coltan_exports_t)}</td><td>${fmt(r.cassiterite_exports_t)}</td><td>${r.coltan_share_pct}%</td><td>${fmt(r.expected_best_t)}</td><td><strong>${fmt(r.excess_best_t)}</strong></td><td>${fmt(r.usgs_production_estimate_t)}</td><td>${fmt(r.coltan_exports_mirror_t)}</td></tr>`).join("")}</tbody></table>
+        <p class="small muted">2025 uses the frozen baseline; with a same-year baseline the excess is ${fmt(row(2025).excess_vs_geology_t)} t. Sources: ${cites([...new Set(rows.flatMap((r) => r.source_ids))])}</p>
       </details>
-
       <div class="method">
-        <h3>How this is calculated</h3>
-        <p>${esc(GAP.method)} USGS's own estimate gives a similar answer: it held Rwanda's coltan output at 1,300 t in 2023 and 2024 while exports rose, an excess of ${fmt(rows.find((r) => r.year === 2023).excess_vs_usgs_t)} t and ${fmt(r24.excess_vs_usgs_t)} t.</p>
+        <h3>Method and limits</h3>
+        <p>${esc(GAP.method)}</p>
         <ul>${GAP.caveats.map((c) => `<li>${esc(c)}</li>`).join("")}<li>${esc(un.note)}</li></ul>
-      </div>
-
-      <div id="gap-evidence"></div>`;
+      </div>`;
     renderEvidence();
+    renderRange();
+    renderPartners();
+  }
+
+  const rangeLabel = (b) => `${b.mineral === "tin" ? "Tin ore" : b.mineral === "coltan" ? "Coltan" : "Tungsten"} ${b.year}${b.variant === "excl_cambodia_low_value" ? " (without Cambodia)" : b.variant === "as_published" ? " (as published)" : ""}`;
+
+  function renderRange() {
+    document.getElementById("gap-range").innerHTML = GAP.bridge.map((b) => `
+      <div class="rg-row" title="${H.esc(b.method)}"><span class="rg-lab">${H.esc(rangeLabel(b))}</span>
+        <span class="rg-track"><i class="rg-bar" style="left:${b.low}%;width:${b.high - b.low}%"></i><i class="rg-dot" style="left:${b.central}%"></i></span>
+        <span class="rg-val">${b.central}% <span class="muted">(${b.low}–${b.high})</span></span></div>`).join("") +
+      `<div class="rg-row rg-axis"><span></span><span class="rg-track noline"><em style="left:0">0%</em><em style="left:50%">50%</em><em style="left:100%">100%</em></span><span></span></div>`;
+  }
+
+  const PARTNER = { CHN: "China", MYS: "Malaysia", THA: "Thailand", USA: "United States", JPN: "Japan", LUX: "Luxembourg", ARE: "UAE", SGP: "Singapore", KHM: "Cambodia", BEL: "Belgium", HKG: "Hong Kong" };
+  function renderPartners() {
+    const panel = (id, title, sel) => {
+      const rows = GAP.partners.filter(sel).sort((a, b) => b.change_t - a.change_t);
+      const max = Math.max(...rows.map((r) => Math.abs(r.change_t)));
+      document.getElementById(id).innerHTML = `<h4>${title}</h4>` + rows.map((r) => {
+        const w = (Math.abs(r.change_t) / max) * 50;
+        return `<div class="pg-row"><span class="pg-name">${PARTNER[r.partner] || r.partner}</span><span class="pg-track"><i class="pg-bar ${r.change_t < 0 ? "neg" : "pos"}${r.partner === "KHM" ? " flag" : ""}" style="width:${w}%;${r.change_t < 0 ? `left:${50 - w}%` : "left:50%"}"></i></span><span class="pg-val">${r.change_t > 0 ? "+" : "−"}${fmt(Math.abs(r.change_t))}</span></div>`;
+      }).join("");
+    };
+    panel("pg-coltan", "Coltan, 2022 to 2024 (importers' figures)", (r) => r.mineral === "coltan" && r.side === "mirror");
+    panel("pg-tin", "Tin ore, 2022 to 2025 (Rwanda's figures)", (r) => r.mineral === "tin" && r.side === "rwanda");
   }
 
   // ---------- shared chart frame ----------
@@ -155,8 +211,8 @@
     });
 
     // excess area (only where reported > expected)
-    const top = rows.map((r) => `${x(r.year)},${y(Math.max(r.coltan_exports_t, r.expected_coltan_t))}`);
-    const bot = rows.slice().reverse().map((r) => `${x(r.year)},${y(r.expected_coltan_t)}`);
+    const top = rows.map((r) => `${x(r.year)},${y(Math.max(r.coltan_exports_t, r.expected_best_t))}`);
+    const bot = rows.slice().reverse().map((r) => `${x(r.year)},${y(r.expected_best_t)}`);
     f.svg.appendChild(svgEl("polygon", { points: top.concat(bot).join(" "), fill: "url(#hatch)", class: "excess" }));
 
     const line = (key, cls) => {
@@ -164,13 +220,13 @@
       f.svg.appendChild(svgEl("path", { d, class: "line " + cls }));
       rows.forEach((r) => f.svg.appendChild(svgEl("circle", { cx: x(r.year), cy: y(r[key]), r: 4, class: "dot " + cls })));
     };
-    line("expected_coltan_t", "s2");
+    line("expected_best_t", "s2");
     line("coltan_exports_t", "s1");
 
     // direct labels at the right end
     const last = rows[rows.length - 1];
     if (f.m.r > 60) {
-      [["coltan_exports_t", "Reported exports"], ["expected_coltan_t", "Expected from tin ore"]].forEach(([k, lab]) => {
+      [["coltan_exports_t", "Reported exports"], ["expected_best_t", "Expected from tin ore"]].forEach(([k, lab]) => {
         const t = svgEl("text", { x: x(last.year) + 10, y: y(last[k]) + 4, class: "direct" });
         t.textContent = lab; f.svg.appendChild(t);
       });
@@ -192,48 +248,34 @@
       const r = rows.reduce((a, b) => (Math.abs(x(b.year) - sx) < Math.abs(x(a.year) - sx) ? b : a));
       cross.setAttribute("x1", x(r.year)); cross.setAttribute("x2", x(r.year)); cross.setAttribute("visibility", "visible");
       showTip(f, `<strong>${r.year}</strong><div><i class="sw s1"></i>Reported ${fmt(r.coltan_exports_t)} t</div>
-        <div><i class="sw s2"></i>Expected ${fmt(r.expected_coltan_t)} t</div><div>Excess <strong>${fmt(r.excess_vs_geology_t)} t</strong> · coltan ${r.coltan_share_pct}% of total</div>`,
+        <div><i class="sw s2"></i>Expected ${fmt(r.expected_best_t)} t</div><div>Excess <strong>${fmt(r.excess_best_t)} t</strong> · coltan ${r.coltan_share_pct}% of total</div>`,
         x(r.year), y(r.coltan_exports_t));
     };
     hit.addEventListener("pointermove", move);
     hit.addEventListener("pointerleave", () => { f.tip.hidden = true; cross.setAttribute("visibility", "hidden"); });
   }
 
-  // ---------- chart 2: excess bars + UN band ----------
+  // ---------- chart 2: Rwanda's excess vs the fall in official Kivu output ----------
   function barChart(host) {
-    const rows = GAP.rows, un = GAP.rubaya_2024;
-    const f = frame(host, 260);
-    const max = 1400, n = rows.length;
-    const band = f.iw / n, bw = Math.min(46, band * 0.6);
+    const un = GAP.rubaya_2024;
+    const data = [2023, 2024, 2025].map((y) => { const b = GAP.bridge.find((x) => x.mineral === "coltan" && x.year === y); return { y, ex: b.rwanda_excess_t, loss: b.kivu_loss_t }; });
+    const f = frame(host, 280);
+    const max = 1600, band = f.iw / data.length, bw = Math.min(70, band * 0.28);
     const x = (i) => f.m.l + band * i + band / 2;
-    const y = (v) => f.m.t + f.ih - (Math.max(v, 0) / max) * f.ih;
-    yAxis(f, max, 200);
-
-    const i24 = rows.findIndex((r) => r.year === 2024);
-    if (i24 >= 0) {
-      f.svg.appendChild(svgEl("rect", { x: x(i24) - band / 2 + 4, width: band - 8, y: y(un.high), height: y(un.low) - y(un.high), class: "un-band" }));
-      if (f.m.r > 60) {
-        const t = svgEl("text", { x: f.m.l + f.iw + 10, y: y((un.low + un.high) / 2) + 4, class: "direct" });
-        t.textContent = "UN Rubaya estimate"; f.svg.appendChild(t);
+    const y = (v) => f.m.t + f.ih - (v / max) * f.ih;
+    yAxis(f, max, 400);
+    const base = f.m.t + f.ih;
+    const rect = (bx, v, cls) => { const top = y(v), r = 4; return svgEl("path", { d: `M${bx},${base} V${top + r} q0,-${r} ${r},-${r} H${bx + bw - r} q${r},0 ${r},${r} V${base} Z`, class: cls }); };
+    data.forEach((d, i) => {
+      if (d.y === 2024) {
+        f.svg.appendChild(svgEl("rect", { x: x(i) - band / 2 + 6, width: band - 12, y: y(un.high), height: y(un.low) - y(un.high), class: "un-band" }));
+        if (f.m.r > 60) { const t = svgEl("text", { x: f.m.l + f.iw + 10, y: y((un.low + un.high) / 2) + 4, class: "direct" }); t.textContent = "UN Rubaya estimate"; f.svg.appendChild(t); }
       }
-    }
-    rows.forEach((r, i) => {
-      const h = f.m.t + f.ih - y(r.excess_vs_geology_t);
-      const top = y(r.excess_vs_geology_t), r0 = Math.min(4, h);
-      const d = `M${x(i) - bw / 2},${f.m.t + f.ih} V${top + r0} q0,-${r0} ${r0},-${r0} H${x(i) + bw / 2 - r0} q${r0},0 ${r0},${r0} V${f.m.t + f.ih} Z`;
-      const bar = svgEl("path", { d, class: "bar" + (r.year >= 2023 ? " hi" : "") });
-      f.svg.appendChild(bar);
-      const labY = r.year === 2024 ? Math.min(top, y(un.high)) - 6 : top - 6;  // clear the UN band
-      const lab = svgEl("text", { x: x(i), y: labY, class: "bar-val", "text-anchor": "middle" });
-      lab.textContent = fmt(r.excess_vs_geology_t); f.svg.appendChild(lab);
-      const yt = svgEl("text", { x: x(i), y: f.H - 8, class: "tick", "text-anchor": "middle" });
-      yt.textContent = r.year; f.svg.appendChild(yt);
-      const hit = svgEl("rect", { x: x(i) - band / 2, y: f.m.t, width: band, height: f.ih, fill: "transparent" });
-      hit.addEventListener("pointermove", () => showTip(f, `<strong>${r.year}</strong><div>Excess ${fmt(r.excess_vs_geology_t)} t</div>
-        ${r.year === 2024 ? `<div>UN Rubaya estimate ${fmt(un.low)}–${fmt(un.high)} t</div>` : ""}
-        ${r.excess_vs_usgs_t != null ? `<div>vs USGS estimate: ${fmt(r.excess_vs_usgs_t)} t</div>` : ""}`, x(i), top));
-      hit.addEventListener("pointerleave", () => (f.tip.hidden = true));
-      f.svg.appendChild(hit);
+      const gap = 2;
+      f.svg.appendChild(rect(x(i) - bw - gap / 2, d.ex, "seg s1"));
+      f.svg.appendChild(rect(x(i) + gap / 2, d.loss, "seg s2"));
+      [[x(i) - bw / 2 - gap / 2, d.ex], [x(i) + bw / 2 + gap / 2, d.loss]].forEach(([tx, v]) => { const l = svgEl("text", { x: tx, y: y(v) - 6, class: "bar-val", "text-anchor": "middle" }); l.textContent = fmt(v); f.svg.appendChild(l); });
+      const yt = svgEl("text", { x: x(i), y: f.H - 8, class: "tick", "text-anchor": "middle" }); yt.textContent = d.y; f.svg.appendChild(yt);
     });
   }
 

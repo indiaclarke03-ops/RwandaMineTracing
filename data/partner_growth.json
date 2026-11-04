@@ -1,0 +1,344 @@
+[
+  {
+    "id": "pg_coltan_mirror_CHN",
+    "mineral": "coltan",
+    "side": "mirror",
+    "from_year": 2022,
+    "to_year": 2024,
+    "partner": "CHN",
+    "t_from": 811.1,
+    "t_to": 2286.5,
+    "change_t": 1475.4,
+    "share_from_pct": 52.5,
+    "share_to_pct": 78.6,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_coltan_mirror_MYS",
+    "mineral": "coltan",
+    "side": "mirror",
+    "from_year": 2022,
+    "to_year": 2024,
+    "partner": "MYS",
+    "t_from": 0,
+    "t_to": 601.8,
+    "change_t": 601.8,
+    "share_from_pct": 0.0,
+    "share_to_pct": 20.7,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_coltan_mirror_JPN",
+    "mineral": "coltan",
+    "side": "mirror",
+    "from_year": 2022,
+    "to_year": 2024,
+    "partner": "JPN",
+    "t_from": 72.0,
+    "t_to": 10.0,
+    "change_t": -62.0,
+    "share_from_pct": 4.7,
+    "share_to_pct": 0.3,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_coltan_mirror_USA",
+    "mineral": "coltan",
+    "side": "mirror",
+    "from_year": 2022,
+    "to_year": 2024,
+    "partner": "USA",
+    "t_from": 92.5,
+    "t_to": 0,
+    "change_t": -92.5,
+    "share_from_pct": 6.0,
+    "share_to_pct": 0.0,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_coltan_mirror_THA",
+    "mineral": "coltan",
+    "side": "mirror",
+    "from_year": 2022,
+    "to_year": 2024,
+    "partner": "THA",
+    "t_from": 549.7,
+    "t_to": 10.0,
+    "change_t": -539.6,
+    "share_from_pct": 35.6,
+    "share_to_pct": 0.3,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_coltan_rwanda_CHN",
+    "mineral": "coltan",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "CHN",
+    "t_from": 305.5,
+    "t_to": 1884.8,
+    "change_t": 1579.2,
+    "share_from_pct": 23.4,
+    "share_to_pct": 68.7,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_coltan_rwanda_LUX",
+    "mineral": "coltan",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "LUX",
+    "t_from": 31.5,
+    "t_to": 138.5,
+    "change_t": 107.0,
+    "share_from_pct": 2.4,
+    "share_to_pct": 5.1,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_coltan_rwanda_ARE",
+    "mineral": "coltan",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "ARE",
+    "t_from": 501.3,
+    "t_to": 396.8,
+    "change_t": -104.5,
+    "share_from_pct": 38.4,
+    "share_to_pct": 14.5,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_coltan_rwanda_SGP",
+    "mineral": "coltan",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "SGP",
+    "t_from": 119.5,
+    "t_to": 2.6,
+    "change_t": -117.0,
+    "share_from_pct": 9.2,
+    "share_to_pct": 0.1,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_tin_rwanda_CHN",
+    "mineral": "tin",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "CHN",
+    "t_from": 72.1,
+    "t_to": 1706.0,
+    "change_t": 1633.9,
+    "share_from_pct": 1.9,
+    "share_to_pct": 26.9,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_tin_rwanda_KHM",
+    "mineral": "tin",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "KHM",
+    "t_from": 0,
+    "t_to": 1620.2,
+    "change_t": 1620.2,
+    "share_from_pct": 0.0,
+    "share_to_pct": 25.5,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_tin_rwanda_THA",
+    "mineral": "tin",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "THA",
+    "t_from": 0,
+    "t_to": 748.2,
+    "change_t": 748.2,
+    "share_from_pct": 0.0,
+    "share_to_pct": 11.8,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_tin_rwanda_LUX",
+    "mineral": "tin",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "LUX",
+    "t_from": 368.2,
+    "t_to": 845.8,
+    "change_t": 477.6,
+    "share_from_pct": 9.8,
+    "share_to_pct": 13.3,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_tin_rwanda_BEL",
+    "mineral": "tin",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "BEL",
+    "t_from": 125.7,
+    "t_to": 196.8,
+    "change_t": 71.1,
+    "share_from_pct": 3.4,
+    "share_to_pct": 3.1,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_tin_rwanda_JPN",
+    "mineral": "tin",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "JPN",
+    "t_from": 0,
+    "t_to": 50.0,
+    "change_t": 50.0,
+    "share_from_pct": 0.0,
+    "share_to_pct": 0.8,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_tin_rwanda_MYS",
+    "mineral": "tin",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "MYS",
+    "t_from": 390.8,
+    "t_to": 244.1,
+    "change_t": -146.7,
+    "share_from_pct": 10.4,
+    "share_to_pct": 3.8,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_tin_rwanda_HKG",
+    "mineral": "tin",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "HKG",
+    "t_from": 486.3,
+    "t_to": 174.1,
+    "change_t": -312.2,
+    "share_from_pct": 13.0,
+    "share_to_pct": 2.7,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_tin_rwanda_ARE",
+    "mineral": "tin",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "ARE",
+    "t_from": 1282.2,
+    "t_to": 502.5,
+    "change_t": -779.7,
+    "share_from_pct": 34.2,
+    "share_to_pct": 7.9,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pg_tin_rwanda_SGP",
+    "mineral": "tin",
+    "side": "rwanda",
+    "from_year": 2022,
+    "to_year": 2025,
+    "partner": "SGP",
+    "t_from": 1027.0,
+    "t_to": 211.1,
+    "change_t": -815.8,
+    "share_from_pct": 27.4,
+    "share_to_pct": 3.3,
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_comtrade_preview"
+    ],
+    "notes": ""
+  }
+]

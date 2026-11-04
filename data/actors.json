@@ -10,7 +10,8 @@
     "source_ids": [
       "src_un_goe_s2024_969",
       "src_treasury_sb0411",
-      "src_sayari"
+      "src_sayari",
+      "src_un_goe_s2026_466"
     ],
     "sayari_entity_id": "diV1zDu2TnrgnGxCb3WD8Q",
     "sayari_url": "https://graph.sayari.com/resource/entity/diV1zDu2TnrgnGxCb3WD8Q",
@@ -299,7 +300,8 @@
     "evidence_tier": "designated",
     "source_ids": [
       "src_treasury_sb0543",
-      "src_sayari"
+      "src_sayari",
+      "src_rma_magazine_2024"
     ],
     "sayari_entity_id": "3IPk7makLLnIcTI_C5uNSw",
     "sayari_url": "https://graph.sayari.com/resource/entity/3IPk7makLLnIcTI_C5uNSw",
@@ -404,7 +406,8 @@
     "evidence_tier": "designated",
     "source_ids": [
       "src_treasury_sb0543",
-      "src_sayari"
+      "src_sayari",
+      "src_rma_magazine_2024"
     ],
     "sayari_entity_id": "ByUCmIzSSyFaep1RBIu4jQ",
     "sayari_url": "https://graph.sayari.com/resource/entity/ByUCmIzSSyFaep1RBIu4jQ",
@@ -514,7 +517,8 @@
     ],
     "evidence_tier": "designated",
     "source_ids": [
-      "src_treasury_sb0221"
+      "src_treasury_sb0221",
+      "src_un_goe_s2024_969"
     ],
     "sayari_entity_id": null,
     "sayari_url": null,
@@ -538,14 +542,17 @@
     ],
     "evidence_tier": "designated",
     "source_ids": [
-      "src_treasury_sb0221"
+      "src_treasury_sb0221",
+      "src_gw_who_buys_coltan_pdf",
+      "src_sayari"
     ],
-    "sayari_entity_id": null,
-    "sayari_url": null,
-    "sayari_match_reason": null,
+    "sayari_entity_id": "RXGsi4gAb93ZNWFwc4MkPA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/RXGsi4gAb93ZNWFwc4MkPA",
+    "sayari_match_reason": "OFAC SDN 55048, HK CR 1585306.",
     "sayari_risk_flags": [],
-    "notes": "",
-    "role": "trader"
+    "notes": "Sayari's unflagged trade record vdCIJ54CEY7kXe8uUJMsvg shares this address, so customs rows to East Rise show no sanction flag.",
+    "role": "trader",
+    "sayari_confidence": "high"
   },
   {
     "id": "act_star_dragon",
@@ -562,7 +569,8 @@
     ],
     "evidence_tier": "designated",
     "source_ids": [
-      "src_treasury_sb0221"
+      "src_treasury_sb0221",
+      "src_sayari"
     ],
     "sayari_entity_id": null,
     "sayari_url": null,
@@ -626,7 +634,9 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
     ],
     "sayari_entity_id": "X9BAf2KZzwU7tDfYuH4qoA",
     "sayari_url": "https://graph.sayari.com/resource/entity/X9BAf2KZzwU7tDfYuH4qoA",
@@ -651,7 +661,8 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf"
     ],
     "sayari_entity_id": "XdjwXWTJpPSM6qhH8gqhnQ",
     "sayari_url": "https://graph.sayari.com/resource/entity/XdjwXWTJpPSM6qhH8gqhnQ",
@@ -674,7 +685,9 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_un_goe_s2025_446",
+      "src_gw_who_buys_coltan_pdf"
     ],
     "sayari_entity_id": "WKC3rFluM3Fgj6NXzGwxTA",
     "sayari_url": "https://graph.sayari.com/resource/entity/WKC3rFluM3Fgj6NXzGwxTA",
@@ -697,7 +710,9 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf"
     ],
     "sayari_entity_id": "PgSzW4JGmOSkebhc9rXaLg",
     "sayari_url": "https://graph.sayari.com/resource/entity/PgSzW4JGmOSkebhc9rXaLg",
@@ -720,7 +735,9 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf"
     ],
     "sayari_entity_id": "Z9TfSFyAXgXOCyd-gic-uQ",
     "sayari_url": "https://graph.sayari.com/resource/entity/Z9TfSFyAXgXOCyd-gic-uQ",
@@ -749,7 +766,8 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf"
     ],
     "sayari_entity_id": "DGREDQ68sKQBgvglvG7nhg",
     "sayari_url": "https://graph.sayari.com/resource/entity/DGREDQ68sKQBgvglvG7nhg",
@@ -772,7 +790,9 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf"
     ],
     "sayari_entity_id": "KMJ_GrAwF6ZiFOQSsMEbMQ",
     "sayari_url": "https://graph.sayari.com/resource/entity/KMJ_GrAwF6ZiFOQSsMEbMQ",
@@ -795,7 +815,8 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_sec_ericsson_ry2025"
     ],
     "sayari_entity_id": "ZpTn4A-iShM17oe5UZ0pbA",
     "sayari_url": "https://graph.sayari.com/resource/entity/ZpTn4A-iShM17oe5UZ0pbA",
@@ -813,7 +834,11 @@
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
     "sayari_confidence": "high",
-    "role": "smelter"
+    "role": "smelter",
+    "rmi_id": "CID001277",
+    "rmi_status": "conformant",
+    "rmi_observed": "2026-05-22",
+    "rmi_frozen": true
   },
   {
     "id": "act_jinxin",
@@ -825,7 +850,8 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_sec_ericsson_ry2025"
     ],
     "sayari_entity_id": "vEZic6aOgtwXXiMgRT3MsA",
     "sayari_url": "https://graph.sayari.com/resource/entity/vEZic6aOgtwXXiMgRT3MsA",
@@ -838,7 +864,11 @@
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
     "sayari_confidence": "high",
-    "role": "smelter"
+    "role": "smelter",
+    "rmi_id": "CID000914",
+    "rmi_status": "conformant",
+    "rmi_observed": "2026-05-22",
+    "rmi_frozen": true
   },
   {
     "id": "act_tanbre",
@@ -850,7 +880,8 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_sec_ericsson_ry2025"
     ],
     "sayari_entity_id": "8Q09O1PQ4twjsSdyprTyYA",
     "sayari_url": "https://graph.sayari.com/resource/entity/8Q09O1PQ4twjsSdyprTyYA",
@@ -864,7 +895,11 @@
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
     "sayari_confidence": "high",
-    "role": "smelter"
+    "role": "smelter",
+    "rmi_id": "CID000917",
+    "rmi_status": "conformant",
+    "rmi_observed": "2026-05-22",
+    "rmi_frozen": true
   },
   {
     "id": "act_zhongao",
@@ -876,7 +911,8 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_sec_ericsson_ry2025"
     ],
     "sayari_entity_id": "IL1aY2MwQCbcccOK9EI7_A",
     "sayari_url": "https://graph.sayari.com/resource/entity/IL1aY2MwQCbcccOK9EI7_A",
@@ -887,7 +923,11 @@
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
     "sayari_confidence": "high",
-    "role": "smelter"
+    "role": "smelter",
+    "rmi_id": "CID002506",
+    "rmi_status": "conformant",
+    "rmi_observed": "2026-05-22",
+    "rmi_frozen": true
   },
   {
     "id": "act_ximei",
@@ -899,7 +939,8 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_sec_ericsson_ry2025"
     ],
     "sayari_entity_id": "6ITu5Fse7Hyja2GUl7g_8w",
     "sayari_url": "https://graph.sayari.com/resource/entity/6ITu5Fse7Hyja2GUl7g_8w",
@@ -910,7 +951,11 @@
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
     "sayari_confidence": "high",
-    "role": "smelter"
+    "role": "smelter",
+    "rmi_id": "CID000616",
+    "rmi_status": "conformant",
+    "rmi_observed": "2026-05-22",
+    "rmi_frozen": true
   },
   {
     "id": "act_kingxing",
@@ -922,7 +967,8 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_sec_ericsson_ry2025"
     ],
     "sayari_entity_id": "JoPJdyraJ9o9KbVk_TBqmg",
     "sayari_url": "https://graph.sayari.com/resource/entity/JoPJdyraJ9o9KbVk_TBqmg",
@@ -933,7 +979,11 @@
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
     "sayari_confidence": "high",
-    "role": "smelter"
+    "role": "smelter",
+    "rmi_id": "CID002492",
+    "rmi_status": "conformant",
+    "rmi_observed": "2026-05-22",
+    "rmi_frozen": true
   },
   {
     "id": "act_ulba",
@@ -945,7 +995,8 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_sec_ericsson_ry2025"
     ],
     "sayari_entity_id": "yd4WCfTHQsYYVO6SEoutWA",
     "sayari_url": "https://graph.sayari.com/resource/entity/yd4WCfTHQsYYVO6SEoutWA",
@@ -973,7 +1024,11 @@
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. Global Witness links it to Rubaya conflict coltan.",
     "sayari_confidence": "high",
-    "role": "smelter"
+    "role": "smelter",
+    "rmi_id": "CID001969",
+    "rmi_status": "conformant",
+    "rmi_observed": "2026-05-22",
+    "rmi_frozen": false
   },
   {
     "id": "act_taniobis_th",
@@ -985,7 +1040,8 @@
     "evidence_tier": "documented",
     "source_ids": [
       "src_gw_who_buys_coltan",
-      "src_sayari"
+      "src_sayari",
+      "src_sec_ericsson_ry2025"
     ],
     "sayari_entity_id": "dfQ3LgjqYoadPsJFejbYsg",
     "sayari_url": "https://graph.sayari.com/resource/entity/dfQ3LgjqYoadPsJFejbYsg",
@@ -997,7 +1053,11 @@
     ],
     "notes": "Smelter. Global Witness: among eight that processed the bulk of Rwanda's coltan exports (2023 – Sep 2025); all were found compliant with their audit schemes. No Rubaya link established by Global Witness.",
     "sayari_confidence": "high",
-    "role": "smelter"
+    "role": "smelter",
+    "rmi_id": "CID002544",
+    "rmi_status": "conformant",
+    "rmi_observed": "2026-05-22",
+    "rmi_frozen": false
   },
   {
     "id": "act_halcyon",
@@ -1008,7 +1068,9 @@
     "sanctions": [],
     "evidence_tier": "documented",
     "source_ids": [
-      "src_sayari"
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf",
+      "src_gw_2022"
     ],
     "sayari_entity_id": "8eW5KQNdwT7LoG9R3s75kA",
     "sayari_url": "https://graph.sayari.com/resource/entity/8eW5KQNdwT7LoG9R3s75kA",
@@ -1027,7 +1089,8 @@
     "sanctions": [],
     "evidence_tier": "documented",
     "source_ids": [
-      "src_sayari"
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf"
     ],
     "sayari_entity_id": "fc7RNdHZNcMUqXa0gnEjhA",
     "sayari_url": "https://graph.sayari.com/resource/entity/fc7RNdHZNcMUqXa0gnEjhA",
@@ -1093,5 +1156,1892 @@
     "sayari_confidence": "high",
     "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing.",
     "role": "trader"
+  },
+  {
+    "id": "act_brand_amd",
+    "name": "AMD",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amd_ry2024",
+      "src_sec_amd_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "AMD",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_amazon",
+    "name": "Amazon",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amazon_ry2024",
+      "src_sec_amazon_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Electronics and telecoms",
+    "ticker": "AMZN",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_amphenol",
+    "name": "Amphenol",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_amphenol_ry2024",
+      "src_sec_amphenol_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Components",
+    "ticker": "APH",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_analog_devices",
+    "name": "Analog Devices",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_analog_devices_ry2024",
+      "src_sec_analog_devices_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "ADI",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_applied_materials",
+    "name": "Applied Materials",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_applied_materials_ry2024",
+      "src_sec_applied_materials_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "AMAT",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_aptiv",
+    "name": "Aptiv",
+    "type": "company",
+    "role": "brand",
+    "country": "IE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_aptiv_ry2024",
+      "src_sec_aptiv_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Automotive and machinery",
+    "ticker": "APTV",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_borgwarner",
+    "name": "BorgWarner",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_borgwarner_ry2024",
+      "src_sec_borgwarner_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Automotive and machinery",
+    "ticker": "BWA",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_caterpillar",
+    "name": "Caterpillar",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_caterpillar_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Automotive and machinery",
+    "ticker": "CAT",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_corning",
+    "name": "Corning",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_corning_ry2024",
+      "src_sec_corning_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Components",
+    "ticker": "GLW",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_cummins",
+    "name": "Cummins",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_cummins_ry2024",
+      "src_sec_cummins_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Automotive and machinery",
+    "ticker": "CMI",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_deere",
+    "name": "Deere",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_deere_ry2024",
+      "src_sec_deere_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Automotive and machinery",
+    "ticker": "DE",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_embraer",
+    "name": "Embraer",
+    "type": "company",
+    "role": "brand",
+    "country": "BR",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_embraer_ry2024",
+      "src_sec_embraer_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Aerospace and defence",
+    "ticker": "ERJ",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_ericsson",
+    "name": "Ericsson",
+    "type": "company",
+    "role": "brand",
+    "country": "SE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_ericsson_ry2024",
+      "src_sec_ericsson_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Electronics and telecoms",
+    "ticker": "ERIC",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_hewlett_packard_enterprise",
+    "name": "Hewlett Packard Enterprise",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_hewlett_packard_enterprise_ry2024",
+      "src_sec_hewlett_packard_enterprise_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Electronics and telecoms",
+    "ticker": "HPE",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_honda",
+    "name": "Honda",
+    "type": "company",
+    "role": "brand",
+    "country": "JP",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honda_ry2024",
+      "src_sec_honda_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Automotive and machinery",
+    "ticker": "HMC",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_honeywell",
+    "name": "Honeywell",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_honeywell_ry2024",
+      "src_sec_honeywell_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Aerospace and defence",
+    "ticker": "HON",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_howmet_aerospace",
+    "name": "Howmet Aerospace",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_howmet_aerospace_ry2024",
+      "src_sec_howmet_aerospace_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Aerospace and defence",
+    "ticker": "HWM",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_intel",
+    "name": "Intel",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_intel_ry2024",
+      "src_sec_intel_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "INTC",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_kemet_yageo",
+    "name": "KEMET / Yageo",
+    "type": "company",
+    "role": "brand",
+    "country": "US/TW",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_kemet_cmr_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Components",
+    "ticker": null,
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_lg_display",
+    "name": "LG Display",
+    "type": "company",
+    "role": "brand",
+    "country": "KR",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_lg_display_ry2024",
+      "src_sec_lg_display_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Electronics and telecoms",
+    "ticker": "LPL",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_leonardo_drs",
+    "name": "Leonardo DRS",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_leonardo_drs_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Aerospace and defence",
+    "ticker": "DRS",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_logitech",
+    "name": "Logitech",
+    "type": "company",
+    "role": "brand",
+    "country": "CH",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_logitech_ry2024",
+      "src_sec_logitech_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Electronics and telecoms",
+    "ticker": "LOGI",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_medtronic",
+    "name": "Medtronic",
+    "type": "company",
+    "role": "brand",
+    "country": "IE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_medtronic_ry2024",
+      "src_sec_medtronic_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Medical",
+    "ticker": "MDT",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_micron",
+    "name": "Micron",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_micron_ry2024",
+      "src_sec_micron_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "MU",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_microsoft",
+    "name": "Microsoft",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_microsoft_ry2024",
+      "src_sec_microsoft_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Electronics and telecoms",
+    "ticker": "MSFT",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_moog",
+    "name": "Moog",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_moog_ry2024",
+      "src_sec_moog_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Aerospace and defence",
+    "ticker": "MOG-A",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_motorola_solutions",
+    "name": "Motorola Solutions",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_motorola_solutions_ry2024",
+      "src_sec_motorola_solutions_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Electronics and telecoms",
+    "ticker": "MSI",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_nvidia",
+    "name": "NVIDIA",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nvidia_ry2024",
+      "src_sec_nvidia_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "NVDA",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_nxp",
+    "name": "NXP",
+    "type": "company",
+    "role": "brand",
+    "country": "NL",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nxp_ry2024",
+      "src_sec_nxp_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "NXPI",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_nokia",
+    "name": "Nokia",
+    "type": "company",
+    "role": "brand",
+    "country": "FI",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_nokia_ry2024",
+      "src_sec_nokia_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Electronics and telecoms",
+    "ticker": "NOK",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_philips",
+    "name": "Philips",
+    "type": "company",
+    "role": "brand",
+    "country": "NL",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_philips_ry2024",
+      "src_sec_philips_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Medical",
+    "ticker": "PHG",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_qualcomm",
+    "name": "Qualcomm",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_qualcomm_ry2024",
+      "src_sec_qualcomm_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "QCOM",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_rocket_lab",
+    "name": "Rocket Lab",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_rocket_lab_ry2024",
+      "src_sec_rocket_lab_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Aerospace and defence",
+    "ticker": "RKLB",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_stmicroelectronics",
+    "name": "STMicroelectronics",
+    "type": "company",
+    "role": "brand",
+    "country": "CH",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_stmicroelectronics_ry2024",
+      "src_sec_stmicroelectronics_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "STM",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_sony",
+    "name": "Sony",
+    "type": "company",
+    "role": "brand",
+    "country": "JP",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_sony_ry2024",
+      "src_sec_sony_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Electronics and telecoms",
+    "ticker": "SONY",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_t_mobile_us",
+    "name": "T-Mobile US",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_t_mobile_us_ry2024",
+      "src_sec_t_mobile_us_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Electronics and telecoms",
+    "ticker": "TMUS",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_te_connectivity",
+    "name": "TE Connectivity",
+    "type": "company",
+    "role": "brand",
+    "country": "CH",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_te_connectivity_ry2024",
+      "src_sec_te_connectivity_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Components",
+    "ticker": "TEL",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_tsmc",
+    "name": "TSMC",
+    "type": "company",
+    "role": "brand",
+    "country": "TW",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_tsmc_ry2024",
+      "src_sec_tsmc_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "TSM",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_texas_instruments",
+    "name": "Texas Instruments",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_texas_instruments_ry2024",
+      "src_sec_texas_instruments_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Semiconductors",
+    "ticker": "TXN",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_toyota",
+    "name": "Toyota",
+    "type": "company",
+    "role": "brand",
+    "country": "JP",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_toyota_ry2024",
+      "src_sec_toyota_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Automotive and machinery",
+    "ticker": "TM",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_brand_vishay",
+    "name": "Vishay",
+    "type": "company",
+    "role": "brand",
+    "country": "US",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sec_vishay_ry2024",
+      "src_sec_vishay_ry2025"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "sector": "Components",
+    "ticker": "VSH",
+    "notes": "Listing a smelter in a filing is not evidence of receiving conflict minerals."
+  },
+  {
+    "id": "act_buy_samsung_electro_mechanics_co_ltd",
+    "name": "Samsung Electro-Mechanics Co., Ltd",
+    "type": "company",
+    "role": "component_maker",
+    "country": "KOR",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "aVUpfyApGiSqeykLxak46A",
+    "sayari_url": "https://graph.sayari.com/resource/entity/aVUpfyApGiSqeykLxak46A",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_samsung_electro_mechanics_philippines_co",
+    "name": "Samsung Electro-Mechanics Philippines Corporation",
+    "type": "company",
+    "role": "component_maker",
+    "country": "PHL",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "sLVFBQg3rKad9wwY3O5JdA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/sLVFBQg3rKad9wwY3O5JdA",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_pt_kasen_indonesia",
+    "name": "PT Kasen Indonesia",
+    "type": "company",
+    "role": "component_maker",
+    "country": "IDN",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "j4EdImV6xbXfowg9z7iwlQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/j4EdImV6xbXfowg9z7iwlQ",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_c_h_powell_company",
+    "name": "C.H. Powell Company",
+    "type": "company",
+    "role": "component_maker",
+    "country": "USA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "MvOdnUrqV4qk9bBnnYh0qg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/MvOdnUrqV4qk9bBnnYh0qg",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_kyocera_avx_components_corporation",
+    "name": "Kyocera AVX Components Corporation",
+    "type": "company",
+    "role": "component_maker",
+    "country": "USA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "9Dy8O_IPmzulxv02XwMhhw",
+    "sayari_url": "https://graph.sayari.com/resource/entity/9Dy8O_IPmzulxv02XwMhhw",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_tdk_india_private_limited",
+    "name": "TDK India Private Limited",
+    "type": "company",
+    "role": "component_maker",
+    "country": "IND",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "6TkyLwVVIVwxyioFLZ_Y8A",
+    "sayari_url": "https://graph.sayari.com/resource/entity/6TkyLwVVIVwxyioFLZ_Y8A",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_panasonic_industrial_components_indonesi",
+    "name": "Panasonic Industrial Components Indonesia",
+    "type": "company",
+    "role": "component_maker",
+    "country": "IDN",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "Zz9pQ_zAAMkn_brqrOfqSw",
+    "sayari_url": "https://graph.sayari.com/resource/entity/Zz9pQ_zAAMkn_brqrOfqSw",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_kyocera_avx_components_ltd",
+    "name": "Kyocera AVX Components Ltd",
+    "type": "company",
+    "role": "component_maker",
+    "country": "GBR",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "vH822j6ppVb6Q2fR6Axf0A",
+    "sayari_url": "https://graph.sayari.com/resource/entity/vH822j6ppVb6Q2fR6Axf0A",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_kyocera_avx_components_s_r_o",
+    "name": "Kyocera AVX Components s.r.o.",
+    "type": "company",
+    "role": "component_maker",
+    "country": "CZE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "w131ms2eZqpIYyhxjfSMEA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/w131ms2eZqpIYyhxjfSMEA",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_avx_industries_pte_ltd",
+    "name": "AVX Industries Pte. Ltd",
+    "type": "company",
+    "role": "component_maker",
+    "country": "SGP",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "jlZeZjdT6tX2PwpcK9K8lw",
+    "sayari_url": "https://graph.sayari.com/resource/entity/jlZeZjdT6tX2PwpcK9K8lw",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_kyocera_avx_component_pte_ltd",
+    "name": "Kyocera AVX Component Pte. Ltd.",
+    "type": "company",
+    "role": "component_maker",
+    "country": "SLV",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "g6gcO9sHSNuHZbpIwgAxrg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/g6gcO9sHSNuHZbpIwgAxrg",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_praxair_surface_technologies_inc",
+    "name": "Praxair Surface Technologies, Inc.",
+    "type": "company",
+    "role": "component_maker",
+    "country": "USA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "BOelMI2G0YDZEUC3GdWHbA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/BOelMI2G0YDZEUC3GdWHbA",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_a_r_merchants_inc",
+    "name": "A&R Merchants Inc",
+    "type": "company",
+    "role": "component_maker",
+    "country": "USA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "Gi4HCFw3Jlj5UsVEhFvHuQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/Gi4HCFw3Jlj5UsVEhFvHuQ",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_advanced_material_japan_corporation",
+    "name": "Advanced Material Japan Corporation",
+    "type": "company",
+    "role": "component_maker",
+    "country": "JPN",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "VnmXetcwYsnb4exp_20Pxg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/VnmXetcwYsnb4exp_20Pxg",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_eurofins_eag_materials_science_llc",
+    "name": "Eurofins EAG Materials Science LLC",
+    "type": "company",
+    "role": "component_maker",
+    "country": "USA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "oGzmX87oP2Qothr6PcodNA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/oGzmX87oP2Qothr6PcodNA",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_pacific_industrial_development_corp",
+    "name": "Pacific Industrial Development Corp",
+    "type": "company",
+    "role": "component_maker",
+    "country": "USA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "6Jl6tx84ZcUh5vALN7hiVQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/6Jl6tx84ZcUh5vALN7hiVQ",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_s_n_usa_inc",
+    "name": "S&N (USA) Inc.",
+    "type": "company",
+    "role": "component_maker",
+    "country": "USA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "vmwvg7iM0_nhmOpxhO2OWQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/vmwvg7iM0_nhmOpxhO2OWQ",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_kennametal_india_limited",
+    "name": "Kennametal India Limited",
+    "type": "company",
+    "role": "component_maker",
+    "country": "IND",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "J7JnGM0I7UA-9TUN98Vb7A",
+    "sayari_url": "https://graph.sayari.com/resource/entity/J7JnGM0I7UA-9TUN98Vb7A",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_buy_sre_vietnam_co_ltd",
+    "name": "SRE Vietnam Co., Ltd",
+    "type": "company",
+    "role": "component_maker",
+    "country": "VNM",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "inferred",
+    "method": "Consignee on Sayari customs rows from the smelter; same-entity review not yet done.",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "BAcosJwBT0xOtL50I3nZVA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/BAcosJwBT0xOtL50I3nZVA",
+    "sayari_match_reason": "Consignee name on customs rows; not yet checked as a same-legal-entity match.",
+    "sayari_confidence": "low",
+    "sayari_risk_flags": [],
+    "notes": "Trade counterparty only. Appearing here is not an allegation of wrongdoing."
+  },
+  {
+    "id": "act_east_group_minerals_ltd",
+    "name": "East Group Minerals Ltd",
+    "type": "company",
+    "role": "exporter",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "f4UQ4x1QLACAPKBYMyC5OQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/f4UQ4x1QLACAPKBYMyC5OQ",
+    "sayari_match_reason": "Exact name, RWA/TZA, Minterra buyer matches GW; RMA lists Galubickas for it.",
+    "sayari_risk_flags": [],
+    "notes": "Sibling fragment 3JDmqM6b9cadb7Eb7mb6sQ has no country. Formerly Blancomet AA Metals per GW.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_hillside_mining_company_ltd",
+    "name": "Hillside Mining Company Ltd",
+    "type": "company",
+    "role": "exporter",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "sayari_entity_id": "ljTeEOJXxOOimlbTQFxBeg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/ljTeEOJXxOOimlbTQFxBeg",
+    "sayari_match_reason": "Trade fragment with no country; Halcyon and Traxys rows match GW. Rejected about 20 US, Canadian, South African and other namesakes on country and identifiers.",
+    "sayari_risk_flags": [],
+    "notes": "Fragments c0nfmS2IalvQNuUCdatN9w, AfLAVzHSB2by1-vZ4jyu_w.",
+    "sayari_confidence": "low"
+  },
+  {
+    "id": "act_ets_munsad_minerals_ltd",
+    "name": "ETS Munsad Minerals Ltd",
+    "type": "company",
+    "role": "exporter",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "4qYA2F7Lc1howDIJpNvzJw",
+    "sayari_url": "https://graph.sayari.com/resource/entity/4qYA2F7Lc1howDIJpNvzJw",
+    "sayari_match_reason": "Exact name, RWA, and the RMA lists Ets Munsad Minerals. Indian persons surnamed Munsad rejected as unrelated.",
+    "sayari_risk_flags": [],
+    "notes": "Fragment JtgpH7xmWHTcMUiDMdAP0Q.",
+    "sayari_confidence": "low"
+  },
+  {
+    "id": "act_tebuka_mineral_processing_ltd",
+    "name": "Tebuka Mineral Processing Ltd",
+    "type": "company",
+    "role": "exporter",
+    "country": null,
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_tawotin_ltd",
+    "name": "Tawotin Ltd",
+    "type": "company",
+    "role": "exporter",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_gw_2022",
+      "src_sayari",
+      "src_rma_magazine_2024"
+    ],
+    "sayari_entity_id": "OPLZQzwwKb1u-D0QIVfs1w",
+    "sayari_url": "https://graph.sayari.com/resource/entity/OPLZQzwwKb1u-D0QIVfs1w",
+    "sayari_match_reason": "Exact name, RWA, East Rise buyer matches GW; RMA lists it.",
+    "sayari_risk_flags": [],
+    "notes": "Joint-name fragments _0CRdjT0Ln4YLs0Llyo7fg and Dj2ObWJ3ExrC344D73KsZA pair it with W.M.P / Wolfram Mining Processing.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_meta_trading_minerals_ltd",
+    "name": "Meta Trading Minerals Ltd",
+    "type": "company",
+    "role": "trader",
+    "country": "UGA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_congo_ressources_mining_sarl",
+    "name": "Congo Ressources Mining SARL",
+    "type": "company",
+    "role": "exporter",
+    "country": "COD",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_minterra_fzc",
+    "name": "Minterra FZC",
+    "type": "company",
+    "role": "trader",
+    "country": "ARE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "sayari_entity_id": "8LLbna7zYvBdV-y8BjQumQ",
+    "sayari_url": "https://graph.sayari.com/resource/entity/8LLbna7zYvBdV-y8BjQumQ",
+    "sayari_match_reason": "Hamriyah Free Zone address; East Group rows match GW.",
+    "sayari_risk_flags": [],
+    "notes": "",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_saiko_general_trading_llc_fz",
+    "name": "Saiko General Trading LLC-FZ",
+    "type": "company",
+    "role": "trader",
+    "country": "ARE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "sayari_entity_id": "dgV4xQV56svBspRtof7Zjg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/dgV4xQV56svBspRtof7Zjg",
+    "sayari_match_reason": "UAE record with licence 2418744.01; Arabic-name record shares the licence digits and has an LEI. Trade fragments OI9rkm7jwaOFu_zGswhBnw and nvrbDta1AZNpQIzK9zIfFQ are TZA-tagged.",
+    "sayari_risk_flags": [],
+    "notes": "",
+    "sayari_confidence": "low"
+  },
+  {
+    "id": "act_better_off_equipment_solutions",
+    "name": "Better Off Equipment & Solutions",
+    "type": "company",
+    "role": "exporter",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "sayari_entity_id": "A4vRjTdY_xgR31hulxqS-A",
+    "sayari_url": "https://graph.sayari.com/resource/entity/A4vRjTdY_xgR31hulxqS-A",
+    "sayari_match_reason": "GW names it; Uganda customs fragment gives Kicukiro, Niboye, Kigali and number 122352760 (type unknown).",
+    "sayari_risk_flags": [],
+    "notes": "",
+    "sayari_confidence": "low"
+  },
+  {
+    "id": "act_3u_mining_supporters_ltd",
+    "name": "3U Mining Supporters Ltd",
+    "type": "company",
+    "role": "exporter",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_eddy_fernand_habimana",
+    "name": "Eddy (Fernand) Habimana",
+    "type": "person",
+    "role": "person",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_dany_nzaramba",
+    "name": "Dany Nzaramba",
+    "type": "person",
+    "role": "person",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_viateur_sibomana",
+    "name": "Viateur Sibomana",
+    "type": "person",
+    "role": "person",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_gilbert_kabano",
+    "name": "Gilbert Kabano",
+    "type": "person",
+    "role": "person",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_joseph_karamira",
+    "name": "Joseph Karamira",
+    "type": "person",
+    "role": "person",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_henry_dudgeon",
+    "name": "Henry Dudgeon",
+    "type": "person",
+    "role": "person",
+    "country": "GBR",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_ugeiti_2021"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_odette_uzayisenga",
+    "name": "Odette Uzayisenga",
+    "type": "person",
+    "role": "person",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_gvidas_galubickas",
+    "name": "Gvidas Galubickas",
+    "type": "person",
+    "role": "person",
+    "country": "LTU",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_yuri_tolmatchev",
+    "name": "Yuri Tolmatchev",
+    "type": "person",
+    "role": "person",
+    "country": "GBR",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_sayari"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_alexander_konovalchik",
+    "name": "Alexander Konovalchik",
+    "type": "person",
+    "role": "person",
+    "country": "GBR",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_sayari"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_chris_huber",
+    "name": "Chris Huber",
+    "type": "person",
+    "role": "person",
+    "country": "CHE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_gw_2022"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_rajan_sureshchandra_karia",
+    "name": "Rajan Sureshchandra Karia",
+    "type": "person",
+    "role": "person",
+    "country": "ARE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_dharam_kotecha",
+    "name": "Dharam Kotecha",
+    "type": "person",
+    "role": "person",
+    "country": null,
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_metarex_ltd",
+    "name": "Metarex Ltd",
+    "type": "company",
+    "role": "other",
+    "country": "CYP",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_sayari"
+    ],
+    "sayari_entity_id": "UOsIBkQxpnsjOjV6Gasj9w",
+    "sayari_url": "https://graph.sayari.com/resource/entity/UOsIBkQxpnsjOjV6Gasj9w",
+    "sayari_match_reason": "Cyprus registration as GW says; Konovalchik and Tolmatchev are both recorded as shareholder-directors, which matches GW names.",
+    "sayari_risk_flags": [],
+    "notes": "Business purpose: other financial services. Rejected Metarex SpA (ITA), Metarex Srl, Metarex Co. Ltd, Financiere Metarex.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_principal_investments_ag_formerly_africa",
+    "name": "Principal Investments AG (formerly African Panther Resources AG)",
+    "type": "company",
+    "role": "other",
+    "country": "CHE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_zefix_chetu",
+      "src_sayari",
+      "src_ugeiti_2021",
+      "src_gw_2017"
+    ],
+    "sayari_entity_id": "ltcfc9OyDrGpPul-sGFVNg",
+    "sayari_url": "https://graph.sayari.com/resource/entity/ltcfc9OyDrGpPul-sGFVNg",
+    "sayari_match_reason": "Exact UID match between Sayari and Zefix; former name stated in SOGC notices.",
+    "sayari_risk_flags": [],
+    "notes": "Commodity-trading purpose. Renamed 2019, dissolved by general meeting 2 Dec 2025, in liquidation. Registry officers (Eibl, Banzhaf, Gunn) recorded as roles only. Same brand as the Rwandan exporter, but no record ties the two companies.",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_boniface_mbanza",
+    "name": "Boniface Mbanza",
+    "type": "person",
+    "role": "person",
+    "country": "RWA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_2022",
+      "src_rma_magazine_2024"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_jean_claude_mbarushimana",
+    "name": "Jean Claude Mbarushimana",
+    "type": "person",
+    "role": "person",
+    "country": "CHE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_evode_muvunyi",
+    "name": "Evode Muvunyi",
+    "type": "person",
+    "role": "person",
+    "country": "USA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_martynas_medelis",
+    "name": "Martynas Medelis",
+    "type": "person",
+    "role": "person",
+    "country": "LTU",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_christoph_eibl",
+    "name": "Christoph Eibl",
+    "type": "person",
+    "role": "person",
+    "country": "CHE",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ugeiti_2021"
+    ],
+    "sayari_entity_id": "54UnTTuLCRwUNh2qNNbfaA",
+    "sayari_url": "https://graph.sayari.com/resource/entity/54UnTTuLCRwUNh2qNNbfaA",
+    "sayari_match_reason": "Same name in SOGC, Sayari and UGEITI. Role only; no allegation concerning the Rwandan exporter.",
+    "sayari_risk_flags": [],
+    "notes": "",
+    "sayari_confidence": "high"
+  },
+  {
+    "id": "act_african_panther_resources_u_ltd",
+    "name": "African Panther Resources (U) Ltd",
+    "type": "company",
+    "role": "other",
+    "country": "UGA",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ugeiti_2021",
+      "src_gw_2017",
+      "src_zefix_chetu",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_sogecom",
+    "name": "SOGECOM",
+    "type": "company",
+    "role": "trader",
+    "country": "COD",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_gw_2022"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
+  },
+  {
+    "id": "act_apcls_nyatura_groups",
+    "name": "APCLS / Nyatura groups",
+    "type": "armed_group",
+    "role": "armed_group",
+    "country": "COD",
+    "site_id": null,
+    "sanctions": [],
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_969"
+    ],
+    "sayari_entity_id": null,
+    "sayari_url": null,
+    "sayari_match_reason": null,
+    "sayari_risk_flags": [],
+    "notes": ""
   }
 ]

@@ -7,16 +7,17 @@
       "coltan",
       "tin"
     ],
-    "lat": -1.5594,
-    "lon": 28.8835,
+    "lat": -1.5602,
+    "lon": 28.88186,
     "admin_area": "Masisi, North Kivu",
     "country": "COD",
     "ipis_site_id": null,
     "source_ids": [
       "src_eos_landslideblog_rubaya",
+      "src_ipis_asm",
       "src_un_goe_s2024_969"
     ],
-    "notes": "Approximate point (landslide location per Eos). Replace with IPIS site ids once the IPIS dataset is downloaded."
+    "notes": "Luwowo/Gasasa point from IPIS (codmine00312)."
   },
   {
     "id": "site_mushaki",
@@ -43,15 +44,17 @@
     "minerals": [
       "gold"
     ],
-    "lat": null,
-    "lon": null,
+    "lat": -2.2769,
+    "lon": 28.8804,
     "admin_area": "Kabare, South Kivu",
     "country": "COD",
     "ipis_site_id": null,
     "source_ids": [
-      "src_amnesty_afr62_1454_2026"
+      "src_amnesty_afr62_1454_2026",
+      "src_osm_nominatim",
+      "src_un_goe_s2025_858"
     ],
-    "notes": "No verified coordinates yet; take from the IPIS ASM dataset."
+    "notes": "Approximate: Luhihi village, Kabare (OSM), a stand-in. The mine is probably a few km east on the lake shore. Lomera is not in the IPIS data."
   },
   {
     "id": "site_goma",
@@ -169,5 +172,60 @@
       "src_gw_who_buys_coltan"
     ],
     "notes": "Approximate (Kilindini Harbour centroid, ~2 km)."
+  },
+  {
+    "id": "site_numbi",
+    "name": "Numbi",
+    "site_type": "mine",
+    "minerals": [
+      "coltan",
+      "tin"
+    ],
+    "lat": -1.79185,
+    "lon": 28.8733,
+    "admin_area": "Kalehe, South Kivu",
+    "country": "COD",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_ipis_asm",
+      "src_un_goe_s2025_446"
+    ],
+    "notes": "IPIS point, about 2 km west of Numbi town."
+  },
+  {
+    "id": "site_nyabibwe",
+    "name": "Nyabibwe",
+    "site_type": "mine",
+    "minerals": [
+      "tin"
+    ],
+    "lat": -1.9431,
+    "lon": 28.9386,
+    "admin_area": "Kalehe, South Kivu",
+    "country": "COD",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_ipis_asm",
+      "src_un_goe_s2025_446"
+    ],
+    "notes": "Kalimbi site, IPIS point."
+  },
+  {
+    "id": "site_nzibira",
+    "name": "Nzibira",
+    "site_type": "trading_centre",
+    "minerals": [
+      "tin"
+    ],
+    "lat": -2.6753,
+    "lon": 28.5055,
+    "admin_area": "Walungu, South Kivu",
+    "country": "COD",
+    "ipis_site_id": null,
+    "source_ids": [
+      "src_osm_nominatim",
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "Town point. Trading hub for cassiterite and wolframite."
   }
 ]

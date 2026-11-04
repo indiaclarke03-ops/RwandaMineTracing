@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 .venv/
 _shots/
+
+# Unredacted research notes (named parties not yet given the chance to comment)
+pipeline/notes/private/

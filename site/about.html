@@ -9,14 +9,13 @@
 </head>
 <body>
   <header class="top">
-    <div class="brand">
-      <h1><a href="./" style="color:inherit;text-decoration:none">Ground Control</a></h1>
-      <p class="tagline">Who controls the mine, where do its minerals go, what has been done about it — and did it work?</p>
-    </div>
+    <a class="brand-mark" href="./">Ground Control</a>
     <nav class="tabs">
       <a class="tab-link" href="./">Overview</a>
       <a class="tab-link" href="./#view=map">Control map</a>
-      <a class="tab-link" href="./#view=laundering">Export gap</a>
+      <a class="tab-link" href="./#view=chain">Supply chain</a>
+      <a class="tab-link" href="./#view=search">Check a company</a>
+      <a class="tab-link" href="./#view=laundering">Mineral balance</a>
       <a class="tab-link" href="./#view=responses">Responses</a>
       <a class="tab-link" href="./#view=gaps">What we don't know</a>
       <a class="tab-link" href="./#view=sources">Sources</a>
@@ -42,7 +41,7 @@
     <table>
       <tr><th>If you are…</th><th>You are probably asking…</th><th>Start with</th></tr>
       <tr><td>A compliance analyst, due-diligence team or investigator</td><td>Is my supplier, smelter or counterparty exposed to minerals from armed-group-controlled mines?</td><td><a href="./#view=search">Check a company</a> for its shortest sourced path to an armed group, then <a href="./#view=chain">Supply chain</a> and the "Verify in Sayari Graph" links</td></tr>
-      <tr><td>A policymaker, regulator or NGO</td><td>Who controls what, what has been done about it, and is it working?</td><td><a href="./#view=responses">Responses</a> and the <a href="./#view=laundering">export gap</a></td></tr>
+      <tr><td>A policymaker, regulator or NGO</td><td>Who controls what, what has been done about it, and is it working?</td><td><a href="./#view=responses">Responses</a> and the <a href="./#view=laundering">mineral balance</a></td></tr>
     </table>
 
     <h2>How the evidence is graded</h2>
@@ -75,11 +74,33 @@
     <h3>Trade records</h3>
     <p>Customs data shows <strong>who shipped what to whom</strong>, not where the mineral was mined. A coltan shipment from Rwanda is not, by itself, evidence of smuggling.</p>
 
-    <h2>The export gap</h2>
-    <p class="callout">If a country exports more of a mineral than it can plausibly mine, the difference has to come from somewhere: neighbouring countries, stockpiles, or smuggling. Rwanda publishes no mine-level production figures. USGS's "production" numbers for Rwandan coltan are mostly Rwanda's own reported exports. So a simple "exports minus production" calculation shows no gap at all, by construction.</p>
-    <p>We use an independent check instead: geology. In this region's mixed deposits, coltan is about a quarter of combined coltan and tin-ore (cassiterite) output, according to Germany's geological survey (BGR), as cited by the UN Group of Experts. So Rwanda's tin-ore exports predict roughly how much coltan it should export. From 2018 to 2022 the two matched closely; from 2023 coltan pulled far ahead. Where USGS published its own estimate (2023–24), it gives a similar answer.</p>
-    <p>We then set out what UN investigators, NGOs and Sayari trade records say about where the extra material comes from, next to Rwanda's own explanations. The gap is labelled <em>inferred</em>. It shows that something needs explaining. It does not prove that all of the difference comes from armed groups, and no source has measured that split.</p>
-    <p class="small muted">Official statistics, such as UN Comtrade, the National Bank of Rwanda and USGS, are labelled "documented".</p>
+    <h2>The mineral balance</h2>
+    <p class="callout">If a country exports more of a mineral than it can plausibly mine, the difference has to come from somewhere. Rwanda publishes no mine-level output, and USGS's "production" figures for Rwandan coltan are mostly reported exports, so a simple "exports minus production" sum shows no gap by construction. Congo's national figures have the same problem.</p>
+    <p>We use three checks instead:</p>
+    <ol>
+      <li><strong>Geology.</strong> In this region's mixed deposits, coltan is about a quarter of combined coltan and tin-ore output (Germany's geological survey, cited by the UN Group of Experts). So Rwanda's tin-ore exports predict its coltan exports. They matched from 2018 to 2022; from 2023 coltan pulled ahead. For 2025 we freeze the tin-ore baseline at its 2022–24 level, because that year's tin-ore surge itself looks non-domestic.</li>
+      <li><strong>Province-level loss.</strong> We compare Rwanda's excess with the fall in official North and South Kivu output, from Congo's mining ministry tables. A national "missing output" does not exist: the signal appears only by province.</li>
+      <li><strong>Destinations.</strong> We use importers' reported figures and Sayari customs records to see which destinations grew.</li>
+    </ol>
+    <p>To estimate how much of the excess could come from armed-group-held areas, we take published volumes (such as the UN's 120–150 t a month for Rubaya), assume 50, 75 or 100% reached Rwanda, and divide by the excess. Those rates are our judgement and no source states the resulting shares. The page lists what would disprove them, next to Rwanda's own explanations.</p>
+
+    <h2>Tracing unsanctioned companies</h2>
+    <p>Sayari traces owners well where a government has already sanctioned someone, but it has no Rwandan company registry. For unsanctioned exporters and traders we combine UN and NGO reports, customs records and open registries in Switzerland, Cyprus, the UK and Uganda, then grade the evidence of an armed-group link:</p>
+    <table>
+      <tr><th>Grade</th><th>Means</th></tr>
+      <tr><td>Strong</td><td>A UN report plus a second organisation, which may share sources</td></tr>
+      <tr><td>Moderate</td><td>One organisation's evidence, or a buyer alleged to have bought from a named exporter</td></tr>
+      <tr><td>Weak</td><td>Concerns raised, such as ITSCI incidents, with no source saying it bought from an armed-group area</td></tr>
+      <tr><td>None found</td><td>Customs rows or shared buyers only</td></tr>
+    </table>
+    <p>Customs and registry records add structure, but every armed-group link still rests on UN or NGO evidence. Shared buyers and addresses are shown as network signals and never count as a path to an armed group. Grades are allegations, not findings of knowledge or intent.</p>
+
+    <h2>Smelters and brands</h2>
+    <p>Brand links come from US Conflict Minerals Reports and similar filings, where companies list smelters their suppliers named. Most say a smelter "may" be in the supply chain. A listing is not evidence that a company received conflict minerals, and no filing says one did. "Conformant" under the RMI audit scheme means a smelter's due-diligence system passed audit, not that its ore is clean. RMI paused new China assessments in August 2026, so six statuses are frozen.</p>
+
+    <h2>Which mines count as controlled</h2>
+    <p>The map separates four kinds of evidence. <strong>Armed-group-held</strong> and <strong>contested</strong> sites are places a dated UN, NGO, government or media source covers, matched by site name or, as our inference, by a small radius around a named town. <strong>Armed group at last visit</strong> comes from IPIS researchers, who record who was present that day. Everything else is unknown at that date, not free of armed groups. Wazalendo militias count as armed groups even when allied to the army; the Congolese army alone does not.</p>
+    <p class="small muted">Official statistics and company filings are labelled "documented", though they are not UN or NGO evidence: they show what was reported, not that it is true.</p>
 
     <h2>How "Check a company" finds paths</h2>
     <p>We join every sourced link in the dataset into one network: ownership and officer ties, sanctions findings, trade records, mineral flows and site control. For the company you pick, we find the shortest route to each armed group. When two routes are the same length, we prefer stronger evidence and current control over past control. Every step shows its evidence label and source.</p>

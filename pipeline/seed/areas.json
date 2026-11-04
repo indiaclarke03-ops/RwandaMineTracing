@@ -1,0 +1,712 @@
+[
+  {
+    "id": "area_rubaya",
+    "name": "Rubaya mining sites named in PE76 / former PE4731",
+    "centre": [
+      -1.5735,
+      28.887
+    ],
+    "radius_km": null,
+    "territory": "Masisi",
+    "site_ids": [
+      "ipis_codmine00309",
+      "ipis_codmine00310",
+      "ipis_codmine00311",
+      "ipis_codmine00312",
+      "ipis_codmine00313",
+      "ipis_codmine00318",
+      "ipis_codmine03057",
+      "ipis_codmine03062"
+    ],
+    "selection": "names",
+    "selection_reason": "S/2025/446 para 113 lists the sites worked under AFC/M23 inside PE76 and the revoked PE4731. These IPIS sites match that list.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026",
+      "src_treasury_sb0221",
+      "src_treasury_sb0543",
+      "src_un_goe_s2024_432",
+      "src_un_goe_s2024_969",
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Spelling matches we assumed: Bundjali = Bunjari; Luwowo/Gasasa = Luwowo/Nyange and Kasasa. Kashaki (03062) is about 11 km east of the D sites and is the weakest match. Excluded: 03285 'D2 Bibatama' (coordinates about 37 km south of the Rubaya sites, likely a data error). Listed by the UN but no IPIS match: Muderi, Muchacha (Rubaya), Nyambisi, Luoo. The IPIS site 'Muchacha' is in Mambasa, Ituri, and is unrelated. The UN satellite annex places the main coltan hill in permit PE16159, attributed to SAKIMA (S/2026/466 annex 67), so permit numbers have changed; do not select on PE numbers alone."
+  },
+  {
+    "id": "area_rubaya_ring",
+    "name": "Rubaya mining area: other IPIS sites within 4 km",
+    "centre": [
+      -1.5735,
+      28.887
+    ],
+    "radius_km": 4,
+    "territory": "Masisi",
+    "site_ids": [
+      "ipis_codmine00319",
+      "ipis_codmine01695",
+      "ipis_codmine01707",
+      "ipis_codmine03061",
+      "ipis_codmine03762",
+      "ipis_codmine03818",
+      "ipis_codmine04002"
+    ],
+    "selection": "radius",
+    "selection_reason": "S/2024/969 para 56 says the entire mining area around Rubaya is held. SMB's licence was 30.5 km2 (Amnesty p12), a circle of about 3.1 km radius; 4 km adds about 1 km for coordinate error. Centre is the mean of the D-site coordinates.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_un_goe_s2024_432",
+      "src_un_goe_s2024_969",
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Radius is our inference. Masisi sites only; sites already in area_rubaya are removed.",
+    "method": "S/2024/969 para 56 says the entire mining area around Rubaya is held. SMB's licence was 30.5 km2 (Amnesty p12), a circle of about 3.1 km radius; 4 km adds about 1 km for coordinate error. Centre is the mean of the D-site coordinates."
+  },
+  {
+    "id": "area_mushaki",
+    "name": "Mushaki trading centre",
+    "centre": [
+      -1.5301,
+      28.98
+    ],
+    "radius_km": 3,
+    "territory": "Masisi",
+    "site_ids": [
+      "ipis_codmine01120"
+    ],
+    "selection": "radius",
+    "selection_reason": "Source names the trading centre, not mines. 3 km covers the town only.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_un_goe_s2024_432",
+      "src_un_goe_s2024_969"
+    ],
+    "notes": "Radius is our inference. OSM node 1158947912.",
+    "method": "Source names the trading centre, not mines. 3 km covers the town only."
+  },
+  {
+    "id": "area_ngungu",
+    "name": "Ngungu gold mine and town",
+    "centre": [
+      -1.6574,
+      28.8767
+    ],
+    "radius_km": 3,
+    "territory": "Masisi",
+    "site_ids": [
+      "ipis_codmine00300"
+    ],
+    "selection": "radius",
+    "selection_reason": "Amnesty names a gold mine at Ngungu but gives no location. 3 km around the town, because no IPIS site is named Ngungu.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026",
+      "src_ct_cwsr_2026_10_21"
+    ],
+    "notes": "Radius is our inference. OSM node 1159317037. Bishasha (00300) is exactly at the 3 km edge and is a weak match.",
+    "method": "Amnesty names a gold mine at Ngungu but gives no location. 3 km around the town, because no IPIS site is named Ngungu."
+  },
+  {
+    "id": "area_masisi_centre",
+    "name": "Masisi centre",
+    "centre": [
+      -1.3987,
+      28.8206
+    ],
+    "radius_km": 5,
+    "territory": "Masisi",
+    "site_ids": [
+      "ipis_codmine02762",
+      "ipis_codmine02764",
+      "ipis_codmine04128"
+    ],
+    "selection": "radius",
+    "selection_reason": "Source names the town only, so 5 km covers its immediate surroundings. Masisi territory as a whole is not applied: its west and south are contested.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_un_goe_s2025_446"
+    ],
+    "notes": "Radius is our inference. Centre from OSM node 7399890656 (Ecole Primaire Masisi Centre).",
+    "method": "Source names the town only, so 5 km covers its immediate surroundings. Masisi territory as a whole is not applied: its west and south are contested."
+  },
+  {
+    "id": "area_numbi",
+    "name": "Numbi mining area",
+    "centre": [
+      -1.7877,
+      28.8938
+    ],
+    "radius_km": 3,
+    "territory": "Kalehe",
+    "site_ids": [
+      "ipis_codmine00845",
+      "ipis_codmine00846",
+      "ipis_codmine00847",
+      "ipis_codmine00848",
+      "ipis_codmine00849",
+      "ipis_codmine00850",
+      "ipis_codmine00851",
+      "ipis_codmine00852",
+      "ipis_codmine01335",
+      "ipis_codmine01681",
+      "ipis_codmine01686",
+      "ipis_codmine01700",
+      "ipis_codmine01779",
+      "ipis_codmine01827",
+      "ipis_codmine01828",
+      "ipis_codmine01837",
+      "ipis_codmine01853",
+      "ipis_codmine01854",
+      "ipis_codmine03641",
+      "ipis_codmine04313"
+    ],
+    "selection": "radius",
+    "selection_reason": "S/2025/858 para 56 refers to the main 3T mining areas around Numbi. The IPIS cluster lies within about 2.5 km of the town.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_ct_cwsr_2026_10_07",
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "Radius is our inference. Kalehe sites only. OSM node 1159316948.",
+    "method": "S/2025/858 para 56 refers to the main 3T mining areas around Numbi. The IPIS cluster lies within about 2.5 km of the town."
+  },
+  {
+    "id": "area_lumbishi",
+    "name": "Lumbishi mining area",
+    "centre": [
+      -1.7687,
+      28.8088
+    ],
+    "radius_km": 3,
+    "territory": "Kalehe",
+    "site_ids": [
+      "ipis_codmine00853",
+      "ipis_codmine00854",
+      "ipis_codmine00855",
+      "ipis_codmine02819",
+      "ipis_codmine02820",
+      "ipis_codmine03638",
+      "ipis_codmine03639",
+      "ipis_codmine03640"
+    ],
+    "selection": "radius",
+    "selection_reason": "S/2025/858 para 56 refers to the main 3T mining areas around Lumbishi. Centre is IPIS site 00855 Lumbishi.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_ct_cwsr_2026_10_07",
+      "src_ct_cwsr_2026_10_21",
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "Radius is our inference. Kalehe only: 01159 Biembamba is in Masisi and is left out.",
+    "method": "S/2025/858 para 56 refers to the main 3T mining areas around Lumbishi. Centre is IPIS site 00855 Lumbishi."
+  },
+  {
+    "id": "area_nyabibwe",
+    "name": "Nyabibwe mining area (Kalehe)",
+    "centre": [
+      -1.9215,
+      28.9406
+    ],
+    "radius_km": 4,
+    "territory": "Kalehe",
+    "site_ids": [
+      "ipis_codmine00917",
+      "ipis_codmine01678",
+      "ipis_codmine01747",
+      "ipis_codmine03127"
+    ],
+    "selection": "radius",
+    "selection_reason": "S/2025/858 para 56 refers to the main 3T mining areas around Nyabibwe. Four IPIS sites, including Kalimbi, lie within 2.5 km.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2025_858",
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Radius is our inference. Excluded: 03059 'Nyabibwe' is in Masisi, a same-named place about 44 km north. OSM node 1159316902.",
+    "method": "S/2025/858 para 56 refers to the main 3T mining areas around Nyabibwe. Four IPIS sites, including Kalimbi, lie within 2.5 km."
+  },
+  {
+    "id": "area_minova",
+    "name": "Minova town",
+    "centre": [
+      -1.7078,
+      29.0243
+    ],
+    "radius_km": null,
+    "territory": "Kalehe",
+    "site_ids": [],
+    "selection": "names",
+    "selection_reason": "Hub only. No IPIS site within 5 km.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446"
+    ],
+    "notes": "Lake port and transit point. Classifies no IPIS sites. OSM relation 2627437."
+  },
+  {
+    "id": "area_goma",
+    "name": "Goma",
+    "centre": [
+      -1.6666,
+      29.2257
+    ],
+    "radius_km": null,
+    "territory": null,
+    "site_ids": [],
+    "selection": "names",
+    "selection_reason": "Hub only. No IPIS sites in Goma.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Classifies no IPIS sites."
+  },
+  {
+    "id": "area_bukavu",
+    "name": "Bukavu",
+    "centre": [
+      -2.5056,
+      28.8595
+    ],
+    "radius_km": null,
+    "territory": null,
+    "site_ids": [],
+    "selection": "names",
+    "selection_reason": "Hub only. No IPIS sites within the city.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Classifies no IPIS sites. Centre is the OSM admin relation 5327777, so approximate."
+  },
+  {
+    "id": "area_lomera_luhihi",
+    "name": "Lomera (Luhihi), Kabare: nearest IPIS gold sites",
+    "centre": [
+      -2.2769,
+      28.8804
+    ],
+    "radius_km": 4,
+    "territory": "Kabare",
+    "site_ids": [
+      "ipis_codmine03829",
+      "ipis_codmine03830",
+      "ipis_codmine04175",
+      "ipis_codmine04176"
+    ],
+    "selection": "radius",
+    "selection_reason": "S/2025/858 paras 59-60 place the Lomera site at Luhihi and say M23 took de facto control of mining in the area. Lomera itself is not in IPIS: it dates from late 2024 or Jan 2025. The 4 km radius catches the only IPIS gold sites nearby.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026",
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "These four sites are neighbours visited in 2022-23, not Lomera. Radius is our inference. Centre is Luhihi village (OSM node 1160970919), not the mine; Amnesty puts the mine on the Lake Kivu shore.",
+    "method": "S/2025/858 paras 59-60 place the Lomera site at Luhihi and say M23 took de facto control of mining in the area. Lomera itself is not in IPIS: it dates from late 2024 or Jan 2025. The 4 km radius catches the only IPIS gold sites nearby."
+  },
+  {
+    "id": "area_nzibira",
+    "name": "Nzibira trading hub",
+    "centre": [
+      -2.6753,
+      28.5055
+    ],
+    "radius_km": 3,
+    "territory": "Walungu",
+    "site_ids": [
+      "ipis_codmine00890",
+      "ipis_codmine00928",
+      "ipis_codmine00929",
+      "ipis_codmine01130",
+      "ipis_codmine01751",
+      "ipis_codmine01753",
+      "ipis_codmine01774",
+      "ipis_codmine02841",
+      "ipis_codmine02842",
+      "ipis_codmine02919",
+      "ipis_codmine03037"
+    ],
+    "selection": "radius",
+    "selection_reason": "Source calls Nzibira a mineral trading hub. 3 km covers the sites around the town.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_actualite_nzibira_2026_08",
+      "src_icg_crisiswatch_2026_08",
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "Radius is our inference. Walungu sites only, so 00891 Muhinga (Kabare) is left out. OSM node 2815257203. A second Nzibira exists in Shabunda and is unrelated.",
+    "method": "Source calls Nzibira a mineral trading hub. 3 km covers the sites around the town."
+  },
+  {
+    "id": "area_luntukulu_lubimbe",
+    "name": "Luntukulu and Lubimbe",
+    "centre": null,
+    "radius_km": null,
+    "territory": null,
+    "site_ids": [
+      "ipis_codmine01728",
+      "ipis_codmine02192"
+    ],
+    "selection": "names",
+    "selection_reason": "S/2025/858 para 52 names both as captured. IPIS has sites of those names.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_actualite_nzibira_2026_08",
+      "src_icg_crisiswatch_2026_08",
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "Lubimbe is taken as the Kabare site (02192) because a source cited by the Group ties it to Kabare. Excluded: 03948 Lubimbe in Shabunda, about 45 km west. Chulwe has no IPIS match."
+  },
+  {
+    "id": "area_twangiza",
+    "name": "Twangiza mine, Luhwindja",
+    "centre": null,
+    "radius_km": null,
+    "territory": "Mwenga",
+    "site_ids": [],
+    "selection": "names",
+    "selection_reason": "No IPIS site named Twangiza, and no verified coordinates this run.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "Industrial site, outside IPIS artisanal coverage. Data gap: map it from the concession data if wanted."
+  },
+  {
+    "id": "area_karhembu",
+    "name": "Karhembu semi-mechanised gold site",
+    "centre": null,
+    "radius_km": null,
+    "territory": "Walungu",
+    "site_ids": [],
+    "selection": "names",
+    "selection_reason": "No IPIS site of this name.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "Data gap. Amnesty spells it Karhembo."
+  },
+  {
+    "id": "area_walikale_town",
+    "name": "Walikale town",
+    "centre": [
+      -1.4301,
+      28.0764
+    ],
+    "radius_km": 6,
+    "territory": "Walikale",
+    "site_ids": [
+      "ipis_codmine03837"
+    ],
+    "selection": "radius",
+    "selection_reason": "Source names the town. 6 km catches the one nearby IPIS site.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "Radius is our inference. Historic only: M23 left in April 2025. OSM node 626734473.",
+    "method": "Source names the town. 6 km catches the one nearby IPIS site."
+  },
+  {
+    "id": "area_bisie",
+    "name": "Bisie (Mpama-Bisie) tin mine",
+    "centre": null,
+    "radius_km": null,
+    "territory": "Walikale",
+    "site_ids": [
+      "ipis_codmine00396"
+    ],
+    "selection": "names",
+    "selection_reason": "IPIS site 'Bisie Mpama'.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": "No source read here places M23 in control of Bisie. The UN says only that the mine suspended 13 Mar to mid-Apr 2025 and restarted as M23 left Walikale. No claim row, so not classified. Excluded: 'Mpama' sites 01051 and 03103 in Moba, Tanganyika, which are unrelated."
+  },
+  {
+    "id": "area_pinga",
+    "name": "Pinga",
+    "centre": [
+      -0.984,
+      28.702
+    ],
+    "radius_km": 5,
+    "territory": "Walikale",
+    "site_ids": [
+      "ipis_codmine00492",
+      "ipis_codmine00493",
+      "ipis_codmine04133"
+    ],
+    "selection": "radius",
+    "selection_reason": "Source names the town. 5 km covers nearby sites only.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Radius is our inference. OSM node 2081473037.",
+    "method": "Source names the town. 5 km covers nearby sites only."
+  },
+  {
+    "id": "area_mpeti",
+    "name": "Mpeti front line (RP1030)",
+    "centre": [
+      -0.9572,
+      28.8217
+    ],
+    "radius_km": 5,
+    "territory": "Walikale",
+    "site_ids": [
+      "ipis_codmine00501",
+      "ipis_codmine00503",
+      "ipis_codmine00504"
+    ],
+    "selection": "radius",
+    "selection_reason": "Source names the village. 5 km covers Mpeti, Mera and Katobi.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_ct_cwsr_2026_09_11",
+      "src_ct_cwsr_2026_10_28"
+    ],
+    "notes": "Radius is our inference. OSM node 12334379663.",
+    "method": "Source names the village. 5 km covers Mpeti, Mera and Katobi."
+  },
+  {
+    "id": "area_lubero_south",
+    "name": "Southern Lubero",
+    "centre": null,
+    "radius_km": null,
+    "territory": "Lubero",
+    "site_ids": [],
+    "selection": "names",
+    "selection_reason": "Sources say only 'areas south of Lubero centre' and the Kanyabayonga-Kaseghe road. That is part of the territory, so it is not applied to all 259 Lubero sites.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "No IPIS site falls within 8 km of Kirumba. Classifies no sites. Data gap: needs named localities."
+  },
+  {
+    "id": "area_rutshuru_nyiragongo",
+    "name": "Rutshuru and Nyiragongo",
+    "centre": null,
+    "radius_km": null,
+    "territory": "Rutshuru; Nyiragongo",
+    "site_ids": [],
+    "selection": "territory",
+    "selection_reason": "Named as M23-occupied defence zones, but no source says the whole of either. IPIS has no sites in them, so nothing is classified.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "FDLR remains active in Bwito (Rutshuru).",
+    "method": "Named as M23-occupied defence zones, but no source says the whole of either. IPIS has no sites in them, so nothing is classified."
+  },
+  {
+    "id": "area_uvira_town",
+    "name": "Uvira town",
+    "centre": [
+      -3.4056,
+      29.1376
+    ],
+    "radius_km": null,
+    "territory": "Uvira",
+    "site_ids": [],
+    "selection": "names",
+    "selection_reason": "Hub only. No IPIS site within 10 km.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Shows that control can reverse. Centre from OSM relation 2650257."
+  },
+  {
+    "id": "area_sange",
+    "name": "Sange, Ruzizi Plain",
+    "centre": [
+      -3.0883,
+      29.079
+    ],
+    "radius_km": 5,
+    "territory": "Uvira",
+    "site_ids": [
+      "ipis_codmine01342"
+    ],
+    "selection": "radius",
+    "selection_reason": "Source names Sange as the M23 South Kivu headquarters after Uvira. 5 km covers the town.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_ct_cwsr_2026_10_28",
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Radius is our inference. OSM node 801932696.",
+    "method": "Source names Sange as the M23 South Kivu headquarters after Uvira. 5 km covers the town."
+  },
+  {
+    "id": "area_lemera_uvira",
+    "name": "Lemera hills (Uvira territory)",
+    "centre": [
+      -3.0356,
+      28.9852
+    ],
+    "radius_km": 5,
+    "territory": "Uvira",
+    "site_ids": [
+      "ipis_codmine00973",
+      "ipis_codmine00974",
+      "ipis_codmine02878"
+    ],
+    "selection": "radius",
+    "selection_reason": "S/2026/466 annex 25 says the Lemera hills were occupied in March 2026. 5 km around the village.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Radius is our inference. Excluded: 03301 'Lemera' is on Idjwi island and is unrelated. OSM node 1160972442.",
+    "method": "S/2026/466 annex 25 says the Lemera hills were occupied in March 2026. 5 km around the village."
+  },
+  {
+    "id": "area_mikenge",
+    "name": "Mikenge, Hauts Plateaux",
+    "centre": null,
+    "radius_km": null,
+    "territory": "Mwenga",
+    "site_ids": [
+      "ipis_codmine00999",
+      "ipis_codmine01758"
+    ],
+    "selection": "names",
+    "selection_reason": "Named by S/2026/466 annex 25 and para 122. IPIS has sites of that name.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Minembwe itself has no IPIS site."
+  },
+  {
+    "id": "area_misisi_kachanga",
+    "name": "Kachanga, Misisi area (Fizi)",
+    "centre": null,
+    "radius_km": null,
+    "territory": "Fizi",
+    "site_ids": [
+      "ipis_codmine01181",
+      "ipis_codmine01296"
+    ],
+    "selection": "names",
+    "selection_reason": "S/2024/432 para 190 names Kachanga. IPIS has two sites with that name near Misisi.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2024_432",
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Fizi territory is not applied: the source says Yakutumba held 'most' gold mining, not all."
+  },
+  {
+    "id": "area_mongbwalu",
+    "name": "Mongbwalu gold sites",
+    "centre": null,
+    "radius_km": null,
+    "territory": "Djugu",
+    "site_ids": [
+      "ipis_codmine00116",
+      "ipis_codmine00117"
+    ],
+    "selection": "names",
+    "selection_reason": "S/2026/466 para 197 names Makala and Senzere.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Camp Blanquette, Kobu and Licei have no IPIS match. Excluded: 02128 'Bambu' is in Mambasa, a different place from the Djugu Bambu."
+  },
+  {
+    "id": "area_nizi",
+    "name": "Nizi",
+    "centre": null,
+    "radius_km": null,
+    "territory": "Djugu",
+    "site_ids": [
+      "ipis_codmine03688"
+    ],
+    "selection": "names",
+    "selection_reason": "S/2026/466 para 193 names Nizi.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446",
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Excluded: every IPIS 'Mabanga' is outside Djugu (Irumu, Lubero, Pangi), so none matches the UN Mabanga."
+  },
+  {
+    "id": "area_muchacha",
+    "name": "Muchacha mining site (Mambasa)",
+    "centre": null,
+    "radius_km": null,
+    "territory": "Mambasa",
+    "site_ids": [
+      "ipis_codmine02178",
+      "ipis_codmine04064"
+    ],
+    "selection": "names",
+    "selection_reason": "S/2026/466 para 21 and annex 9 name it.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "A raid, not a hold. Not to be confused with Muchacha near Rubaya."
+  },
+  {
+    "id": "area_kamituga",
+    "name": "Kamituga town",
+    "centre": [
+      -3.0649,
+      28.187
+    ],
+    "radius_km": 3,
+    "territory": "Mwenga",
+    "site_ids": [
+      "ipis_codmine00723",
+      "ipis_codmine00724",
+      "ipis_codmine00725",
+      "ipis_codmine00726",
+      "ipis_codmine00727",
+      "ipis_codmine00729",
+      "ipis_codmine00730",
+      "ipis_codmine00731",
+      "ipis_codmine00732",
+      "ipis_codmine00733",
+      "ipis_codmine00735",
+      "ipis_codmine00736",
+      "ipis_codmine00767",
+      "ipis_codmine00768",
+      "ipis_codmine00769",
+      "ipis_codmine00770",
+      "ipis_codmine00771",
+      "ipis_codmine00772",
+      "ipis_codmine01694",
+      "ipis_codmine01724",
+      "ipis_codmine01726",
+      "ipis_codmine02311",
+      "ipis_codmine02354",
+      "ipis_codmine03182",
+      "ipis_codmine03185"
+    ],
+    "selection": "radius",
+    "selection_reason": "Source names the gold town. Kept to 3 km because the belt around it is dense (29 sites within 5 km) and the source is a single article.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_actualite_kamituga_2026_07"
+    ],
+    "notes": "Radius is our inference. Mwenga sites only. OSM node 1110428358. No source read places M23 here; S/2025/858 annex 24 calls the Kamituga zone within reach of M23 positions.",
+    "method": "Source names the gold town. Kept to 3 km because the belt around it is dense (29 sites within 5 km) and the source is a single article."
+  }
+]

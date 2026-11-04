@@ -1,0 +1,275 @@
+[
+  {
+    "id": "ca_rani",
+    "actor_id": "act_rani",
+    "link": "strong",
+    "basis": "UN and GW both report Rubaya purchases by Rani from 2025, with invoices, assays and audio cited by the UN.",
+    "still_unknown": "Registry record unread; the role of Gilbert Kabano; whether Traxys shipments came from these lots.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari",
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_philbert",
+    "actor_id": "act_philbert",
+    "link": "strong",
+    "basis": "UN cites audio and documents for Rubaya purchases to Nov 2025, and two GW sources agree.",
+    "still_unknown": "Corporate record unread; the supplier chain.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari",
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_kanzamin",
+    "actor_id": "act_kanzamin",
+    "link": "strong",
+    "basis": "UN reports Masisi purchases and GW has four traders plus an employee on Rubaya; the UN names Nzaramba as part-owner.",
+    "still_unknown": "Full shareholding; whether Trading Logistics Services in customs data is the former name. No comment from Kanzamin.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari",
+      "src_un_goe_s2026_466",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_boss_mining",
+    "actor_id": "act_boss_mining",
+    "link": "strong",
+    "basis": "UN says it bought minerals smuggled to Rwanda and a trader told GW he sold it Rubaya coltan; Habimana told Reuters it never bought from Rubaya.",
+    "still_unknown": "Shareholding percentages; the Novacore ownership chain is GW-only for its Metarex to Novacore step.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari",
+      "src_un_goe_s2025_446",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_african_panther",
+    "actor_id": "act_african_panther",
+    "link": "moderate",
+    "basis": "Five traders told GW they sold it Rubaya coltan, but no UN naming was found in the reports read, and it denied earlier claims.",
+    "still_unknown": "S/2025/858 annexes and S/2024/432 not fully read; Rwandan registry record; whether the Uganda and Swiss firms are formally affiliated.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_sunrise",
+    "actor_id": "act_sunrise",
+    "link": "moderate",
+    "basis": "GW test call and ITSCI incidents point to smuggled supply; there is no UN naming or trader testimony.",
+    "still_unknown": "The two Chinese owners are unnamed in GW; RMA lists Chen Zhap as representative, unconfirmed as owner.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_space_mining",
+    "actor_id": "act_space_mining",
+    "link": "moderate",
+    "basis": "Two traders told GW they sold it Rubaya coltan and one alleged good relations with M23; GW is the only source.",
+    "still_unknown": "The two Chinese owners are unnamed; RMA lists Ma Kang as representative.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan",
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_east_group_minerals_ltd",
+    "actor_id": "act_east_group_minerals_ltd",
+    "link": "weak",
+    "basis": "ITSCI incidents may indicate smuggled supply, but no source says it bought from Rubaya or any armed group.",
+    "still_unknown": "Mine-level sourcing, which Minterra declined to disclose; East Group has not commented.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_rma_magazine_2024",
+      "src_sayari"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_hillside_mining_company_ltd",
+    "actor_id": "act_hillside_mining_company_ltd",
+    "link": "weak",
+    "basis": "Sudden 2025 growth and ITSCI incidents raise concern, but no source ties it to Rubaya or an armed group.",
+    "still_unknown": "Registry record; meaning of the single joint row with East Group.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_ets_munsad_minerals_ltd",
+    "actor_id": "act_ets_munsad_minerals_ltd",
+    "link": "none",
+    "basis": "No source alleges anything; only a shared buyer (Halcyon) and an RMA representative listing.",
+    "still_unknown": "Owners unknown. RMA lists Guy Nsanza Sheja as representative, role only.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "",
+    "method": "No UN, NGO or government source was found naming this company in connection with an armed group; customs and registry records only."
+  },
+  {
+    "id": "ca_tebuka_mineral_processing_ltd",
+    "actor_id": "act_tebuka_mineral_processing_ltd",
+    "link": "none",
+    "basis": "No source mentions it; the only tie is a shared buyer (Minterra).",
+    "still_unknown": "Identity rests on one name fragment; owners and country unconfirmed.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "",
+    "method": "No UN, NGO or government source was found naming this company in connection with an armed group; customs and registry records only."
+  },
+  {
+    "id": "ca_tawotin_ltd",
+    "actor_id": "act_tawotin_ltd",
+    "link": "weak",
+    "basis": "It sold to OFAC-designated East Rise and shipped jointly with designated WMP, but neither designation concerns Tawotin and it denies conflict sourcing.",
+    "still_unknown": "Huber beneficial ownership is alleged and denied; any evidence on Tawotin's own supply; three joint rows are thin.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_gw_2022",
+      "src_sayari",
+      "src_rma_magazine_2024"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_meta_trading_minerals_ltd",
+    "actor_id": "act_meta_trading_minerals_ltd",
+    "link": "none",
+    "basis": "One customs row of DRC-departing coltan names no mine or armed group.",
+    "still_unknown": "Owners, and whether the Rwanda arrival is genuine.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "",
+    "method": "No UN, NGO or government source was found naming this company in connection with an armed group; customs and registry records only."
+  },
+  {
+    "id": "ca_congo_ressources_mining_sarl",
+    "actor_id": "act_congo_ressources_mining_sarl",
+    "link": "none",
+    "basis": "Customs rows only; the Sayari flag is a rule-based risk label, not evidence of any armed-group tie.",
+    "still_unknown": "RCCM number, owners, and mine sources.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "",
+    "method": "No UN, NGO or government source was found naming this company in connection with an armed group; customs and registry records only."
+  },
+  {
+    "id": "ca_halcyon",
+    "actor_id": "act_halcyon",
+    "link": "moderate",
+    "basis": "GW alleges it bought conflict coltan from Kanzamin; Halcyon confirms that trade but denies Rubaya origin.",
+    "still_unknown": "Shareholders; GLEIF reports no parent; UAE register not reachable.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf",
+      "src_gw_2022"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_novacore",
+    "actor_id": "act_novacore",
+    "link": "moderate",
+    "basis": "GW says it bought most of Boss Mining's coltan, with shared owners; Novacore says it found no anomalies.",
+    "still_unknown": "The Metarex to Novacore ownership step is unconfirmed by any registry we could read.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_sayari",
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_minterra_fzc",
+    "actor_id": "act_minterra_fzc",
+    "link": "weak",
+    "basis": "It is East Group's main buyer and shares past personnel per GW, but nothing beyond ITSCI incidents ties that supply to conflict.",
+    "still_unknown": "Current owners, disputed directorship; Hamriyah register not tried.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_saiko_general_trading_llc_fz",
+    "actor_id": "act_saiko_general_trading_llc_fz",
+    "link": "none",
+    "basis": "No source mentions it; customs rows only, with Rani among its suppliers.",
+    "still_unknown": "Owners; GLEIF confirms a Dubai entity created 2024 with no reported parent.",
+    "evidence_tier": "inferred",
+    "source_ids": [
+      "src_sayari"
+    ],
+    "notes": "",
+    "method": "No UN, NGO or government source was found naming this company in connection with an armed group; customs and registry records only."
+  },
+  {
+    "id": "ca_3u_mining_supporters_ltd",
+    "actor_id": "act_3u_mining_supporters_ltd",
+    "link": "moderate",
+    "basis": "The UN names it as a Rubaya buyer on confidential documents and audio; there is no second source.",
+    "still_unknown": "Absent from Sayari; owners unknown.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ca_better_off_equipment_solutions",
+    "actor_id": "act_better_off_equipment_solutions",
+    "link": "weak",
+    "basis": "GW suggests it took over Sunrise's business, but no evidence shows it bought conflict minerals.",
+    "still_unknown": "Owners; whether the unknown number 122352760 is a tax ID.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf"
+    ],
+    "notes": ""
+  }
+]
