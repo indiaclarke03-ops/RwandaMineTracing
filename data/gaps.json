@@ -155,5 +155,35 @@
       "src_sg_mines_2025"
     ],
     "notes": ""
+  },
+  {
+    "id": "gap_device_content",
+    "layer": "supply_chain",
+    "title": "No reliable figure for tantalum in a phone or a car",
+    "detail": "Sources give gold per phone and laptop, tin in car electronics and tantalum per laptop (around 2010). No credible public source we read gives tantalum per smartphone or per car, or tin per phone or laptop, so the story shows those as gaps.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_ipis_hr_fields",
+    "layer": "impacts",
+    "title": "IPIS records children, women and forced labour, but we don't have those fields yet",
+    "detail": "IPIS's dictionary defines site-level fields for children under 15, women, forced labour, pillage and taxes by each armed group. They are in the full dataset IPIS distributes through a registration form, not in the webmap feed we used. With them, the map could show where children work and which groups force labour.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "gap_hr_scope",
+    "layer": "impacts",
+    "title": "Most human-rights totals are not mine-specific",
+    "detail": "UN figures for sexual violence, child recruitment and displacement cover eastern Congo as a whole. Only the Amnesty, UN Group of Experts and IPIS records cited at Rubaya, Lomera and other named sites are tied to mines.",
+    "source_ids": [
+      "src_project_notes"
+    ],
+    "notes": ""
   }
 ]

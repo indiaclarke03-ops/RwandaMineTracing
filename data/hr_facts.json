@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "hr_kill_amnesty_18",
+    "category": "killings",
+    "perpetrator": "M23",
+    "place": "Rubaya (Masisi, North Kivu) and Lomera (Kabare, South Kivu)",
+    "site_hint": "rubaya",
+    "date_or_period": "2025 - Mar 2026",
+    "value": 18,
+    "unit": "artisanal miners killed",
+    "summary": "Amnesty documented the summary killing of 18 artisanal miners by M23 fighters or mine security guards working with M23: 10 beaten to death, 2 shot at point-blank range, 6 abducted and later found dead.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "pp. 5, 16",
+    "notes": ""
+  },
+  {
+    "id": "hr_kill_amnesty_masisi_hc",
+    "category": "killings",
+    "perpetrator": "M23",
+    "place": "Masisi territory health centre (Rubaya area)",
+    "site_hint": "rubaya",
+    "date_or_period": "Jan - Mar 2026",
+    "value": 7,
+    "unit": "miners died of beating injuries",
+    "summary": "A health worker and a rights defender in Masisi told Amnesty that seven miners died at a health centre after being beaten by M23 fighters or their collaborators.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "p. 16",
+    "notes": ""
+  },
+  {
+    "id": "hr_kill_lomera_aug2025",
+    "category": "killings",
+    "perpetrator": "M23",
+    "place": "Lomera (Luhihi, Kabare, South Kivu)",
+    "site_hint": "lomera",
+    "date_or_period": "late Aug 2025",
+    "value": 1,
+    "unit": "miner killed",
+    "summary": "M23 killed a miner from Walungu at Lomera, which set off a miners' uprising in which M23 offices were destroyed; M23 suspended mining there on 30 Aug 2025.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026",
+      "src_un_goe_s2025_858"
+    ],
+    "paragraph_or_page": "Amnesty p. 15; S/2025/858 para 62",
+    "notes": ""
+  },
+  {
+    "id": "hr_kill_goe_summary_exec",
+    "category": "killings",
+    "perpetrator": "M23",
+    "place": "DRC (nationwide UN monitoring)",
+    "site_hint": null,
+    "date_or_period": "Apr - Oct 2025",
+    "value": 45,
+    "unit": "% of summary executions recorded nationwide attributed to AFC/M23",
+    "summary": "UN human-rights statistics given to the Group of Experts showed summary executions were the most frequently documented violation; AFC/M23 was the main perpetrator, with about 45% of them, and over 30% of all documented violations.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858"
+    ],
+    "paragraph_or_page": "para 80",
+    "notes": ""
+  },
+  {
+    "id": "hr_kill_goe_bwito",
+    "category": "killings",
+    "perpetrator": "RDF / M23",
+    "place": "Bwito chiefdom, Rutshuru (North Kivu)",
+    "site_hint": null,
+    "date_or_period": "Apr - Oct 2025",
+    "value": 300,
+    "unit": "civilians killed (over)",
+    "summary": "During joint RDF and AFC/M23 operations against FDLR-linked areas, UN and humanitarian sources reported over 300 civilians killed in Bwito alone, including through targeted executions. Context only: farming areas, not mines.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858"
+    ],
+    "paragraph_or_page": "para 38",
+    "notes": ""
+  },
+  {
+    "id": "hr_kill_goe_recruit_exec",
+    "category": "killings",
+    "perpetrator": "M23",
+    "place": "Rumangabo training camp (Rutshuru)",
+    "site_hint": null,
+    "date_or_period": "2025 - early 2026",
+    "value": null,
+    "unit": null,
+    "summary": "Former recruits told the Group of Experts of systematic torture and executions in AFC/M23 training camps, notably Rumangabo, including of conscripts who tried to desert.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_un_goe_s2025_858"
+    ],
+    "paragraph_or_page": "S/2026/466 para 66; S/2025/858 annex 8",
+    "notes": ""
+  },
+  {
+    "id": "hr_kill_wazalendo_exec",
+    "category": "killings",
+    "perpetrator": "Wazalendo / VDP",
+    "place": "North and South Kivu",
+    "site_hint": null,
+    "date_or_period": "2025",
+    "value": null,
+    "unit": null,
+    "summary": "The Group of Experts found VDP/Wazalendo groups carried out summary executions and targeted killings of people accused of colluding with AFC/M23, on a much smaller scale than AFC/M23 and RDF; ANCDH fighters were most often implicated in abuses.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858"
+    ],
+    "paragraph_or_page": "para 81",
+    "notes": ""
+  },
+  {
+    "id": "hr_kill_children_caac",
+    "category": "killings",
+    "perpetrator": "multiple",
+    "place": "DRC (nationwide)",
+    "site_hint": null,
+    "date_or_period": "2025",
+    "value": 918,
+    "unit": "children killed (519) or maimed (399)",
+    "summary": "The UN verified the killing or maiming of 918 children; M23 was attributed 404, CODECO 109, FARDC 100, Nyatura 66, FDLR-FOCA 15, Wazalendo 13.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_caac_s2026_357"
+    ],
+    "paragraph_or_page": "para 57",
+    "notes": ""
+  },
+  {
+    "id": "hr_fl_amnesty_underground",
+    "category": "forced_labour",
+    "perpetrator": "M23 and collaborating mine security guards",
+    "place": "Rubaya (Masisi, North Kivu)",
+    "site_hint": "rubaya",
+    "date_or_period": "2025 - 2026",
+    "value": 150,
+    "unit": "diggers in one tunnel (miner's estimate)",
+    "summary": "A Rubaya digger told Amnesty he worked a week underground with more than 150 others, sleeping about two hours a night on minimal food; when he asked to leave he was beaten by guards working with M23 and paid a fraction of the agreed wage.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "p. 22",
+    "notes": ""
+  },
+  {
+    "id": "hr_fl_amnesty_ransom",
+    "category": "forced_labour",
+    "perpetrator": "M23",
+    "place": "Rubaya and Lomera",
+    "site_hint": "rubaya",
+    "date_or_period": "2025 - 2026",
+    "value": null,
+    "unit": null,
+    "summary": "Amnesty found forced labour common at M23-controlled mines: detained miners who could not pay ransoms were made to dig for M23, and others were kept for days or weeks underground for little or no pay. One man who reported his brother's killing was made to dig for M23 for over two weeks.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "pp. 5-6, 22",
+    "notes": ""
+  },
+  {
+    "id": "hr_fl_amnesty_ndake",
+    "category": "forced_labour",
+    "perpetrator": "M23",
+    "place": "Rubaya (Masisi, North Kivu)",
+    "site_hint": "rubaya",
+    "date_or_period": "2025 - 2026",
+    "value": 20,
+    "unit": "miners held in a pit (more than)",
+    "summary": "Amnesty documented underground detention pits (ndake, about 1.5-2 m deep and covered); more than 20 Rubaya miners were held in one and beaten three times a day.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "p. 6",
+    "notes": ""
+  },
+  {
+    "id": "hr_fl_amnesty_torture",
+    "category": "forced_labour",
+    "perpetrator": "M23 and collaborating mine security guards",
+    "place": "Rubaya and Lomera",
+    "site_hint": "lomera",
+    "date_or_period": "2025 - 2026",
+    "value": 16,
+    "unit": "of 26 interviewees reported torture or ill-treatment",
+    "summary": "Sixteen of the 26 people Amnesty interviewed said M23 or its mine guards had tortured or ill-treated them, including beatings for asking for breaks or refusing to hand over ore.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "p. 5",
+    "notes": ""
+  },
+  {
+    "id": "hr_fl_zaire_salongo",
+    "category": "forced_labour",
+    "perpetrator": "Zaïre (Ituri militia)",
+    "place": "Mabanga (Mambisa, Djugu, Ituri)",
+    "site_hint": null,
+    "date_or_period": "2024 - 2025",
+    "value": null,
+    "unit": null,
+    "summary": "The Group of Experts found Zaïre commander Baraka Maki Amos imposed 'salongo' forced labour and illegal taxes in the Mabanga gold area, punishing non-compliance.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446"
+    ],
+    "paragraph_or_page": "para 165, annex 69",
+    "notes": ""
+  },
+  {
+    "id": "hr_cl_dol_list",
+    "category": "child_labour",
+    "perpetrator": "n/a",
+    "place": "DRC",
+    "site_hint": null,
+    "date_or_period": "2024 edition (current)",
+    "value": null,
+    "unit": null,
+    "summary": "The US Labor Department's TVPRA list names DRC cobalt, copper, diamonds, gold, coltan, cassiterite and wolframite as produced with child labour; gold, coltan, cassiterite and wolframite also with forced child labour and forced labour; cobalt also with forced labour.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_dol_tvpra_list_2024",
+      "src_dol_ilab_findings_drc_2024"
+    ],
+    "paragraph_or_page": "DRC goods panel",
+    "notes": ""
+  },
+  {
+    "id": "hr_cl_dol_kivus",
+    "category": "child_labour",
+    "perpetrator": "military officers / armed groups",
+    "place": "North and South Kivu",
+    "site_hint": null,
+    "date_or_period": "2024 edition",
+    "value": null,
+    "unit": null,
+    "summary": "DoL says children aged 5-17 are reported forced to work in coltan, cassiterite and wolframite mines in the Kivus, some in debt bondage with families, and that mines controlled by armed groups or military officers round up villagers to work. It gives 'thousands' for gold and 'hundreds' for wolframite, not counts.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_dol_tvpra_list_2024"
+    ],
+    "paragraph_or_page": "DRC coltan, tin, tungsten, gold rows",
+    "notes": ""
+  },
+  {
+    "id": "hr_cl_dol_findings",
+    "category": "child_labour",
+    "perpetrator": "n/a",
+    "place": "DRC",
+    "site_hint": null,
+    "date_or_period": "2024 reporting period",
+    "value": 17.4,
+    "unit": "% of children aged 5-14 working (all sectors)",
+    "summary": "DoL's 2024 Findings list forced mining of gold, coltan, cassiterite and wolframite and use of children in mineral smuggling among the worst forms of child labour in the DRC; 17.4% of children aged 5-14 work (all sectors, not mining only).",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_dol_ilab_findings_drc_2024"
+    ],
+    "paragraph_or_page": "statistics table; sector table",
+    "notes": ""
+  },
+  {
+    "id": "hr_cl_dol_rwanda",
+    "category": "child_labour",
+    "perpetrator": "n/a",
+    "place": "Rwanda",
+    "site_hint": null,
+    "date_or_period": "2024 reporting period",
+    "value": 3.2,
+    "unit": "% of working children aged 5-14 in industry (incl. mining)",
+    "summary": "DoL's Rwanda Findings say children do dangerous tasks in informal mining, including carrying heavy loads, and list forced labour in mining among categorical worst forms; industry, which includes mining and construction, accounts for 3.2% of working children aged 5-14.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_dol_ilab_findings_rwanda_2024"
+    ],
+    "paragraph_or_page": "sector tables",
+    "notes": ""
+  },
+  {
+    "id": "hr_cl_rubaya_landslide_children",
+    "category": "child_labour",
+    "perpetrator": "n/a",
+    "place": "Rubaya",
+    "site_hint": "rubaya",
+    "date_or_period": "3 Mar 2026",
+    "value": 70,
+    "unit": "children among the dead (about)",
+    "summary": "The DRC Ministry of Mines said about 70 minors were among more than 200 dead in the 3 Mar 2026 Rubaya collapse, which shows children were working at the site. Already in seed (TV5MONDE/Mongabay).",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_tv5_rubaya_2026_03_05",
+      "src_deskeco_chronology_2026_03"
+    ],
+    "paragraph_or_page": "seed imp rows",
+    "notes": ""
+  },
+  {
+    "id": "hr_sv_un_2025_victims",
+    "category": "sexual_violence",
+    "perpetrator": "multiple (M23 first)",
+    "place": "Eastern DRC (North Kivu 676, South Kivu 537, Ituri 300 victims)",
+    "site_hint": null,
+    "date_or_period": "2025",
+    "value": 1534,
+    "unit": "CRSV victims verified by the UN",
+    "summary": "The UN verified 887 CRSV cases affecting 1,534 victims in eastern DRC in 2025 (854 women, 672 girls, 4 men, 4 boys), up 59% on cases from 2024. Armed groups were responsible for 75% of victims (M23 first, then CODECO, Wazalendo, Mai-Mai) and state agents for 19% (FARDC first).",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466",
+      "src_un_sg_crsv_s2026_321"
+    ],
+    "paragraph_or_page": "S/2026/466 annex 4 para 3; S/2026/321 para 29",
+    "notes": ""
+  },
+  {
+    "id": "hr_sv_m23_cases",
+    "category": "sexual_violence",
+    "perpetrator": "M23",
+    "place": "North and South Kivu",
+    "site_hint": null,
+    "date_or_period": "2024 - 2025",
+    "value": 439,
+    "unit": "documented cases implicating M23 in 2025 (152 in 2024)",
+    "summary": "The Secretary-General reports that cases implicating M23, including rape, gang rape and sexual slavery, rose from 152 in 2024 to 439 in 2025, often against people seen as linked to FARDC or Wazalendo.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_crsv_s2026_321"
+    ],
+    "paragraph_or_page": "para 30",
+    "notes": ""
+  },
+  {
+    "id": "hr_sv_fardc_cases",
+    "category": "sexual_violence",
+    "perpetrator": "FARDC",
+    "place": "Ituri, South Kivu",
+    "site_hint": null,
+    "date_or_period": "2025",
+    "value": 285,
+    "unit": "cases implicating FARDC",
+    "summary": "Of 305 cases attributed to state actors in 2025, 285 implicated the FARDC, 60% more than in 2024, including rape during looting as troops withdrew in South Kivu.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_crsv_s2026_321"
+    ],
+    "paragraph_or_page": "para 29",
+    "notes": ""
+  },
+  {
+    "id": "hr_sv_wazalendo_cases",
+    "category": "sexual_violence",
+    "perpetrator": "Wazalendo",
+    "place": "North and South Kivu",
+    "site_hint": null,
+    "date_or_period": "2025",
+    "value": 77,
+    "unit": "victims (60 women, 17 girls)",
+    "summary": "Sexual violence against 60 women and 17 girls in the Kivus was attributed to groups operating under the Wazalendo label; the Group of Experts also verified a sharp rise in CRSV in government- and Wazalendo-held South Kivu.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_crsv_s2026_321",
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "S/2026/321 para 30; S/2026/466 annex 4 para 1",
+    "notes": ""
+  },
+  {
+    "id": "hr_sv_service_providers",
+    "category": "sexual_violence",
+    "perpetrator": "mainly armed actors",
+    "place": "North Kivu, South Kivu, Ituri, Maniema, Tanganyika",
+    "site_hint": null,
+    "date_or_period": "Jan - Sep 2025",
+    "value": 90199,
+    "unit": "sexual-violence cases registered by service providers",
+    "summary": "Service providers registered 90,199 sexual-violence cases in five eastern provinces in Jan-Sep 2025, mainly by armed actors. These are care records, not UN-verified cases.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_crsv_s2026_321"
+    ],
+    "paragraph_or_page": "para 28",
+    "notes": ""
+  },
+  {
+    "id": "hr_sv_children",
+    "category": "sexual_violence",
+    "perpetrator": "multiple",
+    "place": "DRC (nationwide)",
+    "site_hint": null,
+    "date_or_period": "2025",
+    "value": 592,
+    "unit": "children (589 girls, 3 boys)",
+    "summary": "The UN verified sexual violence against 592 children; FARDC was attributed 147, M23 124, CODECO 69, Nyatura 38, Mai-Mai Yakotumba 23.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_caac_s2026_357"
+    ],
+    "paragraph_or_page": "para 58",
+    "notes": ""
+  },
+  {
+    "id": "hr_sv_m23_obstruction",
+    "category": "sexual_violence",
+    "perpetrator": "M23",
+    "place": "North Kivu (M23-held)",
+    "site_hint": null,
+    "date_or_period": "late 2025 - 2026",
+    "value": null,
+    "unit": null,
+    "summary": "The Group of Experts found AFC/M23 inspectors sought aggregate and patient-level sexual-violence data from health facilities and called published figures invented, which may deter survivors and cut recorded cases in 2026.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "annex 5",
+    "notes": ""
+  },
+  {
+    "id": "hr_rec_rubaya_300",
+    "category": "forced_recruitment",
+    "perpetrator": "M23",
+    "place": "Rubaya (Masisi, North Kivu)",
+    "site_hint": "rubaya",
+    "date_or_period": "before 3 Jul 2025",
+    "value": 300,
+    "unit": "young men incl. minors taken (more than)",
+    "summary": "The DRC human rights minister said more than 300 young men, including minors, were seized in Rubaya and taken to an unknown destination; the Group of Experts says local sources, civil society and eyewitnesses confirmed the incident.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858"
+    ],
+    "paragraph_or_page": "annex 8",
+    "notes": ""
+  },
+  {
+    "id": "hr_rec_amnesty_mines",
+    "category": "forced_recruitment",
+    "perpetrator": "M23",
+    "place": "Rubaya, Lomera, Ngungu",
+    "site_hint": "lomera",
+    "date_or_period": "2025 - 2026",
+    "value": 7,
+    "unit": "miners interviewed who described recruitment threats",
+    "summary": "Seven miners told Amnesty that M23 detained miners and threatened to send them to the Rumangabo or Tchanzou training camps unless ransoms were paid; one saw M23 trucks leave Lomera full of miners heading to camps.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "pp. 6, 22",
+    "notes": ""
+  },
+  {
+    "id": "hr_rec_walikale_80",
+    "category": "forced_recruitment",
+    "perpetrator": "M23",
+    "place": "Walikale (near Rutshuru border)",
+    "site_hint": "walikale",
+    "date_or_period": "26 May 2025",
+    "value": 80,
+    "unit": "young men rounded up (about)",
+    "summary": "During a cordon-and-search, AFC/M23 seized about 80 young men suspected of Wazalendo links, put them in AFC/M23 uniforms and sent them to the front as human shields, per the Group of Experts.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858"
+    ],
+    "paragraph_or_page": "annex 8",
+    "notes": ""
+  },
+  {
+    "id": "hr_rec_caac_2025",
+    "category": "forced_recruitment",
+    "perpetrator": "multiple",
+    "place": "DRC (nationwide)",
+    "site_hint": null,
+    "date_or_period": "2025",
+    "value": 1397,
+    "unit": "children recruited and used",
+    "summary": "The UN verified 1,397 children recruited and used; M23 142, Wazalendo 34, Nyatura 84, Raia Mutomboki 79, NDC-R 9, APCLS 7, FARDC 1, plus many Mai-Mai groups; 1,067 children were abducted, 570 by M23.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_caac_s2026_357"
+    ],
+    "paragraph_or_page": "paras 55, 61",
+    "notes": ""
+  },
+  {
+    "id": "hr_rec_dol_m23",
+    "category": "forced_recruitment",
+    "perpetrator": "M23; FARDC-backed groups",
+    "place": "Eastern DRC",
+    "site_hint": null,
+    "date_or_period": "2024",
+    "value": 2365,
+    "unit": "children recruited and used (UN-verified, per DoL)",
+    "summary": "DoL reports M23 recruited children with false job offers, trained them in Rwanda and Uganda and sent them into combat; it also says FARDC supported FDLR, APCLS, NDC-R and other Wazalendo groups that recruited children.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_dol_ilab_findings_drc_2024"
+    ],
+    "paragraph_or_page": "Overview",
+    "notes": ""
+  },
+  {
+    "id": "hr_disp_goe_mar2026",
+    "category": "displacement",
+    "perpetrator": "multiple",
+    "place": "Ituri, North Kivu, South Kivu",
+    "site_hint": null,
+    "date_or_period": "Mar 2026",
+    "value": 3400000,
+    "unit": "internally displaced persons",
+    "summary": "The Group of Experts, citing OCHA key figures for 31 Mar 2026, reports 3.4 million IDPs across Ituri and North and South Kivu.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "para 9",
+    "notes": ""
+  },
+  {
+    "id": "hr_disp_masisi_2025",
+    "category": "displacement",
+    "perpetrator": "FARDC & allies vs AFC/M23 & RDF",
+    "place": "Masisi territory (includes Rubaya)",
+    "site_hint": "rubaya",
+    "date_or_period": "1 Jan - early 2025",
+    "value": 100000,
+    "unit": "newly displaced (more than)",
+    "summary": "More than 100,000 people were newly displaced within Masisi in early 2025 by fighting between FARDC and allies and AFC/M23 and RDF.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446"
+    ],
+    "paragraph_or_page": "humanitarian annex",
+    "notes": ""
+  },
+  {
+    "id": "hr_disp_lomera_evictions",
+    "category": "displacement",
+    "perpetrator": "M23",
+    "place": "Lomera (Luhihi, Kabare)",
+    "site_hint": "lomera",
+    "date_or_period": "Mar 2026",
+    "value": null,
+    "unit": null,
+    "summary": "M23 told residents not originally from the area to leave the Lomera site in March 2026 and then demolished their structures; satellite imagery from June 2026 shows many structures gone.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "p. 15",
+    "notes": ""
+  },
+  {
+    "id": "hr_disp_bisie",
+    "category": "displacement",
+    "perpetrator": "AFC/M23 advance",
+    "place": "Bisie, Walikale (Alphamin tin mine)",
+    "site_hint": "walikale",
+    "date_or_period": "13 Mar - mid-Apr 2025",
+    "value": null,
+    "unit": null,
+    "summary": "Alphamin's Bisie tin mine suspended operations from 13 March to mid-April 2025 as AFC/M23 advanced on Walikale; resumption coincided with the withdrawal.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446"
+    ],
+    "paragraph_or_page": "para 109",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_rubaya_perkg",
+    "category": "extortion",
+    "perpetrator": "M23",
+    "place": "Rubaya, Mubambiro checkpoint",
+    "site_hint": "rubaya",
+    "date_or_period": "2025 - 2026",
+    "value": 4,
+    "unit": "USD per kg coltan (USD 2 per kg cassiterite)",
+    "summary": "AFC/M23 levies a per-kilogram tax at sale, about $4/kg for coltan and $2/kg for cassiterite, and invoices it in Rubaya and Mubambiro; transporters pay after delivery into an Equity Bank account of its provincial finance coordinator.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "paras 214, 217; annexes 68-69",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_rubaya_fees",
+    "category": "extortion",
+    "perpetrator": "M23",
+    "place": "Rubaya / Masisi and Kalehe",
+    "site_hint": "rubaya",
+    "date_or_period": "2024 - 2026",
+    "value": 25,
+    "unit": "USD per year artisanal miner licence (traders USD 250)",
+    "summary": "AFC/M23 charges artisanal miners $25 a year and local traders $250, plus FC 500 a day for day labourers, transporters and petty traders to enter the site.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "annex 68",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_rubaya_rwanda",
+    "category": "extortion",
+    "perpetrator": "M23",
+    "place": "Rubaya to Rwanda",
+    "site_hint": "rubaya",
+    "date_or_period": "2025 - 2026",
+    "value": 3,
+    "unit": "USD per kg coltan said to go to the Rwandan government (plus USD 4 to M23)",
+    "summary": "Amnesty reports that traders pay $4/kg to M23 and $3/kg to the Rwandan government on coltan, citing UN and Global Witness work.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "p. 24",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_lomera_30pct",
+    "category": "extortion",
+    "perpetrator": "M23",
+    "place": "Lomera (Luhihi, Kabare)",
+    "site_hint": "lomera",
+    "date_or_period": "mid-Feb - Aug 2025",
+    "value": 30,
+    "unit": "% production tax on ore sale price at pit",
+    "summary": "After taking Lomera in mid-February 2025, AFC/M23 set up its own 'mining office' and imposed a 30% production tax on the pit-level sale price, plus fees on crushers and other actors. Over 5,000 artisanal miners worked there in early 2025.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858",
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "S/2025/858 paras 59-61; Amnesty p. 14",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_amnesty_ransom",
+    "category": "extortion",
+    "perpetrator": "M23",
+    "place": "Rubaya and Lomera",
+    "site_hint": "rubaya",
+    "date_or_period": "2025 - 2026",
+    "value": 25.43,
+    "unit": "USD collected as a ransom in one case",
+    "summary": "Amnesty records ransom payments of around $25-$46 demanded for the release of detained miners.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "pp. 17, 21",
+    "notes": ""
+  },
+  {
+    "id": "hr_pay_rubaya_wage",
+    "category": "extortion",
+    "perpetrator": "mineshaft boss collaborating with M23",
+    "place": "Rubaya",
+    "site_hint": "rubaya",
+    "date_or_period": "2025 - 2026",
+    "value": 30,
+    "unit": "USD agreed for one week underground (paid about USD 4.31)",
+    "summary": "One Rubaya digger was promised 70,000 Congolese francs (a little over $30) for a week of work; after a beating he was given 10,000 francs ($4.31).",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "paragraph_or_page": "p. 22",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_cnpsc_courts",
+    "category": "extortion",
+    "perpetrator": "Wazalendo (CNPSC coalition)",
+    "place": "Fizi territory incl. Misisi and Ngoma (South Kivu)",
+    "site_hint": null,
+    "date_or_period": "2023 - 2026",
+    "value": 5000000,
+    "unit": "Congolese francs maximum fine for release (from 2,000,000)",
+    "summary": "The Wazalendo coalition CNPSC runs a parallel tax system and courts mainly for mining disputes, with detention; former detainees said release depended on fines of FC 2-5 million. It has issued closure orders for mining sites.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "paras 124-125, annexes 37-38",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_wazalendo_roadblocks",
+    "category": "extortion",
+    "perpetrator": "Wazalendo",
+    "place": "Uvira, Fizi, Mwenga (South Kivu)",
+    "site_hint": null,
+    "date_or_period": "2025",
+    "value": null,
+    "unit": null,
+    "summary": "Wazalendo groups run an expanding roadblock network in South Kivu where civilians must pay high fees and face extortion, sexual violence and summary execution. Wazalendo factions fought each other over illegal taxation revenue in Uvira by Dec 2025.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858",
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "S/2025/858 para 82; S/2026/466 para 112",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_codeco_djugu",
+    "category": "extortion",
+    "perpetrator": "CODECO",
+    "place": "Mongbwalu, Kobu, Bambu, Licei (Djugu, Ituri)",
+    "site_hint": null,
+    "date_or_period": "2025 - 2026",
+    "value": null,
+    "unit": null,
+    "summary": "CODECO-URDPC extorts thousands of dollars a month from semi-mechanised gold operators, taxes miners and runs protection rackets; artisanal miners around Mabanga pay Zaïre and then CRP/FRP.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "paragraph_or_page": "paras 197-198",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_zaire_mabanga",
+    "category": "extortion",
+    "perpetrator": "Zaïre (Ituri militia)",
+    "place": "Mabanga (Djugu, Ituri)",
+    "site_hint": null,
+    "date_or_period": "2024 - 2025",
+    "value": 3000,
+    "unit": "USD per month per cooperative",
+    "summary": "Zaïre commander Baraka Maki Amos imposed monthly fees of $3,000 on gold cooperatives in Mabanga.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_446"
+    ],
+    "paragraph_or_page": "para 164",
+    "notes": ""
+  },
+  {
+    "id": "hr_fl_treasury",
+    "category": "forced_labour",
+    "perpetrator": "M23",
+    "place": "M23-controlled mining areas incl. Rubaya and South Kivu gold mines",
+    "site_hint": "rubaya",
+    "date_or_period": "2025 - Oct 2026",
+    "value": null,
+    "unit": null,
+    "summary": "In its 28 Oct 2026 designation of Rwanda's defence ministry and Zigama, the US Treasury stated that civilians in M23-held mining areas face forced labour, dangerous working conditions and illegal 'taxation'. The designation targets the MoD and Zigama; the forced-labour statement is Treasury's finding in that action.",
+    "evidence_tier": "designated",
+    "source_ids": [
+      "src_treasury_sb0668"
+    ],
+    "paragraph_or_page": "press release",
+    "notes": ""
+  },
+  {
+    "id": "hr_fl_hrw_camps",
+    "category": "forced_labour",
+    "perpetrator": "M23 / RDF",
+    "place": "Rumangabo and Tshanzu camps (Rutshuru, North Kivu)",
+    "site_hint": null,
+    "date_or_period": "mid-2024 - Dec 2025",
+    "value": null,
+    "unit": null,
+    "summary": "HRW found thousands of forcibly recruited men, and some women and children, were made to do hard labour (digging, clearing roads, cutting wood, carrying supplies) at M23 training camps; former detainees described frequent deaths and executions of those who tried to flee.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_hrw_death_was_everywhere_2026"
+    ],
+    "paragraph_or_page": "camp conditions; mass killings",
+    "notes": ""
+  },
+  {
+    "id": "hr_fl_codeco",
+    "category": "forced_labour",
+    "perpetrator": "CODECO",
+    "place": "Ituri",
+    "site_hint": null,
+    "date_or_period": "Dec 2025 - Mar 2026",
+    "value": 158,
+    "unit": "victims of 19 abuses (112 women, 30 men, 16 children), most forced labour",
+    "summary": "MONUSCO attributed 19 abuses against 158 people in Ituri to CODECO in this period, most of the victims subjected to forced labour. Not stated to be at mines.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_monusco_s2026_208"
+    ],
+    "paragraph_or_page": "para 28",
+    "notes": ""
+  },
+  {
+    "id": "hr_rec_hrw_rubaya",
+    "category": "forced_recruitment",
+    "perpetrator": "M23",
+    "place": "Rubaya and villages in Masisi, Nyiragongo, Rutshuru",
+    "site_hint": "rubaya",
+    "date_or_period": "2024 - Dec 2025",
+    "value": null,
+    "unit": null,
+    "summary": "HRW found M23 made village and household-cluster leaders supply lists of men, sometimes ten a week; in Rubaya fighters took a leader's son when they could not find him. Recruits included children as young as 12.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_hrw_death_was_everywhere_2026"
+    ],
+    "paragraph_or_page": "recruitment section; news release",
+    "notes": ""
+  },
+  {
+    "id": "hr_disp_dtm_jul2026",
+    "category": "displacement",
+    "perpetrator": "multiple",
+    "place": "North Kivu 1,166,859; South Kivu 1,094,130; Ituri 1,011,568; Tanganyika 270,358",
+    "site_hint": null,
+    "date_or_period": "27 May - 10 Jul 2026",
+    "value": 3542915,
+    "unit": "IDPs in four eastern provinces",
+    "summary": "IOM DTM counted 3.54 million IDPs in the four eastern provinces (67% of 5.29 million nationally). South Kivu fell 11% from 1,232,251 in the previous round; North Kivu stayed flat. Returnees: 1.75 million in North Kivu, 1.15 million in South Kivu.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_iom_dtm_drc_jul2026"
+    ],
+    "paragraph_or_page": "province table",
+    "notes": ""
+  },
+  {
+    "id": "hr_unsafe_lomera_2025_07",
+    "category": "unsafe_conditions",
+    "perpetrator": "n/a (M23 accused of ignoring safety rules)",
+    "place": "Lomera (Luhihi, Kabare, South Kivu)",
+    "site_hint": "lomera",
+    "date_or_period": "19-20 Jul 2025",
+    "value": 10,
+    "unit": "bodies recovered (at least); local sources said over 50",
+    "summary": "A cascade of landslides buried about ten gold pits at Lomera. Radio Okapi reported at least 10 bodies recovered; Mines.cd cited local sources saying over 50 died, including children and pregnant women, among about 100 diggers. Civil society blamed M23 for ignoring mining-code safety rules. No official toll.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_radiookapi_lomera_2025_07_20",
+      "src_minescd_lomera_2025_07"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "hr_unsafe_rubaya_2025_06",
+    "category": "unsafe_conditions",
+    "perpetrator": "n/a",
+    "place": "Rubaya (Masisi)",
+    "site_hint": "rubaya",
+    "date_or_period": "Jun 2025",
+    "value": 17,
+    "unit": "deaths (conflicting: 17 / >300 / >700)",
+    "summary": "A June 2025 landslide at a Rubaya site was reported with widely conflicting tolls: 17 dead including women and children (Mines.cd), over 300 (Peace News Network), over 700 (DeskEco, citing local sources). Treat as unverified; no official figure found.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_minescd_lomera_2025_07",
+      "src_deskeco_chronology_2026_03",
+      "src_pnn_rubaya_2026_02"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "hr_unsafe_rubaya_2026_01_hrw",
+    "category": "unsafe_conditions",
+    "perpetrator": "n/a",
+    "place": "Luwowo site, Rubaya",
+    "site_hint": "rubaya",
+    "date_or_period": "28 Jan 2026",
+    "value": 200,
+    "unit": "deaths (more than)",
+    "summary": "HRW reports the 28 Jan 2026 landslide at the M23-controlled Rubaya coltan mine killed more than 200 people, including women and children, many buried alive after rain collapsed artisanal shafts. Toll already in seed from BBC and others.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_hrw_end_abuses_2026_02",
+      "src_bbc_rubaya_2026_01"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "hr_unsafe_rubaya_2026_03_07",
+    "category": "unsafe_conditions",
+    "perpetrator": "n/a",
+    "place": "Gakombe site, Rubaya",
+    "site_hint": "rubaya",
+    "date_or_period": "7 Mar 2026",
+    "value": null,
+    "unit": "several deaths (no toll)",
+    "summary": "Another collapse was reported at the Gakombe site in Rubaya four days after the 3 Mar disaster, burying several diggers; there was no official toll.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_deskeco_chronology_2026_03"
+    ],
+    "paragraph_or_page": null,
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_ipis_fardc_sites",
+    "category": "extortion",
+    "perpetrator": "FARDC",
+    "place": "Eastern DRC (829 sites)",
+    "site_hint": null,
+    "date_or_period": "2021 - 2023",
+    "value": 37,
+    "unit": "% of mining sites with FARDC interference (42% of miners)",
+    "summary": "IPIS found the FARDC interfered at 37% of 829 visited mining sites (employing 42% of miners), more than non-state armed groups (29%). Overall, 52% of sites and 61% of miners were affected by armed interference.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ipis_2023_update"
+    ],
+    "paragraph_or_page": "pp. 6, 17-18",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_ipis_shabunda",
+    "category": "extortion",
+    "perpetrator": "FARDC and PNC",
+    "place": "Shabunda territory (South Kivu)",
+    "site_hint": null,
+    "date_or_period": "2021 - 2023",
+    "value": 65,
+    "unit": "% of Shabunda sites illegally taxed by FARDC/PNC (90 of 139)",
+    "summary": "In Shabunda, 90 of 139 sites (86% of miners) paid illegal taxes to FARDC and police. Soldiers took about $30 a week per dredge plus about $0.50 a week per miner, and FARDC roadblocks on the Kamituga road charged travellers about $0.50 each.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ipis_2023_update"
+    ],
+    "paragraph_or_page": "p. 24",
+    "notes": ""
+  },
+  {
+    "id": "hr_tax_ipis_roadblocks",
+    "category": "extortion",
+    "perpetrator": "FARDC (and others)",
+    "place": "Masisi and Walikale (North Kivu)",
+    "site_hint": "walikale",
+    "date_or_period": "2023",
+    "value": 110,
+    "unit": "roadblocks mapped (FARDC operated 48, 44%)",
+    "summary": "A 2023 IPIS/DIIS/ASSODIP study mapped 110 roadblocks in Masisi (84) and Walikale (26); the FARDC ran 48 of them, and 16% sat on roads mainly used for mineral transport.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ipis_2023_update"
+    ],
+    "paragraph_or_page": "p. 22",
+    "notes": ""
+  },
+  {
+    "id": "hr_other_monusco_wazalendo",
+    "category": "other",
+    "perpetrator": "Wazalendo",
+    "place": "DRC (mainly North and South Kivu)",
+    "site_hint": null,
+    "date_or_period": "Dec 2025 - Mar 2026",
+    "value": 221,
+    "unit": "abuses attributed to Wazalendo (M23: 503)",
+    "summary": "UN human-rights monitors attributed 221 abuses against 573 victims to Wazalendo, second only to AFC/M23 (503 abuses against 1,648 victims), out of 1,555 violations nationwide. Not mine-specific.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_monusco_s2026_208"
+    ],
+    "paragraph_or_page": "para 27",
+    "notes": ""
+  },
+  {
+    "id": "hr_sv_amnesty_2025_wazalendo",
+    "category": "sexual_violence",
+    "perpetrator": "Wazalendo; FARDC; M23",
+    "place": "Masisi (North Kivu), Kabare (South Kivu), Goma, Bukavu",
+    "site_hint": null,
+    "date_or_period": "Feb - May 2025",
+    "value": 5,
+    "unit": "survivors of gang rape by Wazalendo interviewed (8 by M23)",
+    "summary": "Amnesty interviewed 14 gang-rape survivors: 8 attributed to M23, 5 to Wazalendo (4 in Masisi, 1 in Kabare), and others to FARDC. Not mine-specific.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_0145_2025"
+    ],
+    "paragraph_or_page": "pp. 3-4",
+    "notes": ""
+  },
+  {
+    "id": "hr_cl_ipis_mambasa",
+    "category": "child_labour",
+    "perpetrator": "n/a",
+    "place": "Western Mambasa (Ituri) gold sites",
+    "site_hint": null,
+    "date_or_period": "Jun - Jul 2022",
+    "value": 8,
+    "unit": "% of artisanal labour force aged under 15 (about 1,098 children)",
+    "summary": "At 41 gold sites in western Mambasa, IPIS found children under 15 working at 51% of sites, about 1,098 children or 8% of workers; counting indirect work, child labour was present at 70% of sites. Tasks included digging pits and handling mercury. Women were 3% of the workforce.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ipis_mambasa_2023"
+    ],
+    "paragraph_or_page": "exec. summary; 2.3",
+    "notes": ""
+  }
+]

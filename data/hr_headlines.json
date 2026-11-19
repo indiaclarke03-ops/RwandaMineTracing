@@ -1,0 +1,145 @@
+[
+  {
+    "id": "hh_0",
+    "category": "killings",
+    "value": 18,
+    "unit": "",
+    "label": "miners killed by M23 or its mine guards at Rubaya and Lomera (2025 – Mar 2026)",
+    "period": "2025 - Mar 2026",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "notes": "Minimum documented; Amnesty could not confirm other reported deaths."
+  },
+  {
+    "id": "hh_1",
+    "category": "extortion",
+    "value": 4,
+    "unit": "US$/kg",
+    "label": "M23 tax on Rubaya coltan, per kg at the point of sale",
+    "period": "2025 - 2026",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "Cassiterite USD 2/kg. Amnesty adds USD 3/kg said to go to the Rwandan government."
+  },
+  {
+    "id": "hh_2",
+    "category": "extortion",
+    "value": 30,
+    "unit": "%",
+    "label": "M23 production tax on ore at Lomera's gold pits",
+    "period": "Feb - Aug 2025",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "hh_3",
+    "category": "sexual_violence",
+    "value": 1534,
+    "unit": "",
+    "label": "victims of conflict-related sexual violence verified by the UN in eastern Congo in 2025 (all settings, not only mines)",
+    "period": "2025",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "notes": "887 cases. S/2026/321 calls the 1,534 'cases'; GoE annex 4 says 887 cases affecting 1,534 victims. M23 first, FARDC first among state actors."
+  },
+  {
+    "id": "hh_4",
+    "category": "sexual_violence",
+    "value": 439,
+    "unit": "",
+    "label": "sexual-violence cases implicating M23 in 2025 (all settings)",
+    "period": "2025",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_crsv_s2026_321"
+    ],
+    "notes": "152 in 2024."
+  },
+  {
+    "id": "hh_5",
+    "category": "forced_recruitment",
+    "value": 1397,
+    "unit": "",
+    "label": "children recruited and used by armed groups across Congo in 2025, verified by the UN (all groups)",
+    "period": "2025",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_sg_caac_s2026_357"
+    ],
+    "notes": "M23 142; Wazalendo 34; many Mai-Mai groups."
+  },
+  {
+    "id": "hh_6",
+    "category": "forced_recruitment",
+    "value": 300,
+    "unit": "",
+    "label": "young men, including minors, seized in Rubaya in mid-2025",
+    "period": "before 3 Jul 2025",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_un_goe_s2025_858"
+    ],
+    "notes": "DRC human rights minister's figure, confirmed by GoE sources."
+  },
+  {
+    "id": "hh_7",
+    "category": "displacement",
+    "value": 3542915,
+    "unit": "",
+    "label": "people displaced in Ituri, North Kivu, South Kivu and Tanganyika (May–Jul 2026)",
+    "period": "May - Jul 2026",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_iom_dtm_drc_jul2026"
+    ],
+    "notes": "North Kivu 1,166,859; South Kivu 1,094,130."
+  },
+  {
+    "id": "hh_8",
+    "category": "unsafe_conditions",
+    "value": 70,
+    "unit": "",
+    "label": "children among the dead in the 3 March 2026 Rubaya collapse",
+    "period": "3 Mar 2026",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_tv5_rubaya_2026_03_05"
+    ],
+    "notes": "DRC Ministry of Mines figure; >200 total dead."
+  },
+  {
+    "id": "hh_9",
+    "category": "extortion",
+    "value": 37,
+    "unit": "%",
+    "label": "of 829 surveyed sites where the Congolese army interfered (2021–23)",
+    "period": "2021 - 2023",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ipis_2023_update"
+    ],
+    "notes": "Non-state armed groups 29%. Pre-dates 2024-25 M23 expansion."
+  },
+  {
+    "id": "hh_10",
+    "category": "extortion",
+    "value": 30,
+    "unit": "US$",
+    "label": "promised for a week underground at Rubaya; the miner was paid US$4.31",
+    "period": "2025 - 2026",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "notes": "Single testimony; illustrative, not an average wage."
+  }
+]

@@ -505,6 +505,10 @@
       <h3>Control history</h3><ul class="dr-timeline">${claimHtml}</ul>
       ${atSite.length ? `<h3>Located here</h3><ul>${atSite.map((a) => `<li>${actorLine(a)}</li>`).join("")}</ul>` : ""}
       ${impactHtml ? `<h3>Impacts</h3><ul>${impactHtml}</ul>` : ""}
+      ${(() => { const hint = id.replace(/^site_/, ""); const hr = (G.DB.hr_facts || []).filter((f) => f.site_hint === hint);
+        return hr.length ? `<h3>Human rights (${hr.length})</h3><ul>${hr.map((f) => `<li><div class="small">${esc(f.summary)}</div>
+          <div class="claim-meta">${badge(f.evidence_tier)}<span>${esc(f.category.replace(/_/g, " "))} · ${esc(f.date_or_period || "")}${f.perpetrator && !/^n\/a/.test(f.perpetrator) ? " · " + esc(f.perpetrator) : ""}</span></div>
+          <div class="cite">${cites(f.source_ids, f.paragraph_or_page)}</div>${denialsFor(f.id)}</li>`).join("")}</ul>` : ""; })()}
       ${flowHtml ? `<details class="dr-flows"><summary>Mineral flows (${flows.length})</summary><ul>${flowHtml}</ul></details>` : ""}
       ${s.notes ? `<p class="small muted">${esc(s.notes)}</p>` : ""}
       <div class="cite">Location: ${cites(s.source_ids)}</div>`;

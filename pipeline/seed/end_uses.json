@@ -1,0 +1,361 @@
+[
+  {
+    "id": "eu_gold_0",
+    "metal": "gold",
+    "use": "jewellery",
+    "share_pct": 32.8,
+    "year": 2025,
+    "products": [
+      "jewellery"
+    ],
+    "what_it_does": "Rings, chains and other jewellery, mostly bought in China and India.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_wgc_gdt_fy2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_gold_1",
+    "metal": "gold",
+    "use": "investment",
+    "share_pct": 43.5,
+    "year": 2025,
+    "products": [
+      "investment"
+    ],
+    "what_it_does": "Bought as a store of value: bars, coins and exchange-traded funds.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_wgc_gdt_fy2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_gold_2",
+    "metal": "gold",
+    "use": "central banks",
+    "share_pct": 17.3,
+    "year": 2025,
+    "products": [
+      "investment"
+    ],
+    "what_it_does": "Held in national reserves.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_wgc_gdt_fy2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_gold_3",
+    "metal": "gold",
+    "use": "electronics and tech",
+    "share_pct": 6.5,
+    "year": 2025,
+    "products": [
+      "phone",
+      "laptop",
+      "car",
+      "medical"
+    ],
+    "what_it_does": "Thin gold plating and bonding wire on connectors and chips that must not corrode; small dental use.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_wgc_gdt_fy2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tin_5",
+    "metal": "tin",
+    "use": "electronics solder",
+    "share_pct": 30,
+    "year": 2024,
+    "products": [
+      "phone",
+      "laptop",
+      "car"
+    ],
+    "what_it_does": "Solder on consumer and computing circuit boards.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ita_lme_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tin_6",
+    "metal": "tin",
+    "use": "solar-panel solder",
+    "share_pct": 11,
+    "year": 2024,
+    "products": [],
+    "what_it_does": "Tin-coated ribbon connecting solar cells.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ita_lme_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tin_7",
+    "metal": "tin",
+    "use": "EV solder",
+    "share_pct": 1,
+    "year": 2024,
+    "products": [
+      "car"
+    ],
+    "what_it_does": "Solder in electric-vehicle electronics.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ita_lme_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tin_8",
+    "metal": "tin",
+    "use": "chemicals",
+    "share_pct": 16,
+    "year": 2024,
+    "products": [],
+    "what_it_does": "Stabilisers for PVC plastic and catalysts; second-largest tin use.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ita_lme_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tin_9",
+    "metal": "tin",
+    "use": "tinplate",
+    "share_pct": 11,
+    "year": 2024,
+    "products": [],
+    "what_it_does": "Thin tin coating on steel for food and drink cans.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ita_lme_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tin_10",
+    "metal": "tin",
+    "use": "lead-acid batteries",
+    "share_pct": 8,
+    "year": 2024,
+    "products": [
+      "car"
+    ],
+    "what_it_does": "Alloying addition in lead-acid car starter batteries.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ita_lme_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tin_11",
+    "metal": "tin",
+    "use": "bronze and brass",
+    "share_pct": 6,
+    "year": 2024,
+    "products": [],
+    "what_it_does": "Bronze and other copper alloys for bearings and fittings.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ita_lme_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tin_12",
+    "metal": "tin",
+    "use": "other",
+    "share_pct": 7,
+    "year": 2024,
+    "products": [],
+    "what_it_does": "Float glass, pewter and other uses.",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_ita_lme_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_13",
+    "metal": "tantalum",
+    "use": "capacitors",
+    "share_pct": 34,
+    "year": 2025,
+    "products": [
+      "phone",
+      "laptop",
+      "car",
+      "aircraft",
+      "medical"
+    ],
+    "what_it_does": "Tiny, reliable capacitors that store and smooth power on circuit boards where space is short or failure is not acceptable.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_14",
+    "metal": "tantalum",
+    "use": "chip-making",
+    "share_pct": 9,
+    "year": 2025,
+    "products": [
+      "phone",
+      "laptop",
+      "car"
+    ],
+    "what_it_does": "A thin tantalum barrier layer stops copper wiring diffusing into silicon inside chips.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_15",
+    "metal": "tantalum",
+    "use": "hard drives",
+    "share_pct": 7,
+    "year": 2025,
+    "products": [
+      "laptop"
+    ],
+    "what_it_does": "Thin films in data-storage media.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_16",
+    "metal": "tantalum",
+    "use": "radio filters",
+    "share_pct": 2,
+    "year": 2025,
+    "products": [
+      "phone"
+    ],
+    "what_it_does": "Filters that pick out radio frequencies in phones.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_17",
+    "metal": "tantalum",
+    "use": "jet-engine alloys",
+    "share_pct": 15,
+    "year": 2025,
+    "products": [
+      "aircraft"
+    ],
+    "what_it_does": "Added to nickel superalloys for jet-engine turbine blades that run very hot.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_18",
+    "metal": "tantalum",
+    "use": "power turbines",
+    "share_pct": 6,
+    "year": 2025,
+    "products": [],
+    "what_it_does": "Superalloys for power-station turbines (now including data-centre power).",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_19",
+    "metal": "tantalum",
+    "use": "chemical plant",
+    "share_pct": 7,
+    "year": 2025,
+    "products": [],
+    "what_it_does": "Acid-proof linings, heat exchangers and vessels.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_20",
+    "metal": "tantalum",
+    "use": "medical",
+    "share_pct": 3,
+    "year": 2025,
+    "products": [
+      "medical"
+    ],
+    "what_it_does": "Implants, bone and joint parts and surgical instruments - tantalum is inert in the body.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_21",
+    "metal": "tantalum",
+    "use": "industrial furnaces",
+    "share_pct": 3,
+    "year": 2025,
+    "products": [],
+    "what_it_does": "Furnace parts that withstand very high heat.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_22",
+    "metal": "tantalum",
+    "use": "cutting tools",
+    "share_pct": 9,
+    "year": 2025,
+    "products": [],
+    "what_it_does": "Tantalum carbide hardens cutting and drilling tools.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "eu_tantalum_23",
+    "metal": "tantalum",
+    "use": "other",
+    "share_pct": 5,
+    "year": 2025,
+    "products": [],
+    "what_it_does": "Tantalum compounds used e.g. in optical glass and as intermediates.",
+    "evidence_tier": "reported",
+    "source_ids": [
+      "src_rfc_ambrian_tantalum_2025"
+    ],
+    "notes": ""
+  }
+]

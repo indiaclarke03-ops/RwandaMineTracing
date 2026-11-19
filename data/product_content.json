@@ -1,0 +1,131 @@
+[
+  {
+    "id": "pc_car_tin_2",
+    "product": "car",
+    "metal": "tin",
+    "value_low": 19.7,
+    "value_high": 71.8,
+    "unit": "g",
+    "what_it_measures": "Tin measured in the circuit boards of dismantled vehicle electronic modules (mostly solder); 19.7 g sedan, 71.8 g pickup",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_inl_vehicle_electronics_2020"
+    ],
+    "notes": "Two vehicles only; covers sampled modules (21 GMC, 10 Toyota), not the whole car."
+  },
+  {
+    "id": "pc_car_gold_3",
+    "product": "car",
+    "metal": "gold",
+    "value_low": 0.2,
+    "value_high": 7.0,
+    "unit": "g",
+    "what_it_measures": "Gold in vehicle electronics: JRC central estimate 1.5 g for a 2015 vehicle; observations in the literature range from about 0.2 g to 7 g",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_jrc_lovik_2021_vehicles"
+    ],
+    "notes": "Central estimate 1,500 mg."
+  },
+  {
+    "id": "pc_phone_gold_4",
+    "product": "phone",
+    "metal": "gold",
+    "value_low": 4,
+    "value_high": 4,
+    "unit": "mg",
+    "what_it_measures": "Measured median gold on the main circuit board of smartphones, down from 19 mg in older feature phones",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_jandric_2026_mobile_pcb"
+    ],
+    "notes": "Main PCB only; connectors, camera and display add some more. Shows gold per phone has fallen sharply."
+  },
+  {
+    "id": "pc_phone_gold_5",
+    "product": "phone",
+    "metal": "gold",
+    "value_low": 30,
+    "value_high": 30,
+    "unit": "mg",
+    "what_it_measures": "Oeko-Institut estimate scaled from Umicore mobile-phone analyses (24 mg per 90 g phone)",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_oeko_2012_crm_weee"
+    ],
+    "notes": "2012 estimate; likely high for current phones (compare Jandric 2026: 4 mg on main PCB)."
+  },
+  {
+    "id": "pc_phone_tantalum_6",
+    "product": "phone",
+    "metal": "tantalum",
+    "value_low": null,
+    "value_high": null,
+    "unit": null,
+    "what_it_measures": "No credible quantified figure found. Oeko-Institut (2012) explicitly found none; Bookhagen et al. (2020) measured Ta but the figure was not readable.",
+    "evidence_tier": "inferred",
+    "method": "No credible quantified figure found in the sources read.",
+    "source_ids": [
+      "src_oeko_2012_crm_weee"
+    ],
+    "notes": "DATA GAP - show as gap in UI."
+  },
+  {
+    "id": "pc_laptop_tantalum_7",
+    "product": "laptop",
+    "metal": "tantalum",
+    "value_low": 1.7,
+    "value_high": 1.7,
+    "unit": "g",
+    "what_it_measures": "Tantalum in capacitors, 90% on the motherboard",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_oeko_2012_crm_weee"
+    ],
+    "notes": "2010-era notebooks; modern thin laptops likely use fewer/smaller Ta capacitors."
+  },
+  {
+    "id": "pc_laptop_gold_8",
+    "product": "laptop",
+    "metal": "gold",
+    "value_low": 100,
+    "value_high": 100,
+    "unit": "mg",
+    "what_it_measures": "Gold plating on motherboard (54%) and other boards (46%)",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_oeko_2012_crm_weee"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "pc_car_tantalum_10",
+    "product": "car",
+    "metal": "tantalum",
+    "value_low": null,
+    "value_high": null,
+    "unit": null,
+    "what_it_measures": "No verified per-car figure read. INL (2020) measured Ta in vehicle electronics (values in supplementary tables, not read); EU SCRREEN2 notes Ta capacitors are used where reliability matters, e.g. ABS brakes and airbag triggers.",
+    "evidence_tier": "inferred",
+    "method": "No credible quantified figure found in the sources read.",
+    "source_ids": [
+      "src_inl_vehicle_electronics_2020"
+    ],
+    "notes": "DATA GAP"
+  },
+  {
+    "id": "pc_phone_tin_11",
+    "product": "phone",
+    "metal": "tin",
+    "value_low": null,
+    "value_high": null,
+    "unit": null,
+    "what_it_measures": "No verified current per-device tin figure read (Jandric 2026 Table S13 not read).",
+    "evidence_tier": "inferred",
+    "method": "No credible quantified figure found in the sources read.",
+    "source_ids": [
+      "src_jandric_2026_mobile_pcb"
+    ],
+    "notes": "DATA GAP"
+  }
+]

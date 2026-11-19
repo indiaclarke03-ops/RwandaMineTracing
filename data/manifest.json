@@ -1,8 +1,8 @@
 {
   "case": "rwanda-drc",
-  "built": "2026-11-04",
+  "built": "2026-11-19",
   "counts": {
-    "sources": 167,
+    "sources": 194,
     "sites": 13,
     "actors": 133,
     "control_claims": 12,
@@ -11,8 +11,8 @@
     "impacts": 11,
     "responses": 15,
     "effectiveness": 15,
-    "responses_to_claims": 24,
-    "gaps": 15,
+    "responses_to_claims": 30,
+    "gaps": 18,
     "findings": 7,
     "trade_series": 111,
     "trade_quarterly": 14,
@@ -25,7 +25,12 @@
     "area_claims": 57,
     "balance_bridge": 6,
     "partner_growth": 19,
-    "zero_sum": 6
+    "zero_sum": 6,
+    "story_facts": 6,
+    "end_uses": 23,
+    "product_content": 9,
+    "hr_facts": 59,
+    "hr_headlines": 11
   },
   "warnings": []
 }

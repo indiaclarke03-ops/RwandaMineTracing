@@ -18,6 +18,7 @@
     H = helpers;
     H.DB = DB;
     GAP = await loadGap();
+    window.GC_GAP = GAP;
     if (!GAP) return;
     renderText();
     if (!document.getElementById("view-laundering").hidden) window.drawGap();

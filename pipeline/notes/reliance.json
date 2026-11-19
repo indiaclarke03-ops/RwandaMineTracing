@@ -1,0 +1,1723 @@
+{
+ "run_date": "2026-11-19",
+ "sources": [
+  {
+   "key": "usgs_mcs2026_tantalum",
+   "title": "Mineral Commodity Summaries 2026: Tantalum",
+   "publisher": "U.S. Geological Survey",
+   "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tantalum.pdf",
+   "published_date": "2026-02",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "p.2 World Mine Production table; Substitutes",
+   "notes": "Downloaded PDF and parsed. Already in seed as src_usgs_mcs2026_tantalum. Gives no end-use breakdown."
+  },
+  {
+   "key": "usgs_mcs2026_tin",
+   "title": "Mineral Commodity Summaries 2026: Tin",
+   "publisher": "U.S. Geological Survey",
+   "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-tin.pdf",
+   "published_date": "2026-02",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "p.1 Domestic use; p.2 World Mine Production table; Substitutes",
+   "notes": "Downloaded PDF. Already in seed as src_usgs_mcs2026_tin. End-use split given is US only."
+  },
+  {
+   "key": "usgs_mcs2026_gold",
+   "title": "Mineral Commodity Summaries 2026: Gold",
+   "publisher": "U.S. Geological Survey",
+   "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-gold.pdf",
+   "published_date": "2026-02",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "p.2 global consumption split; World Mine Production table; Substitutes",
+   "notes": "Downloaded PDF. Not yet in seed. DRC and Rwanda not broken out."
+  },
+  {
+   "key": "wgc_gdt_fy2025",
+   "title": "Gold Demand Trends: Q4 and Full Year 2025",
+   "publisher": "World Gold Council",
+   "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025",
+   "published_date": "2026-01",
+   "type": "industry",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Gold supply and demand table (2024 vs 2025, tonnes)",
+   "notes": "Data from Metals Focus / WGC. Total demand 5,002.3 t in 2025 incl. OTC; 'gold demand' ex-OTC 4,999.4 t."
+  },
+  {
+   "key": "ita_lme_2025",
+   "title": "Tin Market Update (LME Asia Seminar, 21 May 2025)",
+   "publisher": "International Tin Association (Lan Gao)",
+   "url": "https://www.lme.com/-/media/Files/Events/LME-Asia-Week-2025/Presentations/Metals-Debate-Tin--Lan-Gao.pdf",
+   "published_date": "2025-05-21",
+   "type": "industry",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Slide 2 'Tin at a Glance' (use split); slide 8 market balance (2023-2025f, '000 t)",
+   "notes": "Downloaded PDF. Slide does not state the year of the use split; presented May 2025 so most likely 2024 data. Refined consumption 377.4 kt (2024), 378.9 kt (2025f)."
+  },
+  {
+   "key": "scrreen2_tantalum_2023",
+   "title": "SCRREEN2 factsheets: Tantalum (update, 2023)",
+   "publisher": "SCRREEN2 (EU Horizon 2020) / European Commission CRM assessment",
+   "url": "https://scrreen.eu/wp-content/uploads/2023/12/SCRREEN2_factsheets_TANTALUM-update.pdf",
+   "published_date": "2023-12",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Table 1 (p.3, 2016-2020 average extraction shares); p.6 ASM share; Table 6 and pp.12-14 uses and substitution",
+   "notes": "Supports EU 2023 CRM assessment. Use shares in Table 6 are shares of finished products used in the EU, not world (superalloys 24%, carbides 9%, chemicals 8%; capacitor share only in an image)."
+  },
+  {
+   "key": "us_ita_mme_tantalum_2022",
+   "title": "Tantalum - Market Analysis and Competitiveness Report (updated December 2022)",
+   "publisher": "Brazil Ministry of Mines and Energy (prepared under US-Brazil cooperation; cites T.I.C. 2021 statistics)",
+   "url": "https://www.gov.br/mme/pt-br/atos-internacionais/atos-internacionais-2025/estados-unidos/call-8-brazil-tantalum-report-updated-december-2022",
+   "published_date": "2022-12",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Section 5.1 Tantalum Uses; processor shipments 2020",
+   "notes": "Read via tavily_extract. T.I.C. 2021 statistics report itself not public."
+  },
+  {
+   "key": "rfc_ambrian_tantalum_2025",
+   "title": "Tantalum: Central Africa More of a Threat Than China (Critical Minerals Commodity Report)",
+   "publisher": "RFC Ambrian",
+   "url": "https://www.rfcambrian.com/wp-content/uploads/2025/10/RFC%20Ambrian%20Tantalum%20Report%20October%202025.pdf",
+   "published_date": "2025-10-20",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "pp.9-11 end-use split (Figure 5/6), capacitors, substitution; p.19 China imports, smelters; ASM share",
+   "notes": "Downloaded PDF. End-use split is 'RFC Ambrian estimates, TIC, USGS' - an analyst estimate, not T.I.C. data. Advisory firm with corporate clients in tantalum projects."
+  },
+  {
+   "key": "gw_who_buys_rwanda_coltan_2026",
+   "title": "Who buys Rwanda's smuggled coltan?",
+   "publisher": "Global Witness",
+   "url": "https://globalwitness.org/en/campaigns/transition-minerals/who-buys-rwandas-smuggled-coltan-the-global-journey-of-conflict-coltan-from-drc-to-the-worlds-electronics",
+   "published_date": "2026-06",
+   "type": "ngo",
+   "verified_by_extract": true,
+   "paragraph_or_page": "sections 'Rubaya: A war prize for M23' and smelter list",
+   "notes": "Already cited in seed (Global Witness Jun 2026). Gives Rubaya ~15% of global tantalum demand; China imported 1,571 t coltan from Rwanda (2023) and 2,286 t (2024). No method stated for the 15%."
+  },
+  {
+   "key": "ipis_coltan_briefing",
+   "title": "The rising spotlight on coltan: Understanding its strategic importance and role in the Eastern Congo conflict",
+   "publisher": "IPIS",
+   "url": "https://ipisresearch.be/weekly-briefing/the-rising-spotlight-on-coltan-understanding-its-strategic-importance-and-role-in-the-eastern-congo-conflict",
+   "published_date": "2025",
+   "type": "ngo",
+   "verified_by_extract": true,
+   "paragraph_or_page": "section on Rubaya; 'The smuggle of the Congolese coltan'",
+   "notes": "States Rubaya region provides 15% of worldwide supply; no method given. Publication date not shown in extract (content covers events to Jan 2025)."
+  },
+  {
+   "key": "un_goe_s2024_969",
+   "title": "Midterm report of the Group of Experts on the DRC (S/2024/969)",
+   "publisher": "UN Security Council Group of Experts",
+   "url": "https://docs.un.org/en/s/2024/969",
+   "published_date": "2024-12",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "summary; paras 56-58, 64-66",
+   "notes": "Downloaded PDF. Calls Rubaya the largest coltan mine in the Great Lakes region; ~120 t coltan/month under AFC/M23 control (para 64). Gives NO share of world tantalum. Already in seed as src_un_goe_s2024_969."
+  },
+  {
+   "key": "argus_rubaya_collapse_2026",
+   "title": "How the Rubaya Mine Collapse Impacts Global Tantalum Supply",
+   "publisher": "Argus Media",
+   "url": "https://www.argusmedia.com/en/news-and-insights/market-opinion-and-analysis-blog/rubaya-mine-collapse-tantalum-supply-chain",
+   "published_date": "2026",
+   "type": "media",
+   "verified_by_extract": true,
+   "paragraph_or_page": "trade-data paragraph",
+   "notes": "China imports of tantalum concentrate from Rwanda 2,865 t in 2025 (+82% vs 1,571 t in 2023); US imports from DRC and Rwanda fell to 0 t in past two years. Exact publish date not captured."
+  },
+  {
+   "key": "usgs_fs2006_3097",
+   "title": "Recycled Cell Phones - A Treasure Trove of Valuable Metals (Fact Sheet 2006-3097)",
+   "publisher": "U.S. Geological Survey",
+   "url": "https://pubs.usgs.gov/fs/2006/3097/fs2006-3097.pdf",
+   "published_date": "2006-07",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Table 1",
+   "notes": "Downloaded PDF. Old (2005 feature phone, 113 g). Use only as an upper-end historical figure."
+  },
+  {
+   "key": "bookhagen_2020_smartphones",
+   "title": "Metallic resources in smartphones (Resources Policy 68, 101750)",
+   "publisher": "Bookhagen et al. / BGR, Elsevier",
+   "url": "https://doi.org/10.1016/j.resourpol.2020.101750",
+   "published_date": "2020-08-26",
+   "type": "analysis",
+   "verified_by_extract": false,
+   "paragraph_or_page": "abstract",
+   "notes": "NOT VERIFIED: page blocked to tavily_extract and curl; 16.83 mg Au per device seen only in search-result snippets of the abstract (ScienceDirect, RePEc). Peer-reviewed; measured 2012-2017 smartphones. Ta and Sn per device not seen."
+  },
+  {
+   "key": "inl_vehicle_electronics_2020",
+   "title": "Critical material content in modern US vehicle electronics (INL/JOU-20-57102)",
+   "publisher": "Idaho National Laboratory (Nguyen et al.)",
+   "url": "https://www.osti.gov/servlets/purl/1631331",
+   "published_date": "2020-05",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Results, Figure 4 text (pp.16-17)",
+   "notes": "Downloaded PDF. Dismantled 2015 GMC Sierra and 2016 Toyota Camry electronics. Ta found three orders of magnitude above earlier studies but per-vehicle Ta mass is only in supplementary tables (not read)."
+  },
+  {
+   "key": "jrc_lovik_2021_vehicles",
+   "title": "Material composition trends in vehicles: critical raw materials and other relevant metals (JRC, RMIS dataset)",
+   "publisher": "European Commission Joint Research Centre / Empa (Løvik et al.)",
+   "url": "https://www.dora.lib4ri.ch/empa/dload/empa:27883/PDF/L%C3%B8vik-2021-Material_composition_trends_in_vehicles-(published_version).pdf",
+   "published_date": "2021",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Uncertainty discussion and 'Electrics and electronics' section",
+   "notes": "Downloaded PDF."
+  },
+  {
+   "key": "rcr_tantalum_weee_review_2023",
+   "title": "Application and recycling of tantalum from waste electric and electronic equipment - A review (Resources, Conservation and Recycling)",
+   "publisher": "Elsevier (peer-reviewed review)",
+   "url": "https://www.sciencedirect.com/science/article/abs/pii/S0921344923000034",
+   "published_date": "2023",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "abstract and introduction (via tavily_extract)",
+   "notes": "End-of-life Ta recycling <1%; recycling (mostly new scrap) 25-30% (~500 t/yr) of supply; ~960 t Ta lost in waste management, ~40% of 2015 mine output (citing Helbig et al. 2019); no functional Ta recycling from end-of-life vehicles."
+  },
+  {
+   "key": "usgs_myb_cod_2024",
+   "title": "The Mineral Industry of Congo (Kinshasa) in 2024",
+   "publisher": "U.S. Geological Survey Minerals Yearbook",
+   "url": "https://pubs.usgs.gov/myb/vol3/2024/myb3-2024-congo-kinshasa.pdf",
+   "published_date": "2026",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "p.1 Introduction; pp.6-7 Gold, Niobium and Tantalum, Tin",
+   "notes": "Downloaded PDF. Already in seed as src_usgs_myb_cod_2024. Cites DRC Ministry of Mines 2025 statistics."
+  },
+  {
+   "key": "usgs_myb_rwa_2024",
+   "title": "The Mineral Industry of Rwanda in 2024",
+   "publisher": "U.S. Geological Survey Minerals Yearbook",
+   "url": "https://pubs.usgs.gov/myb/vol3/2024/myb3-2024-rwanda.pdf",
+   "published_date": "2026",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Overview; Commodity Review; Production table and footnotes 4-6",
+   "notes": "Downloaded PDF. Seed has the web page version as src_usgs_myb_rwanda_2024. KEY: Rwandan Ta and Nb figures are built from National Bank of Rwanda EXPORT data with assumed grades (26% Ta2O5 in coltan, 1.8% in cassiterite)."
+  },
+  {
+   "key": "interpol_gold_central_africa_2021",
+   "title": "Illegal gold mining in Central Africa (public version)",
+   "publisher": "INTERPOL",
+   "url": "https://www.interpol.int/content/download/16493/file/2021%2007%2027%20ENGLISH%20PUBLIC%20VERSION_FINAL_Illegal%20gold%20mining%20in%20Central%20Africa.pdf",
+   "published_date": "2021-07-27",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "DRC section, around footnotes 59-64",
+   "notes": "Downloaded PDF. Cites an IPIS-type site-visit study (1,220 ASGM sites, 2013-15) and USGS for DRC artisanal gold capacity."
+  },
+  {
+   "key": "fr_us_critical_minerals_2025",
+   "title": "Final 2025 List of Critical Minerals (90 FR 50494)",
+   "publisher": "U.S. Department of the Interior / USGS, Federal Register",
+   "url": "https://www.federalregister.gov/documents/2025/11/07/2025-19813/final-2025-list-of-critical-minerals",
+   "published_date": "2025-11-07",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Summary list of 60 minerals; byproduct table",
+   "notes": "Tantalum and tin are on the list; gold is not."
+  },
+  {
+   "key": "jrc_rmis_crm_2023",
+   "title": "RMIS - More on Critical Raw Materials (2023 CRM and SRM lists)",
+   "publisher": "European Commission Joint Research Centre",
+   "url": "https://rmis.jrc.ec.europa.eu/eu-critical-raw-materials",
+   "published_date": "2023",
+   "type": "government",
+   "verified_by_extract": true,
+   "paragraph_or_page": "2023 CRM (34) and SRM (16) tables",
+   "notes": "Tantalum is critical but not strategic; tin and gold are on neither list. Final CRMA (Reg. 2024/1252) lists 17 strategic materials (Commission page) - EUR-Lex text itself not read (blocked)."
+  },
+  {
+   "key": "argus_ta_prices_capacitors",
+   "title": "Ta prices surge on capacitor demand, tight supply",
+   "publisher": "Argus Media",
+   "url": "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2791031-ta-prices-surge-on-capacitor-demand-tight-supply",
+   "published_date": "2026",
+   "type": "media",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Yageo paragraph; 'AI a demand driver'",
+   "notes": "Yageo (Taiwan; owns Kemet) makes ~40% of global tantalum-polymer capacitors; up to 25 tantalum/tantalum-polymer capacitors on boards housing an Nvidia H100 (per a former Yageo CTO). Exact date not captured (refers to Jan-Sep 2025 results and 2026 capex plans)."
+  },
+  {
+   "key": "oeko_2012_crm_weee",
+   "title": "Recycling critical raw materials from waste electronic equipment",
+   "publisher": "Oeko-Institut e.V. (for North Rhine-Westphalia State Agency for Nature, Environment and Consumer Protection)",
+   "url": "https://www.oeko.de/oekodoc/1375/2012-010-en.pdf",
+   "published_date": "2012",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Table 23 (notebooks), Section 4.1-4.5 and Table 25 (smartphones), Table 40 (losses)",
+   "notes": "Old (2010-era notebooks, 2011-12 smartphones). Found no quantitative tantalum data for smartphones. Estimated German recovery of notebook tantalum: zero."
+  },
+  {
+   "key": "jandric_2026_mobile_pcb",
+   "title": "Material composition trends in printed circuit boards of mobile phones (Resources, Conservation & Recycling 227, 108741)",
+   "publisher": "Jandric et al., Elsevier (open-access copy at RWTH Aachen)",
+   "url": "https://publications.rwth-aachen.de/record/1024734/files/1024734.pdf",
+   "published_date": "2026",
+   "type": "analysis",
+   "verified_by_extract": true,
+   "paragraph_or_page": "Section 3.2-3.3, p.7",
+   "notes": "Peer-reviewed. Measured PCBs of feature phones vs smartphones; per-PCB tin and tantalum values are in supplementary Table S13 (not read)."
+  },
+  {
+   "key": "seed_comtrade_preview",
+   "title": "UN Comtrade: HS 261590 etc., Rwanda and DRC, 2018-2025 (project seed source)",
+   "publisher": "UN Comtrade via project pipeline",
+   "url": "https://comtradeplus.un.org/",
+   "published_date": "2026",
+   "type": "dataset",
+   "verified_by_extract": false,
+   "paragraph_or_page": "project seed src_comtrade_preview",
+   "notes": "Not re-read in this run; the ~79% figure is the project's own prior Comtrade calculation as stated in the task brief."
+  }
+ ],
+ "production": [
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "World",
+   "value": 2500,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": "rounded"
+  },
+  {
+   "metal": "tantalum",
+   "year": 2025,
+   "country": "World",
+   "value": 2500,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate, 2025e)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": "rounded"
+  },
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "COD",
+   "value": 1270,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": "2024 revised significantly based on a DRC government report"
+  },
+  {
+   "metal": "tantalum",
+   "year": 2025,
+   "country": "COD",
+   "value": 1300,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate, 2025e)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": "2024 revised significantly based on a DRC government report"
+  },
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "RWA",
+   "value": 374,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2025,
+   "country": "RWA",
+   "value": 400,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate, 2025e)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "NGA",
+   "value": 390,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2025,
+   "country": "NGA",
+   "value": 390,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate, 2025e)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "BRA",
+   "value": 210,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": "2024 value reported"
+  },
+  {
+   "metal": "tantalum",
+   "year": 2025,
+   "country": "BRA",
+   "value": 190,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate, 2025e)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": "2024 value reported"
+  },
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "CHN",
+   "value": 76,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2025,
+   "country": "CHN",
+   "value": 80,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate, 2025e)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "AUS",
+   "value": 52,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2025,
+   "country": "AUS",
+   "value": 50,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate, 2025e)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "ETH",
+   "value": 40,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2025,
+   "country": "ETH",
+   "value": 40,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate, 2025e)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "RUS",
+   "value": 29,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tantalum",
+   "year": 2025,
+   "country": "RUS",
+   "value": 30,
+   "unit": "t",
+   "basis": "tantalum content, mine production (USGS estimate, 2025e)",
+   "source_key": "usgs_mcs2026_tantalum",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "World",
+   "value": 294000,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "rounded"
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "World",
+   "value": 290000,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "rounded"
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "CHN",
+   "value": 71000,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "2024 estimated"
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "CHN",
+   "value": 71000,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "2024 estimated"
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "IDN",
+   "value": 55000,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "2024 estimated"
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "IDN",
+   "value": 61000,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "2024 estimated"
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "PER",
+   "value": 32300,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "PER",
+   "value": 33000,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "BRA",
+   "value": 27600,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "BRA",
+   "value": 28000,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "COD",
+   "value": 26000,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "2024 estimated"
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "COD",
+   "value": 27000,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "2024 estimated"
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "BOL",
+   "value": 21200,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "BOL",
+   "value": 15000,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "MMR",
+   "value": 20000,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "2024 estimated"
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "MMR",
+   "value": 12000,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "2024 estimated"
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "AUS",
+   "value": 11300,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "AUS",
+   "value": 12000,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "VNM",
+   "value": 11000,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "VNM",
+   "value": 11000,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": null
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "RWA",
+   "value": 4100,
+   "unit": "t",
+   "basis": "tin content, mine production",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "2024 estimated"
+  },
+  {
+   "metal": "tin",
+   "year": 2025,
+   "country": "RWA",
+   "value": 4600,
+   "unit": "t",
+   "basis": "tin content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_tin",
+   "notes": "2024 estimated"
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "World",
+   "value": 3280,
+   "unit": "t",
+   "basis": "gold content, mine production",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": "rounded"
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "World",
+   "value": 3300,
+   "unit": "t",
+   "basis": "gold content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": "rounded"
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "CHN",
+   "value": 377,
+   "unit": "t",
+   "basis": "gold content, mine production",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "CHN",
+   "value": 380,
+   "unit": "t",
+   "basis": "gold content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "RUS",
+   "value": 310,
+   "unit": "t",
+   "basis": "gold content, mine production",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "RUS",
+   "value": 310,
+   "unit": "t",
+   "basis": "gold content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "AUS",
+   "value": 284,
+   "unit": "t",
+   "basis": "gold content, mine production",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "AUS",
+   "value": 280,
+   "unit": "t",
+   "basis": "gold content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "CAN",
+   "value": 200,
+   "unit": "t",
+   "basis": "gold content, mine production",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "CAN",
+   "value": 200,
+   "unit": "t",
+   "basis": "gold content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "USA",
+   "value": 163,
+   "unit": "t",
+   "basis": "gold content, mine production",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "USA",
+   "value": 160,
+   "unit": "t",
+   "basis": "gold content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "GHA",
+   "value": 149,
+   "unit": "t",
+   "basis": "gold content, mine production",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "GHA",
+   "value": 150,
+   "unit": "t",
+   "basis": "gold content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "MEX",
+   "value": 140,
+   "unit": "t",
+   "basis": "gold content, mine production",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "MEX",
+   "value": 140,
+   "unit": "t",
+   "basis": "gold content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "KAZ",
+   "value": 130,
+   "unit": "t",
+   "basis": "gold content, mine production",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "KAZ",
+   "value": 130,
+   "unit": "t",
+   "basis": "gold content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "UZB",
+   "value": 129,
+   "unit": "t",
+   "basis": "gold content, mine production",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "UZB",
+   "value": 130,
+   "unit": "t",
+   "basis": "gold content, mine production (2025e)",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": null
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "COD",
+   "value": null,
+   "unit": "t",
+   "basis": "gold content",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": "Not listed separately in MCS 2026; included in 'Other countries' (1,000 t). See other rows for DRC/Rwanda gold."
+  },
+  {
+   "metal": "gold",
+   "year": 2025,
+   "country": "RWA",
+   "value": null,
+   "unit": "t",
+   "basis": "gold content",
+   "source_key": "usgs_mcs2026_gold",
+   "notes": "Not listed separately in MCS 2026; included in 'Other countries'."
+  },
+  {
+   "metal": "gold",
+   "year": 2024,
+   "country": "COD",
+   "value": 27.935,
+   "unit": "t",
+   "basis": "gold content, official output (DRC Ministry of Mines via USGS)",
+   "source_key": "usgs_myb_cod_2024",
+   "notes": "Kibali (industrial, Haut-Uele) ~21.3 t. Industrial ~94% of declared exports; much artisanal gold undeclared."
+  },
+  {
+   "metal": "gold",
+   "year": 2023,
+   "country": "RWA",
+   "value": 0.35,
+   "unit": "t",
+   "basis": "gold content, mine (USGS estimate); 2024 not available",
+   "source_key": "usgs_myb_rwa_2024",
+   "notes": "Gold was 47% of Rwanda's 2024 exports (incl. re-exports) and 26.6% of imports - Rwanda trades far more gold than it mines."
+  },
+  {
+   "metal": "gold",
+   "year": "2013-2015",
+   "country": "COD (eastern, artisanal)",
+   "value": 11.6,
+   "unit": "t/yr",
+   "basis": "gold, estimated artisanal production from 1,220 site visits",
+   "source_key": "interpol_gold_central_africa_2021",
+   "notes": "USGS estimated DRC artisanal capacity ~13 t in 2016; 95-98% thought concealed or smuggled (mainly via Uganda, Rwanda, Burundi). Old estimate."
+  },
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "COD",
+   "value": 2849,
+   "unit": "t coltan concentrate (gross)",
+   "basis": "columbite-tantalite output, DRC Ministry of Mines",
+   "source_key": "usgs_myb_cod_2024",
+   "notes": "Haut-Katanga 47%, Sud-Kivu 19%, Maniema 12%, Nord-Kivu 11%, Tanganyika 11%. Plus est. 630 t Ta contained in cassiterite. Rubaya output smuggled to Rwanda is not in DRC official figures."
+  },
+  {
+   "metal": "tantalum",
+   "year": 2024,
+   "country": "RWA",
+   "value": 1300,
+   "unit": "t coltan concentrate (gross, est.)",
+   "basis": "columbite-tantalite, from reported exports; Ta content 300 t + 74 t from cassiterite = 374 t",
+   "source_key": "usgs_myb_rwa_2024",
+   "notes": "Derived from exports at assumed 26% Ta2O5, so includes DRC-origin ore re-exported as Rwandan."
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "COD",
+   "value": 42953,
+   "unit": "t cassiterite (gross)",
+   "basis": "cassiterite output: industrial 63%, artisanal 37%",
+   "source_key": "usgs_myb_cod_2024",
+   "notes": "Alphamin's Bisie mine (Walikale, Nord-Kivu) produced 17,324 t tin metal in 2024 - about 5.9% of world mine tin (17,324/294,000)."
+  },
+  {
+   "metal": "tin",
+   "year": 2024,
+   "country": "RWA",
+   "value": 6485,
+   "unit": "t cassiterite (gross)",
+   "basis": "cassiterite production, 63% Sn; 4,100 t Sn content (est.)",
+   "source_key": "usgs_myb_rwa_2024",
+   "notes": "Rwanda also smelted 1,002 t primary tin in 2024."
+  }
+ ],
+ "shares": [
+  {
+   "metal": "tantalum",
+   "what": "DRC+Rwanda share of world mine production",
+   "value_pct": 68,
+   "year": 2025,
+   "method": "(1,300 + 400) / 2,500 t tantalum content, USGS 2025 estimates; 2024: (1,270 + 374) / 2,500 = 65.8%",
+   "source_keys": [
+    "usgs_mcs2026_tantalum"
+   ],
+   "evidence_tier": "inferred"
+  },
+  {
+   "metal": "tantalum",
+   "what": "DRC share of world mine production",
+   "value_pct": 52,
+   "year": 2025,
+   "method": "1,300 / 2,500 t tantalum content (2024: 50.8%)",
+   "source_keys": [
+    "usgs_mcs2026_tantalum"
+   ],
+   "evidence_tier": "inferred"
+  },
+  {
+   "metal": "tantalum",
+   "what": "Rwanda share of world mine production",
+   "value_pct": 16,
+   "year": 2025,
+   "method": "400 / 2,500 t tantalum content (2024: 15.0%). USGS counts Rwanda's reported output; UN GoE says much Rwandan export is smuggled DRC coltan, so 'Rwanda' production likely includes DRC-origin ore",
+   "source_keys": [
+    "usgs_mcs2026_tantalum"
+   ],
+   "evidence_tier": "inferred"
+  },
+  {
+   "metal": "tin",
+   "what": "DRC+Rwanda share of world mine production",
+   "value_pct": 10.9,
+   "year": 2025,
+   "method": "(27,000 + 4,600) / 290,000 t tin content, USGS 2025e; 2024: (26,000 + 4,100) / 294,000 = 10.2%",
+   "source_keys": [
+    "usgs_mcs2026_tin"
+   ],
+   "evidence_tier": "inferred"
+  },
+  {
+   "metal": "tantalum",
+   "what": "Share of mined tantalum from artisanal and small-scale mining (world)",
+   "value_pct": "20-25",
+   "year": "2016-2020",
+   "method": "Stated by SCRREEN2 (EU) factsheet",
+   "source_keys": [
+    "scrreen2_tantalum_2023"
+   ],
+   "evidence_tier": "documented"
+  },
+  {
+   "metal": "tantalum",
+   "what": "Share of world tantalum production from ASM in Central Africa",
+   "value_pct": 60,
+   "year": 2024,
+   "method": "Stated by RFC Ambrian (approx.)",
+   "source_keys": [
+    "rfc_ambrian_tantalum_2025"
+   ],
+   "evidence_tier": "reported"
+  },
+  {
+   "metal": "tantalum",
+   "what": "DRC+Rwanda share of world extraction, 2016-2020 average (EU CRM 2023 basis)",
+   "value_pct": 52,
+   "year": "2016-2020",
+   "method": "DRC 35% + Rwanda 17% (Ta2O5 basis) per SCRREEN2 Table 1",
+   "source_keys": [
+    "scrreen2_tantalum_2023"
+   ],
+   "evidence_tier": "documented"
+  },
+  {
+   "metal": "tantalum",
+   "what": "Rubaya share of world tantalum (supply/demand)",
+   "value_pct": 15,
+   "year": "2024-2026",
+   "method": "Stated without method by Global Witness (\"around 15% of global tantalum demand\"), IPIS (\"15% of the world wide supply\") and Reuters (\"around 15% of the world's coltan\"). UN GoE S/2024/969 gives no percentage. Probably a shared industry estimate, not independent confirmations.",
+   "source_keys": [
+    "gw_who_buys_rwanda_coltan_2026",
+    "ipis_coltan_briefing"
+   ],
+   "evidence_tier": "documented"
+  },
+  {
+   "metal": "tantalum",
+   "what": "Rubaya share of world tantalum mine production - our cross-check",
+   "value_pct": "9-19",
+   "year": 2024,
+   "method": "UN GoE: ~120 t coltan/month under AFC/M23 = ~1,440 t/yr. At 20-40% Ta2O5 (grade reported for Rubaya by Reuters/Business Insider; unverified) x 0.819 Ta per Ta2O5 = ~240-470 t Ta, vs USGS world 2,500 t. Consistent with ~15% at ~30% grade.",
+   "source_keys": [
+    "un_goe_s2024_969",
+    "usgs_mcs2026_tantalum"
+   ],
+   "evidence_tier": "inferred"
+  },
+  {
+   "metal": "gold",
+   "what": "DRC+Rwanda share of world mine production (official)",
+   "value_pct": 0.86,
+   "year": 2024,
+   "method": "(27.9 t DRC official + 0.35 t Rwanda 2023 est.) / 3,280 t world (USGS MCS 2026). Adding ~12 t undeclared eastern-DRC artisanal gold (old estimate) would give ~1.2%.",
+   "source_keys": [
+    "usgs_myb_cod_2024",
+    "usgs_myb_rwa_2024",
+    "usgs_mcs2026_gold",
+    "interpol_gold_central_africa_2021"
+   ],
+   "evidence_tier": "inferred"
+  },
+  {
+   "metal": "tin",
+   "what": "Bisie (Alphamin, Nord-Kivu) share of world tin mine production",
+   "value_pct": 5.9,
+   "year": 2024,
+   "method": "17,324 t / 294,000 t",
+   "source_keys": [
+    "usgs_myb_cod_2024",
+    "usgs_mcs2026_tin"
+   ],
+   "evidence_tier": "inferred"
+  },
+  {
+   "metal": "tin",
+   "what": "Artisanal share of DRC cassiterite output",
+   "value_pct": 37,
+   "year": 2024,
+   "method": "Stated by USGS from DRC Ministry of Mines",
+   "source_keys": [
+    "usgs_myb_cod_2024"
+   ],
+   "evidence_tier": "documented"
+  },
+  {
+   "metal": "tantalum",
+   "what": "USGS-stated DRC and Rwanda shares of world tantalum (2024)",
+   "value_pct": "51 (DRC), 15 (Rwanda)",
+   "year": 2024,
+   "method": "Stated in USGS Minerals Yearbook country chapters",
+   "source_keys": [
+    "usgs_myb_cod_2024",
+    "usgs_myb_rwa_2024"
+   ],
+   "evidence_tier": "documented"
+  }
+ ],
+ "end_uses": [
+  {
+   "metal": "gold",
+   "use": "jewellery (fabrication)",
+   "share_pct": 32.8,
+   "year": 2025,
+   "products": [
+    "jewellery"
+   ],
+   "what_it_does": "Rings, chains and other jewellery, mostly bought in China and India.",
+   "source_key": "wgc_gdt_fy2025",
+   "evidence_tier": "documented",
+   "notes": "1,638.0 t of 4,999.4 t gold demand ex-OTC; jewellery consumption 1,542.3 t (30.9%)"
+  },
+  {
+   "metal": "gold",
+   "use": "investment (bars, coins, ETFs)",
+   "share_pct": 43.5,
+   "year": 2025,
+   "products": [
+    "investment"
+   ],
+   "what_it_does": "Bought as a store of value: bars, coins and exchange-traded funds.",
+   "source_key": "wgc_gdt_fy2025",
+   "evidence_tier": "documented",
+   "notes": "2,175.3 t of 4,999.4 t; bar and coin 1,374.1 t, ETFs 801.2 t"
+  },
+  {
+   "metal": "gold",
+   "use": "central banks and other institutions",
+   "share_pct": 17.3,
+   "year": 2025,
+   "products": [
+    "investment"
+   ],
+   "what_it_does": "Held in national reserves.",
+   "source_key": "wgc_gdt_fy2025",
+   "evidence_tier": "documented",
+   "notes": "863.3 t of 4,999.4 t"
+  },
+  {
+   "metal": "gold",
+   "use": "technology (electronics, other industrial, dentistry)",
+   "share_pct": 6.5,
+   "year": 2025,
+   "products": [
+    "phones",
+    "laptops",
+    "cars",
+    "medical"
+   ],
+   "what_it_does": "Thin gold plating and bonding wire on connectors and chips that must not corrode; small dental use.",
+   "source_key": "wgc_gdt_fy2025",
+   "evidence_tier": "documented",
+   "notes": "322.8 t of 4,999.4 t; electronics alone 270.4 t (5.4%), dentistry 8.2 t"
+  },
+  {
+   "metal": "tin",
+   "use": "solder (all)",
+   "share_pct": 52,
+   "year": 2024,
+   "products": [
+    "phones",
+    "laptops",
+    "cars"
+   ],
+   "what_it_does": "Joins electronic components to circuit boards in almost every electrical product.",
+   "source_key": "ita_lme_2025",
+   "evidence_tier": "documented",
+   "notes": "Year assumed 2024 (slide undated). ITA splits solder into electronics 30%, photovoltaics 11%, industrial 7%, 5G 3%, EVs 1% (of total tin use)."
+  },
+  {
+   "metal": "tin",
+   "use": "solder - electronics",
+   "share_pct": 30,
+   "year": 2024,
+   "products": [
+    "phones",
+    "laptops",
+    "cars"
+   ],
+   "what_it_does": "Solder on consumer and computing circuit boards.",
+   "source_key": "ita_lme_2025",
+   "evidence_tier": "documented",
+   "notes": "Sub-share of solder 52%"
+  },
+  {
+   "metal": "tin",
+   "use": "solder - photovoltaics",
+   "share_pct": 11,
+   "year": 2024,
+   "products": [],
+   "what_it_does": "Tin-coated ribbon connecting solar cells.",
+   "source_key": "ita_lme_2025",
+   "evidence_tier": "documented",
+   "notes": "Sub-share of solder 52%"
+  },
+  {
+   "metal": "tin",
+   "use": "solder - EVs",
+   "share_pct": 1,
+   "year": 2024,
+   "products": [
+    "cars"
+   ],
+   "what_it_does": "Solder in electric-vehicle electronics.",
+   "source_key": "ita_lme_2025",
+   "evidence_tier": "documented",
+   "notes": "Sub-share of solder 52%"
+  },
+  {
+   "metal": "tin",
+   "use": "tin chemicals",
+   "share_pct": 16,
+   "year": 2024,
+   "products": [],
+   "what_it_does": "Stabilisers for PVC plastic and catalysts; second-largest tin use.",
+   "source_key": "ita_lme_2025",
+   "evidence_tier": "documented"
+  },
+  {
+   "metal": "tin",
+   "use": "tinplate",
+   "share_pct": 11,
+   "year": 2024,
+   "products": [],
+   "what_it_does": "Thin tin coating on steel for food and drink cans.",
+   "source_key": "ita_lme_2025",
+   "evidence_tier": "documented"
+  },
+  {
+   "metal": "tin",
+   "use": "lead-acid batteries",
+   "share_pct": 8,
+   "year": 2024,
+   "products": [
+    "cars"
+   ],
+   "what_it_does": "Alloying addition in lead-acid car starter batteries.",
+   "source_key": "ita_lme_2025",
+   "evidence_tier": "documented"
+  },
+  {
+   "metal": "tin",
+   "use": "tin-copper alloys (bronze, brass)",
+   "share_pct": 6,
+   "year": 2024,
+   "products": [],
+   "what_it_does": "Bronze and other copper alloys for bearings and fittings.",
+   "source_key": "ita_lme_2025",
+   "evidence_tier": "documented"
+  },
+  {
+   "metal": "tin",
+   "use": "other",
+   "share_pct": 7,
+   "year": 2024,
+   "products": [],
+   "what_it_does": "Float glass, pewter and other uses.",
+   "source_key": "ita_lme_2025",
+   "evidence_tier": "documented"
+  },
+  {
+   "metal": "tantalum",
+   "use": "capacitors",
+   "share_pct": 34,
+   "year": 2025,
+   "products": [
+    "phones",
+    "laptops",
+    "cars",
+    "aircraft",
+    "medical"
+   ],
+   "what_it_does": "Tiny, reliable capacitors that store and smooth power on circuit boards where space is short or failure is not acceptable.",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate (RFC Ambrian from TIC/USGS). Cross-check: US-Brazil report citing T.I.C. gives about 36% of total consumption in 2020. RFC says computing is 45% of the tantalum-capacitor market."
+  },
+  {
+   "metal": "tantalum",
+   "use": "semiconductors (sputtering targets)",
+   "share_pct": 9,
+   "year": 2025,
+   "products": [
+    "phones",
+    "laptops",
+    "cars"
+   ],
+   "what_it_does": "A thin tantalum barrier layer stops copper wiring diffusing into silicon inside chips.",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate"
+  },
+  {
+   "metal": "tantalum",
+   "use": "hard disk drives",
+   "share_pct": 7,
+   "year": 2025,
+   "products": [
+    "laptops"
+   ],
+   "what_it_does": "Thin films in data-storage media.",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate"
+  },
+  {
+   "metal": "tantalum",
+   "use": "SAW filters (lithium tantalate)",
+   "share_pct": 2,
+   "year": 2025,
+   "products": [
+    "phones"
+   ],
+   "what_it_does": "Filters that pick out radio frequencies in phones.",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate"
+  },
+  {
+   "metal": "tantalum",
+   "use": "aerospace superalloys",
+   "share_pct": 15,
+   "year": 2025,
+   "products": [
+    "aircraft"
+   ],
+   "what_it_does": "Added to nickel superalloys for jet-engine turbine blades that run very hot.",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate. EU finished-product share for superalloys is 24% (SCRREEN2)."
+  },
+  {
+   "metal": "tantalum",
+   "use": "industrial gas turbines",
+   "share_pct": 6,
+   "year": 2025,
+   "products": [],
+   "what_it_does": "Superalloys for power-station turbines (now including data-centre power).",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate"
+  },
+  {
+   "metal": "tantalum",
+   "use": "chemical processing equipment",
+   "share_pct": 7,
+   "year": 2025,
+   "products": [],
+   "what_it_does": "Acid-proof linings, heat exchangers and vessels.",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate"
+  },
+  {
+   "metal": "tantalum",
+   "use": "medical",
+   "share_pct": 3,
+   "year": 2025,
+   "products": [
+    "medical"
+   ],
+   "what_it_does": "Implants, bone and joint parts and surgical instruments - tantalum is inert in the body.",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate; SCRREEN2 puts EU medical share below 1%."
+  },
+  {
+   "metal": "tantalum",
+   "use": "industrial furnaces",
+   "share_pct": 3,
+   "year": 2025,
+   "products": [],
+   "what_it_does": "Furnace parts that withstand very high heat.",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate"
+  },
+  {
+   "metal": "tantalum",
+   "use": "carbides (cutting tools)",
+   "share_pct": 9,
+   "year": 2025,
+   "products": [],
+   "what_it_does": "Tantalum carbide hardens cutting and drilling tools.",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate; SCRREEN2 EU share also 9%."
+  },
+  {
+   "metal": "tantalum",
+   "use": "chemicals and other",
+   "share_pct": 5,
+   "year": 2025,
+   "products": [],
+   "what_it_does": "Tantalum compounds used e.g. in optical glass and as intermediates.",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported",
+   "notes": "Analyst estimate"
+  }
+ ],
+ "product_content": [
+  {
+   "product": "smartphone",
+   "metal": "gold",
+   "value_low": 16.83,
+   "value_high": 16.83,
+   "unit": "mg per device",
+   "what_it_measures": "Measured average gold content of smartphones sold 2012-2017 (lab analysis, 90% in the circuit board)",
+   "source_key": "bookhagen_2020_smartphones",
+   "evidence_tier": "reported",
+   "notes": "UNVERIFIED - abstract seen only in search snippets. Do not publish until the paper is read."
+  },
+  {
+   "product": "mobile phone (2005 feature phone, 113 g)",
+   "metal": "gold",
+   "value_low": 34,
+   "value_high": 34,
+   "unit": "mg per device",
+   "what_it_measures": "USGS estimate of gold in a typical 2005 cell phone (excluding battery), from recycler data",
+   "source_key": "usgs_fs2006_3097",
+   "evidence_tier": "documented",
+   "notes": "Historical; modern smartphones likely contain less (see Bookhagen)."
+  },
+  {
+   "product": "car (2016 Toyota Camry / 2015 GMC Sierra)",
+   "metal": "tin",
+   "value_low": 19690,
+   "value_high": 71810,
+   "unit": "mg per vehicle",
+   "what_it_measures": "Tin measured in the circuit boards of dismantled vehicle electronic modules (mostly solder); 19.7 g sedan, 71.8 g pickup",
+   "source_key": "inl_vehicle_electronics_2020",
+   "evidence_tier": "documented",
+   "notes": "Two vehicles only; covers sampled modules (21 GMC, 10 Toyota), not the whole car."
+  },
+  {
+   "product": "car (2015 average vehicle)",
+   "metal": "gold",
+   "value_low": 200,
+   "value_high": 7000,
+   "unit": "mg per vehicle",
+   "what_it_measures": "Gold in vehicle electronics: JRC central estimate 1.5 g for a 2015 vehicle; observations in the literature range from about 0.2 g to 7 g",
+   "source_key": "jrc_lovik_2021_vehicles",
+   "evidence_tier": "documented",
+   "notes": "Central estimate 1,500 mg."
+  },
+  {
+   "product": "smartphone (main circuit board only)",
+   "metal": "gold",
+   "value_low": 4,
+   "value_high": 4,
+   "unit": "mg per PCB (median)",
+   "what_it_measures": "Measured median gold on the main circuit board of smartphones, down from 19 mg in older feature phones",
+   "source_key": "jandric_2026_mobile_pcb",
+   "evidence_tier": "documented",
+   "notes": "Main PCB only; connectors, camera and display add some more. Shows gold per phone has fallen sharply."
+  },
+  {
+   "product": "smartphone (whole device)",
+   "metal": "gold",
+   "value_low": 30,
+   "value_high": 30,
+   "unit": "mg per device (estimate)",
+   "what_it_measures": "Oeko-Institut estimate scaled from Umicore mobile-phone analyses (24 mg per 90 g phone)",
+   "source_key": "oeko_2012_crm_weee",
+   "evidence_tier": "documented",
+   "notes": "2012 estimate; likely high for current phones (compare Jandric 2026: 4 mg on main PCB)."
+  },
+  {
+   "product": "smartphone",
+   "metal": "tantalum",
+   "value_low": null,
+   "value_high": null,
+   "unit": "mg per device",
+   "what_it_measures": "No credible quantified figure found. Oeko-Institut (2012) explicitly found none; Bookhagen et al. (2020) measured Ta but the figure was not readable.",
+   "source_key": "oeko_2012_crm_weee",
+   "evidence_tier": "inferred",
+   "notes": "DATA GAP - show as gap in UI."
+  },
+  {
+   "product": "laptop (notebook, c.2010)",
+   "metal": "tantalum",
+   "value_low": 1700,
+   "value_high": 1700,
+   "unit": "mg per notebook (mean)",
+   "what_it_measures": "Tantalum in capacitors, 90% on the motherboard",
+   "source_key": "oeko_2012_crm_weee",
+   "evidence_tier": "documented",
+   "notes": "2010-era notebooks; modern thin laptops likely use fewer/smaller Ta capacitors."
+  },
+  {
+   "product": "laptop (notebook, c.2010)",
+   "metal": "gold",
+   "value_low": 100,
+   "value_high": 100,
+   "unit": "mg per notebook (mean)",
+   "what_it_measures": "Gold plating on motherboard (54%) and other boards (46%)",
+   "source_key": "oeko_2012_crm_weee",
+   "evidence_tier": "documented"
+  },
+  {
+   "product": "AI server board (Nvidia H100 board)",
+   "metal": "tantalum",
+   "value_low": null,
+   "value_high": 25,
+   "unit": "tantalum / tantalum-polymer capacitors per board",
+   "what_it_measures": "Count of capacitors, not mass; quoted by a former Yageo CTO",
+   "source_key": "argus_ta_prices_capacitors",
+   "evidence_tier": "reported"
+  },
+  {
+   "product": "car",
+   "metal": "tantalum",
+   "value_low": null,
+   "value_high": null,
+   "unit": "mg per vehicle",
+   "what_it_measures": "No verified per-car figure read. INL (2020) measured Ta in vehicle electronics (values in supplementary tables, not read); EU SCRREEN2 notes Ta capacitors are used where reliability matters, e.g. ABS brakes and airbag triggers.",
+   "source_key": "inl_vehicle_electronics_2020",
+   "evidence_tier": "inferred",
+   "notes": "DATA GAP"
+  },
+  {
+   "product": "phone / laptop solder",
+   "metal": "tin",
+   "value_low": null,
+   "value_high": null,
+   "unit": "g per device",
+   "what_it_measures": "No verified current per-device tin figure read (Jandric 2026 Table S13 not read).",
+   "source_key": "jandric_2026_mobile_pcb",
+   "evidence_tier": "inferred",
+   "notes": "DATA GAP"
+  }
+ ],
+ "chokepoints": [
+  {
+   "claim": "China imports about 30% of the world's tantalum ores, concentrates and metal consumption; it is the largest importer and refiner of tantalum concentrates",
+   "value": 30,
+   "unit": "% of global consumption",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported"
+  },
+  {
+   "claim": "Almost half of the companies identified as consumers of tantalum ore and concentrates are in China",
+   "value": 50,
+   "unit": "% of identified companies (approx.)",
+   "source_key": "scrreen2_tantalum_2023",
+   "evidence_tier": "documented"
+  },
+  {
+   "claim": "RMI lists 33 active tantalum smelters, in Brazil, China, Estonia, Germany, India, Japan, Kazakhstan, Mexico, Rwanda, Thailand and the US",
+   "value": 33,
+   "unit": "smelters",
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported"
+  },
+  {
+   "claim": "US imports of tantalum metal and powder 2021-24: China (incl. Hong Kong) 47%, Germany 25%, Kazakhstan 16%; US net import reliance 100%",
+   "value": 47,
+   "unit": "% of US metal/powder imports",
+   "source_key": "usgs_mcs2026_tantalum",
+   "evidence_tier": "documented"
+  },
+  {
+   "claim": "Tantalum-capacitor powder processing mainly in Japan, Germany, China, the US and Kazakhstan; main capacitor makers Kemet (Yageo), Kyocera AVX, Vishay, Panasonic",
+   "value": null,
+   "unit": null,
+   "source_key": "rfc_ambrian_tantalum_2025",
+   "evidence_tier": "reported"
+  },
+  {
+   "claim": "China imported 2,286 t of coltan from Rwanda in 2024 (1,571 t in 2023); Rwanda was China's second-largest coltan supplier after Nigeria in 2023; China is the top destination by volume and number of smelters",
+   "value": 2286,
+   "unit": "t coltan (gross weight), 2024",
+   "source_key": "gw_who_buys_rwanda_coltan_2026",
+   "evidence_tier": "documented"
+  },
+  {
+   "claim": "China's imports of tantalum concentrate from Rwanda reached 2,865 t in 2025, up 82% from 2023; US imports from DRC and Rwanda fell to zero",
+   "value": 2865,
+   "unit": "t (gross weight), 2025",
+   "source_key": "argus_rubaya_collapse_2026",
+   "evidence_tier": "reported"
+  },
+  {
+   "claim": "Six of the eight smelters Global Witness found processing most Rwandan coltan are in China (OTIC, Jinxin, Tanbre, Zhongao, Ximei, King Xing Lifeng); the others are Ulba (Kazakhstan) and Taniobis (Thailand)",
+   "value": 6,
+   "unit": "of 8 smelters",
+   "source_key": "gw_who_buys_rwanda_coltan_2026",
+   "evidence_tier": "documented"
+  },
+  {
+   "claim": "Yageo (Taiwan, owner of Kemet) makes about 40% of the world's tantalum-polymer capacitors",
+   "value": 40,
+   "unit": "% of tantalum-polymer capacitors",
+   "source_key": "argus_ta_prices_capacitors",
+   "evidence_tier": "reported"
+  },
+  {
+   "claim": "Share of world tantalum capacitors made by country: NO credible public source found (only paid market-research reports, which give demand by region, not production). Leave as data gap.",
+   "value": null,
+   "unit": null,
+   "source_key": null,
+   "evidence_tier": "inferred"
+  },
+  {
+   "claim": "US imports of tantalum ores and concentrates 2021-24: Australia 64%, Mozambique 10%, DRC 9%; Argus reports US imports from DRC and Rwanda fell to zero in the last two years",
+   "value": 9,
+   "unit": "% DRC share of US ore imports 2021-24",
+   "source_key": "usgs_mcs2026_tantalum",
+   "evidence_tier": "documented"
+  },
+  {
+   "claim": "About 79% of Rwanda's coltan exports went to China by 2024 (project's earlier Comtrade analysis)",
+   "value": 79,
+   "unit": "% of Rwanda HS 261590 exports",
+   "source_key": "seed_comtrade_preview",
+   "evidence_tier": "documented"
+  }
+ ],
+ "substitution": [
+  {
+   "metal": "tantalum",
+   "claim": "USGS: niobium and tungsten can replace it in carbides; aluminium, ceramics and niobium in capacitors; several metals in corrosion-resistant and high-temperature uses - but with performance loss or higher cost.",
+   "source_key": "usgs_mcs2026_tantalum"
+  },
+  {
+   "metal": "tantalum",
+   "claim": "EU SCRREEN2: in superalloys, swapping tantalum out would dramatically change the alloy, and a certified jet-engine alloy takes many years to requalify; tantalum is a small cost share, so substitution is unlikely.",
+   "source_key": "scrreen2_tantalum_2023"
+  },
+  {
+   "metal": "tantalum",
+   "claim": "EU SCRREEN2: most capacitors already avoid tantalum on cost; it remains the only reliable option where long-term reliability, small size or safety matters (e.g. ABS brakes, airbag triggers, satellites). Niobium, ceramic and aluminium alternatives are larger or less tolerant of heat.",
+   "source_key": "scrreen2_tantalum_2023"
+  },
+  {
+   "metal": "tantalum",
+   "claim": "RFC Ambrian: tungsten, molybdenum or titanium could in principle replace it as the copper barrier in chips, but tantalum is still preferred for its stability with copper and adhesion to silicon.",
+   "source_key": "rfc_ambrian_tantalum_2025"
+  },
+  {
+   "metal": "tin",
+   "claim": "USGS: aluminium, glass, paper, plastic or tin-free steel replace tin in cans; epoxy resins can replace solder in some uses.",
+   "source_key": "usgs_mcs2026_tin"
+  },
+  {
+   "metal": "gold",
+   "claim": "USGS: gold-clad base metals economise on gold in electronics and jewellery; palladium, platinum and silver can substitute generally.",
+   "source_key": "usgs_mcs2026_gold"
+  },
+  {
+   "metal": "tantalum",
+   "claim": "US: tantalum is on the final 2025 US List of Critical Minerals (60 minerals); so is tin; gold is not.",
+   "source_key": "fr_us_critical_minerals_2025"
+  },
+  {
+   "metal": "tantalum",
+   "claim": "EU: tantalum is on the 2023 EU critical raw materials list (34) but not on the strategic list; tin and gold are on neither.",
+   "source_key": "jrc_rmis_crm_2023"
+  },
+  {
+   "metal": "tantalum",
+   "claim": "Recycling cannot fill the gap quickly: end-of-life tantalum recycling is under 1% because capacitors are tiny and tantalum ends up in copper-smelter slag; recycled supply (mostly manufacturing scrap) is 25-30%.",
+   "source_key": "rcr_tantalum_weee_review_2023"
+  },
+  {
+   "metal": "tantalum",
+   "claim": "Tantalum's useful properties: very high melting point (3,020 C, fourth highest), high density, strong corrosion resistance, and a stable oxide film that acts as the capacitor dielectric.",
+   "source_key": "scrreen2_tantalum_2023"
+  },
+  {
+   "metal": "tantalum",
+   "claim": "Oeko-Institut (2012): tantalum in German notebooks was effectively not recovered at all (100% lost at collection or treatment), because precious-metal refining cannot recover it.",
+   "source_key": "oeko_2012_crm_weee"
+  }
+ ],
+ "caveats": [
+  "Production figures are USGS estimates in metal content. Rwanda's tantalum 'production' is derived from its exports with an assumed 26% Ta2O5 grade, so it includes DRC ore smuggled into Rwanda (UN GoE). DRC + Rwanda together is the more honest unit for the Kivu supply.",
+  "About half of DRC's 2024 tantalum (est. 630 t of 1,270 t) is modelled as tantalum contained in cassiterite, not coltan; and 47% of DRC's declared coltan comes from Haut-Katanga, not the conflict-affected east.",
+  "The ~15% Rubaya share is repeated by Global Witness, IPIS and Reuters without a stated method; the UN Group of Experts gives volumes (120 t/month) but no share. Our volume-based cross-check gives roughly 9-19% (about 12% at Rwanda's assumed 26% Ta2O5 grade).",
+  "Tantalum end-use shares are an analyst estimate (RFC Ambrian, 2025, citing T.I.C. and USGS). T.I.C.'s own statistics are member-only; the last public T.I.C.-based split (2020) gives capacitors ~36%, electronics ~50%, metallurgy ~25%. Shares vary by source by several points.",
+  "ITA tin-use split slide is undated; assumed to be 2024 data (presented May 2025).",
+  "WGC gold shares are of 'gold demand' excluding OTC (4,999.4 t in 2025). Investment and central-bank buying (61%) dominate; technology is only ~6.5%.",
+  "Per-product content is thin: no verified current figure for tantalum or tin per smartphone or laptop, or tantalum per car. The Bookhagen et al. (2020) smartphone gold figure (16.8 mg) is unverified (paywalled). The USGS 34 mg gold figure is for a 2005 phone.",
+  "Trade data are customs records, not proof of mine origin (PROJECT_RULES 10). Argus 2025 China-Rwanda figure (2,865 t) and Global Witness 2024 figure (2,286 t) are gross ore weights.",
+  "No credible public source found for share of world tantalum capacitors made in each country, or for China's share of world tantalum processing capacity; RFC Ambrian's 'China ~30% of consumption' is the closest proxy."
+ ]
+}

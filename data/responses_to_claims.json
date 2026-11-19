@@ -286,5 +286,77 @@
     ],
     "evidence_tier": "documented",
     "notes": ""
+  },
+  {
+    "id": "den_hr_0",
+    "claim_ref": "rel_rdf_supports_m23",
+    "respondent": "Government of Rwanda / President Kagame",
+    "date": "2025-07",
+    "summary": "Rwanda denied the allegations in the July 2025 GoE final report, and President Kagame said the experts' reports had nothing to do with the real situation and were written in advance.",
+    "source_ids": [
+      "src_ap_2025_07_goe_rwanda"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_hr_1",
+    "claim_ref": "rel_rdf_supports_m23",
+    "respondent": "President Paul Kagame",
+    "date": "2025-12",
+    "summary": "Kagame said Rwanda is not interested in the DRC's minerals and that not all gold Rwanda exports comes from the DRC; in 2024 he had called Rwanda a transit point for DRC minerals (as reported by Amnesty).",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_hr_2",
+    "claim_ref": "hr_sv_un_2025_victims",
+    "respondent": "AFC/M23",
+    "date": "2026-03",
+    "summary": "At a late-March 2026 meeting with humanitarian actors, AFC/M23 officials accused them of inventing sexual-violence data and said AFC/M23 does not tolerate sexual violence.",
+    "source_ids": [
+      "src_un_goe_s2026_466"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_hr_3",
+    "claim_ref": "hr_kill_amnesty_18",
+    "respondent": "M23",
+    "date": "2025-04",
+    "summary": "M23 said in a press release and two reports that it follows the Geneva Conventions and humanitarian law; Amnesty says its conduct shows otherwise.",
+    "source_ids": [
+      "src_amnesty_afr62_0145_2025"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_hr_4",
+    "claim_ref": "hr_kill_amnesty_18",
+    "respondent": "M23; Government of Rwanda; Rwanda Mines, Petroleum and Gas Board",
+    "date": "2026-08",
+    "summary": "Did not respond to Amnesty's letters (11, 17 and 6 Aug 2026) about the Rubaya/Lomera findings by publication. This is no response, not a denial.",
+    "source_ids": [
+      "src_amnesty_afr62_1454_2026"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
+  },
+  {
+    "id": "den_hr_5",
+    "claim_ref": "hr_kill_amnesty_18",
+    "respondent": "FARDC; M23",
+    "date": "2025-07",
+    "summary": "Did not respond to Amnesty's 18 Jul 2025 letters before the 'They said we would die' briefing was published (no response, not a denial).",
+    "source_ids": [
+      "src_amnesty_afr62_0145_2025"
+    ],
+    "evidence_tier": "documented",
+    "notes": ""
   }
 ]

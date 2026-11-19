@@ -2,7 +2,8 @@
 "use strict";
 
 const TABLES = ["manifest", "sources", "sites", "actors", "control_claims", "relationships",
-  "flows", "impacts", "responses", "effectiveness", "responses_to_claims", "gaps", "findings", "gap_evidence", "smelter_brand", "network_signals", "company_assessments"];
+  "flows", "impacts", "responses", "effectiveness", "responses_to_claims", "gaps", "findings", "gap_evidence", "smelter_brand", "network_signals", "company_assessments",
+  "story_facts", "end_uses", "product_content", "hr_facts", "hr_headlines"];
 
 const TIER = {
   designated: { icon: "◆", label: "Designated", verb: "designated by", dash: null, weight: 3.5 },
@@ -107,7 +108,7 @@ function buildTimeline() {
       .sort((a, b) => dkey(a.date).localeCompare(dkey(b.date)))
       .map((r) => {
         const eff = DB.effectiveness.filter((e) => e.response_id === r.id).map((e) => `
-          <div class="eff"><span class="verdict">${esc(e.verdict)}</span> — ${esc(e.indicator)}
+          <div class="eff" data-v="${esc(e.verdict)}"><span class="verdict">${esc(e.verdict)}</span> — ${esc(e.indicator)}
             (should ${esc(e.expected_direction)})${e.before_value != null ? `: ${esc(e.before_value)} → ${esc(e.after_value ?? "?")}` : ""}
             ${e.window ? `<span class="muted">· ${esc(e.window)}</span>` : ""} ${badge(e.evidence_tier)}
             ${e.method ? `<div class="small muted">How: ${esc(e.method)}</div>` : ""}
@@ -160,19 +161,74 @@ function buildSources() {
 
 // ---------- overview ----------
 function buildHome() {
-  document.getElementById("findings").innerHTML = [...DB.findings].sort((a, b) => a.order - b.order).map((f) => `
-    <article class="finding">
-      <div class="kicker">${esc(f.kicker)}</div>
-      <h3>${esc(f.headline)}</h3>
-      <p>${esc(f.detail)}</p>
-      <div class="claim-meta">${badge(f.evidence_tier)}</div>
-      ${f.method ? `<div class="small muted">How: ${esc(f.method)}</div>` : ""}
-      ${f.source_ids.length > 2 ? `<details class="cite-more"><summary>Sources (${f.source_ids.length})</summary><div class="cite">${cites(f.source_ids, f.paragraph_or_page)}</div></details>` : `<div class="cite">${cites(f.source_ids, f.paragraph_or_page)}</div>`}
-      ${f.link ? `<a class="more" href="${esc(f.link)}">${esc(f.link_label || "More")} →</a>` : ""}
-    </article>`).join("");
   const c = DB.manifest.counts || {};
   document.getElementById("stats").textContent =
-    `Built from ${c.sources} sources, ${c.actors} actors, ${c.control_claims} control claims and ${c.responses} responses. Data last built ${fmtDate(DB.manifest.built)}.`;
+    `Built from ${c.sources} sources, ${c.actors} actors and ${c.ipis_sites} surveyed sites. Data last built ${fmtDate(DB.manifest.built)}.`;
+}
+
+// ---------- takeaways: one line at the top of each tool view ----------
+function takeaways() {
+  const n = (x) => Number(x).toLocaleString("en-GB");
+  const strong = DB.company_assessments.filter((c) => (c.link === "strong" || c.link === "moderate") && DB.actors.find((a) => a.id === c.actor_id)?.role === "exporter").length;
+  const dm = DB.effectiveness.filter((e) => e.verdict === "didn't move").length;
+  const T = {
+    map: ["Armed groups hold or are present at hundreds of mining sites", `Red and orange dots mark sites in armed-group-held areas or with an armed group at the last research visit. For most sites there is no recent information, so grey means unknown, not safe.`],
+    chain: ["Rubaya's coltan reaches global brands through a handful of companies", `Follow it from the mine to Rwandan exporters, UAE traders and smelters, most of them in China, to the ${n(new Set(DB.smelter_brand.map((x) => x.brand_actor)).size)} companies that list those smelters.`],
+    search: [`${strong} Rwandan exporters have strong or moderate evidence against them, and none is sanctioned`, "Search any company for its shortest sourced path to an armed group, or open the graded list below."],
+    laundering: ["Rwanda exports about 1,000 t a year more coltan than its geology predicts", "The excess matches what Congo's Kivu provinces stopped recording, and most of the growth shipped to China."],
+    responses: [`Of ${DB.effectiveness.length} indicators tracked, ${dm} didn't move after the action meant to change them`, "Most others are too early to judge or have no data yet. No named coltan exporter has been sanctioned."],
+    gaps: [`${DB.gaps.length} known gaps`, "Where data runs out or sources disagree. Read these before relying on any single number."],
+  };
+  for (const [v, [h, p]] of Object.entries(T)) {
+    const sec = document.getElementById("view-" + v);
+    if (!sec || sec.querySelector(".takeaway")) continue;
+    const el = document.createElement("div");
+    el.className = "takeaway";
+    el.innerHTML = `<div><strong>${esc(h)}</strong><p>${esc(p)}</p></div>`;
+    const intro = sec.querySelector(".view-intro");
+    if (v === "map") { const mc = document.getElementById("mc-body"); mc.insertBefore(el, mc.firstChild); el.classList.add("compact"); }
+    else if (intro) intro.after(el); else sec.prepend(el);
+  }
+}
+
+function responsesBoard() {
+  const host = document.getElementById("indicators");
+  const V = [["didn't move", "✕", "Didn't move"], ["moved", "✓", "Moved"], ["too early", "…", "Too early"], ["no data", "?", "No data yet"]];
+  const board = document.createElement("div");
+  board.className = "verdict-board";
+  board.innerHTML = V.map(([k, ic, lab]) => `<button type="button" class="vb v-${k.replace(/\W/g, "")}" data-v="${k}" aria-pressed="false"><span class="vb-ic" aria-hidden="true">${ic}</span><span class="vb-n">${DB.effectiveness.filter((e) => e.verdict === k).length}</span><span class="vb-l">${lab}</span></button>`).join("");
+  host.before(board);
+  board.addEventListener("click", (e) => {
+    const b = e.target.closest("[data-v]"); if (!b) return;
+    const on = b.getAttribute("aria-pressed") !== "true";
+    board.querySelectorAll("[data-v]").forEach((x) => x.setAttribute("aria-pressed", on && x === b));
+    document.querySelectorAll("#timeline > li").forEach((li) => {
+      li.hidden = on && !li.querySelector(`.eff[data-v="${CSS.escape(b.dataset.v)}"]`);
+    });
+  });
+}
+
+function sourcesSearch() {
+  const ol = document.getElementById("sources");
+  const box = document.createElement("div");
+  box.className = "src-tools";
+  const types = [...new Set(DB.sources.map((s) => s.type))].sort();
+  box.innerHTML = `<input type="search" id="src-q" placeholder="Search ${DB.sources.length} sources by title or publisher" aria-label="Search sources">
+    <select id="src-t" aria-label="Filter by type"><option value="">All types</option>${types.map((t) => `<option value="${esc(t)}">${esc(t.replace("_", " "))}</option>`).join("")}</select>
+    <span id="src-n" class="muted small"></span>`;
+  ol.before(box);
+  const run = () => {
+    const q = document.getElementById("src-q").value.toLowerCase(), ty = document.getElementById("src-t").value;
+    let n = 0;
+    ol.querySelectorAll("li").forEach((li) => {
+      const s = byId.sources[li.id.replace(/^src-/, "")];
+      const ok = (!q || (s.title + " " + s.publisher).toLowerCase().includes(q)) && (!ty || s.type === ty);
+      li.hidden = !ok; if (ok) n++;
+    });
+    document.getElementById("src-n").textContent = `${n} shown`;
+  };
+  box.addEventListener("input", run);
+  run();
 }
 
 // ---------- views & routing ----------
@@ -186,6 +242,9 @@ function showView(name, params) {
   document.querySelectorAll(".view").forEach((v) => (v.hidden = v.id !== "view-" + name));
   document.querySelector(".legend").hidden = ["home", "sources", "map"].includes(name);  // these explain tiers themselves
   document.body.dataset.view = name;
+  const more = document.querySelector(".tabs .more");
+  if (more) { more.open = false; more.classList.toggle("active", !!more.querySelector(`[data-view="${CSS.escape(name)}"]`)); }
+  setTimeout(() => window.annotateTerms?.(document.getElementById("view-" + name)), 300);
   VIEWS[name]?.show?.(params || new URLSearchParams());
   if (name === "laundering" && window.drawGap) window.drawGap();
 }
@@ -223,6 +282,9 @@ function tabs() {
   buildGaps();
   buildSources();
   for (const v of Object.values(VIEWS)) v.build?.();
+  takeaways();
+  responsesBoard();
+  sourcesSearch();
   if (window.buildGap) window.buildGap(DB, { badge, cites, esc, fmtDate });
   route();
 })();

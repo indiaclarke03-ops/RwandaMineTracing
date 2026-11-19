@@ -43,6 +43,10 @@ ENUMS = {
     "trade_series.metric": {"exports_reported", "exports_mirror", "production_usgs"},
     "trade_series.basis": {"gross_weight", "contained_metal", "unknown"},
     "partner_growth.side": {"mirror", "rwanda"},
+    "hr_facts.category": {"killings", "forced_labour", "child_labour", "sexual_violence", "forced_recruitment",
+                          "displacement", "extortion", "unsafe_conditions", "other"},
+    "end_uses.metal": {"tantalum", "tin", "gold"},
+    "product_content.metal": {"tantalum", "tin", "gold"},
     "gap_evidence.section": {"trade", "origin", "alternative"},
     "gaps.layer": {"control", "supply_chain", "impacts", "response", "sayari"},
 }
@@ -61,7 +65,8 @@ TABLES = ["sources", "sites", "actors", "control_claims", "relationships", "flow
           "impacts", "responses", "effectiveness", "responses_to_claims", "gaps", "findings",
           "trade_series", "trade_quarterly", "gap_evidence",
           "ipis_sites", "smelter_brand", "network_signals", "company_assessments", "areas", "area_claims",
-          "balance_bridge", "partner_growth", "zero_sum"]
+          "balance_bridge", "partner_growth", "zero_sum",
+          "story_facts", "end_uses", "product_content", "hr_facts", "hr_headlines"]
 
 
 class Report:

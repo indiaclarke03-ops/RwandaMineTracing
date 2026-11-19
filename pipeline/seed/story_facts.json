@@ -1,0 +1,76 @@
+[
+  {
+    "id": "ta_cod_rwa_share",
+    "value": 68,
+    "unit": "%",
+    "label": "Congo and Rwanda's share of world tantalum mine production, 2025",
+    "evidence_tier": "inferred",
+    "method": "USGS Mineral Commodity Summaries 2026: DRC 1,300 t + Rwanda 400 t of 2,500 t world (contained tantalum, 2025). USGS estimates Rwanda's output from its exports, so the figure includes ore smuggled from Congo.",
+    "source_ids": [
+      "src_usgs_mcs2026_tantalum"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "sn_cod_rwa_share",
+    "value": 10.9,
+    "unit": "%",
+    "label": "Congo and Rwanda's share of world tin mine production, 2025",
+    "evidence_tier": "inferred",
+    "method": "USGS MCS 2026: DRC 27,000 t + Rwanda 4,600 t of 290,000 t world.",
+    "source_ids": [
+      "src_usgs_mcs2026_tin"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "au_cod_rwa_share",
+    "value": 0.9,
+    "unit": "%",
+    "label": "Congo and Rwanda's share of world gold mine production, 2024 (official)",
+    "evidence_tier": "inferred",
+    "method": "USGS country yearbooks: DRC 27.9 t and Rwanda about 0.35 t of 3,280 t world. Undeclared artisanal gold would raise this to about 1.2%.",
+    "source_ids": [
+      "src_usgs_myb_cod_2024",
+      "src_usgs_myb_rwa_2024",
+      "src_usgs_mcs2026_gold"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "rubaya_share",
+    "value": 15,
+    "unit": "%",
+    "label": "Rubaya's share of world tantalum",
+    "evidence_tier": "documented",
+    "notes": "Global Witness and IPIS give 15% without a method. Our cross-check from the UN's 120 t a month gives 9–19%.",
+    "source_ids": [
+      "src_gw_who_buys_coltan_pdf",
+      "src_ipis_coltan_briefing"
+    ]
+  },
+  {
+    "id": "bisie_share",
+    "value": 5.9,
+    "unit": "%",
+    "label": "Bisie mine (North Kivu) share of world tin, 2024",
+    "evidence_tier": "inferred",
+    "method": "USGS: Bisie output against world mine production.",
+    "source_ids": [
+      "src_usgs_myb_cod_2024",
+      "src_usgs_mcs2026_tin"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "ta_recycled",
+    "value": 1,
+    "unit": "%",
+    "label": "End-of-life recycling rate for tantalum (below)",
+    "evidence_tier": "documented",
+    "source_ids": [
+      "src_scrreen2_tantalum_2023"
+    ],
+    "notes": ""
+  }
+]

@@ -7,20 +7,27 @@
   <meta name="description" content="Who controls the mine, where do its minerals go, and has anyone done anything about it — and did it work?">
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="story.css">
 </head>
 <body>
   <header class="top">
     <a class="brand-mark" href="./" title="Ground Control: overview">Ground Control</a>
-    <nav class="tabs" role="tablist">
-      <button role="tab" data-view="home" aria-selected="true">Overview</button>
-      <button role="tab" data-view="map" aria-selected="false">Control map</button>
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button role="tab" data-view="home" aria-selected="true">Story</button>
+      <button role="tab" data-view="map" aria-selected="false">Map</button>
       <button role="tab" data-view="chain" aria-selected="false">Supply chain</button>
-      <button role="tab" data-view="search" aria-selected="false">Check a company</button>
+      <button role="tab" data-view="search" aria-selected="false">Companies</button>
       <button role="tab" data-view="laundering" aria-selected="false">Mineral balance</button>
       <button role="tab" data-view="responses" aria-selected="false">Responses</button>
-      <button role="tab" data-view="gaps" aria-selected="false">What we don't know</button>
-      <button role="tab" data-view="sources" aria-selected="false">Sources</button>
-      <a class="tab-link" href="about.html">About</a>
+      <details class="more">
+        <summary>More</summary>
+        <div class="more-menu">
+          <button role="tab" data-view="gaps" aria-selected="false">What we don't know</button>
+          <button role="tab" data-view="sources" aria-selected="false">Sources</button>
+          <button role="tab" data-view="glossary" aria-selected="false">Glossary</button>
+          <a href="about.html">About and method</a>
+        </div>
+      </details>
     </nav>
   </header>
 
@@ -33,51 +40,47 @@
   </section>
 
   <main>
-    <section id="view-home" class="view home" role="tabpanel">
-      <div class="hero">
-        <p class="eyebrow">Case: Rwanda and eastern DR Congo · <span id="built"></span></p>
-        <h2>An armed group controls major coltan mines in eastern Congo. This tool follows what comes out of them.</h2>
-        <p class="lede">Tantalum, tin and gold from eastern Congo end up in phones, laptops, cars and jewellery. Since 2024 the M23 armed group has seized mining areas there and taxed what they produce. UN investigators say much of that output is smuggled into neighbouring Rwanda and exported as Rwandan. Ground Control maps who controls each site, traces the minerals through traders, exporters and smelters, and checks whether sanctions and industry action have changed anything.</p>
-        <div class="paths">
-          <a class="path" href="#view=search" data-goto="search">
-            <span class="path-who">Checking a supplier?</span>
-            <span class="path-what">Search a company to see its shortest sourced path to an armed group, or follow a mine's output through the supply chain.</span>
-          </a>
-          <a class="path" href="#view=responses" data-goto="responses">
-            <span class="path-who">Working on policy?</span>
-            <span class="path-what">Start with the responses. See every sanction, peace deal and industry suspension since 2024, and whether the indicators it was meant to move actually moved.</span>
-          </a>
-          <a class="path" href="#view=laundering" data-goto="laundering">
-            <span class="path-who">Following the numbers?</span>
-            <span class="path-what">Start with the mineral balance: what Rwanda exports against what it can mine, what Congo stopped recording, and where the difference shipped.</span>
-          </a>
+    <section id="view-home" class="view story" role="tabpanel">
+      <header class="st-hero">
+        <p class="eyebrow">An investigation · Rwanda and eastern DR Congo · <span id="built"></span></p>
+        <h1>The metals in your phone, and the mines they come from</h1>
+        <p class="st-dek">Tantalum, tin and gold make modern life work. A large share is dug by hand in eastern Congo, where armed groups control many of the mines and the people who work in them. This is how those metals reach you, what it costs the miners, and whether anything done so far has helped.</p>
+        <div class="st-hero-row">
+          <a class="btn primary" href="#chapter-1" data-scroll>Start the story ↓</a>
+          <a class="btn" href="#view=search">Skip to: check a company</a>
+          <a class="btn" href="#view=map">Skip to: the map</a>
         </div>
+        <p class="st-warn">Contains descriptions of violence against miners, including children.</p>
+      </header>
+
+      <div class="scrolly">
+        <div class="stage" aria-live="polite">
+          <div id="stage-map" class="stage-map" hidden><div id="story-map" class="story-map"></div><div class="sm-key" id="sm-key"></div></div>
+          <div id="stage-inner" class="stage-inner"></div>
+        </div>
+        <div class="steps" id="story-steps"></div>
       </div>
 
-      <h2 class="section-h">Key findings</h2>
-      <div id="findings" class="findings"></div>
-
-      <h2 class="section-h">How a mineral gets from the mine to your phone</h2>
-      <ol class="chain" aria-label="Supply chain stages">
-        <li><span class="step">Mine</span><span class="eg">Rubaya, Lomera</span><span class="risk">armed group taxes or controls the site</span></li>
-        <li><span class="step">Trading centre</span><span class="eg">Mushaki</span><span class="risk">minerals bagged and sold on</span></li>
-        <li><span class="step">Border</span><span class="eg">Goma → Gisenyi; Bukavu → Rusizi</span><span class="risk">smuggled or crossed openly</span></li>
-        <li><span class="step">Rwandan exporter or refinery</span><span class="eg">coltan exporters; Gasabo Gold</span><span class="risk">mixed with Rwandan output, tagged, exported</span></li>
-        <li><span class="step">Port and trader</span><span class="eg">Dar es Salaam, Mombasa; UAE traders</span><span class="risk">origin harder to see</span></li>
-        <li><span class="step">Smelter</span><span class="eg">China, Kazakhstan, Thailand</span><span class="risk">audited, but audits rely on paperwork</span></li>
-        <li><span class="step">Components and brands</span><span class="eg">capacitors, electronics, aerospace</span><span class="risk">not yet mapped here</span></li>
-      </ol>
-
-      <h2 class="section-h">How to read the evidence</h2>
-      <p class="muted">Control in eastern Congo is contested and changes fast, and many claims here are allegations. Every claim carries one of four labels so you can see who is making it.</p>
-      <dl class="tiers-explained">
-        <div><dt><span class="badge designated"><span aria-hidden="true">◆</span>Designated</span></dt><dd>A government has acted on it: named in US, EU or UN sanctions. The strongest label, but it is still that government's finding.</dd></div>
-        <div><dt><span class="badge documented"><span aria-hidden="true">■</span>Documented</span></dt><dd>Set out with evidence by UN investigators or an investigative NGO such as Global Witness or Amnesty. Not a court finding.</dd></div>
-        <div><dt><span class="badge reported"><span aria-hidden="true">●</span>Reported</span></dt><dd>Reported by the media. Useful, but often relies on one or two sources.</dd></div>
-        <div><dt><span class="badge inferred"><span aria-hidden="true">△</span>Inferred</span></dt><dd>Our own analysis, such as comparing export figures with production. Always says how it was worked out. It is not proof.</dd></div>
-      </dl>
-      <p class="small muted">Where a named party denies a claim, the denial is shown next to it. <a href="about.html">More on the method</a>.</p>
-      <p id="stats" class="stats"></p>
+      <section class="st-end">
+        <h2>Look closer</h2>
+        <p class="lede">Every number in this story links to its source. These tools let you check the detail yourself.</p>
+        <div class="tool-cards">
+          <a class="tool-card" href="#view=search"><span class="tc-k">Companies</span><strong>Is a supplier linked to an armed group?</strong><span>Graded evidence for 20 exporters and traders, and the shortest sourced path from any company to an armed group.</span></a>
+          <a class="tool-card" href="#view=map"><span class="tc-k">Map</span><strong>Who controls each mine, and when?</strong><span>3,469 mining sites with armed-group control and presence over time.</span></a>
+          <a class="tool-card" href="#view=chain"><span class="tc-k">Supply chain</span><strong>Follow a mine's output</strong><span>From Rubaya or Lomera through exporters, traders and smelters to the companies that list them.</span></a>
+          <a class="tool-card" href="#view=laundering"><span class="tc-k">Mineral balance</span><strong>Do the numbers add up?</strong><span>What Rwanda exports against what it can mine, and where the difference goes.</span></a>
+          <a class="tool-card" href="#view=responses"><span class="tc-k">Responses</span><strong>Has anything worked?</strong><span>Every sanction, peace deal and industry action since 2024, with a verdict.</span></a>
+          <a class="tool-card" href="#view=gaps"><span class="tc-k">Limits</span><strong>What we don't know</strong><span>Missing data and contested numbers, stated openly.</span></a>
+        </div>
+        <h2 class="section-h">How to read the evidence</h2>
+        <dl class="tiers-explained">
+          <div><dt><span class="badge designated"><span aria-hidden="true">◆</span>Designated</span></dt><dd>A government has acted on it, in US, EU or UN sanctions. Still that government's finding.</dd></div>
+          <div><dt><span class="badge documented"><span aria-hidden="true">■</span>Documented</span></dt><dd>Set out with evidence by UN investigators or an investigative NGO, or in official statistics. Not a court finding.</dd></div>
+          <div><dt><span class="badge reported"><span aria-hidden="true">●</span>Reported</span></dt><dd>Reported by the media.</dd></div>
+          <div><dt><span class="badge inferred"><span aria-hidden="true">△</span>Inferred</span></dt><dd>Our own analysis. It always says how it was worked out, and it is not proof.</dd></div>
+        </dl>
+        <p class="small muted">Where a named party denies a claim, the denial is shown next to it. <a href="about.html">Method and limits</a> · <span id="stats"></span></p>
+      </section>
     </section>
 
     <section id="view-map" class="view mapview" role="tabpanel" hidden>
@@ -90,7 +93,7 @@
             <button class="mc-toggle" type="button" aria-expanded="true" aria-controls="mc-body" title="Show or hide filters">Filters</button>
           </div>
           <div id="mc-body" class="mc-body">
-            <p class="mc-intro">Which mining sites an armed group held or was present at on the date below. Drag or play the timeline to see it change.</p>
+            
             <label class="mc-search"><span class="sr-only">Find a site</span>
               <input id="site-search" type="search" placeholder="Find a site, e.g. Rubaya" autocomplete="off" list="site-list">
               <datalist id="site-list"></datalist>
@@ -194,6 +197,11 @@
       <div id="gaps"></div>
     </section>
 
+    <section id="view-glossary" class="view" role="tabpanel" hidden>
+      <div class="view-intro"><h2>Glossary</h2><p>Terms used across the site. Wherever a dotted underline appears, hover or tap it for the same definition.</p></div>
+      <dl id="glossary" class="glossary"></dl>
+    </section>
+
     <section id="view-sources" class="view" role="tabpanel" hidden>
       <div class="view-intro"><h2>Sources</h2><p>Every page and dataset cited on this site, newest first. Each was read before being cited.</p></div>
       <ol id="sources" class="sources"></ol>
@@ -210,6 +218,8 @@
   <script src="map.js"></script>
   <script src="chain.js"></script>
   <script src="search.js"></script>
+  <script src="story.js"></script>
+  <script src="glossary.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
